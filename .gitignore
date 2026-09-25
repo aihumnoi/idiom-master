@@ -5,14 +5,6 @@ package-lock.json.bak
 # Production outputs
 dist/
 
-# Android build outputs & local configs
-android/.gradle/
-android/build/
-android/app/build/
-android/.idea/
-android/local.properties
-android/*.iml
-android/app/*.iml
 
 # Logs
 *.log
@@ -28,3 +20,6 @@ Thumbs.db
 *.apk
 *.zip
 apk-output/
+
+# Temporary scratch directory
+scratch/
