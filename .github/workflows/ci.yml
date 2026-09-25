@@ -14,12 +14,8 @@ jobs:
         with:
           node-version: '22'
           cache: 'npm'
-          cache-dependency-path: idiom-master/package.json
-      - working-directory: idiom-master
-        run: npm ci
-      - working-directory: idiom-master
-        run: npx tsc --noEmit
-      - working-directory: idiom-master
-        run: npx vitest run --config vitest.config.ts
-      - working-directory: idiom-master
-        run: npx vite build
+          cache-dependency-path: package.json
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npx vitest run --config vitest.config.ts
+      - run: npx vite build
