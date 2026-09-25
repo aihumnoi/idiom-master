@@ -1,23 +1,5 @@
 package com.idiommaster.app;
 
-import android.os.Bundle;
-import android.view.View;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import com.getcapacitor.BridgeActivity;
 
-public class MainActivity extends BridgeActivity {
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        // Ensure the root view does not overlap status bar (clock/battery) or navigation bar
-        View decorView = getWindow().getDecorView();
-        ViewCompat.setOnApplyWindowInsetsListener(decorView, (v, insets) -> {
-            int top = insets.getInsets(WindowInsetsCompat.Type.statusBars()).top;
-            int bottom = insets.getInsets(WindowInsetsCompat.Type.navigationBars()).bottom;
-            v.setPadding(0, top, 0, bottom);
-            return insets;
-        });
-    }
-}
+public class MainActivity extends BridgeActivity {}
