@@ -5,6 +5,9 @@ on:
     branches: [main, master]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build-apk:
     name: Build & Package Android APK
@@ -52,6 +55,21 @@ jobs:
           name: IdiomMaster-Android-APK
           path: android/app/build/outputs/apk/debug/*.apk
           retention-days: 30
+
+      - name: Create GitHub Release with APK
+        if: success()
+        continue-on-error: true
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v2.1.0-apk
+          name: "IdiomMaster Android APK (v2.1.0 - Full Screen)"
+          body: |
+            ## IdiomMaster Android APK v2.1.0 (Full Screen Edition)
+            - ปรับปรุงการแสดงผลเต็มหน้าจอ (Full Screen) ไม่อึดอัด ไม่บังแถบ Status Bar
+            - รวมคลังคำศัพท์ Oxford 3000 ที่ได้รับการตรวจสอบและแก้ไขถูกต้องครบทั้ง 3,000 คำ
+          files: android/app/build/outputs/apk/debug/*.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload Build Log on Failure
         if: failure()
