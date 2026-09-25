@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "flow",
+    "pos": "verb",
+    "meaning_th": "ไหล"
+  },
+  {
+    "lemma": "flower",
+    "pos": "noun",
+    "meaning_th": "ดอกไม้"
+  },
+  {
+    "lemma": "flu",
+    "pos": "noun",
+    "meaning_th": "ไข้หวัดใหญ่"
+  },
+  {
+    "lemma": "fly",
+    "pos": "verb",
+    "meaning_th": "บิน"
+  },
+  {
+    "lemma": "flying",
+    "pos": "verb",
+    "meaning_th": "บิน"
+  },
+  {
+    "lemma": "focus",
+    "pos": "noun",
+    "meaning_th": "จุดสนใจ"
+  },
+  {
+    "lemma": "fold",
+    "pos": "verb",
+    "meaning_th": "พับ"
+  },
+  {
+    "lemma": "folding",
+    "pos": "verb",
+    "meaning_th": "พับ"
+  },
+  {
+    "lemma": "follow",
+    "pos": "verb",
+    "meaning_th": "ติดตาม"
+  },
+  {
+    "lemma": "following",
+    "pos": "adjective",
+    "meaning_th": "กำลังติดตาม"
+  },
+  {
+    "lemma": "follow up",
+    "pos": "verb",
+    "meaning_th": "ติดตามเรื่อง / ติดตามผลงาน"
+  },
+  {
+    "lemma": "food",
+    "pos": "noun",
+    "meaning_th": "อาหาร"
+  },
+  {
+    "lemma": "foot",
+    "pos": "noun",
+    "meaning_th": "เท้า"
+  },
+  {
+    "lemma": "football",
+    "pos": "noun",
+    "meaning_th": "ฟุตบอล"
+  },
+  {
+    "lemma": "for",
+    "pos": "preposition",
+    "meaning_th": "สำหรับ"
+  },
+  {
+    "lemma": "force",
+    "pos": "noun",
+    "meaning_th": "บังคับ"
+  },
+  {
+    "lemma": "forecast",
+    "pos": "noun",
+    "meaning_th": "พยากรณ์"
+  },
+  {
+    "lemma": "foreign",
+    "pos": "adjective",
+    "meaning_th": "ต่างชาติ"
+  },
+  {
+    "lemma": "forest",
+    "pos": "noun",
+    "meaning_th": "ป่า"
+  },
+  {
+    "lemma": "forever",
+    "pos": "adverb",
+    "meaning_th": "ตลอดไป"
+  },
+  {
+    "lemma": "forget",
+    "pos": "verb",
+    "meaning_th": "ลืม"
+  },
+  {
+    "lemma": "forgive",
+    "pos": "verb",
+    "meaning_th": "ให้อภัย"
+  },
+  {
+    "lemma": "fork",
+    "pos": "noun",
+    "meaning_th": "ส้อม"
+  },
+  {
+    "lemma": "form",
+    "pos": "noun",
+    "meaning_th": "รูปร่าง"
+  },
+  {
+    "lemma": "formal",
+    "pos": "adjective",
+    "meaning_th": "เป็นทางการ"
+  },
+  {
+    "lemma": "formally",
+    "pos": "adjective",
+    "meaning_th": "อย่างเป็นทางการ"
+  },
+  {
+    "lemma": "former",
+    "pos": "adjective",
+    "meaning_th": "อดีต"
+  },
+  {
+    "lemma": "formerly",
+    "pos": "adverb",
+    "meaning_th": "เมื่อก่อน / ในอดีต"
+  },
+  {
+    "lemma": "formula",
+    "pos": "noun",
+    "meaning_th": "สูตร"
+  },
+  {
+    "lemma": "fortieth",
+    "pos": "number",
+    "meaning_th": "ที่สี่สิบ"
+  },
+  {
+    "lemma": "fortune",
+    "pos": "noun",
+    "meaning_th": "โชค"
+  },
+  {
+    "lemma": "forty",
+    "pos": "number",
+    "meaning_th": "สี่สิบ"
+  },
+  {
+    "lemma": "forward",
+    "pos": "adjective",
+    "meaning_th": "ซึ่งไปข้างหน้า"
+  },
+  {
+    "lemma": "found",
+    "pos": "verb",
+    "meaning_th": "พบ"
+  },
+  {
+    "lemma": "foundation",
+    "pos": "noun",
+    "meaning_th": "พื้นฐาน"
+  },
+  {
+    "lemma": "four",
+    "pos": "noun",
+    "meaning_th": "สี่"
+  },
+  {
+    "lemma": "fourteen",
+    "pos": "noun",
+    "meaning_th": "สิบสี่"
+  },
+  {
+    "lemma": "fourteenth",
+    "pos": "number",
+    "meaning_th": "ที่สิบสี่"
+  },
+  {
+    "lemma": "fourth",
+    "pos": "adjective",
+    "meaning_th": "ที่สี่"
+  },
+  {
+    "lemma": "frame",
+    "pos": "noun",
+    "meaning_th": "กรอบ"
+  },
+  {
+    "lemma": "free",
+    "pos": "adjective",
+    "meaning_th": "ฟรี"
+  },
+  {
+    "lemma": "freedom",
+    "pos": "noun",
+    "meaning_th": "เสรีภาพ"
+  },
+  {
+    "lemma": "freely",
+    "pos": "adjective",
+    "meaning_th": "ได้อย่างอิสระ"
+  },
+  {
+    "lemma": "freeze",
+    "pos": "verb",
+    "meaning_th": "แช่แข็ง"
+  },
+  {
+    "lemma": "frequent",
+    "pos": "adjective",
+    "meaning_th": "บ่อย"
+  },
+  {
+    "lemma": "frequently",
+    "pos": "adverb",
+    "meaning_th": "บ่อย"
+  },
+  {
+    "lemma": "fresh",
+    "pos": "adjective",
+    "meaning_th": "สด"
+  },
+  {
+    "lemma": "freshly",
+    "pos": "adjective",
+    "meaning_th": "สดใหม่"
+  },
+  {
+    "lemma": "Friday",
+    "pos": "noun",
+    "meaning_th": "วันศุกร์"
+  },
+  {
+    "lemma": "fridge",
+    "pos": "noun",
+    "meaning_th": "ตู้เย็น"
+  }
+]

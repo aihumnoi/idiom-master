@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "proper",
+    "pos": "adjective",
+    "meaning_th": "เหมาะสม"
+  },
+  {
+    "lemma": "properly",
+    "pos": "adjective",
+    "meaning_th": "อย่างถูกต้อง"
+  },
+  {
+    "lemma": "property",
+    "pos": "noun",
+    "meaning_th": "คุณสมบัติ"
+  },
+  {
+    "lemma": "proportion",
+    "pos": "noun",
+    "meaning_th": "สัดส่วน"
+  },
+  {
+    "lemma": "proposal",
+    "pos": "noun",
+    "meaning_th": "ข้อเสนอ"
+  },
+  {
+    "lemma": "propose",
+    "pos": "verb",
+    "meaning_th": "เสนอ"
+  },
+  {
+    "lemma": "prospect",
+    "pos": "noun",
+    "meaning_th": "โอกาส"
+  },
+  {
+    "lemma": "protect",
+    "pos": "verb",
+    "meaning_th": "ปกป้อง"
+  },
+  {
+    "lemma": "protection",
+    "pos": "noun",
+    "meaning_th": "การป้องกัน"
+  },
+  {
+    "lemma": "protest",
+    "pos": "noun",
+    "meaning_th": "ประท้วง"
+  },
+  {
+    "lemma": "proud",
+    "pos": "adjective",
+    "meaning_th": "ภูมิใจ"
+  },
+  {
+    "lemma": "proudly",
+    "pos": "adjective",
+    "meaning_th": "อย่างภาคภูมิใจ"
+  },
+  {
+    "lemma": "prove",
+    "pos": "verb",
+    "meaning_th": "พิสูจน์"
+  },
+  {
+    "lemma": "provide",
+    "pos": "verb",
+    "meaning_th": "จัดเตรียม"
+  },
+  {
+    "lemma": "provided",
+    "pos": "conjunction",
+    "meaning_th": "ที่ให้ไว้"
+  },
+  {
+    "lemma": "providing",
+    "pos": "conjunction",
+    "meaning_th": "การให้"
+  },
+  {
+    "lemma": "pub",
+    "pos": "noun",
+    "meaning_th": "ผับ"
+  },
+  {
+    "lemma": "public",
+    "pos": "adjective",
+    "meaning_th": "สาธารณะ"
+  },
+  {
+    "lemma": "publication",
+    "pos": "noun",
+    "meaning_th": "สิ่งพิมพ์"
+  },
+  {
+    "lemma": "publicity",
+    "pos": "noun",
+    "meaning_th": "การประชาสัมพันธ์"
+  },
+  {
+    "lemma": "publicly",
+    "pos": "adjective",
+    "meaning_th": "ต่อสาธารณะ / อย่างเปิดเผย"
+  },
+  {
+    "lemma": "publish",
+    "pos": "verb",
+    "meaning_th": "เผยแพร่"
+  },
+  {
+    "lemma": "publishing",
+    "pos": "verb",
+    "meaning_th": "การเผยแพร่"
+  },
+  {
+    "lemma": "pull",
+    "pos": "verb",
+    "meaning_th": "ดึง"
+  },
+  {
+    "lemma": "pull apart",
+    "pos": "verb",
+    "meaning_th": "ดึงออกจากกัน"
+  },
+  {
+    "lemma": "pull down",
+    "pos": "verb",
+    "meaning_th": "รื้อถอน (อาคาร)"
+  },
+  {
+    "lemma": "pull in",
+    "pos": "verb",
+    "meaning_th": "(รถไฟ) เทียบชานชาลา / ดึงดูดผู้ชม"
+  },
+  {
+    "lemma": "pull off",
+    "pos": "verb",
+    "meaning_th": "ทำสิ่งยากๆ ได้สำเร็จ / จอดรถข้างทาง"
+  },
+  {
+    "lemma": "pull out",
+    "pos": "verb",
+    "meaning_th": "(รถ) เคลื่อนตัวออกจากทาง / ถอนตัว"
+  },
+  {
+    "lemma": "pull over",
+    "pos": "verb",
+    "meaning_th": "ดึงไป"
+  },
+  {
+    "lemma": "pull through",
+    "pos": "verb",
+    "meaning_th": "รอดชีวิตจากอาการป่วยหนักมาได้"
+  },
+  {
+    "lemma": "pull together",
+    "pos": "verb",
+    "meaning_th": "ร่วมแรงร่วมใจกัน"
+  },
+  {
+    "lemma": "pull up",
+    "pos": "verb",
+    "meaning_th": "(รถ) ชะลอจอด / ดึงตัวขึ้น"
+  },
+  {
+    "lemma": "punch",
+    "pos": "verb",
+    "meaning_th": "ต่อย"
+  },
+  {
+    "lemma": "punish",
+    "pos": "verb",
+    "meaning_th": "ลงโทษ"
+  },
+  {
+    "lemma": "punishment",
+    "pos": "noun",
+    "meaning_th": "การลงโทษ"
+  },
+  {
+    "lemma": "pupil",
+    "pos": "noun",
+    "meaning_th": "นักเรียน"
+  },
+  {
+    "lemma": "purchase",
+    "pos": "verb",
+    "meaning_th": "ซื้อ"
+  },
+  {
+    "lemma": "pure",
+    "pos": "adjective",
+    "meaning_th": "บริสุทธิ์"
+  },
+  {
+    "lemma": "purely",
+    "pos": "adjective",
+    "meaning_th": "โดยสิ้นเชิง / ล้วนๆ"
+  },
+  {
+    "lemma": "purple",
+    "pos": "adjective",
+    "meaning_th": "สีม่วง"
+  },
+  {
+    "lemma": "purpose",
+    "pos": "noun",
+    "meaning_th": "วัตถุประสงค์"
+  },
+  {
+    "lemma": "pursue",
+    "pos": "verb",
+    "meaning_th": "ไล่ตาม"
+  },
+  {
+    "lemma": "push",
+    "pos": "verb",
+    "meaning_th": "ดัน"
+  },
+  {
+    "lemma": "push about",
+    "pos": "verb",
+    "meaning_th": "ผลักดันเกี่ยวกับ"
+  },
+  {
+    "lemma": "push forward",
+    "pos": "verb",
+    "meaning_th": "ผลักดันไปข้างหน้า"
+  },
+  {
+    "lemma": "put",
+    "pos": "verb",
+    "meaning_th": "ใส่"
+  },
+  {
+    "lemma": "put away",
+    "pos": "verb",
+    "meaning_th": "เก็บของเข้าที่เดิม / ขังคุก"
+  },
+  {
+    "lemma": "put back",
+    "pos": "verb",
+    "meaning_th": "วางกลับที่เดิม / เลื่อนเวลาออกไป"
+  },
+  {
+    "lemma": "put down",
+    "pos": "verb",
+    "meaning_th": "วางลง / จดบันทึก / การุณยฆาตสัตว์"
+  }
+]

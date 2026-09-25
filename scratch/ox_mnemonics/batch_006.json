@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "approximately",
+    "pos": "adverb",
+    "meaning_th": "ประมาณ"
+  },
+  {
+    "lemma": "April",
+    "pos": "noun",
+    "meaning_th": "เมษายน"
+  },
+  {
+    "lemma": "area",
+    "pos": "noun",
+    "meaning_th": "พื้นที่"
+  },
+  {
+    "lemma": "argue",
+    "pos": "verb",
+    "meaning_th": "โต้แย้ง"
+  },
+  {
+    "lemma": "argument",
+    "pos": "noun",
+    "meaning_th": "การโต้แย้ง"
+  },
+  {
+    "lemma": "arise",
+    "pos": "verb",
+    "meaning_th": "เกิดขึ้น / ปรากฏขึ้น"
+  },
+  {
+    "lemma": "arm",
+    "pos": "noun",
+    "meaning_th": "แขน"
+  },
+  {
+    "lemma": "armed",
+    "pos": "adjective",
+    "meaning_th": "ติดอาวุธ"
+  },
+  {
+    "lemma": "arms",
+    "pos": "noun",
+    "meaning_th": "แขน"
+  },
+  {
+    "lemma": "army",
+    "pos": "noun",
+    "meaning_th": "กองทัพ"
+  },
+  {
+    "lemma": "around",
+    "pos": "adverb",
+    "meaning_th": "รอบๆ"
+  },
+  {
+    "lemma": "arrange",
+    "pos": "verb",
+    "meaning_th": "จัดเตรียม / จัดการ"
+  },
+  {
+    "lemma": "arrangement",
+    "pos": "noun",
+    "meaning_th": "การจัดเตรียม / ข้อตกลง"
+  },
+  {
+    "lemma": "arrest",
+    "pos": "verb",
+    "meaning_th": "จับกุม"
+  },
+  {
+    "lemma": "arrival",
+    "pos": "noun",
+    "meaning_th": "การมาถึง"
+  },
+  {
+    "lemma": "arrive",
+    "pos": "verb",
+    "meaning_th": "มาถึง"
+  },
+  {
+    "lemma": "arrive at",
+    "pos": "noun",
+    "meaning_th": "ไปถึง / บรรลุถึง"
+  },
+  {
+    "lemma": "arrow",
+    "pos": "noun",
+    "meaning_th": "ลูกศร"
+  },
+  {
+    "lemma": "art",
+    "pos": "noun",
+    "meaning_th": "ศิลปะ"
+  },
+  {
+    "lemma": "article",
+    "pos": "noun",
+    "meaning_th": "บทความ"
+  },
+  {
+    "lemma": "artificial",
+    "pos": "adjective",
+    "meaning_th": "เทียม"
+  },
+  {
+    "lemma": "artificially",
+    "pos": "adverb",
+    "meaning_th": "โดยมนุษย์สร้างขึ้น / อย่างประดิษฐ์"
+  },
+  {
+    "lemma": "artist",
+    "pos": "noun",
+    "meaning_th": "ศิลปิน"
+  },
+  {
+    "lemma": "artistic",
+    "pos": "adjective",
+    "meaning_th": "ทางศิลปะ / มีความคิดสร้างสรรค์"
+  },
+  {
+    "lemma": "artistically",
+    "pos": "adverb",
+    "meaning_th": "ในทางศิลปะ"
+  },
+  {
+    "lemma": "as",
+    "pos": "conjunction",
+    "meaning_th": "ขณะที่ / ในฐานะที่"
+  },
+  {
+    "lemma": "ashamed",
+    "pos": "adjective",
+    "meaning_th": "ละอาย"
+  },
+  {
+    "lemma": "aside",
+    "pos": "adverb",
+    "meaning_th": "กัน"
+  },
+  {
+    "lemma": "aside from",
+    "pos": "preposition",
+    "meaning_th": "นอกจาก / นอกเหนือจาก"
+  },
+  {
+    "lemma": "ask",
+    "pos": "verb",
+    "meaning_th": "ถาม / ขอร้อง"
+  },
+  {
+    "lemma": "asleep",
+    "pos": "adjective",
+    "meaning_th": "นอนหลับ"
+  },
+  {
+    "lemma": "aspect",
+    "pos": "noun",
+    "meaning_th": "แง่มุม / ด้าน"
+  },
+  {
+    "lemma": "assist",
+    "pos": "verb",
+    "meaning_th": "ช่วยเหลือ / สนับสนุน"
+  },
+  {
+    "lemma": "assistance",
+    "pos": "noun",
+    "meaning_th": "ความช่วยเหลือ"
+  },
+  {
+    "lemma": "assistant",
+    "pos": "noun",
+    "meaning_th": "ผู้ช่วย"
+  },
+  {
+    "lemma": "associate",
+    "pos": "verb",
+    "meaning_th": "เชื่อมโยง / คบค้าสมาคม"
+  },
+  {
+    "lemma": "associated",
+    "pos": "adjective",
+    "meaning_th": "ที่เกี่ยวข้อง"
+  },
+  {
+    "lemma": "association",
+    "pos": "noun",
+    "meaning_th": "สมาคม / การรวมกลุ่ม"
+  },
+  {
+    "lemma": "assure",
+    "pos": "verb",
+    "meaning_th": "รับรอง / ทำให้มั่นใจ"
+  },
+  {
+    "lemma": "at",
+    "pos": "preposition",
+    "meaning_th": "ที่"
+  },
+  {
+    "lemma": "atmosphere",
+    "pos": "noun",
+    "meaning_th": "บรรยากาศ"
+  },
+  {
+    "lemma": "atom",
+    "pos": "noun",
+    "meaning_th": "อะตอม"
+  },
+  {
+    "lemma": "attach",
+    "pos": "verb",
+    "meaning_th": "แนบ"
+  },
+  {
+    "lemma": "attached",
+    "pos": "adjective",
+    "meaning_th": "ที่แนบมา"
+  },
+  {
+    "lemma": "attack",
+    "pos": "verb",
+    "meaning_th": "จู่โจม"
+  },
+  {
+    "lemma": "attempted",
+    "pos": "adjective",
+    "meaning_th": "พยายามแล้ว"
+  },
+  {
+    "lemma": "attend",
+    "pos": "verb",
+    "meaning_th": "เข้าร่วม / ไปร่วม"
+  },
+  {
+    "lemma": "attend to",
+    "pos": "noun",
+    "meaning_th": "ไปจัดการ / ดูแล / ใส่ใจ"
+  },
+  {
+    "lemma": "attention",
+    "pos": "noun",
+    "meaning_th": "ความสนใจ"
+  },
+  {
+    "lemma": "attorney",
+    "pos": "noun",
+    "meaning_th": "ทนายความ"
+  }
+]

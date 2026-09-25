@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "transparent",
+    "pos": "adjective",
+    "meaning_th": "โปร่งใส"
+  },
+  {
+    "lemma": "underlying",
+    "pos": "adjective",
+    "meaning_th": "พื้นฐาน"
+  },
+  {
+    "lemma": "versatile",
+    "pos": "adjective",
+    "meaning_th": "อเนกประสงค์"
+  },
+  {
+    "lemma": "compile",
+    "pos": "verb",
+    "meaning_th": "รวบรวม"
+  },
+  {
+    "lemma": "demonstrate",
+    "pos": "verb",
+    "meaning_th": "สาธิต"
+  },
+  {
+    "lemma": "eliminate",
+    "pos": "verb",
+    "meaning_th": "กำจัด"
+  },
+  {
+    "lemma": "formulate",
+    "pos": "verb",
+    "meaning_th": "กำหนดสูตร"
+  },
+  {
+    "lemma": "incorporate",
+    "pos": "verb",
+    "meaning_th": "รวมเข้า"
+  },
+  {
+    "lemma": "manifest",
+    "pos": "verb",
+    "meaning_th": "แสดงออก"
+  },
+  {
+    "lemma": "precede",
+    "pos": "verb",
+    "meaning_th": "มาก่อน"
+  },
+  {
+    "lemma": "reinforce",
+    "pos": "verb",
+    "meaning_th": "เสริมความแข็งแรง"
+  },
+  {
+    "lemma": "agenda",
+    "pos": "noun",
+    "meaning_th": "วาระการประชุม"
+  },
+  {
+    "lemma": "alternative",
+    "pos": "noun",
+    "meaning_th": "ทางเลือก"
+  },
+  {
+    "lemma": "amazing",
+    "pos": "adjective",
+    "meaning_th": "น่าทึ่ง"
+  },
+  {
+    "lemma": "ambitious",
+    "pos": "adjective",
+    "meaning_th": "ทะเยอทะยาน"
+  },
+  {
+    "lemma": "analyse",
+    "pos": "verb",
+    "meaning_th": "วิเคราะห์"
+  },
+  {
+    "lemma": "ancient",
+    "pos": "adjective",
+    "meaning_th": "โบราณ"
+  },
+  {
+    "lemma": "announce",
+    "pos": "verb",
+    "meaning_th": "ประกาศ"
+  },
+  {
+    "lemma": "anxiety",
+    "pos": "noun",
+    "meaning_th": "ความกังวล"
+  },
+  {
+    "lemma": "apparent",
+    "pos": "adjective",
+    "meaning_th": "ชัดเจน"
+  },
+  {
+    "lemma": "approach",
+    "pos": "verb",
+    "meaning_th": "วิธีการเข้าหา"
+  },
+  {
+    "lemma": "assess",
+    "pos": "verb",
+    "meaning_th": "ประเมิน"
+  },
+  {
+    "lemma": "assume",
+    "pos": "verb",
+    "meaning_th": "สันนิษฐาน"
+  },
+  {
+    "lemma": "attempt",
+    "pos": "verb",
+    "meaning_th": "ความพยายาม"
+  },
+  {
+    "lemma": "attitude",
+    "pos": "noun",
+    "meaning_th": "ทัศนคติ"
+  },
+  {
+    "lemma": "attract",
+    "pos": "verb",
+    "meaning_th": "ดึงดูด"
+  },
+  {
+    "lemma": "authority",
+    "pos": "noun",
+    "meaning_th": "อำนาจ"
+  },
+  {
+    "lemma": "adequate",
+    "pos": "adjective",
+    "meaning_th": "เพียงพอ"
+  },
+  {
+    "lemma": "advantage",
+    "pos": "noun",
+    "meaning_th": "ข้อได้เปรียบ"
+  },
+  {
+    "lemma": "affect",
+    "pos": "verb",
+    "meaning_th": "ส่งผลกระทบ"
+  },
+  {
+    "lemma": "abandoned",
+    "pos": "adjective",
+    "meaning_th": "ถูกทอดทิ้ง / รกร้าง"
+  },
+  {
+    "lemma": "able",
+    "pos": "adjective",
+    "meaning_th": "สามารถ"
+  },
+  {
+    "lemma": "about",
+    "pos": "preposition",
+    "meaning_th": "เกี่ยวกับ"
+  },
+  {
+    "lemma": "above",
+    "pos": "preposition",
+    "meaning_th": "ข้างบน"
+  },
+  {
+    "lemma": "abroad",
+    "pos": "adverb",
+    "meaning_th": "ต่างประเทศ"
+  },
+  {
+    "lemma": "absence",
+    "pos": "noun",
+    "meaning_th": "ขาด"
+  },
+  {
+    "lemma": "absent",
+    "pos": "adjective",
+    "meaning_th": "ไม่มา"
+  },
+  {
+    "lemma": "absolute",
+    "pos": "adjective",
+    "meaning_th": "แน่นอน"
+  },
+  {
+    "lemma": "absolutely",
+    "pos": "adverb",
+    "meaning_th": "อย่างแน่นอน"
+  },
+  {
+    "lemma": "absorb",
+    "pos": "verb",
+    "meaning_th": "ดูดซับ"
+  },
+  {
+    "lemma": "abuse",
+    "pos": "noun",
+    "meaning_th": "ใช้ในทางที่ผิด"
+  },
+  {
+    "lemma": "accent",
+    "pos": "noun",
+    "meaning_th": "สำเนียง"
+  },
+  {
+    "lemma": "accept",
+    "pos": "verb",
+    "meaning_th": "ยอมรับ"
+  },
+  {
+    "lemma": "acceptable",
+    "pos": "adjective",
+    "meaning_th": "ยอมรับได้"
+  },
+  {
+    "lemma": "access",
+    "pos": "noun",
+    "meaning_th": "เข้าถึง"
+  },
+  {
+    "lemma": "accident",
+    "pos": "noun",
+    "meaning_th": "อุบัติเหตุ"
+  },
+  {
+    "lemma": "accidental",
+    "pos": "adjective",
+    "meaning_th": "บังเอิญ"
+  },
+  {
+    "lemma": "accidentally",
+    "pos": "adverb",
+    "meaning_th": "โดยบังเอิญ"
+  },
+  {
+    "lemma": "accommodation",
+    "pos": "noun",
+    "meaning_th": "ที่พัก"
+  },
+  {
+    "lemma": "accompany",
+    "pos": "verb",
+    "meaning_th": "มาพร้อมกับ"
+  }
+]

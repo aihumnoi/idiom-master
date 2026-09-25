@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "response",
+    "pos": "noun",
+    "meaning_th": "การตอบสนอง"
+  },
+  {
+    "lemma": "responsibility",
+    "pos": "noun",
+    "meaning_th": "ความรับผิดชอบ"
+  },
+  {
+    "lemma": "responsible",
+    "pos": "adjective",
+    "meaning_th": "รับผิดชอบ"
+  },
+  {
+    "lemma": "rest",
+    "pos": "verb",
+    "meaning_th": "พักผ่อน"
+  },
+  {
+    "lemma": "restaurant",
+    "pos": "noun",
+    "meaning_th": "ร้านอาหาร"
+  },
+  {
+    "lemma": "restore",
+    "pos": "verb",
+    "meaning_th": "คืนค่า"
+  },
+  {
+    "lemma": "restrict",
+    "pos": "verb",
+    "meaning_th": "จำกัด"
+  },
+  {
+    "lemma": "restricted",
+    "pos": "adjective",
+    "meaning_th": "ถูกจำกัด"
+  },
+  {
+    "lemma": "restriction",
+    "pos": "noun",
+    "meaning_th": "ข้อ จำกัด"
+  },
+  {
+    "lemma": "result",
+    "pos": "noun",
+    "meaning_th": "ผลลัพธ์"
+  },
+  {
+    "lemma": "result in",
+    "pos": "verb",
+    "meaning_th": "ส่งผลให้"
+  },
+  {
+    "lemma": "retain",
+    "pos": "verb",
+    "meaning_th": "เก็บไว้"
+  },
+  {
+    "lemma": "retire",
+    "pos": "verb",
+    "meaning_th": "เกษียณอายุ"
+  },
+  {
+    "lemma": "retired",
+    "pos": "verb",
+    "meaning_th": "เกษียณแล้ว"
+  },
+  {
+    "lemma": "retirement",
+    "pos": "noun",
+    "meaning_th": "เกษียณอายุ"
+  },
+  {
+    "lemma": "return",
+    "pos": "verb",
+    "meaning_th": "กลับ"
+  },
+  {
+    "lemma": "reveal",
+    "pos": "verb",
+    "meaning_th": "เปิดเผย"
+  },
+  {
+    "lemma": "reverse",
+    "pos": "verb",
+    "meaning_th": "ย้อนกลับ"
+  },
+  {
+    "lemma": "review",
+    "pos": "noun",
+    "meaning_th": "ทบทวน"
+  },
+  {
+    "lemma": "revise",
+    "pos": "verb",
+    "meaning_th": "ปรับปรุงใหม่"
+  },
+  {
+    "lemma": "revision",
+    "pos": "noun",
+    "meaning_th": "การแก้ไข"
+  },
+  {
+    "lemma": "revolution",
+    "pos": "noun",
+    "meaning_th": "การปฎิวัติ"
+  },
+  {
+    "lemma": "reward",
+    "pos": "noun",
+    "meaning_th": "รางวัล"
+  },
+  {
+    "lemma": "rhythm",
+    "pos": "noun",
+    "meaning_th": "จังหวะ"
+  },
+  {
+    "lemma": "rice",
+    "pos": "noun",
+    "meaning_th": "ข้าว"
+  },
+  {
+    "lemma": "rich",
+    "pos": "adjective",
+    "meaning_th": "รวย"
+  },
+  {
+    "lemma": "rid",
+    "pos": "verb",
+    "meaning_th": "กำจัด"
+  },
+  {
+    "lemma": "ride",
+    "pos": "verb",
+    "meaning_th": "ขี่"
+  },
+  {
+    "lemma": "rider",
+    "pos": "noun",
+    "meaning_th": "ผู้ขับขี่ / ผู้ขี่"
+  },
+  {
+    "lemma": "ridiculous",
+    "pos": "adjective",
+    "meaning_th": "น่าขัน / ไร้สาระสิ้นดี"
+  },
+  {
+    "lemma": "riding",
+    "pos": "verb",
+    "meaning_th": "ขี่"
+  },
+  {
+    "lemma": "right",
+    "pos": "adjective",
+    "meaning_th": "ขวา"
+  },
+  {
+    "lemma": "rightly",
+    "pos": "adjective",
+    "meaning_th": "ถูกต้อง"
+  },
+  {
+    "lemma": "ring 1",
+    "pos": "noun",
+    "meaning_th": "แหวน (เครื่องประดับ) / วงแหวน"
+  },
+  {
+    "lemma": "ring 2",
+    "pos": "verb",
+    "meaning_th": "โทรศัพท์หา / ส่งเสียงกริ่ง"
+  },
+  {
+    "lemma": "ring back",
+    "pos": "verb",
+    "meaning_th": "โทรกลับไปหา"
+  },
+  {
+    "lemma": "rise",
+    "pos": "verb",
+    "meaning_th": "ลุกขึ้น"
+  },
+  {
+    "lemma": "risk",
+    "pos": "noun",
+    "meaning_th": "เสี่ยง"
+  },
+  {
+    "lemma": "rival",
+    "pos": "noun",
+    "meaning_th": "คู่แข่ง / คู่ปรับ"
+  },
+  {
+    "lemma": "river",
+    "pos": "noun",
+    "meaning_th": "แม่น้ำ"
+  },
+  {
+    "lemma": "road",
+    "pos": "noun",
+    "meaning_th": "ถนน"
+  },
+  {
+    "lemma": "rob",
+    "pos": "verb",
+    "meaning_th": "ปล้น"
+  },
+  {
+    "lemma": "rock",
+    "pos": "noun",
+    "meaning_th": "หิน"
+  },
+  {
+    "lemma": "role",
+    "pos": "noun",
+    "meaning_th": "บทบาท"
+  },
+  {
+    "lemma": "roll",
+    "pos": "verb",
+    "meaning_th": "ม้วน"
+  },
+  {
+    "lemma": "romantic",
+    "pos": "adjective",
+    "meaning_th": "โรแมนติก"
+  },
+  {
+    "lemma": "roof",
+    "pos": "noun",
+    "meaning_th": "หลังคา"
+  },
+  {
+    "lemma": "room",
+    "pos": "noun",
+    "meaning_th": "ห้อง"
+  },
+  {
+    "lemma": "root",
+    "pos": "noun",
+    "meaning_th": "ราก"
+  },
+  {
+    "lemma": "rope",
+    "pos": "noun",
+    "meaning_th": "เชือก"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "real",
+    "pos": "adjective",
+    "meaning_th": "จริง"
+  },
+  {
+    "lemma": "realistic",
+    "pos": "adjective",
+    "meaning_th": "เหมือนจริง"
+  },
+  {
+    "lemma": "reality",
+    "pos": "noun",
+    "meaning_th": "ความเป็นจริง"
+  },
+  {
+    "lemma": "realize",
+    "pos": "verb",
+    "meaning_th": "ตระหนัก"
+  },
+  {
+    "lemma": "really",
+    "pos": "adverb",
+    "meaning_th": "จริงๆ / อย่างแท้จริง"
+  },
+  {
+    "lemma": "rear",
+    "pos": "noun",
+    "meaning_th": "หลัง"
+  },
+  {
+    "lemma": "reason",
+    "pos": "noun",
+    "meaning_th": "เหตุผล"
+  },
+  {
+    "lemma": "reasonable",
+    "pos": "adjective",
+    "meaning_th": "มีเหตุผล"
+  },
+  {
+    "lemma": "reasonably",
+    "pos": "adverb",
+    "meaning_th": "สมเหตุสมผล"
+  },
+  {
+    "lemma": "recall",
+    "pos": "verb",
+    "meaning_th": "จำ"
+  },
+  {
+    "lemma": "receipt",
+    "pos": "noun",
+    "meaning_th": "ใบเสร็จ"
+  },
+  {
+    "lemma": "receive",
+    "pos": "verb",
+    "meaning_th": "รับ"
+  },
+  {
+    "lemma": "recent",
+    "pos": "adjective",
+    "meaning_th": "ล่าสุด"
+  },
+  {
+    "lemma": "recently",
+    "pos": "adverb",
+    "meaning_th": "เมื่อเร็วๆ นี้ / ไม่นานมานี้"
+  },
+  {
+    "lemma": "reception",
+    "pos": "noun",
+    "meaning_th": "แผนกต้อนรับ"
+  },
+  {
+    "lemma": "reckon",
+    "pos": "verb",
+    "meaning_th": "นับ"
+  },
+  {
+    "lemma": "reckon on",
+    "pos": "verb",
+    "meaning_th": "คำนึงถึง"
+  },
+  {
+    "lemma": "recognition",
+    "pos": "noun",
+    "meaning_th": "การยอมรับ"
+  },
+  {
+    "lemma": "recognize",
+    "pos": "verb",
+    "meaning_th": "จำได้"
+  },
+  {
+    "lemma": "recommend",
+    "pos": "verb",
+    "meaning_th": "แนะนำ"
+  },
+  {
+    "lemma": "record",
+    "pos": "noun",
+    "meaning_th": "บันทึก"
+  },
+  {
+    "lemma": "recording",
+    "pos": "noun",
+    "meaning_th": "การบันทึก"
+  },
+  {
+    "lemma": "recover",
+    "pos": "verb",
+    "meaning_th": "ฟื้นตัว"
+  },
+  {
+    "lemma": "red",
+    "pos": "adjective",
+    "meaning_th": "สีแดง"
+  },
+  {
+    "lemma": "reduce",
+    "pos": "verb",
+    "meaning_th": "ลด"
+  },
+  {
+    "lemma": "reduction",
+    "pos": "noun",
+    "meaning_th": "การลดน้อยลง"
+  },
+  {
+    "lemma": "refer",
+    "pos": "verb",
+    "meaning_th": "อ้างอิง"
+  },
+  {
+    "lemma": "reference",
+    "pos": "noun",
+    "meaning_th": "อ้างอิง"
+  },
+  {
+    "lemma": "refer to",
+    "pos": "verb",
+    "meaning_th": "อ้างถึง"
+  },
+  {
+    "lemma": "reflect",
+    "pos": "verb",
+    "meaning_th": "สะท้อน"
+  },
+  {
+    "lemma": "reform",
+    "pos": "verb",
+    "meaning_th": "ปฏิรูป"
+  },
+  {
+    "lemma": "refrigerator",
+    "pos": "noun",
+    "meaning_th": "ตู้เย็น"
+  },
+  {
+    "lemma": "refusal",
+    "pos": "noun",
+    "meaning_th": "การปฏิเสธ"
+  },
+  {
+    "lemma": "refuse 1",
+    "pos": "verb",
+    "meaning_th": "ปฏิเสธ / ของเสีย"
+  },
+  {
+    "lemma": "regard",
+    "pos": "verb",
+    "meaning_th": "คำนึงถึง"
+  },
+  {
+    "lemma": "regarding",
+    "pos": "preposition",
+    "meaning_th": "เกี่ยวกับ"
+  },
+  {
+    "lemma": "region",
+    "pos": "noun",
+    "meaning_th": "ภูมิภาค"
+  },
+  {
+    "lemma": "regional",
+    "pos": "adjective",
+    "meaning_th": "ในระดับภูมิภาค"
+  },
+  {
+    "lemma": "register",
+    "pos": "verb",
+    "meaning_th": "ลงทะเบียน"
+  },
+  {
+    "lemma": "regret",
+    "pos": "verb",
+    "meaning_th": "เสียใจ"
+  },
+  {
+    "lemma": "regular",
+    "pos": "adjective",
+    "meaning_th": "ปกติ"
+  },
+  {
+    "lemma": "regularly",
+    "pos": "adverb",
+    "meaning_th": "เป็นประจำ"
+  },
+  {
+    "lemma": "regulation",
+    "pos": "noun",
+    "meaning_th": "ระเบียบข้อบังคับ"
+  },
+  {
+    "lemma": "reject",
+    "pos": "verb",
+    "meaning_th": "ปฏิเสธ"
+  },
+  {
+    "lemma": "relate",
+    "pos": "verb",
+    "meaning_th": "เกี่ยวข้อง"
+  },
+  {
+    "lemma": "related",
+    "pos": "adjective",
+    "meaning_th": "ที่เกี่ยวข้อง"
+  },
+  {
+    "lemma": "relate to",
+    "pos": "verb",
+    "meaning_th": "เกี่ยวข้องกับ"
+  },
+  {
+    "lemma": "relation",
+    "pos": "noun",
+    "meaning_th": "ความสัมพันธ์"
+  },
+  {
+    "lemma": "relationship",
+    "pos": "noun",
+    "meaning_th": "ความสัมพันธ์"
+  },
+  {
+    "lemma": "relative",
+    "pos": "adjective",
+    "meaning_th": "ญาติ"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "pretty",
+    "pos": "adjective",
+    "meaning_th": "สวย"
+  },
+  {
+    "lemma": "prevent",
+    "pos": "verb",
+    "meaning_th": "ป้องกัน"
+  },
+  {
+    "lemma": "previous",
+    "pos": "adjective",
+    "meaning_th": "ก่อนหน้า"
+  },
+  {
+    "lemma": "previously",
+    "pos": "adverb",
+    "meaning_th": "ก่อนหน้านี้"
+  },
+  {
+    "lemma": "price",
+    "pos": "noun",
+    "meaning_th": "ราคา"
+  },
+  {
+    "lemma": "pride",
+    "pos": "noun",
+    "meaning_th": "ความภาคภูมิใจ"
+  },
+  {
+    "lemma": "priest",
+    "pos": "noun",
+    "meaning_th": "นักบวช"
+  },
+  {
+    "lemma": "primarily",
+    "pos": "adverb",
+    "meaning_th": "เป็นหลัก"
+  },
+  {
+    "lemma": "primary",
+    "pos": "adjective",
+    "meaning_th": "หลัก"
+  },
+  {
+    "lemma": "prime minister",
+    "pos": "noun",
+    "meaning_th": "นายกรัฐมนตรี"
+  },
+  {
+    "lemma": "prince",
+    "pos": "noun",
+    "meaning_th": "เจ้าชาย"
+  },
+  {
+    "lemma": "princess",
+    "pos": "noun",
+    "meaning_th": "เจ้าหญิง"
+  },
+  {
+    "lemma": "principle",
+    "pos": "noun",
+    "meaning_th": "หลักการ"
+  },
+  {
+    "lemma": "print",
+    "pos": "verb",
+    "meaning_th": "พิมพ์"
+  },
+  {
+    "lemma": "printer",
+    "pos": "noun",
+    "meaning_th": "เครื่องพิมพ์"
+  },
+  {
+    "lemma": "printing",
+    "pos": "verb",
+    "meaning_th": "การพิมพ์"
+  },
+  {
+    "lemma": "print off",
+    "pos": "verb",
+    "meaning_th": "พิมพ์ออก"
+  },
+  {
+    "lemma": "prior",
+    "pos": "adjective",
+    "meaning_th": "ก่อน"
+  },
+  {
+    "lemma": "priority",
+    "pos": "noun",
+    "meaning_th": "ลำดับความสำคัญ"
+  },
+  {
+    "lemma": "prison",
+    "pos": "noun",
+    "meaning_th": "คุก"
+  },
+  {
+    "lemma": "prisoner",
+    "pos": "noun",
+    "meaning_th": "นักโทษ"
+  },
+  {
+    "lemma": "private",
+    "pos": "adjective",
+    "meaning_th": "ส่วนตัว"
+  },
+  {
+    "lemma": "privately",
+    "pos": "adjective",
+    "meaning_th": "เป็นการส่วนตัว"
+  },
+  {
+    "lemma": "prize",
+    "pos": "noun",
+    "meaning_th": "รางวัล"
+  },
+  {
+    "lemma": "probable",
+    "pos": "adjective",
+    "meaning_th": "น่าจะเป็น"
+  },
+  {
+    "lemma": "probably",
+    "pos": "adverb",
+    "meaning_th": "อาจจะ"
+  },
+  {
+    "lemma": "problem",
+    "pos": "noun",
+    "meaning_th": "ปัญหา"
+  },
+  {
+    "lemma": "procedure",
+    "pos": "noun",
+    "meaning_th": "ขั้นตอน"
+  },
+  {
+    "lemma": "proceed",
+    "pos": "verb",
+    "meaning_th": "ดำเนินการ"
+  },
+  {
+    "lemma": "process 1",
+    "pos": "noun",
+    "meaning_th": "กระบวนการ / ขั้นตอนการทำงาน"
+  },
+  {
+    "lemma": "produce",
+    "pos": "verb",
+    "meaning_th": "ผลิต"
+  },
+  {
+    "lemma": "producer",
+    "pos": "noun",
+    "meaning_th": "ผู้ผลิต"
+  },
+  {
+    "lemma": "product",
+    "pos": "noun",
+    "meaning_th": "ผลิตภัณฑ์"
+  },
+  {
+    "lemma": "production",
+    "pos": "noun",
+    "meaning_th": "การผลิต"
+  },
+  {
+    "lemma": "profession",
+    "pos": "noun",
+    "meaning_th": "วิชาชีพ"
+  },
+  {
+    "lemma": "professional",
+    "pos": "adjective",
+    "meaning_th": "มืออาชีพ"
+  },
+  {
+    "lemma": "professor",
+    "pos": "noun",
+    "meaning_th": "ศาสตราจารย์"
+  },
+  {
+    "lemma": "profit",
+    "pos": "noun",
+    "meaning_th": "กำไร"
+  },
+  {
+    "lemma": "program",
+    "pos": "noun",
+    "meaning_th": "โปรแกรม"
+  },
+  {
+    "lemma": "programme",
+    "pos": "noun",
+    "meaning_th": "โปรแกรม"
+  },
+  {
+    "lemma": "progress",
+    "pos": "noun",
+    "meaning_th": "ความคืบหน้า"
+  },
+  {
+    "lemma": "project",
+    "pos": "noun",
+    "meaning_th": "โครงการ"
+  },
+  {
+    "lemma": "promise",
+    "pos": "noun",
+    "meaning_th": "สัญญา"
+  },
+  {
+    "lemma": "promote",
+    "pos": "verb",
+    "meaning_th": "ส่งเสริม"
+  },
+  {
+    "lemma": "promotion",
+    "pos": "noun",
+    "meaning_th": "การส่งเสริม"
+  },
+  {
+    "lemma": "prompt",
+    "pos": "adjective",
+    "meaning_th": "พร้อมท์"
+  },
+  {
+    "lemma": "promptly",
+    "pos": "adverb",
+    "meaning_th": "ทันที"
+  },
+  {
+    "lemma": "pronounce",
+    "pos": "verb",
+    "meaning_th": "ออกเสียง"
+  },
+  {
+    "lemma": "pronunciation",
+    "pos": "noun",
+    "meaning_th": "การออกเสียง"
+  },
+  {
+    "lemma": "proof",
+    "pos": "noun",
+    "meaning_th": "การพิสูจน์"
+  }
+]

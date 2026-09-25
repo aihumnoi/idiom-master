@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "dinner",
+    "pos": "noun",
+    "meaning_th": "อาหารเย็น"
+  },
+  {
+    "lemma": "direct",
+    "pos": "adjective",
+    "meaning_th": "โดยตรง"
+  },
+  {
+    "lemma": "direction",
+    "pos": "noun",
+    "meaning_th": "ทิศทาง"
+  },
+  {
+    "lemma": "directly",
+    "pos": "adverb",
+    "meaning_th": "โดยตรง"
+  },
+  {
+    "lemma": "director",
+    "pos": "noun",
+    "meaning_th": "ผู้อำนวยการ"
+  },
+  {
+    "lemma": "dirt",
+    "pos": "noun",
+    "meaning_th": "สิ่งสกปรก"
+  },
+  {
+    "lemma": "dirty",
+    "pos": "adjective",
+    "meaning_th": "สกปรก"
+  },
+  {
+    "lemma": "disabled",
+    "pos": "adjective",
+    "meaning_th": "พิการ"
+  },
+  {
+    "lemma": "disadvantage",
+    "pos": "noun",
+    "meaning_th": "ข้อเสียเปรียบ"
+  },
+  {
+    "lemma": "disagree",
+    "pos": "verb",
+    "meaning_th": "ไม่เห็นด้วย"
+  },
+  {
+    "lemma": "disagreement",
+    "pos": "noun",
+    "meaning_th": "ไม่เห็นด้วย"
+  },
+  {
+    "lemma": "disagree with doing",
+    "pos": "verb",
+    "meaning_th": "ไม่เห็นด้วยกับการกระทำ"
+  },
+  {
+    "lemma": "disappear",
+    "pos": "verb",
+    "meaning_th": "หายไป"
+  },
+  {
+    "lemma": "disappoint",
+    "pos": "verb",
+    "meaning_th": "ผิดหวัง"
+  },
+  {
+    "lemma": "disappointed",
+    "pos": "adjective",
+    "meaning_th": "ที่ผิดหวัง"
+  },
+  {
+    "lemma": "disappointing",
+    "pos": "adjective",
+    "meaning_th": "น่าผิดหวัง"
+  },
+  {
+    "lemma": "disappointment",
+    "pos": "noun",
+    "meaning_th": "ความผิดหวัง"
+  },
+  {
+    "lemma": "disapproval",
+    "pos": "noun",
+    "meaning_th": "ไม่อนุมัติ"
+  },
+  {
+    "lemma": "disapprove",
+    "pos": "verb",
+    "meaning_th": "ไม่อนุมัติ"
+  },
+  {
+    "lemma": "disapproving",
+    "pos": "adjective",
+    "meaning_th": "ไม่เห็นด้วย"
+  },
+  {
+    "lemma": "disaster",
+    "pos": "noun",
+    "meaning_th": "ภัยพิบัติ"
+  },
+  {
+    "lemma": "disc",
+    "pos": "noun",
+    "meaning_th": "แผ่นดิสก์"
+  },
+  {
+    "lemma": "discipline",
+    "pos": "noun",
+    "meaning_th": "การลงโทษ"
+  },
+  {
+    "lemma": "discount",
+    "pos": "noun",
+    "meaning_th": "การลดราคา"
+  },
+  {
+    "lemma": "discover",
+    "pos": "verb",
+    "meaning_th": "ค้นพบ"
+  },
+  {
+    "lemma": "discovery",
+    "pos": "noun",
+    "meaning_th": "การค้นพบ"
+  },
+  {
+    "lemma": "discuss",
+    "pos": "verb",
+    "meaning_th": "หารือ"
+  },
+  {
+    "lemma": "discussion",
+    "pos": "noun",
+    "meaning_th": "การอภิปราย"
+  },
+  {
+    "lemma": "disease",
+    "pos": "noun",
+    "meaning_th": "โรค"
+  },
+  {
+    "lemma": "disgust",
+    "pos": "noun",
+    "meaning_th": "ความขยะแขยง / ความรังเกียจ"
+  },
+  {
+    "lemma": "disgusted",
+    "pos": "adjective",
+    "meaning_th": "รู้สึกขยะแขยง / รังเกียจ"
+  },
+  {
+    "lemma": "disgusting",
+    "pos": "adjective",
+    "meaning_th": "น่าขยะแขยง"
+  },
+  {
+    "lemma": "dish",
+    "pos": "noun",
+    "meaning_th": "จาน"
+  },
+  {
+    "lemma": "dishonest",
+    "pos": "adjective",
+    "meaning_th": "ไม่ซื่อสัตย์"
+  },
+  {
+    "lemma": "dishonestly",
+    "pos": "adverb",
+    "meaning_th": "ไม่สุจริต"
+  },
+  {
+    "lemma": "disk",
+    "pos": "noun",
+    "meaning_th": "ดิสก์"
+  },
+  {
+    "lemma": "dislike",
+    "pos": "verb",
+    "meaning_th": "ไม่ชอบ"
+  },
+  {
+    "lemma": "dismiss",
+    "pos": "verb",
+    "meaning_th": "อนุญาตให้ออกไป"
+  },
+  {
+    "lemma": "display",
+    "pos": "verb",
+    "meaning_th": "แสดง"
+  },
+  {
+    "lemma": "dissolve",
+    "pos": "verb",
+    "meaning_th": "ละลาย"
+  },
+  {
+    "lemma": "distance",
+    "pos": "noun",
+    "meaning_th": "ระยะทาง"
+  },
+  {
+    "lemma": "distinguish",
+    "pos": "verb",
+    "meaning_th": "แยกแยะ"
+  },
+  {
+    "lemma": "distribute",
+    "pos": "verb",
+    "meaning_th": "แจกจ่าย"
+  },
+  {
+    "lemma": "distribution",
+    "pos": "noun",
+    "meaning_th": "การกระจาย"
+  },
+  {
+    "lemma": "district",
+    "pos": "noun",
+    "meaning_th": "เขต"
+  },
+  {
+    "lemma": "disturb",
+    "pos": "verb",
+    "meaning_th": "รบกวน"
+  },
+  {
+    "lemma": "disturbing",
+    "pos": "adjective",
+    "meaning_th": "รบกวน"
+  },
+  {
+    "lemma": "divide",
+    "pos": "verb",
+    "meaning_th": "แบ่ง"
+  },
+  {
+    "lemma": "division",
+    "pos": "noun",
+    "meaning_th": "แผนก"
+  },
+  {
+    "lemma": "divorce",
+    "pos": "noun",
+    "meaning_th": "หย่า"
+  }
+]

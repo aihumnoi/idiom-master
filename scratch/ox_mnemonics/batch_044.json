@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "milligram",
+    "pos": "noun",
+    "meaning_th": "มิลลิกรัม"
+  },
+  {
+    "lemma": "millimetre",
+    "pos": "noun",
+    "meaning_th": "มิลลิเมตร"
+  },
+  {
+    "lemma": "million",
+    "pos": "noun",
+    "meaning_th": "ล้าน"
+  },
+  {
+    "lemma": "millionth",
+    "pos": "number",
+    "meaning_th": "ล้าน"
+  },
+  {
+    "lemma": "mind",
+    "pos": "noun",
+    "meaning_th": "จิตใจ"
+  },
+  {
+    "lemma": "mine",
+    "pos": "pronoun",
+    "meaning_th": "ของฉัน"
+  },
+  {
+    "lemma": "mineral",
+    "pos": "noun",
+    "meaning_th": "แร่"
+  },
+  {
+    "lemma": "minimum",
+    "pos": "noun",
+    "meaning_th": "ขั้นต่ำ"
+  },
+  {
+    "lemma": "minister",
+    "pos": "noun",
+    "meaning_th": "รัฐมนตรี"
+  },
+  {
+    "lemma": "ministry",
+    "pos": "noun",
+    "meaning_th": "กระทรวง"
+  },
+  {
+    "lemma": "minor",
+    "pos": "adjective",
+    "meaning_th": "ส่วนน้อย"
+  },
+  {
+    "lemma": "minority",
+    "pos": "noun",
+    "meaning_th": "ชนกลุ่มน้อย"
+  },
+  {
+    "lemma": "minute 1",
+    "pos": "noun",
+    "meaning_th": "นาที (หน่วยเวลา)"
+  },
+  {
+    "lemma": "mirror",
+    "pos": "noun",
+    "meaning_th": "กระจกเงา"
+  },
+  {
+    "lemma": "miss",
+    "pos": "verb",
+    "meaning_th": "นางสาว"
+  },
+  {
+    "lemma": "missing",
+    "pos": "adjective",
+    "meaning_th": "หายไป"
+  },
+  {
+    "lemma": "miss out",
+    "pos": "verb",
+    "meaning_th": "พลาดโอกาส"
+  },
+  {
+    "lemma": "mistake",
+    "pos": "noun",
+    "meaning_th": "ความผิดพลาด"
+  },
+  {
+    "lemma": "mistake for",
+    "pos": "verb",
+    "meaning_th": "ผิดพลาดสำหรับ"
+  },
+  {
+    "lemma": "mistaken",
+    "pos": "adjective",
+    "meaning_th": "ผิด"
+  },
+  {
+    "lemma": "mix",
+    "pos": "verb",
+    "meaning_th": "ผสม"
+  },
+  {
+    "lemma": "mixed",
+    "pos": "adjective",
+    "meaning_th": "ผสม"
+  },
+  {
+    "lemma": "mixture",
+    "pos": "noun",
+    "meaning_th": "ส่วนผสม"
+  },
+  {
+    "lemma": "mix up",
+    "pos": "verb",
+    "meaning_th": "ผสมขึ้น"
+  },
+  {
+    "lemma": "mobile",
+    "pos": "adjective",
+    "meaning_th": "มือถือ"
+  },
+  {
+    "lemma": "mobile phone",
+    "pos": "noun",
+    "meaning_th": "โทรศัพท์มือถือ"
+  },
+  {
+    "lemma": "model",
+    "pos": "noun",
+    "meaning_th": "แบบอย่าง"
+  },
+  {
+    "lemma": "modern",
+    "pos": "adjective",
+    "meaning_th": "ทันสมัย"
+  },
+  {
+    "lemma": "mom",
+    "pos": "noun",
+    "meaning_th": "แม่"
+  },
+  {
+    "lemma": "moment",
+    "pos": "noun",
+    "meaning_th": "ช่วงเวลา"
+  },
+  {
+    "lemma": "Monday",
+    "pos": "noun",
+    "meaning_th": "วันจันทร์"
+  },
+  {
+    "lemma": "money",
+    "pos": "noun",
+    "meaning_th": "เงิน"
+  },
+  {
+    "lemma": "monitor",
+    "pos": "noun",
+    "meaning_th": "เฝ้าสังเกต"
+  },
+  {
+    "lemma": "month",
+    "pos": "noun",
+    "meaning_th": "เดือน"
+  },
+  {
+    "lemma": "mood",
+    "pos": "noun",
+    "meaning_th": "อารมณ์"
+  },
+  {
+    "lemma": "moon",
+    "pos": "noun",
+    "meaning_th": "ดวงจันทร์"
+  },
+  {
+    "lemma": "moral",
+    "pos": "adjective",
+    "meaning_th": "ศีลธรรม"
+  },
+  {
+    "lemma": "morally",
+    "pos": "adjective",
+    "meaning_th": "ในทางศีลธรรม"
+  },
+  {
+    "lemma": "more",
+    "pos": "adjective",
+    "meaning_th": "มากกว่า"
+  },
+  {
+    "lemma": "moreover",
+    "pos": "adverb",
+    "meaning_th": "นอกจากนี้"
+  },
+  {
+    "lemma": "morning",
+    "pos": "noun",
+    "meaning_th": "เช้า"
+  },
+  {
+    "lemma": "most",
+    "pos": "adjective",
+    "meaning_th": "ที่สุด"
+  },
+  {
+    "lemma": "mostly",
+    "pos": "adverb",
+    "meaning_th": "โดยส่วนใหญ่"
+  },
+  {
+    "lemma": "mother",
+    "pos": "noun",
+    "meaning_th": "แม่"
+  },
+  {
+    "lemma": "motion",
+    "pos": "noun",
+    "meaning_th": "การเคลื่อนไหว"
+  },
+  {
+    "lemma": "motor",
+    "pos": "noun",
+    "meaning_th": "มอเตอร์"
+  },
+  {
+    "lemma": "motorbike",
+    "pos": "noun",
+    "meaning_th": "รถมอเตอร์ไซค์"
+  },
+  {
+    "lemma": "motorcycle",
+    "pos": "noun",
+    "meaning_th": "รถจักรยานยนต์"
+  },
+  {
+    "lemma": "mount",
+    "pos": "verb",
+    "meaning_th": "เมานต์"
+  },
+  {
+    "lemma": "mountain",
+    "pos": "noun",
+    "meaning_th": "ภูเขา"
+  }
+]

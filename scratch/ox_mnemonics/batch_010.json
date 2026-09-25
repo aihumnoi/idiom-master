@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "brand",
+    "pos": "noun",
+    "meaning_th": "ยี่ห้อ"
+  },
+  {
+    "lemma": "brave",
+    "pos": "adjective",
+    "meaning_th": "กล้าหาญ"
+  },
+  {
+    "lemma": "bread",
+    "pos": "noun",
+    "meaning_th": "ขนมปัง"
+  },
+  {
+    "lemma": "break",
+    "pos": "verb",
+    "meaning_th": "หยุดพัก"
+  },
+  {
+    "lemma": "break down",
+    "pos": "noun",
+    "meaning_th": "เสีย/พัง (เครื่องยนต์) / เสียสติ"
+  },
+  {
+    "lemma": "breakfast",
+    "pos": "noun",
+    "meaning_th": "อาหารเช้า"
+  },
+  {
+    "lemma": "break in",
+    "pos": "noun",
+    "meaning_th": "งัดแงะเข้ามา / บุกรุก"
+  },
+  {
+    "lemma": "break into",
+    "pos": "noun",
+    "meaning_th": "งัดแงะเข้าไป / เจาะตลาด"
+  },
+  {
+    "lemma": "break off",
+    "pos": "noun",
+    "meaning_th": "หักออก / ยุติความสัมพันธ์"
+  },
+  {
+    "lemma": "break out",
+    "pos": "noun",
+    "meaning_th": "ระเบิดขึ้น / ปะทุขึ้น"
+  },
+  {
+    "lemma": "break up",
+    "pos": "noun",
+    "meaning_th": "เลิกรา / แตกแยก"
+  },
+  {
+    "lemma": "breast",
+    "pos": "noun",
+    "meaning_th": "หน้าอก"
+  },
+  {
+    "lemma": "breath",
+    "pos": "noun",
+    "meaning_th": "ลมหายใจ"
+  },
+  {
+    "lemma": "breathe",
+    "pos": "verb",
+    "meaning_th": "หายใจ"
+  },
+  {
+    "lemma": "breathe in",
+    "pos": "noun",
+    "meaning_th": "หายใจเข้า"
+  },
+  {
+    "lemma": "breathe out",
+    "pos": "noun",
+    "meaning_th": "หายใจออก"
+  },
+  {
+    "lemma": "breathing",
+    "pos": "noun",
+    "meaning_th": "การหายใจ"
+  },
+  {
+    "lemma": "breed",
+    "pos": "verb",
+    "meaning_th": "เพาะพันธุ์ / สายพันธุ์"
+  },
+  {
+    "lemma": "brick",
+    "pos": "noun",
+    "meaning_th": "อิฐ"
+  },
+  {
+    "lemma": "bridge",
+    "pos": "noun",
+    "meaning_th": "สะพาน"
+  },
+  {
+    "lemma": "brief",
+    "pos": "adjective",
+    "meaning_th": "รวบรัด"
+  },
+  {
+    "lemma": "briefly",
+    "pos": "adverb",
+    "meaning_th": "สั้น ๆ"
+  },
+  {
+    "lemma": "bright",
+    "pos": "adjective",
+    "meaning_th": "สว่าง / สดใส / ฉลาด"
+  },
+  {
+    "lemma": "brightly",
+    "pos": "adverb",
+    "meaning_th": "อย่างสว่างไสว / อย่างสดใส"
+  },
+  {
+    "lemma": "brilliant",
+    "pos": "adjective",
+    "meaning_th": "ฉลาดหลักแหลม"
+  },
+  {
+    "lemma": "bring",
+    "pos": "verb",
+    "meaning_th": "นำมา"
+  },
+  {
+    "lemma": "bring back",
+    "pos": "noun",
+    "meaning_th": "นำกลับมา"
+  },
+  {
+    "lemma": "bring down",
+    "pos": "noun",
+    "meaning_th": "นำลงมา"
+  },
+  {
+    "lemma": "bring forward",
+    "pos": "noun",
+    "meaning_th": "นำมาข้างหน้า"
+  },
+  {
+    "lemma": "bring out",
+    "pos": "noun",
+    "meaning_th": "นำออกมา"
+  },
+  {
+    "lemma": "bring up",
+    "pos": "noun",
+    "meaning_th": "นำขึ้นมา"
+  },
+  {
+    "lemma": "broad",
+    "pos": "adjective",
+    "meaning_th": "กว้างๆ"
+  },
+  {
+    "lemma": "broadcast",
+    "pos": "verb",
+    "meaning_th": "ออกอากาศ"
+  },
+  {
+    "lemma": "broadly",
+    "pos": "adverb",
+    "meaning_th": "กว้างๆ"
+  },
+  {
+    "lemma": "broken",
+    "pos": "adjective",
+    "meaning_th": "แตกหัก"
+  },
+  {
+    "lemma": "brother",
+    "pos": "noun",
+    "meaning_th": "พี่ชาย / น้องชาย"
+  },
+  {
+    "lemma": "brown",
+    "pos": "adjective",
+    "meaning_th": "สีน้ำตาล"
+  },
+  {
+    "lemma": "brush",
+    "pos": "noun",
+    "meaning_th": "แปรง"
+  },
+  {
+    "lemma": "bubble",
+    "pos": "noun",
+    "meaning_th": "ฟองสบู่ / ฟองอากาศ"
+  },
+  {
+    "lemma": "budget",
+    "pos": "noun",
+    "meaning_th": "งบประมาณ"
+  },
+  {
+    "lemma": "build",
+    "pos": "verb",
+    "meaning_th": "สร้าง"
+  },
+  {
+    "lemma": "building",
+    "pos": "noun",
+    "meaning_th": "อาคาร"
+  },
+  {
+    "lemma": "build up",
+    "pos": "noun",
+    "meaning_th": "สร้างขึ้น"
+  },
+  {
+    "lemma": "bullet",
+    "pos": "noun",
+    "meaning_th": "กระสุน"
+  },
+  {
+    "lemma": "bunch",
+    "pos": "noun",
+    "meaning_th": "กลุ่ม"
+  },
+  {
+    "lemma": "burn",
+    "pos": "verb",
+    "meaning_th": "เผา"
+  },
+  {
+    "lemma": "burn down",
+    "pos": "noun",
+    "meaning_th": "เผาไหม้"
+  },
+  {
+    "lemma": "burnt",
+    "pos": "adjective",
+    "meaning_th": "ไหม้เกรียม / ถูกไฟไหม้"
+  },
+  {
+    "lemma": "burst",
+    "pos": "verb",
+    "meaning_th": "ระเบิด"
+  },
+  {
+    "lemma": "burst into",
+    "pos": "noun",
+    "meaning_th": "ระเบิดเข้าไป"
+  }
+]

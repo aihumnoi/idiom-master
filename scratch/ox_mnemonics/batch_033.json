@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "hair",
+    "pos": "noun",
+    "meaning_th": "ผม"
+  },
+  {
+    "lemma": "hairdresser",
+    "pos": "noun",
+    "meaning_th": "ช่างทำผม"
+  },
+  {
+    "lemma": "half",
+    "pos": "noun",
+    "meaning_th": "ครึ่ง"
+  },
+  {
+    "lemma": "hall",
+    "pos": "noun",
+    "meaning_th": "ห้องโถง"
+  },
+  {
+    "lemma": "hammer",
+    "pos": "noun",
+    "meaning_th": "ค้อน"
+  },
+  {
+    "lemma": "hand",
+    "pos": "noun",
+    "meaning_th": "มือ"
+  },
+  {
+    "lemma": "hand back",
+    "pos": "verb",
+    "meaning_th": "ส่งคืนให้เจ้าของเดิม"
+  },
+  {
+    "lemma": "hand down",
+    "pos": "verb",
+    "meaning_th": "ส่งต่อตกทอด (มรดก/ประเพณี)"
+  },
+  {
+    "lemma": "hand in",
+    "pos": "verb",
+    "meaning_th": "ส่งการบ้าน / ยื่นใบลาออก"
+  },
+  {
+    "lemma": "handle",
+    "pos": "noun",
+    "meaning_th": "รับมือ"
+  },
+  {
+    "lemma": "hand out",
+    "pos": "verb",
+    "meaning_th": "แจกเอกสาร / แจกจ่ายสิ่งของ"
+  },
+  {
+    "lemma": "hand over",
+    "pos": "verb",
+    "meaning_th": "ส่งมอบหน้าที่ / ส่งมอบอำนาจ"
+  },
+  {
+    "lemma": "hand round",
+    "pos": "verb",
+    "meaning_th": "มือกลม"
+  },
+  {
+    "lemma": "hang",
+    "pos": "verb",
+    "meaning_th": "แขวน"
+  },
+  {
+    "lemma": "hang about",
+    "pos": "verb",
+    "meaning_th": "เตร็ดเตร่อยู่แถวนั้น"
+  },
+  {
+    "lemma": "hang about with",
+    "pos": "verb",
+    "meaning_th": "ไปเที่ยวกับ"
+  },
+  {
+    "lemma": "hang around",
+    "pos": "verb",
+    "meaning_th": "เตร็ดเตร่ / เดินเล่นรอเวลา"
+  },
+  {
+    "lemma": "hang around with",
+    "pos": "verb",
+    "meaning_th": "ป้วนเปี้ยนกับ"
+  },
+  {
+    "lemma": "hang on",
+    "pos": "verb",
+    "meaning_th": "รอสักครู่ / จับไว้ให้แน่น"
+  },
+  {
+    "lemma": "hang on to",
+    "pos": "verb",
+    "meaning_th": "รอก่อน"
+  },
+  {
+    "lemma": "hang up",
+    "pos": "verb",
+    "meaning_th": "วางสายโทรศัพท์ / แขวนเสื้อผ้า"
+  },
+  {
+    "lemma": "happen",
+    "pos": "verb",
+    "meaning_th": "เกิดขึ้น"
+  },
+  {
+    "lemma": "happen to",
+    "pos": "verb",
+    "meaning_th": "เกิดขึ้นกับ"
+  },
+  {
+    "lemma": "happily",
+    "pos": "adverb",
+    "meaning_th": "อย่างมีความสุข"
+  },
+  {
+    "lemma": "happiness",
+    "pos": "noun",
+    "meaning_th": "ความสุข"
+  },
+  {
+    "lemma": "happy",
+    "pos": "adjective",
+    "meaning_th": "มีความสุข"
+  },
+  {
+    "lemma": "hard",
+    "pos": "adjective",
+    "meaning_th": "แข็ง"
+  },
+  {
+    "lemma": "hardly",
+    "pos": "adverb",
+    "meaning_th": "แทบจะไม่"
+  },
+  {
+    "lemma": "harm",
+    "pos": "noun",
+    "meaning_th": "อันตราย"
+  },
+  {
+    "lemma": "harmful",
+    "pos": "adjective",
+    "meaning_th": "เป็นอันตราย"
+  },
+  {
+    "lemma": "harmless",
+    "pos": "adjective",
+    "meaning_th": "ไม่เป็นอันตราย"
+  },
+  {
+    "lemma": "hat",
+    "pos": "noun",
+    "meaning_th": "หมวก"
+  },
+  {
+    "lemma": "hate",
+    "pos": "verb",
+    "meaning_th": "เกลียด"
+  },
+  {
+    "lemma": "hatred",
+    "pos": "noun",
+    "meaning_th": "ความเกลียดชัง"
+  },
+  {
+    "lemma": "have",
+    "pos": "verb",
+    "meaning_th": "มี"
+  },
+  {
+    "lemma": "have back",
+    "pos": "verb",
+    "meaning_th": "กลับมาแล้ว"
+  },
+  {
+    "lemma": "have on",
+    "pos": "verb",
+    "meaning_th": "มีต่อ"
+  },
+  {
+    "lemma": "have to",
+    "pos": "verb",
+    "meaning_th": "ต้อง"
+  },
+  {
+    "lemma": "he",
+    "pos": "pronoun",
+    "meaning_th": "เขา"
+  },
+  {
+    "lemma": "head",
+    "pos": "noun",
+    "meaning_th": "ศีรษะ"
+  },
+  {
+    "lemma": "headache",
+    "pos": "noun",
+    "meaning_th": "ปวดศีรษะ"
+  },
+  {
+    "lemma": "heal",
+    "pos": "verb",
+    "meaning_th": "รักษา"
+  },
+  {
+    "lemma": "health",
+    "pos": "noun",
+    "meaning_th": "สุขภาพ"
+  },
+  {
+    "lemma": "healthy",
+    "pos": "adjective",
+    "meaning_th": "สุขภาพดี"
+  },
+  {
+    "lemma": "hear",
+    "pos": "verb",
+    "meaning_th": "ได้ยิน"
+  },
+  {
+    "lemma": "hear from",
+    "pos": "verb",
+    "meaning_th": "ได้รับการติดต่อจาก (ข้อความ/โทรศัพท์)"
+  },
+  {
+    "lemma": "hearing",
+    "pos": "noun",
+    "meaning_th": "การได้ยิน"
+  },
+  {
+    "lemma": "hear of",
+    "pos": "verb",
+    "meaning_th": "เคยได้ยินชื่อ / ทราบข่าวเกี่ยวกับ"
+  },
+  {
+    "lemma": "heart",
+    "pos": "noun",
+    "meaning_th": "หัวใจ"
+  },
+  {
+    "lemma": "heat",
+    "pos": "noun",
+    "meaning_th": "ความร้อน"
+  }
+]

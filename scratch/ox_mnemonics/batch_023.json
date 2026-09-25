@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "during",
+    "pos": "preposition",
+    "meaning_th": "ในระหว่าง"
+  },
+  {
+    "lemma": "dust",
+    "pos": "noun",
+    "meaning_th": "ฝุ่น"
+  },
+  {
+    "lemma": "duty",
+    "pos": "noun",
+    "meaning_th": "หน้าที่"
+  },
+  {
+    "lemma": "DVD",
+    "pos": "noun",
+    "meaning_th": "ดีวีดี"
+  },
+  {
+    "lemma": "dying",
+    "pos": "adjective",
+    "meaning_th": "กำลังจะตาย"
+  },
+  {
+    "lemma": "each",
+    "pos": "adjective",
+    "meaning_th": "แต่ละ"
+  },
+  {
+    "lemma": "each other",
+    "pos": "pronoun",
+    "meaning_th": "กันและกัน"
+  },
+  {
+    "lemma": "ear",
+    "pos": "noun",
+    "meaning_th": "หู"
+  },
+  {
+    "lemma": "early",
+    "pos": "adjective",
+    "meaning_th": "แต่เช้า / ก่อนเวลา / แต่เนิ่นๆ"
+  },
+  {
+    "lemma": "earn",
+    "pos": "verb",
+    "meaning_th": "ได้รับ"
+  },
+  {
+    "lemma": "earth",
+    "pos": "noun",
+    "meaning_th": "โลก"
+  },
+  {
+    "lemma": "ease",
+    "pos": "verb",
+    "meaning_th": "ผ่อนปรน"
+  },
+  {
+    "lemma": "easily",
+    "pos": "adverb",
+    "meaning_th": "อย่างง่ายดาย"
+  },
+  {
+    "lemma": "east",
+    "pos": "noun",
+    "meaning_th": "ทิศตะวันออก"
+  },
+  {
+    "lemma": "eastern",
+    "pos": "adjective",
+    "meaning_th": "ตะวันออก"
+  },
+  {
+    "lemma": "easy",
+    "pos": "adjective",
+    "meaning_th": "ง่าย"
+  },
+  {
+    "lemma": "eat",
+    "pos": "verb",
+    "meaning_th": "กิน"
+  },
+  {
+    "lemma": "eat out",
+    "pos": "verb",
+    "meaning_th": "ไปทานข้าวนอกบ้าน"
+  },
+  {
+    "lemma": "eat up",
+    "pos": "verb",
+    "meaning_th": "กินให้หมดเกลี้ยง"
+  },
+  {
+    "lemma": "economic",
+    "pos": "adjective",
+    "meaning_th": "ทางเศรษฐกิจ"
+  },
+  {
+    "lemma": "economy",
+    "pos": "noun",
+    "meaning_th": "เศรษฐกิจ"
+  },
+  {
+    "lemma": "edge",
+    "pos": "noun",
+    "meaning_th": "ขอบ"
+  },
+  {
+    "lemma": "edition",
+    "pos": "noun",
+    "meaning_th": "ฉบับ"
+  },
+  {
+    "lemma": "editor",
+    "pos": "noun",
+    "meaning_th": "บรรณาธิการ"
+  },
+  {
+    "lemma": "educate",
+    "pos": "verb",
+    "meaning_th": "ให้ความรู้"
+  },
+  {
+    "lemma": "educated",
+    "pos": "adjective",
+    "meaning_th": "มีการศึกษา"
+  },
+  {
+    "lemma": "education",
+    "pos": "noun",
+    "meaning_th": "การศึกษา"
+  },
+  {
+    "lemma": "effect",
+    "pos": "noun",
+    "meaning_th": "ผล"
+  },
+  {
+    "lemma": "effective",
+    "pos": "adjective",
+    "meaning_th": "มีประสิทธิภาพ"
+  },
+  {
+    "lemma": "effectively",
+    "pos": "adverb",
+    "meaning_th": "อย่างมีประสิทธิภาพ"
+  },
+  {
+    "lemma": "efficient",
+    "pos": "adjective",
+    "meaning_th": "มีประสิทธิภาพ"
+  },
+  {
+    "lemma": "efficiently",
+    "pos": "adverb",
+    "meaning_th": "อย่างมีประสิทธิภาพ"
+  },
+  {
+    "lemma": "effort",
+    "pos": "noun",
+    "meaning_th": "ความพยายาม"
+  },
+  {
+    "lemma": "e.g.",
+    "pos": "other",
+    "meaning_th": "เช่น"
+  },
+  {
+    "lemma": "egg",
+    "pos": "noun",
+    "meaning_th": "ไข่"
+  },
+  {
+    "lemma": "eight",
+    "pos": "noun",
+    "meaning_th": "แปด"
+  },
+  {
+    "lemma": "eighteen",
+    "pos": "noun",
+    "meaning_th": "สิบแปด"
+  },
+  {
+    "lemma": "eighteenth",
+    "pos": "adjective",
+    "meaning_th": "ที่สิบแปด"
+  },
+  {
+    "lemma": "eighth",
+    "pos": "adjective",
+    "meaning_th": "ที่แปด"
+  },
+  {
+    "lemma": "eightieth",
+    "pos": "adjective",
+    "meaning_th": "ที่แปดสิบ"
+  },
+  {
+    "lemma": "eighty",
+    "pos": "noun",
+    "meaning_th": "แปดสิบ"
+  },
+  {
+    "lemma": "either",
+    "pos": "conjunction",
+    "meaning_th": "ทั้ง"
+  },
+  {
+    "lemma": "elbow",
+    "pos": "noun",
+    "meaning_th": "ข้อศอก"
+  },
+  {
+    "lemma": "elderly",
+    "pos": "adjective",
+    "meaning_th": "ผู้สูงอายุ"
+  },
+  {
+    "lemma": "elect",
+    "pos": "verb",
+    "meaning_th": "เลือก"
+  },
+  {
+    "lemma": "election",
+    "pos": "noun",
+    "meaning_th": "การเลือกตั้ง"
+  },
+  {
+    "lemma": "electric",
+    "pos": "adjective",
+    "meaning_th": "ไฟฟ้า"
+  },
+  {
+    "lemma": "electrical",
+    "pos": "adjective",
+    "meaning_th": "ไฟฟ้า"
+  },
+  {
+    "lemma": "electricity",
+    "pos": "noun",
+    "meaning_th": "ไฟฟ้า"
+  },
+  {
+    "lemma": "electronic",
+    "pos": "adjective",
+    "meaning_th": "อิเล็กทรอนิกส์"
+  }
+]

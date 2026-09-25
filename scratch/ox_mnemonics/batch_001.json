@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "perspective",
+    "pos": "noun",
+    "meaning_th": "มุมมอง"
+  },
+  {
+    "lemma": "qualify",
+    "pos": "verb",
+    "meaning_th": "มีคุณสมบัติ"
+  },
+  {
+    "lemma": "resolve",
+    "pos": "verb",
+    "meaning_th": "แก้ไข"
+  },
+  {
+    "lemma": "strategy",
+    "pos": "noun",
+    "meaning_th": "กลยุทธ์"
+  },
+  {
+    "lemma": "transform",
+    "pos": "verb",
+    "meaning_th": "เปลี่ยนแปลง"
+  },
+  {
+    "lemma": "utilize",
+    "pos": "verb",
+    "meaning_th": "ใช้ประโยชน์"
+  },
+  {
+    "lemma": "valid",
+    "pos": "adjective",
+    "meaning_th": "ถูกต้อง"
+  },
+  {
+    "lemma": "witness",
+    "pos": "noun",
+    "meaning_th": "พยาน"
+  },
+  {
+    "lemma": "yield",
+    "pos": "verb",
+    "meaning_th": "ให้ผลผลิต"
+  },
+  {
+    "lemma": "diverse",
+    "pos": "adjective",
+    "meaning_th": "หลากหลาย"
+  },
+  {
+    "lemma": "establish",
+    "pos": "verb",
+    "meaning_th": "ก่อตั้ง"
+  },
+  {
+    "lemma": "facilitate",
+    "pos": "verb",
+    "meaning_th": "อำนวยความสะดวก"
+  },
+  {
+    "lemma": "interpret",
+    "pos": "verb",
+    "meaning_th": "ตีความ"
+  },
+  {
+    "lemma": "motivate",
+    "pos": "verb",
+    "meaning_th": "กระตุ้น"
+  },
+  {
+    "lemma": "obtain",
+    "pos": "verb",
+    "meaning_th": "ได้รับ"
+  },
+  {
+    "lemma": "participate",
+    "pos": "verb",
+    "meaning_th": "เข้าร่วม"
+  },
+  {
+    "lemma": "require",
+    "pos": "verb",
+    "meaning_th": "ต้องการ"
+  },
+  {
+    "lemma": "sustain",
+    "pos": "verb",
+    "meaning_th": "คงไว้"
+  },
+  {
+    "lemma": "tradition",
+    "pos": "noun",
+    "meaning_th": "ประเพณี"
+  },
+  {
+    "lemma": "undertake",
+    "pos": "verb",
+    "meaning_th": "ดำเนินการ"
+  },
+  {
+    "lemma": "volunteer",
+    "pos": "verb",
+    "meaning_th": "อาสาสมัคร"
+  },
+  {
+    "lemma": "welfare",
+    "pos": "noun",
+    "meaning_th": "สวัสดิการ"
+  },
+  {
+    "lemma": "allocate",
+    "pos": "verb",
+    "meaning_th": "จัดสรร"
+  },
+  {
+    "lemma": "compensate",
+    "pos": "verb",
+    "meaning_th": "ชดเชย"
+  },
+  {
+    "lemma": "derive",
+    "pos": "verb",
+    "meaning_th": "ได้มา"
+  },
+  {
+    "lemma": "encounter",
+    "pos": "verb",
+    "meaning_th": "พบเจอ"
+  },
+  {
+    "lemma": "fluctuate",
+    "pos": "verb",
+    "meaning_th": "ผันผวน"
+  },
+  {
+    "lemma": "guarantee",
+    "pos": "noun",
+    "meaning_th": "รับประกัน"
+  },
+  {
+    "lemma": "highlight",
+    "pos": "verb",
+    "meaning_th": "เน้นย้ำ"
+  },
+  {
+    "lemma": "implement",
+    "pos": "verb",
+    "meaning_th": "นำไปใช้"
+  },
+  {
+    "lemma": "legislate",
+    "pos": "verb",
+    "meaning_th": "ออกกฎหมาย"
+  },
+  {
+    "lemma": "mediate",
+    "pos": "verb",
+    "meaning_th": "ไกล่เกลี่ย"
+  },
+  {
+    "lemma": "navigate",
+    "pos": "verb",
+    "meaning_th": "นำทาง"
+  },
+  {
+    "lemma": "optimize",
+    "pos": "verb",
+    "meaning_th": "เพิ่มประสิทธิภาพสูงสุด"
+  },
+  {
+    "lemma": "predict",
+    "pos": "verb",
+    "meaning_th": "คาดการณ์"
+  },
+  {
+    "lemma": "regulate",
+    "pos": "verb",
+    "meaning_th": "ควบคุม"
+  },
+  {
+    "lemma": "simulate",
+    "pos": "verb",
+    "meaning_th": "จำลอง"
+  },
+  {
+    "lemma": "tolerate",
+    "pos": "verb",
+    "meaning_th": "อดทน"
+  },
+  {
+    "lemma": "undermine",
+    "pos": "verb",
+    "meaning_th": "บ่อนทำลาย"
+  },
+  {
+    "lemma": "verify",
+    "pos": "verb",
+    "meaning_th": "ตรวจสอบ"
+  },
+  {
+    "lemma": "abundant",
+    "pos": "adjective",
+    "meaning_th": "อุดมสมบูรณ์"
+  },
+  {
+    "lemma": "coherent",
+    "pos": "adjective",
+    "meaning_th": "สอดคล้อง"
+  },
+  {
+    "lemma": "dominant",
+    "pos": "adjective",
+    "meaning_th": "เด่น"
+  },
+  {
+    "lemma": "elaborate",
+    "pos": "adjective",
+    "meaning_th": "อธิบายละเอียด"
+  },
+  {
+    "lemma": "feasible",
+    "pos": "adjective",
+    "meaning_th": "เป็นไปได้"
+  },
+  {
+    "lemma": "innovative",
+    "pos": "adjective",
+    "meaning_th": "สร้างสรรค์"
+  },
+  {
+    "lemma": "notion",
+    "pos": "noun",
+    "meaning_th": "แนวคิด"
+  },
+  {
+    "lemma": "paradigm",
+    "pos": "noun",
+    "meaning_th": "กระบวนทัศน์"
+  },
+  {
+    "lemma": "reluctant",
+    "pos": "adjective",
+    "meaning_th": "ลังเล"
+  },
+  {
+    "lemma": "substantial",
+    "pos": "adjective",
+    "meaning_th": "จำนวนมาก"
+  }
+]

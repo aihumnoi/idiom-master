@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "geography",
+    "pos": "noun",
+    "meaning_th": "ภูมิศาสตร์"
+  },
+  {
+    "lemma": "get",
+    "pos": "verb",
+    "meaning_th": "รับ"
+  },
+  {
+    "lemma": "get away",
+    "pos": "verb",
+    "meaning_th": "หลบหนีไป / ไปพักผ่อนวันหยุด"
+  },
+  {
+    "lemma": "get away with",
+    "pos": "verb",
+    "meaning_th": "รอดพ้นความผิด / ทำผิดแล้วไม่โดนลงโทษ"
+  },
+  {
+    "lemma": "get back",
+    "pos": "verb",
+    "meaning_th": "กลับมา / ได้คืนมา"
+  },
+  {
+    "lemma": "get by",
+    "pos": "verb",
+    "meaning_th": "อยู่รอดได้ / ประทังชีวิตได้ด้วยเงินที่มี"
+  },
+  {
+    "lemma": "get in",
+    "pos": "verb",
+    "meaning_th": "ขึ้นรถ (เก๋ง/แท็กซี่) / ถึงที่หมาย"
+  },
+  {
+    "lemma": "get into",
+    "pos": "verb",
+    "meaning_th": "สอบเข้าได้ / สนใจในเรื่อง"
+  },
+  {
+    "lemma": "get off",
+    "pos": "verb",
+    "meaning_th": "ลงจากรถ (เมล์/ไฟ/เครื่องบิน) / เลิกงาน"
+  },
+  {
+    "lemma": "get on",
+    "pos": "verb",
+    "meaning_th": "ขึ้นรถ (เมล์/ไฟ/เครื่องบิน) / เข้ากันได้ดี"
+  },
+  {
+    "lemma": "get on with",
+    "pos": "verb",
+    "meaning_th": "เข้ากันได้ดีกับ / ก้มหน้าก้มตาทำงานต่อ"
+  },
+  {
+    "lemma": "get out of",
+    "pos": "verb",
+    "meaning_th": "ลงจากรถเก๋ง / หลีกเลี่ยงความรับผิดชอบ"
+  },
+  {
+    "lemma": "get over",
+    "pos": "verb",
+    "meaning_th": "หายจากอาการป่วย / ทำใจได้ / ก้าวข้ามผ่าน"
+  },
+  {
+    "lemma": "get round",
+    "pos": "verb",
+    "meaning_th": "เดินทางไปรอบๆ / โน้มน้าวใจ"
+  },
+  {
+    "lemma": "get round to",
+    "pos": "verb",
+    "meaning_th": "หาเวลาทำจนได้ / ปลีกเวลามาทำ"
+  },
+  {
+    "lemma": "get through",
+    "pos": "verb",
+    "meaning_th": "ติดต่อทางโทรศัพท์ได้ / ผ่านพ้นอุปสรรคไปได้"
+  },
+  {
+    "lemma": "get up",
+    "pos": "verb",
+    "meaning_th": "ตื่นนอน / ลุกขึ้นยืน"
+  },
+  {
+    "lemma": "giant",
+    "pos": "noun",
+    "meaning_th": "ยักษ์"
+  },
+  {
+    "lemma": "gift",
+    "pos": "noun",
+    "meaning_th": "ของขวัญ"
+  },
+  {
+    "lemma": "girl",
+    "pos": "noun",
+    "meaning_th": "สาว"
+  },
+  {
+    "lemma": "girlfriend",
+    "pos": "noun",
+    "meaning_th": "แฟน"
+  },
+  {
+    "lemma": "give",
+    "pos": "verb",
+    "meaning_th": "ให้"
+  },
+  {
+    "lemma": "give away",
+    "pos": "verb",
+    "meaning_th": "แจกฟรี / เผลอเปิดเผยความลับ"
+  },
+  {
+    "lemma": "give back",
+    "pos": "verb",
+    "meaning_th": "คืนสิ่งของให้เจ้าของ"
+  },
+  {
+    "lemma": "give in",
+    "pos": "verb",
+    "meaning_th": "ยอมจำนน / ยอมแพ้ต่อข้อเรียกร้อง"
+  },
+  {
+    "lemma": "give off",
+    "pos": "verb",
+    "meaning_th": "ส่งกลิ่น / แผ่ความร้อนหรือควันออกมา"
+  },
+  {
+    "lemma": "give out",
+    "pos": "verb",
+    "meaning_th": "แจกจ่าย / หมดแรงพังลง"
+  },
+  {
+    "lemma": "give up",
+    "pos": "verb",
+    "meaning_th": "ยอมแพ้ / ละทิ้งความพยายาม / เลิก (บุหรี่/สุรา)"
+  },
+  {
+    "lemma": "glad",
+    "pos": "adjective",
+    "meaning_th": "ยินดี"
+  },
+  {
+    "lemma": "glass",
+    "pos": "noun",
+    "meaning_th": "กระจก"
+  },
+  {
+    "lemma": "global",
+    "pos": "adjective",
+    "meaning_th": "ทั่วโลก"
+  },
+  {
+    "lemma": "glove",
+    "pos": "noun",
+    "meaning_th": "ถุงมือ"
+  },
+  {
+    "lemma": "glue",
+    "pos": "noun",
+    "meaning_th": "กาว"
+  },
+  {
+    "lemma": "go",
+    "pos": "verb",
+    "meaning_th": "ไป"
+  },
+  {
+    "lemma": "go ahead",
+    "pos": "verb",
+    "meaning_th": "ลงมือทำได้เลย / เชิญก่อนเลย"
+  },
+  {
+    "lemma": "goal",
+    "pos": "noun",
+    "meaning_th": "เป้าหมาย"
+  },
+  {
+    "lemma": "go away",
+    "pos": "verb",
+    "meaning_th": "ออกไปให้พ้น / หายไป (อาการป่วย)"
+  },
+  {
+    "lemma": "go back",
+    "pos": "verb",
+    "meaning_th": "กลับไป"
+  },
+  {
+    "lemma": "go back to",
+    "pos": "verb",
+    "meaning_th": "กลับไปสู่ / ย้อนกลับไปที่"
+  },
+  {
+    "lemma": "go by",
+    "pos": "verb",
+    "meaning_th": "(เวลา) ล่วงเลยผ่านไป / ยึดถือตาม"
+  },
+  {
+    "lemma": "god",
+    "pos": "noun",
+    "meaning_th": "พระเจ้า"
+  },
+  {
+    "lemma": "go down",
+    "pos": "verb",
+    "meaning_th": "ลดลง (ราคา/อุณหภูมิ) / พระอาทิตย์ตก"
+  },
+  {
+    "lemma": "go into",
+    "pos": "verb",
+    "meaning_th": "อธิบายอย่างละเอียด / เริ่มเข้าสู่อาชีพ"
+  },
+  {
+    "lemma": "gold",
+    "pos": "noun",
+    "meaning_th": "ทอง"
+  },
+  {
+    "lemma": "good",
+    "pos": "adjective",
+    "meaning_th": "ดี"
+  },
+  {
+    "lemma": "goodbye",
+    "pos": "noun",
+    "meaning_th": "ลาก่อน"
+  },
+  {
+    "lemma": "goods",
+    "pos": "noun",
+    "meaning_th": "สินค้า"
+  },
+  {
+    "lemma": "go off",
+    "pos": "verb",
+    "meaning_th": "ส่งเสียงเตือน (นาฬิกาปลุก) / ระเบิด / (อาหาร) เน่าเสีย"
+  },
+  {
+    "lemma": "go on",
+    "pos": "verb",
+    "meaning_th": "ดำเนินต่อไป / เกิดอะไรขึ้น"
+  },
+  {
+    "lemma": "go on doing",
+    "pos": "verb",
+    "meaning_th": "ทำสิ่งนั้นต่อไปไม่หยุด"
+  }
+]

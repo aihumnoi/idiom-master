@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "put forward",
+    "pos": "verb",
+    "meaning_th": "เสนอแนวคิด / เสนอชื่อ"
+  },
+  {
+    "lemma": "put in",
+    "pos": "verb",
+    "meaning_th": "ทุ่มเทเวลา / ยื่นคำร้อง"
+  },
+  {
+    "lemma": "put off",
+    "pos": "verb",
+    "meaning_th": "เลื่อนออกไป / ทำให้หมดอารมณ์หรือรังเกียจ"
+  },
+  {
+    "lemma": "put on",
+    "pos": "verb",
+    "meaning_th": "สวมใส่เสื้อผ้า / เปิด (เพลง/ไฟ) / แกล้งทำ"
+  },
+  {
+    "lemma": "put out",
+    "pos": "verb",
+    "meaning_th": "ดับ (ไฟ/บุหรี่) / สร้างความไม่สะดวกให้คนอื่น"
+  },
+  {
+    "lemma": "put through",
+    "pos": "verb",
+    "meaning_th": "โอนสายโทรศัพท์ให้ / ส่งเสียให้เรียน"
+  },
+  {
+    "lemma": "put together",
+    "pos": "verb",
+    "meaning_th": "ประกอบชิ้นส่วน / รวบรวมข้อมูล"
+  },
+  {
+    "lemma": "put up",
+    "pos": "verb",
+    "meaning_th": "ติดป้ายประกาศ / สร้าง / ให้ที่พักอาศัย"
+  },
+  {
+    "lemma": "put up with",
+    "pos": "verb",
+    "meaning_th": "อดทนกับ / ทนรับสภาพ"
+  },
+  {
+    "lemma": "qualification",
+    "pos": "noun",
+    "meaning_th": "คุณสมบัติ"
+  },
+  {
+    "lemma": "qualified",
+    "pos": "adjective",
+    "meaning_th": "ผ่านการรับรอง"
+  },
+  {
+    "lemma": "quality",
+    "pos": "noun",
+    "meaning_th": "คุณภาพ"
+  },
+  {
+    "lemma": "quantity",
+    "pos": "noun",
+    "meaning_th": "ปริมาณ"
+  },
+  {
+    "lemma": "quarter",
+    "pos": "noun",
+    "meaning_th": "หนึ่งในสี่"
+  },
+  {
+    "lemma": "queen",
+    "pos": "noun",
+    "meaning_th": "ราชินี"
+  },
+  {
+    "lemma": "question",
+    "pos": "noun",
+    "meaning_th": "คำถาม"
+  },
+  {
+    "lemma": "quick",
+    "pos": "adjective",
+    "meaning_th": "เร็ว"
+  },
+  {
+    "lemma": "quickly",
+    "pos": "adverb",
+    "meaning_th": "อย่างรวดเร็ว"
+  },
+  {
+    "lemma": "quiet",
+    "pos": "adjective",
+    "meaning_th": "เงียบ"
+  },
+  {
+    "lemma": "quietly",
+    "pos": "adverb",
+    "meaning_th": "อย่างเงียบ ๆ"
+  },
+  {
+    "lemma": "quit",
+    "pos": "verb",
+    "meaning_th": "ล้มเลิก"
+  },
+  {
+    "lemma": "quite",
+    "pos": "adverb",
+    "meaning_th": "ค่อนข้าง"
+  },
+  {
+    "lemma": "quote",
+    "pos": "verb",
+    "meaning_th": "อ้าง"
+  },
+  {
+    "lemma": "race",
+    "pos": "noun",
+    "meaning_th": "แข่ง"
+  },
+  {
+    "lemma": "racing",
+    "pos": "noun",
+    "meaning_th": "การแข่งรถ"
+  },
+  {
+    "lemma": "radio",
+    "pos": "noun",
+    "meaning_th": "วิทยุ"
+  },
+  {
+    "lemma": "rail",
+    "pos": "noun",
+    "meaning_th": "ทางรถไฟ"
+  },
+  {
+    "lemma": "railroad",
+    "pos": "noun",
+    "meaning_th": "ทางรถไฟ"
+  },
+  {
+    "lemma": "railway",
+    "pos": "noun",
+    "meaning_th": "ทางรถไฟ"
+  },
+  {
+    "lemma": "rain",
+    "pos": "noun",
+    "meaning_th": "ฝน"
+  },
+  {
+    "lemma": "raise",
+    "pos": "verb",
+    "meaning_th": "ยก"
+  },
+  {
+    "lemma": "range",
+    "pos": "noun",
+    "meaning_th": "พิสัย"
+  },
+  {
+    "lemma": "rank",
+    "pos": "noun",
+    "meaning_th": "อันดับ"
+  },
+  {
+    "lemma": "rapid",
+    "pos": "adjective",
+    "meaning_th": "รวดเร็ว"
+  },
+  {
+    "lemma": "rapidly",
+    "pos": "adverb",
+    "meaning_th": "อย่างรวดเร็ว"
+  },
+  {
+    "lemma": "rare",
+    "pos": "adjective",
+    "meaning_th": "หายาก"
+  },
+  {
+    "lemma": "rarely",
+    "pos": "adverb",
+    "meaning_th": "นานๆ ครั้ง"
+  },
+  {
+    "lemma": "rate",
+    "pos": "noun",
+    "meaning_th": "ประเมิน"
+  },
+  {
+    "lemma": "rather",
+    "pos": "adverb",
+    "meaning_th": "ค่อนข้าง"
+  },
+  {
+    "lemma": "raw",
+    "pos": "adjective",
+    "meaning_th": "ดิบ"
+  },
+  {
+    "lemma": "re-",
+    "pos": "other",
+    "meaning_th": "อีกครั้ง-"
+  },
+  {
+    "lemma": "reach",
+    "pos": "verb",
+    "meaning_th": "เข้าถึง"
+  },
+  {
+    "lemma": "react",
+    "pos": "verb",
+    "meaning_th": "ตอบสนอง"
+  },
+  {
+    "lemma": "reaction",
+    "pos": "noun",
+    "meaning_th": "ปฏิกิริยา"
+  },
+  {
+    "lemma": "read",
+    "pos": "verb",
+    "meaning_th": "อ่าน"
+  },
+  {
+    "lemma": "reader",
+    "pos": "noun",
+    "meaning_th": "ผู้อ่าน"
+  },
+  {
+    "lemma": "reading",
+    "pos": "noun",
+    "meaning_th": "การอ่าน"
+  },
+  {
+    "lemma": "read out",
+    "pos": "verb",
+    "meaning_th": "อ่านออก"
+  },
+  {
+    "lemma": "read over",
+    "pos": "verb",
+    "meaning_th": "อ่านจบ"
+  },
+  {
+    "lemma": "ready",
+    "pos": "adjective",
+    "meaning_th": "พร้อม"
+  }
+]

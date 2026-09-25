@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "elegant",
+    "pos": "adjective",
+    "meaning_th": "สง่างาม"
+  },
+  {
+    "lemma": "element",
+    "pos": "noun",
+    "meaning_th": "องค์ประกอบ"
+  },
+  {
+    "lemma": "elevator",
+    "pos": "noun",
+    "meaning_th": "ลิฟต์"
+  },
+  {
+    "lemma": "eleven",
+    "pos": "noun",
+    "meaning_th": "สิบเอ็ด"
+  },
+  {
+    "lemma": "eleventh",
+    "pos": "adjective",
+    "meaning_th": "ที่สิบเอ็ด"
+  },
+  {
+    "lemma": "else",
+    "pos": "adjective",
+    "meaning_th": "อื่น"
+  },
+  {
+    "lemma": "elsewhere",
+    "pos": "adverb",
+    "meaning_th": "ที่อื่น"
+  },
+  {
+    "lemma": "email",
+    "pos": "noun",
+    "meaning_th": "อีเมล"
+  },
+  {
+    "lemma": "embarrass",
+    "pos": "verb",
+    "meaning_th": "อับอาย"
+  },
+  {
+    "lemma": "embarrassed",
+    "pos": "adjective",
+    "meaning_th": "เขินอาย"
+  },
+  {
+    "lemma": "embarrassing",
+    "pos": "adjective",
+    "meaning_th": "น่าอาย"
+  },
+  {
+    "lemma": "embarrassment",
+    "pos": "noun",
+    "meaning_th": "ความลำบากใจ"
+  },
+  {
+    "lemma": "emerge",
+    "pos": "verb",
+    "meaning_th": "โผล่ออกมา"
+  },
+  {
+    "lemma": "emergency",
+    "pos": "noun",
+    "meaning_th": "ภาวะฉุกเฉิน"
+  },
+  {
+    "lemma": "emotion",
+    "pos": "noun",
+    "meaning_th": "อารมณ์"
+  },
+  {
+    "lemma": "emotional",
+    "pos": "adjective",
+    "meaning_th": "ทางอารมณ์"
+  },
+  {
+    "lemma": "emotionally",
+    "pos": "adverb",
+    "meaning_th": "อารมณ์"
+  },
+  {
+    "lemma": "emphasis",
+    "pos": "noun",
+    "meaning_th": "เน้น"
+  },
+  {
+    "lemma": "emphasize",
+    "pos": "verb",
+    "meaning_th": "เน้นย้ำ"
+  },
+  {
+    "lemma": "empire",
+    "pos": "noun",
+    "meaning_th": "จักรวรรดิ"
+  },
+  {
+    "lemma": "employ",
+    "pos": "verb",
+    "meaning_th": "จ้าง"
+  },
+  {
+    "lemma": "employee",
+    "pos": "noun",
+    "meaning_th": "พนักงาน"
+  },
+  {
+    "lemma": "employer",
+    "pos": "noun",
+    "meaning_th": "นายจ้าง"
+  },
+  {
+    "lemma": "employment",
+    "pos": "noun",
+    "meaning_th": "การจ้างงาน"
+  },
+  {
+    "lemma": "empty",
+    "pos": "adjective",
+    "meaning_th": "ว่างเปล่า"
+  },
+  {
+    "lemma": "enable",
+    "pos": "verb",
+    "meaning_th": "เปิดใช้งาน"
+  },
+  {
+    "lemma": "encourage",
+    "pos": "verb",
+    "meaning_th": "ให้กำลังใจ"
+  },
+  {
+    "lemma": "encouragement",
+    "pos": "noun",
+    "meaning_th": "กำลังใจ"
+  },
+  {
+    "lemma": "end",
+    "pos": "noun",
+    "meaning_th": "จบ"
+  },
+  {
+    "lemma": "end in",
+    "pos": "noun",
+    "meaning_th": "ลงเอยด้วย / จบลงด้วย"
+  },
+  {
+    "lemma": "ending",
+    "pos": "noun",
+    "meaning_th": "สิ้นสุด"
+  },
+  {
+    "lemma": "end up",
+    "pos": "verb",
+    "meaning_th": "ลงเอยด้วย / ในที่สุดก็กลายเป็น"
+  },
+  {
+    "lemma": "enemy",
+    "pos": "noun",
+    "meaning_th": "ศัตรู"
+  },
+  {
+    "lemma": "energy",
+    "pos": "noun",
+    "meaning_th": "พลังงาน"
+  },
+  {
+    "lemma": "engage",
+    "pos": "verb",
+    "meaning_th": "หมั้น"
+  },
+  {
+    "lemma": "engaged",
+    "pos": "adjective",
+    "meaning_th": "มีส่วนร่วม"
+  },
+  {
+    "lemma": "engine",
+    "pos": "noun",
+    "meaning_th": "เครื่องยนต์"
+  },
+  {
+    "lemma": "engineer",
+    "pos": "noun",
+    "meaning_th": "วิศวกร"
+  },
+  {
+    "lemma": "engineering",
+    "pos": "noun",
+    "meaning_th": "วิศวกรรม"
+  },
+  {
+    "lemma": "enjoy",
+    "pos": "verb",
+    "meaning_th": "สนุก"
+  },
+  {
+    "lemma": "enjoyable",
+    "pos": "adjective",
+    "meaning_th": "สนุกสนาน"
+  },
+  {
+    "lemma": "enjoyment",
+    "pos": "noun",
+    "meaning_th": "ความเพลิดเพลิน"
+  },
+  {
+    "lemma": "enormous",
+    "pos": "adjective",
+    "meaning_th": "มหาศาล"
+  },
+  {
+    "lemma": "enough",
+    "pos": "adjective",
+    "meaning_th": "เพียงพอ"
+  },
+  {
+    "lemma": "enquiry",
+    "pos": "noun",
+    "meaning_th": "สอบถามรายละเอียดเพิ่มเติม"
+  },
+  {
+    "lemma": "ensure",
+    "pos": "verb",
+    "meaning_th": "ทำให้มั่นใจ"
+  },
+  {
+    "lemma": "enter",
+    "pos": "verb",
+    "meaning_th": "เข้า"
+  },
+  {
+    "lemma": "entertain",
+    "pos": "verb",
+    "meaning_th": "ความบันเทิง"
+  },
+  {
+    "lemma": "entertainer",
+    "pos": "noun",
+    "meaning_th": "ผู้ให้ความบันเทิง"
+  },
+  {
+    "lemma": "entertaining",
+    "pos": "adjective",
+    "meaning_th": "สนุกสนาน"
+  }
+]

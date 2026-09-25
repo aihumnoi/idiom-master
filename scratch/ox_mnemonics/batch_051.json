@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "pink",
+    "pos": "adjective",
+    "meaning_th": "สีชมพู"
+  },
+  {
+    "lemma": "pint",
+    "pos": "noun",
+    "meaning_th": "ไพน์"
+  },
+  {
+    "lemma": "pipe",
+    "pos": "noun",
+    "meaning_th": "ท่อ"
+  },
+  {
+    "lemma": "pitch",
+    "pos": "noun",
+    "meaning_th": "ขว้าง"
+  },
+  {
+    "lemma": "pity",
+    "pos": "noun",
+    "meaning_th": "สงสาร"
+  },
+  {
+    "lemma": "place",
+    "pos": "noun",
+    "meaning_th": "สถานที่"
+  },
+  {
+    "lemma": "plain",
+    "pos": "adjective",
+    "meaning_th": "ธรรมดา"
+  },
+  {
+    "lemma": "plan",
+    "pos": "noun",
+    "meaning_th": "วางแผน"
+  },
+  {
+    "lemma": "plane",
+    "pos": "noun",
+    "meaning_th": "เครื่องบิน"
+  },
+  {
+    "lemma": "planet",
+    "pos": "noun",
+    "meaning_th": "ดาวเคราะห์"
+  },
+  {
+    "lemma": "planning",
+    "pos": "noun",
+    "meaning_th": "การวางแผน"
+  },
+  {
+    "lemma": "plant",
+    "pos": "noun",
+    "meaning_th": "ปลูก"
+  },
+  {
+    "lemma": "plastic",
+    "pos": "noun",
+    "meaning_th": "พลาสติก"
+  },
+  {
+    "lemma": "plate",
+    "pos": "noun",
+    "meaning_th": "จาน"
+  },
+  {
+    "lemma": "platform",
+    "pos": "noun",
+    "meaning_th": "แพลตฟอร์ม"
+  },
+  {
+    "lemma": "play",
+    "pos": "verb",
+    "meaning_th": "เล่น"
+  },
+  {
+    "lemma": "play about",
+    "pos": "verb",
+    "meaning_th": "เล่นเกี่ยวกับ"
+  },
+  {
+    "lemma": "player",
+    "pos": "noun",
+    "meaning_th": "ผู้เล่น"
+  },
+  {
+    "lemma": "play with",
+    "pos": "verb",
+    "meaning_th": "เล่นกับ"
+  },
+  {
+    "lemma": "pleasant",
+    "pos": "adjective",
+    "meaning_th": "เพลิดเพลิน"
+  },
+  {
+    "lemma": "pleasantly",
+    "pos": "adjective",
+    "meaning_th": "อย่างน่ารื่นรมย์ / อย่างเป็นกันเอง"
+  },
+  {
+    "lemma": "please",
+    "pos": "verb",
+    "meaning_th": "โปรด"
+  },
+  {
+    "lemma": "pleased",
+    "pos": "verb",
+    "meaning_th": "พึงพอใจ"
+  },
+  {
+    "lemma": "pleasing",
+    "pos": "verb",
+    "meaning_th": "น่ายินดี"
+  },
+  {
+    "lemma": "pleasure",
+    "pos": "noun",
+    "meaning_th": "ความพึงพอใจ"
+  },
+  {
+    "lemma": "plenty",
+    "pos": "noun",
+    "meaning_th": "มากมาย"
+  },
+  {
+    "lemma": "plot",
+    "pos": "noun",
+    "meaning_th": "พล็อต"
+  },
+  {
+    "lemma": "plug",
+    "pos": "noun",
+    "meaning_th": "ปลั๊ก"
+  },
+  {
+    "lemma": "plug in",
+    "pos": "verb",
+    "meaning_th": "เสียบปลั๊ก"
+  },
+  {
+    "lemma": "plus 1",
+    "pos": "preposition",
+    "meaning_th": "บวก / รวมทั้ง / เครื่องหมายบวก"
+  },
+  {
+    "lemma": "p.m.",
+    "pos": "other",
+    "meaning_th": "บ่าย"
+  },
+  {
+    "lemma": "pocket",
+    "pos": "noun",
+    "meaning_th": "กระเป๋า"
+  },
+  {
+    "lemma": "poem",
+    "pos": "noun",
+    "meaning_th": "บทกวี"
+  },
+  {
+    "lemma": "poetry",
+    "pos": "noun",
+    "meaning_th": "บทกวี"
+  },
+  {
+    "lemma": "point",
+    "pos": "noun",
+    "meaning_th": "จุด"
+  },
+  {
+    "lemma": "pointed",
+    "pos": "adjective",
+    "meaning_th": "ชี้"
+  },
+  {
+    "lemma": "point out",
+    "pos": "verb",
+    "meaning_th": "ชี้ให้เห็น / ชี้แนะประเด็น"
+  },
+  {
+    "lemma": "poison",
+    "pos": "noun",
+    "meaning_th": "พิษ"
+  },
+  {
+    "lemma": "poisonous",
+    "pos": "adjective",
+    "meaning_th": "เป็นพิษ"
+  },
+  {
+    "lemma": "pole",
+    "pos": "noun",
+    "meaning_th": "เสา"
+  },
+  {
+    "lemma": "police",
+    "pos": "noun",
+    "meaning_th": "ตำรวจ"
+  },
+  {
+    "lemma": "policy",
+    "pos": "noun",
+    "meaning_th": "นโยบาย"
+  },
+  {
+    "lemma": "polish",
+    "pos": "noun",
+    "meaning_th": "ขัด"
+  },
+  {
+    "lemma": "polite",
+    "pos": "adjective",
+    "meaning_th": "สุภาพ"
+  },
+  {
+    "lemma": "politely",
+    "pos": "adverb",
+    "meaning_th": "อย่างสุภาพ"
+  },
+  {
+    "lemma": "political",
+    "pos": "adjective",
+    "meaning_th": "ทางการเมือง"
+  },
+  {
+    "lemma": "politically",
+    "pos": "adjective",
+    "meaning_th": "ในทางการเมือง"
+  },
+  {
+    "lemma": "politician",
+    "pos": "noun",
+    "meaning_th": "นักการเมือง"
+  },
+  {
+    "lemma": "politics",
+    "pos": "noun",
+    "meaning_th": "การเมือง"
+  },
+  {
+    "lemma": "pollution",
+    "pos": "noun",
+    "meaning_th": "มลพิษ"
+  }
+]

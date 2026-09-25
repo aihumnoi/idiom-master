@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "according to",
+    "pos": "preposition",
+    "meaning_th": "ตาม"
+  },
+  {
+    "lemma": "account",
+    "pos": "noun",
+    "meaning_th": "บัญชี"
+  },
+  {
+    "lemma": "account for",
+    "pos": "verb",
+    "meaning_th": "คิดเป็นสัดส่วน / อธิบายสาเหตุ"
+  },
+  {
+    "lemma": "accurate",
+    "pos": "adjective",
+    "meaning_th": "ถูกต้อง / แม่นยำ"
+  },
+  {
+    "lemma": "accurately",
+    "pos": "adverb",
+    "meaning_th": "ได้อย่างแม่นยำ"
+  },
+  {
+    "lemma": "accuse",
+    "pos": "verb",
+    "meaning_th": "กล่าวโทษ"
+  },
+  {
+    "lemma": "achievement",
+    "pos": "noun",
+    "meaning_th": "ความสำเร็จ"
+  },
+  {
+    "lemma": "acid",
+    "pos": "noun",
+    "meaning_th": "กรด"
+  },
+  {
+    "lemma": "acknowledge",
+    "pos": "verb",
+    "meaning_th": "รับทราบ"
+  },
+  {
+    "lemma": "a couple",
+    "pos": "noun",
+    "meaning_th": "คู่"
+  },
+  {
+    "lemma": "across",
+    "pos": "preposition",
+    "meaning_th": "ข้าม"
+  },
+  {
+    "lemma": "act",
+    "pos": "verb",
+    "meaning_th": "กระทำ"
+  },
+  {
+    "lemma": "action",
+    "pos": "noun",
+    "meaning_th": "การกระทำ"
+  },
+  {
+    "lemma": "active",
+    "pos": "adjective",
+    "meaning_th": "คล่องแคล่ว"
+  },
+  {
+    "lemma": "actively",
+    "pos": "adverb",
+    "meaning_th": "อย่างแข็งขัน"
+  },
+  {
+    "lemma": "activity",
+    "pos": "noun",
+    "meaning_th": "กิจกรรม"
+  },
+  {
+    "lemma": "actor",
+    "pos": "noun",
+    "meaning_th": "นักแสดงชาย"
+  },
+  {
+    "lemma": "actress",
+    "pos": "noun",
+    "meaning_th": "นักแสดงหญิง"
+  },
+  {
+    "lemma": "actual",
+    "pos": "adjective",
+    "meaning_th": "แท้จริง"
+  },
+  {
+    "lemma": "actually",
+    "pos": "adverb",
+    "meaning_th": "จริงๆ แล้ว / ในความเป็นจริง"
+  },
+  {
+    "lemma": "ad",
+    "pos": "noun",
+    "meaning_th": "โฆษณา"
+  },
+  {
+    "lemma": "adapt",
+    "pos": "verb",
+    "meaning_th": "ปรับ"
+  },
+  {
+    "lemma": "add",
+    "pos": "verb",
+    "meaning_th": "เพิ่ม"
+  },
+  {
+    "lemma": "addition",
+    "pos": "noun",
+    "meaning_th": "ส่วนที่เพิ่มเข้าไป"
+  },
+  {
+    "lemma": "additional",
+    "pos": "adjective",
+    "meaning_th": "เพิ่มเติม"
+  },
+  {
+    "lemma": "add on",
+    "pos": "verb",
+    "meaning_th": "เพิ่ม"
+  },
+  {
+    "lemma": "address",
+    "pos": "noun",
+    "meaning_th": "ที่อยู่"
+  },
+  {
+    "lemma": "add up",
+    "pos": "noun",
+    "meaning_th": "สมเหตุสมผล / รวมยอดเข้ากัน"
+  },
+  {
+    "lemma": "add up to",
+    "pos": "noun",
+    "meaning_th": "รวมเป็นยอดเงิน / สรุปแล้วคือ"
+  },
+  {
+    "lemma": "adequately",
+    "pos": "adverb",
+    "meaning_th": "อย่างเพียงพอ"
+  },
+  {
+    "lemma": "adjust",
+    "pos": "verb",
+    "meaning_th": "ปรับ"
+  },
+  {
+    "lemma": "admiration",
+    "pos": "noun",
+    "meaning_th": "ความชื่นชม"
+  },
+  {
+    "lemma": "admire",
+    "pos": "verb",
+    "meaning_th": "ชื่นชม"
+  },
+  {
+    "lemma": "admit",
+    "pos": "verb",
+    "meaning_th": "ยอมรับ"
+  },
+  {
+    "lemma": "adopt",
+    "pos": "verb",
+    "meaning_th": "รับเลี้ยง / นำมาใช้"
+  },
+  {
+    "lemma": "adult",
+    "pos": "noun",
+    "meaning_th": "ผู้ใหญ่"
+  },
+  {
+    "lemma": "advance",
+    "pos": "verb",
+    "meaning_th": "ก้าวหน้า"
+  },
+  {
+    "lemma": "advanced",
+    "pos": "adjective",
+    "meaning_th": "ขั้นสูง"
+  },
+  {
+    "lemma": "adventure",
+    "pos": "noun",
+    "meaning_th": "การผจญภัย"
+  },
+  {
+    "lemma": "advert",
+    "pos": "noun",
+    "meaning_th": "โฆษณา"
+  },
+  {
+    "lemma": "advertise",
+    "pos": "verb",
+    "meaning_th": "โฆษณา"
+  },
+  {
+    "lemma": "advertisement",
+    "pos": "noun",
+    "meaning_th": "โฆษณา"
+  },
+  {
+    "lemma": "advertising",
+    "pos": "noun",
+    "meaning_th": "การโฆษณา"
+  },
+  {
+    "lemma": "advice",
+    "pos": "noun",
+    "meaning_th": "คำแนะนำ"
+  },
+  {
+    "lemma": "advise",
+    "pos": "verb",
+    "meaning_th": "ให้คำแนะนำ"
+  },
+  {
+    "lemma": "affair",
+    "pos": "noun",
+    "meaning_th": "ธุระ"
+  },
+  {
+    "lemma": "affection",
+    "pos": "noun",
+    "meaning_th": "เสน่หา"
+  },
+  {
+    "lemma": "afford",
+    "pos": "verb",
+    "meaning_th": "จ่ายได้"
+  },
+  {
+    "lemma": "afraid",
+    "pos": "adjective",
+    "meaning_th": "เกรงกลัว"
+  },
+  {
+    "lemma": "after",
+    "pos": "preposition",
+    "meaning_th": "หลังจาก"
+  }
+]

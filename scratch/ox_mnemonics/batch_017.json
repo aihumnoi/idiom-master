@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "conversation",
+    "pos": "noun",
+    "meaning_th": "การสนทนา"
+  },
+  {
+    "lemma": "convert",
+    "pos": "verb",
+    "meaning_th": "แปลง"
+  },
+  {
+    "lemma": "convince",
+    "pos": "verb",
+    "meaning_th": "โน้มน้าวใจ"
+  },
+  {
+    "lemma": "cook",
+    "pos": "verb",
+    "meaning_th": "ทำอาหาร"
+  },
+  {
+    "lemma": "cooker",
+    "pos": "noun",
+    "meaning_th": "หม้อหุงข้าว"
+  },
+  {
+    "lemma": "cookie",
+    "pos": "noun",
+    "meaning_th": "คุกกี้"
+  },
+  {
+    "lemma": "cooking",
+    "pos": "noun",
+    "meaning_th": "การทำอาหาร"
+  },
+  {
+    "lemma": "cool",
+    "pos": "adjective",
+    "meaning_th": "เย็น"
+  },
+  {
+    "lemma": "cool down",
+    "pos": "noun",
+    "meaning_th": "ใจเย็นลง / คลายความร้อน"
+  },
+  {
+    "lemma": "cope",
+    "pos": "verb",
+    "meaning_th": "รับมือ"
+  },
+  {
+    "lemma": "copy",
+    "pos": "noun",
+    "meaning_th": "สำเนา"
+  },
+  {
+    "lemma": "core",
+    "pos": "noun",
+    "meaning_th": "แกนกลาง"
+  },
+  {
+    "lemma": "corner",
+    "pos": "noun",
+    "meaning_th": "มุม"
+  },
+  {
+    "lemma": "correct",
+    "pos": "adjective",
+    "meaning_th": "ถูกต้อง"
+  },
+  {
+    "lemma": "correctly",
+    "pos": "adverb",
+    "meaning_th": "อย่างถูกต้อง / แม่นยำ"
+  },
+  {
+    "lemma": "cost",
+    "pos": "noun",
+    "meaning_th": "ค่าใช้จ่าย"
+  },
+  {
+    "lemma": "cottage",
+    "pos": "noun",
+    "meaning_th": "กระท่อม"
+  },
+  {
+    "lemma": "cotton",
+    "pos": "noun",
+    "meaning_th": "ฝ้าย"
+  },
+  {
+    "lemma": "cough",
+    "pos": "verb",
+    "meaning_th": "ไอ"
+  },
+  {
+    "lemma": "coughing",
+    "pos": "verb",
+    "meaning_th": "ไอ"
+  },
+  {
+    "lemma": "could",
+    "pos": "verb",
+    "meaning_th": "สามารถ"
+  },
+  {
+    "lemma": "council",
+    "pos": "noun",
+    "meaning_th": "สภา"
+  },
+  {
+    "lemma": "count",
+    "pos": "verb",
+    "meaning_th": "นับ"
+  },
+  {
+    "lemma": "counter",
+    "pos": "noun",
+    "meaning_th": "เคาน์เตอร์"
+  },
+  {
+    "lemma": "count on",
+    "pos": "noun",
+    "meaning_th": "พึ่งพา / ไว้วางใจ"
+  },
+  {
+    "lemma": "country",
+    "pos": "noun",
+    "meaning_th": "ประเทศ"
+  },
+  {
+    "lemma": "countryside",
+    "pos": "noun",
+    "meaning_th": "ชนบท"
+  },
+  {
+    "lemma": "county",
+    "pos": "noun",
+    "meaning_th": "เขต"
+  },
+  {
+    "lemma": "couple",
+    "pos": "noun",
+    "meaning_th": "คู่"
+  },
+  {
+    "lemma": "courage",
+    "pos": "noun",
+    "meaning_th": "ความกล้าหาญ"
+  },
+  {
+    "lemma": "course",
+    "pos": "noun",
+    "meaning_th": "คอร์ส"
+  },
+  {
+    "lemma": "court",
+    "pos": "noun",
+    "meaning_th": "ศาล"
+  },
+  {
+    "lemma": "cousin",
+    "pos": "noun",
+    "meaning_th": "ลูกพี่ลูกน้อง"
+  },
+  {
+    "lemma": "cover",
+    "pos": "verb",
+    "meaning_th": "ปิดบัง"
+  },
+  {
+    "lemma": "covered",
+    "pos": "adjective",
+    "meaning_th": "ครอบคลุม"
+  },
+  {
+    "lemma": "covering",
+    "pos": "noun",
+    "meaning_th": "ครอบคลุม"
+  },
+  {
+    "lemma": "cover up",
+    "pos": "noun",
+    "meaning_th": "ปกปิดความจริง / ซ่อนความผิด"
+  },
+  {
+    "lemma": "cow",
+    "pos": "noun",
+    "meaning_th": "วัว"
+  },
+  {
+    "lemma": "crack",
+    "pos": "noun",
+    "meaning_th": "แตก"
+  },
+  {
+    "lemma": "cracked",
+    "pos": "adjective",
+    "meaning_th": "แตก"
+  },
+  {
+    "lemma": "craft",
+    "pos": "noun",
+    "meaning_th": "งานฝีมือ"
+  },
+  {
+    "lemma": "crash",
+    "pos": "verb",
+    "meaning_th": "ชน"
+  },
+  {
+    "lemma": "crazy",
+    "pos": "adjective",
+    "meaning_th": "คลั่งไคล้"
+  },
+  {
+    "lemma": "cream",
+    "pos": "noun",
+    "meaning_th": "ครีม"
+  },
+  {
+    "lemma": "create",
+    "pos": "verb",
+    "meaning_th": "สร้าง"
+  },
+  {
+    "lemma": "creature",
+    "pos": "noun",
+    "meaning_th": "สิ่งมีชีวิต"
+  },
+  {
+    "lemma": "credit",
+    "pos": "noun",
+    "meaning_th": "เครดิต"
+  },
+  {
+    "lemma": "credit card",
+    "pos": "noun",
+    "meaning_th": "บัตรเครดิต"
+  },
+  {
+    "lemma": "crime",
+    "pos": "noun",
+    "meaning_th": "อาชญากรรม"
+  },
+  {
+    "lemma": "criminal",
+    "pos": "noun",
+    "meaning_th": "อาชญากร"
+  }
+]

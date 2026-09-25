@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "neighbourhood",
+    "pos": "noun",
+    "meaning_th": "ละแวกบ้าน"
+  },
+  {
+    "lemma": "neither",
+    "pos": "conjunction",
+    "meaning_th": "ไม่ใช่ทั้งสองอย่าง"
+  },
+  {
+    "lemma": "nephew",
+    "pos": "noun",
+    "meaning_th": "หลานชาย"
+  },
+  {
+    "lemma": "nerve",
+    "pos": "noun",
+    "meaning_th": "เส้นประสาท"
+  },
+  {
+    "lemma": "nervous",
+    "pos": "adjective",
+    "meaning_th": "ประหม่า"
+  },
+  {
+    "lemma": "nervously",
+    "pos": "adverb",
+    "meaning_th": "อย่างประหม่า"
+  },
+  {
+    "lemma": "nest",
+    "pos": "noun",
+    "meaning_th": "รัง"
+  },
+  {
+    "lemma": "net",
+    "pos": "noun",
+    "meaning_th": "ตาข่าย / แห"
+  },
+  {
+    "lemma": "network",
+    "pos": "noun",
+    "meaning_th": "เครือข่าย"
+  },
+  {
+    "lemma": "never",
+    "pos": "adverb",
+    "meaning_th": "ไม่เคย"
+  },
+  {
+    "lemma": "nevertheless",
+    "pos": "adverb",
+    "meaning_th": "แต่ถึงอย่างไร"
+  },
+  {
+    "lemma": "new",
+    "pos": "adjective",
+    "meaning_th": "ใหม่"
+  },
+  {
+    "lemma": "newly",
+    "pos": "adverb",
+    "meaning_th": "เมื่อเร็วๆ นี้ / ใหม่ๆ"
+  },
+  {
+    "lemma": "news",
+    "pos": "noun",
+    "meaning_th": "ข่าว"
+  },
+  {
+    "lemma": "newspaper",
+    "pos": "noun",
+    "meaning_th": "หนังสือพิมพ์"
+  },
+  {
+    "lemma": "next",
+    "pos": "adjective",
+    "meaning_th": "ต่อไป"
+  },
+  {
+    "lemma": "next to",
+    "pos": "preposition",
+    "meaning_th": "ถัดจาก"
+  },
+  {
+    "lemma": "nice",
+    "pos": "adjective",
+    "meaning_th": "ดี"
+  },
+  {
+    "lemma": "nicely",
+    "pos": "adverb",
+    "meaning_th": "อย่างดี"
+  },
+  {
+    "lemma": "niece",
+    "pos": "noun",
+    "meaning_th": "หลานสาว"
+  },
+  {
+    "lemma": "night",
+    "pos": "noun",
+    "meaning_th": "กลางคืน"
+  },
+  {
+    "lemma": "nine",
+    "pos": "noun",
+    "meaning_th": "เก้า"
+  },
+  {
+    "lemma": "nineteen",
+    "pos": "noun",
+    "meaning_th": "สิบเก้า"
+  },
+  {
+    "lemma": "nineteenth",
+    "pos": "number",
+    "meaning_th": "ที่สิบเก้า"
+  },
+  {
+    "lemma": "ninetieth",
+    "pos": "number",
+    "meaning_th": "เก้าสิบ"
+  },
+  {
+    "lemma": "ninety",
+    "pos": "noun",
+    "meaning_th": "เก้าสิบ"
+  },
+  {
+    "lemma": "ninth",
+    "pos": "adjective",
+    "meaning_th": "เก้า"
+  },
+  {
+    "lemma": "no",
+    "pos": "adverb",
+    "meaning_th": "เลขที่"
+  },
+  {
+    "lemma": "nobody",
+    "pos": "pronoun",
+    "meaning_th": "ไม่มีใคร"
+  },
+  {
+    "lemma": "noise",
+    "pos": "noun",
+    "meaning_th": "เสียงรบกวน"
+  },
+  {
+    "lemma": "noisily",
+    "pos": "adverb",
+    "meaning_th": "อย่างส่งเสียงดัง"
+  },
+  {
+    "lemma": "noisy",
+    "pos": "adjective",
+    "meaning_th": "เสียงดัง"
+  },
+  {
+    "lemma": "non-",
+    "pos": "other",
+    "meaning_th": "ไม่ใช่-"
+  },
+  {
+    "lemma": "none",
+    "pos": "pronoun",
+    "meaning_th": "ไม่มี"
+  },
+  {
+    "lemma": "nonsense",
+    "pos": "noun",
+    "meaning_th": "เรื่องไร้สาระ"
+  },
+  {
+    "lemma": "no one",
+    "pos": "pronoun",
+    "meaning_th": "ไม่มีใคร"
+  },
+  {
+    "lemma": "nor",
+    "pos": "conjunction",
+    "meaning_th": "ก็ไม่เช่นกัน"
+  },
+  {
+    "lemma": "normal",
+    "pos": "adjective",
+    "meaning_th": "ปกติ"
+  },
+  {
+    "lemma": "normally",
+    "pos": "adverb",
+    "meaning_th": "โดยทั่วไป"
+  },
+  {
+    "lemma": "north",
+    "pos": "noun",
+    "meaning_th": "ทิศเหนือ"
+  },
+  {
+    "lemma": "northern",
+    "pos": "adjective",
+    "meaning_th": "ภาคเหนือ"
+  },
+  {
+    "lemma": "nose",
+    "pos": "noun",
+    "meaning_th": "จมูก"
+  },
+  {
+    "lemma": "not",
+    "pos": "adverb",
+    "meaning_th": "ไม่"
+  },
+  {
+    "lemma": "note",
+    "pos": "noun",
+    "meaning_th": "บันทึก"
+  },
+  {
+    "lemma": "note down",
+    "pos": "verb",
+    "meaning_th": "จดบันทึก"
+  },
+  {
+    "lemma": "nothing",
+    "pos": "pronoun",
+    "meaning_th": "ไม่มีอะไร"
+  },
+  {
+    "lemma": "notice",
+    "pos": "verb",
+    "meaning_th": "สังเกต"
+  },
+  {
+    "lemma": "noticeable",
+    "pos": "adjective",
+    "meaning_th": "เห็นได้ชัดเจน"
+  },
+  {
+    "lemma": "novel",
+    "pos": "noun",
+    "meaning_th": "นิยาย"
+  },
+  {
+    "lemma": "November",
+    "pos": "noun",
+    "meaning_th": "พฤศจิกายน"
+  }
+]

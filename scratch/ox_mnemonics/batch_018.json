@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "crisis",
+    "pos": "noun",
+    "meaning_th": "วิกฤติ"
+  },
+  {
+    "lemma": "crisp",
+    "pos": "adjective",
+    "meaning_th": "กรอบ"
+  },
+  {
+    "lemma": "criterion",
+    "pos": "noun",
+    "meaning_th": "เกณฑ์"
+  },
+  {
+    "lemma": "critical",
+    "pos": "adjective",
+    "meaning_th": "วิกฤต"
+  },
+  {
+    "lemma": "criticism",
+    "pos": "noun",
+    "meaning_th": "การวิพากษ์วิจารณ์"
+  },
+  {
+    "lemma": "criticize",
+    "pos": "verb",
+    "meaning_th": "วิพากษ์วิจารณ์"
+  },
+  {
+    "lemma": "crop",
+    "pos": "noun",
+    "meaning_th": "ครอบตัด"
+  },
+  {
+    "lemma": "cross",
+    "pos": "verb",
+    "meaning_th": "ข้าม"
+  },
+  {
+    "lemma": "cross out",
+    "pos": "noun",
+    "meaning_th": "ขีดฆ่า / กากบาททิ้ง"
+  },
+  {
+    "lemma": "crowd",
+    "pos": "noun",
+    "meaning_th": "ฝูงชน"
+  },
+  {
+    "lemma": "crowded",
+    "pos": "adjective",
+    "meaning_th": "แออัด"
+  },
+  {
+    "lemma": "crown",
+    "pos": "noun",
+    "meaning_th": "มงกุฎ"
+  },
+  {
+    "lemma": "crucial",
+    "pos": "adjective",
+    "meaning_th": "สำคัญ"
+  },
+  {
+    "lemma": "cruel",
+    "pos": "adjective",
+    "meaning_th": "โหดร้าย"
+  },
+  {
+    "lemma": "crush",
+    "pos": "verb",
+    "meaning_th": "บดขยี้"
+  },
+  {
+    "lemma": "cry",
+    "pos": "verb",
+    "meaning_th": "ร้องไห้"
+  },
+  {
+    "lemma": "cry out",
+    "pos": "noun",
+    "meaning_th": "ส่งเสียงร้องตะโกน (ด้วยความเจ็บปวดหรือตกใจ)"
+  },
+  {
+    "lemma": "cultural",
+    "pos": "adjective",
+    "meaning_th": "ทางวัฒนธรรม"
+  },
+  {
+    "lemma": "culture",
+    "pos": "noun",
+    "meaning_th": "วัฒนธรรม"
+  },
+  {
+    "lemma": "cup",
+    "pos": "noun",
+    "meaning_th": "ถ้วย"
+  },
+  {
+    "lemma": "cupboard",
+    "pos": "noun",
+    "meaning_th": "ตู้"
+  },
+  {
+    "lemma": "curb",
+    "pos": "verb",
+    "meaning_th": "ควบคุม / ชะลอ / ขอบทางเท้า"
+  },
+  {
+    "lemma": "cure",
+    "pos": "verb",
+    "meaning_th": "รักษา"
+  },
+  {
+    "lemma": "curious",
+    "pos": "adjective",
+    "meaning_th": "อยากรู้"
+  },
+  {
+    "lemma": "curiously",
+    "pos": "adverb",
+    "meaning_th": "อยากรู้อยากเห็น"
+  },
+  {
+    "lemma": "curl",
+    "pos": "verb",
+    "meaning_th": "ขด"
+  },
+  {
+    "lemma": "curl up",
+    "pos": "noun",
+    "meaning_th": "ขดตัว"
+  },
+  {
+    "lemma": "curly",
+    "pos": "adjective",
+    "meaning_th": "หยิกงอ"
+  },
+  {
+    "lemma": "current",
+    "pos": "adjective",
+    "meaning_th": "ปัจจุบัน"
+  },
+  {
+    "lemma": "currently",
+    "pos": "adverb",
+    "meaning_th": "ตอนนี้"
+  },
+  {
+    "lemma": "curtain",
+    "pos": "noun",
+    "meaning_th": "ม่าน"
+  },
+  {
+    "lemma": "curve",
+    "pos": "noun",
+    "meaning_th": "เส้นโค้ง"
+  },
+  {
+    "lemma": "curved",
+    "pos": "adjective",
+    "meaning_th": "โค้ง"
+  },
+  {
+    "lemma": "custom",
+    "pos": "noun",
+    "meaning_th": "กำหนดเอง"
+  },
+  {
+    "lemma": "customer",
+    "pos": "noun",
+    "meaning_th": "ลูกค้า"
+  },
+  {
+    "lemma": "customs",
+    "pos": "noun",
+    "meaning_th": "ศุลกากร"
+  },
+  {
+    "lemma": "cut",
+    "pos": "verb",
+    "meaning_th": "ตัด"
+  },
+  {
+    "lemma": "cut back",
+    "pos": "noun",
+    "meaning_th": "ลดทอนลง (งบประมาณ/การใช้จ่าย)"
+  },
+  {
+    "lemma": "cut down",
+    "pos": "noun",
+    "meaning_th": "ลดปริมาณลง / โค่นต้นไม้"
+  },
+  {
+    "lemma": "cut off",
+    "pos": "noun",
+    "meaning_th": "ตัดขาด (ไฟฟ้า/น้ำ/การติดต่อ)"
+  },
+  {
+    "lemma": "cut out",
+    "pos": "noun",
+    "meaning_th": "ตัดออก / เลิกกินหรือเลิกทำ"
+  },
+  {
+    "lemma": "cut up",
+    "pos": "noun",
+    "meaning_th": "หั่นเป็นชิ้นเล็กๆ"
+  },
+  {
+    "lemma": "cycle",
+    "pos": "noun",
+    "meaning_th": "วงจร"
+  },
+  {
+    "lemma": "cycling",
+    "pos": "noun",
+    "meaning_th": "การปั่นจักรยาน"
+  },
+  {
+    "lemma": "dad",
+    "pos": "noun",
+    "meaning_th": "พ่อ"
+  },
+  {
+    "lemma": "daily",
+    "pos": "adjective",
+    "meaning_th": "รายวัน"
+  },
+  {
+    "lemma": "damage",
+    "pos": "noun",
+    "meaning_th": "ความเสียหาย"
+  },
+  {
+    "lemma": "damp",
+    "pos": "adjective",
+    "meaning_th": "ชื้น"
+  },
+  {
+    "lemma": "dance",
+    "pos": "verb",
+    "meaning_th": "เต้นรำ"
+  },
+  {
+    "lemma": "dancer",
+    "pos": "noun",
+    "meaning_th": "นักเต้น"
+  }
+]

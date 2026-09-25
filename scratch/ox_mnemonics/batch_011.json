@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "burst out",
+    "pos": "noun",
+    "meaning_th": "โพล่งออกมา / ระเบิดออกมา"
+  },
+  {
+    "lemma": "bury",
+    "pos": "verb",
+    "meaning_th": "ฝังศพ"
+  },
+  {
+    "lemma": "bus",
+    "pos": "noun",
+    "meaning_th": "รสบัส"
+  },
+  {
+    "lemma": "bush",
+    "pos": "noun",
+    "meaning_th": "พุ่มไม้"
+  },
+  {
+    "lemma": "business",
+    "pos": "noun",
+    "meaning_th": "ธุรกิจ"
+  },
+  {
+    "lemma": "businessman",
+    "pos": "noun",
+    "meaning_th": "นักธุรกิจ"
+  },
+  {
+    "lemma": "busy",
+    "pos": "adjective",
+    "meaning_th": "ยุ่ง"
+  },
+  {
+    "lemma": "but",
+    "pos": "conjunction",
+    "meaning_th": "แต่"
+  },
+  {
+    "lemma": "butter",
+    "pos": "noun",
+    "meaning_th": "เนย"
+  },
+  {
+    "lemma": "button",
+    "pos": "noun",
+    "meaning_th": "ปุ่ม"
+  },
+  {
+    "lemma": "buy",
+    "pos": "verb",
+    "meaning_th": "ซื้อ"
+  },
+  {
+    "lemma": "buyer",
+    "pos": "noun",
+    "meaning_th": "ผู้ซื้อ"
+  },
+  {
+    "lemma": "by",
+    "pos": "preposition",
+    "meaning_th": "โดย"
+  },
+  {
+    "lemma": "bye",
+    "pos": "interjection",
+    "meaning_th": "ลาก่อน"
+  },
+  {
+    "lemma": "cabinet",
+    "pos": "noun",
+    "meaning_th": "ตู้"
+  },
+  {
+    "lemma": "cable",
+    "pos": "noun",
+    "meaning_th": "สายเคเบิล"
+  },
+  {
+    "lemma": "cake",
+    "pos": "noun",
+    "meaning_th": "เค้ก"
+  },
+  {
+    "lemma": "calculate",
+    "pos": "verb",
+    "meaning_th": "คำนวณ"
+  },
+  {
+    "lemma": "calculation",
+    "pos": "noun",
+    "meaning_th": "การคำนวณ"
+  },
+  {
+    "lemma": "call",
+    "pos": "verb",
+    "meaning_th": "เรียก"
+  },
+  {
+    "lemma": "call back",
+    "pos": "noun",
+    "meaning_th": "โทรกลับ"
+  },
+  {
+    "lemma": "called",
+    "pos": "verb",
+    "meaning_th": "เรียกว่า"
+  },
+  {
+    "lemma": "call for",
+    "pos": "noun",
+    "meaning_th": "เรียกร้อง / จำเป็นต้องใช้"
+  },
+  {
+    "lemma": "call off",
+    "pos": "noun",
+    "meaning_th": "ยกเลิก"
+  },
+  {
+    "lemma": "call up",
+    "pos": "noun",
+    "meaning_th": "โทรหา / เกณฑ์ทหาร / เรียกตัว"
+  },
+  {
+    "lemma": "calm",
+    "pos": "adjective",
+    "meaning_th": "เงียบสงบ"
+  },
+  {
+    "lemma": "calm down",
+    "pos": "noun",
+    "meaning_th": "สงบสติอารมณ์"
+  },
+  {
+    "lemma": "calmly",
+    "pos": "adverb",
+    "meaning_th": "ใจเย็น"
+  },
+  {
+    "lemma": "camera",
+    "pos": "noun",
+    "meaning_th": "กล้อง"
+  },
+  {
+    "lemma": "camp",
+    "pos": "noun",
+    "meaning_th": "ค่าย"
+  },
+  {
+    "lemma": "campaign",
+    "pos": "noun",
+    "meaning_th": "แคมเปญ"
+  },
+  {
+    "lemma": "camping",
+    "pos": "noun",
+    "meaning_th": "ตั้งแคมป์"
+  },
+  {
+    "lemma": "can 1",
+    "pos": "verb",
+    "meaning_th": "สามารถ (กริยาช่วย)"
+  },
+  {
+    "lemma": "can 2",
+    "pos": "noun",
+    "meaning_th": "กระป๋อง / บรรจุกระป๋อง"
+  },
+  {
+    "lemma": "cancel",
+    "pos": "verb",
+    "meaning_th": "ยกเลิก"
+  },
+  {
+    "lemma": "cancer",
+    "pos": "noun",
+    "meaning_th": "โรคมะเร็ง"
+  },
+  {
+    "lemma": "candidate",
+    "pos": "noun",
+    "meaning_th": "ผู้สมัคร"
+  },
+  {
+    "lemma": "candy",
+    "pos": "noun",
+    "meaning_th": "ลูกอม"
+  },
+  {
+    "lemma": "cannot",
+    "pos": "verb",
+    "meaning_th": "ไม่สามารถ"
+  },
+  {
+    "lemma": "cap",
+    "pos": "noun",
+    "meaning_th": "หมวกแก๊ป"
+  },
+  {
+    "lemma": "capable",
+    "pos": "adjective",
+    "meaning_th": "มีความสามารถ"
+  },
+  {
+    "lemma": "capacity",
+    "pos": "noun",
+    "meaning_th": "ความจุ"
+  },
+  {
+    "lemma": "capital",
+    "pos": "noun",
+    "meaning_th": "เมืองหลวง"
+  },
+  {
+    "lemma": "captain",
+    "pos": "noun",
+    "meaning_th": "กัปตัน"
+  },
+  {
+    "lemma": "capture",
+    "pos": "verb",
+    "meaning_th": "การจับกุม"
+  },
+  {
+    "lemma": "car",
+    "pos": "noun",
+    "meaning_th": "รถ"
+  },
+  {
+    "lemma": "card",
+    "pos": "noun",
+    "meaning_th": "การ์ด"
+  },
+  {
+    "lemma": "cardboard",
+    "pos": "noun",
+    "meaning_th": "กระดาษแข็ง"
+  },
+  {
+    "lemma": "care",
+    "pos": "noun",
+    "meaning_th": "การดูแล"
+  },
+  {
+    "lemma": "career",
+    "pos": "noun",
+    "meaning_th": "อาชีพ"
+  }
+]

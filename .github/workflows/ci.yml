@@ -1,0 +1,25 @@
+name: CI — เสาเข็ม
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: idiom-master/package.json
+      - working-directory: idiom-master
+        run: npm ci
+      - working-directory: idiom-master
+        run: npx tsc --noEmit
+      - working-directory: idiom-master
+        run: npx vitest run --config vitest.config.ts
+      - working-directory: idiom-master
+        run: npx vite build

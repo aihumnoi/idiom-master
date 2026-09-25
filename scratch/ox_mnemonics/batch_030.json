@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "friend",
+    "pos": "noun",
+    "meaning_th": "เพื่อน"
+  },
+  {
+    "lemma": "friendly",
+    "pos": "adjective",
+    "meaning_th": "เป็นกันเอง"
+  },
+  {
+    "lemma": "friendship",
+    "pos": "noun",
+    "meaning_th": "มิตรภาพ"
+  },
+  {
+    "lemma": "frighten",
+    "pos": "verb",
+    "meaning_th": "ขู่"
+  },
+  {
+    "lemma": "frighten away/off",
+    "pos": "verb",
+    "meaning_th": "ขู่ให้กลัวจนเผ่นหนีไป"
+  },
+  {
+    "lemma": "frightened",
+    "pos": "adjective",
+    "meaning_th": "ตระหนก"
+  },
+  {
+    "lemma": "frightening",
+    "pos": "adjective",
+    "meaning_th": "น่ากลัว"
+  },
+  {
+    "lemma": "from",
+    "pos": "preposition",
+    "meaning_th": "จาก"
+  },
+  {
+    "lemma": "front",
+    "pos": "noun",
+    "meaning_th": "ด้านหน้า"
+  },
+  {
+    "lemma": "frozen",
+    "pos": "adjective",
+    "meaning_th": "ถูกแช่แข็ง / เย็นจัด"
+  },
+  {
+    "lemma": "fruit",
+    "pos": "noun",
+    "meaning_th": "ผลไม้"
+  },
+  {
+    "lemma": "fry",
+    "pos": "verb",
+    "meaning_th": "ทอด"
+  },
+  {
+    "lemma": "fuel",
+    "pos": "noun",
+    "meaning_th": "เชื้อเพลิง"
+  },
+  {
+    "lemma": "full",
+    "pos": "adjective",
+    "meaning_th": "เต็ม"
+  },
+  {
+    "lemma": "fully",
+    "pos": "adverb",
+    "meaning_th": "อย่างเต็มที่"
+  },
+  {
+    "lemma": "fun",
+    "pos": "noun",
+    "meaning_th": "สนุก"
+  },
+  {
+    "lemma": "function",
+    "pos": "noun",
+    "meaning_th": "การทำงาน"
+  },
+  {
+    "lemma": "function as",
+    "pos": "verb",
+    "meaning_th": "ทำหน้าที่เสมือนเป็น"
+  },
+  {
+    "lemma": "fund",
+    "pos": "noun",
+    "meaning_th": "กองทุน"
+  },
+  {
+    "lemma": "fundamental",
+    "pos": "adjective",
+    "meaning_th": "พื้นฐาน"
+  },
+  {
+    "lemma": "funeral",
+    "pos": "noun",
+    "meaning_th": "งานศพ"
+  },
+  {
+    "lemma": "funny",
+    "pos": "adjective",
+    "meaning_th": "ตลก"
+  },
+  {
+    "lemma": "fur",
+    "pos": "noun",
+    "meaning_th": "ขน"
+  },
+  {
+    "lemma": "furniture",
+    "pos": "noun",
+    "meaning_th": "เฟอร์นิเจอร์"
+  },
+  {
+    "lemma": "further",
+    "pos": "adverb",
+    "meaning_th": "ไกลออกไป"
+  },
+  {
+    "lemma": "future",
+    "pos": "noun",
+    "meaning_th": "อนาคต"
+  },
+  {
+    "lemma": "gain",
+    "pos": "verb",
+    "meaning_th": "ได้รับ"
+  },
+  {
+    "lemma": "gallon",
+    "pos": "noun",
+    "meaning_th": "แกลลอน"
+  },
+  {
+    "lemma": "gamble",
+    "pos": "verb",
+    "meaning_th": "เล่นการพนัน"
+  },
+  {
+    "lemma": "gambling",
+    "pos": "noun",
+    "meaning_th": "การพนัน"
+  },
+  {
+    "lemma": "game",
+    "pos": "noun",
+    "meaning_th": "เกม"
+  },
+  {
+    "lemma": "gap",
+    "pos": "noun",
+    "meaning_th": "ช่องว่าง"
+  },
+  {
+    "lemma": "garage",
+    "pos": "noun",
+    "meaning_th": "โรงรถ"
+  },
+  {
+    "lemma": "garbage",
+    "pos": "noun",
+    "meaning_th": "ขยะ"
+  },
+  {
+    "lemma": "garden",
+    "pos": "noun",
+    "meaning_th": "สวน"
+  },
+  {
+    "lemma": "gas",
+    "pos": "noun",
+    "meaning_th": "แก๊ส"
+  },
+  {
+    "lemma": "gasoline",
+    "pos": "noun",
+    "meaning_th": "น้ำมันเบนซิน"
+  },
+  {
+    "lemma": "gate",
+    "pos": "noun",
+    "meaning_th": "ประตู"
+  },
+  {
+    "lemma": "gather",
+    "pos": "verb",
+    "meaning_th": "รวมตัว"
+  },
+  {
+    "lemma": "gear",
+    "pos": "noun",
+    "meaning_th": "เกียร์"
+  },
+  {
+    "lemma": "general",
+    "pos": "adjective",
+    "meaning_th": "ทั่วไป"
+  },
+  {
+    "lemma": "generally",
+    "pos": "adverb",
+    "meaning_th": "โดยทั่วไป"
+  },
+  {
+    "lemma": "generation",
+    "pos": "noun",
+    "meaning_th": "รุ่น"
+  },
+  {
+    "lemma": "generous",
+    "pos": "adjective",
+    "meaning_th": "ใจกว้าง"
+  },
+  {
+    "lemma": "generously",
+    "pos": "adjective",
+    "meaning_th": "อย่างใจกว้าง / อย่างเอื้อเฟื้อ"
+  },
+  {
+    "lemma": "gentle",
+    "pos": "adjective",
+    "meaning_th": "อ่อนโยน"
+  },
+  {
+    "lemma": "gentleman",
+    "pos": "noun",
+    "meaning_th": "สุภาพบุรุษ"
+  },
+  {
+    "lemma": "gently",
+    "pos": "adverb",
+    "meaning_th": "อย่างอ่อนโยน / อย่างนุ่มนวล"
+  },
+  {
+    "lemma": "genuine",
+    "pos": "adjective",
+    "meaning_th": "แท้จริง"
+  },
+  {
+    "lemma": "genuinely",
+    "pos": "adjective",
+    "meaning_th": "อย่างแท้จริง / จากใจจริง"
+  }
+]

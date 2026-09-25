@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "hook",
+    "pos": "noun",
+    "meaning_th": "ตะขอ"
+  },
+  {
+    "lemma": "hope",
+    "pos": "noun",
+    "meaning_th": "หวัง"
+  },
+  {
+    "lemma": "horizontal",
+    "pos": "adjective",
+    "meaning_th": "แนวนอน"
+  },
+  {
+    "lemma": "horn",
+    "pos": "noun",
+    "meaning_th": "แตร"
+  },
+  {
+    "lemma": "horror",
+    "pos": "noun",
+    "meaning_th": "สยองขวัญ"
+  },
+  {
+    "lemma": "horse",
+    "pos": "noun",
+    "meaning_th": "ม้า"
+  },
+  {
+    "lemma": "hospital",
+    "pos": "noun",
+    "meaning_th": "โรงพยาบาล"
+  },
+  {
+    "lemma": "host",
+    "pos": "noun",
+    "meaning_th": "เจ้าภาพ"
+  },
+  {
+    "lemma": "hot",
+    "pos": "adjective",
+    "meaning_th": "ร้อน"
+  },
+  {
+    "lemma": "hotel",
+    "pos": "noun",
+    "meaning_th": "โรงแรม"
+  },
+  {
+    "lemma": "hour",
+    "pos": "noun",
+    "meaning_th": "ชั่วโมง"
+  },
+  {
+    "lemma": "house",
+    "pos": "noun",
+    "meaning_th": "บ้าน"
+  },
+  {
+    "lemma": "household",
+    "pos": "noun",
+    "meaning_th": "ครัวเรือน"
+  },
+  {
+    "lemma": "housing",
+    "pos": "noun",
+    "meaning_th": "ที่อยู่อาศัย"
+  },
+  {
+    "lemma": "how",
+    "pos": "adverb",
+    "meaning_th": "ยังไง"
+  },
+  {
+    "lemma": "however",
+    "pos": "conjunction",
+    "meaning_th": "อย่างไรก็ตาม"
+  },
+  {
+    "lemma": "huge",
+    "pos": "adjective",
+    "meaning_th": "ใหญ่"
+  },
+  {
+    "lemma": "human",
+    "pos": "adjective",
+    "meaning_th": "มนุษย์"
+  },
+  {
+    "lemma": "humorous",
+    "pos": "adjective",
+    "meaning_th": "มีอารมณ์ขัน"
+  },
+  {
+    "lemma": "humour",
+    "pos": "noun",
+    "meaning_th": "อารมณ์ขัน"
+  },
+  {
+    "lemma": "hundred",
+    "pos": "noun",
+    "meaning_th": "ร้อย"
+  },
+  {
+    "lemma": "hundredth",
+    "pos": "number",
+    "meaning_th": "ที่ร้อย"
+  },
+  {
+    "lemma": "hungry",
+    "pos": "adjective",
+    "meaning_th": "หิว"
+  },
+  {
+    "lemma": "hunt",
+    "pos": "verb",
+    "meaning_th": "ล่า"
+  },
+  {
+    "lemma": "hunting",
+    "pos": "verb",
+    "meaning_th": "การล่าสัตว์"
+  },
+  {
+    "lemma": "hurry",
+    "pos": "verb",
+    "meaning_th": "รีบ"
+  },
+  {
+    "lemma": "hurry up",
+    "pos": "verb",
+    "meaning_th": "รีบเข้า / เร่งความเร็ว"
+  },
+  {
+    "lemma": "hurt",
+    "pos": "verb",
+    "meaning_th": "เจ็บ"
+  },
+  {
+    "lemma": "husband",
+    "pos": "noun",
+    "meaning_th": "สามี"
+  },
+  {
+    "lemma": "I",
+    "pos": "pronoun",
+    "meaning_th": "ฉัน"
+  },
+  {
+    "lemma": "ice",
+    "pos": "noun",
+    "meaning_th": "น้ำแข็ง"
+  },
+  {
+    "lemma": "ice cream",
+    "pos": "noun",
+    "meaning_th": "ไอศครีม"
+  },
+  {
+    "lemma": "idea",
+    "pos": "noun",
+    "meaning_th": "ความคิด"
+  },
+  {
+    "lemma": "ideal",
+    "pos": "adjective",
+    "meaning_th": "ในอุดมคติ"
+  },
+  {
+    "lemma": "identify",
+    "pos": "verb",
+    "meaning_th": "แยกแยะ"
+  },
+  {
+    "lemma": "identify with",
+    "pos": "verb",
+    "meaning_th": "ระบุด้วย"
+  },
+  {
+    "lemma": "identity",
+    "pos": "noun",
+    "meaning_th": "ตัวตน"
+  },
+  {
+    "lemma": "i.e.",
+    "pos": "other",
+    "meaning_th": "เช่น."
+  },
+  {
+    "lemma": "if",
+    "pos": "conjunction",
+    "meaning_th": "ถ้า"
+  },
+  {
+    "lemma": "ignore",
+    "pos": "verb",
+    "meaning_th": "ไม่สนใจ"
+  },
+  {
+    "lemma": "ill",
+    "pos": "adjective",
+    "meaning_th": "ป่วย"
+  },
+  {
+    "lemma": "illegal",
+    "pos": "adjective",
+    "meaning_th": "ผิดกฎหมาย"
+  },
+  {
+    "lemma": "illegally",
+    "pos": "adjective",
+    "meaning_th": "อย่างผิดกฎหมาย"
+  },
+  {
+    "lemma": "illness",
+    "pos": "noun",
+    "meaning_th": "การเจ็บป่วย"
+  },
+  {
+    "lemma": "image",
+    "pos": "noun",
+    "meaning_th": "ภาพ"
+  },
+  {
+    "lemma": "imaginary",
+    "pos": "adjective",
+    "meaning_th": "จินตภาพ"
+  },
+  {
+    "lemma": "imagination",
+    "pos": "noun",
+    "meaning_th": "จินตนาการ"
+  },
+  {
+    "lemma": "imagine",
+    "pos": "verb",
+    "meaning_th": "จินตนาการ"
+  },
+  {
+    "lemma": "immediate",
+    "pos": "adjective",
+    "meaning_th": "ทันที"
+  },
+  {
+    "lemma": "immediately",
+    "pos": "adverb",
+    "meaning_th": "ทันทีทันใด"
+  }
+]

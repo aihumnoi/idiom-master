@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "rough",
+    "pos": "adjective",
+    "meaning_th": "ขรุขระ"
+  },
+  {
+    "lemma": "roughly",
+    "pos": "adverb",
+    "meaning_th": "คร่าวๆ / หยาบๆ"
+  },
+  {
+    "lemma": "round",
+    "pos": "adjective",
+    "meaning_th": "กลม"
+  },
+  {
+    "lemma": "rounded",
+    "pos": "adjective",
+    "meaning_th": "โค้งมน"
+  },
+  {
+    "lemma": "route",
+    "pos": "noun",
+    "meaning_th": "เส้นทาง"
+  },
+  {
+    "lemma": "routine",
+    "pos": "noun",
+    "meaning_th": "กิจวัตรประจำวัน"
+  },
+  {
+    "lemma": "row 1",
+    "pos": "noun",
+    "meaning_th": "แถว / แนวระเบียบ"
+  },
+  {
+    "lemma": "royal",
+    "pos": "adjective",
+    "meaning_th": "พระราช"
+  },
+  {
+    "lemma": "rub",
+    "pos": "verb",
+    "meaning_th": "ถู"
+  },
+  {
+    "lemma": "rubber",
+    "pos": "noun",
+    "meaning_th": "ยาง"
+  },
+  {
+    "lemma": "rubbish",
+    "pos": "noun",
+    "meaning_th": "ขยะ"
+  },
+  {
+    "lemma": "rude",
+    "pos": "adjective",
+    "meaning_th": "หยาบคาย"
+  },
+  {
+    "lemma": "rudely",
+    "pos": "adjective",
+    "meaning_th": "หยาบคาย"
+  },
+  {
+    "lemma": "ruin",
+    "pos": "verb",
+    "meaning_th": "ทำลาย"
+  },
+  {
+    "lemma": "ruined",
+    "pos": "verb",
+    "meaning_th": "พังทลาย / เสียหายยับเยิน"
+  },
+  {
+    "lemma": "rule",
+    "pos": "noun",
+    "meaning_th": "กฎ"
+  },
+  {
+    "lemma": "rule out",
+    "pos": "verb",
+    "meaning_th": "ตัดออกจากการพิจารณา / กีดกัน"
+  },
+  {
+    "lemma": "ruler",
+    "pos": "noun",
+    "meaning_th": "ผู้ปกครอง / ไม้บรรทัด"
+  },
+  {
+    "lemma": "rumour",
+    "pos": "noun",
+    "meaning_th": "ข่าวลือ"
+  },
+  {
+    "lemma": "run",
+    "pos": "verb",
+    "meaning_th": "วิ่ง"
+  },
+  {
+    "lemma": "run after",
+    "pos": "verb",
+    "meaning_th": "วิ่งตาม"
+  },
+  {
+    "lemma": "run away",
+    "pos": "verb",
+    "meaning_th": "หนีออกจากบ้าน / หลบหนี"
+  },
+  {
+    "lemma": "runner",
+    "pos": "noun",
+    "meaning_th": "นักวิ่ง"
+  },
+  {
+    "lemma": "running",
+    "pos": "noun",
+    "meaning_th": "วิ่ง"
+  },
+  {
+    "lemma": "run out",
+    "pos": "verb",
+    "meaning_th": "(เวลา/สินค้า) หมดลง"
+  },
+  {
+    "lemma": "run over",
+    "pos": "verb",
+    "meaning_th": "ขับรถชนทับ / ใช้เวลาเกินกำหนด"
+  },
+  {
+    "lemma": "run through",
+    "pos": "verb",
+    "meaning_th": "วิ่งผ่าน"
+  },
+  {
+    "lemma": "rural",
+    "pos": "adjective",
+    "meaning_th": "ชนบท"
+  },
+  {
+    "lemma": "rush",
+    "pos": "verb",
+    "meaning_th": "รีบ"
+  },
+  {
+    "lemma": "sack",
+    "pos": "noun",
+    "meaning_th": "กระสอบ"
+  },
+  {
+    "lemma": "sad",
+    "pos": "adjective",
+    "meaning_th": "เศร้า"
+  },
+  {
+    "lemma": "sadly",
+    "pos": "adverb",
+    "meaning_th": "เศร้า"
+  },
+  {
+    "lemma": "sadness",
+    "pos": "noun",
+    "meaning_th": "ความโศกเศร้า"
+  },
+  {
+    "lemma": "safe",
+    "pos": "adjective",
+    "meaning_th": "ปลอดภัย"
+  },
+  {
+    "lemma": "safely",
+    "pos": "adjective",
+    "meaning_th": "ได้อย่างปลอดภัย"
+  },
+  {
+    "lemma": "safety",
+    "pos": "noun",
+    "meaning_th": "ความปลอดภัย"
+  },
+  {
+    "lemma": "sail",
+    "pos": "verb",
+    "meaning_th": "แล่นเรือ"
+  },
+  {
+    "lemma": "sailing",
+    "pos": "noun",
+    "meaning_th": "การแล่นเรือใบ"
+  },
+  {
+    "lemma": "sailor",
+    "pos": "noun",
+    "meaning_th": "กะลาสี / ลูกเรือ"
+  },
+  {
+    "lemma": "salad",
+    "pos": "noun",
+    "meaning_th": "สลัด"
+  },
+  {
+    "lemma": "salary",
+    "pos": "noun",
+    "meaning_th": "เงินเดือน"
+  },
+  {
+    "lemma": "sale",
+    "pos": "noun",
+    "meaning_th": "ขาย"
+  },
+  {
+    "lemma": "salt",
+    "pos": "noun",
+    "meaning_th": "เกลือ"
+  },
+  {
+    "lemma": "salty",
+    "pos": "adjective",
+    "meaning_th": "เค็ม"
+  },
+  {
+    "lemma": "same",
+    "pos": "adjective",
+    "meaning_th": "เดียวกัน"
+  },
+  {
+    "lemma": "sample",
+    "pos": "noun",
+    "meaning_th": "ตัวอย่าง"
+  },
+  {
+    "lemma": "sand",
+    "pos": "noun",
+    "meaning_th": "ทราย"
+  },
+  {
+    "lemma": "satisfaction",
+    "pos": "noun",
+    "meaning_th": "ความพึงพอใจ"
+  },
+  {
+    "lemma": "satisfied",
+    "pos": "adjective",
+    "meaning_th": "พอใจ"
+  },
+  {
+    "lemma": "satisfy",
+    "pos": "verb",
+    "meaning_th": "ทำให้พึงพอใจ"
+  }
+]

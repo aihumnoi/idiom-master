@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "attraction",
+    "pos": "noun",
+    "meaning_th": "สถานที่ท่องเที่ยว"
+  },
+  {
+    "lemma": "attractive",
+    "pos": "adjective",
+    "meaning_th": "มีเสน่ห์"
+  },
+  {
+    "lemma": "audience",
+    "pos": "noun",
+    "meaning_th": "ผู้ชม"
+  },
+  {
+    "lemma": "August",
+    "pos": "noun",
+    "meaning_th": "สิงหาคม"
+  },
+  {
+    "lemma": "aunt",
+    "pos": "noun",
+    "meaning_th": "ป้า"
+  },
+  {
+    "lemma": "author",
+    "pos": "noun",
+    "meaning_th": "ผู้เขียน"
+  },
+  {
+    "lemma": "automatic",
+    "pos": "adjective",
+    "meaning_th": "อัตโนมัติ"
+  },
+  {
+    "lemma": "automatically",
+    "pos": "adverb",
+    "meaning_th": "โดยอัตโนมัติ"
+  },
+  {
+    "lemma": "autumn",
+    "pos": "noun",
+    "meaning_th": "ฤดูใบไม้ร่วง"
+  },
+  {
+    "lemma": "available",
+    "pos": "adjective",
+    "meaning_th": "มีอยู่"
+  },
+  {
+    "lemma": "average",
+    "pos": "noun",
+    "meaning_th": "ค่าเฉลี่ย"
+  },
+  {
+    "lemma": "avoid",
+    "pos": "verb",
+    "meaning_th": "หลีกเลี่ยง"
+  },
+  {
+    "lemma": "awake",
+    "pos": "adjective",
+    "meaning_th": "ตื่น"
+  },
+  {
+    "lemma": "award",
+    "pos": "noun",
+    "meaning_th": "รางวัล"
+  },
+  {
+    "lemma": "aware",
+    "pos": "adjective",
+    "meaning_th": "รับรู้"
+  },
+  {
+    "lemma": "away",
+    "pos": "adverb",
+    "meaning_th": "ห่างออกไป"
+  },
+  {
+    "lemma": "awful",
+    "pos": "adjective",
+    "meaning_th": "แย่มาก"
+  },
+  {
+    "lemma": "awfully",
+    "pos": "adverb",
+    "meaning_th": "อย่างมาก"
+  },
+  {
+    "lemma": "awkward",
+    "pos": "adjective",
+    "meaning_th": "งุ่มง่าม"
+  },
+  {
+    "lemma": "awkwardly",
+    "pos": "adverb",
+    "meaning_th": "อย่างเชื่องช้า"
+  },
+  {
+    "lemma": "baby",
+    "pos": "noun",
+    "meaning_th": "ที่รัก"
+  },
+  {
+    "lemma": "back",
+    "pos": "noun",
+    "meaning_th": "กลับ"
+  },
+  {
+    "lemma": "background",
+    "pos": "noun",
+    "meaning_th": "พื้นหลัง"
+  },
+  {
+    "lemma": "back up",
+    "pos": "noun",
+    "meaning_th": "สำรองข้อมูล"
+  },
+  {
+    "lemma": "backward",
+    "pos": "adjective",
+    "meaning_th": "ถอยหลัง"
+  },
+  {
+    "lemma": "backwards",
+    "pos": "adverb",
+    "meaning_th": "ถอยหลัง"
+  },
+  {
+    "lemma": "bacteria",
+    "pos": "noun",
+    "meaning_th": "แบคทีเรีย"
+  },
+  {
+    "lemma": "bad",
+    "pos": "adjective",
+    "meaning_th": "แย่"
+  },
+  {
+    "lemma": "badly",
+    "pos": "adverb",
+    "meaning_th": "ห่วย"
+  },
+  {
+    "lemma": "bad-tempered",
+    "pos": "adjective",
+    "meaning_th": "อารมณ์ไม่ดี"
+  },
+  {
+    "lemma": "bag",
+    "pos": "noun",
+    "meaning_th": "ถุง"
+  },
+  {
+    "lemma": "baggage",
+    "pos": "noun",
+    "meaning_th": "สัมภาระ / กระเป๋าเดินทาง"
+  },
+  {
+    "lemma": "bake",
+    "pos": "verb",
+    "meaning_th": "อบ"
+  },
+  {
+    "lemma": "balance",
+    "pos": "noun",
+    "meaning_th": "สมดุล"
+  },
+  {
+    "lemma": "ball",
+    "pos": "noun",
+    "meaning_th": "ลูกบอล"
+  },
+  {
+    "lemma": "ban",
+    "pos": "verb",
+    "meaning_th": "ห้าม"
+  },
+  {
+    "lemma": "band",
+    "pos": "noun",
+    "meaning_th": "วงดนตรี"
+  },
+  {
+    "lemma": "bandage",
+    "pos": "noun",
+    "meaning_th": "ผ้าพันแผล"
+  },
+  {
+    "lemma": "bank",
+    "pos": "noun",
+    "meaning_th": "ธนาคาร"
+  },
+  {
+    "lemma": "bar",
+    "pos": "noun",
+    "meaning_th": "บาร์"
+  },
+  {
+    "lemma": "bargain",
+    "pos": "noun",
+    "meaning_th": "การต่อรอง / ข้อตกลง / ของราคาถูก"
+  },
+  {
+    "lemma": "barrier",
+    "pos": "noun",
+    "meaning_th": "สิ่งกีดขวาง"
+  },
+  {
+    "lemma": "base",
+    "pos": "noun",
+    "meaning_th": "ฐาน"
+  },
+  {
+    "lemma": "based",
+    "pos": "adjective",
+    "meaning_th": "ซึ่งเป็นรากฐาน"
+  },
+  {
+    "lemma": "base on",
+    "pos": "noun",
+    "meaning_th": "บนพื้นฐาน"
+  },
+  {
+    "lemma": "basic",
+    "pos": "adjective",
+    "meaning_th": "ขั้นพื้นฐาน"
+  },
+  {
+    "lemma": "basically",
+    "pos": "adverb",
+    "meaning_th": "โดยพื้นฐานแล้ว"
+  },
+  {
+    "lemma": "basis",
+    "pos": "noun",
+    "meaning_th": "พื้นฐาน"
+  },
+  {
+    "lemma": "bath",
+    "pos": "noun",
+    "meaning_th": "อาบน้ำ"
+  },
+  {
+    "lemma": "bathroom",
+    "pos": "noun",
+    "meaning_th": "ห้องน้ำ"
+  }
+]

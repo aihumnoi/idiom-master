@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "confined",
+    "pos": "adjective",
+    "meaning_th": "ถูกคุมขัง"
+  },
+  {
+    "lemma": "confirm",
+    "pos": "verb",
+    "meaning_th": "ยืนยัน"
+  },
+  {
+    "lemma": "conflict",
+    "pos": "noun",
+    "meaning_th": "ขัดแย้ง"
+  },
+  {
+    "lemma": "confront",
+    "pos": "verb",
+    "meaning_th": "เผชิญหน้า"
+  },
+  {
+    "lemma": "confuse",
+    "pos": "verb",
+    "meaning_th": "สับสน"
+  },
+  {
+    "lemma": "confused",
+    "pos": "adjective",
+    "meaning_th": "สับสน"
+  },
+  {
+    "lemma": "confusing",
+    "pos": "adjective",
+    "meaning_th": "สับสน"
+  },
+  {
+    "lemma": "confusion",
+    "pos": "noun",
+    "meaning_th": "ความสับสน"
+  },
+  {
+    "lemma": "congratulate",
+    "pos": "verb",
+    "meaning_th": "ขอแสดงความยินดี"
+  },
+  {
+    "lemma": "congratulation",
+    "pos": "noun",
+    "meaning_th": "ขอแสดงความยินดี"
+  },
+  {
+    "lemma": "congress",
+    "pos": "noun",
+    "meaning_th": "รัฐสภา"
+  },
+  {
+    "lemma": "connect",
+    "pos": "verb",
+    "meaning_th": "เชื่อมต่อ"
+  },
+  {
+    "lemma": "connected",
+    "pos": "adjective",
+    "meaning_th": "เชื่อมต่อแล้ว"
+  },
+  {
+    "lemma": "connection",
+    "pos": "noun",
+    "meaning_th": "การเชื่อมต่อ"
+  },
+  {
+    "lemma": "conscious",
+    "pos": "adjective",
+    "meaning_th": "มีสติ / รู้สึกตัว"
+  },
+  {
+    "lemma": "consequence",
+    "pos": "noun",
+    "meaning_th": "ผลที่ตามมา"
+  },
+  {
+    "lemma": "conservative",
+    "pos": "adjective",
+    "meaning_th": "ซึ่งอนุรักษ์นิยม"
+  },
+  {
+    "lemma": "consider",
+    "pos": "verb",
+    "meaning_th": "พิจารณา"
+  },
+  {
+    "lemma": "considerable",
+    "pos": "adjective",
+    "meaning_th": "มาก"
+  },
+  {
+    "lemma": "considerably",
+    "pos": "adverb",
+    "meaning_th": "อย่างมาก"
+  },
+  {
+    "lemma": "consideration",
+    "pos": "noun",
+    "meaning_th": "การพิจารณา"
+  },
+  {
+    "lemma": "consist",
+    "pos": "verb",
+    "meaning_th": "ประกอบด้วย"
+  },
+  {
+    "lemma": "consist of",
+    "pos": "noun",
+    "meaning_th": "ประกอบด้วย"
+  },
+  {
+    "lemma": "constant",
+    "pos": "adjective",
+    "meaning_th": "คงที่"
+  },
+  {
+    "lemma": "constantly",
+    "pos": "adverb",
+    "meaning_th": "อย่างสม่ำเสมอ"
+  },
+  {
+    "lemma": "construct",
+    "pos": "verb",
+    "meaning_th": "สร้าง"
+  },
+  {
+    "lemma": "construction",
+    "pos": "noun",
+    "meaning_th": "การก่อสร้าง"
+  },
+  {
+    "lemma": "consult",
+    "pos": "verb",
+    "meaning_th": "ปรึกษา"
+  },
+  {
+    "lemma": "consumer",
+    "pos": "noun",
+    "meaning_th": "ผู้บริโภค"
+  },
+  {
+    "lemma": "contact",
+    "pos": "noun",
+    "meaning_th": "ติดต่อ"
+  },
+  {
+    "lemma": "contain",
+    "pos": "verb",
+    "meaning_th": "บรรจุ"
+  },
+  {
+    "lemma": "container",
+    "pos": "noun",
+    "meaning_th": "คอนเทนเนอร์"
+  },
+  {
+    "lemma": "contemporary",
+    "pos": "adjective",
+    "meaning_th": "ร่วมสมัย"
+  },
+  {
+    "lemma": "content 1",
+    "pos": "noun",
+    "meaning_th": "เนื้อหา / สารบัญ"
+  },
+  {
+    "lemma": "contest",
+    "pos": "noun",
+    "meaning_th": "การประกวด"
+  },
+  {
+    "lemma": "context",
+    "pos": "noun",
+    "meaning_th": "บริบท"
+  },
+  {
+    "lemma": "continent",
+    "pos": "noun",
+    "meaning_th": "ทวีป"
+  },
+  {
+    "lemma": "continue",
+    "pos": "verb",
+    "meaning_th": "ดำเนินการต่อ"
+  },
+  {
+    "lemma": "continuous",
+    "pos": "adjective",
+    "meaning_th": "อย่างต่อเนื่อง"
+  },
+  {
+    "lemma": "continuously",
+    "pos": "adverb",
+    "meaning_th": "อย่างต่อเนื่อง"
+  },
+  {
+    "lemma": "contract",
+    "pos": "noun",
+    "meaning_th": "สัญญา"
+  },
+  {
+    "lemma": "contrast",
+    "pos": "noun",
+    "meaning_th": "ตัดกัน"
+  },
+  {
+    "lemma": "contrasting",
+    "pos": "adjective",
+    "meaning_th": "ตัดกัน"
+  },
+  {
+    "lemma": "contribute",
+    "pos": "verb",
+    "meaning_th": "มีส่วนช่วย"
+  },
+  {
+    "lemma": "contribution",
+    "pos": "noun",
+    "meaning_th": "ผลงาน"
+  },
+  {
+    "lemma": "control",
+    "pos": "noun",
+    "meaning_th": "ควบคุม"
+  },
+  {
+    "lemma": "controlled",
+    "pos": "adjective",
+    "meaning_th": "ควบคุม"
+  },
+  {
+    "lemma": "convenient",
+    "pos": "adjective",
+    "meaning_th": "สะดวก"
+  },
+  {
+    "lemma": "convention",
+    "pos": "noun",
+    "meaning_th": "การประชุม"
+  },
+  {
+    "lemma": "conventional",
+    "pos": "adjective",
+    "meaning_th": "ธรรมดา"
+  }
+]

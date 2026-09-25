@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "mouse",
+    "pos": "noun",
+    "meaning_th": "หนู"
+  },
+  {
+    "lemma": "mouth",
+    "pos": "noun",
+    "meaning_th": "ปาก"
+  },
+  {
+    "lemma": "move",
+    "pos": "verb",
+    "meaning_th": "เคลื่อนไหว"
+  },
+  {
+    "lemma": "move in",
+    "pos": "verb",
+    "meaning_th": "ย้ายเข้าบ้านใหม่"
+  },
+  {
+    "lemma": "movement",
+    "pos": "noun",
+    "meaning_th": "ความเคลื่อนไหว"
+  },
+  {
+    "lemma": "move out",
+    "pos": "verb",
+    "meaning_th": "ย้ายออกจากบ้าน"
+  },
+  {
+    "lemma": "move over",
+    "pos": "verb",
+    "meaning_th": "ย้ายไป"
+  },
+  {
+    "lemma": "movie",
+    "pos": "noun",
+    "meaning_th": "ภาพยนตร์"
+  },
+  {
+    "lemma": "movie theater",
+    "pos": "noun",
+    "meaning_th": "โรงภาพยนตร์"
+  },
+  {
+    "lemma": "moving",
+    "pos": "verb",
+    "meaning_th": "การย้าย"
+  },
+  {
+    "lemma": "Mr",
+    "pos": "noun",
+    "meaning_th": "นาย"
+  },
+  {
+    "lemma": "Mrs",
+    "pos": "noun",
+    "meaning_th": "นาง"
+  },
+  {
+    "lemma": "Ms",
+    "pos": "noun",
+    "meaning_th": "นางสาว"
+  },
+  {
+    "lemma": "much",
+    "pos": "adjective",
+    "meaning_th": "มาก"
+  },
+  {
+    "lemma": "mud",
+    "pos": "noun",
+    "meaning_th": "โคลน"
+  },
+  {
+    "lemma": "multiply",
+    "pos": "verb",
+    "meaning_th": "คูณ / เพิ่มจำนวน"
+  },
+  {
+    "lemma": "mum",
+    "pos": "noun",
+    "meaning_th": "แม่"
+  },
+  {
+    "lemma": "murder",
+    "pos": "noun",
+    "meaning_th": "ฆาตกรรม"
+  },
+  {
+    "lemma": "muscle",
+    "pos": "noun",
+    "meaning_th": "กล้ามเนื้อ"
+  },
+  {
+    "lemma": "museum",
+    "pos": "noun",
+    "meaning_th": "พิพิธภัณฑ์"
+  },
+  {
+    "lemma": "music",
+    "pos": "noun",
+    "meaning_th": "ดนตรี"
+  },
+  {
+    "lemma": "musical",
+    "pos": "adjective",
+    "meaning_th": "ดนตรี"
+  },
+  {
+    "lemma": "musician",
+    "pos": "noun",
+    "meaning_th": "นักดนตรี"
+  },
+  {
+    "lemma": "must",
+    "pos": "verb",
+    "meaning_th": "ต้อง"
+  },
+  {
+    "lemma": "my",
+    "pos": "pronoun",
+    "meaning_th": "ของฉัน"
+  },
+  {
+    "lemma": "myself",
+    "pos": "pronoun",
+    "meaning_th": "ตัวฉันเอง"
+  },
+  {
+    "lemma": "mysterious",
+    "pos": "adjective",
+    "meaning_th": "ลึกลับ"
+  },
+  {
+    "lemma": "mystery",
+    "pos": "noun",
+    "meaning_th": "ความลึกลับ"
+  },
+  {
+    "lemma": "nail",
+    "pos": "noun",
+    "meaning_th": "เล็บ"
+  },
+  {
+    "lemma": "naked",
+    "pos": "adjective",
+    "meaning_th": "เปลือยเปล่า"
+  },
+  {
+    "lemma": "name",
+    "pos": "noun",
+    "meaning_th": "ชื่อ"
+  },
+  {
+    "lemma": "narrow",
+    "pos": "adjective",
+    "meaning_th": "แคบ"
+  },
+  {
+    "lemma": "nation",
+    "pos": "noun",
+    "meaning_th": "ชาติ"
+  },
+  {
+    "lemma": "national",
+    "pos": "adjective",
+    "meaning_th": "ระดับชาติ"
+  },
+  {
+    "lemma": "natural",
+    "pos": "adjective",
+    "meaning_th": "เป็นธรรมชาติ"
+  },
+  {
+    "lemma": "naturally",
+    "pos": "adverb",
+    "meaning_th": "ตามธรรมชาติ / แน่นอนอยู่แล้ว"
+  },
+  {
+    "lemma": "nature",
+    "pos": "noun",
+    "meaning_th": "ธรรมชาติ"
+  },
+  {
+    "lemma": "navy",
+    "pos": "noun",
+    "meaning_th": "กองทัพเรือ"
+  },
+  {
+    "lemma": "near",
+    "pos": "adverb",
+    "meaning_th": "ใกล้"
+  },
+  {
+    "lemma": "nearby",
+    "pos": "adjective",
+    "meaning_th": "ใกล้เคียง"
+  },
+  {
+    "lemma": "nearly",
+    "pos": "adverb",
+    "meaning_th": "เกือบจะ / เกือบ"
+  },
+  {
+    "lemma": "neat",
+    "pos": "adjective",
+    "meaning_th": "ประณีต"
+  },
+  {
+    "lemma": "neatly",
+    "pos": "adverb",
+    "meaning_th": "อย่างเรียบร้อย"
+  },
+  {
+    "lemma": "necessarily",
+    "pos": "adverb",
+    "meaning_th": "อย่างหลีกเลี่ยงไม่ได้ / จำเป็นต้อง"
+  },
+  {
+    "lemma": "necessary",
+    "pos": "adjective",
+    "meaning_th": "จำเป็น"
+  },
+  {
+    "lemma": "neck",
+    "pos": "noun",
+    "meaning_th": "คอ"
+  },
+  {
+    "lemma": "need",
+    "pos": "verb",
+    "meaning_th": "ความต้องการ"
+  },
+  {
+    "lemma": "needle",
+    "pos": "noun",
+    "meaning_th": "เข็ม"
+  },
+  {
+    "lemma": "negative",
+    "pos": "adjective",
+    "meaning_th": "เชิงลบ"
+  },
+  {
+    "lemma": "neighbour",
+    "pos": "noun",
+    "meaning_th": "เพื่อนบ้าน"
+  }
+]

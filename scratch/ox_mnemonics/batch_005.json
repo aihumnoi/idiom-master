@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "among",
+    "pos": "preposition",
+    "meaning_th": "ท่ามกลาง"
+  },
+  {
+    "lemma": "amount",
+    "pos": "noun",
+    "meaning_th": "จำนวน / ปริมาณ"
+  },
+  {
+    "lemma": "amount to",
+    "pos": "noun",
+    "meaning_th": "มีจำนวนรวมเป็น / มีค่าเท่ากับ"
+  },
+  {
+    "lemma": "amuse",
+    "pos": "verb",
+    "meaning_th": "น่าขบขัน"
+  },
+  {
+    "lemma": "amused",
+    "pos": "adjective",
+    "meaning_th": "ขบขัน"
+  },
+  {
+    "lemma": "amusing",
+    "pos": "adjective",
+    "meaning_th": "น่าขบขัน"
+  },
+  {
+    "lemma": "analysis",
+    "pos": "noun",
+    "meaning_th": "การวิเคราะห์"
+  },
+  {
+    "lemma": "and",
+    "pos": "conjunction",
+    "meaning_th": "และ"
+  },
+  {
+    "lemma": "anger",
+    "pos": "noun",
+    "meaning_th": "ความโกรธ"
+  },
+  {
+    "lemma": "angle",
+    "pos": "noun",
+    "meaning_th": "มุม"
+  },
+  {
+    "lemma": "angrily",
+    "pos": "adverb",
+    "meaning_th": "โกรธ"
+  },
+  {
+    "lemma": "angry",
+    "pos": "adjective",
+    "meaning_th": "โกรธ"
+  },
+  {
+    "lemma": "animal",
+    "pos": "noun",
+    "meaning_th": "สัตว์"
+  },
+  {
+    "lemma": "anniversary",
+    "pos": "noun",
+    "meaning_th": "วันครบรอบปี"
+  },
+  {
+    "lemma": "annoy",
+    "pos": "verb",
+    "meaning_th": "รบกวน"
+  },
+  {
+    "lemma": "annoyed",
+    "pos": "adjective",
+    "meaning_th": "รำคาญ"
+  },
+  {
+    "lemma": "annoying",
+    "pos": "adjective",
+    "meaning_th": "น่ารำคาญ"
+  },
+  {
+    "lemma": "annual",
+    "pos": "adjective",
+    "meaning_th": "ประจำปี"
+  },
+  {
+    "lemma": "annually",
+    "pos": "adverb",
+    "meaning_th": "เป็นประจำทุกปี"
+  },
+  {
+    "lemma": "another",
+    "pos": "determiner",
+    "meaning_th": "อีกอันหนึ่ง / อีกคนหนึ่ง"
+  },
+  {
+    "lemma": "answer",
+    "pos": "noun",
+    "meaning_th": "คำตอบ"
+  },
+  {
+    "lemma": "anti-",
+    "pos": "noun",
+    "meaning_th": "ต่อต้าน"
+  },
+  {
+    "lemma": "anticipate",
+    "pos": "verb",
+    "meaning_th": "คาดหวัง"
+  },
+  {
+    "lemma": "anxious",
+    "pos": "adjective",
+    "meaning_th": "กังวล"
+  },
+  {
+    "lemma": "anxiously",
+    "pos": "adverb",
+    "meaning_th": "อย่างใจจดใจจ่อ"
+  },
+  {
+    "lemma": "any",
+    "pos": "determiner",
+    "meaning_th": "ใดๆ"
+  },
+  {
+    "lemma": "anybody",
+    "pos": "pronoun",
+    "meaning_th": "ใครก็ได้"
+  },
+  {
+    "lemma": "anyone",
+    "pos": "pronoun",
+    "meaning_th": "ใครก็ได้"
+  },
+  {
+    "lemma": "anything",
+    "pos": "pronoun",
+    "meaning_th": "อะไรก็ตาม"
+  },
+  {
+    "lemma": "anyway",
+    "pos": "adverb",
+    "meaning_th": "ถึงอย่างไร"
+  },
+  {
+    "lemma": "anywhere",
+    "pos": "adverb",
+    "meaning_th": "ทุกที่"
+  },
+  {
+    "lemma": "apart",
+    "pos": "adverb",
+    "meaning_th": "ห่างกัน"
+  },
+  {
+    "lemma": "apart from",
+    "pos": "preposition",
+    "meaning_th": "นอกเหนือจาก"
+  },
+  {
+    "lemma": "apartment",
+    "pos": "noun",
+    "meaning_th": "อพาร์ตเมนต์ / ห้องชุด"
+  },
+  {
+    "lemma": "apologize",
+    "pos": "verb",
+    "meaning_th": "ขอโทษ"
+  },
+  {
+    "lemma": "apparently",
+    "pos": "adverb",
+    "meaning_th": "เห็นได้ชัดว่า"
+  },
+  {
+    "lemma": "appeal",
+    "pos": "noun",
+    "meaning_th": "อุทธรณ์"
+  },
+  {
+    "lemma": "appear",
+    "pos": "verb",
+    "meaning_th": "ปรากฏ"
+  },
+  {
+    "lemma": "appearance",
+    "pos": "noun",
+    "meaning_th": "รูปร่าง"
+  },
+  {
+    "lemma": "apple",
+    "pos": "noun",
+    "meaning_th": "แอปเปิล"
+  },
+  {
+    "lemma": "application",
+    "pos": "noun",
+    "meaning_th": "ใบสมัคร / การสมัคร / แอปพลิเคชัน"
+  },
+  {
+    "lemma": "apply",
+    "pos": "verb",
+    "meaning_th": "สมัคร / ประยุกต์ใช้"
+  },
+  {
+    "lemma": "appoint",
+    "pos": "verb",
+    "meaning_th": "แต่งตั้ง"
+  },
+  {
+    "lemma": "appointment",
+    "pos": "noun",
+    "meaning_th": "การนัดหมาย"
+  },
+  {
+    "lemma": "appreciate",
+    "pos": "verb",
+    "meaning_th": "ชื่นชม"
+  },
+  {
+    "lemma": "appropriate",
+    "pos": "adjective",
+    "meaning_th": "เหมาะสม"
+  },
+  {
+    "lemma": "approval",
+    "pos": "noun",
+    "meaning_th": "การอนุมัติ / การเห็นชอบ"
+  },
+  {
+    "lemma": "approve",
+    "pos": "verb",
+    "meaning_th": "อนุมัติ / เห็นชอบ"
+  },
+  {
+    "lemma": "approving",
+    "pos": "adjective",
+    "meaning_th": "ซึ่งเห็นด้วย / ชื่นชม"
+  },
+  {
+    "lemma": "approximate",
+    "pos": "adjective",
+    "meaning_th": "โดยประมาณ / ใกล้เคียง"
+  }
+]

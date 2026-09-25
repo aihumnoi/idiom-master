@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "clear",
+    "pos": "adjective",
+    "meaning_th": "ชัดเจน"
+  },
+  {
+    "lemma": "clearly",
+    "pos": "adverb",
+    "meaning_th": "ชัดเจน"
+  },
+  {
+    "lemma": "clear out",
+    "pos": "verb",
+    "meaning_th": "เคลียร์ออก"
+  },
+  {
+    "lemma": "clear up",
+    "pos": "verb",
+    "meaning_th": "ชัดเจนขึ้น"
+  },
+  {
+    "lemma": "clerk",
+    "pos": "noun",
+    "meaning_th": "เสมียน / พนักงาน"
+  },
+  {
+    "lemma": "clever",
+    "pos": "adjective",
+    "meaning_th": "ฉลาด"
+  },
+  {
+    "lemma": "click",
+    "pos": "verb",
+    "meaning_th": "คลิก"
+  },
+  {
+    "lemma": "client",
+    "pos": "noun",
+    "meaning_th": "ลูกค้า"
+  },
+  {
+    "lemma": "climate",
+    "pos": "noun",
+    "meaning_th": "ภูมิอากาศ"
+  },
+  {
+    "lemma": "climb",
+    "pos": "verb",
+    "meaning_th": "ปีน"
+  },
+  {
+    "lemma": "climbing",
+    "pos": "noun",
+    "meaning_th": "การปีนเขา"
+  },
+  {
+    "lemma": "clock",
+    "pos": "noun",
+    "meaning_th": "นาฬิกา"
+  },
+  {
+    "lemma": "close 1",
+    "pos": "verb",
+    "meaning_th": "ปิด (กริยา)"
+  },
+  {
+    "lemma": "close 2",
+    "pos": "adjective",
+    "meaning_th": "ใกล้ชิด / สนิทสนม (คุณศัพท์)"
+  },
+  {
+    "lemma": "closed",
+    "pos": "adjective",
+    "meaning_th": "ปิด / ไม่เปิดบริการ"
+  },
+  {
+    "lemma": "closely",
+    "pos": "adverb",
+    "meaning_th": "อย่างใกล้ชิด"
+  },
+  {
+    "lemma": "closet",
+    "pos": "noun",
+    "meaning_th": "ตู้เสื้อผ้า"
+  },
+  {
+    "lemma": "cloth",
+    "pos": "noun",
+    "meaning_th": "ผ้า"
+  },
+  {
+    "lemma": "clothes",
+    "pos": "noun",
+    "meaning_th": "เสื้อผ้า"
+  },
+  {
+    "lemma": "clothing",
+    "pos": "noun",
+    "meaning_th": "เสื้อผ้า"
+  },
+  {
+    "lemma": "cloud",
+    "pos": "noun",
+    "meaning_th": "คลาวด์"
+  },
+  {
+    "lemma": "club",
+    "pos": "noun",
+    "meaning_th": "สโมสร"
+  },
+  {
+    "lemma": "coach",
+    "pos": "noun",
+    "meaning_th": "โค้ช"
+  },
+  {
+    "lemma": "coal",
+    "pos": "noun",
+    "meaning_th": "ถ่านหิน"
+  },
+  {
+    "lemma": "coast",
+    "pos": "noun",
+    "meaning_th": "ชายฝั่ง"
+  },
+  {
+    "lemma": "coat",
+    "pos": "noun",
+    "meaning_th": "เสื้อโค้ท"
+  },
+  {
+    "lemma": "code",
+    "pos": "noun",
+    "meaning_th": "รหัส"
+  },
+  {
+    "lemma": "coffee",
+    "pos": "noun",
+    "meaning_th": "กาแฟ"
+  },
+  {
+    "lemma": "coin",
+    "pos": "noun",
+    "meaning_th": "เหรียญ"
+  },
+  {
+    "lemma": "cold",
+    "pos": "adjective",
+    "meaning_th": "เย็น"
+  },
+  {
+    "lemma": "coldly",
+    "pos": "adverb",
+    "meaning_th": "หนาว"
+  },
+  {
+    "lemma": "collapse",
+    "pos": "verb",
+    "meaning_th": "ทรุด"
+  },
+  {
+    "lemma": "colleague",
+    "pos": "noun",
+    "meaning_th": "เพื่อนร่วมงาน"
+  },
+  {
+    "lemma": "collect",
+    "pos": "verb",
+    "meaning_th": "เก็บรวบรวม"
+  },
+  {
+    "lemma": "collection",
+    "pos": "noun",
+    "meaning_th": "ของสะสม"
+  },
+  {
+    "lemma": "college",
+    "pos": "noun",
+    "meaning_th": "วิทยาลัย"
+  },
+  {
+    "lemma": "colour",
+    "pos": "noun",
+    "meaning_th": "สี"
+  },
+  {
+    "lemma": "coloured",
+    "pos": "adjective",
+    "meaning_th": "มีสี"
+  },
+  {
+    "lemma": "column",
+    "pos": "noun",
+    "meaning_th": "คอลัมน์"
+  },
+  {
+    "lemma": "combination",
+    "pos": "noun",
+    "meaning_th": "การผสมผสาน"
+  },
+  {
+    "lemma": "combine",
+    "pos": "verb",
+    "meaning_th": "รวมกัน"
+  },
+  {
+    "lemma": "come",
+    "pos": "verb",
+    "meaning_th": "มา"
+  },
+  {
+    "lemma": "come across",
+    "pos": "noun",
+    "meaning_th": "บังเอิญพบ / ดูเหมือนเป็นคนอย่างไร"
+  },
+  {
+    "lemma": "come down",
+    "pos": "verb",
+    "meaning_th": "ลงมา"
+  },
+  {
+    "lemma": "comedy",
+    "pos": "noun",
+    "meaning_th": "ตลก"
+  },
+  {
+    "lemma": "come from",
+    "pos": "noun",
+    "meaning_th": "มาจาก"
+  },
+  {
+    "lemma": "come in",
+    "pos": "noun",
+    "meaning_th": "เข้ามา"
+  },
+  {
+    "lemma": "come off",
+    "pos": "noun",
+    "meaning_th": "หลุดออก / ประสบความสำเร็จ"
+  },
+  {
+    "lemma": "come on",
+    "pos": "noun",
+    "meaning_th": "เร็วเข้า / เอาเถอะ / เริ่มขึ้น"
+  },
+  {
+    "lemma": "come out",
+    "pos": "noun",
+    "meaning_th": "วางจำหน่าย / ปรากฏออกมา / เปิดตัว"
+  }
+]

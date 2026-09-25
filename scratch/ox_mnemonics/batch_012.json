@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "care for",
+    "pos": "noun",
+    "meaning_th": "ดูแล / ชอบหรือต้องการ"
+  },
+  {
+    "lemma": "careful",
+    "pos": "adjective",
+    "meaning_th": "ระมัดระวัง"
+  },
+  {
+    "lemma": "carefully",
+    "pos": "adverb",
+    "meaning_th": "อย่างระมัดระวัง"
+  },
+  {
+    "lemma": "careless",
+    "pos": "adjective",
+    "meaning_th": "สะเพร่า"
+  },
+  {
+    "lemma": "carelessly",
+    "pos": "adverb",
+    "meaning_th": "อย่างสะเพร่า / อย่างไม่ระมัดระวัง"
+  },
+  {
+    "lemma": "carpet",
+    "pos": "noun",
+    "meaning_th": "พรม"
+  },
+  {
+    "lemma": "carrot",
+    "pos": "noun",
+    "meaning_th": "แครอท"
+  },
+  {
+    "lemma": "carry",
+    "pos": "verb",
+    "meaning_th": "พก"
+  },
+  {
+    "lemma": "carry on",
+    "pos": "noun",
+    "meaning_th": "ทำต่อไป / ดำเนินต่อไป"
+  },
+  {
+    "lemma": "carry out",
+    "pos": "noun",
+    "meaning_th": "ดำเนินการ / ปฏิบัติตาม"
+  },
+  {
+    "lemma": "case",
+    "pos": "noun",
+    "meaning_th": "กรณี"
+  },
+  {
+    "lemma": "cash",
+    "pos": "noun",
+    "meaning_th": "เงินสด"
+  },
+  {
+    "lemma": "cast",
+    "pos": "verb",
+    "meaning_th": "เหวี่ยง / ขว้าง / คัดเลือกนักแสดง"
+  },
+  {
+    "lemma": "castle",
+    "pos": "noun",
+    "meaning_th": "ปราสาท"
+  },
+  {
+    "lemma": "cat",
+    "pos": "noun",
+    "meaning_th": "แมว"
+  },
+  {
+    "lemma": "catch",
+    "pos": "verb",
+    "meaning_th": "จับ"
+  },
+  {
+    "lemma": "catch up",
+    "pos": "noun",
+    "meaning_th": "ตามทัน / อัปเดตพูดคุยสารทุกข์สุกดิบ"
+  },
+  {
+    "lemma": "category",
+    "pos": "noun",
+    "meaning_th": "หมวดหมู่"
+  },
+  {
+    "lemma": "cause",
+    "pos": "verb",
+    "meaning_th": "สาเหตุ"
+  },
+  {
+    "lemma": "CD",
+    "pos": "noun",
+    "meaning_th": "ซีดี"
+  },
+  {
+    "lemma": "cease",
+    "pos": "verb",
+    "meaning_th": "หยุด"
+  },
+  {
+    "lemma": "ceiling",
+    "pos": "noun",
+    "meaning_th": "เพดาน"
+  },
+  {
+    "lemma": "celebrate",
+    "pos": "verb",
+    "meaning_th": "ฉลอง"
+  },
+  {
+    "lemma": "celebration",
+    "pos": "noun",
+    "meaning_th": "การเฉลิมฉลอง"
+  },
+  {
+    "lemma": "cell",
+    "pos": "noun",
+    "meaning_th": "เซลล์"
+  },
+  {
+    "lemma": "cell phone",
+    "pos": "noun",
+    "meaning_th": "โทรศัพท์มือถือ"
+  },
+  {
+    "lemma": "cent",
+    "pos": "noun",
+    "meaning_th": "ร้อยละ"
+  },
+  {
+    "lemma": "centimetre",
+    "pos": "noun",
+    "meaning_th": "เซนติเมตร"
+  },
+  {
+    "lemma": "central",
+    "pos": "adjective",
+    "meaning_th": "ศูนย์กลาง"
+  },
+  {
+    "lemma": "centre",
+    "pos": "noun",
+    "meaning_th": "จุดศูนย์กลาง / ศูนย์กลาง"
+  },
+  {
+    "lemma": "century",
+    "pos": "noun",
+    "meaning_th": "ศตวรรษ"
+  },
+  {
+    "lemma": "ceremony",
+    "pos": "noun",
+    "meaning_th": "พิธี"
+  },
+  {
+    "lemma": "certain",
+    "pos": "adjective",
+    "meaning_th": "แน่ใจ"
+  },
+  {
+    "lemma": "certainly",
+    "pos": "adverb",
+    "meaning_th": "แน่นอน"
+  },
+  {
+    "lemma": "certificate",
+    "pos": "noun",
+    "meaning_th": "ใบรับรอง / ประกาศนียบัตร"
+  },
+  {
+    "lemma": "chain",
+    "pos": "noun",
+    "meaning_th": "โซ่"
+  },
+  {
+    "lemma": "chair",
+    "pos": "noun",
+    "meaning_th": "เก้าอี้"
+  },
+  {
+    "lemma": "chairman",
+    "pos": "noun",
+    "meaning_th": "ประธาน"
+  },
+  {
+    "lemma": "chairwoman",
+    "pos": "noun",
+    "meaning_th": "ประธานหญิง"
+  },
+  {
+    "lemma": "chamber",
+    "pos": "noun",
+    "meaning_th": "ห้อง"
+  },
+  {
+    "lemma": "chance",
+    "pos": "noun",
+    "meaning_th": "โอกาส"
+  },
+  {
+    "lemma": "change",
+    "pos": "verb",
+    "meaning_th": "เปลี่ยน"
+  },
+  {
+    "lemma": "change round",
+    "pos": "noun",
+    "meaning_th": "สลับที่ / เปลี่ยนตำแหน่ง"
+  },
+  {
+    "lemma": "channel",
+    "pos": "noun",
+    "meaning_th": "ช่อง"
+  },
+  {
+    "lemma": "chapter",
+    "pos": "noun",
+    "meaning_th": "บท"
+  },
+  {
+    "lemma": "character",
+    "pos": "noun",
+    "meaning_th": "อักขระ"
+  },
+  {
+    "lemma": "characteristic",
+    "pos": "noun",
+    "meaning_th": "ลักษณะเฉพาะ"
+  },
+  {
+    "lemma": "charge",
+    "pos": "verb",
+    "meaning_th": "ค่าใช้จ่าย"
+  },
+  {
+    "lemma": "charity",
+    "pos": "noun",
+    "meaning_th": "การกุศล"
+  },
+  {
+    "lemma": "chart",
+    "pos": "noun",
+    "meaning_th": "แผนภูมิ"
+  }
+]

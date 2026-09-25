@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "failure",
+    "pos": "noun",
+    "meaning_th": "ความล้มเหลว"
+  },
+  {
+    "lemma": "faint",
+    "pos": "adjective",
+    "meaning_th": "เป็นลม"
+  },
+  {
+    "lemma": "faintly",
+    "pos": "adjective",
+    "meaning_th": "แผ่วเบา"
+  },
+  {
+    "lemma": "fair",
+    "pos": "adjective",
+    "meaning_th": "ยุติธรรม"
+  },
+  {
+    "lemma": "fairly",
+    "pos": "adverb",
+    "meaning_th": "เป็นธรรม"
+  },
+  {
+    "lemma": "faith",
+    "pos": "noun",
+    "meaning_th": "ศรัทธา"
+  },
+  {
+    "lemma": "faithful",
+    "pos": "adjective",
+    "meaning_th": "ซื่อสัตย์"
+  },
+  {
+    "lemma": "faithfully",
+    "pos": "adverb",
+    "meaning_th": "อย่างซื่อสัตย์"
+  },
+  {
+    "lemma": "fall",
+    "pos": "verb",
+    "meaning_th": "ตก"
+  },
+  {
+    "lemma": "false",
+    "pos": "adjective",
+    "meaning_th": "เท็จ"
+  },
+  {
+    "lemma": "fame",
+    "pos": "noun",
+    "meaning_th": "ชื่อเสียง"
+  },
+  {
+    "lemma": "familiar",
+    "pos": "adjective",
+    "meaning_th": "คุ้นเคย"
+  },
+  {
+    "lemma": "family",
+    "pos": "noun",
+    "meaning_th": "ตระกูล"
+  },
+  {
+    "lemma": "famous",
+    "pos": "adjective",
+    "meaning_th": "มีชื่อเสียง"
+  },
+  {
+    "lemma": "fan",
+    "pos": "noun",
+    "meaning_th": "พัดลม"
+  },
+  {
+    "lemma": "fancy",
+    "pos": "verb",
+    "meaning_th": "ไม่ธรรมดา"
+  },
+  {
+    "lemma": "far",
+    "pos": "adjective",
+    "meaning_th": "ไกล"
+  },
+  {
+    "lemma": "farm",
+    "pos": "noun",
+    "meaning_th": "ฟาร์ม"
+  },
+  {
+    "lemma": "farmer",
+    "pos": "noun",
+    "meaning_th": "ชาวนา"
+  },
+  {
+    "lemma": "farming",
+    "pos": "noun",
+    "meaning_th": "เกษตรกรรม"
+  },
+  {
+    "lemma": "farther",
+    "pos": "adjective",
+    "meaning_th": "ไกลออกไป"
+  },
+  {
+    "lemma": "farthest",
+    "pos": "adjective",
+    "meaning_th": "ไกลที่สุด"
+  },
+  {
+    "lemma": "fashion",
+    "pos": "noun",
+    "meaning_th": "แฟชั่น"
+  },
+  {
+    "lemma": "fashionable",
+    "pos": "adjective",
+    "meaning_th": "ทันสมัย"
+  },
+  {
+    "lemma": "fast",
+    "pos": "adjective",
+    "meaning_th": "เร็ว"
+  },
+  {
+    "lemma": "fasten",
+    "pos": "verb",
+    "meaning_th": "ยึด"
+  },
+  {
+    "lemma": "fat",
+    "pos": "noun",
+    "meaning_th": "อ้วน"
+  },
+  {
+    "lemma": "father",
+    "pos": "noun",
+    "meaning_th": "พ่อ"
+  },
+  {
+    "lemma": "faucet",
+    "pos": "noun",
+    "meaning_th": "ก๊อกน้ำ"
+  },
+  {
+    "lemma": "fault",
+    "pos": "noun",
+    "meaning_th": "ความผิดพลาด"
+  },
+  {
+    "lemma": "favour",
+    "pos": "verb",
+    "meaning_th": "โปรดปราน"
+  },
+  {
+    "lemma": "favourite",
+    "pos": "adjective",
+    "meaning_th": "ที่ชื่นชอบ"
+  },
+  {
+    "lemma": "fear",
+    "pos": "noun",
+    "meaning_th": "กลัว"
+  },
+  {
+    "lemma": "feather",
+    "pos": "noun",
+    "meaning_th": "ขนนก"
+  },
+  {
+    "lemma": "feature",
+    "pos": "noun",
+    "meaning_th": "คุณสมบัติ"
+  },
+  {
+    "lemma": "February",
+    "pos": "noun",
+    "meaning_th": "กุมภาพันธ์"
+  },
+  {
+    "lemma": "federal",
+    "pos": "adjective",
+    "meaning_th": "รัฐบาลกลาง"
+  },
+  {
+    "lemma": "fee",
+    "pos": "noun",
+    "meaning_th": "ค่าธรรมเนียม"
+  },
+  {
+    "lemma": "feed",
+    "pos": "verb",
+    "meaning_th": "ให้อาหาร"
+  },
+  {
+    "lemma": "feel",
+    "pos": "verb",
+    "meaning_th": "รู้สึก"
+  },
+  {
+    "lemma": "feeling",
+    "pos": "noun",
+    "meaning_th": "ความรู้สึก"
+  },
+  {
+    "lemma": "fellow",
+    "pos": "noun",
+    "meaning_th": "เพื่อน"
+  },
+  {
+    "lemma": "female",
+    "pos": "adjective",
+    "meaning_th": "หญิง"
+  },
+  {
+    "lemma": "fence",
+    "pos": "noun",
+    "meaning_th": "รั้ว"
+  },
+  {
+    "lemma": "festival",
+    "pos": "noun",
+    "meaning_th": "งานเทศกาล"
+  },
+  {
+    "lemma": "fetch",
+    "pos": "verb",
+    "meaning_th": "ดึง"
+  },
+  {
+    "lemma": "fever",
+    "pos": "noun",
+    "meaning_th": "ไข้"
+  },
+  {
+    "lemma": "few",
+    "pos": "adjective",
+    "meaning_th": "น้อย"
+  },
+  {
+    "lemma": "field",
+    "pos": "noun",
+    "meaning_th": "สนาม"
+  },
+  {
+    "lemma": "fifteen",
+    "pos": "noun",
+    "meaning_th": "สิบห้า"
+  }
+]

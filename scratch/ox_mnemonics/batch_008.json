@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "battery",
+    "pos": "noun",
+    "meaning_th": "แบตเตอรี่"
+  },
+  {
+    "lemma": "battle",
+    "pos": "noun",
+    "meaning_th": "การต่อสู้"
+  },
+  {
+    "lemma": "bay",
+    "pos": "noun",
+    "meaning_th": "อ่าว"
+  },
+  {
+    "lemma": "be",
+    "pos": "verb",
+    "meaning_th": "เป็น"
+  },
+  {
+    "lemma": "beach",
+    "pos": "noun",
+    "meaning_th": "ชายหาด"
+  },
+  {
+    "lemma": "beak",
+    "pos": "noun",
+    "meaning_th": "จะงอยปาก"
+  },
+  {
+    "lemma": "bear",
+    "pos": "verb",
+    "meaning_th": "หมี"
+  },
+  {
+    "lemma": "beard",
+    "pos": "noun",
+    "meaning_th": "หนวดเครา"
+  },
+  {
+    "lemma": "beat",
+    "pos": "verb",
+    "meaning_th": "ตี"
+  },
+  {
+    "lemma": "beat up",
+    "pos": "noun",
+    "meaning_th": "ซ้อม / รุมทำร้ายร่างกาย"
+  },
+  {
+    "lemma": "beautiful",
+    "pos": "adjective",
+    "meaning_th": "สวย"
+  },
+  {
+    "lemma": "beautifully",
+    "pos": "adverb",
+    "meaning_th": "อย่างสวยงาม"
+  },
+  {
+    "lemma": "beauty",
+    "pos": "noun",
+    "meaning_th": "ความงาม / ความสวยงาม"
+  },
+  {
+    "lemma": "because",
+    "pos": "conjunction",
+    "meaning_th": "เพราะว่า / เนื่องจาก"
+  },
+  {
+    "lemma": "because of",
+    "pos": "preposition",
+    "meaning_th": "เนื่องจาก"
+  },
+  {
+    "lemma": "become",
+    "pos": "verb",
+    "meaning_th": "กลายเป็น"
+  },
+  {
+    "lemma": "bed",
+    "pos": "noun",
+    "meaning_th": "เตียงนอน"
+  },
+  {
+    "lemma": "bedroom",
+    "pos": "noun",
+    "meaning_th": "ห้องนอน"
+  },
+  {
+    "lemma": "beef",
+    "pos": "noun",
+    "meaning_th": "เนื้อวัว"
+  },
+  {
+    "lemma": "beer",
+    "pos": "noun",
+    "meaning_th": "เบียร์"
+  },
+  {
+    "lemma": "before",
+    "pos": "preposition",
+    "meaning_th": "ก่อน"
+  },
+  {
+    "lemma": "begin",
+    "pos": "verb",
+    "meaning_th": "เริ่ม"
+  },
+  {
+    "lemma": "beginning",
+    "pos": "noun",
+    "meaning_th": "จุดเริ่มต้น"
+  },
+  {
+    "lemma": "behalf",
+    "pos": "noun",
+    "meaning_th": "ในนามของ"
+  },
+  {
+    "lemma": "behave",
+    "pos": "verb",
+    "meaning_th": "ประพฤติ"
+  },
+  {
+    "lemma": "behaviour",
+    "pos": "noun",
+    "meaning_th": "พฤติกรรม"
+  },
+  {
+    "lemma": "behind",
+    "pos": "preposition",
+    "meaning_th": "ด้านหลัง"
+  },
+  {
+    "lemma": "be left over",
+    "pos": "noun",
+    "meaning_th": "เหลืออยู่"
+  },
+  {
+    "lemma": "belief",
+    "pos": "noun",
+    "meaning_th": "ความเชื่อ"
+  },
+  {
+    "lemma": "believe",
+    "pos": "verb",
+    "meaning_th": "เชื่อ"
+  },
+  {
+    "lemma": "believe in",
+    "pos": "noun",
+    "meaning_th": "เชื่อใน"
+  },
+  {
+    "lemma": "bell",
+    "pos": "noun",
+    "meaning_th": "กระดิ่ง"
+  },
+  {
+    "lemma": "belong",
+    "pos": "verb",
+    "meaning_th": "เป็นของ"
+  },
+  {
+    "lemma": "belong to",
+    "pos": "noun",
+    "meaning_th": "เป็นของ"
+  },
+  {
+    "lemma": "below",
+    "pos": "preposition",
+    "meaning_th": "ด้านล่าง"
+  },
+  {
+    "lemma": "belt",
+    "pos": "noun",
+    "meaning_th": "เข็มขัด"
+  },
+  {
+    "lemma": "bend",
+    "pos": "verb",
+    "meaning_th": "ดัด / โค้ง / โค้งงอ"
+  },
+  {
+    "lemma": "beneath",
+    "pos": "preposition",
+    "meaning_th": "ข้างใต้"
+  },
+  {
+    "lemma": "bent",
+    "pos": "adjective",
+    "meaning_th": "งอ"
+  },
+  {
+    "lemma": "beside",
+    "pos": "preposition",
+    "meaning_th": "ข้าง"
+  },
+  {
+    "lemma": "best",
+    "pos": "adjective",
+    "meaning_th": "ดีที่สุด"
+  },
+  {
+    "lemma": "bet",
+    "pos": "verb",
+    "meaning_th": "เดิมพัน"
+  },
+  {
+    "lemma": "better",
+    "pos": "adjective",
+    "meaning_th": "ดีกว่า"
+  },
+  {
+    "lemma": "betting",
+    "pos": "noun",
+    "meaning_th": "การพนัน / การเดิมพัน"
+  },
+  {
+    "lemma": "between",
+    "pos": "preposition",
+    "meaning_th": "ระหว่าง"
+  },
+  {
+    "lemma": "beyond",
+    "pos": "preposition",
+    "meaning_th": "เกินกว่า / พ้นไปจาก"
+  },
+  {
+    "lemma": "bicycle",
+    "pos": "noun",
+    "meaning_th": "จักรยาน"
+  },
+  {
+    "lemma": "bid 1",
+    "pos": "verb",
+    "meaning_th": "การประมูล / การยื่นข้อเสนอ"
+  },
+  {
+    "lemma": "big",
+    "pos": "adjective",
+    "meaning_th": "ใหญ่"
+  },
+  {
+    "lemma": "bike",
+    "pos": "noun",
+    "meaning_th": "จักรยาน"
+  }
+]

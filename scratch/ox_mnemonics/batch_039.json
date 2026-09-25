@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "key",
+    "pos": "noun",
+    "meaning_th": "สำคัญ"
+  },
+  {
+    "lemma": "keyboard",
+    "pos": "noun",
+    "meaning_th": "แป้นพิมพ์"
+  },
+  {
+    "lemma": "kick",
+    "pos": "verb",
+    "meaning_th": "เตะ"
+  },
+  {
+    "lemma": "kid",
+    "pos": "noun",
+    "meaning_th": "เด็ก"
+  },
+  {
+    "lemma": "kill",
+    "pos": "verb",
+    "meaning_th": "ฆ่า"
+  },
+  {
+    "lemma": "killing",
+    "pos": "verb",
+    "meaning_th": "ฆ่า"
+  },
+  {
+    "lemma": "kilogram",
+    "pos": "noun",
+    "meaning_th": "กิโลกรัม"
+  },
+  {
+    "lemma": "kilometre",
+    "pos": "noun",
+    "meaning_th": "กิโลเมตร"
+  },
+  {
+    "lemma": "kind",
+    "pos": "noun",
+    "meaning_th": "ใจดี"
+  },
+  {
+    "lemma": "kindly",
+    "pos": "adverb",
+    "meaning_th": "อย่างใจดี / กรุณา"
+  },
+  {
+    "lemma": "kindness",
+    "pos": "noun",
+    "meaning_th": "ความเมตตา"
+  },
+  {
+    "lemma": "king",
+    "pos": "noun",
+    "meaning_th": "กษัตริย์"
+  },
+  {
+    "lemma": "kiss",
+    "pos": "verb",
+    "meaning_th": "จูบ"
+  },
+  {
+    "lemma": "kitchen",
+    "pos": "noun",
+    "meaning_th": "ครัว"
+  },
+  {
+    "lemma": "knee",
+    "pos": "noun",
+    "meaning_th": "เข่า"
+  },
+  {
+    "lemma": "knife",
+    "pos": "noun",
+    "meaning_th": "มีด"
+  },
+  {
+    "lemma": "knit",
+    "pos": "verb",
+    "meaning_th": "ถัก"
+  },
+  {
+    "lemma": "knitted",
+    "pos": "adjective",
+    "meaning_th": "ถัก"
+  },
+  {
+    "lemma": "knitting",
+    "pos": "noun",
+    "meaning_th": "ถัก"
+  },
+  {
+    "lemma": "knock",
+    "pos": "verb",
+    "meaning_th": "เคาะ"
+  },
+  {
+    "lemma": "knock down",
+    "pos": "verb",
+    "meaning_th": "ล้มลง"
+  },
+  {
+    "lemma": "knock out",
+    "pos": "verb",
+    "meaning_th": "ชกจนสลบ / ทำให้น็อก / ทำให้ตกรอบ"
+  },
+  {
+    "lemma": "knot",
+    "pos": "noun",
+    "meaning_th": "ปม"
+  },
+  {
+    "lemma": "know",
+    "pos": "verb",
+    "meaning_th": "ทราบ"
+  },
+  {
+    "lemma": "lab",
+    "pos": "noun",
+    "meaning_th": "ห้องปฏิบัติการ"
+  },
+  {
+    "lemma": "label",
+    "pos": "noun",
+    "meaning_th": "ฉลาก"
+  },
+  {
+    "lemma": "laboratory",
+    "pos": "noun",
+    "meaning_th": "ห้องปฏิบัติการ"
+  },
+  {
+    "lemma": "labour",
+    "pos": "noun",
+    "meaning_th": "แรงงาน"
+  },
+  {
+    "lemma": "lack",
+    "pos": "noun",
+    "meaning_th": "ขาด"
+  },
+  {
+    "lemma": "lacking",
+    "pos": "noun",
+    "meaning_th": "ขาด"
+  },
+  {
+    "lemma": "lady",
+    "pos": "noun",
+    "meaning_th": "ท่านหญิง"
+  },
+  {
+    "lemma": "lake",
+    "pos": "noun",
+    "meaning_th": "ทะเลสาบ"
+  },
+  {
+    "lemma": "lamp",
+    "pos": "noun",
+    "meaning_th": "โคมไฟ"
+  },
+  {
+    "lemma": "land",
+    "pos": "noun",
+    "meaning_th": "ที่ดิน"
+  },
+  {
+    "lemma": "landscape",
+    "pos": "noun",
+    "meaning_th": "ภูมิประเทศ"
+  },
+  {
+    "lemma": "lane",
+    "pos": "noun",
+    "meaning_th": "เลน"
+  },
+  {
+    "lemma": "language",
+    "pos": "noun",
+    "meaning_th": "ภาษา"
+  },
+  {
+    "lemma": "large",
+    "pos": "adjective",
+    "meaning_th": "ใหญ่"
+  },
+  {
+    "lemma": "largely",
+    "pos": "adverb",
+    "meaning_th": "โดยส่วนใหญ่ / เป็นส่วนมาก"
+  },
+  {
+    "lemma": "last 1",
+    "pos": "adjective",
+    "meaning_th": "สุดท้าย / ล่าสุด"
+  },
+  {
+    "lemma": "late",
+    "pos": "adjective",
+    "meaning_th": "ช้า"
+  },
+  {
+    "lemma": "later",
+    "pos": "adverb",
+    "meaning_th": "ภายหลัง"
+  },
+  {
+    "lemma": "latest",
+    "pos": "adjective",
+    "meaning_th": "ล่าสุด"
+  },
+  {
+    "lemma": "latter",
+    "pos": "adjective",
+    "meaning_th": "หลัง"
+  },
+  {
+    "lemma": "laugh",
+    "pos": "verb",
+    "meaning_th": "หัวเราะ"
+  },
+  {
+    "lemma": "laugh at",
+    "pos": "verb",
+    "meaning_th": "หัวเราะเยาะ"
+  },
+  {
+    "lemma": "launch",
+    "pos": "verb",
+    "meaning_th": "ปล่อย"
+  },
+  {
+    "lemma": "law",
+    "pos": "noun",
+    "meaning_th": "กฎ"
+  },
+  {
+    "lemma": "lawyer",
+    "pos": "noun",
+    "meaning_th": "ทนายความ"
+  },
+  {
+    "lemma": "lay",
+    "pos": "verb",
+    "meaning_th": "วาง"
+  }
+]

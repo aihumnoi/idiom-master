@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "bill",
+    "pos": "noun",
+    "meaning_th": "ใบแจ้งหนี้"
+  },
+  {
+    "lemma": "billion",
+    "pos": "noun",
+    "meaning_th": "พันล้าน"
+  },
+  {
+    "lemma": "bin",
+    "pos": "noun",
+    "meaning_th": "ถังขยะ / ภาชนะใส่ของ"
+  },
+  {
+    "lemma": "biology",
+    "pos": "noun",
+    "meaning_th": "ชีววิทยา"
+  },
+  {
+    "lemma": "bird",
+    "pos": "noun",
+    "meaning_th": "นก"
+  },
+  {
+    "lemma": "birth",
+    "pos": "noun",
+    "meaning_th": "การเกิด"
+  },
+  {
+    "lemma": "birthday",
+    "pos": "noun",
+    "meaning_th": "วันเกิด"
+  },
+  {
+    "lemma": "biscuit",
+    "pos": "noun",
+    "meaning_th": "บิสกิต"
+  },
+  {
+    "lemma": "bit",
+    "pos": "noun",
+    "meaning_th": "นิดหน่อย"
+  },
+  {
+    "lemma": "bite",
+    "pos": "verb",
+    "meaning_th": "กัด"
+  },
+  {
+    "lemma": "bitter",
+    "pos": "adjective",
+    "meaning_th": "ขม"
+  },
+  {
+    "lemma": "bitterly",
+    "pos": "adverb",
+    "meaning_th": "อย่างขมขื่น"
+  },
+  {
+    "lemma": "black",
+    "pos": "adjective",
+    "meaning_th": "สีดำ"
+  },
+  {
+    "lemma": "blade",
+    "pos": "noun",
+    "meaning_th": "ใบมีด / คมมีด"
+  },
+  {
+    "lemma": "blame",
+    "pos": "verb",
+    "meaning_th": "ตำหนิ"
+  },
+  {
+    "lemma": "blank",
+    "pos": "adjective",
+    "meaning_th": "ว่างเปล่า"
+  },
+  {
+    "lemma": "blind",
+    "pos": "adjective",
+    "meaning_th": "ตาบอด"
+  },
+  {
+    "lemma": "block",
+    "pos": "noun",
+    "meaning_th": "ปิดกั้น"
+  },
+  {
+    "lemma": "blonde",
+    "pos": "adjective",
+    "meaning_th": "สีบลอนด์"
+  },
+  {
+    "lemma": "blood",
+    "pos": "noun",
+    "meaning_th": "เลือด"
+  },
+  {
+    "lemma": "blow",
+    "pos": "verb",
+    "meaning_th": "เป่า"
+  },
+  {
+    "lemma": "blow out",
+    "pos": "noun",
+    "meaning_th": "เป่าดับ / (ยาง) ระเบิด"
+  },
+  {
+    "lemma": "blow up",
+    "pos": "noun",
+    "meaning_th": "ระเบิด"
+  },
+  {
+    "lemma": "blue",
+    "pos": "adjective",
+    "meaning_th": "สีฟ้า"
+  },
+  {
+    "lemma": "board",
+    "pos": "noun",
+    "meaning_th": "กระดาน / แผ่นไม้ / คณะกรรมการ"
+  },
+  {
+    "lemma": "boat",
+    "pos": "noun",
+    "meaning_th": "เรือ"
+  },
+  {
+    "lemma": "body",
+    "pos": "noun",
+    "meaning_th": "ร่างกาย"
+  },
+  {
+    "lemma": "boil",
+    "pos": "verb",
+    "meaning_th": "ต้ม"
+  },
+  {
+    "lemma": "bomb",
+    "pos": "noun",
+    "meaning_th": "ระเบิด"
+  },
+  {
+    "lemma": "bone",
+    "pos": "noun",
+    "meaning_th": "กระดูก"
+  },
+  {
+    "lemma": "book",
+    "pos": "noun",
+    "meaning_th": "หนังสือ"
+  },
+  {
+    "lemma": "boot",
+    "pos": "noun",
+    "meaning_th": "บูต"
+  },
+  {
+    "lemma": "border",
+    "pos": "noun",
+    "meaning_th": "ชายแดน"
+  },
+  {
+    "lemma": "bore",
+    "pos": "verb",
+    "meaning_th": "เบื่อ"
+  },
+  {
+    "lemma": "bored",
+    "pos": "adjective",
+    "meaning_th": "เบื่อ"
+  },
+  {
+    "lemma": "boring",
+    "pos": "adjective",
+    "meaning_th": "น่าเบื่อ"
+  },
+  {
+    "lemma": "born",
+    "pos": "adjective",
+    "meaning_th": "เกิด"
+  },
+  {
+    "lemma": "borrow",
+    "pos": "verb",
+    "meaning_th": "ยืม"
+  },
+  {
+    "lemma": "boss",
+    "pos": "noun",
+    "meaning_th": "เจ้านาย"
+  },
+  {
+    "lemma": "both",
+    "pos": "determiner",
+    "meaning_th": "ทั้งคู่"
+  },
+  {
+    "lemma": "bother",
+    "pos": "verb",
+    "meaning_th": "รบกวน"
+  },
+  {
+    "lemma": "bottle",
+    "pos": "noun",
+    "meaning_th": "ขวด"
+  },
+  {
+    "lemma": "bottom",
+    "pos": "noun",
+    "meaning_th": "ด้านล่าง"
+  },
+  {
+    "lemma": "bound",
+    "pos": "adjective",
+    "meaning_th": "ผูกพัน"
+  },
+  {
+    "lemma": "bowl",
+    "pos": "noun",
+    "meaning_th": "ชาม"
+  },
+  {
+    "lemma": "box",
+    "pos": "noun",
+    "meaning_th": "กล่อง"
+  },
+  {
+    "lemma": "boy",
+    "pos": "noun",
+    "meaning_th": "เด็กผู้ชาย"
+  },
+  {
+    "lemma": "boyfriend",
+    "pos": "noun",
+    "meaning_th": "แฟน"
+  },
+  {
+    "lemma": "brain",
+    "pos": "noun",
+    "meaning_th": "สมอง"
+  },
+  {
+    "lemma": "branch",
+    "pos": "noun",
+    "meaning_th": "สาขา"
+  }
+]

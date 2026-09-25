@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "openly",
+    "pos": "adjective",
+    "meaning_th": "อย่างเปิดเผย / อย่างตรงไปตรงมา"
+  },
+  {
+    "lemma": "open up",
+    "pos": "verb",
+    "meaning_th": "เปิดขึ้น"
+  },
+  {
+    "lemma": "operate",
+    "pos": "verb",
+    "meaning_th": "ดำเนินงาน"
+  },
+  {
+    "lemma": "operation",
+    "pos": "noun",
+    "meaning_th": "การดำเนินการ"
+  },
+  {
+    "lemma": "opinion",
+    "pos": "noun",
+    "meaning_th": "ความคิดเห็น"
+  },
+  {
+    "lemma": "opponent",
+    "pos": "noun",
+    "meaning_th": "คู่ต่อสู้"
+  },
+  {
+    "lemma": "opportunity",
+    "pos": "noun",
+    "meaning_th": "โอกาส"
+  },
+  {
+    "lemma": "oppose",
+    "pos": "verb",
+    "meaning_th": "ต่อต้าน"
+  },
+  {
+    "lemma": "opposed",
+    "pos": "verb",
+    "meaning_th": "ต่อต้าน"
+  },
+  {
+    "lemma": "opposing",
+    "pos": "verb",
+    "meaning_th": "ฝ่ายตรงข้าม"
+  },
+  {
+    "lemma": "opposite",
+    "pos": "adjective",
+    "meaning_th": "ตรงข้าม"
+  },
+  {
+    "lemma": "opposition",
+    "pos": "noun",
+    "meaning_th": "ฝ่ายค้าน"
+  },
+  {
+    "lemma": "option",
+    "pos": "noun",
+    "meaning_th": "ตัวเลือก"
+  },
+  {
+    "lemma": "or",
+    "pos": "conjunction",
+    "meaning_th": "หรือ"
+  },
+  {
+    "lemma": "orange",
+    "pos": "noun",
+    "meaning_th": "ส้ม"
+  },
+  {
+    "lemma": "order",
+    "pos": "verb",
+    "meaning_th": "คำสั่ง"
+  },
+  {
+    "lemma": "ordinary",
+    "pos": "adjective",
+    "meaning_th": "สามัญ"
+  },
+  {
+    "lemma": "organ",
+    "pos": "noun",
+    "meaning_th": "อวัยวะ"
+  },
+  {
+    "lemma": "organization",
+    "pos": "noun",
+    "meaning_th": "องค์กร"
+  },
+  {
+    "lemma": "organize",
+    "pos": "verb",
+    "meaning_th": "จัดระเบียบ"
+  },
+  {
+    "lemma": "organized",
+    "pos": "adjective",
+    "meaning_th": "เป็นระเบียบ"
+  },
+  {
+    "lemma": "origin",
+    "pos": "noun",
+    "meaning_th": "ต้นทาง"
+  },
+  {
+    "lemma": "original",
+    "pos": "adjective",
+    "meaning_th": "ต้นฉบับ"
+  },
+  {
+    "lemma": "originally",
+    "pos": "adverb",
+    "meaning_th": "ดั้งเดิม / แต่แรกเริ่ม"
+  },
+  {
+    "lemma": "other",
+    "pos": "adjective",
+    "meaning_th": "อื่น"
+  },
+  {
+    "lemma": "otherwise",
+    "pos": "adverb",
+    "meaning_th": "มิฉะนั้น"
+  },
+  {
+    "lemma": "ought to",
+    "pos": "noun",
+    "meaning_th": "ควรจะ"
+  },
+  {
+    "lemma": "our",
+    "pos": "pronoun",
+    "meaning_th": "ของเรา"
+  },
+  {
+    "lemma": "ours",
+    "pos": "pronoun",
+    "meaning_th": "ของพวกเรา"
+  },
+  {
+    "lemma": "ourselves",
+    "pos": "pronoun",
+    "meaning_th": "ตัวเราเอง"
+  },
+  {
+    "lemma": "out",
+    "pos": "adverb",
+    "meaning_th": "ออก"
+  },
+  {
+    "lemma": "outdoor",
+    "pos": "adjective",
+    "meaning_th": "กลางแจ้ง"
+  },
+  {
+    "lemma": "outdoors",
+    "pos": "adverb",
+    "meaning_th": "กลางแจ้ง"
+  },
+  {
+    "lemma": "outer",
+    "pos": "adjective",
+    "meaning_th": "ด้านนอก"
+  },
+  {
+    "lemma": "outline",
+    "pos": "noun",
+    "meaning_th": "โครงร่าง"
+  },
+  {
+    "lemma": "output",
+    "pos": "noun",
+    "meaning_th": "เอาท์พุท"
+  },
+  {
+    "lemma": "outside",
+    "pos": "adjective",
+    "meaning_th": "ข้างนอก"
+  },
+  {
+    "lemma": "outstanding",
+    "pos": "adjective",
+    "meaning_th": "โดดเด่น"
+  },
+  {
+    "lemma": "oven",
+    "pos": "noun",
+    "meaning_th": "เตาอบ"
+  },
+  {
+    "lemma": "over",
+    "pos": "preposition",
+    "meaning_th": "เกิน"
+  },
+  {
+    "lemma": "overall",
+    "pos": "adjective",
+    "meaning_th": "โดยรวม"
+  },
+  {
+    "lemma": "overcome",
+    "pos": "verb",
+    "meaning_th": "เอาชนะ"
+  },
+  {
+    "lemma": "owe",
+    "pos": "verb",
+    "meaning_th": "เป็นหนี้"
+  },
+  {
+    "lemma": "own",
+    "pos": "adjective",
+    "meaning_th": "เป็นเจ้าของ"
+  },
+  {
+    "lemma": "owner",
+    "pos": "noun",
+    "meaning_th": "เจ้าของ"
+  },
+  {
+    "lemma": "own up",
+    "pos": "verb",
+    "meaning_th": "เป็นเจ้าของ"
+  },
+  {
+    "lemma": "pace 1",
+    "pos": "noun",
+    "meaning_th": "ก้าว / อัตราความเร็วในการก้าว"
+  },
+  {
+    "lemma": "pack",
+    "pos": "verb",
+    "meaning_th": "หีบห่อ"
+  },
+  {
+    "lemma": "package",
+    "pos": "noun",
+    "meaning_th": "บรรจุุภัณฑ์"
+  },
+  {
+    "lemma": "packaging",
+    "pos": "noun",
+    "meaning_th": "บรรจุภัณฑ์"
+  }
+]

@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+# Part 6: phone (28) = 28
+
+DATA = [
+("phone", "โทรศัพท์ ข้อความ", [
+    ("Hello? Can you hear me clearly on this line?", "ฮัลโหล ได้ยินฉันชัดเจนไหมในสายนี้", "clearly", 1),
+    ("Who is this?", "นี่ใครครับ/ค่ะ", "Who", 1),
+    ("This is John speaking.", "นี่จอห์นพูดอยู่ครับ", "speaking", 2),
+    ("Can I speak to Anna?", "ขอคุยกับแอนนาได้ไหม", "speak", 1),
+    ("She's not available right now.", "ตอนนี้เธอไม่ว่าง", "available", 2),
+    ("Can I take a message?", "รับข้อความแทนได้ไหม", "message", 2),
+    ("I'll call you back.", "เดี๋ยวฉันโทรกลับ", "call", 1),
+    ("The line is busy.", "สายไม่ว่าง", "busy", 2),
+    ("I'll call you later.", "เดี๋ยวโทรหา", "call", 1),
+    ("Call me when you're free.", "โทรหาฉันเมื่อว่าง", "Call", 1),
+    ("Text me later.", "ส่งข้อความหาฉันทีหลัง", "Text", 1),
+    ("Did you get my message?", "ได้รับข้อความฉันไหม", "message", 1),
+    ("I sent you a message.", "ฉันส่งข้อความให้คุณแล้ว", "sent", 1),
+    ("I got your message.", "ฉันได้รับข้อความของคุณแล้ว", "got", 1),
+    ("Sorry, I missed your call.", "ขอโทษ พลาดสายคุณ", "missed", 1),
+    ("My reception is really spotty here.", "สัญญาณตรงนี้ขาดๆ หายๆ มากเลย", "spotty", 2),
+    ("Sorry about that, we got cut off.", "ขอโทษทีนะเมื่อกี้สายตัดไป", "cut", 2),
+    ("Can you hear me?", "ได้ยินฉันไหม", "hear", 1),
+    ("You're breaking up.", "เสียงคุณขาดๆ หายๆ", "breaking", 2),
+    ("Speak louder, please.", "พูดดังขึ้นหน่อย", "louder", 2),
+    ("Can you say that again?", "พูดอีกรอบได้ไหม", "again", 1),
+    ("I can't hear you well.", "ฉันได้ยินคุณไม่ชัด", "hear", 2),
+    ("Let's talk later.", "ไว้คุยกันทีหลัง", "later", 1),
+    ("I have to hang up now.", "ฉันต้องวางสายแล้ว", "hang", 2),
+    ("I'll text you the address.", "ฉันจะส่งที่อยู่ให้ทางข้อความ", "address", 2),
+    ("Send me a photo.", "ส่งรูปให้ฉันหน่อย", "photo", 1),
+    ("Did you see the photo I sent?", "เห็นรูปที่ฉันส่งไหม", "photo", 2),
+    ("Let's video call tonight.", "คืนนี้คอลวิดีโอกันเถอะ", "video", 2),
+]),
+]

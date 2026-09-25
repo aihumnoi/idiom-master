@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "come round",
+    "pos": "noun",
+    "meaning_th": "แวะมาหา / ฟื้นคืนสติ / เปลี่ยนใจมาเห็นด้วย"
+  },
+  {
+    "lemma": "come to",
+    "pos": "noun",
+    "meaning_th": "ฟื้นคืนสติ / มีมูลค่ารวมถึง"
+  },
+  {
+    "lemma": "come up",
+    "pos": "noun",
+    "meaning_th": "เกิดขึ้นกะทันหัน / ถูกหยิบยกขึ้นมาพูด"
+  },
+  {
+    "lemma": "come up to",
+    "pos": "noun",
+    "meaning_th": "เดินเข้ามาหา / เทียบเท่ามาตรฐาน"
+  },
+  {
+    "lemma": "comfort",
+    "pos": "noun",
+    "meaning_th": "ปลอบโยน"
+  },
+  {
+    "lemma": "comfortable",
+    "pos": "adjective",
+    "meaning_th": "สะดวกสบาย"
+  },
+  {
+    "lemma": "comfortably",
+    "pos": "adverb",
+    "meaning_th": "สบาย ๆ"
+  },
+  {
+    "lemma": "command",
+    "pos": "verb",
+    "meaning_th": "สั่งการ"
+  },
+  {
+    "lemma": "comment",
+    "pos": "noun",
+    "meaning_th": "ความคิดเห็น"
+  },
+  {
+    "lemma": "commercial",
+    "pos": "adjective",
+    "meaning_th": "ทางการค้า"
+  },
+  {
+    "lemma": "commission",
+    "pos": "noun",
+    "meaning_th": "คณะกรรมการ"
+  },
+  {
+    "lemma": "commit",
+    "pos": "verb",
+    "meaning_th": "ให้สัญญา"
+  },
+  {
+    "lemma": "commitment",
+    "pos": "noun",
+    "meaning_th": "ความมุ่งมั่น"
+  },
+  {
+    "lemma": "committee",
+    "pos": "noun",
+    "meaning_th": "คณะกรรมการ"
+  },
+  {
+    "lemma": "common",
+    "pos": "adjective",
+    "meaning_th": "ทั่วไป"
+  },
+  {
+    "lemma": "commonly",
+    "pos": "adverb",
+    "meaning_th": "โดยทั่วไป"
+  },
+  {
+    "lemma": "communicate",
+    "pos": "verb",
+    "meaning_th": "สื่อสาร"
+  },
+  {
+    "lemma": "communication",
+    "pos": "noun",
+    "meaning_th": "การสื่อสาร"
+  },
+  {
+    "lemma": "community",
+    "pos": "noun",
+    "meaning_th": "ชุมชน"
+  },
+  {
+    "lemma": "company",
+    "pos": "noun",
+    "meaning_th": "บริษัท"
+  },
+  {
+    "lemma": "compare",
+    "pos": "verb",
+    "meaning_th": "เปรียบเทียบ"
+  },
+  {
+    "lemma": "comparison",
+    "pos": "noun",
+    "meaning_th": "การเปรียบเทียบ"
+  },
+  {
+    "lemma": "compete",
+    "pos": "verb",
+    "meaning_th": "แข่งขัน"
+  },
+  {
+    "lemma": "competition",
+    "pos": "noun",
+    "meaning_th": "การแข่งขัน"
+  },
+  {
+    "lemma": "competitive",
+    "pos": "adjective",
+    "meaning_th": "การแข่งขัน"
+  },
+  {
+    "lemma": "complain",
+    "pos": "verb",
+    "meaning_th": "ร้องทุกข์"
+  },
+  {
+    "lemma": "complaint",
+    "pos": "noun",
+    "meaning_th": "ร้องเรียน"
+  },
+  {
+    "lemma": "complete",
+    "pos": "verb",
+    "meaning_th": "สมบูรณ์"
+  },
+  {
+    "lemma": "completely",
+    "pos": "adverb",
+    "meaning_th": "อย่างสมบูรณ์"
+  },
+  {
+    "lemma": "complex",
+    "pos": "adjective",
+    "meaning_th": "ซับซ้อน"
+  },
+  {
+    "lemma": "complicate",
+    "pos": "verb",
+    "meaning_th": "ซับซ้อน"
+  },
+  {
+    "lemma": "complicated",
+    "pos": "adjective",
+    "meaning_th": "ที่ซับซ้อน"
+  },
+  {
+    "lemma": "computer",
+    "pos": "noun",
+    "meaning_th": "คอมพิวเตอร์"
+  },
+  {
+    "lemma": "concentrate",
+    "pos": "verb",
+    "meaning_th": "สมาธิ"
+  },
+  {
+    "lemma": "concentrate on",
+    "pos": "noun",
+    "meaning_th": "มีสมาธิกับ"
+  },
+  {
+    "lemma": "concentration",
+    "pos": "noun",
+    "meaning_th": "ความเข้มข้น"
+  },
+  {
+    "lemma": "concern",
+    "pos": "verb",
+    "meaning_th": "กังวล"
+  },
+  {
+    "lemma": "concerned",
+    "pos": "adjective",
+    "meaning_th": "น่ากังวล"
+  },
+  {
+    "lemma": "concerning",
+    "pos": "preposition",
+    "meaning_th": "เกี่ยวกับ"
+  },
+  {
+    "lemma": "concert",
+    "pos": "noun",
+    "meaning_th": "คอนเสิร์ต"
+  },
+  {
+    "lemma": "conclude",
+    "pos": "verb",
+    "meaning_th": "สรุป"
+  },
+  {
+    "lemma": "conclusion",
+    "pos": "noun",
+    "meaning_th": "บทสรุป"
+  },
+  {
+    "lemma": "concrete",
+    "pos": "noun",
+    "meaning_th": "คอนกรีต"
+  },
+  {
+    "lemma": "condition",
+    "pos": "noun",
+    "meaning_th": "เงื่อนไข"
+  },
+  {
+    "lemma": "conduct",
+    "pos": "verb",
+    "meaning_th": "จัดการ"
+  },
+  {
+    "lemma": "conference",
+    "pos": "noun",
+    "meaning_th": "การประชุม"
+  },
+  {
+    "lemma": "confidence",
+    "pos": "noun",
+    "meaning_th": "ความมั่นใจ"
+  },
+  {
+    "lemma": "confident",
+    "pos": "adjective",
+    "meaning_th": "มั่นใจ"
+  },
+  {
+    "lemma": "confidently",
+    "pos": "adjective",
+    "meaning_th": "อย่างมั่นใจ"
+  },
+  {
+    "lemma": "confine",
+    "pos": "verb",
+    "meaning_th": "จำกัด"
+  }
+]

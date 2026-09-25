@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "pool",
+    "pos": "noun",
+    "meaning_th": "สระน้ำ"
+  },
+  {
+    "lemma": "poor",
+    "pos": "adjective",
+    "meaning_th": "ยากจน"
+  },
+  {
+    "lemma": "pop",
+    "pos": "verb",
+    "meaning_th": "โผล่"
+  },
+  {
+    "lemma": "popular",
+    "pos": "adjective",
+    "meaning_th": "เป็นที่นิยม"
+  },
+  {
+    "lemma": "population",
+    "pos": "noun",
+    "meaning_th": "ประชากร"
+  },
+  {
+    "lemma": "port",
+    "pos": "noun",
+    "meaning_th": "ท่าเรือ"
+  },
+  {
+    "lemma": "pose",
+    "pos": "verb",
+    "meaning_th": "ท่าทาง"
+  },
+  {
+    "lemma": "position",
+    "pos": "noun",
+    "meaning_th": "ตำแหน่ง"
+  },
+  {
+    "lemma": "positive",
+    "pos": "adjective",
+    "meaning_th": "เชิงบวก"
+  },
+  {
+    "lemma": "possess",
+    "pos": "verb",
+    "meaning_th": "ครอบครอง / เป็นเจ้าของ"
+  },
+  {
+    "lemma": "possession",
+    "pos": "noun",
+    "meaning_th": "การครอบครอง"
+  },
+  {
+    "lemma": "possibility",
+    "pos": "noun",
+    "meaning_th": "ความเป็นไปได้"
+  },
+  {
+    "lemma": "possible",
+    "pos": "adjective",
+    "meaning_th": "เป็นไปได้"
+  },
+  {
+    "lemma": "possibly",
+    "pos": "adverb",
+    "meaning_th": "อาจจะ / เป็นไปได้"
+  },
+  {
+    "lemma": "post",
+    "pos": "noun",
+    "meaning_th": "โพสต์"
+  },
+  {
+    "lemma": "post office",
+    "pos": "noun",
+    "meaning_th": "ที่ทำการไปรษณีย์"
+  },
+  {
+    "lemma": "pot",
+    "pos": "noun",
+    "meaning_th": "หม้อ"
+  },
+  {
+    "lemma": "potato",
+    "pos": "noun",
+    "meaning_th": "มันฝรั่ง"
+  },
+  {
+    "lemma": "potential",
+    "pos": "adjective",
+    "meaning_th": "ศักยภาพ"
+  },
+  {
+    "lemma": "potentially",
+    "pos": "adverb",
+    "meaning_th": "อาจ"
+  },
+  {
+    "lemma": "pound",
+    "pos": "noun",
+    "meaning_th": "ปอนด์"
+  },
+  {
+    "lemma": "pour",
+    "pos": "verb",
+    "meaning_th": "เท"
+  },
+  {
+    "lemma": "powder",
+    "pos": "noun",
+    "meaning_th": "ผง"
+  },
+  {
+    "lemma": "power",
+    "pos": "noun",
+    "meaning_th": "พลัง"
+  },
+  {
+    "lemma": "powerful",
+    "pos": "adjective",
+    "meaning_th": "ทรงพลัง"
+  },
+  {
+    "lemma": "practical",
+    "pos": "adjective",
+    "meaning_th": "ใช้ได้จริง"
+  },
+  {
+    "lemma": "practically",
+    "pos": "adjective",
+    "meaning_th": "ในทางปฏิบัติ / เกือบจะ"
+  },
+  {
+    "lemma": "practice",
+    "pos": "noun",
+    "meaning_th": "ฝึกฝน"
+  },
+  {
+    "lemma": "practise",
+    "pos": "verb",
+    "meaning_th": "ฝึกฝน"
+  },
+  {
+    "lemma": "praise",
+    "pos": "verb",
+    "meaning_th": "ชื่นชม"
+  },
+  {
+    "lemma": "pray",
+    "pos": "verb",
+    "meaning_th": "อธิษฐาน"
+  },
+  {
+    "lemma": "prayer",
+    "pos": "noun",
+    "meaning_th": "คำอธิษฐาน"
+  },
+  {
+    "lemma": "precise",
+    "pos": "adjective",
+    "meaning_th": "แม่นยำ"
+  },
+  {
+    "lemma": "precisely",
+    "pos": "adjective",
+    "meaning_th": "อย่างแม่นยำ / ถูกเผง"
+  },
+  {
+    "lemma": "prefer",
+    "pos": "verb",
+    "meaning_th": "ชอบมากกว่า"
+  },
+  {
+    "lemma": "preference",
+    "pos": "noun",
+    "meaning_th": "ความพึงใจ"
+  },
+  {
+    "lemma": "pregnant",
+    "pos": "adjective",
+    "meaning_th": "ตั้งครรภ์"
+  },
+  {
+    "lemma": "premises",
+    "pos": "noun",
+    "meaning_th": "สถานที่"
+  },
+  {
+    "lemma": "preparation",
+    "pos": "noun",
+    "meaning_th": "การตระเตรียม"
+  },
+  {
+    "lemma": "prepare",
+    "pos": "verb",
+    "meaning_th": "เตรียมตัว"
+  },
+  {
+    "lemma": "prepared",
+    "pos": "verb",
+    "meaning_th": "เตรียมไว้"
+  },
+  {
+    "lemma": "presence",
+    "pos": "noun",
+    "meaning_th": "การมีอยู่"
+  },
+  {
+    "lemma": "present",
+    "pos": "adjective",
+    "meaning_th": "ปัจจุบัน"
+  },
+  {
+    "lemma": "presentation",
+    "pos": "noun",
+    "meaning_th": "การนำเสนอ"
+  },
+  {
+    "lemma": "preserve",
+    "pos": "verb",
+    "meaning_th": "อนุรักษ์"
+  },
+  {
+    "lemma": "president",
+    "pos": "noun",
+    "meaning_th": "ประธาน"
+  },
+  {
+    "lemma": "press",
+    "pos": "verb",
+    "meaning_th": "กด"
+  },
+  {
+    "lemma": "pressure",
+    "pos": "noun",
+    "meaning_th": "ความดัน"
+  },
+  {
+    "lemma": "presumably",
+    "pos": "adverb",
+    "meaning_th": "สันนิษฐานว่า / น่าจะ"
+  },
+  {
+    "lemma": "pretend",
+    "pos": "verb",
+    "meaning_th": "แกล้งทำ"
+  }
+]

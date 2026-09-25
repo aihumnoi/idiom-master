@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "deny",
+    "pos": "verb",
+    "meaning_th": "ปฏิเสธ"
+  },
+  {
+    "lemma": "department",
+    "pos": "noun",
+    "meaning_th": "แผนก"
+  },
+  {
+    "lemma": "departure",
+    "pos": "noun",
+    "meaning_th": "การออกเดินทาง"
+  },
+  {
+    "lemma": "depend",
+    "pos": "verb",
+    "meaning_th": "ขึ้นอยู่กับ"
+  },
+  {
+    "lemma": "depend on",
+    "pos": "noun",
+    "meaning_th": "ขึ้นอยู่กับ / พึ่งพา"
+  },
+  {
+    "lemma": "deposit",
+    "pos": "noun",
+    "meaning_th": "เงินฝาก"
+  },
+  {
+    "lemma": "depress",
+    "pos": "verb",
+    "meaning_th": "ทำให้หดหู่ใจ / กดลง"
+  },
+  {
+    "lemma": "depressed",
+    "pos": "adjective",
+    "meaning_th": "หดหู่"
+  },
+  {
+    "lemma": "depressing",
+    "pos": "adjective",
+    "meaning_th": "ตกต่ำ"
+  },
+  {
+    "lemma": "depth",
+    "pos": "noun",
+    "meaning_th": "ความลึก"
+  },
+  {
+    "lemma": "derive from",
+    "pos": "noun",
+    "meaning_th": "มีต้นกำเนิดมาจาก / ได้รับมาจาก"
+  },
+  {
+    "lemma": "describe",
+    "pos": "verb",
+    "meaning_th": "อธิบาย"
+  },
+  {
+    "lemma": "description",
+    "pos": "noun",
+    "meaning_th": "คำอธิบาย"
+  },
+  {
+    "lemma": "desert",
+    "pos": "verb",
+    "meaning_th": "ทะเลทราย"
+  },
+  {
+    "lemma": "deserted",
+    "pos": "adjective",
+    "meaning_th": "ร้าง"
+  },
+  {
+    "lemma": "deserve",
+    "pos": "verb",
+    "meaning_th": "สมควรได้รับ"
+  },
+  {
+    "lemma": "design",
+    "pos": "noun",
+    "meaning_th": "ออกแบบ"
+  },
+  {
+    "lemma": "desire",
+    "pos": "noun",
+    "meaning_th": "ความต้องการ"
+  },
+  {
+    "lemma": "desk",
+    "pos": "noun",
+    "meaning_th": "โต๊ะ"
+  },
+  {
+    "lemma": "desperate",
+    "pos": "adjective",
+    "meaning_th": "หมดหวัง"
+  },
+  {
+    "lemma": "desperately",
+    "pos": "adverb",
+    "meaning_th": "หมดท่า"
+  },
+  {
+    "lemma": "despite",
+    "pos": "preposition",
+    "meaning_th": "ถึงอย่างไรก็ตาม"
+  },
+  {
+    "lemma": "destroy",
+    "pos": "verb",
+    "meaning_th": "ทำลาย"
+  },
+  {
+    "lemma": "destruction",
+    "pos": "noun",
+    "meaning_th": "การทำลาย"
+  },
+  {
+    "lemma": "detail",
+    "pos": "noun",
+    "meaning_th": "รายละเอียด"
+  },
+  {
+    "lemma": "detailed",
+    "pos": "adjective",
+    "meaning_th": "รายละเอียด"
+  },
+  {
+    "lemma": "determination",
+    "pos": "noun",
+    "meaning_th": "การกำหนด"
+  },
+  {
+    "lemma": "determine",
+    "pos": "verb",
+    "meaning_th": "กำหนด"
+  },
+  {
+    "lemma": "determined",
+    "pos": "adjective",
+    "meaning_th": "มุ่งมั่น"
+  },
+  {
+    "lemma": "develop",
+    "pos": "verb",
+    "meaning_th": "พัฒนา"
+  },
+  {
+    "lemma": "development",
+    "pos": "noun",
+    "meaning_th": "การพัฒนา"
+  },
+  {
+    "lemma": "device",
+    "pos": "noun",
+    "meaning_th": "อุปกรณ์"
+  },
+  {
+    "lemma": "devote",
+    "pos": "verb",
+    "meaning_th": "อุทิศ"
+  },
+  {
+    "lemma": "devoted",
+    "pos": "adjective",
+    "meaning_th": "อุทิศ"
+  },
+  {
+    "lemma": "devote to",
+    "pos": "noun",
+    "meaning_th": "อุทิศตนให้ / ทุ่มเทให้กับ"
+  },
+  {
+    "lemma": "diagram",
+    "pos": "noun",
+    "meaning_th": "แผนภาพ"
+  },
+  {
+    "lemma": "diamond",
+    "pos": "noun",
+    "meaning_th": "เพชร"
+  },
+  {
+    "lemma": "diary",
+    "pos": "noun",
+    "meaning_th": "ไดอารี่"
+  },
+  {
+    "lemma": "dictionary",
+    "pos": "noun",
+    "meaning_th": "พจนานุกรม"
+  },
+  {
+    "lemma": "die",
+    "pos": "verb",
+    "meaning_th": "ตาย"
+  },
+  {
+    "lemma": "die away",
+    "pos": "noun",
+    "meaning_th": "(เสียง) ค่อยๆ แผ่วจางหายไป"
+  },
+  {
+    "lemma": "die out",
+    "pos": "noun",
+    "meaning_th": "สูญพันธุ์ / หมดสิ้นไป"
+  },
+  {
+    "lemma": "diet",
+    "pos": "noun",
+    "meaning_th": "อาหาร"
+  },
+  {
+    "lemma": "difference",
+    "pos": "noun",
+    "meaning_th": "ความแตกต่าง"
+  },
+  {
+    "lemma": "different",
+    "pos": "adjective",
+    "meaning_th": "แตกต่าง"
+  },
+  {
+    "lemma": "differently",
+    "pos": "adverb",
+    "meaning_th": "แตกต่างกัน"
+  },
+  {
+    "lemma": "difficult",
+    "pos": "adjective",
+    "meaning_th": "ยาก"
+  },
+  {
+    "lemma": "difficulty",
+    "pos": "noun",
+    "meaning_th": "ความยากลำบาก"
+  },
+  {
+    "lemma": "dig",
+    "pos": "verb",
+    "meaning_th": "ขุด"
+  },
+  {
+    "lemma": "digital",
+    "pos": "adjective",
+    "meaning_th": "ดิจิตอล"
+  }
+]

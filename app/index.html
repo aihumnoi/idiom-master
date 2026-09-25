@@ -1,0 +1,3327 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>IdiomMaster — จำสำนวนอังกฤษแบบผู้เชี่ยวชาญ</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" href="/icons/icon-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32.png">
+<meta name="theme-color" content="#6366f1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="IdiomMaster">
+<script src="data/idioms.js?v=2.4"></script>
+<script src="data/oxford3000.js?v=2.4"></script>
+<script src="data/sentences.js?v=2.4"></script>
+<script type="module" src="../src/main.ts"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: { kanit: ['Kanit','sans-serif'], outfit: ['Outfit','sans-serif'] },
+      colors: {
+        ink: '#0f172a', muted:'#64748b', primary:'#6366f1', accent:'#f59e0b', success:'#10b981'
+      }
+    }
+  }
+}
+</script>
+<style>
+*{font-family:'Kanit','Noto Sans Thai',sans-serif}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;overflow-x:clip;max-width:100%}
+.font-outfit{font-family:'Outfit',sans-serif}
+.card-flip{perspective:1000px}
+.card-inner{transition:transform 0.6s;transform-style:preserve-3d}
+.card-inner.flipped{transform:rotateY(180deg)}
+.card-front,.card-back{backface-visibility:hidden}
+.card-back{transform:rotateY(180deg)}
+.scrollbar-hide::-webkit-scrollbar{display:none}
+.progress-ring{transform:rotate(-90deg)}
+.heatmap-cell:hover{transform:scale(1.15)}
+.mem-grid{display:flex;flex-direction:column;gap:.5rem;width:100%}
+.mem-card{width:100%;border-radius:.9rem;padding:.85rem 1rem;text-align:left;box-sizing:border-box}
+.mem-card .mem-label{font-size:.75rem;font-weight:700;letter-spacing:.03em;margin-bottom:.3rem}
+.mem-card .mem-body{font-size:.9rem;line-height:1.45;overflow-wrap:anywhere}
+.tab-btn{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.nav-tabs-top .tab-btn.active{background:#0f172a;color:#fff;border-color:#0f172a}
+.tab-btn.active{background:#0f172a;color:#fff;border-color:#0f172a}
+.bottom-nav .tab-btn{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.15rem;min-height:56px;padding:.4rem .1rem;border:0;background:transparent;color:#64748b;font-size:.7rem;font-weight:600;border-radius:.75rem}
+.bottom-nav .tab-btn i{font-size:1.05rem}
+.bottom-nav .tab-btn.active{background:#eef2ff;color:#4f46e5}
+.track-btn{min-height:5.25rem;min-width:0;overflow:hidden}
+body{overflow-x:clip;max-width:100%}
+#learnCard,#reviewCardWrap,.tab-panel{max-width:100%;min-width:0;width:100%}
+#learnCard > div{min-width:0;max-width:100%;width:100%;overflow-wrap:anywhere}
+@media(min-width:640px){
+  .mem-card{padding:1rem 1.1rem}
+  .mem-card .mem-label{font-size:.8rem}
+  .mem-card .mem-body{font-size:1rem}
+}
+@media(max-width:767px){
+  body{padding-bottom:calc(4.5rem + env(safe-area-inset-bottom))}
+  .nav-tabs-top{display:none}
+}
+.modal-overlay{position:fixed;inset:0;z-index:80;background:rgba(15,23,42,.55);display:flex;align-items:center;justify-content:center;padding:1rem}
+.modal-overlay.hidden{display:none}
+.modal-sheet{background:#fff;border-radius:1.25rem;width:100%;max-width:36rem;max-height:min(92vh,40rem);overflow:auto;padding:1.25rem 1.25rem 1.5rem;box-shadow:0 25px 50px -12px rgb(0 0 0 / .25)}
+.complete-pop{animation:completePop .35s ease-out}
+@keyframes completePop{from{transform:scale(.92);opacity:0}to{transform:scale(1);opacity:1}}
+#gradeButtons button:disabled{opacity:.35;pointer-events:none;filter:grayscale(.15)}
+.review-waiting #reviewFrontPhrase{color:#94a3b8}
+.review-waiting #reviewHint{display:none}
+/* ===== Dark mode (class strategy) ===== */
+:root{ color-scheme: light; }
+html.dark{ color-scheme: dark; }
+html.dark body{ background:#0f172a; color:#e2e8f0; }
+html.dark nav{ background:rgba(15,23,42,.92); border-color:#1e293b; }
+html.dark .bottom-nav{ background:rgba(15,23,42,.95); border-color:#1e293b; }
+html.dark .bg-white{ background:#1e293b; }
+html.dark .bg-slate-50{ background:#1e293b; }
+html.dark .bg-slate-100{ background:#334155; }
+html.dark .bg-slate-200{ background:#475569; }
+html.dark .bg-slate-800,html.dark .bg-ink{ background:#0f172a; }
+html.dark .border-slate-200,html.dark .border-slate-300{ border-color:#334155; }
+html.dark .text-ink{ color:#e2e8f0; }
+html.dark .text-muted{ color:#94a3b8; }
+html.dark .text-slate-400{ color:#94a3b8; }
+html.dark .text-slate-500{ color:#94a3b8; }
+html.dark .text-slate-600{ color:#cbd5e1; }
+html.dark .text-slate-700{ color:#cbd5e1; }
+html.dark input,html.dark select{ background:#1e293b; border-color:#334155; color:#e2e8f0; }
+html.dark .modal-sheet{ background:#1e293b; }
+html.dark .bg-amber-50{ background:rgba(245,158,11,.12); }
+html.dark .bg-emerald-50{ background:rgba(16,185,129,.12); }
+html.dark .bg-indigo-50{ background:rgba(99,102,241,.15); }
+html.dark .bg-violet-50{ background:rgba(139,92,246,.15); }
+html.dark .bg-teal-50{ background:rgba(20,184,166,.15); }
+html.dark .bg-red-50{ background:rgba(239,68,68,.12); }
+html.dark .bg-blue-50{ background:rgba(59,130,246,.12); }
+html.dark .text-amber-700,html.dark .text-amber-600{ color:#fbbf24; }
+html.dark .text-emerald-700,html.dark .text-emerald-600{ color:#34d399; }
+html.dark .text-indigo-600,html.dark .text-indigo-700{ color:#a5b4fc; }
+html.dark .text-violet-700{ color:#c4b5fd; }
+html.dark .text-teal-700{ color:#2dd4bf; }
+html.dark .text-red-600{ color:#f87171; }
+html.dark .text-blue-600{ color:#93c5fd; }
+html.dark .border-amber-200{ border-color:#78350f; }
+html.dark .border-emerald-200{ border-color:#065f46; }
+html.dark .border-indigo-200{ border-color:#3730a3; }
+html.dark .border-red-200{ border-color:#7f1d1d; }
+html.dark .border-blue-200{ border-color:#1e40af; }
+html.dark .border-violet-200{ border-color:#4c1d95; }
+html.dark .border-teal-200{ border-color:#115e59; }
+html.dark .nav-tabs-top .tab-btn.active,html.dark .tab-btn.active{ background:#e2e8f0; color:#0f172a; border-color:#e2e8f0; }
+html.dark .nav-tabs-top .tab-btn{ background:#1e293b; border-color:#334155; color:#cbd5e1; }
+html.dark .bottom-nav .tab-btn.active{ background:#312e81; color:#c7d2fe; }
+html.dark .mem-card.bg-amber-50{ background:rgba(245,158,11,.12); }
+html.dark .mem-card.bg-slate-50{ background:#1e293b; }
+html.dark .mem-card.bg-indigo-50{ background:rgba(99,102,241,.15); }
+html.dark .mem-label.text-amber-700{ color:#fbbf24; }
+html.dark .mem-label.text-slate-600{ color:#94a3b8; }
+html.dark .mem-label.text-indigo-700{ color:#a5b4fc; }
+html.dark .text-white{ color:#fff; }
+html.dark .heatmap-cell{ background:#334155; }
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[tabindex]:focus-visible{ outline:3px solid #6366f1; outline-offset:2px; border-radius:.5rem; }
+@media(prefers-reduced-motion: reduce){
+  *,*::before,*::after{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
+}
+</style>
+</head>
+<body class="bg-[#f8fafc] text-ink min-h-screen">
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+  <div class="max-w-[1200px] mx-auto px-4 py-2.5 flex items-center justify-between gap-2">
+    <div class="flex items-center gap-2.5 min-w-0">
+      <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-600 to-violet-600 flex items-center justify-center text-white font-bold shrink-0">I</div>
+      <div class="font-outfit font-bold text-lg leading-none truncate">IdiomMaster</div>
+      <span id="navBadge" class="hidden md:inline ml-1 px-2 py-1 rounded-full bg-amber-100 text-amber-700 text-xs font-medium">500 idioms</span>
+    </div>
+    <div class="flex items-center gap-2 shrink-0">
+      <div class="flex items-center gap-1 bg-slate-100 rounded-full px-2 py-1 text-sm">
+        <span><i class="fa-solid fa-fire text-orange-500"></i> <span id="streakTop" class="font-semibold">0</span></span>
+        <span class="text-sky-600 font-medium px-1 text-xs" title="โล่กันสตรีคหลุด (Streak Freeze)"><i class="fa-solid fa-snowflake"></i> <span id="freezeTop">1</span></span>
+        <span class="hidden sm:inline px-1"><i class="fa-solid fa-bolt text-amber-500"></i> <span id="xpTop" class="font-semibold">0</span></span>
+        <span class="hidden sm:inline font-medium">Lv.<span id="levelTop">1</span></span>
+      </div>
+      <button onclick="switchTab('stats')" class="md:hidden w-11 h-11 rounded-full text-slate-500 hover:bg-slate-100" aria-label="สถิติ"><i class="fa-solid fa-chart-simple"></i></button>
+      <button onclick="toggleTheme()" id="themeBtn" class="w-11 h-11 rounded-full text-slate-500 hover:bg-slate-100" aria-label="สลับโหมดมืด/สว่าง" title="สลับโหมดมืด/สว่าง"><i class="fa-solid fa-moon"></i></button>
+      <button onclick="openSettings()" class="w-11 h-11 rounded-full text-slate-500 hover:bg-slate-100" aria-label="ตั้งค่า" title="ตั้งค่า"><i class="fa-solid fa-gear"></i></button>
+      <button onclick="resetProgress()" class="text-sm text-slate-400 hover:text-red-500 px-2 min-h-11" aria-label="รีเซ็ต"><i class="fa-solid fa-rotate"></i></button>
+    </div>
+  </div>
+  <div class="nav-tabs-top max-w-[1200px] mx-auto px-4 hidden md:flex gap-1 overflow-x-auto scrollbar-hide pb-2">
+    <button data-tab="today" onclick="switchTab('today')" class="tab-btn active whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200"><i class="fa-solid fa-house mr-1"></i> วันนี้</button>
+    <button data-tab="learn" onclick="switchTab('learn')" class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200"><i class="fa-solid fa-book-open mr-1"></i> เรียนใหม่</button>
+    <button data-tab="review" onclick="switchTab('review')" class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200"><i class="fa-solid fa-rotate mr-1"></i> ทบทวน <span class="reviewBadge ml-1 bg-red-500 text-white text-xs px-1.5 py-0.5 rounded-full hidden">0</span></button>
+    <button data-tab="practice" onclick="switchTab('practice')" class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200"><i class="fa-solid fa-gamepad mr-1"></i> ฝึกเกม</button>
+    <button data-tab="explore" onclick="switchTab('explore')" class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200"><i class="fa-solid fa-magnifying-glass mr-1"></i> คลัง</button>
+    <button data-tab="stats" onclick="switchTab('stats')" class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200"><i class="fa-solid fa-chart-simple mr-1"></i> สถิติ</button>
+  </div>
+</nav>
+<nav class="bottom-nav md:hidden fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur border-t border-slate-200 flex px-1 pt-1" style="padding-bottom:max(.35rem,env(safe-area-inset-bottom))">
+  <button data-tab="today" onclick="switchTab('today')" class="tab-btn active"><i class="fa-solid fa-house"></i>วันนี้</button>
+  <button data-tab="learn" onclick="switchTab('learn')" class="tab-btn"><i class="fa-solid fa-book-open"></i>เรียน</button>
+  <button data-tab="review" onclick="switchTab('review')" class="tab-btn relative"><i class="fa-solid fa-rotate"></i>ทบทวน<span class="reviewBadge absolute top-1 right-2 bg-red-500 text-white text-[10px] min-w-[1.1rem] h-[1.1rem] px-1 rounded-full hidden leading-[1.1rem]">0</span></button>
+  <button data-tab="practice" onclick="switchTab('practice')" class="tab-btn"><i class="fa-solid fa-gamepad"></i>ฝึก</button>
+  <button data-tab="explore" onclick="switchTab('explore')" class="tab-btn"><i class="fa-solid fa-magnifying-glass"></i>คลัง</button>
+</nav>
+
+<main class="max-w-[1200px] mx-auto px-4 py-4 md:py-6">
+  <!-- TODAY — เลือกสายการเรียน -->
+  <section id="tab-today" class="tab-panel">
+    <div class="bg-white rounded-2xl border border-slate-200 p-4 mb-4">
+      <h3 class="font-semibold text-base">สายวันนี้</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mt-3">
+        <button id="trackIdiom" onclick="setTrack('idiom')" class="track-btn p-2.5 sm:p-3 rounded-xl border-2 text-left">
+          <div class="track-title font-semibold text-base text-ink">สำนวน</div>
+          <div id="trackIdiomCount" class="track-count track-sub text-xs sm:text-sm mt-1 leading-snug text-muted">0 ทบทวน<br>0 ใหม่</div>
+        </button>
+        <button id="trackOxford" onclick="setTrack('oxford')" class="track-btn p-2.5 sm:p-3 rounded-xl border-2 text-left">
+          <div class="track-title font-semibold text-base text-ink">Oxford</div>
+          <div id="trackOxfordCount" class="track-count track-sub text-xs sm:text-sm mt-1 leading-snug text-muted">0 ทบทวน<br>0 ใหม่</div>
+        </button>
+        <button id="trackSentence" onclick="setTrack('sentence')" class="track-btn p-2.5 sm:p-3 rounded-xl border-2 text-left">
+          <div class="track-title font-semibold text-base text-ink">ประโยค 1,000</div>
+          <div id="trackSentenceCount" class="track-count track-sub text-xs sm:text-sm mt-1 leading-snug text-muted">0 ทบทวน<br>0 ใหม่</div>
+        </button>
+        <button id="trackBoth" onclick="setTrack('both')" class="track-btn p-2.5 sm:p-3 rounded-xl border-2 text-left">
+          <div class="track-title font-semibold text-base text-ink">ทั้งหมด</div>
+          <div id="trackBothCount" class="track-count track-sub text-xs sm:text-sm mt-1 leading-snug text-muted">0 ทบทวน<br>0 ใหม่</div>
+        </button>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div class="lg:col-span-2 space-y-4">
+        <div class="bg-gradient-to-br from-indigo-600 to-violet-600 rounded-2xl p-6 text-white relative overflow-hidden">
+          <div class="absolute -right-10 -top-10 w-40 h-40 bg-white/10 rounded-full"></div>
+          <div class="relative">
+            <h1 class="font-bold text-2xl md:text-3xl">วันนี้เรียนอะไร?</h1>
+            <div class="grid grid-cols-4 gap-2 mt-5">
+              <div class="bg-white/15 backdrop-blur rounded-xl p-3 text-center">
+                <div class="text-3xl font-outfit font-bold" id="dueCount">0</div>
+                <div class="text-sm text-white/80">ทบทวน</div>
+              </div>
+              <div class="bg-white/15 backdrop-blur rounded-xl p-3 text-center">
+                <div class="text-3xl font-outfit font-bold" id="newCount">5</div>
+                <div class="text-sm text-white/80">ใหม่</div>
+              </div>
+              <div class="bg-white/15 backdrop-blur rounded-xl p-3 text-center">
+                <div class="text-3xl font-outfit font-bold flex items-center justify-center gap-1">
+                  <span id="streakCount">0</span>
+                  <span id="freezeBadge" class="text-xs font-normal text-sky-200" title="โล่กันสตรีคหลุด">❄️<span id="freezeCount">1</span></span>
+                </div>
+                <div class="text-sm text-white/80">สตรีค</div>
+              </div>
+              <div class="bg-white/15 backdrop-blur rounded-xl p-3 text-center">
+                <div class="text-3xl font-outfit font-bold" id="todayXpCount">0</div>
+                <div class="text-sm text-white/80">XP วันนี้</div>
+              </div>
+            </div>
+            <div class="mt-3.5 inline-flex items-center gap-1.5 text-xs text-indigo-100 bg-white/15 backdrop-blur-sm px-3 py-1 rounded-full">
+              <i class="fa-solid fa-bolt text-amber-300"></i> <span>Micro-learning: 5 คำใช้เวลาเพียง ~2 นาที/รอบ เพื่อความจำสูงสุด</span>
+            </div>
+            <div class="flex gap-2 mt-4">
+              <button onclick="switchTab('learn')" class="flex-1 bg-white/20 border border-white/30 text-white font-semibold py-3.5 rounded-xl min-h-12 text-base hover:bg-white/30 active:scale-[0.98] transition">เรียนใหม่</button>
+              <button onclick="switchTab('review')" class="flex-1 bg-white/20 border border-white/30 text-white font-semibold py-3.5 rounded-xl min-h-12 text-base hover:bg-white/30 active:scale-[0.98] transition">ทบทวน</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="dailyLessonCard" class="hidden bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl p-5 text-white relative overflow-hidden">
+          <div class="absolute -right-8 -top-8 w-32 h-32 bg-white/10 rounded-full"></div>
+          <div class="relative">
+            <h3 class="font-semibold text-lg">บทเรียนวันนี้ — ฝึก 4 เกมให้ครบ</h3>
+            <div id="dailyLessonWords" class="flex flex-wrap gap-1.5 mt-3"></div>
+            <div class="grid grid-cols-4 gap-2 mt-3 text-center text-xs" id="dailyGameGrid"></div>
+            <div class="mt-3 flex items-center gap-2">
+              <button onclick="switchTab('practice')" class="flex-1 bg-white text-emerald-600 font-semibold py-3 rounded-xl min-h-12">ไปฝึกต่อ</button>
+              <span id="dailyProgressText" class="text-sm bg-white/20 px-3 py-3 rounded-full">0/4 เกม</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5">
+          <h3 class="font-semibold">วันนี้จะได้เรียนอะไร?</h3>
+          <div id="todayPreview" class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3"></div>
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        <div class="bg-white rounded-2xl border border-slate-200 p-5">
+          <div class="flex items-center justify-between">
+            <h3 class="font-semibold">ความคืบหน้า</h3>
+            <span class="text-xs bg-slate-100 px-2 py-1 rounded-full" id="progressText">0 / 200</span>
+          </div>
+          <div class="mt-4 flex items-center gap-4">
+            <div class="relative w-20 h-20">
+              <svg class="w-20 h-20 progress-ring">
+                <circle cx="40" cy="40" r="32" stroke="#e2e8f0" stroke-width="8" fill="none"/>
+                <circle id="progressCircle" cx="40" cy="40" r="32" stroke="#6366f1" stroke-width="8" fill="none" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="201"/>
+              </svg>
+              <div class="absolute inset-0 flex flex-col items-center justify-center">
+                <span id="progressPct" class="font-outfit font-bold text-lg">0%</span>
+                <span class="text-[10px] text-muted -mt-1">เรียนรู้แล้ว</span>
+              </div>
+            </div>
+            <div class="flex-1 space-y-2 text-sm">
+              <div class="flex justify-between"><span class="text-muted">Mastered</span><span id="masteredCount" class="font-semibold text-emerald-600">0</span></div>
+              <div class="flex justify-between"><span class="text-muted">กำลังทบทวน</span><span id="learningCount" class="font-semibold">0</span></div>
+              <div class="flex justify-between"><span class="text-muted">ยังไม่เรียน</span><span id="notStartedCount" class="font-semibold">200</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5">
+          <h3 class="font-semibold">จุดอ่อนที่ต้องย้ำ</h3>
+          <div id="leechList" class="mt-3 space-y-2 text-sm text-muted">ยังไม่มี — ทำต่อไปเยี่ยมมาก!</div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-slate-200 p-5">
+          <div class="flex items-center justify-between">
+            <h3 class="font-semibold"><i class="fa-solid fa-clock text-muted"></i> ตั้งเป้าวันนี้</h3>
+            <button onclick="openSettings()" class="text-sm px-3 py-1.5 rounded-full bg-indigo-50 text-indigo-600 border border-indigo-200 min-h-9 hover:bg-indigo-100">ตั้งค่าเพิ่มเติม</button>
+          </div>
+          <div class="mt-3 flex gap-2">
+            <label class="flex-1 bg-slate-50 rounded-xl p-3 border text-center min-h-16">
+              <div class="text-sm text-muted">เรียนใหม่/วัน</div>
+              <select id="dailyNew" onchange="saveSettings()" class="mt-1 font-semibold bg-transparent text-center w-full outline-none text-base">
+                <option value="3">3 ตัว</option><option value="5" selected>5 ตัว</option><option value="10">10 ตัว</option>
+              </select>
+            </label>
+            <label class="flex-1 bg-slate-50 rounded-xl p-3 border text-center min-h-16">
+              <div class="text-sm text-muted">ทบทวนสูงสุด</div>
+              <select id="dailyReview" onchange="saveSettings()" class="mt-1 font-semibold bg-transparent text-center w-full outline-none text-base">
+                <option value="5" selected>5 ใบ</option><option value="10">10 ใบ</option><option value="20">20 ใบ</option><option value="50">50 ใบ</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEARN -->
+  <section id="tab-learn" class="tab-panel hidden">
+    <div class="flex items-center justify-between">
+      <h2 class="text-xl font-bold" id="learnHeader">เรียนใหม่ — 5 ตัว/วัน</h2>
+      <div class="text-sm text-muted"><span id="learnIdx">0</span> / <span id="learnTotal">5</span></div>
+    </div>
+    <div class="mt-4 bg-white rounded-2xl border border-slate-200 p-4 md:p-6">
+      <div id="learnCard" class="min-h-[320px] w-full min-w-0 flex flex-col justify-center text-center">
+        <div class="text-muted">กดเริ่มเรียนเพื่อดูสำนวนใหม่</div>
+      </div>
+      <div class="mt-3 flex justify-center gap-1.5" id="learnDots"></div>
+      <div class="mt-3 flex gap-2 justify-center">
+        <button id="learnPrev" onclick="learnPrev()" class="hidden px-4 py-3 rounded-xl border min-h-12">ก่อนหน้า</button>
+        <button onclick="startLearn()" id="learnStartBtn" class="px-6 py-3.5 rounded-xl bg-indigo-600 text-white font-semibold min-h-12 text-base">เริ่มเรียน 5 ตัว</button>
+        <button id="learnNext" onclick="learnNext()" class="hidden flex-1 px-6 py-3.5 rounded-xl bg-ink text-white font-semibold min-h-12 text-base">ต่อไป</button>
+        <button id="learnFinish" onclick="finishLearn()" class="hidden flex-1 px-6 py-3.5 rounded-xl bg-emerald-600 text-white font-semibold min-h-12 text-base"><i class="fa-solid fa-check"></i> เสร็จ เข้า SRS</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEW -->
+  <section id="tab-review" class="tab-panel hidden">
+    <div class="flex items-center justify-between flex-wrap gap-2">
+      <h2 class="text-xl font-bold">ทบทวน</h2>
+      <div class="flex items-center gap-2 text-sm">
+        <span class="px-3 py-1.5 rounded-full bg-amber-100 text-amber-700" id="reviewRemaining">0 ใบค้าง</span>
+        <button onclick="speakCurrent()" class="px-3 py-2 rounded-full border bg-white min-h-11"><i class="fa-solid fa-volume-high"></i> ฟัง</button>
+        <button onclick="skipReviewAsKnown()" class="px-3 py-2 rounded-full border bg-white min-h-11 text-emerald-700">รู้แล้ว</button>
+      </div>
+    </div>
+    <div id="reviewArea" class="mt-4">
+      <div class="bg-white rounded-2xl border border-slate-200 p-8 text-center">
+        <div class="text-5xl">📚</div>
+        <h3 class="font-semibold mt-3 text-lg" id="reviewEmptyTitle">ไม่มีการ์ดที่ถึงกำหนด</h3>
+        <p class="text-base text-muted mt-1" id="reviewEmptyDesc">ไปเรียนใหม่ หรือรอถึงเวลาทบทวน</p>
+        <button onclick="switchTab('learn')" class="mt-4 px-5 py-3 rounded-xl bg-indigo-600 text-white min-h-12">ไปเรียนใหม่</button>
+      </div>
+    </div>
+    <!-- review card template hidden -->
+    <div id="reviewCardWrap" class="hidden">
+      <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden">
+        <div class="h-1 bg-slate-100"><div id="reviewProgressBar" class="h-full bg-indigo-600 transition-all" style="width:0%"></div></div>
+        <div class="p-6">
+          <div class="flex items-center justify-between text-xs">
+            <span class="px-2 py-1 rounded-full bg-slate-100" id="reviewCategory">social</span>
+            <span class="text-muted" id="reviewDueInfo">due today</span>
+          </div>
+          <div class="card-flip mt-4 cursor-pointer" onclick="flipReview()">
+            <div id="reviewCardInner" class="card-inner relative min-h-[240px]">
+              <div class="card-front absolute inset-0 bg-gradient-to-br from-slate-50 to-white border border-slate-200 rounded-2xl p-5 flex flex-col justify-center items-center text-center">
+                <div id="reviewFrontPhrase" class="font-outfit font-bold text-2xl sm:text-3xl md:text-4xl leading-tight break-words px-1">ลองนึกคำตอบก่อน</div>
+                <div id="reviewFrontPhonetic" class="text-base text-muted mt-2"></div>
+                <div id="reviewFrontCue" class="mt-4 text-base text-indigo-600 font-medium">ตอบคำถามด้านล่าง — ยังไม่โชว์คำตอบ</div>
+                <div id="reviewHint" class="mt-3 text-sm bg-amber-50 border border-amber-200 rounded-xl px-3 py-2 hidden">นึกภาพ: คนทุบน้ำแข็งกลางงานปาร์ตี้</div>
+              </div>
+              <div class="card-back absolute inset-0 bg-white border border-slate-200 rounded-2xl p-4 overflow-auto">
+                <div class="text-center">
+                  <div id="reviewBackPhrase" class="font-outfit font-bold text-2xl">break the ice</div>
+                  <div id="reviewBackMeaning" class="mt-2 text-lg font-medium text-indigo-600">ทำลายความเงียบ เริ่มบทสนทนา</div>
+                  <div id="reviewBackEn" class="text-sm text-muted">to initiate conversation</div>
+                </div>
+                <div id="reviewMetaGrid" class="mem-grid mt-4">
+                  <div id="reviewMnemonicCard" class="mem-card bg-amber-50 border border-amber-200"><div class="mem-label text-amber-700">ภาพจำ (Dual Coding)</div><div id="reviewMnemonic" class="mem-body">ภาพจำ</div></div>
+                  <div id="reviewLiteralCard" class="mem-card bg-slate-50 border border-slate-200 hidden"><div class="mem-label text-slate-600">LITERAL</div><div id="reviewLiteral" class="mem-body">ทุบน้ำแข็ง</div></div>
+                  <div id="reviewOriginCard" class="mem-card bg-indigo-50 border border-indigo-200"><div class="mem-label text-indigo-700">ORIGIN</div><div id="reviewOrigin" class="mem-body">เรือตัดน้ำแข็ง</div></div>
+                </div>
+                <div class="mt-4 text-left">
+                  <div class="text-sm font-semibold text-slate-600 mb-2">ตัวอย่าง</div>
+                  <div class="space-y-2 text-sm" id="reviewExamples"></div>
+                </div>
+                <div class="mt-3 flex flex-wrap gap-1.5" id="reviewSynonyms"></div>
+              </div>
+            </div>
+          </div>
+          <div id="reviewQuestionArea" class="mt-4 hidden">
+            <div class="bg-slate-50 rounded-xl p-4 border">
+              <div id="reviewQuestion" class="font-medium text-base"></div>
+              <div id="reviewOptions" class="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3"></div>
+              <div id="reviewInputWrap" class="hidden mt-3 flex gap-2">
+                <input id="reviewInput" class="flex-1 border rounded-xl px-3 py-3 text-base min-h-12" placeholder="พิมพ์สำนวนภาษาอังกฤษ...">
+                <button onclick="submitInputAnswer()" class="px-4 py-3 rounded-xl bg-ink text-white min-h-12">ตรวจ</button>
+              </div>
+              <div id="reviewFeedback" class="hidden mt-3 p-3 rounded-xl text-sm" aria-live="polite"></div>
+              <div id="reviewLeechRescue" class="hidden mt-3 p-4 rounded-xl text-sm bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-700"></div>
+            </div>
+          </div>
+          <div id="gradeLockHint" class="hidden mt-4 text-center text-sm bg-amber-50 border border-amber-200 rounded-xl py-2.5 text-amber-700">ตอบคำถามก่อน แล้วค่อยให้คะแนน</div>
+          <div id="gradeButtons" class="mt-4 grid grid-cols-4 gap-2 opacity-50 pointer-events-none">
+            <button onclick="grade(1)" class="py-3.5 rounded-xl bg-red-50 border border-red-200 hover:bg-red-100 min-h-14"><div class="font-bold text-red-600 text-sm md:text-base">Again</div><div class="text-xs md:text-sm text-red-500" id="againLabel">10 นาที</div></button>
+            <button onclick="grade(2)" class="py-3.5 rounded-xl bg-orange-50 border border-orange-200 hover:bg-orange-100 min-h-14"><div class="font-bold text-orange-600 text-sm md:text-base">Hard</div><div class="text-xs md:text-sm text-orange-500" id="hardLabel">6 ชม.</div></button>
+            <button onclick="grade(3)" class="py-3.5 rounded-xl bg-emerald-50 border border-emerald-200 hover:bg-emerald-100 ring-2 ring-emerald-400 min-h-14"><div class="font-bold text-emerald-700 text-sm md:text-base">Good</div><div class="text-xs md:text-sm text-emerald-600" id="goodLabel">1 วัน</div></button>
+            <button onclick="grade(4)" class="py-3.5 rounded-xl bg-blue-50 border border-blue-200 hover:bg-blue-100 min-h-14"><div class="font-bold text-blue-600 text-sm md:text-base">Easy</div><div class="text-xs md:text-sm text-blue-500" id="easyLabel">3 วัน</div></button>
+          </div>
+          <div id="undoWrap" class="hidden mt-3 text-center"><button onclick="undoGrade()" class="text-sm px-4 py-2 rounded-full bg-slate-800 text-white hover:bg-slate-700 min-h-11"><i class="fa-solid fa-rotate-left"></i> ย้อนกลับ</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRACTICE -->
+  <section id="tab-practice" class="tab-panel hidden">
+    <div id="dailyPracticeBanner" class="hidden bg-emerald-50 border border-emerald-200 rounded-2xl p-3 mb-3">
+      <div class="flex items-center gap-2 min-w-0">
+        <div class="font-semibold text-emerald-800 shrink-0">วันนี้</div>
+        <div id="dailyBannerWords" class="flex flex-wrap gap-1 flex-1 min-w-0"></div>
+        <span id="dailyBannerProgress" class="text-sm bg-emerald-600 text-white px-2.5 py-1 rounded-full shrink-0">0/4</span>
+      </div>
+      <div class="grid grid-cols-4 gap-1.5 mt-2" id="dailyBannerGrid"></div>
+    </div>
+    <div id="practiceGamePicker">
+      <h2 class="text-xl font-bold">ฝึกเกม</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 mt-3">
+        <button data-practice="match" onclick="startPractice('match')" class="bg-white border border-slate-200 rounded-2xl p-4 text-left hover:border-rose-300 hover:shadow relative min-h-[7.5rem]">
+          <div class="w-10 h-10 rounded-lg bg-rose-500 text-white flex items-center justify-center text-lg"><i class="fa-solid fa-bolt"></i></div>
+          <div class="font-semibold text-base mt-2">จับคู่</div><div class="text-sm text-muted">60 วินาที</div>
+          <span class="lock-badge hidden absolute top-2 right-2 text-xs bg-amber-500 text-white px-1.5 py-0.5 rounded-full">🔒</span>
+        </button>
+        <button data-practice="cloze" onclick="startPractice('cloze')" class="bg-white border border-slate-200 rounded-2xl p-4 text-left hover:border-indigo-300 hover:shadow relative min-h-[7.5rem]">
+          <div class="w-10 h-10 rounded-lg bg-indigo-600 text-white flex items-center justify-center text-lg"><i class="fa-solid fa-pen"></i></div>
+          <div class="font-semibold text-base mt-2">เติมคำ</div><div class="text-sm text-muted">ในประโยค</div>
+          <span class="lock-badge hidden absolute top-2 right-2 text-xs bg-amber-500 text-white px-1.5 py-0.5 rounded-full">🔒</span>
+        </button>
+        <button data-practice="scenario" onclick="startPractice('scenario')" class="bg-white border border-slate-200 rounded-2xl p-4 text-left hover:border-amber-300 hover:shadow relative min-h-[7.5rem]">
+          <div class="w-10 h-10 rounded-lg bg-amber-500 text-white flex items-center justify-center text-lg"><i class="fa-solid fa-comments"></i></div>
+          <div class="font-semibold text-base mt-2">สถานการณ์</div><div class="text-sm text-muted">เลือกให้ถูกบริบท</div>
+          <span class="lock-badge hidden absolute top-2 right-2 text-xs bg-amber-500 text-white px-1.5 py-0.5 rounded-full">🔒 5</span>
+        </button>
+        <button data-practice="builder" onclick="startPractice('builder')" class="bg-white border border-slate-200 rounded-2xl p-4 text-left hover:border-violet-300 hover:shadow relative min-h-[7.5rem]">
+          <div class="w-10 h-10 rounded-lg bg-violet-600 text-white flex items-center justify-center text-lg"><i class="fa-solid fa-cubes"></i></div>
+          <div class="font-semibold text-base mt-2">เรียงคำ</div><div class="text-sm text-muted">ประกอบสำนวน</div>
+          <span class="lock-badge hidden absolute top-2 right-2 text-xs bg-amber-500 text-white px-1.5 py-0.5 rounded-full">🔒 3</span>
+        </button>
+        <button data-practice="th2en" onclick="startPractice('th2en')" class="bg-white border border-slate-200 rounded-2xl p-4 text-left hover:border-teal-300 hover:shadow relative min-h-[7.5rem]">
+          <div class="w-10 h-10 rounded-lg bg-teal-600 text-white flex items-center justify-center text-lg"><i class="fa-solid fa-keyboard"></i></div>
+          <div class="font-semibold text-base mt-2">TH → EN</div><div class="text-sm text-muted">พิมพ์/เรียงจากความหมาย</div>
+          <span class="lock-badge hidden absolute top-2 right-2 text-xs bg-amber-500 text-white px-1.5 py-0.5 rounded-full">🔒 5</span>
+        </button>
+      </div>
+    </div>
+    <div id="gameStatsCard" class="hidden bg-white rounded-2xl border border-slate-200 p-5 mt-4">
+      <h3 class="font-semibold"><i class="fa-solid fa-chart-column text-muted"></i> ประวัติเกม</h3>
+      <div class="mt-3 space-y-2 text-sm"></div>
+    </div>
+    <div id="practiceArea" class="mt-3 bg-white rounded-2xl border border-slate-200 p-5 min-h-[280px] flex flex-col items-center justify-center text-center">
+      <div class="text-4xl">🎮</div>
+      <div class="font-semibold mt-2 text-lg">เลือกเกมด้านบน</div>
+    </div>
+  </section>
+
+  <!-- EXPLORE — รองรับ Oxford 3000 + คำศัพท์ผู้ใช้ -->
+  <section id="tab-explore" class="tab-panel hidden">
+    <div class="flex flex-wrap gap-2 items-center">
+      <h2 class="text-xl font-bold">คลังคำศัพท์ <span id="exploreCount" class="text-sm font-normal text-muted">500 รายการ</span></h2>
+      <div class="ml-auto flex flex-wrap gap-2 items-center">
+        <input id="searchInput" oninput="debouncedExplore()" placeholder="ค้นหา สำนวน / ความหมาย" class="px-3 py-3 rounded-xl border bg-white text-base w-full sm:w-56 min-h-12">
+        <select id="filterKind" onchange="renderExplore()" class="px-3 py-3 rounded-xl border bg-white text-base min-h-12">
+          <option value="">ทุกประเภท</option><option value="idiom">สำนวน</option><option value="word">คำศัพท์</option><option value="sentence">ประโยค</option>
+        </select>
+        <select id="filterLevel" onchange="renderExplore()" class="px-3 py-3 rounded-xl border bg-white text-base min-h-12">
+          <option value="">ทุกระดับ</option><option value="A1">A1</option><option value="A2">A2</option><option value="B1">B1</option><option value="B2">B2</option><option value="C1">C1</option><option value="C2">C2</option>
+        </select>
+        <select id="filterCategory" onchange="renderExplore()" class="px-3 py-3 rounded-xl border bg-white text-base min-h-12">
+          <option value="">ทุกหมวด</option>
+        </select>
+        <select id="filterDiff" onchange="renderExplore()" class="px-3 py-3 rounded-xl border bg-white text-base min-h-12">
+          <option value="">ทุกระดับ</option><option value="1">⭐ ง่าย</option><option value="2">⭐⭐ กลาง</option><option value="3">⭐⭐⭐ ยาก</option>
+        </select>
+        <select id="filterStatus" onchange="renderExplore()" class="px-3 py-3 rounded-xl border bg-white text-base min-h-12">
+          <option value="">ทุกสถานะ</option>
+          <option value="new">ยังไม่เรียน</option>
+          <option value="learning">กำลังทบทวน</option>
+          <option value="known">รู้แล้ว</option>
+          <option value="hidden">ที่ลบแล้ว</option>
+        </select>
+        <select id="filterSort" onchange="renderExplore()" class="px-3 py-3 rounded-xl border bg-white text-base min-h-12" title="เรียงลำดับ">
+          <option value="">เรียง: ค่าเริ่มต้น</option>
+          <option value="diffAsc">ง่าย → ยาก</option>
+          <option value="diffDesc">ยาก → ง่าย</option>
+          <option value="alpha">A-Z</option>
+          <option value="freq">ความถี่สูงสุด</option>
+          <option value="recent">ทบทวนล่าสุด</option>
+        </select>
+      </div>
+    </div>
+    <div class="mt-3 flex flex-wrap gap-2 items-center bg-white border border-slate-200 rounded-xl p-3">
+      <label class="flex items-center gap-2 text-base"><input type="checkbox" id="toggleOxford" onchange="toggleOxford(this.checked)" class="rounded w-5 h-5"> Oxford 3000</label>
+      <span class="text-sm text-muted" id="oxfordStatus"></span>
+      <span class="ml-auto flex flex-wrap gap-2">
+        <button onclick="bulkMarkKnownFiltered()" class="text-sm px-3 py-2 rounded-full bg-emerald-600 text-white hover:bg-emerald-700 min-h-11">รู้แล้วทั้งหน้า</button>
+        <label class="text-sm px-3 py-2 rounded-full bg-indigo-600 text-white cursor-pointer hover:bg-indigo-700 min-h-11 inline-flex items-center">นำเข้า<input type="file" id="importFile" accept=".json,.csv" class="hidden" onchange="handleImportFile(event)"></label>
+        <button onclick="exportCustomVocab()" class="text-sm px-3 py-2 rounded-full border bg-white min-h-11">ส่งออก</button>
+        <button onclick="clearCustomVocab()" class="text-sm px-3 py-2 rounded-full border bg-white text-red-600 min-h-11">ล้างนำเข้า</button>
+      </span>
+    </div>
+    <div class="mt-2 p-2 bg-amber-50 border border-amber-200 rounded-xl text-sm text-amber-800 hidden" id="importFeedback"></div>
+    <div id="exploreGrid" class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4"></div>
+  </section>
+
+  <!-- STATS -->
+  <section id="tab-stats" class="tab-panel hidden">
+    <h2 class="text-xl font-bold">สถิติการเรียนรู้</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4">
+      <div class="lg:col-span-2 bg-white rounded-2xl border border-slate-200 p-5">
+        <h3 class="font-semibold">Heatmap 30 วัน</h3>
+        <div id="heatmap" class="grid grid-cols-10 md:grid-cols-15 gap-1 mt-3"></div>
+        <div class="mt-4 grid grid-cols-3 gap-3 text-center text-sm">
+          <div class="bg-slate-50 rounded-xl p-3"><div class="text-2xl font-outfit font-bold" id="statTotalReviews">0</div><div class="text-xs text-muted">ครั้งที่ทบทวน</div></div>
+          <div class="bg-slate-50 rounded-xl p-3"><div class="text-2xl font-outfit font-bold" id="statAccuracy">0%</div><div class="text-xs text-muted">ความแม่น (Good+Easy)</div></div>
+          <div class="bg-slate-50 rounded-xl p-3"><div class="text-2xl font-outfit font-bold" id="statAvgStability">0 วัน</div><div class="text-xs text-muted">จำได้นานเฉลี่ย</div></div>
+          <div class="bg-slate-50 rounded-xl p-3"><div class="text-2xl font-outfit font-bold" id="statLearned">0</div><div class="text-xs text-muted">เรียนรู้แล้ว</div></div>
+          <div class="bg-slate-50 rounded-xl p-3"><div class="text-2xl font-outfit font-bold" id="statMastered">0</div><div class="text-xs text-muted">Mastered</div></div>
+          <div class="bg-slate-50 rounded-xl p-3"><div class="text-2xl font-outfit font-bold" id="statKnown">0</div><div class="text-xs text-muted">รู้แล้ว</div></div>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl border border-slate-200 p-5">
+        <h3 class="font-semibold">ระดับ & เหรียญ</h3>
+        <div class="mt-3 text-center">
+          <div class="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-white text-2xl font-bold" id="levelBadge">1</div>
+          <div class="font-semibold mt-2" id="levelName">Newbie</div>
+          <div class="text-sm text-muted" id="xpProgress">0 / 200 XP → Lv.2</div>
+          <div class="w-full h-2 bg-slate-100 rounded-full mt-2"><div id="xpBar" class="h-2 bg-amber-500 rounded-full" style="width:0%"></div></div>
+        </div>
+        <div id="badges" class="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs"></div>
+        <div class="mt-4 p-3 bg-indigo-50 rounded-xl border border-indigo-200">
+          <div class="text-xs font-semibold text-indigo-700">ส่งออก / นำเข้า</div>
+          <div class="flex gap-2 mt-2">
+            <button onclick="exportData()" class="flex-1 text-xs px-2 py-1.5 rounded-lg bg-white border">Export JSON</button>
+            <label class="flex-1 text-xs px-2 py-1.5 rounded-lg bg-ink text-white text-center cursor-pointer">Import<input type="file" class="hidden" onchange="importData(event)"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-4 bg-white rounded-2xl border border-slate-200 p-5">
+      <h3 class="font-semibold">Weak Map — หมวดที่ต้องย้ำ</h3>
+      <div id="weakMap" class="mt-3 grid grid-cols-2 md:grid-cols-5 gap-3"></div>
+    </div>
+    <div class="mt-4 bg-white rounded-2xl border border-slate-200 p-5">
+      <h3 class="font-semibold">รายการที่ยังจำไม่ได้ (ตกบ่อย)</h3>
+      <div id="weakItems" class="mt-3 space-y-2 text-sm"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="max-w-[1200px] mx-auto px-4 py-6 text-center text-sm text-muted border-t border-slate-200 mt-6">
+  <span id="footerLoaded">กำลังโหลด...</span> • ข้อมูลอยู่ในเครื่อง
+  <div class="mt-3 flex justify-center gap-2 md:hidden">
+    <button onclick="toggleTheme()" class="px-4 py-2 rounded-full border bg-white min-h-11"><i class="fa-solid fa-moon"></i> ธีม</button>
+    <button onclick="openSettings()" class="px-4 py-2 rounded-full border bg-white min-h-11"><i class="fa-solid fa-gear"></i> ตั้งค่า</button>
+  </div>
+</footer>
+
+<div id="vocabEditOverlay" class="modal-overlay hidden" onclick="if(event.target===this) closeVocabEditor()">
+  <form class="modal-sheet" onsubmit="saveVocabEditor(event)">
+    <div class="flex items-start justify-between gap-2">
+      <div>
+        <h3 class="font-bold text-lg" id="vocabEditTitle">แก้ไขคำศัพท์</h3>
+        <p class="text-sm text-muted mt-0.5" id="vocabEditHelp">แก้ความหมายหรือภาพจำได้ — คำที่รู้แล้วกดลบออกจากคลังได้</p>
+      </div>
+      <button type="button" onclick="closeVocabEditor()" class="w-11 h-11 rounded-full hover:bg-slate-100" aria-label="ปิด"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <input type="hidden" id="vocabEditId">
+    <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+      <label class="sm:col-span-2 text-sm">สำนวน / คำ
+        <input id="vocabEditPhrase" required class="mt-1 w-full border rounded-xl px-3 py-3 text-base min-h-12">
+      </label>
+      <label class="text-sm">สัทอักษร
+        <input id="vocabEditPhonetic" class="mt-1 w-full border rounded-xl px-3 py-3 text-base min-h-12">
+      </label>
+      <label id="vocabEditMnemonicWrap" class="text-sm">ภาพจำ
+        <input id="vocabEditMnemonic" class="mt-1 w-full border rounded-xl px-3 py-3 text-base min-h-12">
+      </label>
+      <label class="sm:col-span-2 text-sm">ความหมายไทย
+        <input id="vocabEditMeaningTh" required class="mt-1 w-full border rounded-xl px-3 py-3 text-base min-h-12">
+      </label>
+      <label class="sm:col-span-2 text-sm">ความหมายอังกฤษ
+        <input id="vocabEditMeaningEn" class="mt-1 w-full border rounded-xl px-3 py-3 text-base min-h-12">
+      </label>
+      <label id="vocabEditLiteralWrap" class="text-sm">แปลตรงตัว
+        <input id="vocabEditLiteral" class="mt-1 w-full border rounded-xl px-3 py-3 text-base min-h-12">
+      </label>
+      <label id="vocabEditOriginWrap" class="text-sm">ที่มา
+        <input id="vocabEditOrigin" class="mt-1 w-full border rounded-xl px-3 py-3 text-base min-h-12">
+      </label>
+    </div>
+    <div class="mt-4 flex flex-wrap gap-2">
+      <button type="submit" class="flex-1 px-4 py-3.5 rounded-xl bg-indigo-600 text-white font-semibold min-h-12">บันทึก</button>
+      <button type="button" onclick="closeVocabEditor()" class="px-4 py-3.5 rounded-xl border min-h-12">ยกเลิก</button>
+    </div>
+  </form>
+</div>
+
+<div id="settingsOverlay" class="modal-overlay hidden" onclick="if(event.target===this) closeSettings()">
+  <form class="modal-sheet" onsubmit="saveSettingsForm(event)">
+    <div class="flex items-start justify-between gap-2">
+      <div>
+        <h3 class="font-bold text-lg">ตั้งค่า</h3>
+        <p class="text-sm text-muted mt-0.5">ปรับเป้าหมาย ธีม เสียง และข้อมูลของคุณ</p>
+      </div>
+      <button type="button" onclick="closeSettings()" class="w-11 h-11 rounded-full hover:bg-slate-100" aria-label="ปิด"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="mt-4 space-y-4">
+      <div>
+        <div class="text-sm font-semibold text-slate-600">ธีม</div>
+        <div class="grid grid-cols-3 gap-2 mt-2">
+          <button type="button" onclick="setThemePref('light')" data-theme-opt="light" class="theme-opt rounded-xl border p-3 text-center text-sm">☀️ สว่าง</button>
+          <button type="button" onclick="setThemePref('dark')" data-theme-opt="dark" class="theme-opt rounded-xl border p-3 text-center text-sm">🌙 มืด</button>
+          <button type="button" onclick="setThemePref('auto')" data-theme-opt="auto" class="theme-opt rounded-xl border p-3 text-center text-sm">⚙️ อัตโนมัติ</button>
+        </div>
+      </div>
+      <div>
+        <div class="text-sm font-semibold text-slate-600">เป้าหมายรายวัน</div>
+        <div class="grid grid-cols-2 gap-2 mt-2">
+          <label class="bg-slate-50 dark:bg-slate-800 rounded-xl p-3 border text-center">
+            <div class="text-sm text-muted">เรียนใหม่/วัน</div>
+            <select id="setDailyNew" class="mt-1 font-semibold bg-transparent text-center w-full outline-none text-base">
+              <option value="3">3 ตัว</option><option value="5">5 ตัว</option><option value="10">10 ตัว</option>
+            </select>
+          </label>
+          <label class="bg-slate-50 dark:bg-slate-800 rounded-xl p-3 border text-center">
+            <div class="text-sm text-muted">ทบทวน/วัน</div>
+            <select id="setDailyReview" class="mt-1 font-semibold bg-transparent text-center w-full outline-none text-base">
+              <option value="5" selected>5 ใบ</option><option value="10">10 ใบ</option><option value="20">20 ใบ</option><option value="50">50 ใบ</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div>
+        <div class="text-sm font-semibold text-slate-600">ความเร็วเสียงอ่าน</div>
+        <div class="flex gap-2 mt-2">
+          <label class="flex-1 bg-slate-50 dark:bg-slate-800 rounded-xl p-3 border text-center">
+            <div class="text-sm text-muted">ฟังช้า</div>
+            <input id="setSpeechRate" type="range" min="0.6" max="1.1" step="0.1" value="0.9" class="w-full mt-1 accent-indigo-600">
+            <div class="text-xs text-muted mt-1"><span id="speechRateVal">0.9x</span></div>
+          </label>
+        </div>
+      </div>
+      <div>
+        <div class="text-sm font-semibold text-slate-600">ประเมินผลอัตโนมัติ</div>
+        <label class="flex items-center gap-3 mt-2 bg-slate-50 dark:bg-slate-800 rounded-xl p-3 border">
+          <input id="setAutoGrade" type="checkbox" class="rounded w-5 h-5 accent-indigo-600">
+          <div>
+            <div class="text-sm font-medium">ให้ระบบให้คะแนนเองจากเวลาตอบ + ความถูกต้อง</div>
+            <div class="text-xs text-muted">ไม่ต้องกด ง่าย/ยาก ทุกครั้ง — ระบบเรียนรู้จากประวัติการตอบของคุณ</div>
+          </div>
+        </label>
+      </div>
+      <div>
+        <div class="text-sm font-semibold text-slate-600">การแจ้งเตือนประจำวัน</div>
+        <label class="flex items-center gap-3 mt-2 bg-slate-50 dark:bg-slate-800 rounded-xl p-3 border">
+          <input id="setDailyReminder" type="checkbox" onchange="toggleDailyReminder(this.checked)" class="rounded w-5 h-5 accent-indigo-600">
+          <div>
+            <div class="text-sm font-medium">🔔 แจ้งเตือนทบทวน 5 คำประจำวัน (20:00 น.)</div>
+            <div class="text-xs text-muted">เตือนสั้น ๆ 2 นาทีเพื่อรักษาสตรีคและไม่ลืมคำศัพท์</div>
+          </div>
+        </label>
+      </div>
+      <div>
+        <div class="text-sm font-semibold text-slate-600">จัดการคำค้างทบทวน (Backlog)</div>
+        <div class="mt-2">
+          <button type="button" onclick="postponeOverdueBacklog()" class="w-full py-2.5 px-3 rounded-xl bg-indigo-50 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 font-medium text-sm border border-indigo-200 dark:border-indigo-800 flex items-center justify-center gap-2 hover:bg-indigo-100 transition">
+            <i class="fa-solid fa-calendar-days"></i> กระจายคำค้างทบทวน (เกลี่ยออก 1–3 วัน)
+          </button>
+          <p class="text-xs text-muted mt-1.5 leading-relaxed">หากหยุดเรียนไปนานจนคำค้างสะสมเกินโควตา 5 ใบ ปุ่มนี้จะช่วยกระจายคำค้างออกไปข้างหน้าเพื่อลดความกดดัน</p>
+        </div>
+      </div>
+      <div>
+        <div class="text-sm font-semibold text-slate-600">ข้อมูล</div>
+        <div class="flex flex-wrap gap-2 mt-2">
+          <button type="button" onclick="exportData()" class="px-3 py-2.5 rounded-xl bg-ink text-white text-sm min-h-11">Export JSON</button>
+          <label class="px-3 py-2.5 rounded-xl bg-indigo-600 text-white text-sm cursor-pointer min-h-11 inline-flex items-center">Import<input type="file" class="hidden" onchange="importData(event)"></label>
+          <button type="button" onclick="resetProgress()" class="px-3 py-2.5 rounded-xl border text-red-600 text-sm min-h-11">รีเซ็ตทั้งหมด</button>
+        </div>
+      </div>
+      <div class="pt-2 border-t">
+        <div class="text-sm font-semibold text-slate-600">อัปเดตและแคชของแอป</div>
+        <div class="mt-2">
+          <button type="button" onclick="forceClearAppCache()" class="w-full py-2.5 px-3 rounded-xl bg-amber-50 dark:bg-amber-900/30 text-amber-800 dark:text-amber-200 font-medium text-sm border border-amber-300 dark:border-amber-700 flex items-center justify-center gap-2 hover:bg-amber-100 transition">
+            <span>🔄</span> ล้างแคช & อัปเดตข้อมูลล่าสุด
+          </button>
+          <p class="text-xs text-muted mt-1.5 leading-relaxed">กดปุ่มนี้หากหน้าจอแสดงข้อมูลเก่า เพื่อล้างแคชออฟไลน์และโหลดสำนวน/คำศัพท์ล่าสุดทันที</p>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div id="onboardingOverlay" class="modal-overlay hidden">
+  <div class="modal-sheet text-center py-8 px-6">
+    <div class="text-5xl">🎓</div>
+    <h3 class="font-bold text-2xl mt-4">ยินดีต้อนรับสู่ IdiomMaster!</h3>
+    <p class="text-muted mt-2 text-base leading-relaxed">จำสำนวน 3,000+ คำ และประโยคใช้บ่อย 1,000 ประโยค ด้วยวิธีจดจำแบบมีหลักการ</p>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-5 text-left text-sm">
+      <div class="border rounded-xl p-3 bg-slate-50 dark:bg-slate-800"><div class="font-semibold">1. เรียนใหม่</div><div class="text-muted mt-0.5">ได้การ์ดใหม่ทุกวัน พร้อมภาพจำ + เสียง</div></div>
+      <div class="border rounded-xl p-3 bg-slate-50 dark:bg-slate-800"><div class="font-semibold">2. ทบทวน</div><div class="text-muted mt-0.5">ระบบ SRS นัดทบทวนตอนกำลังจะลืม</div></div>
+      <div class="border rounded-xl p-3 bg-slate-50 dark:bg-slate-800"><div class="font-semibold">3. ฝึกเกม</div><div class="text-muted mt-0.5">เล่นเกม 4 ด่านให้ครบทุกวัน เก็บ XP</div></div>
+    </div>
+    <div class="mt-5 text-sm text-muted">เริ่มจากเลือกสายเรียนที่หน้าแรก: สำนวน / Oxford / ประโยค 1,000</div>
+    <button onclick="closeOnboarding()" class="mt-5 w-full py-3.5 rounded-xl bg-indigo-600 text-white font-semibold min-h-12 text-base">เริ่มเลย!</button>
+  </div>
+</div>
+
+<div id="lessonCompleteOverlay" class="modal-overlay hidden" onclick="goHomeNow()">
+  <div class="modal-sheet text-center complete-pop py-10" onclick="event.stopPropagation()">
+    <div class="text-6xl">🎉</div>
+    <h3 class="font-bold text-2xl mt-4">เรียนครบแล้ว</h3>
+    <p id="lessonCompleteMsg" class="text-muted mt-2 text-base">ฝึกครบทุกด่านของวันนี้แล้ว<br>กำลังกลับหน้าแรกให้อัตโนมัติ...</p>
+    <div class="mt-5 text-sm text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-xl px-3 py-2">+50 XP โบนัสบทเรียนวันนี้</div>
+    <div class="mt-5 flex flex-wrap gap-2 justify-center">
+      <button type="button" onclick="goHomeNow()" class="px-5 py-3 rounded-xl bg-ink text-white font-semibold min-h-12">กลับหน้าแรก</button>
+      <button type="button" id="lessonCompleteReviewBtn" onclick="goReviewNow()" class="px-5 py-3 rounded-xl bg-indigo-600 text-white font-semibold min-h-12">ไปทบทวนเลย</button>
+    </div>
+  </div>
+</div>
+
+<script>
+function safeLsJson(key, fallback){
+  try{
+    let raw=localStorage.getItem(key);
+    if(raw==null) return fallback;
+    return JSON.parse(raw);
+  }catch(e){ console.warn('[IdiomMaster] corrupt', key, e); return fallback; }
+}
+let toastTimer=null;
+function showToast(msg){
+  let el=document.getElementById('globalToast');
+  if(!el){
+    el=document.createElement('div');
+    el.id='globalToast';
+    el.className='fixed bottom-4 left-1/2 -translate-x-1/2 bg-slate-900 text-white text-sm px-4 py-3 rounded-xl shadow-lg z-[9999] max-w-[90vw] text-center pointer-events-none';
+    document.body.appendChild(el);
+  }
+  el.textContent=msg;
+  el.style.display='block';
+  if(toastTimer) clearTimeout(toastTimer);
+  toastTimer=setTimeout(()=>{ el.style.display='none'; }, 4000);
+}
+let idioms = [];
+let allIdioms = [];
+let baseIdioms = [];
+let oxfordPool = [];
+let sentencePool = [];
+let customVocab = safeLsJson('vocab_custom', []);
+let vocabEdits = safeLsJson('vocab_edits', {});
+let vocabHidden = new Set(safeLsJson('vocab_hidden', []));
+let oxfordEnabled = localStorage.getItem('oxford_enabled')==='1';
+let studyTrack = localStorage.getItem('study_track') || 'both';
+let progress = safeLsJson('idiom_progress', {});
+let history = safeLsJson('idiom_history', []);
+let stats = safeLsJson('idiom_stats', {xp:0,streak:0,lastStudyDate:null,level:1,xpToday:0,xpTodayDate:null,streakFreezes:1});
+if (typeof stats.streakFreezes !== 'number') { stats.streakFreezes = 1; }
+let settings = safeLsJson('idiom_settings', {dailyNew:5,dailyReview:5,autoGrade:true,dailyReminder:false});
+if (!localStorage.getItem('review_limit_default_5_v2')) {
+  settings.dailyReview = 5;
+  try { localStorage.setItem('idiom_settings', JSON.stringify(settings)); } catch(e){}
+  localStorage.setItem('review_limit_default_5_v2', '1');
+}
+
+let learnQueue=[], learnIdx=0, reviewQueue=[], reviewIdx=0, currentMode=null, currentQuestion=null;
+let practiceScore=0, practiceTotal=0, matchTimer=null, matchTime=60;
+let gameStats = safeLsJson('idiom_game_stats', {});
+// Daily lesson — 5 คำใหม่ + 4 เกมด้วยคำนั้นเท่านั้น (เพิ่มประสิทธิภาพความจำ)
+let dailyLessonIds = safeLsJson('daily_lesson_ids', []);
+let dailyLessonDate = localStorage.getItem('daily_lesson_date')||'';
+let dailyGameProgress = safeLsJson('daily_game_progress', {cloze:false,scenario:false,match:false,builder:false});
+let dailyClozeDone = new Set(safeLsJson('daily_cloze_done', []));
+let dailyScenarioDone = new Set(safeLsJson('daily_scenario_done', []));
+let dailyBuilderDone = new Set(safeLsJson('daily_builder_done', []));
+let dailyTh2enDone = new Set(safeLsJson('daily_th2en_done', []));
+
+const levelNames = ["Newbie","Explorer","Learner","Practitioner","Achiever","Scholar","Wordsmith","Idiom Pro","Master","IdiomMaster"];
+function getLevel(xp){ return Math.min(10, Math.floor(xp/200)+1); }
+
+function getKind(i){ return i.kind || 'idiom'; }
+function isWordItem(it){ return (it && (it.kind||'idiom')==='word'); }
+function isSentenceItem(it){ return (it && (it.kind||'idiom')==='sentence'); }
+function usesMnemonic(it){ return !isWordItem(it) && !isSentenceItem(it); }
+function catLabel(i){ return i.category_th || i.category || ''; }
+function memoryFields(it){
+  if(isWordItem(it) || isSentenceItem(it)) return { mnemonic:'', literal:'', origin:'' };
+  return {
+    mnemonic: it.mnemonic || '',
+    literal: it.literal_th || '',
+    origin: it.origin || ''
+  };
+}
+function recallHint(it){
+  if(usesMnemonic(it) && it.mnemonic) return String(it.mnemonic).slice(0,80);
+  return '';
+}
+function memCardsHtml(it){
+  if(isWordItem(it) || isSentenceItem(it)) return '';
+  let m=memoryFields(it);
+  if(!m.mnemonic && !m.origin) return '';
+  return `<div class="mem-grid mt-4">
+      ${m.mnemonic? `<div class="mem-card bg-amber-50 border border-amber-200"><div class="mem-label text-amber-700">ภาพจำ (Dual Coding)</div><div class="mem-body">${escHtml(m.mnemonic)}</div></div>`:''}
+      ${m.origin? `<div class="mem-card bg-indigo-50 border border-indigo-200"><div class="mem-label text-indigo-700">ORIGIN</div><div class="mem-body">${escHtml(m.origin)}</div></div>`:''}
+    </div>`;
+}
+function examplesHtml(it){
+  if(isSentenceItem(it)) return '';
+  if(!it.examples || !it.examples.length) return '';
+  return `<div class="mt-3 space-y-2 text-left">
+      <div class="text-sm font-semibold text-slate-600">ตัวอย่าง</div>
+      ${it.examples.map(ex=>`<div class="border rounded-xl p-3 bg-white min-w-0"><div class="text-base break-words">“${escHtml(ex.en)}”</div><div class="text-sm text-muted mt-0.5">${escHtml(ex.th||'')}</div></div>`).join('')}
+    </div>`;
+}
+function applyVocabEditsInline(items, edits){
+  if(!edits || !Object.keys(edits).length) return items.map(v=>({...v}));
+  return items.map(v=>{
+    let ed=edits[v.id];
+    if(!ed) return {...v};
+    let merged={...v, ...ed};
+    let phrase=String(ed.phrase ?? merged.phrase ?? '').trim();
+    if(phrase){
+      merged.phrase=phrase;
+      if((v.kind||'idiom')==='word') merged.lemma=String(ed.lemma||phrase).trim();
+    }
+    return merged;
+  });
+}
+function rebuildIdioms(){
+  let map=new Map();
+  baseIdioms.forEach(v=>map.set(v.id, v));
+  oxfordPool.forEach(v=>{ if(!map.has(v.id)) map.set(v.id, v); });
+  sentencePool.forEach(v=>{ if(!map.has(v.id)) map.set(v.id, v); });
+  customVocab.forEach(v=>{ if(!map.has(v.id)) map.set(v.id, v); });
+  allIdioms=applyVocabEditsInline([...map.values()], vocabEdits);
+  idioms=allIdioms.filter(v=> !vocabHidden.has(v.id));
+  // ซิงค์ oxfordEnabled สำหรับ backward compat (เปิดตลอดเมื่อมี oxford)
+  if(oxfordPool.length) oxfordEnabled=true;
+}
+function saveVocabMeta(){
+  try{ localStorage.setItem('vocab_edits', JSON.stringify(vocabEdits)); }catch(e){ console.warn('save edits failed', e); }
+  try{ localStorage.setItem('vocab_hidden', JSON.stringify([...vocabHidden])); }catch(e){ console.warn('save hidden failed', e); }
+}
+function findVocab(id, includeHidden){
+  let pool=includeHidden? allIdioms : idioms;
+  return pool.find(x=>x.id===id) || allIdioms.find(x=>x.id===id);
+}
+function escHtml(s){
+  return String(s??'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function jsAttr(s){
+  return String(s??'').replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+}
+function shuffleInPlace(a){
+  for(let i=a.length-1;i>0;i--){ let j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  return a;
+}
+function pickDistractors(it, n){
+  let pool=idioms.filter(x=>x.id!==it.id && isInTrack(x));
+  let same=shuffleInPlace(pool.filter(x=>x.category===it.category));
+  let others=shuffleInPlace(pool.filter(x=>x.category!==it.category));
+  let picked=[...same.slice(0, Math.min(2,n)), ...others].slice(0,n);
+  if(picked.length<n) picked=[...picked, ...shuffleInPlace(pool.filter(x=>!picked.includes(x)))].slice(0,n);
+  return picked;
+}
+function interleaveByCategory(items){
+  if(items.length<3) return items.slice();
+  let byCat=new Map();
+  items.forEach(it=>{ let k=it.category||'general'; if(!byCat.has(k)) byCat.set(k,[]); byCat.get(k).push(it); });
+  let out=[], last='', last2='';
+  while(out.length<items.length){
+    let usable=[...byCat.entries()].filter(([,arr])=>arr.length);
+    let different=usable.filter(([c])=>c!==last && c!==last2);
+    let pool=different.length? different : usable.filter(([c])=>c!==last);
+    let pickFrom=pool.length? pool : usable;
+    let [cat, arr]=pickFrom[0];
+    out.push(arr.shift());
+    last2=last; last=cat;
+  }
+  return out;
+}
+const CLOZE_IRREGULAR={give:'give|gives|given|giving|gave',break:'break|breaks|breaking|broke|broken',grow:'grow|grows|growing|grew|grown',go:'go|goes|going|went|gone',sweep:'sweep|sweeps|sweeping|swept',keep:'keep|keeps|keeping|kept',fall:'fall|falls|falling|fell|fallen',drive:'drive|drives|driving|drove|driven',take:'take|takes|taking|took|taken',come:'come|comes|coming|came',get:'get|gets|getting|got|gotten',make:'make|makes|making|made',have:'have|has|having|had',do:'do|does|doing|did|done',leave:'leave|leaves|leaving|left',catch:'catch|catches|catching|caught',hit:'hit|hits|hitting',cut:'cut|cuts|cutting',put:'put|puts|putting',set:'set|sets|setting',let:'let|lets|letting',pay:'pay|pays|paying|paid',lose:'lose|loses|losing|lost',hold:'hold|holds|holding|held',stick:'stick|sticks|sticking|stuck'};
+function clozeEscRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
+function clozeVerbFlex(word){
+  let w=word.toLowerCase();
+  if(CLOZE_IRREGULAR[w]) return '(?:'+CLOZE_IRREGULAR[w]+')';
+  let stem=w.replace(/e$/i,'');
+  return '(?:'+[w,w+'s',w+'es',stem+'ed',stem+'ing',w+'ing',w+'ed'].map(clozeEscRe).join('|')+')';
+}
+function blankPhraseInSentence(phrase, sentence){
+  if(window.__IdiomMasterHardened && window.__IdiomMasterHardened.blankPhraseInSentence){
+    return window.__IdiomMasterHardened.blankPhraseInSentence(phrase, sentence);
+  }
+  if(!phrase||!sentence) return sentence||'____';
+  let clean=phrase.replace(/\s*\([^)]*\)\s*/g,' ').replace(/\s+/g,' ').trim();
+  let tryRe=pat=>{ try{ let re=new RegExp(pat,'i'); if(!re.test(sentence)) return null; return sentence.replace(re,'____'); }catch{ return null; } };
+  let exact=tryRe(clozeEscRe(clean)); if(exact) return exact;
+  let slot=/^(someone|somebody|something|somebody's|someone's|one's|it)$/i;
+  let det=/^(the|a|an)$/i;
+  let poss=/^(their|his|her|my|your|our|one's)$/i;
+  let words=clean.split(' ').filter(Boolean);
+  let pat=words.map((w,i)=>{
+    if(slot.test(w)) return '(?:\\S+(?:\\s+\\S+)?\\s+)?';
+    if(det.test(w)) return '(?:(?:the|a|an)\\s+)?';
+    if(poss.test(w)) return '(?:their|his|her|my|your|our|\\S+)';
+    if(i===0) return clozeVerbFlex(w);
+    return clozeEscRe(w);
+  }).join('\\s*');
+  let flexed=tryRe(pat); if(flexed) return flexed;
+  return '____ — '+sentence;
+}
+function bumpStreak(){
+  let todayStr=new Date().toDateString();
+  if(stats.lastStudyDate!==todayStr){
+    if(stats.lastStudyDate){
+      let diff=Math.floor((new Date(todayStr)-new Date(stats.lastStudyDate))/86400000);
+      if(diff===2 && (stats.streakFreezes||0)>0){
+        stats.streakFreezes--;
+        stats.streakFreezeUsedDate=todayStr;
+        showToast('❄️ Streak Freeze ปกป้องสตรีคของคุณจากการขาดเรียนเมื่อวานนี้!');
+      } else if(diff>1){
+        stats.streak=0;
+      }
+    }
+    stats.lastStudyDate=todayStr;
+    stats.streak=(stats.streak||0)+1;
+    stats.xpToday=0;
+    if(stats.streak % 7 === 0 && (stats.streakFreezes||0) < 2){
+      stats.streakFreezes = (stats.streakFreezes||0) + 1;
+      showToast('🎉 สตรีคครบ '+stats.streak+' วัน! ได้รับ ❄️ โล่ Streak Freeze สำรองเพิ่ม 1 อัน');
+    }
+  }
+  stats.level=getLevel(stats.xp);
+}
+function addXp(n){
+  stats.xp=(stats.xp||0)+n;
+  let today=new Date().toDateString();
+  if(stats.xpTodayDate!==today){ stats.xpToday=0; stats.xpTodayDate=today; }
+  stats.xpToday=(stats.xpToday||0)+n;
+  bumpStreak();
+  save();
+}
+function openVocabEditor(id){
+  let it=findVocab(id, true);
+  if(!it) return;
+  document.getElementById('vocabEditId').value=it.id;
+  document.getElementById('vocabEditTitle').textContent='แก้ไข “'+(it.phrase||it.lemma||id)+'”';
+  document.getElementById('vocabEditPhrase').value=it.phrase||it.lemma||'';
+  document.getElementById('vocabEditPhonetic').value=it.phonetic||'';
+  document.getElementById('vocabEditMnemonic').value=it.mnemonic||'';
+  document.getElementById('vocabEditMeaningTh').value=it.meaning_th||'';
+  document.getElementById('vocabEditMeaningEn').value=it.meaning_en||'';
+  document.getElementById('vocabEditLiteral').value=it.literal_th||'';
+  document.getElementById('vocabEditOrigin').value=it.origin||'';
+  let word=isWordItem(it);
+  ['vocabEditMnemonicWrap','vocabEditLiteralWrap','vocabEditOriginWrap'].forEach(id=>{
+    let el=document.getElementById(id); if(el) el.classList.toggle('hidden', word);
+  });
+  let help=document.getElementById('vocabEditHelp');
+  if(help) help.textContent= word
+    ? 'แก้คำ ความหมาย และสัทอักษรได้ — คำศัพท์ไม่ใช้ภาพจำ'
+    : 'แก้ความหมายหรือภาพจำได้ — คำที่รู้แล้วกดลบออกจากคลังได้';
+  document.getElementById('vocabEditOverlay').classList.remove('hidden');
+  setTimeout(()=>document.getElementById('vocabEditPhrase').focus(), 50);
+}
+function closeVocabEditor(){
+  document.getElementById('vocabEditOverlay').classList.add('hidden');
+}
+function saveVocabEditor(e){
+  if(e) e.preventDefault();
+  let id=document.getElementById('vocabEditId').value;
+  if(!id) return;
+  let phrase=document.getElementById('vocabEditPhrase').value.trim();
+  let meaning_th=document.getElementById('vocabEditMeaningTh').value.trim();
+  if(!phrase || !meaning_th){ alert('ต้องมีสำนวน/คำ และความหมายไทย'); return; }
+  let patch={
+    phrase,
+    lemma: phrase,
+    phonetic: document.getElementById('vocabEditPhonetic').value.trim(),
+    mnemonic: document.getElementById('vocabEditMnemonic').value.trim(),
+    meaning_th,
+    meaning_en: document.getElementById('vocabEditMeaningEn').value.trim(),
+    literal_th: document.getElementById('vocabEditLiteral').value.trim(),
+    origin: document.getElementById('vocabEditOrigin').value.trim()
+  };
+  vocabEdits[id]={ ...(vocabEdits[id]||{}), ...patch };
+  let ci=customVocab.findIndex(v=>v.id===id);
+  if(ci>=0) customVocab[ci]={...customVocab[ci], ...patch}; 
+  saveVocabMeta();
+  saveCustomVocab();
+  rebuildIdioms();
+  populateCategoryFilter();
+  closeVocabEditor();
+  renderAll();
+  if(learnPreItems.length){
+    learnPreItems=learnPreItems.map(p=>{
+      if(p.item.id===id) p.item=findVocab(id,true)||p.item;
+      return p;
+    });
+    renderOxfordPreScreen();
+  } else if(learnQueue.some(x=>x.id===id)) renderLearn();
+}
+function deleteVocab(id){
+  let it=findVocab(id, true);
+  if(!it) return;
+  let label=it.phrase||it.lemma||id;
+  if(!confirm('ลบ “'+label+'” ออกจากคลัง?\nจะไม่ถูกสุ่มมาเรียนอีก (กู้คืนได้ที่ตัวกรอง “ที่ลบแล้ว”)')) return;
+  vocabHidden.add(id);
+  saveVocabMeta();
+  learnQueue=learnQueue.filter(x=>x.id!==id);
+  if(learnIdx>=learnQueue.length) learnIdx=Math.max(0, learnQueue.length-1);
+  rebuildIdioms();
+  if(typeof learnPreItems!=='undefined' && learnPreItems.length){
+    learnPreItems=learnPreItems.filter(p=>p.item.id!==id);
+    let pool=idioms.filter(i=> isInTrack(i) && (!progress[i.id] || progress[i.id].state==='new') && !learnPreItems.some(p=>p.item.id===i.id));
+    if(pool.length && learnPreItems.length < settings.dailyNew){
+      for(let i=pool.length-1;i>0;i--){ let j=Math.floor(Math.random()*(i+1)); [pool[i],pool[j]]=[pool[j],pool[i]]; }
+      learnPreItems.push({item:pool[0], status:'learn', known:false});
+    }
+    document.getElementById('learnTotal').textContent=learnPreItems.length;
+  }
+  populateCategoryFilter();
+  renderAll();
+  if(typeof learnPreItems!=='undefined' && learnPreItems.length) renderOxfordPreScreen();
+  else if(learnQueue.length) renderLearn();
+}
+function restoreVocab(id){
+  vocabHidden.delete(id);
+  saveVocabMeta();
+  rebuildIdioms();
+  populateCategoryFilter();
+  renderAll();
+}
+function toggleOxford(on){
+  oxfordEnabled=!!on;
+  localStorage.setItem('oxford_enabled', oxfordEnabled?'1':'0');
+  // เดิม toggle ควบคุมรวม — ตอนนี้ rebuild รวมหมดแล้ว แค่รีเฟรช UI
+  rebuildIdioms();
+  populateCategoryFilter();
+  renderAll();
+  let st=document.getElementById('oxfordStatus');
+  if(st) st.textContent= `รวม ${baseIdioms.length} สำนวน + ${oxfordPool.length} Oxford + ${customVocab.length} นำเข้า = ${idioms.length} รายการ`;
+  let cb=document.getElementById('toggleOxford');
+  if(cb) cb.checked=oxfordEnabled;
+}
+function isInTrack(item){
+  if(studyTrack==='both') return true;
+  if(studyTrack==='idiom') return (item.kind||'idiom')==='idiom';
+  if(studyTrack==='oxford') return (item.kind==='word');
+  if(studyTrack==='sentence') return (item.kind==='sentence');
+  return true;
+}
+function setTrack(track){
+  studyTrack=track;
+  localStorage.setItem('study_track', studyTrack);
+  // เคลียร์คิวเรียน/พรีวิวค้างจากสายเดิม เพื่อไม่ให้ของเก่าปนมา
+  learnQueue=[]; learnIdx=0; learnPreItems=[];
+  // ถ้าเลือก oxford ให้แน่ใจว่า oxford โหลดอยู่
+  if(track==='oxford' && !oxfordPool.length && window.__OXFORD__) { oxfordPool=window.__OXFORD__; rebuildIdioms(); }
+  if(track==='sentence' && !sentencePool.length && window.__SENTENCES__) { sentencePool=window.__SENTENCES__; rebuildIdioms(); }
+  updateTrackUI();
+  renderAll();
+}
+function updateTrackUI(){
+  document.querySelectorAll('.track-btn').forEach(b=>{
+    b.classList.remove('bg-indigo-600','text-white','border-indigo-600');
+    b.classList.add('bg-white','border-slate-200');
+    // reset inner text colors to default
+    b.querySelectorAll('.track-title').forEach(el=>{ el.classList.remove('text-white'); el.classList.add('text-ink'); });
+    b.querySelectorAll('.track-sub').forEach(el=>{ el.classList.remove('text-white/80'); el.classList.add('text-muted'); });
+  });
+  let active=document.getElementById(trackIdForStudyTrack());
+  if(active){
+    active.classList.add('bg-indigo-600','text-white','border-indigo-600');
+    active.classList.remove('bg-white','border-slate-200');
+    active.querySelectorAll('.track-title').forEach(el=>{ el.classList.add('text-white'); el.classList.remove('text-ink'); });
+    active.querySelectorAll('.track-sub').forEach(el=>{ el.classList.add('text-white/80'); el.classList.remove('text-muted'); });
+  }
+  ['idiom','oxford','sentence','both'].forEach(t=>{
+    let el=document.getElementById('track'+t.charAt(0).toUpperCase()+t.slice(1)+'Count');
+    if(el) el.innerHTML=countForTrack(t);
+  });
+}
+function trackIdForStudyTrack(){ return studyTrack==='idiom'?'trackIdiom': studyTrack==='oxford'?'trackOxford': studyTrack==='sentence'?'trackSentence':'trackBoth'; }
+function countForTrack(track){
+  let pool=idioms.filter(i=> track==='both'? true : track==='idiom' ? (i.kind||'idiom')==='idiom' : track==='sentence' ? i.kind==='sentence' : i.kind==='word');
+  let due=pool.filter(i=>{ let p=progress[i.id]; return p && p.state!=='new' && p.state!=='known' && p.due<=Date.now(); }).length;
+  let nw=pool.filter(i=> !progress[i.id] || progress[i.id].state==='new').length;
+  return `${due} ทบทวน<br>${nw} ใหม่`;
+}
+function markAsKnown(id){
+  let p=ensureProgress(id);
+  if(p.state==='known'){ // undo
+    p.state='new'; p.stability=0; p.due=0; p.reps=0; p.lapses=0;
+    save(); renderAll();
+    let it=idioms.find(x=>x.id===id);
+    showToast(`ยกเลิก "รู้แล้ว" สำหรับ ${it?it.phrase:id} — กลับมาเรียนได้`);
+    return;
+  }
+  p.state='known'; p.stability=365; p.due=Date.now()+365*86400_000; p.reps++; p.last=Date.now();
+  save(); renderAll();
+}
+function bulkMarkKnownFiltered(){
+  let q=document.getElementById('searchInput').value.toLowerCase();
+  let cat=document.getElementById('filterCategory').value;
+  let kind=document.getElementById('filterKind')?.value || '';
+  let level=document.getElementById('filterLevel')?.value || '';
+  let filtered=idioms.filter(i=>{
+    if(q && !(i.phrase.toLowerCase().includes(q) || i.meaning_th.includes(q))) return false;
+    if(cat && i.category!==cat) return false;
+    if(kind && (i.kind||'idiom')!==kind) return false;
+    if(level && i.level!==level) return false;
+    if(!isInTrack(i)) return false;
+    return true;
+  });
+  if(!filtered.length) return showToast('ไม่มีรายการที่กรองอยู่');
+  if(!confirm(`ทำ "รู้แล้ว" ให้ ${filtered.length} รายการที่กรองอยู่? (Oxford กดรู้แล้วจะไม่ต้องเรียนอีก)`)) return;
+  filtered.forEach(i=>{ let p=ensureProgress(i.id); p.state='known'; p.stability=365; p.due=Date.now()+365*86400_000; });
+  save(); renderAll();
+  showToast(`ทำ "รู้แล้ว" ${filtered.length} รายการแล้ว`);
+}
+function saveCustomVocab(){
+  try{ localStorage.setItem('vocab_custom', JSON.stringify(customVocab)); }catch(e){ console.warn('saveCustom failed',e); }
+  // sync to IDB via src/main if available
+  if(window.__IdiomMasterHardened) try{ localStorage.setItem('vocab_custom', JSON.stringify(customVocab)); }catch{}
+}
+function handleImportFile(e){
+  let file=e.target.files[0]; if(!file) return;
+  let reader=new FileReader();
+  reader.onload=()=>{
+    let text=reader.result;
+    let result;
+    try{
+      if(file.name.endsWith('.csv')) result=parseCsvImportInline(text);
+      else result=parseJsonImportInline(text);
+    }catch(err){ showImportFeedback('ไฟล์ผิดรูปแบบ: '+err.message, false); return; }
+    let merged=mergeVocabInline(customVocab, result.valid);
+    let added=merged.added;
+    customVocab=merged.merged;
+    saveCustomVocab();
+    rebuildIdioms(); populateCategoryFilter(); renderAll();
+    let msg=`นำเข้า ${result.valid.length} รายการ — เพิ่มใหม่ ${added} ข้ามซ้ำ ${merged.skipped}` + (result.errors.length? ` • ผิด ${result.errors.length} รายการ`: '') + (result.duplicates.length? ` • ซ้ำในไฟล์ ${result.duplicates.length}`:'');
+    showImportFeedback(msg + (result.errors.length? `<br><span class='text-red-600'>${result.errors.slice(0,3).join('<br>')}</span>` : ''), result.errors.length===0);
+    e.target.value='';
+  };
+  reader.readAsText(file);
+}
+function showImportFeedback(msg, ok){
+  let el=document.getElementById('importFeedback');
+  if(!el) return;
+  el.classList.remove('hidden');
+  el.className='mt-2 p-2 rounded-xl text-xs '+(ok?'bg-emerald-50 border border-emerald-200 text-emerald-700':'bg-red-50 border border-red-200 text-red-700');
+  el.innerHTML=msg;
+  setTimeout(()=>el.classList.add('hidden'), 6000);
+}
+function exportCustomVocab(){
+  if(!customVocab.length){ showToast('ยังไม่มีคำที่นำเข้า'); return; }
+  let blob=new Blob([JSON.stringify(customVocab,null,2)],{type:'application/json'});
+  let a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='custom-vocab.json'; a.click();
+}
+function clearCustomVocab(){
+  if(!customVocab.length){ showToast('ไม่มีคำนำเข้าให้ล้าง'); return; }
+  if(!confirm(`ล้างคำนำเข้า ${customVocab.length} รายการ?`)) return;
+  customVocab=[]; saveCustomVocab(); rebuildIdioms(); populateCategoryFilter(); renderAll();
+  showImportFeedback('ล้างคำนำเข้าแล้ว', true);
+}
+// inline parsers (เสาเข็ม: ไม่พึ่ง bundler ก็ทำงาน file:// ได้)
+function slugId(s){ return s.toLowerCase().trim().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'') || 'custom_'+Date.now(); }
+function validateWordInline(raw, lineNo){
+  let prefix= lineNo? `บรรทัด ${lineNo}: ` : '';
+  let lemma=String(raw.lemma ?? raw.phrase ?? raw.word ?? '').trim();
+  if(!lemma) return {error: `${prefix}ต้องมี lemma/phrase`};
+  let meaning_th=String(raw.meaning_th ?? raw.th ?? '').trim();
+  let meaning_en=String(raw.meaning_en ?? raw.en ?? raw.definition_en ?? '').trim();
+  if(!meaning_th && !meaning_en) return {error: `${prefix}${lemma}: ต้องมี meaning_th หรือ meaning_en`};
+  let level=String(raw.level ?? 'B1').toUpperCase();
+  let allowed=['A1','A2','B1','B2','C1','C2'];
+  if(raw.level && !allowed.includes(level)) return {error: `${prefix}${lemma}: level ต้องเป็น ${allowed.join('/')}`};
+  let pos=String(raw.pos ?? 'other').toLowerCase();
+  let id=String(raw.id ?? 'custom_'+slugId(lemma)).trim();
+  let examples=[];
+  if(Array.isArray(raw.examples)) examples=raw.examples.slice(0,3).map(e=> typeof e==='string'? {en:e,th:'',context:'custom'} : {en:String(e.en??''),th:String(e.th??''),context:String(e.context??'custom')}).filter(e=>e.en);
+  else if(typeof raw.example_en==='string' && raw.example_en) examples=[{en:String(raw.example_en), th:String(raw.example_th??''), context:'custom'}];
+  if(!examples.length) examples=[{en:`Example with ${lemma}.`, th:`ตัวอย่าง ${lemma}`, context:'custom'}];
+  let item={id:id||'custom_'+slugId(lemma), kind:'word', lemma, phrase:lemma, pos:(['noun','verb','adjective','adverb','phrasal verb','idiom','other'].includes(pos)?pos:'other'), level:(allowed.includes(level)?level:'B1'), phonetic:String(raw.phonetic??''), meaning_th: meaning_th||meaning_en, meaning_en: meaning_en||meaning_th, category:'general', category_th:String(raw.category_th??'นำเข้าเอง'), difficulty: Number(raw.difficulty?? (level==='A1'||level==='A2'?1: level==='B1'?2:3)), frequency: Number(raw.frequency??4), examples, synonyms: Array.isArray(raw.synonyms)? raw.synonyms:[], mnemonic:String(raw.mnemonic??'')};
+  return {item};
+}
+function parseJsonImportInline(text){
+  let errors=[], valid=[], duplicates=[], seen=new Set();
+  let arr; try{ arr=JSON.parse(text);}catch(e){ return {valid:[], errors:['JSON ไม่ถูกต้อง: '+e.message], duplicates:[]}; }
+  let list=Array.isArray(arr)? arr:[arr];
+  list.forEach((raw,idx)=>{
+    if(typeof raw!=='object'||!raw){ errors.push(`รายการ ${idx+1}: ไม่ใช่ object`); return; }
+    let r=raw;
+    if(r.phrase && r.meaning_th && !r.lemma){ let id=String(r.id ?? slugId(String(r.phrase))); if(seen.has(id)) duplicates.push(id); else {seen.add(id); valid.push({...r, id, kind: r.kind??'idiom'});} return; }
+    let {item,error}=validateWordInline(r, idx+1);
+    if(error) errors.push(error); else if(item){ if(seen.has(item.id)) duplicates.push(item.id); else {seen.add(item.id); valid.push(item);} }
+  });
+  return {valid, errors, duplicates};
+}
+function splitCsvInline(line){
+  let out=[], cur='', inQ=false;
+  for(let i=0;i<line.length;i++){ let ch=line[i]; if(ch==='"'){ if(inQ && line[i+1]==='"'){cur+='"'; i++;} else inQ=!inQ; } else if(ch===',' && !inQ){ out.push(cur); cur=''; } else cur+=ch; }
+  out.push(cur); return out.map(s=>s.trim().replace(/^\"|\"$/g,''));
+}
+function parseCsvImportInline(text){
+  let errors=[], valid=[], duplicates=[], seen=new Set();
+  let lines=text.split(/\r?\n/).filter(l=>l.trim());
+  if(!lines.length) return {valid:[], errors:['ไฟล์ว่าง'], duplicates:[]};
+  let header=lines[0].split(',').map(s=>s.trim().toLowerCase());
+  let hasHeader= header.includes('lemma')||header.includes('phrase')||header.includes('word');
+  let dataLines= hasHeader? lines.slice(1): lines;
+  let cols= hasHeader? header : ['lemma','meaning_th','meaning_en','pos','level','example_en','example_th'];
+  dataLines.forEach((line,idx)=>{
+    let lineNo= idx + (hasHeader?2:1);
+    let fields=splitCsvInline(line);
+    let raw={}; cols.forEach((c,i)=> raw[c]=fields[i]?.trim());
+    if(raw.word && !raw.lemma) raw.lemma=raw.word;
+    let {item,error}=validateWordInline(raw, lineNo);
+    if(error) errors.push(error); else if(item){ if(seen.has(item.id)) duplicates.push(item.id); else {seen.add(item.id); valid.push(item);} }
+  });
+  return {valid, errors, duplicates};
+}
+function mergeVocabInline(existing, incoming){
+  let map=new Map(existing.map(v=>[v.id,v])); let added=0, skipped=0;
+  for(let it of incoming){ if(map.has(it.id)) skipped++; else {map.set(it.id,it); added++;} }
+  return {merged:[...map.values()], added, skipped};
+}
+function filterByKindAndLevelInline(items, kind, level){
+  return items.filter(v=>{ if(kind && (v.kind??'idiom')!==kind) return false; if(level && v.level!==level) return false; return true; });
+}
+function populateCategoryFilter(){
+  let sel=document.getElementById('filterCategory');
+  if(!sel || !idioms.length) return;
+  let cats={};
+  idioms.forEach(x=>{ let k=x.category; if(!cats[k]) cats[k]=x.category_th||k; });
+  let cur=sel.value;
+  sel.innerHTML='<option value=\"\">ทุกหมวด</option>' + Object.entries(cats).map(([k,label])=>`<option value=\"${k}\">${label} (${idioms.filter(x=>x.category===k).length})</option>`).join('');
+  sel.value=cur;
+}
+function isDailyLessonActive(){
+  let today=new Date().toDateString();
+  return dailyLessonIds.length>0 && dailyLessonDate===today && Object.values(dailyGameProgress).some(v=>!v);
+}
+function isDailyLessonFinished(){
+  let today=new Date().toDateString();
+  return dailyLessonIds.length>0 && dailyLessonDate===today && Object.values(dailyGameProgress).every(v=>v);
+}
+function getDailyPool(){
+  if(!isDailyLessonActive()) return null;
+  let pool=idioms.filter(x=> dailyLessonIds.includes(x.id));
+  return pool.length? pool : null;
+}
+function saveDaily(){
+  localStorage.setItem('daily_lesson_ids', JSON.stringify(dailyLessonIds));
+  localStorage.setItem('daily_lesson_date', dailyLessonDate);
+  localStorage.setItem('daily_game_progress', JSON.stringify(dailyGameProgress));
+  localStorage.setItem('daily_cloze_done', JSON.stringify([...dailyClozeDone]));
+  localStorage.setItem('daily_scenario_done', JSON.stringify([...dailyScenarioDone]));
+  localStorage.setItem('daily_builder_done', JSON.stringify([...dailyBuilderDone]));
+  localStorage.setItem('daily_th2en_done', JSON.stringify([...dailyTh2enDone]));
+}
+function renderDailyLesson(){
+  let card=document.getElementById('dailyLessonCard');
+  let banner=document.getElementById('dailyPracticeBanner');
+  let picker=document.getElementById('practiceGamePicker');
+  if(!card) return;
+  let dailyOn=isDailyLessonActive();
+  let dailyDone=isDailyLessonFinished();
+  if(!dailyOn){
+    if(banner) banner.classList.add('hidden');
+    if(picker) picker.classList.remove('hidden');
+    if(dailyDone){
+      let pool=idioms.filter(x=> dailyLessonIds.includes(x.id));
+      card.classList.remove('hidden');
+      card.className='bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl p-5 text-white relative overflow-hidden';
+      card.innerHTML=`<div class="absolute -right-8 -top-8 w-32 h-32 bg-white/10 rounded-full"></div>
+        <div class="relative text-center sm:text-left">
+          <h3 class="font-semibold text-lg">เรียนครบแล้ว</h3>
+          <p class="text-sm text-white/85 mt-1">ฝึกครบ 4 ด่านของวันนี้แล้ว พักได้เลย กลับมาพรุ่งนี้ชุดใหม่</p>
+          <div class="flex flex-wrap gap-1.5 mt-3">${pool.map(it=>`<span class="text-sm bg-white/20 border border-white/30 px-2.5 py-1.5 rounded-full">${escHtml(it.phrase)}</span>`).join('')}</div>
+        </div>`;
+      return;
+    }
+    card.classList.add('hidden');
+    return;
+  }
+  // ถ้าเคยเรนเดอร์สถานะจบ ให้คืนโครงการ์ดเดิม
+  if(!card.querySelector('#dailyLessonWords')){
+    card.className='bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl p-5 text-white relative overflow-hidden';
+    card.innerHTML=`<div class="absolute -right-8 -top-8 w-32 h-32 bg-white/10 rounded-full"></div>
+      <div class="relative">
+        <h3 class="font-semibold text-lg">บทเรียนวันนี้ — ฝึก 4 เกมให้ครบ</h3>
+        <div id="dailyLessonWords" class="flex flex-wrap gap-1.5 mt-3"></div>
+        <div class="grid grid-cols-4 gap-2 mt-3 text-center text-xs" id="dailyGameGrid"></div>
+        <div class="mt-3 flex items-center gap-2">
+          <button onclick="switchTab('practice')" class="flex-1 bg-white text-emerald-600 font-semibold py-3 rounded-xl min-h-12">ไปฝึกต่อ</button>
+          <span id="dailyProgressText" class="text-sm bg-white/20 px-3 py-3 rounded-full">0/4 เกม</span>
+        </div>
+      </div>`;
+  }
+  card.classList.remove('hidden');
+  if(banner) banner.classList.remove('hidden');
+  if(picker) picker.classList.add('hidden');
+  let pool=getDailyPool()||[];
+  let w1=document.getElementById('dailyLessonWords');
+  let w2=document.getElementById('dailyBannerWords');
+  if(w1) w1.innerHTML=pool.map(it=>`<span class="text-sm bg-white/20 border border-white/30 px-2.5 py-1.5 rounded-full">${escHtml(it.phrase)}</span>`).join('');
+  if(w2) w2.innerHTML=pool.map(it=>`<span class="text-xs bg-white border border-emerald-200 text-emerald-800 px-2 py-0.5 rounded-full">${escHtml(it.phrase)}</span>`).join('');
+  let games=['match','cloze','scenario','builder'];
+  let labels={cloze:'เติมคำ',scenario:'สถานการณ์',match:'จับคู่',builder:'เรียงคำ'};
+  let progHtml=games.map(g=>`<div class="rounded-xl p-2.5 ${dailyGameProgress[g]?'bg-white text-emerald-600':'bg-white/20 text-white/80'}"><div class="text-base">${dailyGameProgress[g]?'✓':'○'}</div><div class="font-medium text-sm">${labels[g]}</div></div>`).join('');
+  let bannerHtml=games.map(g=>{
+    let done=!!dailyGameProgress[g];
+    let on=currentMode===g;
+    return `<button type="button" onclick="startPractice('${g}')" class="rounded-xl px-1 py-2 min-h-11 text-sm font-medium ${done?'bg-emerald-600 text-white': on?'bg-emerald-700 text-white':'bg-white border border-emerald-200 text-emerald-800'}">${done?'✓ ':''}${labels[g]}</button>`;
+  }).join('');
+  let g1=document.getElementById('dailyGameGrid');
+  let g2=document.getElementById('dailyBannerGrid');
+  if(g1) g1.innerHTML=progHtml;
+  if(g2) g2.innerHTML=bannerHtml;
+  let doneN=Object.values(dailyGameProgress).filter(v=>v).length;
+  let txt=`${doneN}/4`;
+  let t1=document.getElementById('dailyProgressText');
+  let t2=document.getElementById('dailyBannerProgress');
+  if(t1) t1.textContent=doneN+'/4 เกม';
+  if(t2) t2.textContent=txt;
+  updatePracticeLocks();
+}
+let lessonCompleteTimer=null;
+function goHomeNow(){
+  if(lessonCompleteTimer){ clearTimeout(lessonCompleteTimer); lessonCompleteTimer=null; }
+  let ov=document.getElementById('lessonCompleteOverlay');
+  if(ov) ov.classList.add('hidden');
+  currentMode=null;
+  clearInterval(matchTimer);
+  switchTab('today');
+  renderAll();
+}
+function goReviewNow(){
+  if(lessonCompleteTimer){ clearTimeout(lessonCompleteTimer); lessonCompleteTimer=null; }
+  let ov=document.getElementById('lessonCompleteOverlay');
+  if(ov) ov.classList.add('hidden');
+  currentMode=null;
+  clearInterval(matchTimer);
+  dailyLessonIds.forEach(id=>{
+    let p=progress[id];
+    if(p && p.due>Date.now()) p.due=Date.now();
+  });
+  save();
+  reviewQueue=[]; reviewIdx=0;
+  switchTab('review');
+}
+function showLessonCompleteAndGoHome(){
+  if(showLessonCompleteAndGoHome._doneDate===dailyLessonDate){
+    goHomeNow();
+    return;
+  }
+  showLessonCompleteAndGoHome._doneDate=dailyLessonDate;
+  addXp(50);
+  currentMode=null;
+  clearInterval(matchTimer);
+  let ov=document.getElementById('lessonCompleteOverlay');
+  if(ov) ov.classList.remove('hidden');
+  let dueNow=dailyLessonIds.some(id=> progress[id] && progress[id].due<=Date.now()+15*60000);
+  let msg=document.getElementById('lessonCompleteMsg');
+  if(msg) msg.innerHTML= dueNow
+    ? 'ฝึกครบแล้ว — ไปทบทวน 5 คำนี้เลยตอนนี้ จะจำแม่นขึ้นมาก (retrieval ครั้งแรก)'
+    : 'ฝึกครบแล้ว อีก ~10 นาทีกลับมาทบทวนคำเหล่านี้ ช่วงกำลังจะลืมคือจังหวะที่ดีที่สุด';
+  let area=document.getElementById('practiceArea');
+  if(area) area.innerHTML=`<div class="text-4xl">🎉</div><div class="font-semibold mt-2 text-lg">เรียนครบแล้ว</div><div class="text-sm text-muted">${dueNow?'ไปทบทวนเลย':'อีก ~10 นาทีค่อยทบทวน'}</div>`;
+  if(lessonCompleteTimer) clearTimeout(lessonCompleteTimer);
+  lessonCompleteTimer=setTimeout(dueNow? goReviewNow : goHomeNow, dueNow? 2800 : 2200);
+}
+function markDailyGameComplete(game){
+  if(!isDailyLessonActive()) return;
+  if(dailyGameProgress[game]) return;
+  dailyGameProgress[game]=true;
+  saveDaily();
+  renderDailyLesson();
+  let done=Object.values(dailyGameProgress).filter(v=>v).length;
+  if(done===4){
+    setTimeout(showLessonCompleteAndGoHome, 400);
+  } else {
+    let order=['match','cloze','scenario','builder'];
+    let idx=order.indexOf(game);
+    for(let i=idx+1;i<order.length;i++){
+      let nxt=order[i];
+      if(!dailyGameProgress[nxt]){
+        setTimeout(()=> startPractice(nxt), 900);
+        break;
+      }
+    }
+  }
+}
+async function init(){
+  // 1) โหลด base idioms (file:// ใช้ window.__IDIOMS__ ก่อน)
+  if(window.__IDIOMS__ && window.__IDIOMS__.length){
+    baseIdioms = window.__IDIOMS__;
+  } else {
+    try{ baseIdioms = await (await fetch('data/idioms.json?v=2.4')).json(); }
+    catch(e){
+      if(window.__IDIOMS__ && window.__IDIOMS__.length) baseIdioms = window.__IDIOMS__;
+      else baseIdioms = safeLsJson('idioms_fallback', []);
+    }
+  }
+  if(!baseIdioms.length) { idiotFallback(); baseIdioms=[...idioms]; }
+  // 1b) โหลด Oxford 3000 (file:// ใช้ window.__OXFORD__)
+  if(window.__OXFORD__ && window.__OXFORD__.length){
+    oxfordPool = window.__OXFORD__;
+  } else {
+    try{ let ox=await (await fetch('data/oxford3000.json?v=2.4')).json(); if(Array.isArray(ox)) oxfordPool=ox; }catch(e){ console.log('[Oxford] fetch fail, use fallback', e); }
+  }
+  // 1c) โหลด 1,000 ประโยคใช้บ่อย
+  if(window.__SENTENCES__ && window.__SENTENCES__.length){
+    sentencePool = window.__SENTENCES__;
+  } else {
+    try{ let se=await (await fetch('data/sentences.json?v=2.4')).json(); if(Array.isArray(se)) sentencePool=se; }catch(e){ console.log('[Sentences] fetch fail, use fallback', e); }
+  }
+  // รวม
+  rebuildIdioms();
+  try{ localStorage.setItem('idioms_fallback', JSON.stringify(baseIdioms)); }catch(e){}
+  console.log('[IdiomMaster] loaded', baseIdioms.length, 'idioms +', oxfordPool.length, 'oxford +', sentencePool.length, 'sentences +', customVocab.length, 'custom =', idioms.length);
+  let _params=new URLSearchParams(location.search);
+  if(['idiom','oxford','sentence','both'].includes(_params.get('track'))) { studyTrack=_params.get('track'); localStorage.setItem('study_track', studyTrack); }
+  document.getElementById('dailyNew').value = settings.dailyNew;
+  document.getElementById('dailyReview').value = settings.dailyReview;
+  updateStreak();
+  applyTheme();
+  if(window.matchMedia) window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
+  populateCategoryFilter();
+  renderAll();
+  if(settings.dailyReminder) scheduleLocalReminder();
+  if(!localStorage.getItem('onboarded_v1')) setTimeout(openOnboarding, 600);
+  let _oxCb=document.getElementById('toggleOxford'); if(_oxCb) _oxCb.checked=oxfordEnabled;
+  document.addEventListener('keydown', handleKeys);
+  document.getElementById('footerLoaded').textContent = `โหลดแล้ว ${idioms.length} รายการ`;
+  let _catCount=new Set(idioms.map(x=>x.category)).size;
+  let _nav=document.getElementById('navBadge');
+  if(_nav) _nav.textContent=`${idioms.length} items • ${_catCount} หมวด${oxfordEnabled?' • Oxford ON':''}`;
+  // แจ้งถ้าโหลดน้อยผิดปกติ
+  if(idioms.length===1){
+    console.warn('โหลดได้ 1 ตัวเท่านั้น — ตรวจสอบ data/idioms.js');
+    showToast('โหลดได้แค่ 1 รายการ — เปิดแบบ file:// แล้ว fetch ถูกบล็อก กรุณา Hard Refresh (Ctrl+F5)');
+  }
+}
+function idiotFallback(){
+  if(window.__IDIOMS__ && window.__IDIOMS__.length){ idioms = window.__IDIOMS__; return; }
+  idioms = [{id:"break_the_ice",phrase:"break the ice",phonetic:"",meaning_th:"ทำลายความเงียบ",meaning_en:"initiate conversation",literal_th:"ทุบน้ำแข็ง",origin:"icebreaker",mnemonic:"ทุบน้ำแข็งกลางงาน",category:"social",difficulty:1,frequency:5,examples:[{en:"I told a joke to break the ice.",th:"เล่นมุกทำลายความเงียบ",context:"casual"}],synonyms:[]}];
+}
+
+function save(){
+  try{
+    localStorage.setItem('idiom_progress', JSON.stringify(progress));
+    localStorage.setItem('idiom_history', JSON.stringify(history));
+    localStorage.setItem('idiom_stats', JSON.stringify(stats));
+    localStorage.setItem('idiom_settings', JSON.stringify(settings));
+  }catch(e){ console.warn('[IdiomMaster] save failed', e); }
+}
+function saveSettings(){
+  settings.dailyNew = parseInt(document.getElementById('dailyNew').value);
+  settings.dailyReview = parseInt(document.getElementById('dailyReview').value);
+  save(); renderToday();
+}
+
+// ===== Theme (dark mode) =====
+let themePref = localStorage.getItem('theme_pref') || 'auto';
+let speechRate = parseFloat(localStorage.getItem('speech_rate')) || 0.9;
+function applyTheme(){
+  let dark = themePref==='dark' || (themePref==='auto' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  document.documentElement.classList.toggle('dark', dark);
+  let btn=document.getElementById('themeBtn');
+  if(btn) btn.innerHTML = dark? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+  document.querySelectorAll('.theme-opt').forEach(el=>{
+    el.classList.toggle('bg-indigo-600', el.dataset.themeOpt===themePref);
+    el.classList.toggle('text-white', el.dataset.themeOpt===themePref);
+    el.classList.toggle('border-indigo-600', el.dataset.themeOpt===themePref);
+    el.classList.toggle('border-slate-200', el.dataset.themeOpt!==themePref);
+  });
+}
+function toggleTheme(){
+  themePref = document.documentElement.classList.contains('dark') ? 'light' : 'dark';
+  localStorage.setItem('theme_pref', themePref);
+  applyTheme();
+}
+function setThemePref(v){
+  themePref=v; localStorage.setItem('theme_pref', themePref); applyTheme();
+}
+// ===== Settings modal =====
+function openSettings(){
+  document.getElementById('setDailyNew').value=settings.dailyNew;
+  document.getElementById('setDailyReview').value=settings.dailyReview;
+  document.getElementById('setSpeechRate').value=speechRate;
+  document.getElementById('speechRateVal').textContent=speechRate.toFixed(1)+'x';
+  document.getElementById('setAutoGrade').checked=settings.autoGrade!==false;
+  let remCb=document.getElementById('setDailyReminder');
+  if(remCb) remCb.checked=!!settings.dailyReminder;
+  applyTheme();
+  document.getElementById('settingsOverlay').classList.remove('hidden');
+}
+function closeSettings(){
+  document.getElementById('settingsOverlay').classList.add('hidden');
+}
+// ===== Onboarding (first run) =====
+function openOnboarding(){
+  document.getElementById('onboardingOverlay').classList.remove('hidden');
+}
+function closeOnboarding(){
+  localStorage.setItem('onboarded_v1','1');
+  document.getElementById('onboardingOverlay').classList.add('hidden');
+}
+function saveSettingsForm(e){
+  if(e) e.preventDefault();
+  settings.dailyNew=parseInt(document.getElementById('setDailyNew').value);
+  settings.dailyReview=parseInt(document.getElementById('setDailyReview').value);
+  settings.autoGrade=document.getElementById('setAutoGrade').checked;
+  let remCb=document.getElementById('setDailyReminder');
+  if(remCb) settings.dailyReminder=remCb.checked;
+  document.getElementById('dailyNew').value=settings.dailyNew;
+  document.getElementById('dailyReview').value=settings.dailyReview;
+  speechRate=parseFloat(document.getElementById('setSpeechRate').value)||0.9;
+  localStorage.setItem('speech_rate', String(speechRate));
+  document.getElementById('speechRateVal').textContent=speechRate.toFixed(1)+'x';
+  save();
+  renderToday();
+  closeSettings();
+}
+
+// SRS FSRS-lite
+function ensureProgress(id){
+  if(!progress[id]) progress[id]={stability:0,difficulty:5,due:0,reps:0,lapses:0,state:'new',last:0};
+  return progress[id];
+}
+function isLearningState(state){ return state==='new' || state==='learning' || state==='relearning'; }
+function formatDuration(ms){
+  let abs=Math.max(0, ms);
+  if(abs<90000) return Math.max(1, Math.round(abs/60000))+' นาที';
+  if(abs<3600000) return Math.round(abs/60000)+' นาที';
+  if(abs<86400000) return (Math.round(abs/3600000*10)/10)+' ชม.';
+  return (Math.round(abs/86400000*10)/10)+' วัน';
+}
+function computeGrade(p, g, now){
+  now = now || Date.now();
+  let next={...p};
+  if(isLearningState(next.state)){
+    if(g===1){
+      if(next.state!=='new') next.lapses++;
+      next.stability=Math.max(0.2, (next.stability||0.3)*0.5);
+      next.due=now+60000;
+      next.state= next.state==='new' ? 'learning' : 'relearning';
+    } else if(g===2){
+      next.stability=Math.max(0.5, next.stability||0.5);
+      next.due=now+10*60000;
+      next.state= next.state==='relearning' ? 'relearning' : 'learning';
+    } else if(g===3){
+      next.stability=Math.max(1, next.stability||1);
+      next.due=now+86400000;
+      next.state='review';
+      next.difficulty=Math.max(1, next.difficulty-0.1);
+    } else {
+      next.stability=Math.max(3, next.stability||3);
+      next.due=now+3*86400000;
+      next.state='review';
+      next.difficulty=Math.max(1, next.difficulty-0.2);
+    }
+  } else {
+    let s=Math.max(0.3, next.stability||0.3);
+    if(g===1){
+      next.lapses++;
+      next.stability=Math.max(0.3, s*0.5);
+      next.difficulty=Math.min(10, next.difficulty+0.3);
+      next.due=now+10*60000;
+      next.state='relearning';
+    } else if(g===2){
+      next.due=now+s*0.5*86400000;
+      next.stability=s*1.2;
+      next.difficulty=Math.min(10, next.difficulty+0.1);
+      next.state='review';
+    } else if(g===3){
+      next.due=now+s*86400000;
+      next.stability=s*2.5;
+      next.difficulty=Math.max(1, next.difficulty-0.1);
+      next.state='review';
+    } else {
+      next.due=now+s*1.3*86400000;
+      next.stability=s*3.5;
+      next.difficulty=Math.max(1, next.difficulty-0.2);
+      next.state='review';
+    }
+  }
+  next.reps++; next.last=now;
+  return next;
+}
+function gradeCard(id, g){
+  let p = ensureProgress(id);
+  let now = Date.now();
+  Object.assign(p, computeGrade(p, g, now));
+  let xpGain = g===1?2:g===2?5:g===3?7:10;
+  addXp(xpGain);
+  history.push({id,grade:g,time:now,correct:reviewAnsweredOk});
+  save();
+}
+
+function getDue(){
+  let now=Date.now();
+  return idioms.filter(i=>{ if(!isInTrack(i)) return false; let p=progress[i.id]; return p && p.due<=now && p.state!=='new' && p.state!=='known'; }).sort((a,b)=>progress[a.id].due-progress[b.id].due);
+}
+function getNew(n){
+  let notStarted=idioms.filter(i=> isInTrack(i) && (!progress[i.id] || progress[i.id].state==='new'));
+  for(let i=notStarted.length-1;i>0;i--){ let j=Math.floor(Math.random()*(i+1)); [notStarted[i],notStarted[j]]=[notStarted[j],notStarted[i]]; }
+  return notStarted.slice(0,n);
+}
+function activeStudyPool(){
+  let pool=idioms.filter(i=> progress[i.id]?.state!=='known');
+  return pool.length? pool : idioms;
+}
+
+function updateStreak(){
+  let today=new Date().toDateString();
+  if(stats.lastStudyDate && stats.lastStudyDate!==today){
+    let diff=Math.floor((new Date(today)-new Date(stats.lastStudyDate))/86400000);
+    if(diff===2 && (stats.streakFreezes||0)>0){
+      stats.streakFreezes--;
+      stats.lastStudyDate=new Date(Date.now()-86400000).toDateString();
+      stats.streakFreezeUsedDate=today;
+      save();
+      showToast('❄️ โล่ Streak Freeze ทำงานอัตโนมัติ! ปกป้องสตรีค '+stats.streak+' วันของคุณไว้');
+    } else if(diff>1){
+      stats.streak=0;
+    }
+  }
+  // ถ้าขึ้นวันใหม่แล้ว daily lesson ค้างจากเมื่อวาน ให้เคลียร์อัตโนมัติ (ไม่นับย้อนหลัง)
+  if(dailyLessonDate && dailyLessonDate!==today && !isDailyLessonActive()){
+    // รีเซ็ตเพื่อเริ่มวันใหม่
+  }
+}
+
+function postponeOverdueBacklog(){
+  let now=Date.now();
+  let dueCards=idioms.filter(i=>{
+    if(!isInTrack(i)) return false;
+    let p=progress[i.id];
+    return p && p.due<=now && p.state!=='new' && p.state!=='known';
+  }).sort((a,b)=>progress[a.id].due-progress[b.id].due);
+
+  let limit = settings.dailyReview || 5;
+  if(dueCards.length <= limit){
+    showToast(`มีคำค้างทบทวน ${dueCards.length} ใบ ซึ่งไม่เกินเป้าหมาย ${limit} ใบอยู่แล้ว`);
+    return;
+  }
+  let excess = dueCards.slice(limit);
+  excess.forEach((item, idx)=>{
+    let dayOffset = 1 + (idx % 3);
+    let p = progress[item.id];
+    p.due = now + (dayOffset * 86400000) + Math.floor(Math.random() * 7200000);
+  });
+  save();
+  renderAll();
+  showToast(`✅ กระจายคำค้างทบทวน ${excess.length} ใบออกไป 1–3 วันข้างหน้าแล้ว ไม่ต้องกังวล!`);
+}
+
+function toggleDailyReminder(enable){
+  if(enable){
+    if(!('Notification' in window)){
+      alert('เบราว์เซอร์นี้ไม่รองรับการแจ้งเตือน (Notifications)');
+      let cb = document.getElementById('setDailyReminder');
+      if(cb) cb.checked = false;
+      return;
+    }
+    Notification.requestPermission().then(perm => {
+      if(perm === 'granted'){
+        settings.dailyReminder = true;
+        save();
+        showToast('🔔 เปิดการแจ้งเตือนทบทวนประจำวันเรียบร้อยแล้ว');
+        scheduleLocalReminder();
+      } else {
+        alert('กรุณาอนุญาต (Allow) การแจ้งเตือนในเบราว์เซอร์เพื่อเปิดฟังก์ชันนี้');
+        let cb = document.getElementById('setDailyReminder');
+        if(cb) cb.checked = false;
+        settings.dailyReminder = false;
+        save();
+      }
+    });
+  } else {
+    settings.dailyReminder = false;
+    save();
+    showToast('ปิดการแจ้งเตือนแล้ว');
+  }
+}
+
+function scheduleLocalReminder(){
+  if(!settings.dailyReminder || !('Notification' in window) || Notification.permission !== 'granted') return;
+  let now = new Date();
+  let target = new Date();
+  target.setHours(20, 0, 0, 0);
+  if(target.getTime() <= now.getTime()){
+    target.setDate(target.getDate() + 1);
+  }
+  let msUntil = target.getTime() - now.getTime();
+  if(window._reminderTimeout) clearTimeout(window._reminderTimeout);
+  window._reminderTimeout = setTimeout(()=>{
+    if(settings.dailyReminder && Notification.permission === 'granted'){
+      let dueCount = getDue().length;
+      let msg = dueCount > 0 ? `ถึงเวลาทบทวน ${Math.min(dueCount, settings.dailyReview||5)} คำสั้น ๆ ประจำวันแล้ว (~2 นาที)` : 'แวะมาเรียนรู้สำนวนใหม่ 5 คำประจำวันกันเถอะ!';
+      new Notification('IdiomMaster 🔥 รักษาสตรีคของคุณ', {
+        body: msg,
+        icon: 'icons/icon-192.png'
+      });
+    }
+    scheduleLocalReminder();
+  }, msUntil);
+}
+
+function renderAll(){ renderToday(); renderExplore(); renderStats(); updateBadgesTop(); updatePracticeLocks(); renderDailyLesson(); renderGameStats(); }
+
+function renderToday(){
+  updateTrackUI();
+  let due=getDue();
+  let newLeft=getNew(settings.dailyNew);
+  document.getElementById('dueCount').textContent=Math.min(due.length, settings.dailyReview);
+  document.getElementById('newCount').textContent=newLeft.length;
+  document.getElementById('streakCount').textContent=stats.streak||0;
+  let freezeCount = document.getElementById('freezeCount');
+  if(freezeCount) freezeCount.textContent=stats.streakFreezes??1;
+  document.getElementById('todayXpCount').textContent=stats.xpToday||0;
+  document.getElementById('streakTop').textContent=stats.streak||0;
+  let freezeTop = document.getElementById('freezeTop');
+  if(freezeTop) freezeTop.textContent=stats.streakFreezes??1;
+  document.getElementById('xpTop').textContent=stats.xp;
+  document.getElementById('levelTop').textContent=stats.level||1;
+  document.querySelectorAll('.reviewBadge').forEach(el=>{ el.textContent=due.length; el.classList.toggle('hidden', due.length===0); });
+  document.getElementById('reviewRemaining').textContent=due.length+' ใบค้าง';
+  // progress (กรองตาม track + แยก known)
+  let known=Object.entries(progress).filter(([id,p])=>p.state==='known' && idioms.some(it=>it.id===id && isInTrack(it))).length;
+  let mastered=Object.entries(progress).filter(([id,p])=>p.state==='review' && p.stability>=7 && idioms.some(it=>it.id===id && isInTrack(it))).length;
+  let learning=Object.entries(progress).filter(([id,p])=>p.state!=='new' && p.state!=='known' && p.stability<7 && idioms.some(it=>it.id===id && isInTrack(it))).length;
+  let trackTotal=idioms.filter(isInTrack).length;
+  let startedInTrack=Object.entries(progress).filter(([id,p])=>p.state!=='new' && idioms.some(it=>it.id===id && isInTrack(it))).length;
+  let pct=trackTotal? Math.round(startedInTrack/trackTotal*100):0;
+  document.getElementById('progressText').textContent=startedInTrack+' / '+trackTotal + (known? ` • รู้แล้ว ${known}`:'');
+  document.getElementById('progressPct').textContent=pct+'%';
+  document.getElementById('progressCircle').style.strokeDashoffset=201-201*pct/100;
+  document.getElementById('masteredCount').textContent=mastered;
+  document.getElementById('learningCount').textContent=learning;
+  document.getElementById('notStartedCount').textContent=trackTotal-startedInTrack;
+  // today preview
+  let preview=[...due.slice(0,2), ...newLeft.slice(0,4-dueslice(due))];
+  function dueslice(d){return Math.min(d.length,2)}
+  let html=preview.map(i=>`<div class="border rounded-xl p-3.5 flex gap-3 items-center bg-white min-w-0"><div class="w-11 h-11 rounded-lg bg-indigo-600 text-white flex items-center justify-center text-sm font-bold shrink-0">${i.phrase.split(' ').map(w=>w[0]).join('').toUpperCase().slice(0,2)}</div><div class="flex-1 min-w-0"><div class="font-semibold text-base font-outfit break-words">${i.phrase}</div><div class="text-sm text-muted break-words">${i.meaning_th}</div></div></div>`).join('');
+  document.getElementById('todayPreview').innerHTML= html || '<div class="text-sm text-muted col-span-2">ยังไม่มีการ์ด — เริ่มเรียนใหม่เลย!</div>';
+  // leech — ตกบ่อยต้องเรียนใหม่แบบเรื่องเล่า ไม่ใช่แค่โชว์ตัวเลข
+  let leeches=Object.entries(progress).filter(([k,v])=>v.lapses>=3).sort((a,b)=>b[1].lapses-a[1].lapses).slice(0,3).map(([id,p])=>{ let it=idioms.find(x=>x.id===id); return `<div class="flex justify-between items-center gap-2 border rounded-xl px-3 py-2 bg-red-50 border-red-200"><span class="font-medium">${escHtml(it?it.phrase:id)}</span><button type="button" onclick="relearnLeech('${id}')" class="text-sm px-3 py-1.5 rounded-full bg-red-600 text-white min-h-11">เรียนใหม่</button></div>`}).join('');
+  document.getElementById('leechList').innerHTML= leeches||'ยังไม่มี — ทำต่อไปเยี่ยมมาก!';
+}
+function relearnLeech(id){
+  let it=findVocab(id, true);
+  if(!it) return;
+  let p=ensureProgress(id);
+  p.state='learning'; p.due=Date.now(); p.stability=0.3;
+  save();
+  learnQueue=[it]; learnIdx=0; learnPreItems=[];
+  switchTab('learn');
+}
+
+function switchTab(name){
+  if(name!=='practice') clearInterval(matchTimer);
+  document.querySelectorAll('.tab-panel').forEach(el=>el.classList.add('hidden'));
+  document.getElementById('tab-'+name).classList.remove('hidden');
+  document.querySelectorAll('.tab-btn').forEach(b=> b.classList.toggle('active', b.dataset.tab===name));
+  if(name==='explore') renderExplore();
+  if(name==='stats') renderStats();
+  if(name==='review') prepareReview();
+  if(name==='today') renderToday();
+  if(name==='practice') updatePracticeLocks();
+  if(name==='learn') prepareLearn();
+}
+
+let isGrading=false;
+function handleKeys(e){
+  if(e.key==='Escape'){
+    if(!document.getElementById('settingsOverlay')?.classList.contains('hidden')){ closeSettings(); return; }
+    if(!document.getElementById('onboardingOverlay')?.classList.contains('hidden')){ closeOnboarding(); return; }
+    if(!document.getElementById('vocabEditOverlay')?.classList.contains('hidden')){ closeVocabEditor(); return; }
+    if(!document.getElementById('lessonCompleteOverlay')?.classList.contains('hidden')){ goHomeNow(); return; }
+  }
+  if(!document.getElementById('settingsOverlay')?.classList.contains('hidden')) return;
+  if(!document.getElementById('onboardingOverlay')?.classList.contains('hidden')) return;
+  if(!document.getElementById('vocabEditOverlay')?.classList.contains('hidden')) return;
+  if((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==='z'){
+    let rv=!document.getElementById('tab-review').classList.contains('hidden');
+    if(rv && reviewUndo){ e.preventDefault(); undoGrade(); return; }
+  }
+  let tag=document.activeElement.tagName;
+  if(tag==='INPUT'||tag==='TEXTAREA') return;
+  let reviewVisible=!document.getElementById('tab-review').classList.contains('hidden');
+  if(!reviewVisible) return;
+  if(e.code==='Space'){ e.preventDefault(); flipReview(); }
+  if(['Digit1','Digit2','Digit3','Digit4'].includes(e.code)){
+    if(isGrading) return;
+    let g=parseInt(e.code.slice(-1)); if(reviewQueue.length) grade(g);
+  }
+}
+
+// LEARN — auto start ไม่ต้องกดซ้ำ
+function prepareLearn(){
+  // อัปเดต header ตาม setting ปัจจุบัน
+  let hdr=document.getElementById('learnHeader');
+  if(hdr) hdr.textContent=`เรียนใหม่ — ${settings.dailyNew} ตัว/วัน` + (studyTrack!=='both'? ` • ${studyTrack==='idiom'?'สำนวน':studyTrack==='oxford'?'Oxford':'ประโยค'}`:'');
+  let btn=document.getElementById('learnStartBtn');
+  if(btn) btn.textContent=`เริ่มเรียน ${settings.dailyNew} ตัว →`;
+  // ถ้ามีคิวค้างอยู่ ให้ resume ต่อเลย ไม่ต้องกดเริ่มใหม่ (เฉพาะที่ตรงสายปัจจุบัน)
+  if(learnQueue.length && learnIdx < learnQueue.length && learnQueue.every(x=>isInTrack(x))){
+    if(btn) btn.classList.add('hidden');
+    document.getElementById('learnPrev').classList.remove('hidden');
+    document.getElementById('learnNext').classList.remove('hidden');
+    document.getElementById('learnTotal').textContent=learnQueue.length;
+    renderLearn();
+    return;
+  }
+  startLearn();
+}
+let learnPreItems=[]; // for Oxford pre-screen {item, known}
+function startLearn(){
+  learnQueue=getNew(settings.dailyNew);
+  console.log('[Learn] queue', learnQueue.length, learnQueue.map(x=>x.phrase));
+  if(!learnQueue.length){
+    document.getElementById('learnCard').innerHTML='<div class="text-emerald-600 font-semibold">เรียนครบหมดแล้ว 🎉 ไปทบทวนกัน!</div>';
+    document.getElementById('learnStartBtn').textContent='โหลดชุดใหม่';
+    document.getElementById('learnStartBtn').classList.remove('hidden');
+    document.getElementById('learnPrev').classList.add('hidden');
+    document.getElementById('learnNext').classList.add('hidden');
+    document.getElementById('learnFinish').classList.add('hidden');
+    document.getElementById('learnDots').innerHTML='';
+    document.getElementById('learnIdx').textContent='0';
+    document.getElementById('learnTotal').textContent='0';
+    return;
+  }
+  // พรีวิวก่อนเรียน: กด "จำได้" เพื่อข้ามคำที่รู้แล้ว ไม่ต้องเรียนซ้ำ
+  showOxfordPreScreen(learnQueue);
+}
+function showOxfordPreScreen(candidates){
+  learnPreItems=candidates.map(it=>({item:it, status:'learn'})); // learn | unsure | known
+  document.getElementById('learnStartBtn').classList.add('hidden');
+  document.getElementById('learnPrev').classList.add('hidden');
+  document.getElementById('learnNext').classList.add('hidden');
+  document.getElementById('learnFinish').classList.add('hidden');
+  document.getElementById('learnDots').innerHTML='';
+  document.getElementById('learnIdx').textContent='0';
+  document.getElementById('learnTotal').textContent=candidates.length;
+  renderOxfordPreScreen();
+}
+function renderOxfordPreScreen(){
+  let learnCnt=learnPreItems.filter(x=>x.status!=='known').length;
+  let html=`<div class="w-full max-w-[640px] mx-auto text-left">
+    <p class="text-sm text-muted text-center">ชุดวันนี้ — ถ้าจำได้แล้วกดข้าม</p>
+    <div class="mt-3 space-y-2">${learnPreItems.map((p,idx)=>{
+      let it=p.item;
+      let speakArg=jsAttr(it.phrase||'');
+      return `<div class="border rounded-xl px-3 py-3 bg-white flex gap-3 items-center">
+        <div class="flex-1 min-w-0">
+          <div class="flex items-baseline gap-2 min-w-0">
+            <span class="font-outfit font-bold text-lg break-words">${escHtml(it.lemma||it.phrase)}</span>
+            <button type="button" onclick="speak('${speakArg}')" class="shrink-0 w-9 h-9 rounded-full text-slate-400 hover:text-ink hover:bg-slate-100" aria-label="ฟัง"><i class="fa-solid fa-volume-high text-sm"></i></button>
+          </div>
+          <div class="text-sm text-indigo-600 mt-0.5">${escHtml(it.meaning_th)}</div>
+        </div>
+        <button type="button" onclick="setPreStatus(${idx},'known')" class="shrink-0 text-sm text-muted hover:text-emerald-700 px-2 py-2 min-h-11">ข้าม</button>
+      </div>`;
+    }).join('')}</div>
+    <button onclick="confirmOxfordPreScreen()" class="mt-4 w-full py-3.5 rounded-xl bg-indigo-600 text-white font-semibold min-h-12 text-base">เริ่มเรียน ${learnCnt} คำ</button>
+  </div>`;
+  document.getElementById('learnCard').innerHTML=html;
+}
+function setPreStatus(idx, status){
+  let prev=learnPreItems[idx].status;
+  learnPreItems[idx].status=status;
+  learnPreItems[idx].known = status==='known';
+  // ถ้ากด "จำได้" ให้คำนั้นหายแล้วเติมคำใหม่ทันที
+  if(status==='known' && prev!=='known'){
+    let knownItem=learnPreItems[idx].item;
+    let pr=ensureProgress(knownItem.id);
+    pr.state='known'; pr.stability=365; pr.due=Date.now()+365*86400_000; pr.reps++; pr.last=Date.now();
+    save();
+    // หาคำใหม่มาแทนที่ตำแหน่งเดิมทันที
+    let pool=idioms.filter(i=> isInTrack(i) && (!progress[i.id] || progress[i.id].state==='new') && !learnPreItems.some(p=>p.item.id===i.id));
+    if(pool.length){
+      for(let i=pool.length-1;i>0;i--){ let j=Math.floor(Math.random()*(i+1)); [pool[i],pool[j]]=[pool[j],pool[i]]; }
+      learnPreItems[idx]={item:pool[0], status:'learn', known:false};
+    } else {
+      // ไม่มีคำใหม่แล้ว ให้ลบแถวนี้ออก
+      learnPreItems.splice(idx,1);
+      document.getElementById('learnTotal').textContent=learnPreItems.length;
+    }
+  }
+  renderOxfordPreScreen();
+}
+function setPreKnown(idx, known){
+  setPreStatus(idx, known?'known':'learn');
+}
+function togglePreKnown(idx){
+  let cur=learnPreItems[idx].status|| (learnPreItems[idx].known?'known':'learn');
+  setPreStatus(idx, cur==='known'?'learn':'known');
+}
+function markAllPreKnown(v){
+  learnPreItems.forEach(p=>{ p.status=v?'known':'learn'; p.known=v; });
+  renderOxfordPreScreen();
+}
+function confirmOxfordPreScreen(){
+  // มาร์ก known ใน progress — เรียนรู้ + ไม่แน่ใจ = เรียน, จำได้ = ไม่เรียน
+  let knownIds=[];
+  learnPreItems.forEach(p=>{
+    let isKnown = p.status==='known' || p.known;
+    if(isKnown){
+      let pr=ensureProgress(p.item.id);
+      pr.state='known'; pr.stability=365; pr.due=Date.now()+365*86400_000; pr.reps++; pr.last=Date.now();
+      knownIds.push(p.item.id);
+    }
+  });
+  if(knownIds.length) save();
+  let toLearn=learnPreItems.filter(p=> (p.status|| (p.known?'known':'learn')) !=='known').map(p=>p.item);
+  // เติมให้ครบ settings.dailyNew จาก pool ที่ยังไม่รู้
+  if(toLearn.length < settings.dailyNew){
+    let need=settings.dailyNew - toLearn.length;
+    let pool=idioms.filter(i=> isInTrack(i) && (!progress[i.id] || progress[i.id].state==='new') && !toLearn.some(x=>x.id===i.id) && !knownIds.includes(i.id));
+    // shuffle
+    for(let i=pool.length-1;i>0;i--){ let j=Math.floor(Math.random()*(i+1)); [pool[i],pool[j]]=[pool[j],pool[i]]; }
+    toLearn.push(...pool.slice(0, need));
+  }
+  if(toLearn.length===0){
+    document.getElementById('learnCard').innerHTML='<div class="text-emerald-600 font-semibold">รู้หมดแล้วทุกคำในชุดนี้ 🎉 — เติมคำใหม่หรือสลับสายสำนวน</div>';
+    return;
+  }
+  learnQueue=toLearn;
+  learnIdx=0;
+  learnPreItems=[];
+  document.getElementById('learnPrev').classList.remove('hidden');
+  document.getElementById('learnNext').classList.remove('hidden');
+  document.getElementById('learnTotal').textContent=learnQueue.length;
+  renderLearn();
+  renderAll();
+}
+function renderLearn(){
+  let it=learnQueue[learnIdx];
+  document.getElementById('learnIdx').textContent=learnIdx+1;
+  document.getElementById('learnDots').innerHTML= learnQueue.map((_,i)=>`<div class="w-2 h-2 rounded-full ${i===learnIdx?'bg-indigo-600':'bg-slate-200'}"></div>`).join('');
+  document.getElementById('learnPrev').style.visibility= learnIdx===0?'hidden':'visible';
+  if(learnIdx===learnQueue.length-1){
+    document.getElementById('learnNext').classList.add('hidden');
+    document.getElementById('learnFinish').classList.remove('hidden');
+  } else {
+    document.getElementById('learnNext').classList.remove('hidden');
+    document.getElementById('learnFinish').classList.add('hidden');
+  }
+  let isWord=isWordItem(it);
+  let isSentence=isSentenceItem(it);
+  let speakArg=jsAttr(it.phrase||'');
+  document.getElementById('learnCard').innerHTML=`
+    <div class="w-full max-w-[640px] mx-auto min-w-0 px-0">
+      <div class="${isSentence?'hidden':''} text-sm px-3 py-1 rounded-full ${isWord?'bg-violet-50 text-violet-700':'bg-indigo-50 text-indigo-700'} inline-block">${isWord? `${escHtml(it.pos||'word')} • ${escHtml(it.level||'')}` : escHtml(catLabel(it))}</div>
+      <div class="font-outfit font-bold text-2xl sm:text-3xl md:text-4xl mt-3 leading-tight break-words px-1">${escHtml(it.phrase)}</div>
+      <div class="mt-4 flex justify-center">
+        <button type="button" onclick="speak('${speakArg}')" class="w-11 h-11 rounded-full bg-slate-900 text-white flex items-center justify-center hover:bg-ink" aria-label="ฟัง"><i class="fa-solid fa-volume-high"></i></button>
+      </div>
+      <div class="mt-4 bg-emerald-50 border border-emerald-200 rounded-xl p-4 text-left">
+        <div class="font-medium text-lg">${escHtml(it.meaning_th)}</div>
+        <div class="text-sm text-muted mt-0.5">${escHtml(it.meaning_en)}</div>
+      </div>
+      ${memCardsHtml(it)}
+      ${examplesHtml(it)}
+      <div class="mt-4 text-center">
+        <button type="button" onclick="skipCurrentLearn('known')" class="text-sm text-slate-400 hover:text-emerald-700 py-2">ข้าม คำนี้รู้แล้ว</button>
+      </div>
+    </div>`;
+}
+function learnPrev(){ if(learnIdx>0){ learnIdx--; renderLearn(); } }
+function learnNext(){ if(learnIdx<learnQueue.length-1){ learnIdx++; renderLearn(); } }
+function skipCurrentLearn(as){
+  let it=learnQueue[learnIdx];
+  if(!it) return;
+  if(as==='hide'){
+    deleteVocab(it.id);
+    if(!vocabHidden.has(it.id)) return;
+    let pool=idioms.filter(i=> isInTrack(i) && (!progress[i.id] || progress[i.id].state==='new') && !learnQueue.some(x=>x.id===i.id));
+    if(pool.length){
+      for(let i=pool.length-1;i>0;i--){ let j=Math.floor(Math.random()*(i+1)); [pool[i],pool[j]]=[pool[j],pool[i]]; }
+      learnQueue.splice(learnIdx, 0, pool[0]);
+    }
+    if(!learnQueue.length){ startLearn(); renderAll(); return; }
+    if(learnIdx>=learnQueue.length) learnIdx=learnQueue.length-1;
+    document.getElementById('learnTotal').textContent=learnQueue.length;
+    renderLearn();
+    return;
+  }
+  let p=ensureProgress(it.id);
+  p.state='known'; p.stability=365; p.due=Date.now()+365*86400_000; p.reps++; p.last=Date.now();
+  save();
+  learnQueue.splice(learnIdx,1);
+  let pool=idioms.filter(i=> isInTrack(i) && (!progress[i.id] || progress[i.id].state==='new') && !learnQueue.some(x=>x.id===i.id));
+  if(pool.length){
+    for(let i=pool.length-1;i>0;i--){ let j=Math.floor(Math.random()*(i+1)); [pool[i],pool[j]]=[pool[j],pool[i]]; }
+    learnQueue.splice(learnIdx, 0, pool[0]);
+  }
+  if(!learnQueue.length){ startLearn(); renderAll(); return; }
+  if(learnIdx>=learnQueue.length) learnIdx=learnQueue.length-1;
+  document.getElementById('learnTotal').textContent=learnQueue.length;
+  renderLearn();
+  renderAll();
+}
+function finishLearn(){
+  // เก็บ id ก่อน clear
+  let finishedIds = learnQueue.map(x=>x.id);
+  learnQueue.forEach(it=>{
+    let p=ensureProgress(it.id);
+    if(p.state==='new'){ p.state='learning'; p.due=Date.now()+10*60000; p.stability=0.3; }
+  });
+  addXp(finishedIds.length * 10);
+  // ตั้งบทเรียนประจำวัน: ต้องฝึก 4 เกมด้วยคำที่เพิ่งเรียนเท่านั้น
+  dailyLessonIds = [...finishedIds];
+  dailyLessonDate = new Date().toDateString();
+  dailyGameProgress = {cloze:false,scenario:false,match:false,builder:false};
+  dailyClozeDone = new Set(); dailyScenarioDone = new Set(); dailyBuilderDone = new Set(); dailyTh2enDone = new Set();
+  saveDaily();
+  save();
+  renderDailyLesson();
+  // clear คิวเรียน เพื่อครั้งหน้าเข้าโหมดเรียนจะโหลดชุดใหม่ทันที (ไม่ต้องกดซ้ำ)
+  learnQueue=[]; learnIdx=0;
+  showToast('ส่งเข้า SRS แล้ว! 🎯 ฝึก 4 เกมด้วยคำที่เพิ่งเรียน แล้วอีก ~10 นาทีกลับมาทบทวน');
+  switchTab('practice');
+  setTimeout(()=> startPractice('match'), 500);
+}
+
+// REVIEW — improved: ต้องตอบก่อนให้คะแนน + Again วนท้าย + Undo + ช่วงเวลาตรงกับ FSRS จริง
+let reviewAnswered=false, reviewAnsweredOk=null, reviewUndo=null, gradeGen=0;
+let reviewSession={start:null, cards:0, correct:0, wrong:0, total:0};
+function sessionStatsHtml(){
+  let pct= reviewSession.total? Math.round(reviewSession.correct/reviewSession.total*100):0;
+  let secs= reviewSession.start? Math.round((Date.now()-reviewSession.start)/1000):0;
+  let mm=Math.floor(secs/60), ss=secs%60;
+  return `<div class="mt-4 grid grid-cols-2 md:grid-cols-4 gap-2 text-sm">
+    <div class="bg-slate-50 dark:bg-slate-800 rounded-xl p-3 text-center"><div class="text-xl font-outfit font-bold">${reviewSession.total}</div><div class="text-xs text-muted">การ์ด</div></div>
+    <div class="bg-emerald-50 dark:bg-emerald-900/30 rounded-xl p-3 text-center"><div class="text-xl font-outfit font-bold text-emerald-600 dark:text-emerald-300">${reviewSession.correct}</div><div class="text-xs text-muted">ถูก</div></div>
+    <div class="bg-red-50 dark:bg-red-900/30 rounded-xl p-3 text-center"><div class="text-xl font-outfit font-bold text-red-600 dark:text-red-300">${reviewSession.wrong}</div><div class="text-xs text-muted">ผิด</div></div>
+    <div class="bg-indigo-50 dark:bg-indigo-900/30 rounded-xl p-3 text-center"><div class="text-xl font-outfit font-bold text-indigo-600 dark:text-indigo-300">${pct}%</div><div class="text-xs text-muted">แม่นยำ · ${mm}:${String(ss).padStart(2,'0')}</div></div>
+  </div>`;
+}
+function showReviewEmpty(html){
+  let wrap=document.getElementById('reviewCardWrap');
+  let area=document.getElementById('reviewArea');
+  if(wrap) wrap.classList.add('hidden');
+  if(area){ area.classList.remove('hidden'); area.innerHTML=html; }
+}
+function showReviewSession(){
+  let wrap=document.getElementById('reviewCardWrap');
+  let area=document.getElementById('reviewArea');
+  if(area) area.classList.add('hidden');
+  if(wrap) wrap.classList.remove('hidden');
+}
+function prepareReview(){
+  if(reviewQueue.length && reviewIdx < reviewQueue.length){
+    showReviewSession();
+    showReviewCard();
+    return;
+  }
+  reviewQueue=interleaveByCategory(getDue().slice(0, settings.dailyReview));
+  reviewIdx=0; reviewUndo=null;
+  reviewSession={start:Date.now(), cards:reviewQueue.length, correct:0, wrong:0, total:0};
+  document.getElementById('undoWrap')?.classList.add('hidden');
+  if(!reviewQueue.length){
+    showReviewEmpty(`<div class="bg-white rounded-2xl border border-slate-200 p-8 text-center"><div class="text-5xl">🎉</div><h3 class="font-semibold mt-3">ไม่มีการ์ดที่ถึงกำหนด</h3><p class="text-sm text-muted">เรียนใหม่หรือรอ 10 นาทีแล้วกลับมาใหม่ — ทบทวนตอนกำลังจะลืมถึงจะจำแม่น</p><button onclick="switchTab('learn')" class="mt-4 px-5 py-2 rounded-xl bg-indigo-600 text-white">ไปเรียนใหม่</button></div>`);
+    return;
+  }
+  showReviewSession();
+  showReviewCard();
+}
+function calcIntervals(p){
+  if(p.state==='known') return {again:'-', hard:'-', good:'รู้แล้ว', easy:'รู้แล้ว'};
+  let now=Date.now();
+  let preview=g=> formatDuration(computeGrade(p,g,now).due-now);
+  return {again:preview(1), hard:preview(2), good:preview(3), easy:preview(4)};
+}
+
+// ===== Auto-grading: ระบบประเมินความยากจากเวลาตอบ + ความถูกต้อง =====
+let reviewStartMs=0; // จับเวลาเมื่อโชว์การ์ด
+let autoGradePending=null; // กันกดซ้ำ
+const RT_MAX=15;
+function medianOf(a){
+  if(!a.length) return null;
+  let s=[...a].sort((x,y)=>x-y);
+  let m=Math.floor(s.length/2);
+  return s.length%2? s[m] : (s[m-1]+s[m])/2;
+}
+function recordResponseTime(id, ms){
+  let p=ensureProgress(id);
+  if(!Array.isArray(p.rtimes)) p.rtimes=[];
+  p.rtimes.push(ms);
+  if(p.rtimes.length>RT_MAX) p.rtimes=p.rtimes.slice(-RT_MAX);
+}
+function itemBaseline(id){
+  let p=progress[id];
+  let own=(p&&Array.isArray(p.rtimes))? p.rtimes.filter(t=>t>800 && t<60000) : [];
+  // ใช้ประวัติของใบนี้ก่อน ถ้ายังน้อย (<3) ให้ใช้ global median ของผู้ใช้ทั้งหมด (cold-start ไม่ด่วนตัดสิน)
+  if(own.length>=3) return medianOf(own);
+  let all=[];
+  Object.values(progress).forEach(pp=>{
+    if(Array.isArray(pp.rtimes)) pp.rtimes.forEach(t=>{ if(t>800 && t<60000) all.push(t); });
+  });
+  let g=medianOf(all);
+  // fallback สุดท้าย: 6 วินาที (ค่าเริ่มต้นกลางๆ)
+  return g || 6000;
+}
+function autoGrade(id, ok, ms){
+  if(!ok) return 1; // ผิดเสมอ → Again
+  let base=itemBaseline(id);
+  let ratio=ms/base;
+  if(ratio<=0.5) return 4;  // ตอบเร็วกว่าปกติครึ่งหนึ่ง → Easy
+  if(ratio>=2.0) return 2;  // ตอบช้าเป็น 2 เท่า → Hard
+  return 3;                 // กลางๆ → Good
+}
+function showReviewCard(){
+  let it=reviewQueue[reviewIdx];
+  if(!it){ reviewQueue=[]; reviewIdx=0; prepareReview(); renderAll(); return; }
+  let p=progress[it.id] || ensureProgress(it.id);
+  reviewAnswered=false; reviewAnsweredOk=null; autoGradePending=null;
+  reviewStartMs=Date.now();
+  document.getElementById('reviewProgressBar').style.width= ((reviewIdx)/reviewQueue.length*100)+'%';
+  document.getElementById('reviewCategory').textContent= (isSentenceItem(it)? 'ประโยค' : catLabel(it)) + ' • ⭐'.repeat(it.difficulty||1);
+  document.getElementById('reviewDueInfo').textContent= (p.lapses? `เคยตก ${p.lapses} ครั้ง • `:'') + `รอบที่ ${p.reps+1}` + (reviewQueue.length>1 ? ` • เหลือ ${reviewQueue.length-reviewIdx} ใบ` : '');
+  let wrap=document.getElementById('reviewCardWrap');
+  if(wrap) wrap.classList.add('review-waiting');
+  document.getElementById('reviewLeechRescue')?.classList.add('hidden');
+  document.getElementById('reviewFrontPhrase').textContent= 'ลองนึกคำตอบก่อน';
+  document.getElementById('reviewFrontPhonetic').textContent= '';
+  let cue=document.getElementById('reviewFrontCue');
+  if(cue) cue.textContent='ตอบคำถามด้านล่าง — ยังไม่โชว์คำตอบ';
+  document.getElementById('reviewBackPhrase').textContent= it.phrase;
+  document.getElementById('reviewBackMeaning').textContent= it.meaning_th;
+  document.getElementById('reviewBackEn').textContent= it.meaning_en;
+  let mem=memoryFields(it);
+  let showMem=usesMnemonic(it);
+  document.getElementById('reviewHint').textContent= mem.mnemonic.slice(0,80);
+  document.getElementById('reviewHint').className='mt-3 text-sm bg-amber-50 border border-amber-200 rounded-xl px-3 py-2 hidden';
+  document.getElementById('reviewOrigin').textContent= mem.origin;
+  document.getElementById('reviewMnemonic').textContent= mem.mnemonic;
+  let metaGrid=document.getElementById('reviewMetaGrid');
+  if(metaGrid) metaGrid.classList.toggle('hidden', !showMem);
+  document.getElementById('reviewMnemonicCard')?.classList.toggle('hidden', !showMem || !mem.mnemonic);
+  document.getElementById('reviewLiteralCard')?.classList.add('hidden');
+  document.getElementById('reviewOriginCard')?.classList.toggle('hidden', !showMem || !mem.origin);
+  document.getElementById('reviewExamples').innerHTML= (it.examples||[]).map(ex=>`<div class="border rounded-xl p-3 bg-slate-50"><div class="font-medium text-base break-words">“${escHtml(ex.en)}”</div><div class="text-sm text-muted mt-0.5">${escHtml(ex.th||'')}</div></div>`).join('');
+  document.getElementById('reviewSynonyms').innerHTML= (it.synonyms||[]).map(s=>`<span class="text-xs px-2 py-1 bg-indigo-50 text-indigo-700 rounded-full">${escHtml(s)}</span>`).join('') + (it.common_mistake? `<span class="text-xs px-2 py-1 bg-amber-50 text-amber-700 rounded-full">⚠ ${escHtml(it.common_mistake)}</span>`:'');
+  document.getElementById('reviewCardInner').classList.remove('flipped');
+  resetGradeButtons();
+  let iv=calcIntervals(p);
+  document.getElementById('againLabel').textContent=iv.again;
+  document.getElementById('hardLabel').textContent=iv.hard;
+  document.getElementById('goodLabel').textContent=iv.good;
+  document.getElementById('easyLabel').textContent=iv.easy;
+  // ล็อกปุ่มให้คะแนนจนกว่าจะตอบ
+  let gradeBox=document.getElementById('gradeButtons');
+  if(gradeBox){ gradeBox.classList.add('opacity-50','pointer-events-none'); }
+  document.getElementById('gradeLockHint')?.classList.remove('hidden');
+  document.getElementById('undoWrap')?.classList.add('hidden');
+  setupQuestion(it);
+}
+let questionMode='choice';
+function pickQuestionMode(it){
+  let p=progress[it.id] || {stability:0,lapses:0,reps:0};
+  if(window.__IdiomMasterHardened && window.__IdiomMasterHardened.pickQuestionMode){
+    return window.__IdiomMasterHardened.pickQuestionMode(p);
+  }
+  let s=p.stability||0;
+  let lapses=p.lapses||0;
+  let reps=p.reps||0;
+  if(lapses>=2 || s<0.5) return 'choice';
+  if(s<1) return 'cloze';
+  if(s<3) return lapses===0 && reps%2===0 ? 'scenario' : 'cloze';
+  let modes=['scenario','input','cloze','choice'];
+  return modes[reps % modes.length];
+}
+function contextLabel(ctx){
+  if(!ctx) return '';
+  let map = {
+    casual: '💬 ภาษาพูดทั่วไป',
+    informal: '💬 คุยเล่นเป็นกันเอง',
+    business: '💼 บริบทการทำงาน',
+    formal: '👔 บริบททางการ',
+    workplace: '💼 ที่ทำงาน',
+    daily: '☕ ประจำวัน',
+    academic: '📚 วิชาการ',
+    news: '📰 ข่าวสาร'
+  };
+  return map[String(ctx).toLowerCase()] || `บริบท: ${ctx}`;
+}
+
+function renderLeechRescue(it){
+  let lb = document.getElementById('reviewLeechRescue');
+  if(!lb) return;
+  let p = progress[it.id] || {};
+  let mem = memoryFields(it);
+  let isLeechCard = (p.lapses || 0) >= 2;
+
+  let parts = [];
+  if(mem.mnemonic) parts.push(`<div><span class="font-bold text-amber-800 dark:text-amber-300">💡 ภาพจำ (Mnemonic):</span> <span class="text-amber-950 dark:text-amber-100">${escHtml(mem.mnemonic)}</span></div>`);
+  if(mem.origin) parts.push(`<div><span class="font-bold text-indigo-800 dark:text-indigo-300">📜 ที่มาของสำนวน (Origin):</span> <span class="text-indigo-950 dark:text-indigo-100">${escHtml(mem.origin)}</span></div>`);
+  if(it.literal_th) parts.push(`<div><span class="font-bold text-slate-700 dark:text-slate-300">🔍 แปลตรงตัว:</span> <span class="text-slate-900 dark:text-slate-100">${escHtml(it.literal_th)}</span></div>`);
+  if(it.common_mistake) parts.push(`<div><span class="font-bold text-rose-700 dark:text-rose-300">⚠ ข้อควรระวัง:</span> <span class="text-rose-950 dark:text-rose-100">${escHtml(it.common_mistake)}</span></div>`);
+
+  if(parts.length > 0){
+    lb.classList.remove('hidden');
+    lb.innerHTML = `
+      <div class="flex items-center gap-1.5 font-bold text-amber-800 dark:text-amber-200 text-sm mb-2">
+        <i class="fa-solid fa-life-ring text-amber-600"></i> ${isLeechCard ? 'กู้ชีพคำที่ตอบตกบ่อย (Smart Rescue)' : 'เทคนิคช่วยจำเจาะลึก'}
+      </div>
+      <div class="space-y-1.5 text-xs leading-relaxed">
+        ${parts.join('')}
+      </div>
+    `;
+  } else {
+    lb.classList.add('hidden');
+  }
+}
+
+function setupQuestion(it){
+  let p = progress[it.id] || {stability:0, lapses:0, reps:0};
+  let mode = pickQuestionMode(it);
+  currentQuestion = {mode, answer:it.phrase};
+  let area = document.getElementById('reviewQuestionArea');
+  area.classList.remove('hidden');
+  let opts = document.getElementById('reviewOptions');
+  let inpWrap = document.getElementById('reviewInputWrap');
+  let feedback = document.getElementById('reviewFeedback');
+  let leechBox = document.getElementById('reviewLeechRescue');
+  opts.innerHTML = ''; inpWrap.classList.add('hidden'); feedback.classList.add('hidden');
+  if(leechBox) leechBox.classList.add('hidden');
+
+  let exCount = (it.examples && it.examples.length) || 0;
+  let exIdx = exCount ? ((p.reps || 0) + (p.lapses || 0)) % exCount : 0;
+  let ex = exCount ? it.examples[exIdx] : null;
+  let ctxLabel = ex && ex.context ? contextLabel(ex.context) : '';
+  let ctxBadge = ctxLabel ? `<span class="inline-block px-2.5 py-0.5 mb-2 text-xs rounded-full bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 font-medium">${escHtml(ctxLabel)}</span><br>` : '';
+
+  if(mode === 'choice'){
+    let isSentence = isSentenceItem(it);
+    if(ex && ex.en && (p.reps || 0) % 2 === 1){
+      let blankEx = blankPhraseInSentence(it.phrase, ex.en);
+      document.getElementById('reviewQuestion').innerHTML = `${ctxBadge}จากประโยค: “<b>${escHtml(blankEx)}</b>”<br><span class="text-sm text-muted">ควรเติม${isSentence?'ประโยค':'สำนวน'}ที่มีความหมายว่า <b>“${escHtml(it.meaning_th)}”</b> ตัวไหน?</span>`;
+    } else {
+      document.getElementById('reviewQuestion').innerHTML = `${ctxBadge}“${escHtml(it.meaning_th)}” ตรงกับ${isSentence?'ประโยค':'สำนวน'}ไหน?`;
+    }
+    let choices = shuffleInPlace([it, ...pickDistractors(it,3)]);
+    opts.innerHTML = choices.map(c=>`<button onclick="answerChoice('${c.id}')" class="text-left border rounded-xl p-3.5 bg-white hover:bg-indigo-50 hover:border-indigo-200 min-h-12"><span class="font-outfit font-semibold text-base">${escHtml(c.phrase)}</span></button>`).join('');
+  } else if(mode === 'cloze'){
+    let isSentence = isSentenceItem(it);
+    if(isSentence){
+      let blankEx = blankPhraseInSentence(it.keyword, it.phrase);
+      document.getElementById('reviewQuestion').innerHTML = `${ctxBadge}เติมคำที่หายไป: “<b>${escHtml(blankEx)}</b>”`;
+      let choices = shuffleInPlace([it.keyword, ...pickDistractors(it,3).map(x=>x.keyword||x.phrase)]);
+      opts.innerHTML = choices.map(c=>`<button onclick="answerCloze('${jsAttr(c)}')" class="border rounded-xl p-3.5 bg-white hover:bg-indigo-50 font-outfit text-base min-h-12">${escHtml(c)}</button>`).join('');
+    } else if(!exCount){
+      document.getElementById('reviewQuestion').innerHTML = `“${escHtml(it.meaning_th)}” ตรงกับสำนวนไหน?`;
+      let choices = shuffleInPlace([it, ...pickDistractors(it,3)]);
+      opts.innerHTML = choices.map(c=>`<button onclick="answerChoice('${c.id}')" class="text-left border rounded-xl p-3.5 bg-white hover:bg-indigo-50 hover:border-indigo-200 min-h-12"><span class="font-outfit font-semibold text-base">${escHtml(c.phrase)}</span></button>`).join('');
+    } else {
+      let blankEx = blankPhraseInSentence(it.phrase, ex.en);
+      document.getElementById('reviewQuestion').innerHTML = `${ctxBadge}เติมสำนวนให้ถูกต้อง: “<b>${escHtml(blankEx)}</b>”`;
+      let choices = shuffleInPlace([it.phrase, ...pickDistractors(it,3).map(x=>x.phrase)]);
+      opts.innerHTML = choices.map(c=>`<button onclick="answerCloze('${jsAttr(c)}')" class="border rounded-xl p-3.5 bg-white hover:bg-indigo-50 font-outfit text-base min-h-12">${escHtml(c)}</button>`).join('');
+    }
+  } else if(mode === 'scenario'){
+    let _scText = ex && ex.th ? `สถานการณ์: “${escHtml(ex.th)}” — ควรใช้${isSentenceItem(it)?'ประโยค':'สำนวน'}ไหน?` : `“${escHtml(it.meaning_th)}” ใช้ในสถานการณ์ไหนจึงจะเหมาะ?`;
+    document.getElementById('reviewQuestion').innerHTML = `${ctxBadge}${_scText}`;
+    let choices = shuffleInPlace([it, ...pickDistractors(it,3)]);
+    opts.innerHTML = choices.map(c=>`<button onclick="answerChoice('${c.id}')" class="border rounded-xl p-3.5 bg-white hover:bg-indigo-50 text-left min-h-12"><span class="font-semibold font-outfit text-base">${escHtml(c.phrase)}</span></button>`).join('');
+  } else {
+    let enHint = it.meaning_en ? ' ('+it.meaning_en+')' : '';
+    document.getElementById('reviewQuestion').innerHTML = `${ctxBadge}พิมพ์${isSentenceItem(it)?'ประโยคภาษาอังกฤษ':'สำนวนภาษาอังกฤษ'}จากความหมาย: “<b>${escHtml(it.meaning_th)}</b>”${escHtml(enHint)}`;
+    inpWrap.classList.remove('hidden');
+    let inp = document.getElementById('reviewInput');
+    inp.value = ''; inp.disabled = false;
+    document.querySelector('#reviewInputWrap button').disabled = false;
+    inp.onkeydown = (e)=>{ if(e.key==='Enter') submitInputAnswer(); };
+    setTimeout(()=>inp.focus(),100);
+  }
+}
+function normalizeAnswer(s){
+  return s.toLowerCase().trim().replace(/\s+/g,' ').replace(/['’`]/g,'').replace(/[^a-z0-9 ]/g,'').trim();
+}
+function resetGradeButtons(){
+  autoGradePending=null;
+  let gb=document.getElementById('gradeButtons');
+  if(gb){
+    gb.classList.add('opacity-50','pointer-events-none');
+    gb.querySelectorAll('button').forEach(b=>{
+      b.disabled=false;
+      b.classList.remove('opacity-30','ring-2','ring-red-400','ring-emerald-400');
+    });
+  }
+  document.getElementById('gradeLockHint')?.classList.remove('hidden');
+  let hint=document.getElementById('gradeLockHint');
+  if(hint) hint.textContent='ตอบคำถามก่อน แล้วค่อยให้คะแนน';
+}
+function revealReviewAnswer(){
+  let it=reviewQueue[reviewIdx];
+  if(!it) return;
+  let wrap=document.getElementById('reviewCardWrap');
+  if(wrap) wrap.classList.remove('review-waiting');
+  document.getElementById('reviewFrontPhrase').textContent= it.phrase;
+  document.getElementById('reviewFrontPhonetic').textContent= '';
+  let cue=document.getElementById('reviewFrontCue');
+  if(cue) cue.textContent='แตะเพื่อพลิกดูรายละเอียด';
+  let hintEl=document.getElementById('reviewHint');
+  if(hintEl){
+    if(usesMnemonic(it) && it.mnemonic) hintEl.classList.remove('hidden');
+    else hintEl.classList.add('hidden');
+  }
+  let inner=document.getElementById('reviewCardInner');
+  if(inner && !inner.classList.contains('flipped')) inner.classList.add('flipped');
+  if(reviewAnsweredOk===false || (progress[it.id]?.lapses||0)>=2) renderLeechRescue(it);
+}
+function enableGrades(){
+  reviewAnswered=true;
+  revealReviewAnswer();
+  // Auto-grade: ถ้าเปิดไว้ ระบบประเมินจากเวลาตอบ + ความถูกต้อง แล้วให้คะแนนเอง
+  if(settings.autoGrade!==false){
+    let it=reviewQueue[reviewIdx];
+    let ms=Date.now()-reviewStartMs;
+    let g=autoGrade(it.id, reviewAnsweredOk===true, ms);
+    recordResponseTime(it.id, ms);
+    autoGradePending=g;
+    let label=['','Again','Hard','Good','Easy'][g];
+    let reason= reviewAnsweredOk ? (g===4?'ตอบไวมาก':g===2?'ตอบช้ากว่าปกติ':'ตอบปกติ') : 'ตอบผิด';
+    let hint=document.getElementById('gradeLockHint');
+    if(hint){ hint.classList.remove('hidden'); hint.textContent=`ระบบประเมิน: ${label} (${reason} • ${(ms/1000).toFixed(1)}s) — แตะปุ่มเพื่อแก้`; }
+    // ปลดล็อกปุ่มให้กด override ได้
+    let gb=document.getElementById('gradeButtons');
+    if(gb){ gb.classList.remove('opacity-50','pointer-events-none'); }
+    let btns=gb? [...gb.querySelectorAll('button')] : [];
+    btns.forEach((b,i)=>{ b.disabled=false; b.classList.remove('opacity-30','ring-2','ring-red-400','ring-emerald-400'); });
+    setTimeout(()=>{ if(autoGradePending===g) grade(g); }, 900);
+    return;
+  }
+  let gb=document.getElementById('gradeButtons');
+  if(gb){ gb.classList.remove('opacity-50','pointer-events-none'); }
+  let btns=gb? [...gb.querySelectorAll('button')] : [];
+  let hint=document.getElementById('gradeLockHint');
+  if(reviewAnsweredOk===false){
+    btns.forEach((b,i)=>{
+      b.disabled = i>=2;
+      b.classList.toggle('opacity-30', i>=2);
+      b.classList.toggle('ring-2', i===0);
+      b.classList.toggle('ring-red-400', i===0);
+      b.classList.remove('ring-emerald-400');
+    });
+    if(hint){ hint.classList.remove('hidden'); hint.textContent='ตอบผิด — กด Again เพื่อทบทวนซ้ำ (Hard ถ้าเกือบถูก) ไม่ให้ข้ามไป Good/Easy'; }
+  } else {
+    btns.forEach((b,i)=>{
+      b.disabled=false;
+      b.classList.remove('opacity-30','ring-red-400');
+      b.classList.toggle('ring-2', i===2);
+      b.classList.toggle('ring-emerald-400', i===2);
+    });
+    if(hint) hint.classList.add('hidden');
+  }
+}
+function answerChoice(id){
+  let it=reviewQueue[reviewIdx];
+  let ok=id===it.id;
+  reviewAnsweredOk=ok;
+  document.querySelectorAll('#reviewOptions button').forEach(b=>{
+    b.disabled=true; b.classList.add('opacity-60','pointer-events-none');
+    let m=b.getAttribute('onclick')?.match(/'([^']+)'/);
+    let bid=m?m[1]:null;
+    if(bid===it.id) b.classList.add('ring-2','ring-emerald-400','bg-emerald-50');
+    if(bid===id && !ok) b.classList.add('ring-2','ring-red-400','bg-red-50');
+  });
+  if(ok) showFeedback(ok, 'ถูกต้อง! 🎉 — '+it.phrase+' = '+it.meaning_th);
+  else showFeedback(ok, 'ยังไม่ถูก — ที่ถูกคือ: '+it.phrase+' = '+it.meaning_th + (recallHint(it)? '\n💡 ภาพจำ: '+recallHint(it):'') + (it.common_mistake?' \n⚠ '+it.common_mistake:''));
+  enableGrades();
+}
+function answerCloze(txt){
+  let it=reviewQueue[reviewIdx];
+  let target = isSentenceItem(it) ? it.keyword : it.phrase;
+  let ok=normalizeAnswer(txt)===normalizeAnswer(target);
+  reviewAnsweredOk=ok;
+  document.querySelectorAll('#reviewOptions button').forEach(b=>{
+    b.disabled=true; b.classList.add('opacity-60','pointer-events-none');
+    let txtInBtn=normalizeAnswer(b.textContent.trim());
+    if(txtInBtn===normalizeAnswer(target)) b.classList.add('ring-2','ring-emerald-400','bg-emerald-50');
+    if(normalizeAnswer(txt)===txtInBtn && !ok) b.classList.add('ring-2','ring-red-400','bg-red-50');
+  });
+  if(ok) showFeedback(ok, 'ถูกต้อง! — '+target+' เติมได้พอดี');
+  else showFeedback(ok, 'ที่ถูกคือ: '+target+' = '+it.meaning_th + (recallHint(it)? '\n💡 '+recallHint(it):''));
+  enableGrades();
+}
+function submitInputAnswer(){
+  let raw=document.getElementById('reviewInput').value;
+  let val=normalizeAnswer(raw);
+  let it=reviewQueue[reviewIdx];
+  let ok=val===normalizeAnswer(it.phrase);
+  reviewAnsweredOk=ok;
+  document.getElementById('reviewInput').disabled=true;
+  document.querySelector('#reviewInputWrap button').disabled=true;
+  if(ok) showFeedback(ok, 'เยี่ยม! พิมพ์ถูก — '+it.phrase);
+  else showFeedback(ok, 'ควรพิมพ์: '+it.phrase+' = '+it.meaning_th + (recallHint(it)? '\n💡 '+recallHint(it):'') + '\nคุณพิมพ์: “'+raw+'”');
+  enableGrades();
+}
+function showFeedback(ok, msg){
+  let fb=document.getElementById('reviewFeedback');
+  fb.classList.remove('hidden');
+  fb.className='mt-3 p-3 rounded-xl text-sm '+(ok?'bg-emerald-50 border border-emerald-200 text-emerald-700':'bg-red-50 border border-red-200 text-red-700');
+  fb.textContent=msg;
+}
+function flipReview(){
+  if(!reviewAnswered){
+    let fb=document.getElementById('reviewFeedback');
+    if(fb){ fb.classList.remove('hidden'); fb.className='mt-3 p-3 rounded-xl text-sm bg-amber-50 border border-amber-200 text-amber-700'; fb.textContent='ตอบคำถามก่อนนะ — ถ้าพลิกดูคำตอบก่อน จะไม่ได้ฝึกดึงความจำ'; }
+    return;
+  }
+  document.getElementById('reviewCardInner').classList.toggle('flipped');
+}
+function speakCurrent(){ let it=reviewQueue[reviewIdx]; if(it) speak(it.phrase); }
+function skipReviewAsKnown(){
+  let it=reviewQueue[reviewIdx];
+  if(!it) return;
+  if(!confirm('มาร์ก “'+it.phrase+'” ว่ารู้แล้ว — จะไม่ถูกดึงมาทบทวนอีก')) return;
+  let p=ensureProgress(it.id);
+  p.state='known'; p.stability=365; p.due=Date.now()+365*86400_000; p.reps++; p.last=Date.now();
+  save();
+  reviewQueue.splice(reviewIdx,1);
+  if(!reviewQueue.length){ prepareReview(); renderAll(); return; }
+  if(reviewIdx>=reviewQueue.length) reviewIdx=reviewQueue.length-1;
+  showReviewCard();
+  renderAll();
+}
+function speak(text){
+  if(!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  let u=new SpeechSynthesisUtterance(text);
+  u.lang='en-US'; u.rate=speechRate||0.9;
+  speechSynthesis.speak(u);
+}
+function grade(g){
+  if(isGrading) return;
+  // ถ้าผู้ใช้แตะปุ่มต่างจากที่ระบบจะให้ → ถือว่า override ยกเลิก auto pending
+  if(reviewAnswered && autoGradePending!==null && g!==autoGradePending) autoGradePending=null;
+  if(!reviewAnswered){
+    let fb=document.getElementById('reviewFeedback');
+    fb.classList.remove('hidden');
+    fb.className='mt-3 p-3 rounded-xl text-sm bg-amber-50 border border-amber-200 text-amber-700';
+    fb.textContent='ต้องตอบคำถามด้านบนก่อนนะ — ลองดึงคำตอบจากความจำก่อน แล้วค่อยให้คะแนน';
+    document.getElementById('gradeLockHint')?.classList.remove('hidden');
+    let gb=document.getElementById('gradeButtons');
+    if(gb){ gb.classList.add('animate-pulse'); setTimeout(()=>gb.classList.remove('animate-pulse'),600); }
+    return;
+  }
+  if(reviewAnsweredOk===false && g>=3){
+    let fb=document.getElementById('reviewFeedback');
+    fb.classList.remove('hidden');
+    fb.className='mt-3 p-3 rounded-xl text-sm bg-amber-50 border border-amber-200 text-amber-700';
+    fb.textContent='ตอบผิดแล้ว — ต้องกด Again (หรือ Hard ถ้าเกือบถูก) ไม่งั้นระบบจะคิดว่าจำได้แล้วและเลื่อนไปไกลเกิน';
+    return;
+  }
+  isGrading=true;
+  let it=reviewQueue[reviewIdx];
+  reviewSession.total++;
+  if(reviewAnsweredOk) reviewSession.correct++;
+  else reviewSession.wrong++;
+  let ivBefore=calcIntervals(progress[it.id]||ensureProgress(it.id));
+  let nextStr=g===1?ivBefore.again: g===2?ivBefore.hard: g===3?ivBefore.good: ivBefore.easy;
+  let prev={id:it.id, progress:JSON.parse(JSON.stringify(progress[it.id])), stats:JSON.parse(JSON.stringify(stats)), historyLen:history.length, isAgain:g===1, applied:false};
+  let myGen=++gradeGen;
+  reviewUndo=prev;
+  gradeCard(it.id,g);
+  let label=['','Again','Hard','Good','Easy'][g];
+  let pNow=progress[it.id];
+  let leechNote = (g===1 && (pNow.lapses||0)>=3) ? ' • สำนวนนี้ตกบ่อย ลองกดเรียนใหม่แบบเรื่องเล่าที่หน้าแรก' : '';
+  let fb=document.getElementById('reviewFeedback');
+  fb.classList.remove('hidden');
+  fb.className='mt-3 p-3 rounded-xl text-sm bg-slate-900 text-white';
+  fb.textContent=`บันทึก: ${label} → อีก ${nextStr} เจอกัน` + (g===1 ? ' (จะวนกลับมาท้ายคิว)' : '') + leechNote;
+  setTimeout(()=>{
+    if(gradeGen!==myGen) return;
+    isGrading=false;
+    if(reviewUndo) reviewUndo.applied=true;
+    if(g===1){
+      reviewQueue.push(it);
+      document.getElementById('reviewProgressBar').style.width=((reviewIdx+1)/reviewQueue.length*100)+'%';
+    }
+    reviewIdx++;
+    if(reviewIdx>=reviewQueue.length){
+      reviewQueue=[]; reviewIdx=0; reviewUndo=null;
+      let remainingDue = getDue().length;
+      let nextBatchSize = Math.min(remainingDue, settings.dailyReview || 5);
+      let backlogActionHtml = remainingDue > 0 ? `
+        <div class="mt-5 p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-center">
+          <div class="inline-flex items-center gap-1.5 text-amber-800 dark:text-amber-200 font-semibold text-sm">
+            <i class="fa-solid fa-layer-group"></i> ยังมีคำที่ถึงกำหนดทบทวนอีก ${remainingDue} ใบ
+          </div>
+          <p class="text-xs text-amber-700 dark:text-amber-300 mt-1">เก่งมาก! ครบเป้าหมายรอบนี้แล้ว หากมีเวลาอยากทำต่ออีกสักนิด สามารถกดปุ่มด้านล่างได้เลยครับ</p>
+          <div class="flex flex-col sm:flex-row gap-2 mt-3.5">
+            <button onclick="prepareReview()" class="flex-1 py-3 px-4 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-semibold text-sm transition shadow-sm">
+              ⚡ ทยอยทบทวนต่ออีก ${nextBatchSize} ใบ
+            </button>
+            <button onclick="switchTab('today')" class="py-3 px-4 rounded-xl border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-sm hover:bg-slate-100 dark:hover:bg-slate-800">
+              พักก่อน (กลับหน้าแรก)
+            </button>
+          </div>
+        </div>
+      ` : `
+        <p class="text-sm text-muted mt-3">🎉 ยอดเยี่ยมที่สุด! ทบทวนครบหมดทุกใบแล้ว ไม่มีค้างเลย</p>
+        <button onclick="switchTab('today')" class="mt-4 px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold shadow-sm">กลับหน้าแรก</button>
+      `;
+
+      showReviewEmpty(`<div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-8 text-center max-w-lg mx-auto shadow-sm">
+        <div class="text-5xl">✅</div>
+        <h3 class="font-bold text-xl mt-3">เสร็จแล้ว! ทบทวนครบรอบนี้ (${reviewSession.total} ใบ)</h3>
+        <p class="text-xs text-muted mt-1">XP ถูกบันทึกแล้ว • สตรีคได้รับการอัปเดต 🔥</p>
+        ${sessionStatsHtml()}
+        ${backlogActionHtml}
+      </div>`);
+      renderAll();
+    } else {
+      let uw=document.getElementById('undoWrap');
+      if(uw){ uw.classList.remove('hidden'); setTimeout(()=>uw.classList.add('hidden'),4000); }
+      showReviewCard();
+    }
+  }, 550);
+}
+function undoGrade(){
+  if(!reviewUndo) return;
+  gradeGen++;
+  isGrading=false;
+  let u=reviewUndo;
+  progress[u.id]=u.progress;
+  stats=JSON.parse(JSON.stringify(u.stats));
+  history.splice(u.historyLen);
+  if(u.applied){
+    if(u.isAgain && reviewQueue.length){
+      let last=reviewQueue[reviewQueue.length-1];
+      if(last && last.id===u.id) reviewQueue.pop();
+    }
+    if(reviewIdx>0) reviewIdx--;
+  }
+  save();
+  reviewUndo=null;
+  document.getElementById('undoWrap')?.classList.add('hidden');
+  let fb=document.getElementById('reviewFeedback');
+  fb.classList.remove('hidden');
+  fb.className='mt-3 p-3 rounded-xl text-sm bg-blue-50 border border-blue-200 text-blue-700';
+  fb.textContent='ย้อนกลับแล้ว — ให้คะแนนใหม่ได้เลย';
+  showReviewCard();
+  renderAll();
+}
+
+// PRACTICE — ออกแบบตามลำดับ Desirable Difficulty (Bjork) + Generation Effect
+// L1 Match (Recognition) → L2 Cloze (Cued Recall) → L3 Scenario (Application) → L4 Builder (Construction) → L5 TH→EN (Production)
+function learnedCount(){ return Object.values(progress).filter(p=> p.reps>0 || p.state!=='new').length; }
+function updatePracticeLocks(){
+  let lc = learnedCount();
+  let dailyOn = isDailyLessonActive();
+  let locks = {cloze:0, match:0, scenario:5, builder:3, th2en:5};
+  Object.entries(locks).forEach(([mode, need])=>{
+    document.querySelectorAll(`[data-practice="${mode}"]`).forEach(btn=>{
+      let locked = !dailyOn && lc < need;
+      btn.classList.toggle('opacity-50', locked);
+      let badge = btn.querySelector('.lock-badge');
+      if(badge) badge.classList.toggle('hidden', !locked);
+      btn.title = locked ? `ต้องเรียน ${need} ตัวก่อน (ตอนนี้ ${lc})` : '';
+    });
+  });
+}
+function requireLearn(min, modeName){
+  let lc = learnedCount();
+  if(lc < min){
+    document.getElementById('practiceArea').innerHTML=`
+      <div class="w-full max-w-[560px] text-center py-8">
+        <div class="text-4xl">🔒</div>
+        <div class="font-semibold mt-3 text-lg">ต้องเรียนก่อน ${min} ตัว</div>
+        <div class="text-base text-muted mt-1">เรียนไปแล้ว ${lc} ตัว</div>
+        <button onclick="switchTab('learn')" class="mt-4 px-5 py-3 rounded-xl bg-indigo-600 text-white min-h-12">ไปเรียนใหม่</button>
+      </div>`;
+    return false;
+  }
+  return true;
+}
+function recordGamePlay(type, correct, total){
+  let today=new Date().toDateString();
+  let g=gameStats[type] || {plays:0, correct:0, total:0, last:''};
+  g.plays++; g.correct+=correct; g.total+=total; g.last=today;
+  gameStats[type]=g;
+  try{ localStorage.setItem('idiom_game_stats', JSON.stringify(gameStats)); }catch(e){}
+}
+function renderGameStats(){
+  let el=document.getElementById('gameStatsCard');
+  if(!el) return;
+  let names={cloze:'เติมคำ',scenario:'สถานการณ์',th2en:'TH→EN',match:'จับคู่',builder:'เรียงคำ'};
+  let rows=Object.entries(gameStats);
+  if(!rows.length){ el.classList.add('hidden'); return; }
+  el.classList.remove('hidden');
+  let body=el.querySelector('.space-y-2');
+  body.innerHTML=rows.map(([k,g])=>{
+    let acc= g.total? Math.round(g.correct/g.total*100):0;
+    return `<div class="flex justify-between items-center gap-2 border rounded-xl px-3 py-2 bg-white dark:bg-slate-800">
+      <div class="font-medium">${names[k]||k}</div>
+      <div class="text-xs text-muted">${g.plays} ครั้ง • ถูก ${g.correct}/${g.total} (${acc}%)</div>
+    </div>`;
+  }).join('');
+}
+function startPractice(type){
+  clearInterval(matchTimer);
+  if(!isDailyLessonActive()){
+    if(type==='scenario' && !requireLearn(5,'Scenario (L3)')) return;
+    if(type==='builder' && !requireLearn(3,'Builder (L4)')) return;
+    if(type==='th2en' && !requireLearn(5,'TH→EN (L5)')) return;
+  }
+  currentMode=type;
+  renderDailyLesson();
+  practiceScore=0; practiceTotal=0;
+  if(type==='cloze') renderCloze();
+  if(type==='scenario') renderScenario();
+  if(type==='th2en') renderTh2en();
+  if(type==='match') renderMatch();
+  if(type==='builder') renderBuilder();
+}
+let practiceCurrent=null;
+function renderCloze(){
+  let _pool = isDailyLessonActive() ? getDailyPool() : null;
+  // Daily: ต้องตอบถูกครบ 5 คำจึงจะผ่าน — ใช้ remaining ไม่สุ่มซ้ำ
+  if(_pool){
+    let remaining = _pool.filter(x=> !dailyClozeDone.has(x.id) && x.examples && x.examples.length);
+    if(remaining.length===0){
+      document.getElementById('practiceArea').innerHTML=`<div class="w-full max-w-[560px] text-center py-8"><div class="text-4xl">🎉</div><div class="font-semibold mt-2">Cloze ครบ 5 คำแล้ว!</div><div class="text-sm text-muted">ผ่านด่านนี้แล้ว</div><button onclick="renderCloze()" class="mt-3 hidden"></button></div>`;
+      markDailyGameComplete('cloze');
+      return;
+    }
+    var it = remaining[Math.floor(Math.random()*remaining.length)];
+  } else {
+    let _src=activeStudyPool();
+    let _pick = ()=> _src[Math.floor(Math.random()*_src.length)];
+    var it=_pick();
+    let _guard=0;
+    while((!it.examples || !it.examples.length) && _guard<20){ it=_pick(); _guard++; }
+    if(!it.examples || !it.examples.length){ document.getElementById('practiceArea').innerHTML='<div class="text-sm text-muted p-4">สำนวนนี้ยังไม่มีตัวอย่าง — ลองสุ่มเกมอื่นก่อน</div>'; return; }
+  }
+  practiceCurrent=it;
+  let isSentence=isSentenceItem(it);
+  let ex=it.examples[Math.floor(Math.random()*it.examples.length)] || it.examples[0];
+  let q= isSentence ? blankPhraseInSentence(it.keyword, it.phrase) : blankPhraseInSentence(it.phrase, ex.en);
+  let _isDailyCloze = !!_pool;
+  let _headerRightCloze = _isDailyCloze ? `${dailyClozeDone.size}/5 คำ ✓` : `${practiceScore}/${practiceTotal} คะแนน`;
+  document.getElementById('practiceArea').innerHTML=`
+    <div class="w-full max-w-[560px]">
+      <div class="flex justify-between text-base"><span class="font-semibold">เติมคำ${_isDailyCloze?' • วันนี้':''}</span><span>${_headerRightCloze}</span></div>
+      <div class="mt-4 p-4 bg-slate-50 rounded-xl border text-left">
+        <div class="text-sm text-muted">${escHtml(isSentence? it.meaning_th : (ex.th||''))}</div>
+        <div class="font-medium text-xl mt-1">“${escHtml(q)}”</div>
+        <div class="mt-3"><button onclick="this.nextElementSibling.classList.toggle('hidden'); this.textContent=this.nextElementSibling.classList.contains('hidden')?'ดูคำใบ้': 'ซ่อนคำใบ้'" class="text-sm px-3 py-2 rounded-full bg-amber-100 text-amber-700 border border-amber-200 min-h-11">ดูคำใบ้</button><span class="hidden ml-2 text-sm bg-amber-50 border border-amber-200 rounded-xl px-3 py-2"> ${it.meaning_th}</span></div>
+      </div>
+      <div class="grid grid-cols-2 gap-2 mt-4" id="clozeOpts"></div>
+      <div id="practiceFeedback" class="mt-3 hidden p-3 rounded-xl text-sm"></div>
+    </div>`;
+  let _optsPool = _pool ? _pool.filter(x=>x.id!==it.id) : pickDistractors(it,3);
+  if(_optsPool.length<3) _optsPool = idioms.filter(x=>x.id!==it.id);
+  let _optVal = o => isSentenceItem(o) ? o.keyword : o.phrase;
+  let opts=shuffleInPlace([_optVal(it), ..._optsPool.slice(0,3).map(x=>_optVal(x))]);
+  document.getElementById('clozeOpts').innerHTML=opts.map(o=>`<button onclick="checkCloze('${jsAttr(o)}')" class="p-3.5 rounded-xl border bg-white hover:bg-indigo-50 font-outfit text-base min-h-12">${escHtml(o)}</button>`).join('');
+}
+function checkCloze(ans){
+  let target = isSentenceItem(practiceCurrent) ? practiceCurrent.keyword : practiceCurrent.phrase;
+  let ok=normalizeAnswer(ans)===normalizeAnswer(target);
+  practiceTotal++; if(ok) practiceScore++;
+  let fb=document.getElementById('practiceFeedback'); fb.classList.remove('hidden');
+  if(ok){
+    fb.className='mt-3 p-3 rounded-xl text-sm bg-emerald-50 border border-emerald-200 text-emerald-700';
+    fb.innerHTML='ถูกต้อง! +10 XP<br><span class="text-xs">'+practiceCurrent.phrase+' = '+practiceCurrent.meaning_th+'</span>';
+    addXp(10); updateBadgesTop(); recordGamePlay('cloze', 1, 1);
+    let _isDailyCloze=isDailyLessonActive();
+    if(_isDailyCloze){
+      dailyClozeDone.add(practiceCurrent.id); saveDaily(); renderDailyLesson();
+      if(dailyClozeDone.size>=getDailyPool().length){ markDailyGameComplete('cloze'); return; }
+    } else {
+      markDailyGameComplete('cloze');
+    }
+  } else {
+    fb.className='mt-3 p-3 rounded-xl text-sm bg-red-50 border border-red-200 text-red-700';
+    fb.innerHTML='ผิด — ที่ถูกคือ: <b>'+escHtml(practiceCurrent.phrase)+'</b> = '+escHtml(practiceCurrent.meaning_th)+(recallHint(practiceCurrent)? '<br><span class="text-xs">💡 '+escHtml(recallHint(practiceCurrent))+'</span>':'');
+    recordGamePlay('cloze', 0, 1);
+  }
+  let _dailyClozeDoneFull = isDailyLessonActive() && dailyClozeDone.size>=getDailyPool().length;
+  if(!_dailyClozeDoneFull) setTimeout(renderCloze, ok?1200:2000);
+}
+function renderScenario(){
+  let _pool2 = isDailyLessonActive() ? getDailyPool() : null;
+  if(_pool2){
+    let remaining = _pool2.filter(x=> !dailyScenarioDone.has(x.id));
+    if(remaining.length===0){
+      document.getElementById('practiceArea').innerHTML=`<div class="w-full max-w-[560px] text-center py-8"><div class="text-4xl">🎉</div><div class="font-semibold mt-2">Scenario ครบ 5 คำแล้ว!</div></div>`;
+      markDailyGameComplete('scenario');
+      return;
+    }
+    var it = remaining[Math.floor(Math.random()*remaining.length)];
+  } else {
+    let _src2=activeStudyPool();
+    var it = _src2[Math.floor(Math.random()*_src2.length)];
+  }
+  practiceCurrent=it;
+  let scenarioText = (it.meaning_th||'');
+  if(it.examples && it.examples.length){
+    let ex=it.examples[Math.floor(Math.random()*it.examples.length)];
+    scenarioText = ex.th || ex.en || scenarioText;
+  }
+  let _isDailySc = !!_pool2;
+  let _headerSc = _isDailySc ? `${dailyScenarioDone.size}/5 คำ ✓` : `${practiceScore}/${practiceTotal} คะแนน`;
+  document.getElementById('practiceArea').innerHTML=`
+    <div class="w-full max-w-[560px]">
+      <div class="flex justify-between text-base"><span class="font-semibold">สถานการณ์${_isDailySc?' • วันนี้':''}</span><span>${_headerSc}</span></div>
+      <div class="mt-4 p-4 bg-amber-50 rounded-xl border border-amber-200 text-left">
+        <div class="font-medium text-lg">“${scenarioText}”</div>
+      </div>
+      <div class="grid grid-cols-1 gap-2 mt-4" id="scenarioOpts"></div>
+      <div id="practiceFeedback" class="hidden mt-3 p-3 rounded-xl text-sm"></div>
+    </div>`;
+  let _optsPool2 = _pool2 ? shuffleInPlace(_pool2.filter(x=>x.id!==it.id)) : pickDistractors(it,3);
+  if(_optsPool2.length<3) _optsPool2 = idioms.filter(x=>x.id!==it.id);
+  let opts=shuffleInPlace([it, ..._optsPool2.slice(0,3)]);
+  document.getElementById('scenarioOpts').innerHTML=opts.map(o=>`<button onclick="checkScenario('${o.id}')" class="p-3.5 rounded-xl border bg-white hover:bg-amber-50 text-left min-h-12"><span class="font-semibold font-outfit text-base">${o.phrase}</span></button>`).join('');
+}
+function checkScenario(id){
+  let ok=id===practiceCurrent.id;
+  practiceTotal++; if(ok) practiceScore++;
+  let fb=document.getElementById('practiceFeedback'); fb.classList.remove('hidden');
+  // ปิดตัวเลือกไม่ให้กดซ้ำ
+  document.querySelectorAll('#scenarioOpts button').forEach(b=>{ b.disabled=true; b.classList.add('opacity-60','pointer-events-none'); });
+  // ไฮไลต์ที่ถูก/ผิด
+  document.querySelectorAll('#scenarioOpts button').forEach(b=>{
+    let bid = b.getAttribute('onclick').match(/'([^']+)'/)[1];
+    if(bid===practiceCurrent.id) b.classList.add('ring-2','ring-emerald-400','bg-emerald-50');
+    if(bid===id && !ok) b.classList.add('ring-2','ring-red-400','bg-red-50');
+  });
+  if(ok){
+    fb.className='mt-3 p-3 rounded-xl text-sm bg-emerald-50 border border-emerald-200 text-emerald-700';
+    fb.innerHTML='ถูกต้อง! เข้าใจบริบทดีมาก<br><span class="text-xs">'+escHtml(practiceCurrent.phrase)+' = '+escHtml(practiceCurrent.meaning_th)+(recallHint(practiceCurrent)? '<br>💡 '+escHtml(recallHint(practiceCurrent)):'')+'</span><br><button onclick="renderScenario()" class="mt-3 px-4 py-1.5 rounded-full bg-emerald-600 text-white text-xs">ถัดไป →</button>';
+    addXp(10); updateBadgesTop(); recordGamePlay('scenario', 1, 1);
+    let _isDailySc=isDailyLessonActive();
+    if(_isDailySc){
+      dailyScenarioDone.add(practiceCurrent.id); saveDaily(); renderDailyLesson();
+      if(dailyScenarioDone.size>=getDailyPool().length){ markDailyGameComplete('scenario'); return; }
+    } else {
+      markDailyGameComplete('scenario');
+    }
+    addXp(10); updateBadgesTop(); recordGamePlay('scenario', 0, 1);
+    if(!(isDailyLessonActive() && dailyScenarioDone.size>=getDailyPool().length)) setTimeout(renderScenario, 1200);
+  } else {
+    fb.className='mt-3 p-3 rounded-xl text-sm bg-red-50 border border-red-200 text-red-700';
+    fb.innerHTML='ยังไม่ถูก — ที่ถูกคือ: <b>'+escHtml(practiceCurrent.phrase)+'</b> = '+escHtml(practiceCurrent.meaning_th)+'<br><span class="text-xs">'+(recallHint(practiceCurrent)? '💡 '+escHtml(recallHint(practiceCurrent))+'<br>':'')+(usesMnemonic(practiceCurrent)&&practiceCurrent.origin? '📖 '+escHtml(String(practiceCurrent.origin).slice(0,90)):'')+'</span><br><button onclick="renderScenario()" class="mt-3 px-5 py-2 rounded-xl bg-ink text-white text-sm">ถัดไป → อ่านจบแล้ว</button> <span class="text-xs text-muted ml-2">(ไม่เปลี่ยนข้ออัตโนมัติ)</span>';
+  }
+}
+let th2enLetters=[], th2enAnswer=[];
+function renderTh2en(){
+  let _pool3 = isDailyLessonActive() ? getDailyPool() : null;
+  if(_pool3){
+    let remaining = _pool3.filter(x=> !dailyTh2enDone.has(x.id));
+    if(remaining.length===0){
+      document.getElementById('practiceArea').innerHTML=`<div class="w-full max-w-[560px] text-center py-8"><div class="text-4xl">🎉</div><div class="font-semibold mt-2">TH→EN ครบ 5 คำแล้ว!</div></div>`;
+      markDailyGameComplete('th2en');
+      return;
+    }
+    var it = remaining[Math.floor(Math.random()*remaining.length)];
+  } else {
+    let _src3=activeStudyPool();
+    var it = _src3[Math.floor(Math.random()*_src3.length)];
+  }
+  practiceCurrent=it;
+  let _isDailyTh = !!_pool3;
+  let _headerTh = _isDailyTh ? `${dailyTh2enDone.size}/5 คำ ✓` : `${practiceScore}/${practiceTotal} คะแนน`;
+  // สร้างช่องให้พอดีคำ: โชว์ตัวแรกของแต่ละคำ ที่เหลือเป็นช่องว่างให้เติม (ไม่นับตัวที่เป็นคำใบ้)
+  let words = it.phrase.split(' ');
+  let slots = []; // {wordIdx, pos, char, filled: null}
+  let remainingLetters = [];
+  words.forEach((w,wi)=>{
+    for(let ci=0; ci<w.length; ci++){
+      let ch=w[ci];
+      if(/[^a-zA-Z]/.test(ch)) continue;
+      if(ci===0){
+      } else {
+        slots.push({wordIdx: wi, char: ch.toLowerCase(), filled: null});
+        remainingLetters.push(ch.toLowerCase());
+      }
+    }
+  });
+  th2enLetters = remainingLetters.sort(()=>0.5-Math.random());
+  th2enAnswer = Array(slots.length).fill(null);
+  window._th2enSlots = slots;
+  window._th2enWords = words;
+  document.getElementById('practiceArea').innerHTML=`
+    <div class="w-full max-w-[560px]">
+      <div class="flex justify-between text-sm"><span class="font-semibold">TH → EN • จิ้มตัวอักษร${_isDailyTh?' • บทเรียนวันนี้':''}</span><span>${_headerTh}</span></div>
+      <div class="mt-4 p-4 bg-indigo-50 rounded-xl border border-indigo-200">
+        <div class="text-lg font-semibold">${it.meaning_th}</div>
+        <div class="text-sm text-muted">${it.meaning_en}</div>
+        <div class="text-xs mt-1 text-indigo-600">จิ้มตัวอักษรเติมในช่องว่างให้ครบ: <b>${words.map(w=>w[0]+'_'.repeat(w.length-1)).join(' ')}</b></div>
+      </div>
+      <div class="mt-4 p-3 bg-white border-2 border-dashed rounded-xl" id="th2enBoard">
+        <div class="flex flex-wrap gap-2 justify-center" id="th2enSlots"></div>
+      </div>
+      <div class="mt-3 flex flex-wrap gap-1.5 justify-center" id="th2enLetters"></div>
+      <div class="mt-3 flex gap-2">
+        <button onclick="clearTh2en()" class="px-4 py-2 rounded-xl border text-sm">ล้าง</button>
+        <button onclick="checkTh2en()" class="flex-1 py-2 rounded-xl bg-indigo-600 text-white text-sm">ตรวจ</button>
+        <button onclick="renderTh2en()" class="px-4 py-2 rounded-xl border text-sm">ข้าม</button>
+      </div>
+      <div id="practiceFeedback" class="hidden mt-3 p-3 rounded-xl text-sm"></div>
+    </div>`;
+  function renderSlots(){
+    let board=document.getElementById('th2enSlots');
+    if(!board) return;
+    let html='';
+    let slotIdx=0;
+    words.forEach((w,wi)=>{
+      html+='<div class="flex gap-1">';
+      for(let ci=0; ci<w.length; ci++){
+        let ch=w[ci];
+        if(/[^a-zA-Z]/.test(ch)){
+          html+=`<span class="px-1 text-sm">${ch}</span>`;
+          continue;
+        }
+        if(ci===0){
+          html+=`<div class="w-8 h-9 rounded bg-indigo-600 text-white flex items-center justify-center font-bold">${ch}</div>`;
+        } else {
+          let filled = th2enAnswer[slotIdx];
+          let boxClass = filled ? 'bg-ink text-white' : 'bg-white border border-dashed';
+          html+=`<div onclick="removeTh2enLetterBySlot(${slotIdx})" class="w-8 h-9 rounded flex items-center justify-center font-semibold cursor-pointer ${boxClass}">${filled?filled:'_'}</div>`;
+          slotIdx++;
+        }
+      }
+      html+='</div>';
+    });
+    board.innerHTML=html;
+  }
+  window.renderTh2enSlots = renderSlots;
+  document.getElementById('th2enLetters').innerHTML=th2enLetters.map((ch,i)=>`<button onclick="pickTh2enLetter(${i})" data-tidx="${i}" class="w-9 h-9 rounded-lg bg-white border font-outfit font-semibold hover:bg-indigo-50">${ch}</button>`).join('');
+  window.renderTh2enSlots();
+}
+function pickTh2enLetter(i){
+  let btn=document.querySelector(`[data-tidx="${i}"]`);
+  if(!btn || btn.disabled) return;
+  // หาช่องว่างถัดไป
+  let slotIdx = th2enAnswer.findIndex(v=>v===null);
+  if(slotIdx===-1) return;
+  th2enAnswer[slotIdx]=th2enLetters[i];
+  // เก็บ mapping เพื่อลบได้
+  if(!window._th2enPickMap) window._th2enPickMap={};
+  window._th2enPickMap[slotIdx]=i;
+  btn.disabled=true; btn.classList.add('opacity-40');
+  window.renderTh2enSlots();
+  if(th2enAnswer.every(v=>v!==null)) setTimeout(checkTh2en, 400);
+}
+function removeTh2enLetterBySlot(slotIdx){
+  let ch=th2enAnswer[slotIdx];
+  if(ch===null) return;
+  th2enAnswer[slotIdx]=null;
+  let pickIdx=window._th2enPickMap[slotIdx];
+  let btn=document.querySelector(`[data-tidx="${pickIdx}"]`);
+  if(btn){ btn.disabled=false; btn.classList.remove('opacity-40'); }
+  delete window._th2enPickMap[slotIdx];
+  window.renderTh2enSlots();
+}
+function removeTh2enLetter(pos){
+  // legacy for old pills - not used now
+  removeTh2enLetterBySlot(pos);
+}
+function renderTh2enAnswer(){
+  // legacy - now handled by renderSlots
+}
+function clearTh2en(){
+  th2enAnswer=Array(window._th2enSlots.length).fill(null);
+  window._th2enPickMap={};
+  document.querySelectorAll('[data-tidx]').forEach(b=>{ b.disabled=false; b.classList.remove('opacity-40'); });
+  window.renderTh2enSlots();
+}
+function checkTh2en(){
+  if(th2enAnswer.some(v=>v===null)){
+    let fb=document.getElementById('practiceFeedback'); fb.classList.remove('hidden');
+    fb.className='mt-3 p-3 rounded-xl text-sm bg-amber-50 border border-amber-200 text-amber-700';
+    fb.textContent='เรียงตัวอักษรให้ครบก่อนนะ';
+    return;
+  }
+  let built = th2enAnswer.join('').toLowerCase();
+  let target = window._th2enSlots.map(s=>s.char).join('').toLowerCase();
+  let ok = built===target && built.length>0;
+  practiceTotal++; if(ok) practiceScore++;
+  let fb=document.getElementById('practiceFeedback'); fb.classList.remove('hidden');
+  if(ok){
+    fb.className='mt-3 p-3 rounded-xl text-sm bg-emerald-50 border border-emerald-200 text-emerald-700';
+    fb.innerHTML='ถูกต้อง! — '+practiceCurrent.phrase+'<br><span class="text-xs">'+practiceCurrent.meaning_th+'</span>';
+    addXp(15); updateBadgesTop(); recordGamePlay('th2en', 1, 1);
+    let _isDailyTh=isDailyLessonActive();
+    if(_isDailyTh){
+      dailyTh2enDone.add(practiceCurrent.id); saveDaily(); renderDailyLesson();
+      if(dailyTh2enDone.size>=getDailyPool().length){ markDailyGameComplete('th2en'); return; }
+    } else {
+      markDailyGameComplete('th2en');
+    }
+    if(!(isDailyLessonActive() && dailyTh2enDone.size>=getDailyPool().length)) setTimeout(renderTh2en, 1200);
+  } else {
+    fb.className='mt-3 p-3 rounded-xl text-sm bg-red-50 border border-red-200 text-red-700';
+    fb.innerHTML='ยังไม่ถูก — ที่ถูกคือ: <b>'+practiceCurrent.phrase+'</b><br><span class="text-xs">ลองเรียงใหม่นะ</span>';
+    recordGamePlay('th2en', 0, 1);
+    // ไม่ auto ไปข้อใหม่ ให้ผู้ใช้กดล้างแล้วลองใหม่
+  }
+}
+let matchPairs=[], matchSelected=[], matchMatched=0, matchNeed=6;
+function renderMatch(){
+  let _poolM = isDailyLessonActive() ? getDailyPool() : null;
+  let picks=_poolM ? _poolM.slice(0,5) : activeStudyPool().slice().sort(()=>0.5-Math.random()).slice(0,6);
+  matchNeed=picks.length;
+  matchPairs=[];
+  picks.forEach(p=>{ matchPairs.push({type:'en', text:p.phrase, id:p.id}); matchPairs.push({type:'th', text:p.meaning_th, id:p.id}); });
+  matchPairs.sort(()=>0.5-Math.random());
+  matchMatched=0; matchSelected=[];
+  let _need = picks.length;
+  document.getElementById('practiceArea').innerHTML=`
+    <div class="w-full max-w-[560px]">
+      <div class="flex justify-between text-base items-center gap-2"><span class="font-semibold">จับคู่${_poolM?' • วันนี้':''}</span><span id="matchTimer" class="font-bold text-amber-600">60s</span><span id="matchScore">${matchMatched}/${_need} คู่</span></div>
+      <div class="mt-3 grid grid-cols-3 gap-2" id="matchGrid"></div>
+      <div id="practiceFeedback" class="hidden mt-3 p-3 rounded-xl text-sm"></div>
+    </div>`;
+  document.getElementById('matchGrid').innerHTML=matchPairs.map((m,i)=>`<button onclick="pickMatch(${i})" data-idx="${i}" class="p-3 rounded-xl border bg-white text-sm font-medium hover:bg-slate-50 min-h-[72px]">${m.text}</button>`).join('');
+  clearInterval(matchTimer);
+  let t=60;
+  let _need2=_need;
+  matchTimer=setInterval(()=>{
+    t--; document.getElementById('matchTimer').textContent=t+'s';
+    if(t<=0){
+      clearInterval(matchTimer);
+      let fb=document.getElementById('practiceFeedback');
+      fb.classList.remove('hidden');
+      addXp(matchMatched*5);
+      if(_poolM && matchMatched===_need2){ markDailyGameComplete('match'); fb.textContent='หมดเวลา แต่จับครบแล้ว! +'+(matchMatched*5)+' XP'; }
+      else { fb.innerHTML='หมดเวลา! ได้ '+matchMatched+'/'+_need2+' คู่ • +'+(matchMatched*5)+' XP<br><button onclick="renderMatch()" class="mt-3 px-4 py-2 rounded-xl bg-ink text-white text-sm">เล่นอีกครั้ง</button>'; }
+    }
+  },1000);
+}
+function pickMatch(idx){
+  if(matchSelected.includes(idx)) return;
+  let btn=document.querySelector(`[data-idx="${idx}"]`);
+  btn.classList.add('bg-indigo-100','border-indigo-300');
+  matchSelected.push(idx);
+  if(matchSelected.length===2){
+    let a=matchPairs[matchSelected[0]], b=matchPairs[matchSelected[1]];
+    let ok=a.id===b.id && a.type!==b.type;
+    setTimeout(()=>{
+      if(ok){
+        matchMatched++;
+        matchSelected.forEach(i=>{ let el=document.querySelector(`[data-idx="${i}"]`); el.className='p-3 rounded-xl border bg-emerald-50 border-emerald-300 text-sm min-h-[72px] opacity-60'; el.onclick=null; });
+        document.getElementById('matchScore').textContent=matchMatched+'/'+matchNeed+' คู่';
+        if(matchMatched===matchNeed){ clearInterval(matchTimer); addXp(30); recordGamePlay('match', matchNeed, matchNeed); document.getElementById('practiceFeedback').classList.remove('hidden'); document.getElementById('practiceFeedback').className='mt-3 p-3 rounded-xl text-sm bg-emerald-50 border text-emerald-700'; document.getElementById('practiceFeedback').textContent='ครบ '+matchNeed+' คู่ เก่งมาก! +30 XP'; updateBadgesTop(); markDailyGameComplete('match'); }
+      } else {
+        matchSelected.forEach(i=>{ let el=document.querySelector(`[data-idx="${i}"]`); el.classList.remove('bg-indigo-100','border-indigo-300'); });
+      }
+      matchSelected=[];
+    },500);
+  }
+}
+let builderWords=[], builderAnswer=[];
+function renderBuilder(){
+  let _poolB = isDailyLessonActive() ? getDailyPool() : null;
+  if(_poolB){
+    let remaining = _poolB.filter(x=> !dailyBuilderDone.has(x.id));
+    if(remaining.length===0){
+      document.getElementById('practiceArea').innerHTML=`<div class="w-full max-w-[560px] text-center py-8"><div class="text-4xl">🎉</div><div class="font-semibold mt-2">Builder ครบ 5 คำแล้ว!</div><div class="text-sm text-muted">ผ่านด่านนี้แล้ว</div></div>`;
+      markDailyGameComplete('builder');
+      return;
+    }
+    var it = remaining[Math.floor(Math.random()*remaining.length)];
+  } else {
+    let _srcB=activeStudyPool();
+    var it = _srcB[Math.floor(Math.random()*_srcB.length)];
+  }
+  practiceCurrent=it;
+  let isWordBuilder = (it.kind||'idiom')==='word';
+  let _isDailyB = !!_poolB;
+  let _headerB = _isDailyB ? `${dailyBuilderDone.size}/5 คำ ✓` : '';
+  if(isWordBuilder){
+    let lemma=(it.lemma||it.phrase).toLowerCase().replace(/[^a-z]/g,'');
+    builderWords=lemma.split('').sort(()=>0.5-Math.random());
+    builderAnswer=[];
+    document.getElementById('practiceArea').innerHTML=`
+      <div class="w-full max-w-[560px]">
+        <div class="flex justify-between text-base"><span class="font-semibold">เรียงคำ${_isDailyB?' • วันนี้':''}</span><span>${_isDailyB?_headerB:''}</span></div>
+        <div class="mt-2 text-sm text-indigo-600 font-medium">${it.meaning_th} <span class="text-xs text-muted">[${it.pos||''} • ${it.level||''}]</span></div>
+        <div class="text-xs text-muted">${it.meaning_en}</div>
+        <div class="mt-4 min-h-[48px] p-3 bg-slate-50 rounded-xl border-2 border-dashed flex flex-wrap gap-1 justify-center" id="builderAnswer"></div>
+        <div class="mt-3 flex flex-wrap gap-1.5 justify-center" id="builderWords"></div>
+        <div class="mt-3 flex gap-2"><button onclick="checkBuilder()" class="flex-1 py-3 rounded-xl bg-indigo-600 text-white min-h-12">ตรวจ</button><button onclick="clearBuilderWord()" class="px-4 py-3 rounded-xl border min-h-12">ล้าง</button><button onclick="renderBuilder()" class="px-4 py-3 rounded-xl border min-h-12">สลับ</button></div>
+        <div id="practiceFeedback" class="hidden mt-3 p-3 rounded-xl text-sm"></div>
+      </div>`;
+    document.getElementById('builderAnswer').innerHTML=Array(builderWords.length).fill(0).map(()=>`<div class="w-8 h-9 rounded border-2 border-dashed bg-white flex items-center justify-center text-sm font-bold">_</div>`).join('');
+    document.getElementById('builderWords').innerHTML=builderWords.map((ch,i)=>`<button onclick="addWord(${i})" data-widx="${i}" class="w-11 h-11 rounded-lg bg-white border font-outfit font-bold hover:bg-indigo-50 text-base">${ch}</button>`).join('');
+  } else {
+    builderWords=it.phrase.split(' ').sort(()=>0.5-Math.random());
+    builderAnswer=[];
+    document.getElementById('practiceArea').innerHTML=`
+      <div class="w-full max-w-[560px]">
+        <div class="flex justify-between text-base"><span class="font-semibold">เรียงคำ${_isDailyB?' • วันนี้':''}</span><span>${_isDailyB?_headerB:''}</span></div>
+        <div class="mt-2 text-base text-muted">${it.meaning_th}</div>
+        <div class="mt-4 min-h-[48px] p-3 bg-slate-50 rounded-xl border-2 border-dashed flex flex-wrap gap-2" id="builderAnswer"></div>
+        <div class="mt-3 flex flex-wrap gap-2" id="builderWords"></div>
+        <div class="mt-3 flex gap-2"><button onclick="checkBuilder()" class="flex-1 py-3 rounded-xl bg-indigo-600 text-white min-h-12">ตรวจ</button><button onclick="renderBuilder()" class="px-4 py-3 rounded-xl border min-h-12">สลับ</button></div>
+        <div id="practiceFeedback" class="hidden mt-3 p-3 rounded-xl text-sm"></div>
+      </div>`;
+    document.getElementById('builderWords').innerHTML=builderWords.map((w,i)=>`<button onclick="addWord(${i})" data-widx="${i}" class="px-3.5 py-2.5 rounded-full bg-white border text-base font-outfit min-h-11">${w}</button>`).join('');
+  }
+}
+function clearBuilderWord(){
+  builderAnswer=[];
+  document.querySelectorAll('[data-widx]').forEach(b=>{ b.disabled=false; b.classList.remove('opacity-40'); });
+  let isWord=(practiceCurrent.kind||'idiom')==='word';
+  if(isWord){
+    document.getElementById('builderAnswer').innerHTML=Array(builderWords.length).fill(0).map(()=>`<div class="w-8 h-9 rounded border-2 border-dashed bg-white flex items-center justify-center text-sm font-bold">_</div>`).join('');
+  } else {
+    document.getElementById('builderAnswer').innerHTML='';
+  }
+  document.getElementById('practiceFeedback').classList.add('hidden');
+}
+function addWord(i){
+  let btn=document.querySelector(`[data-widx="${i}"]`);
+  if(!btn || btn.disabled) return;
+  builderAnswer.push({w: builderWords[i], idx: i});
+  btn.disabled=true; btn.classList.add('opacity-40');
+  let isWord=(practiceCurrent.kind||'idiom')==='word';
+  if(isWord){
+    let html=builderAnswer.map((o,idx)=>`<div onclick="removeWord(${idx})" class="w-8 h-9 rounded bg-ink text-white flex items-center justify-center text-sm font-bold cursor-pointer">${o.w}</div>`).join('');
+    let blanks=Array(Math.max(0, builderWords.length - builderAnswer.length)).fill(0).map(()=>`<div class="w-8 h-9 rounded border-2 border-dashed bg-white flex items-center justify-center text-sm font-bold">_</div>`).join('');
+    document.getElementById('builderAnswer').innerHTML=html+blanks;
+    if(builderAnswer.length===builderWords.length) setTimeout(checkBuilder, 400);
+  } else {
+    document.getElementById('builderAnswer').innerHTML=builderAnswer.map((o,idx)=>`<span onclick="removeWord(${idx})" class="px-3 py-1 rounded-full bg-ink text-white text-sm cursor-pointer">${o.w} ×</span>`).join('');
+    if(builderAnswer.length===builderWords.length) setTimeout(checkBuilder, 400);
+  }
+}
+function removeWord(idx){
+  let o=builderAnswer.splice(idx,1)[0];
+  let btn=document.querySelector(`[data-widx="${o.idx}"]`);
+  if(btn){ btn.disabled=false; btn.classList.remove('opacity-40'); }
+  let isWord=(practiceCurrent.kind||'idiom')==='word';
+  if(isWord){
+    let html=builderAnswer.map((o,i)=>`<div onclick="removeWord(${i})" class="w-8 h-9 rounded bg-ink text-white flex items-center justify-center text-sm font-bold cursor-pointer">${o.w}</div>`).join('');
+    let blanks=Array(Math.max(0, builderWords.length - builderAnswer.length)).fill(0).map(()=>`<div class="w-8 h-9 rounded border-2 border-dashed bg-white flex items-center justify-center text-sm font-bold">_</div>`).join('');
+    document.getElementById('builderAnswer').innerHTML=html+blanks;
+  } else {
+    document.getElementById('builderAnswer').innerHTML=builderAnswer.map((o,i)=>`<span onclick="removeWord(${i})" class="px-3 py-1 rounded-full bg-ink text-white text-sm cursor-pointer">${o.w} ×</span>`).join('');
+  }
+}
+function checkBuilder(){
+  let isWord=(practiceCurrent.kind||'idiom')==='word';
+  let ans, ok;
+  if(isWord){
+    ans=builderAnswer.map(o=>o.w).join('').toLowerCase();
+    let target=(practiceCurrent.lemma||practiceCurrent.phrase).toLowerCase().replace(/[^a-z]/g,'');
+    ok=ans===target && ans.length===target.length;
+  } else {
+    ans=builderAnswer.map(o=>o.w).join(' ');
+    ok=normalizeAnswer(ans)===normalizeAnswer(practiceCurrent.phrase);
+  }
+  let fb=document.getElementById('practiceFeedback'); fb.classList.remove('hidden');
+  fb.className='mt-3 p-3 rounded-xl text-sm '+(ok?'bg-emerald-50 border text-emerald-700':'bg-red-50 border text-red-700');
+  fb.textContent= ok? 'ถูกต้อง!':'ต้องเรียง: '+practiceCurrent.phrase;
+  if(ok){
+    addXp(10); updateBadgesTop(); recordGamePlay('builder', 1, 1);
+    let _isDailyB=isDailyLessonActive();
+    if(_isDailyB){
+      dailyBuilderDone.add(practiceCurrent.id); saveDaily(); renderDailyLesson();
+      if(dailyBuilderDone.size>=getDailyPool().length){ markDailyGameComplete('builder'); return; }
+    } else {
+      markDailyGameComplete('builder');
+    }
+    if(!(isDailyLessonActive() && dailyBuilderDone.size>=getDailyPool().length)) setTimeout(renderBuilder,1200);
+  } else {
+    recordGamePlay('builder', 0, 1);
+  }
+}
+
+// EXPLORE
+let _debounceTimer=null;
+function debouncedExplore(){
+  clearTimeout(_debounceTimer);
+  _debounceTimer=setTimeout(renderExplore, 180);
+}
+function renderExplore(){
+  let q=document.getElementById('searchInput').value.toLowerCase();
+  let cat=document.getElementById('filterCategory').value;
+  let diff=document.getElementById('filterDiff').value;
+  let kind=document.getElementById('filterKind')?.value || '';
+  let level=document.getElementById('filterLevel')?.value || '';
+  let statusFilter=document.getElementById('filterStatus')?.value || '';
+  let sortBy=document.getElementById('filterSort')?.value || '';
+  let source=statusFilter==='hidden' ? allIdioms.filter(i=>vocabHidden.has(i.id)) : idioms;
+  let filtered=source.filter(i=>{
+    if(q && !(String(i.phrase||'').toLowerCase().includes(q) || (i.lemma&&i.lemma.toLowerCase().includes(q)) || String(i.meaning_th||'').includes(q) || String(i.meaning_en||'').toLowerCase().includes(q) || String(i.category_th||'').includes(q) || String(i.keyword||'').toLowerCase().includes(q))) return false;
+    if(cat && i.category!==cat) return false;
+    if(diff && String(i.difficulty)!==diff) return false;
+    if(kind && (i.kind||'idiom')!==kind) return false;
+    if(level && i.level!==level) return false;
+    if(statusFilter==='hidden') return vocabHidden.has(i.id);
+    let p=progress[i.id];
+    if(statusFilter==='new' && p && p.state!=='new') return false;
+    if(statusFilter==='new' && !p) return true;
+    if(statusFilter==='known' && p?.state!=='known') return false;
+    if(statusFilter==='learning' && (!p || p.state==='new' || p.state==='known')) return false;
+    return true;
+  });
+  if(sortBy==='diffAsc') filtered.sort((a,b)=>(a.difficulty||1)-(b.difficulty||1));
+  if(sortBy==='diffDesc') filtered.sort((a,b)=>(b.difficulty||1)-(a.difficulty||1));
+  if(sortBy==='alpha') filtered.sort((a,b)=>String(a.phrase||'').localeCompare(String(b.phrase||'')));
+  if(sortBy==='freq') filtered.sort((a,b)=>(b.frequency||0)-(a.frequency||0));
+  if(sortBy==='recent') filtered.sort((a,b)=> (progress[b.id]?.last||0)-(progress[a.id]?.last||0));
+  document.getElementById('exploreCount').textContent=filtered.length+' รายการ' + (vocabHidden.size? ` • ลบแล้ว ${vocabHidden.size}`:'') + (oxfordEnabled? ` (รวม Oxford/CUSTOM)` : '');
+  let st=document.getElementById('oxfordStatus');
+  if(st){
+    let base=baseIdioms.length, ox=oxfordPool.length, cus=customVocab.length;
+    st.textContent= oxfordEnabled ? `เปิดอยู่ — ${base}+${ox}+${cus}=${idioms.length}` : `ปิดอยู่ — ${base}+${cus}=${idioms.length} (เปิด Oxford เพิ่ม ${ox})`;
+  }
+  let cb=document.getElementById('toggleOxford');
+  if(cb) cb.checked=oxfordEnabled;
+  document.getElementById('exploreGrid').innerHTML=filtered.slice(0,200).map(i=>{
+    let p=progress[i.id];
+    let isHidden=vocabHidden.has(i.id);
+    let isKnown=p?.state==='known';
+    let status=isHidden? '<span class="text-xs bg-slate-200 text-slate-700 px-2 py-1 rounded-full">ลบแล้ว</span>' : isKnown? '<span class="text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full">รู้แล้ว ✓</span>' : !p? '<span class="text-xs bg-slate-100 px-2 py-1 rounded-full">ยังไม่เรียน</span>' : p.state==='review' && p.stability>=7? '<span class="text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full">Mastered</span>' : '<span class="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded-full">กำลังทบทวน</span>';
+    let kindLabel=i.kind==='word' ? `<span class="text-xs px-2 py-1 bg-violet-100 text-violet-700 rounded-full">${escHtml(i.pos||'word')} • ${escHtml(i.level||'')}</span>` : i.kind==='sentence' ? `<span class="text-xs px-2 py-1 bg-teal-100 text-teal-700 rounded-full">ประโยค • ${escHtml(catLabel(i))}</span>` : `<span class="text-xs px-2 py-1 bg-indigo-50 text-indigo-700 rounded-full">${escHtml(catLabel(i))}</span>`;
+    let mnemo=usesMnemonic(i) && i.mnemonic ? i.mnemonic.slice(0,90) : '';
+    let speakArg=String(i.phrase||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+    let knownBtn = isHidden ? '' : isKnown
+      ? `<button onclick="markAsKnown('${i.id}')" class="text-sm px-3 py-2 rounded-full bg-white border border-emerald-300 text-emerald-700 min-h-11">เลิกรู้แล้ว</button>`
+      : `<button onclick="markAsKnown('${i.id}')" class="text-sm px-3 py-2 rounded-full bg-emerald-600 text-white hover:bg-emerald-700 min-h-11">รู้แล้ว</button>`;
+    let learnBtn = isHidden || isKnown ? '' : !p
+      ? `<button onclick="quickAdd('${i.id}')" class="text-sm px-3 py-2 rounded-full bg-indigo-600 text-white hover:bg-indigo-700 min-h-11">เรียนรู้</button>`
+      : `<button onclick="quickAdd('${i.id}')" class="text-sm px-3 py-2 rounded-full bg-amber-500 text-white hover:bg-amber-600 min-h-11">ทบทวน</button>`;
+    let manageBtns = isHidden
+      ? `<button onclick="restoreVocab('${i.id}')" class="text-sm px-3 py-2 rounded-full bg-ink text-white min-h-11">กู้คืน</button>`
+      : `<button onclick="openVocabEditor('${i.id}')" class="text-sm px-3 py-2 rounded-full border bg-white min-h-11">แก้ไข</button>
+         <button onclick="deleteVocab('${i.id}')" class="text-sm px-3 py-2 rounded-full border bg-white text-red-600 min-h-11">ลบ</button>`;
+    return `<div class="bg-white border border-slate-200 rounded-2xl p-4 hover:shadow ${isKnown||isHidden?'opacity-60':''}">
+      <div class="flex items-start justify-between gap-2">
+        <div><div class="font-outfit font-bold text-lg">${escHtml(i.phrase)}</div><div class="text-sm text-muted">${escHtml(i.phonetic||'')}</div></div>
+        ${status}
+      </div>
+      <div class="mt-1">${kindLabel}</div>
+      <div class="text-base font-medium text-indigo-600 mt-2">${escHtml(i.meaning_th)}</div>
+      ${mnemo? `<div class="mt-2 text-sm bg-amber-50 border border-amber-200 rounded-xl p-2.5">${escHtml(mnemo)}</div>`:''}
+      <div class="mt-3 flex flex-wrap gap-2">
+        <button onclick="speak('${speakArg}')" class="text-sm px-3 py-2 rounded-full border bg-white min-h-11"><i class="fa-solid fa-volume-high"></i></button>
+        ${learnBtn}
+        ${knownBtn}
+        ${manageBtns}
+      </div>
+    </div>`;
+  }).join('') || '<div class="col-span-2 text-center text-muted py-8">ไม่พบรายการ — ลองเปลี่ยน filter หรือ Import คำใหม่</div>';
+  if(filtered.length>200) document.getElementById('exploreGrid').innerHTML+=`<div class="col-span-2 text-center text-xs text-muted py-2">แสดง 200 จาก ${filtered.length} — พิมพ์ค้นหาให้แคบลง</div>`;
+}
+function quickAdd(id){
+  let p=ensureProgress(id);
+  if(p.state==='new'){ p.state='learning'; p.due=Date.now(); p.stability=0.5; save(); showToast('เพิ่มเข้า SRS แล้ว ไปหน้า ทบทวนได้เลย'); switchTab('review'); }
+  else { p.due=Date.now(); save(); switchTab('review'); }
+}
+
+// STATS
+function renderStats(){
+  document.getElementById('statTotalReviews').textContent=history.length;
+  let good=history.filter(h=> typeof h.correct==='boolean' ? h.correct : h.grade>=3).length;
+  document.getElementById('statAccuracy').textContent= history.length? Math.round(good/history.length*100)+'%':'0%';
+  let stabs=Object.values(progress).map(p=>p.stability).filter(s=>s>0);
+  let avg=stabs.length? (stabs.reduce((a,b)=>a+b,0)/stabs.length).toFixed(1):0;
+  document.getElementById('statAvgStability').textContent=avg+' วัน';
+  let learnedN=Object.values(progress).filter(p=>p.reps>0 || p.state!=='new').length;
+  let masteredN=Object.values(progress).filter(p=>p.state==='review' && p.stability>=7).length;
+  let knownN=Object.values(progress).filter(p=>p.state==='known').length;
+  document.getElementById('statLearned').textContent=learnedN;
+  document.getElementById('statMastered').textContent=masteredN;
+  document.getElementById('statKnown').textContent=knownN;
+  document.getElementById('levelBadge').textContent=stats.level||1;
+  document.getElementById('levelName').textContent=levelNames[(stats.level||1)-1]||'Master';
+  let nextXp=(stats.level||1)*200;
+  document.getElementById('xpProgress').textContent=stats.xp+' / '+nextXp+' XP → Lv.'+((stats.level||1)+1);
+  document.getElementById('xpBar').style.width= Math.min(100, (stats.xp%200)/200*100)+'%';
+  // heatmap
+  let heat=document.getElementById('heatmap'); heat.innerHTML='';
+  let today=new Date();
+  let counts={};
+  history.forEach(h=>{ let d=new Date(h.time).toDateString(); counts[d]=(counts[d]||0)+1; });
+  for(let i=29;i>=0;i--){
+    let d=new Date(today); d.setDate(d.getDate()-i);
+    let key=d.toDateString();
+    let c=counts[key]||0;
+    let intensity=c===0? 'bg-slate-100': c<3? 'bg-emerald-200': c<6? 'bg-emerald-400':'bg-emerald-600';
+    let cell=document.createElement('div');
+    cell.className=`heatmap-cell w-7 h-7 rounded-md ${intensity} flex items-center justify-center text-[10px] ${c>=3?'text-white':''}`;
+    cell.title=key+' : '+c+' ครั้ง';
+    cell.textContent=c||'';
+    heat.appendChild(cell);
+  }
+  // weak map - use category_th for display
+  let byCat={};
+  idioms.forEach(i=>{
+    let p=progress[i.id];
+    if(!p) return;
+    let key=i.category;
+    if(!byCat[key]) byCat[key]={total:0, lapses:0, label:catLabel(i)};
+    byCat[key].total++;
+    byCat[key].lapses+=p.lapses||0;
+  });
+  document.getElementById('weakMap').innerHTML=Object.entries(byCat).map(([cat,v])=>{
+    let pct=v.total? Math.round(v.lapses/v.total*100):0;
+    let color=pct>50?'bg-red-500':pct>20?'bg-amber-500':'bg-emerald-500';
+    return `<div class="border rounded-xl p-3 bg-white"><div class="text-sm font-semibold">${v.label}</div><div class="text-xs text-muted">${v.total} ตัว • ตก ${v.lapses} ครั้ง</div><div class="mt-2 h-2 bg-slate-100 rounded-full"><div class="h-2 rounded-full ${color}" style="width:${Math.min(100,pct)}%"></div></div></div>`;
+  }).join('') || '<div class="text-sm text-muted">ยังไม่มีข้อมูล</div>';
+
+  // weak items — ตกบ่อยที่สุด
+  let weakArr=Object.entries(progress).filter(([id,p])=> (p.lapses||0)>=2 && idioms.some(i=>i.id===id)).sort((a,b)=>b[1].lapses-a[1].lapses).slice(0,10);
+  document.getElementById('weakItems').innerHTML= weakArr.length? weakArr.map(([id,p])=>{
+    let it=idioms.find(i=>i.id===id);
+    let lapses=p.lapses||0;
+    return `<div class="flex justify-between items-center gap-2 border rounded-xl px-3 py-2 bg-white dark:bg-slate-800">
+      <div class="min-w-0"><div class="font-medium break-words">${escHtml(it?it.phrase:id)}</div><div class="text-xs text-muted break-words">${escHtml(it?it.meaning_th:'')}</div></div>
+      <div class="flex items-center gap-2 shrink-0">
+        <span class="text-xs bg-red-50 text-red-600 px-2 py-1 rounded-full whitespace-nowrap">${lapses} ครั้ง</span>
+        <button onclick="relearnLeech('${id}')" class="text-xs px-3 py-1.5 rounded-full bg-red-600 text-white min-h-9 whitespace-nowrap">เรียนใหม่</button>
+      </div>
+    </div>`;
+  }).join('') : '<div class="text-sm text-muted">เก่งมาก! ไม่มีรายการที่ตกบ่อยเลย</div>';
+
+  document.getElementById('badges').innerHTML=`
+    <div class="p-2 rounded-xl ${stats.streak>=7?'bg-amber-100 border-amber-300':'bg-slate-50'} border"><div class="text-lg">🔥</div><div>7 วัน</div><div class="text-[10px]">${stats.streak>=7?'ปลดล็อก':'ล็อก'}</div></div>
+    <div class="p-2 rounded-xl bg-sky-100 border-sky-300 border text-sky-900"><div class="text-lg">❄️</div><div>${stats.streakFreezes??1} โล่</div><div class="text-[10px]">Streak Freeze</div></div>
+    <div class="p-2 rounded-xl ${history.length>=50?'bg-indigo-100':'bg-slate-50'} border"><div class="text-lg">📚</div><div>50 ครั้ง</div></div>
+    <div class="p-2 rounded-xl ${(stats.xp||0)>=500?'bg-emerald-100':'bg-slate-50'} border"><div class="text-lg">🏆</div><div>500 XP</div></div>
+  `;
+}
+function updateBadgesTop(){ renderToday(); renderStats(); }
+function exportData(){
+  let data={progress,history,stats,settings,dailyLessonIds,dailyLessonDate,dailyGameProgress,dailyClozeDone:[...dailyClozeDone],dailyScenarioDone:[...dailyScenarioDone],dailyBuilderDone:[...dailyBuilderDone],dailyTh2enDone:[...dailyTh2enDone],customVocab,vocabEdits,vocabHidden:[...vocabHidden],gameStats,exportedAt:new Date().toISOString(),version:5};
+  let blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+  let a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='idiom-master-export.json'; a.click();
+}
+function importData(e){
+  let file=e.target.files[0]; if(!file) return;
+  let r=new FileReader();
+  r.onload=()=>{
+    try{
+      let d=JSON.parse(r.result);
+      if(d.progress) progress=d.progress;
+      if(d.history) history=d.history;
+      if(d.stats) stats=d.stats;
+      if(d.settings) settings=d.settings;
+      if(d.dailyLessonIds) dailyLessonIds=d.dailyLessonIds;
+      if(d.dailyLessonDate) dailyLessonDate=d.dailyLessonDate;
+      if(d.dailyGameProgress) dailyGameProgress=d.dailyGameProgress;
+      if(d.dailyClozeDone) dailyClozeDone=new Set(d.dailyClozeDone);
+      if(d.dailyScenarioDone) dailyScenarioDone=new Set(d.dailyScenarioDone);
+      if(d.dailyBuilderDone) dailyBuilderDone=new Set(d.dailyBuilderDone);
+      if(d.dailyTh2enDone) dailyTh2enDone=new Set(d.dailyTh2enDone);
+      if(d.customVocab) customVocab=d.customVocab;
+      if(d.vocabEdits) vocabEdits=d.vocabEdits;
+      if(d.vocabHidden) vocabHidden=new Set(d.vocabHidden);
+      if(d.gameStats) gameStats=d.gameStats;
+      save(); saveDaily(); saveCustomVocab(); saveVocabMeta(); rebuildIdioms(); populateCategoryFilter(); renderAll(); showToast('นำเข้าข้อมูลสำเร็จ!');
+    }catch(err){ alert('ไฟล์ไม่ถูกต้อง: '+err.message); }
+  };
+  r.readAsText(file);
+}
+function resetProgress(){
+  if(!confirm('รีเซ็ตความคืบหน้าทั้งหมด?')) return;
+  progress={}; history=[]; stats={xp:0,streak:0,lastStudyDate:null,level:1,xpToday:0,xpTodayDate:null};
+  gameStats={};
+  try{ localStorage.setItem('idiom_game_stats','{}'); }catch(e){}
+  dailyLessonIds=[]; dailyLessonDate=''; dailyGameProgress={cloze:false,scenario:false,match:false,builder:false};
+  dailyClozeDone=new Set(); dailyScenarioDone=new Set(); dailyBuilderDone=new Set(); dailyTh2enDone=new Set();
+  localStorage.removeItem('daily_lesson_ids'); localStorage.removeItem('daily_lesson_date'); localStorage.removeItem('daily_game_progress');
+  localStorage.removeItem('daily_cloze_done'); localStorage.removeItem('daily_scenario_done'); localStorage.removeItem('daily_builder_done'); localStorage.removeItem('daily_th2en_done');
+  save(); renderAll(); showToast('รีเซ็ตแล้ว');
+}
+async function forceClearAppCache() {
+  if (!confirm('ต้องการล้างแคชเพื่อดึงข้อมูลสำนวนและคำศัพท์เวอร์ชันล่าสุดใช่หรือไม่?')) return;
+  try {
+    if ('serviceWorker' in navigator) {
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      for (const reg of registrations) {
+        await reg.unregister();
+      }
+    }
+    if ('caches' in window) {
+      const keys = await caches.keys();
+      for (const key of keys) {
+        await caches.delete(key);
+      }
+    }
+    localStorage.removeItem('idioms_fallback');
+    alert('ล้างแคชเรียบร้อยแล้ว กำลังโหลดข้อมูลใหม่...');
+    window.location.reload(true);
+  } catch (e) {
+    console.error('Clear cache failed:', e);
+    window.location.reload();
+  }
+}
+init().then(()=>{
+  let h=location.hash.replace('#','');
+  if(h && document.getElementById('tab-'+h)) switchTab(h);
+});
+if(location.protocol.startsWith('http') && 'serviceWorker' in navigator){
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    console.log('[PWA] Controller changed, reloading page...');
+    window.location.reload();
+  });
+  window.addEventListener('load', ()=> {
+    // ใช้ absolute path เพื่อให้ scope = "/" ทั้ง dev และ prod (dist)
+    navigator.serviceWorker.register('/sw.js', {scope: '/'}).then(reg=>{
+      console.log('[PWA] SW registered', reg.scope);
+      if (reg.waiting) {
+        reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+      }
+    }).catch(err=> console.log('[PWA] SW fail', err));
+  });
+} else {
+  console.log('[PWA] Skip SW on file://');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "mate",
+    "pos": "noun",
+    "meaning_th": "เพื่อน"
+  },
+  {
+    "lemma": "material",
+    "pos": "noun",
+    "meaning_th": "วัสดุ"
+  },
+  {
+    "lemma": "mathematics",
+    "pos": "noun",
+    "meaning_th": "คณิตศาสตร์"
+  },
+  {
+    "lemma": "matter",
+    "pos": "noun",
+    "meaning_th": "วัตถุ"
+  },
+  {
+    "lemma": "maximum",
+    "pos": "noun",
+    "meaning_th": "สูงสุด"
+  },
+  {
+    "lemma": "may",
+    "pos": "verb",
+    "meaning_th": "อาจจะ / ขออนุญาต"
+  },
+  {
+    "lemma": "May",
+    "pos": "verb",
+    "meaning_th": "อาจ"
+  },
+  {
+    "lemma": "maybe",
+    "pos": "adverb",
+    "meaning_th": "อาจจะ"
+  },
+  {
+    "lemma": "mayor",
+    "pos": "noun",
+    "meaning_th": "นายกเทศมนตรี"
+  },
+  {
+    "lemma": "me",
+    "pos": "pronoun",
+    "meaning_th": "ฉัน"
+  },
+  {
+    "lemma": "meal",
+    "pos": "noun",
+    "meaning_th": "มื้อ"
+  },
+  {
+    "lemma": "mean",
+    "pos": "verb",
+    "meaning_th": "หมายถึง"
+  },
+  {
+    "lemma": "meaning",
+    "pos": "noun",
+    "meaning_th": "ความหมาย"
+  },
+  {
+    "lemma": "means",
+    "pos": "noun",
+    "meaning_th": "วิธี"
+  },
+  {
+    "lemma": "meanwhile",
+    "pos": "adverb",
+    "meaning_th": "ในขณะเดียวกัน"
+  },
+  {
+    "lemma": "measure",
+    "pos": "verb",
+    "meaning_th": "วัด"
+  },
+  {
+    "lemma": "measurement",
+    "pos": "noun",
+    "meaning_th": "การวัด"
+  },
+  {
+    "lemma": "meat",
+    "pos": "noun",
+    "meaning_th": "เนื้อ"
+  },
+  {
+    "lemma": "media",
+    "pos": "noun",
+    "meaning_th": "สื่อ"
+  },
+  {
+    "lemma": "medical",
+    "pos": "adjective",
+    "meaning_th": "ทางการแพทย์"
+  },
+  {
+    "lemma": "medicine",
+    "pos": "noun",
+    "meaning_th": "ยา"
+  },
+  {
+    "lemma": "medium",
+    "pos": "noun",
+    "meaning_th": "ปานกลาง"
+  },
+  {
+    "lemma": "meet",
+    "pos": "verb",
+    "meaning_th": "พบปะ"
+  },
+  {
+    "lemma": "meeting",
+    "pos": "noun",
+    "meaning_th": "การประชุม"
+  },
+  {
+    "lemma": "meet up",
+    "pos": "verb",
+    "meaning_th": "พบกัน"
+  },
+  {
+    "lemma": "meet with",
+    "pos": "verb",
+    "meaning_th": "พบกับ"
+  },
+  {
+    "lemma": "melt",
+    "pos": "verb",
+    "meaning_th": "ละลาย"
+  },
+  {
+    "lemma": "member",
+    "pos": "noun",
+    "meaning_th": "สมาชิก"
+  },
+  {
+    "lemma": "membership",
+    "pos": "noun",
+    "meaning_th": "สมาชิกภาพ"
+  },
+  {
+    "lemma": "memory",
+    "pos": "noun",
+    "meaning_th": "หน่วยความจำ"
+  },
+  {
+    "lemma": "mental",
+    "pos": "adjective",
+    "meaning_th": "จิต"
+  },
+  {
+    "lemma": "mentally",
+    "pos": "adjective",
+    "meaning_th": "ทางจิตใจ / ในทางความคิด"
+  },
+  {
+    "lemma": "mention",
+    "pos": "verb",
+    "meaning_th": "กล่าวถึง"
+  },
+  {
+    "lemma": "menu",
+    "pos": "noun",
+    "meaning_th": "เมนู"
+  },
+  {
+    "lemma": "mere",
+    "pos": "adjective",
+    "meaning_th": "เพียง"
+  },
+  {
+    "lemma": "merely",
+    "pos": "adverb",
+    "meaning_th": "เพียงแค่ / เท่านั้น"
+  },
+  {
+    "lemma": "mess",
+    "pos": "noun",
+    "meaning_th": "ความยุ่งเหยิง"
+  },
+  {
+    "lemma": "message",
+    "pos": "noun",
+    "meaning_th": "ข้อความ"
+  },
+  {
+    "lemma": "metal",
+    "pos": "noun",
+    "meaning_th": "โลหะ"
+  },
+  {
+    "lemma": "method",
+    "pos": "noun",
+    "meaning_th": "วิธี"
+  },
+  {
+    "lemma": "metre",
+    "pos": "noun",
+    "meaning_th": "เมตร"
+  },
+  {
+    "lemma": "mid-",
+    "pos": "noun",
+    "meaning_th": "กลาง-"
+  },
+  {
+    "lemma": "midday",
+    "pos": "noun",
+    "meaning_th": "เที่ยงวัน"
+  },
+  {
+    "lemma": "middle",
+    "pos": "noun",
+    "meaning_th": "กลาง"
+  },
+  {
+    "lemma": "midnight",
+    "pos": "noun",
+    "meaning_th": "เที่ยงคืน"
+  },
+  {
+    "lemma": "might",
+    "pos": "verb",
+    "meaning_th": "อาจ"
+  },
+  {
+    "lemma": "mild",
+    "pos": "adjective",
+    "meaning_th": "อ่อน"
+  },
+  {
+    "lemma": "mile",
+    "pos": "noun",
+    "meaning_th": "ไมล์"
+  },
+  {
+    "lemma": "military",
+    "pos": "adjective",
+    "meaning_th": "ทหาร"
+  },
+  {
+    "lemma": "milk",
+    "pos": "noun",
+    "meaning_th": "น้ำนม"
+  }
+]

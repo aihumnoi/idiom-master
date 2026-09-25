@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "ingredient",
+    "pos": "noun",
+    "meaning_th": "วัตถุดิบ"
+  },
+  {
+    "lemma": "initial",
+    "pos": "adjective",
+    "meaning_th": "อักษรย่อ"
+  },
+  {
+    "lemma": "initially",
+    "pos": "adverb",
+    "meaning_th": "ในขั้นต้น / ในตอนแรก"
+  },
+  {
+    "lemma": "initiative",
+    "pos": "noun",
+    "meaning_th": "ความคิดริเริ่ม"
+  },
+  {
+    "lemma": "injure",
+    "pos": "verb",
+    "meaning_th": "ได้รับบาดเจ็บ"
+  },
+  {
+    "lemma": "injured",
+    "pos": "adjective",
+    "meaning_th": "ได้รับบาดเจ็บ"
+  },
+  {
+    "lemma": "injury",
+    "pos": "noun",
+    "meaning_th": "บาดเจ็บ"
+  },
+  {
+    "lemma": "ink",
+    "pos": "noun",
+    "meaning_th": "หมึก"
+  },
+  {
+    "lemma": "inner",
+    "pos": "adjective",
+    "meaning_th": "ภายใน"
+  },
+  {
+    "lemma": "innocent",
+    "pos": "adjective",
+    "meaning_th": "ผู้บริสุทธิ์"
+  },
+  {
+    "lemma": "insect",
+    "pos": "noun",
+    "meaning_th": "แมลง"
+  },
+  {
+    "lemma": "insert",
+    "pos": "verb",
+    "meaning_th": "แทรก"
+  },
+  {
+    "lemma": "inside",
+    "pos": "adjective",
+    "meaning_th": "ข้างใน"
+  },
+  {
+    "lemma": "insist",
+    "pos": "verb",
+    "meaning_th": "ยืนกราน"
+  },
+  {
+    "lemma": "insist on",
+    "pos": "noun",
+    "meaning_th": "ยืนกรานจะทำ / ดึงดัน"
+  },
+  {
+    "lemma": "insist on doing",
+    "pos": "verb",
+    "meaning_th": "ยืนกรานที่จะทำ"
+  },
+  {
+    "lemma": "install",
+    "pos": "verb",
+    "meaning_th": "ติดตั้ง"
+  },
+  {
+    "lemma": "instance",
+    "pos": "noun",
+    "meaning_th": "ตัวอย่าง"
+  },
+  {
+    "lemma": "instead",
+    "pos": "adverb",
+    "meaning_th": "แทน"
+  },
+  {
+    "lemma": "instead of",
+    "pos": "preposition",
+    "meaning_th": "แทน"
+  },
+  {
+    "lemma": "institute",
+    "pos": "noun",
+    "meaning_th": "สถาบัน"
+  },
+  {
+    "lemma": "institution",
+    "pos": "noun",
+    "meaning_th": "สถาบัน"
+  },
+  {
+    "lemma": "instruction",
+    "pos": "noun",
+    "meaning_th": "คำแนะนำ"
+  },
+  {
+    "lemma": "instrument",
+    "pos": "noun",
+    "meaning_th": "อุปกรณ์"
+  },
+  {
+    "lemma": "insult",
+    "pos": "verb",
+    "meaning_th": "สบประมาท"
+  },
+  {
+    "lemma": "insulting",
+    "pos": "adjective",
+    "meaning_th": "ดูถูก"
+  },
+  {
+    "lemma": "insurance",
+    "pos": "noun",
+    "meaning_th": "ประกันภัย"
+  },
+  {
+    "lemma": "intelligence",
+    "pos": "noun",
+    "meaning_th": "ปัญญา"
+  },
+  {
+    "lemma": "intelligent",
+    "pos": "adjective",
+    "meaning_th": "ฉลาด"
+  },
+  {
+    "lemma": "intend",
+    "pos": "verb",
+    "meaning_th": "ตั้งใจ"
+  },
+  {
+    "lemma": "intended",
+    "pos": "adjective",
+    "meaning_th": "ตั้งใจ"
+  },
+  {
+    "lemma": "intention",
+    "pos": "noun",
+    "meaning_th": "เจตนา"
+  },
+  {
+    "lemma": "interest",
+    "pos": "noun",
+    "meaning_th": "ความสนใจ"
+  },
+  {
+    "lemma": "interested",
+    "pos": "adjective",
+    "meaning_th": "สนใจ"
+  },
+  {
+    "lemma": "interesting",
+    "pos": "adjective",
+    "meaning_th": "น่าสนใจ"
+  },
+  {
+    "lemma": "interior",
+    "pos": "noun",
+    "meaning_th": "ภายใน"
+  },
+  {
+    "lemma": "internal",
+    "pos": "adjective",
+    "meaning_th": "ภายใน"
+  },
+  {
+    "lemma": "international",
+    "pos": "adjective",
+    "meaning_th": "ระหว่างประเทศ"
+  },
+  {
+    "lemma": "Internet",
+    "pos": "noun",
+    "meaning_th": "อินเทอร์เน็ต"
+  },
+  {
+    "lemma": "interpretation",
+    "pos": "noun",
+    "meaning_th": "การตีความ"
+  },
+  {
+    "lemma": "interrupt",
+    "pos": "verb",
+    "meaning_th": "ขัดจังหวะ"
+  },
+  {
+    "lemma": "interruption",
+    "pos": "noun",
+    "meaning_th": "การหยุดชะงัก"
+  },
+  {
+    "lemma": "interval",
+    "pos": "noun",
+    "meaning_th": "ช่วงเวลา"
+  },
+  {
+    "lemma": "interview",
+    "pos": "noun",
+    "meaning_th": "สัมภาษณ์"
+  },
+  {
+    "lemma": "into",
+    "pos": "preposition",
+    "meaning_th": "เข้าไปข้างใน"
+  },
+  {
+    "lemma": "introduce",
+    "pos": "verb",
+    "meaning_th": "แนะนำ"
+  },
+  {
+    "lemma": "introduction",
+    "pos": "noun",
+    "meaning_th": "การแนะนำ"
+  },
+  {
+    "lemma": "invent",
+    "pos": "verb",
+    "meaning_th": "ประดิษฐ์"
+  },
+  {
+    "lemma": "invention",
+    "pos": "noun",
+    "meaning_th": "สิ่งประดิษฐ์"
+  },
+  {
+    "lemma": "invest",
+    "pos": "verb",
+    "meaning_th": "ลงทุน"
+  }
+]

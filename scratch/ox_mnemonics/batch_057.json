@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "relatively",
+    "pos": "adverb",
+    "meaning_th": "ค่อนข้าง"
+  },
+  {
+    "lemma": "relax",
+    "pos": "verb",
+    "meaning_th": "ผ่อนคลาย"
+  },
+  {
+    "lemma": "relaxed",
+    "pos": "adjective",
+    "meaning_th": "ผ่อนคลาย"
+  },
+  {
+    "lemma": "relaxing",
+    "pos": "adjective",
+    "meaning_th": "ผ่อนคลาย"
+  },
+  {
+    "lemma": "release",
+    "pos": "verb",
+    "meaning_th": "ปล่อย"
+  },
+  {
+    "lemma": "relevant",
+    "pos": "adjective",
+    "meaning_th": "ที่เกี่ยวข้อง"
+  },
+  {
+    "lemma": "relief",
+    "pos": "noun",
+    "meaning_th": "การบรรเทา"
+  },
+  {
+    "lemma": "religion",
+    "pos": "noun",
+    "meaning_th": "ศาสนา"
+  },
+  {
+    "lemma": "religious",
+    "pos": "adjective",
+    "meaning_th": "เคร่งศาสนา"
+  },
+  {
+    "lemma": "rely",
+    "pos": "verb",
+    "meaning_th": "พึ่งพา"
+  },
+  {
+    "lemma": "rely on",
+    "pos": "noun",
+    "meaning_th": "พึ่งพา"
+  },
+  {
+    "lemma": "remain",
+    "pos": "verb",
+    "meaning_th": "ยังคง"
+  },
+  {
+    "lemma": "remaining",
+    "pos": "adjective",
+    "meaning_th": "ที่เหลืออยู่"
+  },
+  {
+    "lemma": "remains",
+    "pos": "noun",
+    "meaning_th": "ยังคงอยู่"
+  },
+  {
+    "lemma": "remark",
+    "pos": "noun",
+    "meaning_th": "หมายเหตุ"
+  },
+  {
+    "lemma": "remarkable",
+    "pos": "adjective",
+    "meaning_th": "น่าทึ่ง"
+  },
+  {
+    "lemma": "remarkably",
+    "pos": "adverb",
+    "meaning_th": "อย่างน่าทึ่ง / โดดเด่น"
+  },
+  {
+    "lemma": "remember",
+    "pos": "verb",
+    "meaning_th": "จดจำ"
+  },
+  {
+    "lemma": "remind",
+    "pos": "verb",
+    "meaning_th": "เตือน"
+  },
+  {
+    "lemma": "remind of",
+    "pos": "noun",
+    "meaning_th": "เตือนถึง"
+  },
+  {
+    "lemma": "remote",
+    "pos": "adjective",
+    "meaning_th": "ระยะไกล"
+  },
+  {
+    "lemma": "removal",
+    "pos": "noun",
+    "meaning_th": "การกำจัด"
+  },
+  {
+    "lemma": "remove",
+    "pos": "verb",
+    "meaning_th": "ลบ"
+  },
+  {
+    "lemma": "rent",
+    "pos": "verb",
+    "meaning_th": "เช่า"
+  },
+  {
+    "lemma": "rented",
+    "pos": "adjective",
+    "meaning_th": "เช่าแล้ว"
+  },
+  {
+    "lemma": "repair",
+    "pos": "verb",
+    "meaning_th": "ซ่อมแซม"
+  },
+  {
+    "lemma": "repeat",
+    "pos": "verb",
+    "meaning_th": "ทำซ้ำ"
+  },
+  {
+    "lemma": "repeated",
+    "pos": "adjective",
+    "meaning_th": "ซ้ำแล้วซ้ำเล่า"
+  },
+  {
+    "lemma": "repeatedly",
+    "pos": "adverb",
+    "meaning_th": "ซ้ำแล้วซ้ำเล่า / บ่อยครั้ง"
+  },
+  {
+    "lemma": "replace",
+    "pos": "verb",
+    "meaning_th": "แทนที่"
+  },
+  {
+    "lemma": "reply",
+    "pos": "verb",
+    "meaning_th": "ตอบ / ตอบกลับ"
+  },
+  {
+    "lemma": "report",
+    "pos": "verb",
+    "meaning_th": "รายงาน"
+  },
+  {
+    "lemma": "represent",
+    "pos": "verb",
+    "meaning_th": "แทน"
+  },
+  {
+    "lemma": "representative",
+    "pos": "noun",
+    "meaning_th": "ตัวแทน"
+  },
+  {
+    "lemma": "reproduce",
+    "pos": "verb",
+    "meaning_th": "ทำซ้ำ"
+  },
+  {
+    "lemma": "reputation",
+    "pos": "noun",
+    "meaning_th": "ชื่อเสียง"
+  },
+  {
+    "lemma": "request",
+    "pos": "noun",
+    "meaning_th": "ขอ"
+  },
+  {
+    "lemma": "requirement",
+    "pos": "noun",
+    "meaning_th": "ความต้องการ"
+  },
+  {
+    "lemma": "rescue",
+    "pos": "verb",
+    "meaning_th": "กู้ภัย"
+  },
+  {
+    "lemma": "research",
+    "pos": "noun",
+    "meaning_th": "วิจัย"
+  },
+  {
+    "lemma": "reservation",
+    "pos": "noun",
+    "meaning_th": "การจอง"
+  },
+  {
+    "lemma": "reserve",
+    "pos": "verb",
+    "meaning_th": "จอง"
+  },
+  {
+    "lemma": "resident",
+    "pos": "noun",
+    "meaning_th": "ถิ่นที่อยู่"
+  },
+  {
+    "lemma": "resist",
+    "pos": "verb",
+    "meaning_th": "ต้านทาน"
+  },
+  {
+    "lemma": "resistance",
+    "pos": "noun",
+    "meaning_th": "ความต้านทาน"
+  },
+  {
+    "lemma": "resort",
+    "pos": "noun",
+    "meaning_th": "รีสอร์ท"
+  },
+  {
+    "lemma": "resort to",
+    "pos": "verb",
+    "meaning_th": "รีสอร์ทเพื่อ"
+  },
+  {
+    "lemma": "resource",
+    "pos": "noun",
+    "meaning_th": "ทรัพยากร"
+  },
+  {
+    "lemma": "respect",
+    "pos": "noun",
+    "meaning_th": "เคารพ"
+  },
+  {
+    "lemma": "respond",
+    "pos": "verb",
+    "meaning_th": "ตอบกลับ"
+  }
+]

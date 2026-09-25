@@ -1,0 +1,21 @@
+[
+  {
+    "lemma": "resilient",
+    "meaning_th": "ยืดหยุ่น ฟื้นตัวเร็ว",
+    "meaning_en": "able to recover quickly",
+    "pos": "adjective",
+    "level": "B2",
+    "phonetic": "/rɪˈzɪliənt/",
+    "category_th": "นำเข้าเอง",
+    "examples": [{ "en": "She is resilient after failure.", "th": "เธอฟื้นตัวเร็วหลังล้มเหลว", "context": "custom" }],
+    "mnemonic": "re- (again) + salient (jump) = เด้งกลับได้"
+  },
+  {
+    "lemma": "collaborate",
+    "meaning_th": "ร่วมมือ",
+    "meaning_en": "work together",
+    "pos": "verb",
+    "level": "B1",
+    "examples": [{ "en": "We need to collaborate.", "th": "เราต้องร่วมมือกัน", "context": "custom" }]
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "dancing",
+    "pos": "noun",
+    "meaning_th": "การเต้นรำ"
+  },
+  {
+    "lemma": "danger",
+    "pos": "noun",
+    "meaning_th": "อันตราย"
+  },
+  {
+    "lemma": "dangerous",
+    "pos": "adjective",
+    "meaning_th": "อันตราย"
+  },
+  {
+    "lemma": "dare",
+    "pos": "verb",
+    "meaning_th": "กล้า"
+  },
+  {
+    "lemma": "dark",
+    "pos": "adjective",
+    "meaning_th": "มืด"
+  },
+  {
+    "lemma": "data",
+    "pos": "noun",
+    "meaning_th": "ข้อมูล"
+  },
+  {
+    "lemma": "date",
+    "pos": "noun",
+    "meaning_th": "วันที่"
+  },
+  {
+    "lemma": "date back",
+    "pos": "noun",
+    "meaning_th": "มีอายุย้อนหลังไปถึง"
+  },
+  {
+    "lemma": "daughter",
+    "pos": "noun",
+    "meaning_th": "ลูกสาว"
+  },
+  {
+    "lemma": "day",
+    "pos": "noun",
+    "meaning_th": "วัน"
+  },
+  {
+    "lemma": "dead",
+    "pos": "adjective",
+    "meaning_th": "ตาย"
+  },
+  {
+    "lemma": "deaf",
+    "pos": "adjective",
+    "meaning_th": "หูหนวก"
+  },
+  {
+    "lemma": "deal",
+    "pos": "verb",
+    "meaning_th": "ข้อเสนอ"
+  },
+  {
+    "lemma": "deal in",
+    "pos": "noun",
+    "meaning_th": "ค้าขาย (สินค้าเฉพาะอย่าง)"
+  },
+  {
+    "lemma": "deal with",
+    "pos": "noun",
+    "meaning_th": "จัดการ / รับมือกับ"
+  },
+  {
+    "lemma": "dear",
+    "pos": "adjective",
+    "meaning_th": "ที่รัก"
+  },
+  {
+    "lemma": "death",
+    "pos": "noun",
+    "meaning_th": "ความตาย"
+  },
+  {
+    "lemma": "debt",
+    "pos": "noun",
+    "meaning_th": "หนี้"
+  },
+  {
+    "lemma": "decade",
+    "pos": "noun",
+    "meaning_th": "ทศวรรษ"
+  },
+  {
+    "lemma": "decay",
+    "pos": "noun",
+    "meaning_th": "การสลายตัว"
+  },
+  {
+    "lemma": "December",
+    "pos": "noun",
+    "meaning_th": "ธันวาคม"
+  },
+  {
+    "lemma": "decide",
+    "pos": "verb",
+    "meaning_th": "ตัดสินใจ"
+  },
+  {
+    "lemma": "decide on",
+    "pos": "noun",
+    "meaning_th": "ตัดสินใจเลือก"
+  },
+  {
+    "lemma": "decision",
+    "pos": "noun",
+    "meaning_th": "การตัดสินใจ"
+  },
+  {
+    "lemma": "declare",
+    "pos": "verb",
+    "meaning_th": "ประกาศ"
+  },
+  {
+    "lemma": "decline",
+    "pos": "verb",
+    "meaning_th": "ปฏิเสธ"
+  },
+  {
+    "lemma": "decorate",
+    "pos": "verb",
+    "meaning_th": "ตกแต่ง"
+  },
+  {
+    "lemma": "decoration",
+    "pos": "noun",
+    "meaning_th": "การตกแต่ง"
+  },
+  {
+    "lemma": "decorative",
+    "pos": "adjective",
+    "meaning_th": "ตกแต่ง"
+  },
+  {
+    "lemma": "decrease",
+    "pos": "verb",
+    "meaning_th": "ลด"
+  },
+  {
+    "lemma": "deep",
+    "pos": "adjective",
+    "meaning_th": "ลึก"
+  },
+  {
+    "lemma": "deeply",
+    "pos": "adverb",
+    "meaning_th": "อย่างลึกซึ้ง / อย่างมาก"
+  },
+  {
+    "lemma": "defeat",
+    "pos": "verb",
+    "meaning_th": "ความพ่ายแพ้"
+  },
+  {
+    "lemma": "defence",
+    "pos": "noun",
+    "meaning_th": "การป้องกัน"
+  },
+  {
+    "lemma": "defend",
+    "pos": "verb",
+    "meaning_th": "ปกป้อง"
+  },
+  {
+    "lemma": "define",
+    "pos": "verb",
+    "meaning_th": "กำหนด"
+  },
+  {
+    "lemma": "definite",
+    "pos": "adjective",
+    "meaning_th": "แน่นอน"
+  },
+  {
+    "lemma": "definitely",
+    "pos": "adverb",
+    "meaning_th": "อย่างแน่นอน"
+  },
+  {
+    "lemma": "definition",
+    "pos": "noun",
+    "meaning_th": "คำนิยาม"
+  },
+  {
+    "lemma": "degree",
+    "pos": "noun",
+    "meaning_th": "ระดับ"
+  },
+  {
+    "lemma": "delay",
+    "pos": "verb",
+    "meaning_th": "ล่าช้า"
+  },
+  {
+    "lemma": "deliberate",
+    "pos": "adjective",
+    "meaning_th": "โดยเจตนา"
+  },
+  {
+    "lemma": "deliberately",
+    "pos": "adverb",
+    "meaning_th": "จงใจ"
+  },
+  {
+    "lemma": "delicate",
+    "pos": "adjective",
+    "meaning_th": "ละเอียดอ่อน"
+  },
+  {
+    "lemma": "delight",
+    "pos": "noun",
+    "meaning_th": "ความสุข"
+  },
+  {
+    "lemma": "delighted",
+    "pos": "adjective",
+    "meaning_th": "ดีใจ"
+  },
+  {
+    "lemma": "deliver",
+    "pos": "verb",
+    "meaning_th": "ส่งมอบ"
+  },
+  {
+    "lemma": "delivery",
+    "pos": "noun",
+    "meaning_th": "จัดส่ง"
+  },
+  {
+    "lemma": "demand",
+    "pos": "noun",
+    "meaning_th": "ความต้องการ"
+  },
+  {
+    "lemma": "dentist",
+    "pos": "noun",
+    "meaning_th": "ทันตแพทย์"
+  }
+]

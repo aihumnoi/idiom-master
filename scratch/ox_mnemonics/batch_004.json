@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "afternoon",
+    "pos": "noun",
+    "meaning_th": "ตอนบ่าย"
+  },
+  {
+    "lemma": "afterwards",
+    "pos": "adverb",
+    "meaning_th": "หลังจากนั้น"
+  },
+  {
+    "lemma": "again",
+    "pos": "adverb",
+    "meaning_th": "อีกครั้ง"
+  },
+  {
+    "lemma": "against",
+    "pos": "preposition",
+    "meaning_th": "ขัดต่อ"
+  },
+  {
+    "lemma": "age",
+    "pos": "noun",
+    "meaning_th": "อายุ"
+  },
+  {
+    "lemma": "aged",
+    "pos": "adjective",
+    "meaning_th": "อายุ"
+  },
+  {
+    "lemma": "agency",
+    "pos": "noun",
+    "meaning_th": "เอเจนซี่"
+  },
+  {
+    "lemma": "agent",
+    "pos": "noun",
+    "meaning_th": "ตัวแทน"
+  },
+  {
+    "lemma": "aggressive",
+    "pos": "adjective",
+    "meaning_th": "ก้าวร้าว"
+  },
+  {
+    "lemma": "ago",
+    "pos": "adverb",
+    "meaning_th": "ที่ผ่านมา"
+  },
+  {
+    "lemma": "agree",
+    "pos": "verb",
+    "meaning_th": "เห็นด้วย"
+  },
+  {
+    "lemma": "agreement",
+    "pos": "noun",
+    "meaning_th": "ข้อตกลง"
+  },
+  {
+    "lemma": "ahead",
+    "pos": "adverb",
+    "meaning_th": "ข้างหน้า"
+  },
+  {
+    "lemma": "aid",
+    "pos": "noun",
+    "meaning_th": "ความช่วยเหลือ"
+  },
+  {
+    "lemma": "aim",
+    "pos": "verb",
+    "meaning_th": "จุดมุ่งหมาย"
+  },
+  {
+    "lemma": "air",
+    "pos": "noun",
+    "meaning_th": "อากาศ"
+  },
+  {
+    "lemma": "aircraft",
+    "pos": "noun",
+    "meaning_th": "อากาศยาน"
+  },
+  {
+    "lemma": "airport",
+    "pos": "noun",
+    "meaning_th": "สนามบิน"
+  },
+  {
+    "lemma": "alarm",
+    "pos": "noun",
+    "meaning_th": "เตือน"
+  },
+  {
+    "lemma": "alarmed",
+    "pos": "adjective",
+    "meaning_th": "ตื่นตระหนก"
+  },
+  {
+    "lemma": "alarming",
+    "pos": "adjective",
+    "meaning_th": "น่าตกใจ / น่าตื่นตระหนก"
+  },
+  {
+    "lemma": "alcohol",
+    "pos": "noun",
+    "meaning_th": "แอลกอฮอล์"
+  },
+  {
+    "lemma": "alcoholic",
+    "pos": "adjective",
+    "meaning_th": "เกี่ยวกับแอลกอฮอล์"
+  },
+  {
+    "lemma": "alive",
+    "pos": "adjective",
+    "meaning_th": "มีชีวิตอยู่"
+  },
+  {
+    "lemma": "all",
+    "pos": "determiner",
+    "meaning_th": "ทั้งหมด"
+  },
+  {
+    "lemma": "allied",
+    "pos": "adjective",
+    "meaning_th": "ซึ่งเป็นพันธมิตร"
+  },
+  {
+    "lemma": "allow",
+    "pos": "verb",
+    "meaning_th": "อนุญาต"
+  },
+  {
+    "lemma": "allow for",
+    "pos": "noun",
+    "meaning_th": "เผื่อเวลา / คำนึงถึง"
+  },
+  {
+    "lemma": "all right",
+    "pos": "adverb",
+    "meaning_th": "เอาล่ะ"
+  },
+  {
+    "lemma": "ally",
+    "pos": "noun",
+    "meaning_th": "พันธมิตร"
+  },
+  {
+    "lemma": "almost",
+    "pos": "adverb",
+    "meaning_th": "เกือบ"
+  },
+  {
+    "lemma": "alone",
+    "pos": "adjective",
+    "meaning_th": "ตามลำพัง"
+  },
+  {
+    "lemma": "along",
+    "pos": "preposition",
+    "meaning_th": "ตาม"
+  },
+  {
+    "lemma": "alongside",
+    "pos": "preposition",
+    "meaning_th": "เคียงข้าง / ควบคู่ไปกับ"
+  },
+  {
+    "lemma": "aloud",
+    "pos": "adverb",
+    "meaning_th": "ดัง"
+  },
+  {
+    "lemma": "alphabet",
+    "pos": "noun",
+    "meaning_th": "ตัวอักษร"
+  },
+  {
+    "lemma": "alphabetical",
+    "pos": "adjective",
+    "meaning_th": "ตามตัวอักษร"
+  },
+  {
+    "lemma": "alphabetically",
+    "pos": "adverb",
+    "meaning_th": "ตามลำดับตัวอักษร"
+  },
+  {
+    "lemma": "already",
+    "pos": "adverb",
+    "meaning_th": "เรียบร้อยแล้ว"
+  },
+  {
+    "lemma": "also",
+    "pos": "adverb",
+    "meaning_th": "อีกด้วย"
+  },
+  {
+    "lemma": "alter",
+    "pos": "verb",
+    "meaning_th": "เปลี่ยนแปลง"
+  },
+  {
+    "lemma": "alternatively",
+    "pos": "adverb",
+    "meaning_th": "หรืออีกทางหนึ่ง"
+  },
+  {
+    "lemma": "although",
+    "pos": "conjunction",
+    "meaning_th": "แม้ว่า"
+  },
+  {
+    "lemma": "altogether",
+    "pos": "adverb",
+    "meaning_th": "โดยสิ้นเชิง"
+  },
+  {
+    "lemma": "always",
+    "pos": "adverb",
+    "meaning_th": "เสมอ"
+  },
+  {
+    "lemma": "a.m.",
+    "pos": "noun",
+    "meaning_th": "เช้า."
+  },
+  {
+    "lemma": "amaze",
+    "pos": "verb",
+    "meaning_th": "ตะลึงพรึงเพริด"
+  },
+  {
+    "lemma": "amazed",
+    "pos": "adjective",
+    "meaning_th": "ประหลาดใจ"
+  },
+  {
+    "lemma": "ambition",
+    "pos": "noun",
+    "meaning_th": "ความทะเยอทะยาน"
+  },
+  {
+    "lemma": "ambulance",
+    "pos": "noun",
+    "meaning_th": "รถพยาบาล"
+  }
+]

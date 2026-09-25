@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "investigate",
+    "pos": "verb",
+    "meaning_th": "สอบสวน"
+  },
+  {
+    "lemma": "investigation",
+    "pos": "noun",
+    "meaning_th": "การสืบสวน"
+  },
+  {
+    "lemma": "investment",
+    "pos": "noun",
+    "meaning_th": "การลงทุน"
+  },
+  {
+    "lemma": "invitation",
+    "pos": "noun",
+    "meaning_th": "การเชิญ"
+  },
+  {
+    "lemma": "invite",
+    "pos": "verb",
+    "meaning_th": "เชิญ"
+  },
+  {
+    "lemma": "involve",
+    "pos": "verb",
+    "meaning_th": "มีส่วนร่วม"
+  },
+  {
+    "lemma": "involved",
+    "pos": "adjective",
+    "meaning_th": "ที่เกี่ยวข้อง"
+  },
+  {
+    "lemma": "involvement",
+    "pos": "noun",
+    "meaning_th": "การมีส่วนร่วม"
+  },
+  {
+    "lemma": "iron",
+    "pos": "noun",
+    "meaning_th": "เหล็ก"
+  },
+  {
+    "lemma": "irritate",
+    "pos": "verb",
+    "meaning_th": "ระคายเคือง"
+  },
+  {
+    "lemma": "irritated",
+    "pos": "adjective",
+    "meaning_th": "หงุดหงิด"
+  },
+  {
+    "lemma": "irritating",
+    "pos": "verb",
+    "meaning_th": "ระคายเคือง"
+  },
+  {
+    "lemma": "island",
+    "pos": "noun",
+    "meaning_th": "เกาะ"
+  },
+  {
+    "lemma": "issue",
+    "pos": "noun",
+    "meaning_th": "ปัญหา"
+  },
+  {
+    "lemma": "it",
+    "pos": "pronoun",
+    "meaning_th": "มัน"
+  },
+  {
+    "lemma": "item",
+    "pos": "noun",
+    "meaning_th": "รายการ"
+  },
+  {
+    "lemma": "its",
+    "pos": "determiner",
+    "meaning_th": "ของมัน"
+  },
+  {
+    "lemma": "itself",
+    "pos": "pronoun",
+    "meaning_th": "ตัวมันเอง / ตัวเอง"
+  },
+  {
+    "lemma": "jacket",
+    "pos": "noun",
+    "meaning_th": "เสื้อแจ็กเกต"
+  },
+  {
+    "lemma": "jam",
+    "pos": "noun",
+    "meaning_th": "แยม"
+  },
+  {
+    "lemma": "January",
+    "pos": "noun",
+    "meaning_th": "มกราคม"
+  },
+  {
+    "lemma": "jealous",
+    "pos": "adjective",
+    "meaning_th": "อิจฉา"
+  },
+  {
+    "lemma": "jeans",
+    "pos": "noun",
+    "meaning_th": "ยีนส์"
+  },
+  {
+    "lemma": "jelly",
+    "pos": "noun",
+    "meaning_th": "เยลลี่ / วุ้น"
+  },
+  {
+    "lemma": "jewellery",
+    "pos": "noun",
+    "meaning_th": "เครื่องเพชรพลอย"
+  },
+  {
+    "lemma": "job",
+    "pos": "noun",
+    "meaning_th": "งาน"
+  },
+  {
+    "lemma": "join",
+    "pos": "verb",
+    "meaning_th": "เข้าร่วม"
+  },
+  {
+    "lemma": "join in",
+    "pos": "verb",
+    "meaning_th": "ร่วมสนุกด้วย / มีส่วนร่วมในกิจกรรม"
+  },
+  {
+    "lemma": "joint",
+    "pos": "noun",
+    "meaning_th": "ข้อต่อ"
+  },
+  {
+    "lemma": "jointly",
+    "pos": "adverb",
+    "meaning_th": "ร่วมกัน"
+  },
+  {
+    "lemma": "joke",
+    "pos": "noun",
+    "meaning_th": "เรื่องตลก"
+  },
+  {
+    "lemma": "journalist",
+    "pos": "noun",
+    "meaning_th": "นักข่าว"
+  },
+  {
+    "lemma": "journey",
+    "pos": "noun",
+    "meaning_th": "การเดินทาง"
+  },
+  {
+    "lemma": "joy",
+    "pos": "noun",
+    "meaning_th": "ความสุข"
+  },
+  {
+    "lemma": "judge",
+    "pos": "noun",
+    "meaning_th": "ผู้พิพากษา"
+  },
+  {
+    "lemma": "judgement",
+    "pos": "noun",
+    "meaning_th": "การตัดสิน"
+  },
+  {
+    "lemma": "juice",
+    "pos": "noun",
+    "meaning_th": "น้ำผลไม้"
+  },
+  {
+    "lemma": "July",
+    "pos": "noun",
+    "meaning_th": "กรกฎาคม"
+  },
+  {
+    "lemma": "jump",
+    "pos": "verb",
+    "meaning_th": "กระโดด"
+  },
+  {
+    "lemma": "June",
+    "pos": "noun",
+    "meaning_th": "มิถุนายน"
+  },
+  {
+    "lemma": "junior",
+    "pos": "adjective",
+    "meaning_th": "จูเนียร์"
+  },
+  {
+    "lemma": "just",
+    "pos": "adjective",
+    "meaning_th": "แค่"
+  },
+  {
+    "lemma": "justice",
+    "pos": "noun",
+    "meaning_th": "ความยุติธรรม"
+  },
+  {
+    "lemma": "justified",
+    "pos": "adjective",
+    "meaning_th": "เป็นธรรม"
+  },
+  {
+    "lemma": "keen",
+    "pos": "adjective",
+    "meaning_th": "กระตือรือร้น"
+  },
+  {
+    "lemma": "keep",
+    "pos": "verb",
+    "meaning_th": "เก็บ"
+  },
+  {
+    "lemma": "keep out",
+    "pos": "verb",
+    "meaning_th": "ห้ามคนนอกเข้าเด็ดขาด"
+  },
+  {
+    "lemma": "keep out of",
+    "pos": "verb",
+    "meaning_th": "ให้ออกจาก"
+  },
+  {
+    "lemma": "keep up",
+    "pos": "verb",
+    "meaning_th": "รักษามาตรฐานไว้ต่อไป / ก้าวตามทัน"
+  },
+  {
+    "lemma": "keep up with",
+    "pos": "verb",
+    "meaning_th": "ตามทัน (ข่าวสาร/กระแส/คนอื่น)"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "lover",
+    "pos": "noun",
+    "meaning_th": "คนรัก"
+  },
+  {
+    "lemma": "low",
+    "pos": "adjective",
+    "meaning_th": "ต่ำ"
+  },
+  {
+    "lemma": "loyal",
+    "pos": "adjective",
+    "meaning_th": "ซื่อสัตย์"
+  },
+  {
+    "lemma": "luck",
+    "pos": "noun",
+    "meaning_th": "โชค"
+  },
+  {
+    "lemma": "lucky",
+    "pos": "adjective",
+    "meaning_th": "โชคดี"
+  },
+  {
+    "lemma": "luggage",
+    "pos": "noun",
+    "meaning_th": "กระเป๋าเดินทาง"
+  },
+  {
+    "lemma": "lump",
+    "pos": "noun",
+    "meaning_th": "ก้อน"
+  },
+  {
+    "lemma": "lunch",
+    "pos": "noun",
+    "meaning_th": "อาหารกลางวัน"
+  },
+  {
+    "lemma": "lung",
+    "pos": "noun",
+    "meaning_th": "ปอด"
+  },
+  {
+    "lemma": "machine",
+    "pos": "noun",
+    "meaning_th": "เครื่องจักร"
+  },
+  {
+    "lemma": "machinery",
+    "pos": "noun",
+    "meaning_th": "เครื่องจักร"
+  },
+  {
+    "lemma": "mad",
+    "pos": "adjective",
+    "meaning_th": "โกรธ"
+  },
+  {
+    "lemma": "magazine",
+    "pos": "noun",
+    "meaning_th": "นิตยสาร"
+  },
+  {
+    "lemma": "magic",
+    "pos": "noun",
+    "meaning_th": "มายากล"
+  },
+  {
+    "lemma": "mail",
+    "pos": "noun",
+    "meaning_th": "จดหมาย"
+  },
+  {
+    "lemma": "main",
+    "pos": "adjective",
+    "meaning_th": "หลัก"
+  },
+  {
+    "lemma": "mainly",
+    "pos": "adverb",
+    "meaning_th": "ส่วนใหญ่"
+  },
+  {
+    "lemma": "major",
+    "pos": "adjective",
+    "meaning_th": "วิชาเอก"
+  },
+  {
+    "lemma": "majority",
+    "pos": "noun",
+    "meaning_th": "ส่วนใหญ่"
+  },
+  {
+    "lemma": "make",
+    "pos": "verb",
+    "meaning_th": "ทำ"
+  },
+  {
+    "lemma": "make into",
+    "pos": "verb",
+    "meaning_th": "ทำให้เป็น"
+  },
+  {
+    "lemma": "make up",
+    "pos": "verb",
+    "meaning_th": "คืนดีกัน / แต่งเรื่องโกหก / ชดเชย"
+  },
+  {
+    "lemma": "make-up",
+    "pos": "noun",
+    "meaning_th": "แต่งหน้า"
+  },
+  {
+    "lemma": "make up for",
+    "pos": "verb",
+    "meaning_th": "ชดเชยให้แก่ / ชดใช้"
+  },
+  {
+    "lemma": "male",
+    "pos": "adjective",
+    "meaning_th": "ชาย"
+  },
+  {
+    "lemma": "mall",
+    "pos": "noun",
+    "meaning_th": "ห้างสรรพสินค้า"
+  },
+  {
+    "lemma": "man",
+    "pos": "noun",
+    "meaning_th": "ผู้ชาย"
+  },
+  {
+    "lemma": "manage",
+    "pos": "verb",
+    "meaning_th": "จัดการ"
+  },
+  {
+    "lemma": "management",
+    "pos": "noun",
+    "meaning_th": "การจัดการ"
+  },
+  {
+    "lemma": "manager",
+    "pos": "noun",
+    "meaning_th": "ผู้จัดการ"
+  },
+  {
+    "lemma": "manner",
+    "pos": "noun",
+    "meaning_th": "มารยาท"
+  },
+  {
+    "lemma": "manufacture",
+    "pos": "verb",
+    "meaning_th": "ผลิต"
+  },
+  {
+    "lemma": "manufacturer",
+    "pos": "noun",
+    "meaning_th": "ผู้ผลิต"
+  },
+  {
+    "lemma": "manufacturing",
+    "pos": "verb",
+    "meaning_th": "การผลิต"
+  },
+  {
+    "lemma": "many",
+    "pos": "adjective",
+    "meaning_th": "มากมาย"
+  },
+  {
+    "lemma": "map",
+    "pos": "noun",
+    "meaning_th": "แผนที่"
+  },
+  {
+    "lemma": "march",
+    "pos": "noun",
+    "meaning_th": "มีนาคม"
+  },
+  {
+    "lemma": "March",
+    "pos": "noun",
+    "meaning_th": "มีนาคม"
+  },
+  {
+    "lemma": "mark",
+    "pos": "noun",
+    "meaning_th": "เครื่องหมาย"
+  },
+  {
+    "lemma": "market",
+    "pos": "noun",
+    "meaning_th": "ตลาด"
+  },
+  {
+    "lemma": "marketing",
+    "pos": "noun",
+    "meaning_th": "การตลาด"
+  },
+  {
+    "lemma": "marriage",
+    "pos": "noun",
+    "meaning_th": "การแต่งงาน"
+  },
+  {
+    "lemma": "married",
+    "pos": "adjective",
+    "meaning_th": "แต่งงานแล้ว"
+  },
+  {
+    "lemma": "marry",
+    "pos": "verb",
+    "meaning_th": "แต่งงาน"
+  },
+  {
+    "lemma": "mass",
+    "pos": "noun",
+    "meaning_th": "มวล"
+  },
+  {
+    "lemma": "massive",
+    "pos": "adjective",
+    "meaning_th": "มโหฬาร"
+  },
+  {
+    "lemma": "master",
+    "pos": "noun",
+    "meaning_th": "ผู้เชี่ยวชาญ"
+  },
+  {
+    "lemma": "match",
+    "pos": "noun",
+    "meaning_th": "จับคู่"
+  },
+  {
+    "lemma": "matching",
+    "pos": "adjective",
+    "meaning_th": "การจับคู่"
+  },
+  {
+    "lemma": "match up",
+    "pos": "verb",
+    "meaning_th": "จับคู่"
+  }
+]

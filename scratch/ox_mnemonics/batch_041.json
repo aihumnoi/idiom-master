@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "listen",
+    "pos": "verb",
+    "meaning_th": "ฟัง"
+  },
+  {
+    "lemma": "literature",
+    "pos": "noun",
+    "meaning_th": "วรรณกรรม"
+  },
+  {
+    "lemma": "litre",
+    "pos": "noun",
+    "meaning_th": "ลิตร"
+  },
+  {
+    "lemma": "little",
+    "pos": "adjective",
+    "meaning_th": "เล็กน้อย"
+  },
+  {
+    "lemma": "live 1",
+    "pos": "verb",
+    "meaning_th": "อาศัยอยู่ / มีชีวิตอยู่"
+  },
+  {
+    "lemma": "live 2",
+    "pos": "adjective",
+    "meaning_th": "สด (ถ่ายทอดสด / แสดงสด)"
+  },
+  {
+    "lemma": "lively",
+    "pos": "verb",
+    "meaning_th": "มีชีวิตชีวา"
+  },
+  {
+    "lemma": "live on",
+    "pos": "verb",
+    "meaning_th": "มีชีวิตอยู่ต่อไป"
+  },
+  {
+    "lemma": "live through",
+    "pos": "verb",
+    "meaning_th": "มีชีวิตอยู่ผ่าน"
+  },
+  {
+    "lemma": "live together",
+    "pos": "verb",
+    "meaning_th": "อยู่ด้วยกัน"
+  },
+  {
+    "lemma": "living",
+    "pos": "noun",
+    "meaning_th": "การดำรงชีวิต / รายได้เลี้ยงชีพ"
+  },
+  {
+    "lemma": "load",
+    "pos": "noun",
+    "meaning_th": "ภาระ / ของบรรทุก"
+  },
+  {
+    "lemma": "loan",
+    "pos": "noun",
+    "meaning_th": "เงินกู้"
+  },
+  {
+    "lemma": "local",
+    "pos": "adjective",
+    "meaning_th": "ท้องถิ่น"
+  },
+  {
+    "lemma": "locally",
+    "pos": "adjective",
+    "meaning_th": "ในท้องถิ่น / ในพื้นที่"
+  },
+  {
+    "lemma": "locate",
+    "pos": "verb",
+    "meaning_th": "ค้นหา"
+  },
+  {
+    "lemma": "located",
+    "pos": "verb",
+    "meaning_th": "ตั้งอยู่"
+  },
+  {
+    "lemma": "location",
+    "pos": "noun",
+    "meaning_th": "ที่ตั้ง"
+  },
+  {
+    "lemma": "lock",
+    "pos": "noun",
+    "meaning_th": "ล็อค"
+  },
+  {
+    "lemma": "lock up",
+    "pos": "verb",
+    "meaning_th": "ล็อคขึ้น"
+  },
+  {
+    "lemma": "logic",
+    "pos": "noun",
+    "meaning_th": "ตรรกะ"
+  },
+  {
+    "lemma": "logical",
+    "pos": "adjective",
+    "meaning_th": "ตรรกะ"
+  },
+  {
+    "lemma": "lonely",
+    "pos": "adjective",
+    "meaning_th": "เหงา"
+  },
+  {
+    "lemma": "long",
+    "pos": "adjective",
+    "meaning_th": "ยาว"
+  },
+  {
+    "lemma": "look",
+    "pos": "verb",
+    "meaning_th": "ดู"
+  },
+  {
+    "lemma": "look after",
+    "pos": "verb",
+    "meaning_th": "ดูแลเอาใจใส่ / คอยเทกแคร์"
+  },
+  {
+    "lemma": "look at",
+    "pos": "verb",
+    "meaning_th": "ดูสิ"
+  },
+  {
+    "lemma": "look down on",
+    "pos": "verb",
+    "meaning_th": "ดูถูก / มองข้ามหัว"
+  },
+  {
+    "lemma": "look forward to",
+    "pos": "verb",
+    "meaning_th": "ตั้งตารอคอยด้วยความยินดี"
+  },
+  {
+    "lemma": "look into",
+    "pos": "verb",
+    "meaning_th": "ตรวจสอบข้อเท็จจริง / สืบสวน"
+  },
+  {
+    "lemma": "look on",
+    "pos": "verb",
+    "meaning_th": "ยืนดูเป็นไทยมุง / มองดูเหตุการณ์"
+  },
+  {
+    "lemma": "look on with",
+    "pos": "verb",
+    "meaning_th": "ดูต่อด้วย"
+  },
+  {
+    "lemma": "look out",
+    "pos": "verb",
+    "meaning_th": "ระวังตัวด้วย!"
+  },
+  {
+    "lemma": "look out for",
+    "pos": "verb",
+    "meaning_th": "ระวัง"
+  },
+  {
+    "lemma": "look round",
+    "pos": "verb",
+    "meaning_th": "เดินสำรวจดูรอบๆ"
+  },
+  {
+    "lemma": "look through",
+    "pos": "verb",
+    "meaning_th": "มองผ่าน"
+  },
+  {
+    "lemma": "look up",
+    "pos": "verb",
+    "meaning_th": "ค้นหาข้อมูล (ในพจนานุกรม) / สถานการณ์เริ่มดีขึ้น"
+  },
+  {
+    "lemma": "look up to",
+    "pos": "verb",
+    "meaning_th": "เคารพยกย่อง / ถือเป็นแบบอย่าง"
+  },
+  {
+    "lemma": "loose",
+    "pos": "adjective",
+    "meaning_th": "หลวม"
+  },
+  {
+    "lemma": "loosely",
+    "pos": "adjective",
+    "meaning_th": "อย่างหลวมๆ"
+  },
+  {
+    "lemma": "lord",
+    "pos": "noun",
+    "meaning_th": "ท่านลอร์ด"
+  },
+  {
+    "lemma": "lorry",
+    "pos": "noun",
+    "meaning_th": "รถบรรทุก"
+  },
+  {
+    "lemma": "lose",
+    "pos": "verb",
+    "meaning_th": "สูญเสีย"
+  },
+  {
+    "lemma": "loss",
+    "pos": "noun",
+    "meaning_th": "การสูญเสีย"
+  },
+  {
+    "lemma": "lost",
+    "pos": "adjective",
+    "meaning_th": "สูญหาย"
+  },
+  {
+    "lemma": "lot",
+    "pos": "noun",
+    "meaning_th": "มาก"
+  },
+  {
+    "lemma": "loud",
+    "pos": "adjective",
+    "meaning_th": "ดัง"
+  },
+  {
+    "lemma": "loudly",
+    "pos": "adverb",
+    "meaning_th": "เสียงดัง / อย่างเอะอะ"
+  },
+  {
+    "lemma": "love",
+    "pos": "noun",
+    "meaning_th": "รัก"
+  },
+  {
+    "lemma": "lovely",
+    "pos": "adjective",
+    "meaning_th": "น่ารัก / สวยงาม"
+  }
+]

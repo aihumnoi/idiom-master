@@ -1,0 +1,328 @@
+Found 13 videos
+DOWNLOAD subs for BYwNDIiZK5k [[Ep.184] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 29s retry 1/3
+  429 hit, waiting 32s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for 24EZ4ue-9Cw [[Ep.185] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 25s retry 1/3
+  429 hit, waiting 33s retry 2/3
+  429 hit, waiting 28s retry 3/3
+DOWNLOAD subs for ljoumb1faZQ [[Ep.186] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 25s retry 1/3
+  429 hit, waiting 27s retry 2/3
+  429 hit, waiting 31s retry 3/3
+DOWNLOAD subs for 6HA17SvJ9cU [[Ep.187] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 31s retry 1/3
+  429 hit, waiting 25s retry 2/3
+  429 hit, waiting 35s retry 3/3
+DOWNLOAD subs for wiPKZeNVNLQ [[Ep.188] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 35s retry 1/3
+  429 hit, waiting 30s retry 2/3
+  429 hit, waiting 30s retry 3/3
+DOWNLOAD subs for R1RfrtYbMk8 [[Ep.189] เรียนภาษาอังกฤษจากหนั]
+  429 hit, waiting 33s retry 1/3
+  429 hit, waiting 31s retry 2/3
+  429 hit, waiting 26s retry 3/3
+DOWNLOAD subs for IcoM_I3cogg [[Ep.190] เรียนภาษาอังกฤษจากหนั]
+  OK th=True en=True
+DOWNLOAD subs for 0Mu8Bm3D0UM [[Ep.191] เรียนภาษาอังกฤษจากหนั]
+  429 hit, waiting 27s retry 1/3
+  429 hit, waiting 28s retry 2/3
+  429 hit, waiting 34s retry 3/3
+DOWNLOAD subs for OM4vfDDIqmg [[Ep.192] เรียนภาษาอังกฤษจากหนั]
+  429 hit, waiting 27s retry 1/3
+  429 hit, waiting 30s retry 2/3
+  429 hit, waiting 26s retry 3/3
+DOWNLOAD subs for imE7kr62vtU [[Ep.193] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 34s retry 1/3
+  429 hit, waiting 33s retry 2/3
+  429 hit, waiting 28s retry 3/3
+DOWNLOAD subs for -Hh6rfyqEVU [[Ep.194] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 34s retry 1/3
+  429 hit, waiting 33s retry 2/3
+  429 hit, waiting 31s retry 3/3
+SKIP JkMMYCZGNxM already has both
+DOWNLOAD subs for VhbLhQdToFE [[Ep.196] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 29s retry 1/3
+  429 hit, waiting 26s retry 2/3
+  OK th=True en=True
+Batch done
+Final: 18 videos, 17 srt files -> target 97 videos
+Found 91 videos
+DOWNLOAD subs for vcchr4wZJx8 [5 คำพูดจากหนังที่ใช้บ่อย! ฝึกฟ]
+  OK th=True en=True
+DOWNLOAD subs for KSNkUnlfdXU [[Ep.113] ฝึกฟังภาษาอังกฤษ 5 ปร]
+  429 hit, waiting 27s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for 9z39ch1okLY [[Ep.114] ฝึกฟังประโยคภาษาอังกฤ]
+  OK th=True en=True
+DOWNLOAD subs for 7N3xD6zihCQ [[Ep.117] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  OK th=True en=True
+DOWNLOAD subs for Lh8E43mtOas [[Ep.118] ฝึกฟังภาษาอังกฤษ 5 คำ]
+  no srt yet, output:  are no subtitles for the requested languages
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+
+DOWNLOAD subs for dpTlbJ7BCEg [[Ep.119] ฝึกฟังภาษาอังกฤษ 5 คำ]
+  OK th=True en=True
+DOWNLOAD subs for BYvkXRFcWLg [[Ep.120] 5 คำพูดติดปากจากหนัง!]
+  no srt yet, output:  are no subtitles for the requested languages
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+
+DOWNLOAD subs for CPo0oDF5XRc [[Ep.124] ฝึกฟังประโยคภาษาอังกฤ]
+  429 hit, waiting 33s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for vkNnefKTtFE [[Ep.125] ดูหนังให้ได้ภาษาอังกฤ]
+  429 hit, waiting 35s retry 1/3
+  429 hit, waiting 35s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for vqm4f6oCskA [[Ep.126] ฟังคำพูดติดปากจากหนัง]
+  429 hit, waiting 32s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for DDbVF6oH0nY [[Ep.127] คำพูดติดปากจากในหนัง-]
+  429 hit, waiting 35s retry 1/3
+  429 hit, waiting 29s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for j7St0xIyQaA [[Ep.129] ฝึกฟังคำพูดติดปากภาษา]
+  OK th=True en=True
+DOWNLOAD subs for 2FxeaMdoFx0 [[Ep.130] คำพูดติดปากภาษาอังกฤษ]
+  OK th=True en=True
+DOWNLOAD subs for gq_sMBh96XE [[Ep.136] ฟังออกมั้ย 5 ประโยคภา]
+  OK th=True en=True
+DOWNLOAD subs for t0S1Xp3l8vQ [[Ep.137] มาเช็คหูกัน! ฝึกฟัง 5]
+  OK th=True en=True
+DOWNLOAD subs for uSiLbiL5sf0 [[Ep.138] ดูหนัง-ฟังอังกฤษ 5 ปร]
+  429 hit, waiting 26s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for 6VpU81n55C8 [[Ep.139] ฝึกฟังประโยคภาษาอังกฤ]
+  429 hit, waiting 32s retry 1/3
+  429 hit, waiting 34s retry 2/3
+  429 hit, waiting 34s retry 3/3
+DOWNLOAD subs for F4BVQd3TjGU [[Ep.140] ดูหนัง-ฝึกฟังภาษาอังก]
+  429 hit, waiting 26s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for IXYn4OdPqdQ [[Ep.141] ฝึกฟังคำพูดภาษาอังกฤษ]
+  OK th=True en=True
+DOWNLOAD subs for rEzgUNKcFS8 [[Ep.142] ฝึกฟังภาษาอังกฤษจากหน]
+  OK th=True en=True
+DOWNLOAD subs for Zi3gdyaAwRo [[Ep.143] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  OK th=True en=True
+DOWNLOAD subs for AZF8O4w_4W4 [[Ep.144] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  OK th=True en=True
+DOWNLOAD subs for 2vZrVU7vrHM [[Ep.145] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  OK th=True en=True
+DOWNLOAD subs for 3gC_7bWKsvs [[Ep.146] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  429 hit, waiting 31s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for xFy4fLUmPL4 [[Ep.147] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  429 hit, waiting 32s retry 1/3
+  429 hit, waiting 26s retry 2/3
+  429 hit, waiting 34s retry 3/3
+DOWNLOAD subs for 9no8Uc0VQRk [[Ep.148] ฝึกฟังภาษาอังกฤษ 5 ปร]
+  429 hit, waiting 33s retry 1/3
+  429 hit, waiting 28s retry 2/3
+  429 hit, waiting 32s retry 3/3
+DOWNLOAD subs for XCfa5JR2KJQ [[Ep.149] ฝึกฟังภาษาอังกฤษ 5 ปร]
+  429 hit, waiting 31s retry 1/3
+  429 hit, waiting 28s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for fu09CKQKnMk [[Ep.150] ฝึกฟัง-ฝึกพูดภาษาอังก]
+  OK th=True en=True
+DOWNLOAD subs for 2hCBRtUiWsg [[Ep.151] ดูหนัง-ฝึกพูดภาษาอังก]
+  OK th=True en=True
+DOWNLOAD subs for 95hXFWxIqXI [[Ep.152] ดูหนัง-ฝึกฟังภาษาอังก]
+  OK th=True en=True
+DOWNLOAD subs for SzuCji4BEhM [[Ep.153] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  429 hit, waiting 35s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for IPvAfb4_WJI [[Ep.154] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  OK th=True en=True
+DOWNLOAD subs for EVbhMYku9gE [[Ep.155] ฝึกฟังภาษาอังกฤษจากหน]
+  OK th=True en=True
+DOWNLOAD subs for aTPsziQ0OlQ [[Ep.156] ฝึกพูดภาษาอังกฤษจากหน]
+  429 hit, waiting 30s retry 1/3
+  429 hit, waiting 27s retry 2/3
+  429 hit, waiting 26s retry 3/3
+DOWNLOAD subs for lzAZ0EMEhd4 [[Ep.157] ฝึกฟังภาษาอังกฤษจากหน]
+  429 hit, waiting 25s retry 1/3
+  429 hit, waiting 31s retry 2/3
+  429 hit, waiting 30s retry 3/3
+DOWNLOAD subs for ETRGvurONGA [[Ep.158] ฝึกฟังภาษาอังกฤษจากหน]
+  429 hit, waiting 33s retry 1/3
+  429 hit, waiting 27s retry 2/3
+  429 hit, waiting 31s retry 3/3
+DOWNLOAD subs for poj29DE8BEk [[Ep.159] ฝึกฟังภาษาอังกฤษจากหน]
+  OK th=True en=True
+DOWNLOAD subs for 8GZqLdd0LW0 [[Ep.160] ฝึกภาษาอังกฤษจากหนังฝ]
+  429 hit, waiting 27s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for se74ijM_QzU [[Ep.161] ฝึกฟังภาษาอังกฤษจากหน]
+  429 hit, waiting 26s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for kuQ1grJ2v_4 [[Ep.162] ฝึกฟังภาษาอังกฤษประโย]
+  429 hit, waiting 29s retry 1/3
+  429 hit, waiting 30s retry 2/3
+  429 hit, waiting 25s retry 3/3
+DOWNLOAD subs for _Mq_yU3sf-I [[Ep.163] ฝึกฟังภาษาอังกฤษจากหน]
+  OK th=True en=True
+DOWNLOAD subs for Tm15qXUL6eo [[Ep.170] ฝึกฟังประโยคภาษาอังกฤ]
+  429 hit, waiting 35s retry 1/3
+  429 hit, waiting 27s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for QtFz25VL2O0 [[Ep.171] ฝึกฟังประโยคภาษาอังกฤ]
+  OK th=True en=True
+DOWNLOAD subs for VipTH8_ByyQ [[Ep.172] ฝึกฟังภาษาอังกฤษจากหน]
+  429 hit, waiting 32s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for R-oVlGndA2w [[Ep.173] ฝึกฟังประโยคภาษาอังกฤ]
+  429 hit, waiting 29s retry 1/3
+  429 hit, waiting 30s retry 2/3
+  429 hit, waiting 26s retry 3/3
+DOWNLOAD subs for ZzDgRsZn_S4 [[Ep.174] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  OK th=True en=True
+DOWNLOAD subs for smOsi9Iez0A [[Ep.175] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  429 hit, waiting 25s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for mSg3ITH3Hlk [[Ep.176] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  429 hit, waiting 29s retry 1/3
+  429 hit, waiting 35s retry 2/3
+  429 hit, waiting 32s retry 3/3
+DOWNLOAD subs for YiIqRRGHpIg [[Ep.177] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  OK th=True en=True
+DOWNLOAD subs for eXi7kKC-rTM [[Ep.178] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  429 hit, waiting 34s retry 1/3
+  429 hit, waiting 26s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for -fPevfysknc [[Ep.179] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  429 hit, waiting 28s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for _e1IAInBFAM [[Ep.180] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  429 hit, waiting 25s retry 1/3
+  429 hit, waiting 26s retry 2/3
+  429 hit, waiting 31s retry 3/3
+DOWNLOAD subs for Wxw8_FO_gKo [[Ep.181] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  429 hit, waiting 26s retry 1/3
+  429 hit, waiting 26s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for rVtWUP0i3dY [[Ep.182] ดูหนังฝรั่ง-ฝึกฟังภาษ]
+  OK th=True en=True
+DOWNLOAD subs for 24EZ4ue-9Cw [[Ep.185] ฝึกภาษาอังกฤษจากหนัง ]
+  OK th=True en=True
+DOWNLOAD subs for ljoumb1faZQ [[Ep.186] ฝึกภาษาอังกฤษจากหนัง ]
+  OK th=True en=True
+DOWNLOAD subs for 6HA17SvJ9cU [[Ep.187] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 27s retry 1/3
+  429 hit, waiting 32s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for wiPKZeNVNLQ [[Ep.188] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 34s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for R1RfrtYbMk8 [[Ep.189] เรียนภาษาอังกฤษจากหนั]
+  429 hit, waiting 31s retry 1/3
+  429 hit, waiting 30s retry 2/3
+  429 hit, waiting 30s retry 3/3
+DOWNLOAD subs for 0Mu8Bm3D0UM [[Ep.191] เรียนภาษาอังกฤษจากหนั]
+  429 hit, waiting 26s retry 1/3
+  429 hit, waiting 32s retry 2/3
+  429 hit, waiting 35s retry 3/3
+DOWNLOAD subs for OM4vfDDIqmg [[Ep.192] เรียนภาษาอังกฤษจากหนั]
+  429 hit, waiting 29s retry 1/3
+  429 hit, waiting 33s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for imE7kr62vtU [[Ep.193] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 26s retry 1/3
+  429 hit, waiting 31s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for -Hh6rfyqEVU [[Ep.194] ฝึกภาษาอังกฤษจากหนัง ]
+  429 hit, waiting 28s retry 1/3
+  429 hit, waiting 35s retry 2/3
+  429 hit, waiting 25s retry 3/3
+DOWNLOAD subs for wEP1kB9-1TQ [[ep.164] ฝึกฟังภาษาอังกฤษจากหน]
+  OK th=True en=True
+DOWNLOAD subs for 6RX6ipkIee8 [[ep.165] ฟังคำพูดติดปากจากหนัง]
+  429 hit, waiting 25s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for ed0e686lwek [[ep.166] ฟังคำพูดติดปากจากหนัง]
+  OK th=True en=True
+DOWNLOAD subs for W4CtB_u_EPE [[ep.167] ฟังคำพูดติดปากจากหนัง]
+  429 hit, waiting 28s retry 1/3
+  429 hit, waiting 31s retry 2/3
+  429 hit, waiting 35s retry 3/3
+DOWNLOAD subs for QX49aWrv210 [[ep.168] ฟังคำพูดติดปากจากหนัง]
+  429 hit, waiting 30s retry 1/3
+  429 hit, waiting 31s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for 7Csx_oxfIgA [[ep.169] ฝึกฟังประโยคภาษาอังกฤ]
+  429 hit, waiting 28s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for iAq96xzmV_o [ดูหนังฝรั่ง-ฝึกฟังภาษาอังกฤษ ม]
+  OK th=True en=True
+DOWNLOAD subs for nlhfaAjn4jA [ดูหนังยังไงให้ได้ภาษา! มาฝึกภา]
+  429 hit, waiting 32s retry 1/3
+  429 hit, waiting 30s retry 2/3
+  429 hit, waiting 31s retry 3/3
+DOWNLOAD subs for sgB0mnekUv8 [ดูหนังให้สนุกขึ้น! มาฝึกฟังประ]
+  429 hit, waiting 30s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for 6Ilag5BDceY [ฝึกฟัง 30 ประโยคภาษาอังกฤษสั้น]
+  429 hit, waiting 35s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for Ps1vD8VD9cU [ฝึกฟังประโยคภาษาอังกฤษสั้นๆ จา]
+  429 hit, waiting 33s retry 1/3
+  429 hit, waiting 31s retry 2/3
+  429 hit, waiting 27s retry 3/3
+DOWNLOAD subs for DEVVd2bxu9c [ฝึกฟังภาษาอังกฤษ 30 ประโยคสั้น]
+  429 hit, waiting 34s retry 1/3
+  429 hit, waiting 34s retry 2/3
+  OK th=True en=True
+DOWNLOAD subs for 97IfGPxvCwY [ฝึกฟังภาษาอังกฤษ 30 ประโยคสั้น]
+  429 hit, waiting 26s retry 1/3
+  429 hit, waiting 28s retry 2/3
+  429 hit, waiting 31s retry 3/3
+DOWNLOAD subs for YzhsIltyasQ [ฝึกฟังภาษาอังกฤษ 5 ประโยคคำถาม]
+  OK th=True en=True
+DOWNLOAD subs for 0SjHHLVVWCY [ฝึกฟังภาษาอังกฤษ 5 ประโยคคุ้นห]
+  429 hit, waiting 33s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for c_AzsAzrnxY [ฝึกฟังภาษาอังกฤษ 5 ประโยคภาษาอ]
+  429 hit, waiting 25s retry 1/3
+  429 hit, waiting 33s retry 2/3
+  429 hit, waiting 35s retry 3/3
+DOWNLOAD subs for EmLScRq7knk [ฝึกฟังภาษาอังกฤษ 5 ประโยคฮิตจา]
+  429 hit, waiting 27s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for -VHrcSJVYOY [ฝึกฟังภาษาอังกฤษ 5 สำนวนดังที่]
+  OK th=True en=True
+DOWNLOAD subs for 57aRXkbr_2c [ฝึกฟังภาษาอังกฤษจากหนัง 5 ประโ]
+  429 hit, waiting 29s retry 1/3
+  429 hit, waiting 29s retry 2/3
+  429 hit, waiting 28s retry 3/3
+DOWNLOAD subs for KUEu6QysU80 [ฝึกฟังภาษาอังกฤษจากหนัง ประโยค]
+  429 hit, waiting 27s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for 4kvCFtxrzSE [ฝึกฟังภาษาอังกฤษจากหนัง ประโยค]
+  429 hit, waiting 32s retry 1/3
+  429 hit, waiting 32s retry 2/3
+  429 hit, waiting 35s retry 3/3
+DOWNLOAD subs for wN_SE9rdOTA [ฝึกฟังภาษาอังกฤษจากในหนัง 5 คำ]
+  429 hit, waiting 34s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for LKD3f95EqCg [ฝึกฟังภาษาอังกฤษประโยคสั้นๆ 30]
+  OK th=True en=True
+DOWNLOAD subs for AF_9Pw68YdM [ฝึกฟังภาษาอังกฤษประโยคสั้นๆ 30]
+  429 hit, waiting 30s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for WHplM57akzM [ฝึกฟังภาษาอังกฤษประโยคสั้นๆ ที]
+  OK th=True en=True
+DOWNLOAD subs for uCbM3LpPn3Y [ฝึกภาษาจากหนัง ฝึกฟังภาษาอังกฤ]
+  429 hit, waiting 28s retry 1/3
+  429 hit, waiting 28s retry 2/3
+  429 hit, waiting 27s retry 3/3
+DOWNLOAD subs for klC-2g5do2k [ฝึกภาษาอังกฤษ คำพูดติดปากจากหน]
+  429 hit, waiting 29s retry 1/3
+  OK th=True en=True
+DOWNLOAD subs for wsVN5Jw5od8 [ฝึกภาษาอังกฤษจากหนัง ฝึกฟัง 5 ]
+  429 hit, waiting 25s retry 1/3
+  429 hit, waiting 25s retry 2/3
+  429 hit, waiting 31s retry 3/3
+Batch done
+Final: 91 videos, 166 srt files -> target 97 videos

@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "divorced",
+    "pos": "adjective",
+    "meaning_th": "หย่าร้าง"
+  },
+  {
+    "lemma": "do 1",
+    "pos": "verb",
+    "meaning_th": "ทำ / ปฏิบัติ"
+  },
+  {
+    "lemma": "doctor",
+    "pos": "noun",
+    "meaning_th": "หมอ"
+  },
+  {
+    "lemma": "document",
+    "pos": "noun",
+    "meaning_th": "เอกสาร"
+  },
+  {
+    "lemma": "dog",
+    "pos": "noun",
+    "meaning_th": "สุนัข"
+  },
+  {
+    "lemma": "dollar",
+    "pos": "noun",
+    "meaning_th": "ดอลลาร์"
+  },
+  {
+    "lemma": "domestic",
+    "pos": "adjective",
+    "meaning_th": "ภายในประเทศ"
+  },
+  {
+    "lemma": "dominate",
+    "pos": "verb",
+    "meaning_th": "ครอง"
+  },
+  {
+    "lemma": "door",
+    "pos": "noun",
+    "meaning_th": "ประตู"
+  },
+  {
+    "lemma": "dot",
+    "pos": "noun",
+    "meaning_th": "จุด"
+  },
+  {
+    "lemma": "double",
+    "pos": "adjective",
+    "meaning_th": "สองเท่า"
+  },
+  {
+    "lemma": "doubt",
+    "pos": "noun",
+    "meaning_th": "สงสัย"
+  },
+  {
+    "lemma": "do up",
+    "pos": "verb",
+    "meaning_th": "ปรับปรุงซ่อมแซม / ติดกระดุมหรือรูดซิป"
+  },
+  {
+    "lemma": "do with",
+    "pos": "verb",
+    "meaning_th": "ต้องการ / อยากได้ (เช่น could do with)"
+  },
+  {
+    "lemma": "do without",
+    "pos": "verb",
+    "meaning_th": "อยู่ได้โดยไม่ต้องมี / ขาดได้"
+  },
+  {
+    "lemma": "down",
+    "pos": "adverb",
+    "meaning_th": "ลง"
+  },
+  {
+    "lemma": "downstairs",
+    "pos": "adverb",
+    "meaning_th": "ชั้นล่าง"
+  },
+  {
+    "lemma": "downward",
+    "pos": "adjective",
+    "meaning_th": "ลง"
+  },
+  {
+    "lemma": "downwards",
+    "pos": "adverb",
+    "meaning_th": "ลง"
+  },
+  {
+    "lemma": "dozen",
+    "pos": "noun",
+    "meaning_th": "โหล"
+  },
+  {
+    "lemma": "draft",
+    "pos": "noun",
+    "meaning_th": "ร่าง"
+  },
+  {
+    "lemma": "drag",
+    "pos": "verb",
+    "meaning_th": "ลาก"
+  },
+  {
+    "lemma": "drama",
+    "pos": "noun",
+    "meaning_th": "ละคร"
+  },
+  {
+    "lemma": "dramatic",
+    "pos": "adjective",
+    "meaning_th": "น่าทึ่ง"
+  },
+  {
+    "lemma": "dramatically",
+    "pos": "adverb",
+    "meaning_th": "อย่างมาก"
+  },
+  {
+    "lemma": "draw",
+    "pos": "verb",
+    "meaning_th": "วาด"
+  },
+  {
+    "lemma": "drawer",
+    "pos": "noun",
+    "meaning_th": "ลิ้นชัก"
+  },
+  {
+    "lemma": "drawing",
+    "pos": "verb",
+    "meaning_th": "การวาดภาพ"
+  },
+  {
+    "lemma": "dream",
+    "pos": "noun",
+    "meaning_th": "ฝัน"
+  },
+  {
+    "lemma": "dress",
+    "pos": "verb",
+    "meaning_th": "ชุด"
+  },
+  {
+    "lemma": "dressed",
+    "pos": "adjective",
+    "meaning_th": "แต่งตัว"
+  },
+  {
+    "lemma": "dress up",
+    "pos": "noun",
+    "meaning_th": "แต่งตัวหรูหรา / แต่งตัวแฟนซี"
+  },
+  {
+    "lemma": "drink",
+    "pos": "verb",
+    "meaning_th": "ดื่ม"
+  },
+  {
+    "lemma": "drive",
+    "pos": "verb",
+    "meaning_th": "ขับ"
+  },
+  {
+    "lemma": "drive away",
+    "pos": "verb",
+    "meaning_th": "ขับรถออกไป / ขับไล่ให้หนีไป"
+  },
+  {
+    "lemma": "drive off",
+    "pos": "verb",
+    "meaning_th": "ขับรถออกไป"
+  },
+  {
+    "lemma": "driver",
+    "pos": "noun",
+    "meaning_th": "คนขับ"
+  },
+  {
+    "lemma": "driving",
+    "pos": "noun",
+    "meaning_th": "ขับรถ"
+  },
+  {
+    "lemma": "drop",
+    "pos": "verb",
+    "meaning_th": "หยด"
+  },
+  {
+    "lemma": "drop out",
+    "pos": "noun",
+    "meaning_th": "ลาออกกลางคัน / พักการเรียน"
+  },
+  {
+    "lemma": "drug",
+    "pos": "noun",
+    "meaning_th": "ยา"
+  },
+  {
+    "lemma": "drugstore",
+    "pos": "noun",
+    "meaning_th": "ร้านขายยา"
+  },
+  {
+    "lemma": "drum",
+    "pos": "noun",
+    "meaning_th": "กลอง"
+  },
+  {
+    "lemma": "drunk",
+    "pos": "adjective",
+    "meaning_th": "เมา"
+  },
+  {
+    "lemma": "dry",
+    "pos": "adjective",
+    "meaning_th": "แห้ง"
+  },
+  {
+    "lemma": "dry off",
+    "pos": "noun",
+    "meaning_th": "เช็ดตัวให้แห้ง"
+  },
+  {
+    "lemma": "dry up",
+    "pos": "noun",
+    "meaning_th": "เหือดแห้ง / ขาดแคลน"
+  },
+  {
+    "lemma": "due",
+    "pos": "adjective",
+    "meaning_th": "เนื่องจาก"
+  },
+  {
+    "lemma": "dull",
+    "pos": "adjective",
+    "meaning_th": "น่าเบื่อ"
+  },
+  {
+    "lemma": "dump",
+    "pos": "verb",
+    "meaning_th": "ถ่ายโอนข้อมูล"
+  }
+]

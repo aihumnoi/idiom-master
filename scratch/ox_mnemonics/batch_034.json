@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "heating",
+    "pos": "noun",
+    "meaning_th": "เครื่องทำความร้อน"
+  },
+  {
+    "lemma": "heat up",
+    "pos": "verb",
+    "meaning_th": "อุ่นอาหาร / บรรยากาศเริ่มดุเดือดขึ้น"
+  },
+  {
+    "lemma": "heaven",
+    "pos": "noun",
+    "meaning_th": "สวรรค์"
+  },
+  {
+    "lemma": "heavily",
+    "pos": "adverb",
+    "meaning_th": "หนักมาก"
+  },
+  {
+    "lemma": "heavy",
+    "pos": "adjective",
+    "meaning_th": "หนัก"
+  },
+  {
+    "lemma": "heel",
+    "pos": "noun",
+    "meaning_th": "ส้น"
+  },
+  {
+    "lemma": "height",
+    "pos": "noun",
+    "meaning_th": "ความสูง"
+  },
+  {
+    "lemma": "hell",
+    "pos": "noun",
+    "meaning_th": "นรก"
+  },
+  {
+    "lemma": "hello",
+    "pos": "interjection",
+    "meaning_th": "สวัสดี"
+  },
+  {
+    "lemma": "help",
+    "pos": "verb",
+    "meaning_th": "ช่วย"
+  },
+  {
+    "lemma": "helpful",
+    "pos": "adjective",
+    "meaning_th": "มีประโยชน์"
+  },
+  {
+    "lemma": "help out",
+    "pos": "noun",
+    "meaning_th": "ยื่นมือเข้าช่วยเหลือ"
+  },
+  {
+    "lemma": "hence",
+    "pos": "adverb",
+    "meaning_th": "เพราะฉะนั้น"
+  },
+  {
+    "lemma": "her",
+    "pos": "pronoun",
+    "meaning_th": "ของเธอ"
+  },
+  {
+    "lemma": "here",
+    "pos": "adverb",
+    "meaning_th": "ที่นี่"
+  },
+  {
+    "lemma": "hero",
+    "pos": "noun",
+    "meaning_th": "ฮีโร่"
+  },
+  {
+    "lemma": "hers",
+    "pos": "pronoun",
+    "meaning_th": "ของเธอ"
+  },
+  {
+    "lemma": "herself",
+    "pos": "pronoun",
+    "meaning_th": "ตัวเธอเอง"
+  },
+  {
+    "lemma": "hesitate",
+    "pos": "verb",
+    "meaning_th": "ลังเล"
+  },
+  {
+    "lemma": "hi",
+    "pos": "interjection",
+    "meaning_th": "สวัสดี"
+  },
+  {
+    "lemma": "hide",
+    "pos": "verb",
+    "meaning_th": "ซ่อน"
+  },
+  {
+    "lemma": "high",
+    "pos": "adjective",
+    "meaning_th": "สูง"
+  },
+  {
+    "lemma": "highly",
+    "pos": "adverb",
+    "meaning_th": "อย่างมาก / ในระดับสูง"
+  },
+  {
+    "lemma": "highway",
+    "pos": "noun",
+    "meaning_th": "ทางหลวง"
+  },
+  {
+    "lemma": "hill",
+    "pos": "noun",
+    "meaning_th": "เนินเขา"
+  },
+  {
+    "lemma": "him",
+    "pos": "pronoun",
+    "meaning_th": "เขา"
+  },
+  {
+    "lemma": "himself",
+    "pos": "pronoun",
+    "meaning_th": "ตัวเขาเอง"
+  },
+  {
+    "lemma": "hip",
+    "pos": "noun",
+    "meaning_th": "สะโพก"
+  },
+  {
+    "lemma": "hire",
+    "pos": "verb",
+    "meaning_th": "จ้าง"
+  },
+  {
+    "lemma": "hire out",
+    "pos": "verb",
+    "meaning_th": "จ้างออก"
+  },
+  {
+    "lemma": "his",
+    "pos": "pronoun",
+    "meaning_th": "ของเขา"
+  },
+  {
+    "lemma": "historical",
+    "pos": "adjective",
+    "meaning_th": "ประวัติศาสตร์"
+  },
+  {
+    "lemma": "history",
+    "pos": "noun",
+    "meaning_th": "ประวัติศาสตร์"
+  },
+  {
+    "lemma": "hit",
+    "pos": "verb",
+    "meaning_th": "ตี"
+  },
+  {
+    "lemma": "hobby",
+    "pos": "noun",
+    "meaning_th": "งานอดิเรก"
+  },
+  {
+    "lemma": "hold",
+    "pos": "verb",
+    "meaning_th": "ถือ"
+  },
+  {
+    "lemma": "hold back",
+    "pos": "verb",
+    "meaning_th": "กลั้นไว้ (น้ำตา) / ยับยั้งชั่งใจ"
+  },
+  {
+    "lemma": "hold on",
+    "pos": "verb",
+    "meaning_th": "ถือสายรอสักครู่ / อดทนไว้"
+  },
+  {
+    "lemma": "hold on to",
+    "pos": "verb",
+    "meaning_th": "ยึดมั่นใน"
+  },
+  {
+    "lemma": "hold out",
+    "pos": "verb",
+    "meaning_th": "ยื่นมือออกไป / ยืนหยัดทนต่อไป"
+  },
+  {
+    "lemma": "hold up",
+    "pos": "verb",
+    "meaning_th": "ทำให้ล่าช้า / ปล้นชิง"
+  },
+  {
+    "lemma": "hole",
+    "pos": "noun",
+    "meaning_th": "รู"
+  },
+  {
+    "lemma": "holiday",
+    "pos": "noun",
+    "meaning_th": "วันหยุด"
+  },
+  {
+    "lemma": "hollow",
+    "pos": "adjective",
+    "meaning_th": "กลวง"
+  },
+  {
+    "lemma": "holy",
+    "pos": "adjective",
+    "meaning_th": "ศักดิ์สิทธิ์"
+  },
+  {
+    "lemma": "home",
+    "pos": "noun",
+    "meaning_th": "บ้าน"
+  },
+  {
+    "lemma": "homework",
+    "pos": "noun",
+    "meaning_th": "การบ้าน"
+  },
+  {
+    "lemma": "honest",
+    "pos": "adjective",
+    "meaning_th": "ซื่อสัตย์"
+  },
+  {
+    "lemma": "honestly",
+    "pos": "adverb",
+    "meaning_th": "อย่างซื่อสัตย์ / พูดตามตรง"
+  },
+  {
+    "lemma": "honour",
+    "pos": "noun",
+    "meaning_th": "ให้เกียรติ"
+  }
+]

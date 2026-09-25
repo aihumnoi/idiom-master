@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "fifteenth",
+    "pos": "number",
+    "meaning_th": "ที่สิบห้า"
+  },
+  {
+    "lemma": "fifth",
+    "pos": "adjective",
+    "meaning_th": "ที่ห้า"
+  },
+  {
+    "lemma": "fiftieth",
+    "pos": "number",
+    "meaning_th": "ที่ห้าสิบ"
+  },
+  {
+    "lemma": "fifty",
+    "pos": "noun",
+    "meaning_th": "ห้าสิบ"
+  },
+  {
+    "lemma": "fight",
+    "pos": "verb",
+    "meaning_th": "ต่อสู้"
+  },
+  {
+    "lemma": "fighting",
+    "pos": "noun",
+    "meaning_th": "การต่อสู้"
+  },
+  {
+    "lemma": "figure",
+    "pos": "noun",
+    "meaning_th": "รูป"
+  },
+  {
+    "lemma": "figure out",
+    "pos": "noun",
+    "meaning_th": "คิดหาคำตอบได้ / ทำความเข้าใจได้"
+  },
+  {
+    "lemma": "file",
+    "pos": "noun",
+    "meaning_th": "ไฟล์"
+  },
+  {
+    "lemma": "fill",
+    "pos": "verb",
+    "meaning_th": "เติม"
+  },
+  {
+    "lemma": "fill in",
+    "pos": "verb",
+    "meaning_th": "กรอกข้อมูล / ทำงานแทนชั่วคราว"
+  },
+  {
+    "lemma": "fill out",
+    "pos": "verb",
+    "meaning_th": "กรอกแบบฟอร์มให้ครบถ้วน"
+  },
+  {
+    "lemma": "fill up",
+    "pos": "verb",
+    "meaning_th": "เติมน้ำมันเต็มถัง / เติมให้เต็ม"
+  },
+  {
+    "lemma": "film",
+    "pos": "noun",
+    "meaning_th": "ฟิล์ม"
+  },
+  {
+    "lemma": "final",
+    "pos": "adjective",
+    "meaning_th": "สุดท้าย"
+  },
+  {
+    "lemma": "finally",
+    "pos": "adverb",
+    "meaning_th": "ในที่สุด"
+  },
+  {
+    "lemma": "finance",
+    "pos": "noun",
+    "meaning_th": "การเงิน"
+  },
+  {
+    "lemma": "financial",
+    "pos": "adjective",
+    "meaning_th": "การเงิน"
+  },
+  {
+    "lemma": "find",
+    "pos": "verb",
+    "meaning_th": "หา"
+  },
+  {
+    "lemma": "find out",
+    "pos": "noun",
+    "meaning_th": "ค้นพบความจริง / รู้ข้อมูล"
+  },
+  {
+    "lemma": "fine",
+    "pos": "adjective",
+    "meaning_th": "ดี"
+  },
+  {
+    "lemma": "finely",
+    "pos": "adjective",
+    "meaning_th": "อย่างประณีต / อย่างละเอียด"
+  },
+  {
+    "lemma": "finger",
+    "pos": "noun",
+    "meaning_th": "นิ้ว"
+  },
+  {
+    "lemma": "finish",
+    "pos": "verb",
+    "meaning_th": "เสร็จ"
+  },
+  {
+    "lemma": "finished",
+    "pos": "adjective",
+    "meaning_th": "ที่เสร็จเรียบร้อย"
+  },
+  {
+    "lemma": "finish off",
+    "pos": "verb",
+    "meaning_th": "จัดการให้เสร็จสิ้น / กินหรือดื่มให้หมด"
+  },
+  {
+    "lemma": "fire",
+    "pos": "noun",
+    "meaning_th": "ไฟ"
+  },
+  {
+    "lemma": "firm",
+    "pos": "adjective",
+    "meaning_th": "บริษัท"
+  },
+  {
+    "lemma": "firmly",
+    "pos": "adjective",
+    "meaning_th": "อย่างมั่นคง"
+  },
+  {
+    "lemma": "first",
+    "pos": "adjective",
+    "meaning_th": "อันดับแรก"
+  },
+  {
+    "lemma": "fish",
+    "pos": "noun",
+    "meaning_th": "ปลา"
+  },
+  {
+    "lemma": "fishing",
+    "pos": "noun",
+    "meaning_th": "ตกปลา"
+  },
+  {
+    "lemma": "fit",
+    "pos": "verb",
+    "meaning_th": "พอดี"
+  },
+  {
+    "lemma": "fit in",
+    "pos": "verb",
+    "meaning_th": "เข้ากับกลุ่มคนอื่นได้ / จัดเวลาให้พอดี"
+  },
+  {
+    "lemma": "five",
+    "pos": "number",
+    "meaning_th": "ห้า"
+  },
+  {
+    "lemma": "fix",
+    "pos": "verb",
+    "meaning_th": "แก้ไข"
+  },
+  {
+    "lemma": "fixed",
+    "pos": "verb",
+    "meaning_th": "ที่ตายตัว"
+  },
+  {
+    "lemma": "flag",
+    "pos": "noun",
+    "meaning_th": "ธง"
+  },
+  {
+    "lemma": "flame",
+    "pos": "noun",
+    "meaning_th": "เปลวไฟ"
+  },
+  {
+    "lemma": "flash",
+    "pos": "verb",
+    "meaning_th": "แฟลช"
+  },
+  {
+    "lemma": "flat",
+    "pos": "adjective",
+    "meaning_th": "แบน"
+  },
+  {
+    "lemma": "flavour",
+    "pos": "noun",
+    "meaning_th": "รสชาติ"
+  },
+  {
+    "lemma": "flesh",
+    "pos": "noun",
+    "meaning_th": "เนื้อ"
+  },
+  {
+    "lemma": "flight",
+    "pos": "noun",
+    "meaning_th": "เที่ยวบิน"
+  },
+  {
+    "lemma": "float",
+    "pos": "verb",
+    "meaning_th": "ลอย"
+  },
+  {
+    "lemma": "flood",
+    "pos": "noun",
+    "meaning_th": "น้ำท่วม"
+  },
+  {
+    "lemma": "flooded",
+    "pos": "noun",
+    "meaning_th": "น้ำท่วม"
+  },
+  {
+    "lemma": "flooding",
+    "pos": "noun",
+    "meaning_th": "น้ำท่วม"
+  },
+  {
+    "lemma": "floor",
+    "pos": "noun",
+    "meaning_th": "พื้น"
+  },
+  {
+    "lemma": "flour",
+    "pos": "noun",
+    "meaning_th": "แป้ง"
+  }
+]

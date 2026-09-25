@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "entertainment",
+    "pos": "noun",
+    "meaning_th": "ความบันเทิง"
+  },
+  {
+    "lemma": "enthusiasm",
+    "pos": "noun",
+    "meaning_th": "ความกระตือรือร้น"
+  },
+  {
+    "lemma": "enthusiastic",
+    "pos": "adjective",
+    "meaning_th": "กระตือรือร้น"
+  },
+  {
+    "lemma": "enthusiastically",
+    "pos": "adverb",
+    "meaning_th": "อย่างกระตือรือร้น"
+  },
+  {
+    "lemma": "entire",
+    "pos": "adjective",
+    "meaning_th": "ทั้งหมด"
+  },
+  {
+    "lemma": "entirely",
+    "pos": "adverb",
+    "meaning_th": "โดยสิ้นเชิง"
+  },
+  {
+    "lemma": "entitle",
+    "pos": "verb",
+    "meaning_th": "สิทธิ"
+  },
+  {
+    "lemma": "entrance 1",
+    "pos": "noun",
+    "meaning_th": "ทางเข้า / การเข้าสู่"
+  },
+  {
+    "lemma": "entry",
+    "pos": "noun",
+    "meaning_th": "รายการ"
+  },
+  {
+    "lemma": "envelope",
+    "pos": "noun",
+    "meaning_th": "ซองจดหมาย"
+  },
+  {
+    "lemma": "environment",
+    "pos": "noun",
+    "meaning_th": "สิ่งแวดล้อม"
+  },
+  {
+    "lemma": "environmental",
+    "pos": "adjective",
+    "meaning_th": "ด้านสิ่งแวดล้อม"
+  },
+  {
+    "lemma": "equal",
+    "pos": "adjective",
+    "meaning_th": "เท่ากัน"
+  },
+  {
+    "lemma": "equally",
+    "pos": "adverb",
+    "meaning_th": "เท่าๆ กัน"
+  },
+  {
+    "lemma": "equipment",
+    "pos": "noun",
+    "meaning_th": "อุปกรณ์"
+  },
+  {
+    "lemma": "equivalent",
+    "pos": "adjective",
+    "meaning_th": "เทียบเท่า"
+  },
+  {
+    "lemma": "error",
+    "pos": "noun",
+    "meaning_th": "ข้อผิดพลาด"
+  },
+  {
+    "lemma": "escape",
+    "pos": "verb",
+    "meaning_th": "หนี"
+  },
+  {
+    "lemma": "especially",
+    "pos": "adverb",
+    "meaning_th": "โดยเฉพาะ"
+  },
+  {
+    "lemma": "essay",
+    "pos": "noun",
+    "meaning_th": "เรียงความ"
+  },
+  {
+    "lemma": "essential",
+    "pos": "adjective",
+    "meaning_th": "จำเป็น"
+  },
+  {
+    "lemma": "essentially",
+    "pos": "adverb",
+    "meaning_th": "โดยพื้นฐานแล้ว"
+  },
+  {
+    "lemma": "estate",
+    "pos": "noun",
+    "meaning_th": "อสังหาริมทรัพย์"
+  },
+  {
+    "lemma": "estimate",
+    "pos": "noun",
+    "meaning_th": "ประมาณการ"
+  },
+  {
+    "lemma": "etc.",
+    "pos": "noun",
+    "meaning_th": "ฯลฯ"
+  },
+  {
+    "lemma": "euro",
+    "pos": "noun",
+    "meaning_th": "ยูโร"
+  },
+  {
+    "lemma": "even",
+    "pos": "adjective",
+    "meaning_th": "สม่ำเสมอ"
+  },
+  {
+    "lemma": "evening",
+    "pos": "noun",
+    "meaning_th": "ตอนเย็น"
+  },
+  {
+    "lemma": "event",
+    "pos": "noun",
+    "meaning_th": "เหตุการณ์"
+  },
+  {
+    "lemma": "eventually",
+    "pos": "adverb",
+    "meaning_th": "ในท้ายที่สุด"
+  },
+  {
+    "lemma": "ever",
+    "pos": "adverb",
+    "meaning_th": "เคย"
+  },
+  {
+    "lemma": "every",
+    "pos": "adjective",
+    "meaning_th": "ทั้งหมด"
+  },
+  {
+    "lemma": "everybody",
+    "pos": "pronoun",
+    "meaning_th": "ทุกคน"
+  },
+  {
+    "lemma": "everyone",
+    "pos": "pronoun",
+    "meaning_th": "ทุกคน"
+  },
+  {
+    "lemma": "everything",
+    "pos": "pronoun",
+    "meaning_th": "ทุกอย่าง"
+  },
+  {
+    "lemma": "everywhere",
+    "pos": "adverb",
+    "meaning_th": "ทุกที่"
+  },
+  {
+    "lemma": "evidence",
+    "pos": "noun",
+    "meaning_th": "หลักฐาน"
+  },
+  {
+    "lemma": "evil",
+    "pos": "adjective",
+    "meaning_th": "ความชั่วร้าย"
+  },
+  {
+    "lemma": "ex-",
+    "pos": "other",
+    "meaning_th": "อดีต-"
+  },
+  {
+    "lemma": "exact",
+    "pos": "adjective",
+    "meaning_th": "ที่แน่นอน"
+  },
+  {
+    "lemma": "exactly",
+    "pos": "adverb",
+    "meaning_th": "อย่างแน่นอน"
+  },
+  {
+    "lemma": "exaggerate",
+    "pos": "verb",
+    "meaning_th": "พูดเกินจริง"
+  },
+  {
+    "lemma": "exaggerated",
+    "pos": "adjective",
+    "meaning_th": "พูดเกินจริง"
+  },
+  {
+    "lemma": "exam",
+    "pos": "noun",
+    "meaning_th": "การสอบ"
+  },
+  {
+    "lemma": "examination",
+    "pos": "noun",
+    "meaning_th": "การตรวจสอบ"
+  },
+  {
+    "lemma": "examine",
+    "pos": "verb",
+    "meaning_th": "พิจารณา"
+  },
+  {
+    "lemma": "example",
+    "pos": "noun",
+    "meaning_th": "ตัวอย่าง"
+  },
+  {
+    "lemma": "excellent",
+    "pos": "adjective",
+    "meaning_th": "ยอดเยี่ยม"
+  },
+  {
+    "lemma": "except",
+    "pos": "preposition",
+    "meaning_th": "ยกเว้น"
+  },
+  {
+    "lemma": "exception",
+    "pos": "noun",
+    "meaning_th": "ข้อยกเว้น"
+  }
+]

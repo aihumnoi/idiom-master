@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "chase",
+    "pos": "verb",
+    "meaning_th": "ไล่ล่า"
+  },
+  {
+    "lemma": "chase away",
+    "pos": "noun",
+    "meaning_th": "ไล่ไป / ขับไล่ไป"
+  },
+  {
+    "lemma": "chat",
+    "pos": "verb",
+    "meaning_th": "แชท"
+  },
+  {
+    "lemma": "cheap",
+    "pos": "adjective",
+    "meaning_th": "ราคาถูก"
+  },
+  {
+    "lemma": "cheaply",
+    "pos": "adverb",
+    "meaning_th": "อย่างประหยัด / ด้วยราคาถูก"
+  },
+  {
+    "lemma": "cheat",
+    "pos": "verb",
+    "meaning_th": "โกง"
+  },
+  {
+    "lemma": "cheat of",
+    "pos": "noun",
+    "meaning_th": "โกง / หลอกลวงเอาไป"
+  },
+  {
+    "lemma": "check",
+    "pos": "verb",
+    "meaning_th": "ตรวจสอบ"
+  },
+  {
+    "lemma": "check in",
+    "pos": "noun",
+    "meaning_th": "เช็คอิน (ลงทะเบียนเข้าพัก/ขึ้นเครื่อง)"
+  },
+  {
+    "lemma": "check into",
+    "pos": "noun",
+    "meaning_th": "ลงทะเบียนเข้าพัก"
+  },
+  {
+    "lemma": "check on",
+    "pos": "noun",
+    "meaning_th": "แวะไปดู / ตรวจดูความเรียบร้อย"
+  },
+  {
+    "lemma": "check out",
+    "pos": "noun",
+    "meaning_th": "เช็คเอาต์ (คืนห้อง) / ยืมหนังสือ / แวะดู"
+  },
+  {
+    "lemma": "check over",
+    "pos": "noun",
+    "meaning_th": "ตรวจเช็กอย่างละเอียด"
+  },
+  {
+    "lemma": "check up on",
+    "pos": "noun",
+    "meaning_th": "สืบดู / ตรวจดูพฤติกรรม"
+  },
+  {
+    "lemma": "cheek",
+    "pos": "noun",
+    "meaning_th": "แก้ม"
+  },
+  {
+    "lemma": "cheerful",
+    "pos": "adjective",
+    "meaning_th": "ร่าเริง"
+  },
+  {
+    "lemma": "cheerfully",
+    "pos": "adverb",
+    "meaning_th": "อย่างร่าเริง"
+  },
+  {
+    "lemma": "cheese",
+    "pos": "noun",
+    "meaning_th": "ชีส"
+  },
+  {
+    "lemma": "chemical",
+    "pos": "noun",
+    "meaning_th": "เคมี"
+  },
+  {
+    "lemma": "chemist",
+    "pos": "noun",
+    "meaning_th": "นักเคมี"
+  },
+  {
+    "lemma": "chemistry",
+    "pos": "noun",
+    "meaning_th": "เคมี"
+  },
+  {
+    "lemma": "cheque",
+    "pos": "noun",
+    "meaning_th": "ตรวจสอบ"
+  },
+  {
+    "lemma": "chest",
+    "pos": "noun",
+    "meaning_th": "หน้าอก"
+  },
+  {
+    "lemma": "chew",
+    "pos": "verb",
+    "meaning_th": "เคี้ยว"
+  },
+  {
+    "lemma": "chicken",
+    "pos": "noun",
+    "meaning_th": "ไก่"
+  },
+  {
+    "lemma": "chief",
+    "pos": "noun",
+    "meaning_th": "หัวหน้า"
+  },
+  {
+    "lemma": "child",
+    "pos": "noun",
+    "meaning_th": "เด็ก"
+  },
+  {
+    "lemma": "chin",
+    "pos": "noun",
+    "meaning_th": "คาง"
+  },
+  {
+    "lemma": "chip",
+    "pos": "noun",
+    "meaning_th": "ชิป"
+  },
+  {
+    "lemma": "chocolate",
+    "pos": "noun",
+    "meaning_th": "ช็อคโกแลต"
+  },
+  {
+    "lemma": "choice",
+    "pos": "noun",
+    "meaning_th": "ทางเลือก"
+  },
+  {
+    "lemma": "choose",
+    "pos": "verb",
+    "meaning_th": "เลือก"
+  },
+  {
+    "lemma": "chop",
+    "pos": "verb",
+    "meaning_th": "สับ"
+  },
+  {
+    "lemma": "chop down",
+    "pos": "noun",
+    "meaning_th": "โค่น (ต้นไม้)"
+  },
+  {
+    "lemma": "chop off",
+    "pos": "noun",
+    "meaning_th": "ฟันขาด / สับขาด"
+  },
+  {
+    "lemma": "church",
+    "pos": "noun",
+    "meaning_th": "คริสตจักร"
+  },
+  {
+    "lemma": "cigarette",
+    "pos": "noun",
+    "meaning_th": "บุหรี่"
+  },
+  {
+    "lemma": "cinema",
+    "pos": "noun",
+    "meaning_th": "โรงหนัง"
+  },
+  {
+    "lemma": "circle",
+    "pos": "noun",
+    "meaning_th": "วงกลม"
+  },
+  {
+    "lemma": "circumstance",
+    "pos": "noun",
+    "meaning_th": "สถานการณ์"
+  },
+  {
+    "lemma": "citizen",
+    "pos": "noun",
+    "meaning_th": "พลเมือง"
+  },
+  {
+    "lemma": "city",
+    "pos": "noun",
+    "meaning_th": "เมือง / นคร"
+  },
+  {
+    "lemma": "civil",
+    "pos": "adjective",
+    "meaning_th": "พลเรือน"
+  },
+  {
+    "lemma": "claim",
+    "pos": "verb",
+    "meaning_th": "อ้าง / เรียกร้อง"
+  },
+  {
+    "lemma": "clap",
+    "pos": "verb",
+    "meaning_th": "ตบมือ"
+  },
+  {
+    "lemma": "class",
+    "pos": "noun",
+    "meaning_th": "ระดับ"
+  },
+  {
+    "lemma": "classic",
+    "pos": "adjective",
+    "meaning_th": "คลาสสิค"
+  },
+  {
+    "lemma": "classroom",
+    "pos": "noun",
+    "meaning_th": "ห้องเรียน"
+  },
+  {
+    "lemma": "clean",
+    "pos": "adjective",
+    "meaning_th": "ทำความสะอาด"
+  },
+  {
+    "lemma": "clean up",
+    "pos": "noun",
+    "meaning_th": "ทำความสะอาด / จัดเก็บให้เรียบร้อย"
+  }
+]

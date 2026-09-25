@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "layer",
+    "pos": "noun",
+    "meaning_th": "ชั้น"
+  },
+  {
+    "lemma": "lazy",
+    "pos": "adjective",
+    "meaning_th": "ขี้เกียจ"
+  },
+  {
+    "lemma": "lead 1",
+    "pos": "noun",
+    "meaning_th": "นำทาง / เป็นผู้นำ / สารตะกั่ว"
+  },
+  {
+    "lemma": "leader",
+    "pos": "noun",
+    "meaning_th": "ผู้นำ"
+  },
+  {
+    "lemma": "leading 1",
+    "pos": "adjective",
+    "meaning_th": "ชั้นนำ / อันดับต้นๆ"
+  },
+  {
+    "lemma": "leaf",
+    "pos": "noun",
+    "meaning_th": "ใบไม้"
+  },
+  {
+    "lemma": "league",
+    "pos": "noun",
+    "meaning_th": "ลีก"
+  },
+  {
+    "lemma": "lean",
+    "pos": "verb",
+    "meaning_th": "เอียง"
+  },
+  {
+    "lemma": "learn",
+    "pos": "verb",
+    "meaning_th": "เรียนรู้"
+  },
+  {
+    "lemma": "least",
+    "pos": "adjective",
+    "meaning_th": "น้อยที่สุด"
+  },
+  {
+    "lemma": "leather",
+    "pos": "noun",
+    "meaning_th": "หนัง"
+  },
+  {
+    "lemma": "leave",
+    "pos": "verb",
+    "meaning_th": "ออกจาก"
+  },
+  {
+    "lemma": "leave out",
+    "pos": "verb",
+    "meaning_th": "ออกไป"
+  },
+  {
+    "lemma": "lecture",
+    "pos": "noun",
+    "meaning_th": "การบรรยาย"
+  },
+  {
+    "lemma": "left",
+    "pos": "adjective",
+    "meaning_th": "ซ้าย"
+  },
+  {
+    "lemma": "leg",
+    "pos": "noun",
+    "meaning_th": "ขา"
+  },
+  {
+    "lemma": "legal",
+    "pos": "adjective",
+    "meaning_th": "ถูกกฎหมาย"
+  },
+  {
+    "lemma": "legally",
+    "pos": "adverb",
+    "meaning_th": "ตามกฎหมาย / อย่างถูกกฎหมาย"
+  },
+  {
+    "lemma": "lemon",
+    "pos": "noun",
+    "meaning_th": "มะนาว"
+  },
+  {
+    "lemma": "lend",
+    "pos": "verb",
+    "meaning_th": "ให้ยืม"
+  },
+  {
+    "lemma": "length",
+    "pos": "noun",
+    "meaning_th": "ความยาว"
+  },
+  {
+    "lemma": "less",
+    "pos": "adjective",
+    "meaning_th": "น้อย"
+  },
+  {
+    "lemma": "lesson",
+    "pos": "noun",
+    "meaning_th": "บทเรียน"
+  },
+  {
+    "lemma": "let",
+    "pos": "verb",
+    "meaning_th": "อนุญาต"
+  },
+  {
+    "lemma": "let down",
+    "pos": "verb",
+    "meaning_th": "ปล่อยให้ลง"
+  },
+  {
+    "lemma": "let off",
+    "pos": "verb",
+    "meaning_th": "ปล่อยวาง"
+  },
+  {
+    "lemma": "letter",
+    "pos": "noun",
+    "meaning_th": "จดหมาย"
+  },
+  {
+    "lemma": "level",
+    "pos": "noun",
+    "meaning_th": "ระดับ"
+  },
+  {
+    "lemma": "library",
+    "pos": "noun",
+    "meaning_th": "ห้องสมุด"
+  },
+  {
+    "lemma": "licence",
+    "pos": "noun",
+    "meaning_th": "ใบอนุญาต"
+  },
+  {
+    "lemma": "license",
+    "pos": "noun",
+    "meaning_th": "ใบอนุญาต"
+  },
+  {
+    "lemma": "lid",
+    "pos": "noun",
+    "meaning_th": "ฝา"
+  },
+  {
+    "lemma": "lie 1",
+    "pos": "noun",
+    "meaning_th": "คำโกหก / เรื่องเท็จ"
+  },
+  {
+    "lemma": "lie 2",
+    "pos": "verb",
+    "meaning_th": "นอนลง / โกหก"
+  },
+  {
+    "lemma": "lie around",
+    "pos": "verb",
+    "meaning_th": "โกหก"
+  },
+  {
+    "lemma": "lie down",
+    "pos": "verb",
+    "meaning_th": "นอนราบ"
+  },
+  {
+    "lemma": "life",
+    "pos": "noun",
+    "meaning_th": "ชีวิต"
+  },
+  {
+    "lemma": "lift",
+    "pos": "verb",
+    "meaning_th": "ยก"
+  },
+  {
+    "lemma": "light",
+    "pos": "noun",
+    "meaning_th": "แสงสว่าง"
+  },
+  {
+    "lemma": "lightly",
+    "pos": "adverb",
+    "meaning_th": "เบา ๆ"
+  },
+  {
+    "lemma": "like",
+    "pos": "preposition",
+    "meaning_th": "ชอบ"
+  },
+  {
+    "lemma": "likely",
+    "pos": "adjective",
+    "meaning_th": "มีแนวโน้ม"
+  },
+  {
+    "lemma": "limit",
+    "pos": "noun",
+    "meaning_th": "ขีด จำกัด"
+  },
+  {
+    "lemma": "limited",
+    "pos": "adjective",
+    "meaning_th": "จำกัด"
+  },
+  {
+    "lemma": "limit to",
+    "pos": "verb",
+    "meaning_th": "จำกัด"
+  },
+  {
+    "lemma": "line",
+    "pos": "noun",
+    "meaning_th": "เส้น"
+  },
+  {
+    "lemma": "link",
+    "pos": "noun",
+    "meaning_th": "ลิงค์"
+  },
+  {
+    "lemma": "lip",
+    "pos": "noun",
+    "meaning_th": "ริมฝีปาก"
+  },
+  {
+    "lemma": "liquid",
+    "pos": "noun",
+    "meaning_th": "ของเหลว"
+  },
+  {
+    "lemma": "list",
+    "pos": "noun",
+    "meaning_th": "รายการ"
+  }
+]

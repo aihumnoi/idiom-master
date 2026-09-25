@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "peak",
+    "pos": "noun",
+    "meaning_th": "จุดสูงสุด"
+  },
+  {
+    "lemma": "pen",
+    "pos": "noun",
+    "meaning_th": "ปากกา"
+  },
+  {
+    "lemma": "pencil",
+    "pos": "noun",
+    "meaning_th": "ดินสอ"
+  },
+  {
+    "lemma": "penny",
+    "pos": "noun",
+    "meaning_th": "เงิน"
+  },
+  {
+    "lemma": "pension 1",
+    "pos": "noun",
+    "meaning_th": "เงินบำนาญ / เงินยังชีพผู้สูงอายุ"
+  },
+  {
+    "lemma": "people",
+    "pos": "noun",
+    "meaning_th": "ประชากร"
+  },
+  {
+    "lemma": "pepper",
+    "pos": "noun",
+    "meaning_th": "พริกไทย"
+  },
+  {
+    "lemma": "per",
+    "pos": "preposition",
+    "meaning_th": "ต่อ"
+  },
+  {
+    "lemma": "per cent",
+    "pos": "noun",
+    "meaning_th": "เปอร์เซ็นต์"
+  },
+  {
+    "lemma": "perfect",
+    "pos": "adjective",
+    "meaning_th": "สมบูรณ์แบบ"
+  },
+  {
+    "lemma": "perfectly",
+    "pos": "adverb",
+    "meaning_th": "อย่างสมบูรณ์แบบ"
+  },
+  {
+    "lemma": "perform",
+    "pos": "verb",
+    "meaning_th": "ดำเนินการ"
+  },
+  {
+    "lemma": "performance",
+    "pos": "noun",
+    "meaning_th": "ผลงาน"
+  },
+  {
+    "lemma": "performer",
+    "pos": "noun",
+    "meaning_th": "นักแสดง / ผู้แสดง"
+  },
+  {
+    "lemma": "perhaps",
+    "pos": "adverb",
+    "meaning_th": "บางที"
+  },
+  {
+    "lemma": "period",
+    "pos": "noun",
+    "meaning_th": "ระยะเวลา"
+  },
+  {
+    "lemma": "permanent",
+    "pos": "adjective",
+    "meaning_th": "ถาวร"
+  },
+  {
+    "lemma": "permanently",
+    "pos": "adjective",
+    "meaning_th": "อย่างถาวร"
+  },
+  {
+    "lemma": "permission",
+    "pos": "noun",
+    "meaning_th": "การอนุญาต"
+  },
+  {
+    "lemma": "permit",
+    "pos": "verb",
+    "meaning_th": "อนุญาต"
+  },
+  {
+    "lemma": "person",
+    "pos": "noun",
+    "meaning_th": "บุคคล"
+  },
+  {
+    "lemma": "personal",
+    "pos": "adjective",
+    "meaning_th": "ส่วนตัว"
+  },
+  {
+    "lemma": "personality",
+    "pos": "noun",
+    "meaning_th": "บุคลิกภาพ"
+  },
+  {
+    "lemma": "personally",
+    "pos": "adverb",
+    "meaning_th": "โดยส่วนตัว"
+  },
+  {
+    "lemma": "persuade",
+    "pos": "verb",
+    "meaning_th": "โน้มน้าว"
+  },
+  {
+    "lemma": "pet",
+    "pos": "noun",
+    "meaning_th": "สัตว์เลี้ยง"
+  },
+  {
+    "lemma": "petrol",
+    "pos": "noun",
+    "meaning_th": "น้ำมันเบนซิน"
+  },
+  {
+    "lemma": "phase",
+    "pos": "noun",
+    "meaning_th": "เฟส"
+  },
+  {
+    "lemma": "philosophy",
+    "pos": "noun",
+    "meaning_th": "ปรัชญา"
+  },
+  {
+    "lemma": "phone",
+    "pos": "noun",
+    "meaning_th": "โทรศัพท์"
+  },
+  {
+    "lemma": "photo",
+    "pos": "noun",
+    "meaning_th": "รูปถ่าย"
+  },
+  {
+    "lemma": "photocopy",
+    "pos": "noun",
+    "meaning_th": "ถ่ายเอกสาร"
+  },
+  {
+    "lemma": "photograph",
+    "pos": "noun",
+    "meaning_th": "รูปถ่าย"
+  },
+  {
+    "lemma": "photographer",
+    "pos": "noun",
+    "meaning_th": "ช่างภาพ"
+  },
+  {
+    "lemma": "photography",
+    "pos": "noun",
+    "meaning_th": "การถ่ายภาพ"
+  },
+  {
+    "lemma": "phrase",
+    "pos": "noun",
+    "meaning_th": "วลี"
+  },
+  {
+    "lemma": "physical",
+    "pos": "adjective",
+    "meaning_th": "ทางกายภาพ"
+  },
+  {
+    "lemma": "physically",
+    "pos": "adverb",
+    "meaning_th": "ทางร่างกาย"
+  },
+  {
+    "lemma": "physics",
+    "pos": "noun",
+    "meaning_th": "ฟิสิกส์"
+  },
+  {
+    "lemma": "piano",
+    "pos": "noun",
+    "meaning_th": "เปียโน"
+  },
+  {
+    "lemma": "pick",
+    "pos": "verb",
+    "meaning_th": "เลือก"
+  },
+  {
+    "lemma": "pick up",
+    "pos": "verb",
+    "meaning_th": "ไปรับ (คน) / หยิบขึ้นมา / เรียนรู้ทักษะ"
+  },
+  {
+    "lemma": "picture",
+    "pos": "noun",
+    "meaning_th": "รูปภาพ"
+  },
+  {
+    "lemma": "piece",
+    "pos": "noun",
+    "meaning_th": "ชิ้นส่วน"
+  },
+  {
+    "lemma": "pig",
+    "pos": "noun",
+    "meaning_th": "หมู"
+  },
+  {
+    "lemma": "pile",
+    "pos": "noun",
+    "meaning_th": "กอง"
+  },
+  {
+    "lemma": "pile up",
+    "pos": "verb",
+    "meaning_th": "กองพะเนินเทินทึก"
+  },
+  {
+    "lemma": "pill",
+    "pos": "noun",
+    "meaning_th": "ยา"
+  },
+  {
+    "lemma": "pilot",
+    "pos": "noun",
+    "meaning_th": "นักบิน"
+  },
+  {
+    "lemma": "pin",
+    "pos": "noun",
+    "meaning_th": "เข็มหมุด"
+  }
+]

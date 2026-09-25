@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "immoral",
+    "pos": "adjective",
+    "meaning_th": "ผิดศีลธรรม"
+  },
+  {
+    "lemma": "impact",
+    "pos": "noun",
+    "meaning_th": "ผลกระทบ"
+  },
+  {
+    "lemma": "impatient",
+    "pos": "adjective",
+    "meaning_th": "ใจร้อน"
+  },
+  {
+    "lemma": "implication",
+    "pos": "noun",
+    "meaning_th": "ความหมาย"
+  },
+  {
+    "lemma": "imply",
+    "pos": "verb",
+    "meaning_th": "บอกเป็นนัย / ส่อความว่า"
+  },
+  {
+    "lemma": "import",
+    "pos": "verb",
+    "meaning_th": "นำเข้า"
+  },
+  {
+    "lemma": "importance",
+    "pos": "noun",
+    "meaning_th": "ความสำคัญ"
+  },
+  {
+    "lemma": "important",
+    "pos": "adjective",
+    "meaning_th": "สำคัญ"
+  },
+  {
+    "lemma": "importantly",
+    "pos": "adverb",
+    "meaning_th": "ที่สำคัญ"
+  },
+  {
+    "lemma": "impose",
+    "pos": "verb",
+    "meaning_th": "กำหนด"
+  },
+  {
+    "lemma": "impossible",
+    "pos": "adjective",
+    "meaning_th": "เป็นไปไม่ได้"
+  },
+  {
+    "lemma": "impress",
+    "pos": "verb",
+    "meaning_th": "ประทับใจ"
+  },
+  {
+    "lemma": "impressed",
+    "pos": "adjective",
+    "meaning_th": "ประทับใจ"
+  },
+  {
+    "lemma": "impression",
+    "pos": "noun",
+    "meaning_th": "ความประทับใจ"
+  },
+  {
+    "lemma": "impressive",
+    "pos": "adjective",
+    "meaning_th": "ประทับใจ"
+  },
+  {
+    "lemma": "improve",
+    "pos": "verb",
+    "meaning_th": "ทำให้ดีขึ้น"
+  },
+  {
+    "lemma": "improvement",
+    "pos": "noun",
+    "meaning_th": "การปรับปรุง"
+  },
+  {
+    "lemma": "in",
+    "pos": "preposition",
+    "meaning_th": "ใน"
+  },
+  {
+    "lemma": "inability",
+    "pos": "noun",
+    "meaning_th": "การไร้ความสามารถ"
+  },
+  {
+    "lemma": "inch",
+    "pos": "noun",
+    "meaning_th": "นิ้ว"
+  },
+  {
+    "lemma": "incident",
+    "pos": "noun",
+    "meaning_th": "เหตุการณ์"
+  },
+  {
+    "lemma": "include",
+    "pos": "verb",
+    "meaning_th": "รวม"
+  },
+  {
+    "lemma": "including",
+    "pos": "preposition",
+    "meaning_th": "รวมทั้ง"
+  },
+  {
+    "lemma": "income",
+    "pos": "noun",
+    "meaning_th": "รายได้"
+  },
+  {
+    "lemma": "increase",
+    "pos": "verb",
+    "meaning_th": "เพิ่มขึ้น"
+  },
+  {
+    "lemma": "increasingly",
+    "pos": "adverb",
+    "meaning_th": "มากขึ้นเรื่อยๆ"
+  },
+  {
+    "lemma": "indeed",
+    "pos": "adverb",
+    "meaning_th": "อย่างแท้จริง"
+  },
+  {
+    "lemma": "independence",
+    "pos": "noun",
+    "meaning_th": "ความเป็นอิสระ"
+  },
+  {
+    "lemma": "independent",
+    "pos": "adjective",
+    "meaning_th": "เป็นอิสระ"
+  },
+  {
+    "lemma": "independently",
+    "pos": "adjective",
+    "meaning_th": "อย่างเป็นอิสระ / ด้วยตนเอง"
+  },
+  {
+    "lemma": "index",
+    "pos": "noun",
+    "meaning_th": "ดัชนี"
+  },
+  {
+    "lemma": "indicate",
+    "pos": "verb",
+    "meaning_th": "ระบุ"
+  },
+  {
+    "lemma": "indication",
+    "pos": "noun",
+    "meaning_th": "ข้อบ่งชี้"
+  },
+  {
+    "lemma": "indirect",
+    "pos": "adjective",
+    "meaning_th": "ทางอ้อม"
+  },
+  {
+    "lemma": "indirectly",
+    "pos": "adverb",
+    "meaning_th": "ทางอ้อม"
+  },
+  {
+    "lemma": "individual",
+    "pos": "noun",
+    "meaning_th": "รายบุคคล"
+  },
+  {
+    "lemma": "indoor",
+    "pos": "adjective",
+    "meaning_th": "ในร่ม"
+  },
+  {
+    "lemma": "indoors",
+    "pos": "adverb",
+    "meaning_th": "ในอาคาร"
+  },
+  {
+    "lemma": "industrial",
+    "pos": "adjective",
+    "meaning_th": "ทางอุตสาหกรรม"
+  },
+  {
+    "lemma": "industry",
+    "pos": "noun",
+    "meaning_th": "อุตสาหกรรม"
+  },
+  {
+    "lemma": "inevitable",
+    "pos": "adjective",
+    "meaning_th": "หลีกเลี่ยงไม่ได้"
+  },
+  {
+    "lemma": "inevitably",
+    "pos": "adverb",
+    "meaning_th": "อย่างหลีกเลี่ยงไม่ได้"
+  },
+  {
+    "lemma": "infect",
+    "pos": "verb",
+    "meaning_th": "ติดเชื้อ"
+  },
+  {
+    "lemma": "infected",
+    "pos": "verb",
+    "meaning_th": "ติดเชื้อแล้ว"
+  },
+  {
+    "lemma": "infection",
+    "pos": "noun",
+    "meaning_th": "การติดเชื้อ"
+  },
+  {
+    "lemma": "infectious",
+    "pos": "adjective",
+    "meaning_th": "ติดเชื้อ"
+  },
+  {
+    "lemma": "influence",
+    "pos": "noun",
+    "meaning_th": "อิทธิพล"
+  },
+  {
+    "lemma": "inform",
+    "pos": "verb",
+    "meaning_th": "แจ้ง"
+  },
+  {
+    "lemma": "informal",
+    "pos": "adjective",
+    "meaning_th": "ไม่เป็นทางการ"
+  },
+  {
+    "lemma": "information",
+    "pos": "noun",
+    "meaning_th": "ข้อมูล"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "packet",
+    "pos": "noun",
+    "meaning_th": "แพ็กเก็ต"
+  },
+  {
+    "lemma": "pack up",
+    "pos": "verb",
+    "meaning_th": "แพ็คขึ้น"
+  },
+  {
+    "lemma": "page",
+    "pos": "noun",
+    "meaning_th": "หน้าหนังสือ"
+  },
+  {
+    "lemma": "pain",
+    "pos": "noun",
+    "meaning_th": "ความเจ็บปวด"
+  },
+  {
+    "lemma": "painful",
+    "pos": "adjective",
+    "meaning_th": "เจ็บปวด"
+  },
+  {
+    "lemma": "paint",
+    "pos": "noun",
+    "meaning_th": "สี"
+  },
+  {
+    "lemma": "painter",
+    "pos": "noun",
+    "meaning_th": "จิตรกร"
+  },
+  {
+    "lemma": "painting",
+    "pos": "noun",
+    "meaning_th": "จิตรกรรม"
+  },
+  {
+    "lemma": "pair",
+    "pos": "noun",
+    "meaning_th": "คู่"
+  },
+  {
+    "lemma": "palace",
+    "pos": "noun",
+    "meaning_th": "พระราชวัง"
+  },
+  {
+    "lemma": "pale",
+    "pos": "adjective",
+    "meaning_th": "ซีด"
+  },
+  {
+    "lemma": "pan 1",
+    "pos": "noun",
+    "meaning_th": "กระทะก้นแบน"
+  },
+  {
+    "lemma": "panel",
+    "pos": "noun",
+    "meaning_th": "แผงหน้าปัด"
+  },
+  {
+    "lemma": "pants",
+    "pos": "noun",
+    "meaning_th": "กางเกง"
+  },
+  {
+    "lemma": "paper",
+    "pos": "noun",
+    "meaning_th": "กระดาษ"
+  },
+  {
+    "lemma": "parallel",
+    "pos": "adjective",
+    "meaning_th": "ขนาน"
+  },
+  {
+    "lemma": "parent",
+    "pos": "noun",
+    "meaning_th": "พ่อแม่"
+  },
+  {
+    "lemma": "park",
+    "pos": "noun",
+    "meaning_th": "สวน"
+  },
+  {
+    "lemma": "parliament",
+    "pos": "noun",
+    "meaning_th": "รัฐสภา"
+  },
+  {
+    "lemma": "part",
+    "pos": "noun",
+    "meaning_th": "ส่วนหนึ่ง"
+  },
+  {
+    "lemma": "particular",
+    "pos": "adjective",
+    "meaning_th": "โดยเฉพาะ"
+  },
+  {
+    "lemma": "particularly",
+    "pos": "adverb",
+    "meaning_th": "โดยเฉพาะอย่างยิ่ง"
+  },
+  {
+    "lemma": "partly",
+    "pos": "adverb",
+    "meaning_th": "บางส่วน / ส่วนหนึ่ง"
+  },
+  {
+    "lemma": "partner",
+    "pos": "noun",
+    "meaning_th": "พันธมิตร"
+  },
+  {
+    "lemma": "partnership",
+    "pos": "noun",
+    "meaning_th": "ห้างหุ้นส่วน"
+  },
+  {
+    "lemma": "party",
+    "pos": "noun",
+    "meaning_th": "งานสังสรรค์"
+  },
+  {
+    "lemma": "pass",
+    "pos": "verb",
+    "meaning_th": "ผ่าน"
+  },
+  {
+    "lemma": "passage",
+    "pos": "noun",
+    "meaning_th": "ทางเดิน"
+  },
+  {
+    "lemma": "pass away",
+    "pos": "verb",
+    "meaning_th": "จากไปอย่างสงบ / เสียชีวิต"
+  },
+  {
+    "lemma": "pass by",
+    "pos": "verb",
+    "meaning_th": "ผ่านไป"
+  },
+  {
+    "lemma": "passenger",
+    "pos": "noun",
+    "meaning_th": "ผู้โดยสาร"
+  },
+  {
+    "lemma": "passing",
+    "pos": "verb",
+    "meaning_th": "ผ่าน"
+  },
+  {
+    "lemma": "pass on",
+    "pos": "verb",
+    "meaning_th": "ส่งต่อข้อความ / ส่งต่อสิ่งของ"
+  },
+  {
+    "lemma": "pass out",
+    "pos": "verb",
+    "meaning_th": "เป็นลมหมดสติ / แจกเอกสาร"
+  },
+  {
+    "lemma": "passport",
+    "pos": "noun",
+    "meaning_th": "หนังสือเดินทาง"
+  },
+  {
+    "lemma": "pass round",
+    "pos": "verb",
+    "meaning_th": "ส่งต่อวนรอบวง"
+  },
+  {
+    "lemma": "pass through",
+    "pos": "verb",
+    "meaning_th": "ผ่าน"
+  },
+  {
+    "lemma": "past",
+    "pos": "noun",
+    "meaning_th": "อดีต"
+  },
+  {
+    "lemma": "path",
+    "pos": "noun",
+    "meaning_th": "เส้นทาง"
+  },
+  {
+    "lemma": "patience",
+    "pos": "noun",
+    "meaning_th": "ความอดทน"
+  },
+  {
+    "lemma": "patient",
+    "pos": "adjective",
+    "meaning_th": "อดทน"
+  },
+  {
+    "lemma": "pattern",
+    "pos": "noun",
+    "meaning_th": "ลวดลาย"
+  },
+  {
+    "lemma": "pause",
+    "pos": "noun",
+    "meaning_th": "หยุดชั่วคราว"
+  },
+  {
+    "lemma": "pay",
+    "pos": "verb",
+    "meaning_th": "จ่าย"
+  },
+  {
+    "lemma": "pay back",
+    "pos": "verb",
+    "meaning_th": "ใช้หนี้คืน / เอาคืนล้างแค้น"
+  },
+  {
+    "lemma": "payment",
+    "pos": "noun",
+    "meaning_th": "การชำระเงิน"
+  },
+  {
+    "lemma": "pay out",
+    "pos": "verb",
+    "meaning_th": "จ่ายเงิน"
+  },
+  {
+    "lemma": "pay up",
+    "pos": "verb",
+    "meaning_th": "ยอมจ่ายเงิน (หนี้ที่ติดค้าง)"
+  },
+  {
+    "lemma": "peace",
+    "pos": "noun",
+    "meaning_th": "ความสงบ"
+  },
+  {
+    "lemma": "peaceful",
+    "pos": "adjective",
+    "meaning_th": "สงบ"
+  }
+]

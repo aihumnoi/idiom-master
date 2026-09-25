@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "exchange",
+    "pos": "noun",
+    "meaning_th": "แลกเปลี่ยน"
+  },
+  {
+    "lemma": "excite",
+    "pos": "verb",
+    "meaning_th": "กระตุ้น / ทำให้น่าตื่นเต้น"
+  },
+  {
+    "lemma": "excited",
+    "pos": "adjective",
+    "meaning_th": "ตื่นเต้น"
+  },
+  {
+    "lemma": "excitement",
+    "pos": "noun",
+    "meaning_th": "ความตื่นเต้น"
+  },
+  {
+    "lemma": "exciting",
+    "pos": "adjective",
+    "meaning_th": "น่าตื่นเต้น"
+  },
+  {
+    "lemma": "exclude",
+    "pos": "verb",
+    "meaning_th": "ยกเว้น"
+  },
+  {
+    "lemma": "excluding",
+    "pos": "preposition",
+    "meaning_th": "ยกเว้น"
+  },
+  {
+    "lemma": "excuse",
+    "pos": "verb",
+    "meaning_th": "ขอโทษ"
+  },
+  {
+    "lemma": "executive",
+    "pos": "noun",
+    "meaning_th": "ผู้บริหาร"
+  },
+  {
+    "lemma": "exercise",
+    "pos": "noun",
+    "meaning_th": "ออกกำลังกาย"
+  },
+  {
+    "lemma": "exhibit",
+    "pos": "verb",
+    "meaning_th": "จัดแสดง"
+  },
+  {
+    "lemma": "exhibition",
+    "pos": "noun",
+    "meaning_th": "นิทรรศการ"
+  },
+  {
+    "lemma": "exist",
+    "pos": "verb",
+    "meaning_th": "มีอยู่"
+  },
+  {
+    "lemma": "existence",
+    "pos": "noun",
+    "meaning_th": "การดำรงอยู่"
+  },
+  {
+    "lemma": "exit",
+    "pos": "noun",
+    "meaning_th": "ทางออก"
+  },
+  {
+    "lemma": "expand",
+    "pos": "verb",
+    "meaning_th": "ขยาย"
+  },
+  {
+    "lemma": "expect",
+    "pos": "verb",
+    "meaning_th": "คาดหวัง"
+  },
+  {
+    "lemma": "expectation",
+    "pos": "noun",
+    "meaning_th": "ความคาดหวัง"
+  },
+  {
+    "lemma": "expected",
+    "pos": "adjective",
+    "meaning_th": "ที่คาดหวัง"
+  },
+  {
+    "lemma": "expense",
+    "pos": "noun",
+    "meaning_th": "ค่าใช้จ่าย"
+  },
+  {
+    "lemma": "expensive",
+    "pos": "adjective",
+    "meaning_th": "แพง"
+  },
+  {
+    "lemma": "experience",
+    "pos": "noun",
+    "meaning_th": "ประสบการณ์"
+  },
+  {
+    "lemma": "experienced",
+    "pos": "adjective",
+    "meaning_th": "มีประสบการณ์"
+  },
+  {
+    "lemma": "experiment",
+    "pos": "noun",
+    "meaning_th": "การทดลอง"
+  },
+  {
+    "lemma": "expert",
+    "pos": "noun",
+    "meaning_th": "ผู้เชี่ยวชาญ"
+  },
+  {
+    "lemma": "explain",
+    "pos": "verb",
+    "meaning_th": "อธิบาย"
+  },
+  {
+    "lemma": "explanation",
+    "pos": "noun",
+    "meaning_th": "คำอธิบาย"
+  },
+  {
+    "lemma": "explode",
+    "pos": "verb",
+    "meaning_th": "ระเบิด"
+  },
+  {
+    "lemma": "explore",
+    "pos": "verb",
+    "meaning_th": "สำรวจ"
+  },
+  {
+    "lemma": "explosion",
+    "pos": "noun",
+    "meaning_th": "การระเบิด"
+  },
+  {
+    "lemma": "export",
+    "pos": "noun",
+    "meaning_th": "ส่งออก"
+  },
+  {
+    "lemma": "expose",
+    "pos": "verb",
+    "meaning_th": "เปิดเผย"
+  },
+  {
+    "lemma": "express",
+    "pos": "verb",
+    "meaning_th": "ด่วน"
+  },
+  {
+    "lemma": "expression",
+    "pos": "noun",
+    "meaning_th": "การแสดงออก"
+  },
+  {
+    "lemma": "extend",
+    "pos": "verb",
+    "meaning_th": "ขยาย"
+  },
+  {
+    "lemma": "extension",
+    "pos": "noun",
+    "meaning_th": "ส่วนขยาย"
+  },
+  {
+    "lemma": "extensive",
+    "pos": "adjective",
+    "meaning_th": "กว้างขวาง"
+  },
+  {
+    "lemma": "extent",
+    "pos": "noun",
+    "meaning_th": "ขอบเขต / ระดับ"
+  },
+  {
+    "lemma": "extra",
+    "pos": "adjective",
+    "meaning_th": "พิเศษ"
+  },
+  {
+    "lemma": "extraordinary",
+    "pos": "adjective",
+    "meaning_th": "พิเศษ"
+  },
+  {
+    "lemma": "extreme",
+    "pos": "adjective",
+    "meaning_th": "สุดขีด"
+  },
+  {
+    "lemma": "extremely",
+    "pos": "adverb",
+    "meaning_th": "อย่างที่สุด"
+  },
+  {
+    "lemma": "eye",
+    "pos": "noun",
+    "meaning_th": "ดวงตา"
+  },
+  {
+    "lemma": "face",
+    "pos": "noun",
+    "meaning_th": "ใบหน้า"
+  },
+  {
+    "lemma": "face up to",
+    "pos": "verb",
+    "meaning_th": "ยอมรับความจริง / เผชิญหน้ากับ"
+  },
+  {
+    "lemma": "facility",
+    "pos": "noun",
+    "meaning_th": "สิ่งอำนวยความสะดวก"
+  },
+  {
+    "lemma": "fact",
+    "pos": "noun",
+    "meaning_th": "ข้อเท็จจริง"
+  },
+  {
+    "lemma": "factor",
+    "pos": "noun",
+    "meaning_th": "ปัจจัย"
+  },
+  {
+    "lemma": "factory",
+    "pos": "noun",
+    "meaning_th": "โรงงาน"
+  },
+  {
+    "lemma": "fail",
+    "pos": "verb",
+    "meaning_th": "ล้มเหลว"
+  }
+]

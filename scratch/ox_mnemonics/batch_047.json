@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "now",
+    "pos": "adverb",
+    "meaning_th": "ตอนนี้"
+  },
+  {
+    "lemma": "nowhere",
+    "pos": "adverb",
+    "meaning_th": "ไม่มีที่ไหนเลย"
+  },
+  {
+    "lemma": "nuclear",
+    "pos": "adjective",
+    "meaning_th": "นิวเคลียร์"
+  },
+  {
+    "lemma": "number",
+    "pos": "noun",
+    "meaning_th": "ตัวเลข"
+  },
+  {
+    "lemma": "nurse",
+    "pos": "noun",
+    "meaning_th": "พยาบาล"
+  },
+  {
+    "lemma": "nut",
+    "pos": "noun",
+    "meaning_th": "ถั่ว"
+  },
+  {
+    "lemma": "obey",
+    "pos": "verb",
+    "meaning_th": "เชื่อฟัง"
+  },
+  {
+    "lemma": "object",
+    "pos": "noun",
+    "meaning_th": "วัตถุ"
+  },
+  {
+    "lemma": "observation",
+    "pos": "noun",
+    "meaning_th": "การสังเกต"
+  },
+  {
+    "lemma": "observe",
+    "pos": "verb",
+    "meaning_th": "สังเกต"
+  },
+  {
+    "lemma": "obvious",
+    "pos": "adjective",
+    "meaning_th": "ชัดเจน"
+  },
+  {
+    "lemma": "obviously",
+    "pos": "adverb",
+    "meaning_th": "อย่างชัดเจน / เห็นได้ชัด"
+  },
+  {
+    "lemma": "occasion",
+    "pos": "noun",
+    "meaning_th": "โอกาส"
+  },
+  {
+    "lemma": "occasionally",
+    "pos": "adverb",
+    "meaning_th": "เป็นครั้งคราว"
+  },
+  {
+    "lemma": "occupied",
+    "pos": "adjective",
+    "meaning_th": "ไม่ว่าง"
+  },
+  {
+    "lemma": "occupy",
+    "pos": "verb",
+    "meaning_th": "ครอบครอง"
+  },
+  {
+    "lemma": "occur",
+    "pos": "verb",
+    "meaning_th": "เกิดขึ้น"
+  },
+  {
+    "lemma": "occur to",
+    "pos": "verb",
+    "meaning_th": "เกิดขึ้นเพื่อ"
+  },
+  {
+    "lemma": "ocean",
+    "pos": "noun",
+    "meaning_th": "มหาสมุทร"
+  },
+  {
+    "lemma": "o’clock",
+    "pos": "noun",
+    "meaning_th": "โมง"
+  },
+  {
+    "lemma": "October",
+    "pos": "noun",
+    "meaning_th": "ตุลาคม"
+  },
+  {
+    "lemma": "odd",
+    "pos": "adjective",
+    "meaning_th": "แปลก"
+  },
+  {
+    "lemma": "oddly",
+    "pos": "adverb",
+    "meaning_th": "อย่างแปลกประหลาด"
+  },
+  {
+    "lemma": "of",
+    "pos": "preposition",
+    "meaning_th": "ของ"
+  },
+  {
+    "lemma": "off",
+    "pos": "adverb",
+    "meaning_th": "ปิด"
+  },
+  {
+    "lemma": "offence",
+    "pos": "noun",
+    "meaning_th": "การกระทำผิดกฎหมาย / ความผิด"
+  },
+  {
+    "lemma": "offend",
+    "pos": "verb",
+    "meaning_th": "รุกราน"
+  },
+  {
+    "lemma": "offense",
+    "pos": "noun",
+    "meaning_th": "ความผิด"
+  },
+  {
+    "lemma": "offensive",
+    "pos": "adjective",
+    "meaning_th": "ก้าวร้าว"
+  },
+  {
+    "lemma": "offer",
+    "pos": "verb",
+    "meaning_th": "เสนอ"
+  },
+  {
+    "lemma": "office",
+    "pos": "noun",
+    "meaning_th": "สำนักงาน"
+  },
+  {
+    "lemma": "officer",
+    "pos": "noun",
+    "meaning_th": "เจ้าหน้าที่"
+  },
+  {
+    "lemma": "official",
+    "pos": "adjective",
+    "meaning_th": "เป็นทางการ"
+  },
+  {
+    "lemma": "officially",
+    "pos": "adverb",
+    "meaning_th": "อย่างเป็นทางการ"
+  },
+  {
+    "lemma": "often",
+    "pos": "adverb",
+    "meaning_th": "บ่อยครั้ง"
+  },
+  {
+    "lemma": "oh",
+    "pos": "interjection",
+    "meaning_th": "โอ้"
+  },
+  {
+    "lemma": "oil",
+    "pos": "noun",
+    "meaning_th": "น้ำมัน"
+  },
+  {
+    "lemma": "OK",
+    "pos": "adjective",
+    "meaning_th": "ตกลง"
+  },
+  {
+    "lemma": "old",
+    "pos": "adjective",
+    "meaning_th": "เก่า"
+  },
+  {
+    "lemma": "old-fashioned",
+    "pos": "adjective",
+    "meaning_th": "ล้าสมัย"
+  },
+  {
+    "lemma": "on",
+    "pos": "preposition",
+    "meaning_th": "บน"
+  },
+  {
+    "lemma": "once",
+    "pos": "adverb",
+    "meaning_th": "ครั้งหนึ่ง"
+  },
+  {
+    "lemma": "one",
+    "pos": "noun",
+    "meaning_th": "หนึ่ง"
+  },
+  {
+    "lemma": "one another",
+    "pos": "pronoun",
+    "meaning_th": "กันและกัน"
+  },
+  {
+    "lemma": "onion",
+    "pos": "noun",
+    "meaning_th": "หัวหอม"
+  },
+  {
+    "lemma": "online",
+    "pos": "adjective",
+    "meaning_th": "ออนไลน์"
+  },
+  {
+    "lemma": "only",
+    "pos": "adverb",
+    "meaning_th": "เท่านั้น"
+  },
+  {
+    "lemma": "onto",
+    "pos": "preposition",
+    "meaning_th": "เข้าสู่"
+  },
+  {
+    "lemma": "open",
+    "pos": "adjective",
+    "meaning_th": "เปิด"
+  },
+  {
+    "lemma": "opening",
+    "pos": "adjective",
+    "meaning_th": "เปิด"
+  }
+]

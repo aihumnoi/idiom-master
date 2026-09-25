@@ -1,0 +1,252 @@
+[
+  {
+    "lemma": "go out",
+    "pos": "verb",
+    "meaning_th": "ออกไปสังสรรค์ข้างนอก / ไฟดับ"
+  },
+  {
+    "lemma": "go out with",
+    "pos": "verb",
+    "meaning_th": "ออกไปข้างนอกด้วย"
+  },
+  {
+    "lemma": "go over",
+    "pos": "verb",
+    "meaning_th": "ผ่านไป"
+  },
+  {
+    "lemma": "go round",
+    "pos": "verb",
+    "meaning_th": "มีเพียงพอสำหรับทุกคน / หมุนรอบ"
+  },
+  {
+    "lemma": "go through",
+    "pos": "verb",
+    "meaning_th": "เผชิญกับช่วงเวลาที่ยากลำบาก / ตรวจสอบอย่างละเอียด"
+  },
+  {
+    "lemma": "go through with",
+    "pos": "verb",
+    "meaning_th": "ผ่านไปด้วย"
+  },
+  {
+    "lemma": "go to",
+    "pos": "verb",
+    "meaning_th": "ไปที่"
+  },
+  {
+    "lemma": "go up",
+    "pos": "verb",
+    "meaning_th": "พุ่งสูงขึ้น (ราคา/ตัวเลข) / ถูกสร้างขึ้น"
+  },
+  {
+    "lemma": "govern",
+    "pos": "verb",
+    "meaning_th": "ปกครอง"
+  },
+  {
+    "lemma": "government",
+    "pos": "noun",
+    "meaning_th": "รัฐบาล"
+  },
+  {
+    "lemma": "governor",
+    "pos": "noun",
+    "meaning_th": "ผู้ว่าราชการจังหวัด"
+  },
+  {
+    "lemma": "go with",
+    "pos": "verb",
+    "meaning_th": "เข้ากันได้ดีกับ (เสื้อผ้า/อาหาร)"
+  },
+  {
+    "lemma": "go without",
+    "pos": "verb",
+    "meaning_th": "ไปโดยไม่ต้อง"
+  },
+  {
+    "lemma": "grab",
+    "pos": "verb",
+    "meaning_th": "คว้า"
+  },
+  {
+    "lemma": "grade",
+    "pos": "noun",
+    "meaning_th": "ระดับ"
+  },
+  {
+    "lemma": "gradual",
+    "pos": "adjective",
+    "meaning_th": "ค่อยเป็นค่อยไป"
+  },
+  {
+    "lemma": "gradually",
+    "pos": "adverb",
+    "meaning_th": "ค่อยๆ"
+  },
+  {
+    "lemma": "grain",
+    "pos": "noun",
+    "meaning_th": "เมล็ดพืช"
+  },
+  {
+    "lemma": "gram",
+    "pos": "noun",
+    "meaning_th": "กรัม"
+  },
+  {
+    "lemma": "grammar",
+    "pos": "noun",
+    "meaning_th": "ไวยากรณ์"
+  },
+  {
+    "lemma": "grand",
+    "pos": "adjective",
+    "meaning_th": "ยิ่งใหญ่"
+  },
+  {
+    "lemma": "grandchild",
+    "pos": "noun",
+    "meaning_th": "หลาน"
+  },
+  {
+    "lemma": "granddaughter",
+    "pos": "noun",
+    "meaning_th": "หลานสาว"
+  },
+  {
+    "lemma": "grandfather",
+    "pos": "noun",
+    "meaning_th": "คุณปู่"
+  },
+  {
+    "lemma": "grandmother",
+    "pos": "noun",
+    "meaning_th": "ยาย"
+  },
+  {
+    "lemma": "grandparent",
+    "pos": "noun",
+    "meaning_th": "ปู่ย่าตายาย"
+  },
+  {
+    "lemma": "grandson",
+    "pos": "noun",
+    "meaning_th": "หลานชาย"
+  },
+  {
+    "lemma": "grant",
+    "pos": "verb",
+    "meaning_th": "ยินยอม"
+  },
+  {
+    "lemma": "grass",
+    "pos": "noun",
+    "meaning_th": "หญ้า"
+  },
+  {
+    "lemma": "grateful",
+    "pos": "adjective",
+    "meaning_th": "ปลื้มปีติ"
+  },
+  {
+    "lemma": "grave 1",
+    "pos": "noun",
+    "meaning_th": "หลุมศพ / สุสาน"
+  },
+  {
+    "lemma": "gravely",
+    "pos": "noun",
+    "meaning_th": "อย่างจริงจัง"
+  },
+  {
+    "lemma": "great",
+    "pos": "adjective",
+    "meaning_th": "ยอดเยี่ยม"
+  },
+  {
+    "lemma": "greatly",
+    "pos": "adverb",
+    "meaning_th": "อย่างมาก"
+  },
+  {
+    "lemma": "green",
+    "pos": "adjective",
+    "meaning_th": "สีเขียว"
+  },
+  {
+    "lemma": "grey",
+    "pos": "adjective",
+    "meaning_th": "สีเทา"
+  },
+  {
+    "lemma": "grocery",
+    "pos": "noun",
+    "meaning_th": "ร้านขายของชำ"
+  },
+  {
+    "lemma": "ground",
+    "pos": "noun",
+    "meaning_th": "พื้น"
+  },
+  {
+    "lemma": "group",
+    "pos": "noun",
+    "meaning_th": "กลุ่ม"
+  },
+  {
+    "lemma": "grow",
+    "pos": "verb",
+    "meaning_th": "เติบโต"
+  },
+  {
+    "lemma": "growth",
+    "pos": "noun",
+    "meaning_th": "การเจริญเติบโต"
+  },
+  {
+    "lemma": "grow up",
+    "pos": "verb",
+    "meaning_th": "เติบโตเป็นผู้ใหญ่"
+  },
+  {
+    "lemma": "guard",
+    "pos": "verb",
+    "meaning_th": "อารักขา"
+  },
+  {
+    "lemma": "guess",
+    "pos": "verb",
+    "meaning_th": "เดา"
+  },
+  {
+    "lemma": "guest",
+    "pos": "noun",
+    "meaning_th": "แขก"
+  },
+  {
+    "lemma": "guide",
+    "pos": "noun",
+    "meaning_th": "แนะนำ"
+  },
+  {
+    "lemma": "guilty",
+    "pos": "adjective",
+    "meaning_th": "รู้สึกผิด"
+  },
+  {
+    "lemma": "gun",
+    "pos": "noun",
+    "meaning_th": "ปืน"
+  },
+  {
+    "lemma": "guy",
+    "pos": "noun",
+    "meaning_th": "ผู้ชาย"
+  },
+  {
+    "lemma": "habit",
+    "pos": "noun",
+    "meaning_th": "นิสัย"
+  }
+]

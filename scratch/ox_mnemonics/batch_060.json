@@ -1,0 +1,142 @@
+[
+  {
+    "lemma": "satisfying",
+    "pos": "verb",
+    "meaning_th": "น่าพอใจ"
+  },
+  {
+    "lemma": "Saturday",
+    "pos": "noun",
+    "meaning_th": "วันเสาร์"
+  },
+  {
+    "lemma": "sauce",
+    "pos": "noun",
+    "meaning_th": "ซอส"
+  },
+  {
+    "lemma": "save",
+    "pos": "verb",
+    "meaning_th": "บันทึก"
+  },
+  {
+    "lemma": "saving",
+    "pos": "noun",
+    "meaning_th": "ประหยัด"
+  },
+  {
+    "lemma": "say",
+    "pos": "verb",
+    "meaning_th": "พูด"
+  },
+  {
+    "lemma": "scale",
+    "pos": "noun",
+    "meaning_th": "มาตราส่วน"
+  },
+  {
+    "lemma": "scare",
+    "pos": "verb",
+    "meaning_th": "ทำให้กลัว / ตกใจ"
+  },
+  {
+    "lemma": "scared",
+    "pos": "adjective",
+    "meaning_th": "กลัว"
+  },
+  {
+    "lemma": "scare off",
+    "pos": "verb",
+    "meaning_th": "ทำให้ตกใจ"
+  },
+  {
+    "lemma": "scene",
+    "pos": "noun",
+    "meaning_th": "ฉาก"
+  },
+  {
+    "lemma": "schedule",
+    "pos": "noun",
+    "meaning_th": "กำหนดการ"
+  },
+  {
+    "lemma": "scheme",
+    "pos": "noun",
+    "meaning_th": "แผนการ / โครงการ"
+  },
+  {
+    "lemma": "school",
+    "pos": "noun",
+    "meaning_th": "โรงเรียน"
+  },
+  {
+    "lemma": "science",
+    "pos": "noun",
+    "meaning_th": "ศาสตร์"
+  },
+  {
+    "lemma": "scientific",
+    "pos": "adjective",
+    "meaning_th": "ทางวิทยาศาสตร์"
+  },
+  {
+    "lemma": "scientist",
+    "pos": "noun",
+    "meaning_th": "นักวิทยาศาสตร์"
+  },
+  {
+    "lemma": "scissors",
+    "pos": "noun",
+    "meaning_th": "กรรไกร"
+  },
+  {
+    "lemma": "score",
+    "pos": "noun",
+    "meaning_th": "คะแนน"
+  },
+  {
+    "lemma": "scratch",
+    "pos": "verb",
+    "meaning_th": "เกา"
+  },
+  {
+    "lemma": "scream",
+    "pos": "verb",
+    "meaning_th": "กรีดร้อง / ส่งเสียงร้องดัง"
+  },
+  {
+    "lemma": "screen",
+    "pos": "noun",
+    "meaning_th": "หน้าจอ / ฉากกั้น"
+  },
+  {
+    "lemma": "screw",
+    "pos": "noun",
+    "meaning_th": "ตะปูควง / สกรู"
+  },
+  {
+    "lemma": "sea",
+    "pos": "noun",
+    "meaning_th": "ทะเล"
+  },
+  {
+    "lemma": "seal",
+    "pos": "verb",
+    "meaning_th": "ผนึก"
+  },
+  {
+    "lemma": "seal off",
+    "pos": "verb",
+    "meaning_th": "ปิดผนึก"
+  },
+  {
+    "lemma": "search",
+    "pos": "verb",
+    "meaning_th": "ค้นหา"
+  },
+  {
+    "lemma": "season",
+    "pos": "noun",
+    "meaning_th": "ฤดูกาล"
+  }
+]
