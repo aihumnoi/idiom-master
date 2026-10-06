@@ -5959,29 +5959,6 @@
  {
   "id": "st_0260",
   "kind": "sentence",
-  "phrase": "I could eat a horse.",
-  "keyword": "horse",
-  "phonetic": "",
-  "meaning_th": "หิวมากจนกินได้ทั้งม้า",
-  "meaning_en": "",
-  "category": "food",
-  "category_th": "อาหาร เครื่องดื่ม",
-  "category_full": "อาหาร เครื่องดื่ม",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "I could eat a horse.",
-    "th": "หิวมากจนกินได้ทั้งม้า",
-    "context": "food"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0261",
-  "kind": "sentence",
   "phrase": "What should we eat?",
   "keyword": "eat",
   "phonetic": "",
@@ -6003,7 +5980,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0262",
+  "id": "st_0261",
   "kind": "sentence",
   "phrase": "I'm in the mood for pizza.",
   "keyword": "mood",
@@ -6026,7 +6003,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0263",
+  "id": "st_0262",
   "kind": "sentence",
   "phrase": "Let's get something to eat.",
   "keyword": "something",
@@ -6049,7 +6026,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0264",
+  "id": "st_0263",
   "kind": "sentence",
   "phrase": "I'll whip up something for dinner tonight.",
   "keyword": "whip",
@@ -6072,7 +6049,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0265",
+  "id": "st_0264",
   "kind": "sentence",
   "phrase": "Do you want takeout?",
   "keyword": "takeout",
@@ -6095,7 +6072,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0266",
+  "id": "st_0265",
   "kind": "sentence",
   "phrase": "Let's order delivery.",
   "keyword": "delivery",
@@ -6118,7 +6095,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0267",
+  "id": "st_0266",
   "kind": "sentence",
   "phrase": "The delivery will take an hour.",
   "keyword": "delivery",
@@ -6141,7 +6118,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0268",
+  "id": "st_0267",
   "kind": "sentence",
   "phrase": "What do you want to order?",
   "keyword": "order",
@@ -6164,7 +6141,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0269",
+  "id": "st_0268",
   "kind": "sentence",
   "phrase": "I'll have a burger and fries.",
   "keyword": "burger",
@@ -6187,7 +6164,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0270",
+  "id": "st_0269",
   "kind": "sentence",
   "phrase": "Make that two, please.",
   "keyword": "two",
@@ -6210,7 +6187,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0271",
+  "id": "st_0270",
   "kind": "sentence",
   "phrase": "Can I see the menu?",
   "keyword": "menu",
@@ -6233,7 +6210,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0272",
+  "id": "st_0271",
   "kind": "sentence",
   "phrase": "What do you recommend?",
   "keyword": "recommend",
@@ -6256,7 +6233,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0273",
+  "id": "st_0272",
   "kind": "sentence",
   "phrase": "The soup is really good here.",
   "keyword": "soup",
@@ -6279,7 +6256,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0274",
+  "id": "st_0273",
   "kind": "sentence",
   "phrase": "I'll have the grilled chicken.",
   "keyword": "grilled",
@@ -6302,7 +6279,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0275",
+  "id": "st_0274",
   "kind": "sentence",
   "phrase": "Is it spicy?",
   "keyword": "spicy",
@@ -6325,7 +6302,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0276",
+  "id": "st_0275",
   "kind": "sentence",
   "phrase": "I can't eat spicy food.",
   "keyword": "spicy",
@@ -6348,7 +6325,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0277",
+  "id": "st_0276",
   "kind": "sentence",
   "phrase": "I'm allergic to peanuts.",
   "keyword": "allergic",
@@ -6371,7 +6348,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0278",
+  "id": "st_0277",
   "kind": "sentence",
   "phrase": "Do you have any allergies?",
   "keyword": "allergies",
@@ -6394,7 +6371,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0279",
+  "id": "st_0278",
   "kind": "sentence",
   "phrase": "I don't eat meat.",
   "keyword": "meat",
@@ -6417,7 +6394,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0280",
+  "id": "st_0279",
   "kind": "sentence",
   "phrase": "I'm a vegetarian.",
   "keyword": "vegetarian",
@@ -6440,7 +6417,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0281",
+  "id": "st_0280",
   "kind": "sentence",
   "phrase": "Please make it less spicy.",
   "keyword": "less",
@@ -6463,7 +6440,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0282",
+  "id": "st_0281",
   "kind": "sentence",
   "phrase": "Could I get some water?",
   "keyword": "water",
@@ -6486,7 +6463,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0283",
+  "id": "st_0282",
   "kind": "sentence",
   "phrase": "Can I have some more water?",
   "keyword": "more",
@@ -6509,7 +6486,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0284",
+  "id": "st_0283",
   "kind": "sentence",
   "phrase": "This is delicious!",
   "keyword": "delicious",
@@ -6532,7 +6509,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0285",
+  "id": "st_0284",
   "kind": "sentence",
   "phrase": "It tastes great.",
   "keyword": "tastes",
@@ -6555,7 +6532,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0286",
+  "id": "st_0285",
   "kind": "sentence",
   "phrase": "This is too salty.",
   "keyword": "salty",
@@ -6578,7 +6555,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0287",
+  "id": "st_0286",
   "kind": "sentence",
   "phrase": "It's a bit sweet.",
   "keyword": "sweet",
@@ -6601,7 +6578,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0288",
+  "id": "st_0287",
   "kind": "sentence",
   "phrase": "The food here is amazing.",
   "keyword": "amazing",
@@ -6624,7 +6601,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0289",
+  "id": "st_0288",
   "kind": "sentence",
   "phrase": "I love Thai food.",
   "keyword": "Thai",
@@ -6647,7 +6624,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0290",
+  "id": "st_0289",
   "kind": "sentence",
   "phrase": "Could you pass the salt?",
   "keyword": "salt",
@@ -6670,7 +6647,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0291",
+  "id": "st_0290",
   "kind": "sentence",
   "phrase": "Pass me the pepper, please.",
   "keyword": "pepper",
@@ -6693,7 +6670,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0292",
+  "id": "st_0291",
   "kind": "sentence",
   "phrase": "Could I get a knife and fork, please?",
   "keyword": "fork",
@@ -6716,7 +6693,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0293",
+  "id": "st_0292",
   "kind": "sentence",
   "phrase": "This fork is dirty.",
   "keyword": "dirty",
@@ -6739,7 +6716,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0294",
+  "id": "st_0293",
   "kind": "sentence",
   "phrase": "Can I get another plate?",
   "keyword": "plate",
@@ -6762,7 +6739,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0295",
+  "id": "st_0294",
   "kind": "sentence",
   "phrase": "The portion is too big.",
   "keyword": "portion",
@@ -6785,7 +6762,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0296",
+  "id": "st_0295",
   "kind": "sentence",
   "phrase": "I'm completely stuffed, I couldn't eat another bite.",
   "keyword": "stuffed",
@@ -6808,7 +6785,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0297",
+  "id": "st_0296",
   "kind": "sentence",
   "phrase": "I can't eat any more.",
   "keyword": "more",
@@ -6831,7 +6808,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0298",
+  "id": "st_0297",
   "kind": "sentence",
   "phrase": "That was a great meal.",
   "keyword": "meal",
@@ -6854,7 +6831,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0299",
+  "id": "st_0298",
   "kind": "sentence",
   "phrase": "Let's have dessert.",
   "keyword": "dessert",
@@ -6877,7 +6854,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0300",
+  "id": "st_0299",
   "kind": "sentence",
   "phrase": "I have a sweet tooth.",
   "keyword": "tooth",
@@ -6900,7 +6877,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0301",
+  "id": "st_0300",
   "kind": "sentence",
   "phrase": "What's for dessert?",
   "keyword": "dessert",
@@ -6923,7 +6900,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0302",
+  "id": "st_0301",
   "kind": "sentence",
   "phrase": "I'll have some ice cream.",
   "keyword": "ice",
@@ -6946,7 +6923,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0303",
+  "id": "st_0302",
   "kind": "sentence",
   "phrase": "Let me get the bill.",
   "keyword": "bill",
@@ -6969,7 +6946,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0304",
+  "id": "st_0303",
   "kind": "sentence",
   "phrase": "Can we have the check, please?",
   "keyword": "check",
@@ -6992,7 +6969,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0305",
+  "id": "st_0304",
   "kind": "sentence",
   "phrase": "I'll pay for dinner.",
   "keyword": "pay",
@@ -7015,7 +6992,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0306",
+  "id": "st_0305",
   "kind": "sentence",
   "phrase": "It's on me.",
   "keyword": "me",
@@ -7038,7 +7015,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0307",
+  "id": "st_0306",
   "kind": "sentence",
   "phrase": "Let's split the bill.",
   "keyword": "split",
@@ -7061,7 +7038,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0308",
+  "id": "st_0307",
   "kind": "sentence",
   "phrase": "How much do I owe you?",
   "keyword": "owe",
@@ -7084,7 +7061,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0309",
+  "id": "st_0308",
   "kind": "sentence",
   "phrase": "Keep the change.",
   "keyword": "change",
@@ -7107,7 +7084,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0310",
+  "id": "st_0309",
   "kind": "sentence",
   "phrase": "The service was great.",
   "keyword": "service",
@@ -7130,7 +7107,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0311",
+  "id": "st_0310",
   "kind": "sentence",
   "phrase": "We should come here again.",
   "keyword": "again",
@@ -7153,30 +7130,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0312",
-  "kind": "sentence",
-  "phrase": "I'm parched, could I get a cold drink?",
-  "keyword": "parched",
-  "phonetic": "",
-  "meaning_th": "คอแห้งเป็นผงเลย ขอเครื่องดื่มเย็นๆ สักแก้วได้ไหม",
-  "meaning_en": "",
-  "category": "food",
-  "category_th": "อาหาร เครื่องดื่ม",
-  "category_full": "อาหาร เครื่องดื่ม",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "I'm parched, could I get a cold drink?",
-    "th": "คอแห้งเป็นผงเลย ขอเครื่องดื่มเย็นๆ สักแก้วได้ไหม",
-    "context": "food"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0313",
+  "id": "st_0311",
   "kind": "sentence",
   "phrase": "Could I get a glass of juice?",
   "keyword": "juice",
@@ -7199,7 +7153,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0314",
+  "id": "st_0312",
   "kind": "sentence",
   "phrase": "I'll have coffee, please.",
   "keyword": "coffee",
@@ -7222,7 +7176,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0315",
+  "id": "st_0313",
   "kind": "sentence",
   "phrase": "Would you like tea or coffee?",
   "keyword": "tea",
@@ -7245,7 +7199,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0316",
+  "id": "st_0314",
   "kind": "sentence",
   "phrase": "Make that two cups, please.",
   "keyword": "cups",
@@ -7268,7 +7222,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0317",
+  "id": "st_0315",
   "kind": "sentence",
   "phrase": "I need to buy some groceries.",
   "keyword": "groceries",
@@ -7291,7 +7245,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0318",
+  "id": "st_0316",
   "kind": "sentence",
   "phrase": "Let's go to the market.",
   "keyword": "market",
@@ -7314,7 +7268,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0319",
+  "id": "st_0317",
   "kind": "sentence",
   "phrase": "The market is crowded.",
   "keyword": "crowded",
@@ -7337,7 +7291,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0320",
+  "id": "st_0318",
   "kind": "sentence",
   "phrase": "I'll pick up some fruit.",
   "keyword": "fruit",
@@ -7360,7 +7314,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0321",
+  "id": "st_0319",
   "kind": "sentence",
   "phrase": "These mangoes look ripe.",
   "keyword": "ripe",
@@ -7383,7 +7337,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0322",
+  "id": "st_0320",
   "kind": "sentence",
   "phrase": "How much are these apples?",
   "keyword": "apples",
@@ -7406,7 +7360,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0323",
+  "id": "st_0321",
   "kind": "sentence",
   "phrase": "Where are we going?",
   "keyword": "going",
@@ -7429,7 +7383,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0324",
+  "id": "st_0322",
   "kind": "sentence",
   "phrase": "I'm going to the airport.",
   "keyword": "airport",
@@ -7452,7 +7406,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0325",
+  "id": "st_0323",
   "kind": "sentence",
   "phrase": "When does the flight leave?",
   "keyword": "flight",
@@ -7475,7 +7429,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0326",
+  "id": "st_0324",
   "kind": "sentence",
   "phrase": "The flight is at eight.",
   "keyword": "flight",
@@ -7498,7 +7452,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0327",
+  "id": "st_0325",
   "kind": "sentence",
   "phrase": "I need to catch my flight.",
   "keyword": "catch",
@@ -7521,7 +7475,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0328",
+  "id": "st_0326",
   "kind": "sentence",
   "phrase": "My flight was delayed.",
   "keyword": "delayed",
@@ -7544,7 +7498,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0329",
+  "id": "st_0327",
   "kind": "sentence",
   "phrase": "My flight was canceled.",
   "keyword": "canceled",
@@ -7567,7 +7521,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0330",
+  "id": "st_0328",
   "kind": "sentence",
   "phrase": "Where is the check-in counter?",
   "keyword": "check-in",
@@ -7590,7 +7544,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0331",
+  "id": "st_0329",
   "kind": "sentence",
   "phrase": "Can I check in here?",
   "keyword": "check",
@@ -7613,7 +7567,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0332",
+  "id": "st_0330",
   "kind": "sentence",
   "phrase": "I have a window seat.",
   "keyword": "window",
@@ -7636,7 +7590,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0333",
+  "id": "st_0331",
   "kind": "sentence",
   "phrase": "I prefer the aisle seat.",
   "keyword": "aisle",
@@ -7659,7 +7613,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0334",
+  "id": "st_0332",
   "kind": "sentence",
   "phrase": "Please fasten your seatbelt.",
   "keyword": "seatbelt",
@@ -7682,7 +7636,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0335",
+  "id": "st_0333",
   "kind": "sentence",
   "phrase": "Keep your seatbelt fastened.",
   "keyword": "fastened",
@@ -7705,7 +7659,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0336",
+  "id": "st_0334",
   "kind": "sentence",
   "phrase": "When do we land?",
   "keyword": "land",
@@ -7728,7 +7682,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0337",
+  "id": "st_0335",
   "kind": "sentence",
   "phrase": "We'll land in two hours.",
   "keyword": "land",
@@ -7751,7 +7705,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0338",
+  "id": "st_0336",
   "kind": "sentence",
   "phrase": "Where is my baggage?",
   "keyword": "baggage",
@@ -7774,7 +7728,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0339",
+  "id": "st_0337",
   "kind": "sentence",
   "phrase": "I can't find my luggage.",
   "keyword": "luggage",
@@ -7797,7 +7751,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0340",
+  "id": "st_0338",
   "kind": "sentence",
   "phrase": "One of my bags is missing.",
   "keyword": "missing",
@@ -7820,7 +7774,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0341",
+  "id": "st_0339",
   "kind": "sentence",
   "phrase": "Where is the exit?",
   "keyword": "exit",
@@ -7843,7 +7797,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0342",
+  "id": "st_0340",
   "kind": "sentence",
   "phrase": "Where is the restroom?",
   "keyword": "restroom",
@@ -7866,7 +7820,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0343",
+  "id": "st_0341",
   "kind": "sentence",
   "phrase": "Where can I catch a taxi?",
   "keyword": "taxi",
@@ -7889,7 +7843,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0344",
+  "id": "st_0342",
   "kind": "sentence",
   "phrase": "Please take me to this address.",
   "keyword": "address",
@@ -7912,7 +7866,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0345",
+  "id": "st_0343",
   "kind": "sentence",
   "phrase": "How much will the fare be?",
   "keyword": "fare",
@@ -7935,7 +7889,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0346",
+  "id": "st_0344",
   "kind": "sentence",
   "phrase": "Keep the change, please.",
   "keyword": "change",
@@ -7958,7 +7912,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0347",
+  "id": "st_0345",
   "kind": "sentence",
   "phrase": "I need a hotel nearby.",
   "keyword": "hotel",
@@ -7981,7 +7935,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0348",
+  "id": "st_0346",
   "kind": "sentence",
   "phrase": "Do you have any vacancies?",
   "keyword": "vacancies",
@@ -8004,7 +7958,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0349",
+  "id": "st_0347",
   "kind": "sentence",
   "phrase": "I'd like to book a room.",
   "keyword": "book",
@@ -8027,7 +7981,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0350",
+  "id": "st_0348",
   "kind": "sentence",
   "phrase": "For two nights, please.",
   "keyword": "nights",
@@ -8050,7 +8004,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0351",
+  "id": "st_0349",
   "kind": "sentence",
   "phrase": "What time is check-in?",
   "keyword": "check-in",
@@ -8073,7 +8027,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0352",
+  "id": "st_0350",
   "kind": "sentence",
   "phrase": "What time is check-out?",
   "keyword": "check-out",
@@ -8096,7 +8050,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0353",
+  "id": "st_0351",
   "kind": "sentence",
   "phrase": "Is breakfast included?",
   "keyword": "included",
@@ -8119,7 +8073,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0354",
+  "id": "st_0352",
   "kind": "sentence",
   "phrase": "The room is too small.",
   "keyword": "small",
@@ -8142,7 +8096,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0355",
+  "id": "st_0353",
   "kind": "sentence",
   "phrase": "The room has a great view.",
   "keyword": "view",
@@ -8165,7 +8119,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0356",
+  "id": "st_0354",
   "kind": "sentence",
   "phrase": "The air conditioning is broken.",
   "keyword": "conditioning",
@@ -8188,7 +8142,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0357",
+  "id": "st_0355",
   "kind": "sentence",
   "phrase": "Can you change my room?",
   "keyword": "change",
@@ -8211,7 +8165,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0358",
+  "id": "st_0356",
   "kind": "sentence",
   "phrase": "The Wi-Fi password, please.",
   "keyword": "password",
@@ -8234,7 +8188,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0359",
+  "id": "st_0357",
   "kind": "sentence",
   "phrase": "I want to extend my stay.",
   "keyword": "extend",
@@ -8257,7 +8211,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0360",
+  "id": "st_0358",
   "kind": "sentence",
   "phrase": "Where is the train station?",
   "keyword": "station",
@@ -8280,7 +8234,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0361",
+  "id": "st_0359",
   "kind": "sentence",
   "phrase": "Which platform is it?",
   "keyword": "platform",
@@ -8303,7 +8257,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0362",
+  "id": "st_0360",
   "kind": "sentence",
   "phrase": "Does this train go to the city?",
   "keyword": "train",
@@ -8326,7 +8280,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0363",
+  "id": "st_0361",
   "kind": "sentence",
   "phrase": "How much is a ticket?",
   "keyword": "ticket",
@@ -8349,7 +8303,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0364",
+  "id": "st_0362",
   "kind": "sentence",
   "phrase": "I'd like a one-way ticket.",
   "keyword": "one-way",
@@ -8372,7 +8326,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0365",
+  "id": "st_0363",
   "kind": "sentence",
   "phrase": "Two tickets, please.",
   "keyword": "tickets",
@@ -8395,7 +8349,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0366",
+  "id": "st_0364",
   "kind": "sentence",
   "phrase": "Where is the nearest bus stop?",
   "keyword": "bus",
@@ -8418,7 +8372,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0367",
+  "id": "st_0365",
   "kind": "sentence",
   "phrase": "Which bus goes to the museum?",
   "keyword": "museum",
@@ -8441,7 +8395,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0368",
+  "id": "st_0366",
   "kind": "sentence",
   "phrase": "How often does the bus come?",
   "keyword": "often",
@@ -8464,7 +8418,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0369",
+  "id": "st_0367",
   "kind": "sentence",
   "phrase": "I missed the last bus.",
   "keyword": "missed",
@@ -8487,7 +8441,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0370",
+  "id": "st_0368",
   "kind": "sentence",
   "phrase": "Could you pinpoint that on the map for me?",
   "keyword": "pinpoint",
@@ -8510,7 +8464,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0371",
+  "id": "st_0369",
   "kind": "sentence",
   "phrase": "I think I've lost my way, could you help me with directions?",
   "keyword": "directions",
@@ -8533,7 +8487,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0372",
+  "id": "st_0370",
   "kind": "sentence",
   "phrase": "Can you help me find this place?",
   "keyword": "help",
@@ -8556,7 +8510,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0373",
+  "id": "st_0371",
   "kind": "sentence",
   "phrase": "Go straight ahead.",
   "keyword": "straight",
@@ -8579,7 +8533,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0374",
+  "id": "st_0372",
   "kind": "sentence",
   "phrase": "Turn left at the corner.",
   "keyword": "left",
@@ -8602,7 +8556,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0375",
+  "id": "st_0373",
   "kind": "sentence",
   "phrase": "Turn right after the bank.",
   "keyword": "right",
@@ -8625,7 +8579,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0376",
+  "id": "st_0374",
   "kind": "sentence",
   "phrase": "It's across the street.",
   "keyword": "across",
@@ -8648,7 +8602,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0377",
+  "id": "st_0375",
   "kind": "sentence",
   "phrase": "It's next to the bookstore.",
   "keyword": "next",
@@ -8671,7 +8625,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0378",
+  "id": "st_0376",
   "kind": "sentence",
   "phrase": "Is it far from here?",
   "keyword": "far",
@@ -8694,7 +8648,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0379",
+  "id": "st_0377",
   "kind": "sentence",
   "phrase": "It's within walking distance.",
   "keyword": "walking",
@@ -8717,7 +8671,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0380",
+  "id": "st_0378",
   "kind": "sentence",
   "phrase": "How long does it take to walk there?",
   "keyword": "walk",
@@ -8740,7 +8694,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0381",
+  "id": "st_0379",
   "kind": "sentence",
   "phrase": "Is this the right way?",
   "keyword": "right",
@@ -8763,7 +8717,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0382",
+  "id": "st_0380",
   "kind": "sentence",
   "phrase": "Let's go shopping.",
   "keyword": "shopping",
@@ -8786,7 +8740,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0383",
+  "id": "st_0381",
   "kind": "sentence",
   "phrase": "I need to buy some clothes.",
   "keyword": "clothes",
@@ -8809,7 +8763,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0384",
+  "id": "st_0382",
   "kind": "sentence",
   "phrase": "The store opens at ten.",
   "keyword": "opens",
@@ -8832,7 +8786,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0385",
+  "id": "st_0383",
   "kind": "sentence",
   "phrase": "The store is closed today.",
   "keyword": "closed",
@@ -8855,7 +8809,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0386",
+  "id": "st_0384",
   "kind": "sentence",
   "phrase": "What time does it close?",
   "keyword": "close",
@@ -8878,7 +8832,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0387",
+  "id": "st_0385",
   "kind": "sentence",
   "phrase": "How much is this?",
   "keyword": "much",
@@ -8901,7 +8855,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0388",
+  "id": "st_0386",
   "kind": "sentence",
   "phrase": "Is there a discount?",
   "keyword": "discount",
@@ -8924,7 +8878,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0389",
+  "id": "st_0387",
   "kind": "sentence",
   "phrase": "Is this on sale?",
   "keyword": "sale",
@@ -8947,7 +8901,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0390",
+  "id": "st_0388",
   "kind": "sentence",
   "phrase": "It's a bit expensive.",
   "keyword": "expensive",
@@ -8970,7 +8924,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0391",
+  "id": "st_0389",
   "kind": "sentence",
   "phrase": "That's too expensive.",
   "keyword": "expensive",
@@ -8993,7 +8947,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0392",
+  "id": "st_0390",
   "kind": "sentence",
   "phrase": "Is there any wiggle room on the price?",
   "keyword": "wiggle",
@@ -9016,7 +8970,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0393",
+  "id": "st_0391",
   "kind": "sentence",
   "phrase": "Is that the lowest you can go?",
   "keyword": "lowest",
@@ -9039,7 +8993,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0394",
+  "id": "st_0392",
   "kind": "sentence",
   "phrase": "I'll take it.",
   "keyword": "take",
@@ -9062,7 +9016,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0395",
+  "id": "st_0393",
   "kind": "sentence",
   "phrase": "I'll take two.",
   "keyword": "two",
@@ -9085,7 +9039,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0396",
+  "id": "st_0394",
   "kind": "sentence",
   "phrase": "Let me think about it.",
   "keyword": "think",
@@ -9108,7 +9062,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0397",
+  "id": "st_0395",
   "kind": "sentence",
   "phrase": "I'm just looking, thanks.",
   "keyword": "looking",
@@ -9131,7 +9085,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0398",
+  "id": "st_0396",
   "kind": "sentence",
   "phrase": "Can I try this on?",
   "keyword": "try",
@@ -9154,7 +9108,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0399",
+  "id": "st_0397",
   "kind": "sentence",
   "phrase": "Where is the fitting room?",
   "keyword": "fitting",
@@ -9177,7 +9131,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0400",
+  "id": "st_0398",
   "kind": "sentence",
   "phrase": "It fits me perfectly.",
   "keyword": "fits",
@@ -9200,7 +9154,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0401",
+  "id": "st_0399",
   "kind": "sentence",
   "phrase": "It's too small for me.",
   "keyword": "small",
@@ -9223,7 +9177,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0402",
+  "id": "st_0400",
   "kind": "sentence",
   "phrase": "Do you have a bigger size?",
   "keyword": "bigger",
@@ -9246,7 +9200,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0403",
+  "id": "st_0401",
   "kind": "sentence",
   "phrase": "Do you have this in another color?",
   "keyword": "color",
@@ -9269,7 +9223,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0404",
+  "id": "st_0402",
   "kind": "sentence",
   "phrase": "I like this one.",
   "keyword": "like",
@@ -9292,7 +9246,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0405",
+  "id": "st_0403",
   "kind": "sentence",
   "phrase": "This one is better.",
   "keyword": "better",
@@ -9315,7 +9269,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0406",
+  "id": "st_0404",
   "kind": "sentence",
   "phrase": "Do you have anything cheaper?",
   "keyword": "cheaper",
@@ -9338,7 +9292,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0407",
+  "id": "st_0405",
   "kind": "sentence",
   "phrase": "Where is the cashier?",
   "keyword": "cashier",
@@ -9361,7 +9315,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0408",
+  "id": "st_0406",
   "kind": "sentence",
   "phrase": "I'd like to pay.",
   "keyword": "pay",
@@ -9384,7 +9338,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0409",
+  "id": "st_0407",
   "kind": "sentence",
   "phrase": "Can I pay by card?",
   "keyword": "card",
@@ -9407,7 +9361,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0410",
+  "id": "st_0408",
   "kind": "sentence",
   "phrase": "Do you accept cash?",
   "keyword": "cash",
@@ -9430,7 +9384,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0411",
+  "id": "st_0409",
   "kind": "sentence",
   "phrase": "I'll pay in cash.",
   "keyword": "cash",
@@ -9453,7 +9407,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0412",
+  "id": "st_0410",
   "kind": "sentence",
   "phrase": "Could I get a receipt?",
   "keyword": "receipt",
@@ -9476,7 +9430,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0413",
+  "id": "st_0411",
   "kind": "sentence",
   "phrase": "Can I get a bag?",
   "keyword": "bag",
@@ -9499,7 +9453,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0414",
+  "id": "st_0412",
   "kind": "sentence",
   "phrase": "This bag is too small.",
   "keyword": "bag",
@@ -9522,7 +9476,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0415",
+  "id": "st_0413",
   "kind": "sentence",
   "phrase": "Can I return this?",
   "keyword": "return",
@@ -9545,7 +9499,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0416",
+  "id": "st_0414",
   "kind": "sentence",
   "phrase": "I'd like a refund.",
   "keyword": "refund",
@@ -9568,7 +9522,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0417",
+  "id": "st_0415",
   "kind": "sentence",
   "phrase": "I need to exchange this.",
   "keyword": "exchange",
@@ -9591,7 +9545,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0418",
+  "id": "st_0416",
   "kind": "sentence",
   "phrase": "I have the receipt here.",
   "keyword": "receipt",
@@ -9614,7 +9568,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0419",
+  "id": "st_0417",
   "kind": "sentence",
   "phrase": "I lost the receipt.",
   "keyword": "lost",
@@ -9637,7 +9591,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0420",
+  "id": "st_0418",
   "kind": "sentence",
   "phrase": "Can I return it without a receipt?",
   "keyword": "return",
@@ -9660,7 +9614,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0421",
+  "id": "st_0419",
   "kind": "sentence",
   "phrase": "This is defective.",
   "keyword": "defective",
@@ -9683,7 +9637,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0422",
+  "id": "st_0420",
   "kind": "sentence",
   "phrase": "It broke right away.",
   "keyword": "broke",
@@ -9706,7 +9660,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0423",
+  "id": "st_0421",
   "kind": "sentence",
   "phrase": "Is there a warranty?",
   "keyword": "warranty",
@@ -9729,7 +9683,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0424",
+  "id": "st_0422",
   "kind": "sentence",
   "phrase": "The warranty covers this.",
   "keyword": "warranty",
@@ -9752,7 +9706,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0425",
+  "id": "st_0423",
   "kind": "sentence",
   "phrase": "Where is the customer service?",
   "keyword": "service",
@@ -9775,7 +9729,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0426",
+  "id": "st_0424",
   "kind": "sentence",
   "phrase": "I'd like to speak to the manager.",
   "keyword": "manager",
@@ -9798,7 +9752,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0427",
+  "id": "st_0425",
   "kind": "sentence",
   "phrase": "This isn't what I ordered.",
   "keyword": "ordered",
@@ -9821,7 +9775,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0428",
+  "id": "st_0426",
   "kind": "sentence",
   "phrase": "The size is wrong.",
   "keyword": "wrong",
@@ -9844,7 +9798,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0429",
+  "id": "st_0427",
   "kind": "sentence",
   "phrase": "I'll come back tomorrow.",
   "keyword": "back",
@@ -9867,7 +9821,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0430",
+  "id": "st_0428",
   "kind": "sentence",
   "phrase": "Can you hold this for me?",
   "keyword": "hold",
@@ -9890,7 +9844,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0431",
+  "id": "st_0429",
   "kind": "sentence",
   "phrase": "I'm ready to check out everything in my cart.",
   "keyword": "cart",
@@ -9913,7 +9867,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0432",
+  "id": "st_0430",
   "kind": "sentence",
   "phrase": "I have to go to work.",
   "keyword": "work",
@@ -9936,7 +9890,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0433",
+  "id": "st_0431",
   "kind": "sentence",
   "phrase": "I'm going to the office.",
   "keyword": "office",
@@ -9959,7 +9913,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0434",
+  "id": "st_0432",
   "kind": "sentence",
   "phrase": "I work from home.",
   "keyword": "home",
@@ -9982,7 +9936,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0435",
+  "id": "st_0433",
   "kind": "sentence",
   "phrase": "I have a meeting now.",
   "keyword": "meeting",
@@ -10005,7 +9959,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0436",
+  "id": "st_0434",
   "kind": "sentence",
   "phrase": "The meeting starts at ten.",
   "keyword": "starts",
@@ -10028,7 +9982,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0437",
+  "id": "st_0435",
   "kind": "sentence",
   "phrase": "The meeting has been rescheduled.",
   "keyword": "rescheduled",
@@ -10051,7 +10005,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0438",
+  "id": "st_0436",
   "kind": "sentence",
   "phrase": "Can we reschedule the meeting?",
   "keyword": "reschedule",
@@ -10074,7 +10028,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0439",
+  "id": "st_0437",
   "kind": "sentence",
   "phrase": "I'm running late for the meeting.",
   "keyword": "late",
@@ -10097,7 +10051,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0440",
+  "id": "st_0438",
   "kind": "sentence",
   "phrase": "Let's begin the meeting.",
   "keyword": "begin",
@@ -10120,7 +10074,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0441",
+  "id": "st_0439",
   "kind": "sentence",
   "phrase": "Let's get down to business.",
   "keyword": "business",
@@ -10143,7 +10097,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0442",
+  "id": "st_0440",
   "kind": "sentence",
   "phrase": "I'll take the meeting minutes today.",
   "keyword": "minutes",
@@ -10166,7 +10120,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0443",
+  "id": "st_0441",
   "kind": "sentence",
   "phrase": "Did everyone get the agenda?",
   "keyword": "agenda",
@@ -10189,7 +10143,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0444",
+  "id": "st_0442",
   "kind": "sentence",
   "phrase": "Let's go over the schedule.",
   "keyword": "schedule",
@@ -10212,7 +10166,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0445",
+  "id": "st_0443",
   "kind": "sentence",
   "phrase": "We need to finish by Friday.",
   "keyword": "Friday",
@@ -10235,7 +10189,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0446",
+  "id": "st_0444",
   "kind": "sentence",
   "phrase": "The deadline is tomorrow.",
   "keyword": "deadline",
@@ -10258,7 +10212,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0447",
+  "id": "st_0445",
   "kind": "sentence",
   "phrase": "Can we extend the deadline?",
   "keyword": "extend",
@@ -10281,7 +10235,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0448",
+  "id": "st_0446",
   "kind": "sentence",
   "phrase": "I'll work on it today.",
   "keyword": "work",
@@ -10304,7 +10258,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0449",
+  "id": "st_0447",
   "kind": "sentence",
   "phrase": "I'm almost done with the report.",
   "keyword": "report",
@@ -10327,7 +10281,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0450",
+  "id": "st_0448",
   "kind": "sentence",
   "phrase": "Let me send you the file.",
   "keyword": "file",
@@ -10350,7 +10304,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0451",
+  "id": "st_0449",
   "kind": "sentence",
   "phrase": "Did you get a chance to see my email?",
   "keyword": "chance",
@@ -10373,7 +10327,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0452",
+  "id": "st_0450",
   "kind": "sentence",
   "phrase": "I'll shoot you an email with the details.",
   "keyword": "shoot",
@@ -10396,7 +10350,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0453",
+  "id": "st_0451",
   "kind": "sentence",
   "phrase": "Please reply as soon as possible.",
   "keyword": "reply",
@@ -10419,7 +10373,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0454",
+  "id": "st_0452",
   "kind": "sentence",
   "phrase": "Check your inbox.",
   "keyword": "inbox",
@@ -10442,7 +10396,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0455",
+  "id": "st_0453",
   "kind": "sentence",
   "phrase": "I haven't checked my email yet.",
   "keyword": "checked",
@@ -10465,7 +10419,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0456",
+  "id": "st_0454",
   "kind": "sentence",
   "phrase": "Who's in charge here?",
   "keyword": "charge",
@@ -10488,7 +10442,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0457",
+  "id": "st_0455",
   "kind": "sentence",
   "phrase": "I'll talk to my supervisor.",
   "keyword": "supervisor",
@@ -10511,7 +10465,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0458",
+  "id": "st_0456",
   "kind": "sentence",
   "phrase": "I report to the manager.",
   "keyword": "report",
@@ -10534,7 +10488,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0459",
+  "id": "st_0457",
   "kind": "sentence",
   "phrase": "Let me ask my boss.",
   "keyword": "boss",
@@ -10557,7 +10511,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0460",
+  "id": "st_0458",
   "kind": "sentence",
   "phrase": "I'll confirm with my team.",
   "keyword": "confirm",
@@ -10580,7 +10534,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0461",
+  "id": "st_0459",
   "kind": "sentence",
   "phrase": "We're working on it.",
   "keyword": "working",
@@ -10603,7 +10557,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0462",
+  "id": "st_0460",
   "kind": "sentence",
   "phrase": "The project is on track.",
   "keyword": "project",
@@ -10626,7 +10580,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0463",
+  "id": "st_0461",
   "kind": "sentence",
   "phrase": "We're behind schedule.",
   "keyword": "behind",
@@ -10649,7 +10603,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0464",
+  "id": "st_0462",
   "kind": "sentence",
   "phrase": "We need more time.",
   "keyword": "time",
@@ -10672,7 +10626,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0465",
+  "id": "st_0463",
   "kind": "sentence",
   "phrase": "It will take a few days.",
   "keyword": "days",
@@ -10695,7 +10649,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0466",
+  "id": "st_0464",
   "kind": "sentence",
   "phrase": "I need a day off.",
   "keyword": "off",
@@ -10718,7 +10672,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0467",
+  "id": "st_0465",
   "kind": "sentence",
   "phrase": "I'm taking a sick day.",
   "keyword": "sick",
@@ -10741,7 +10695,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0468",
+  "id": "st_0466",
   "kind": "sentence",
   "phrase": "I don't feel well today.",
   "keyword": "well",
@@ -10764,7 +10718,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0469",
+  "id": "st_0467",
   "kind": "sentence",
   "phrase": "I feel much better now.",
   "keyword": "better",
@@ -10787,7 +10741,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0470",
+  "id": "st_0468",
   "kind": "sentence",
   "phrase": "I'm going on vacation next week.",
   "keyword": "vacation",
@@ -10810,7 +10764,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0471",
+  "id": "st_0469",
   "kind": "sentence",
   "phrase": "Who's covering for you?",
   "keyword": "covering",
@@ -10833,7 +10787,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0472",
+  "id": "st_0470",
   "kind": "sentence",
   "phrase": "Can you work overtime?",
   "keyword": "overtime",
@@ -10856,7 +10810,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0473",
+  "id": "st_0471",
   "kind": "sentence",
   "phrase": "I'll cover for you.",
   "keyword": "cover",
@@ -10879,7 +10833,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0474",
+  "id": "st_0472",
   "kind": "sentence",
   "phrase": "Let's divide the work.",
   "keyword": "divide",
@@ -10902,7 +10856,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0475",
+  "id": "st_0473",
   "kind": "sentence",
   "phrase": "That's not my job.",
   "keyword": "job",
@@ -10925,7 +10879,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0476",
+  "id": "st_0474",
   "kind": "sentence",
   "phrase": "I'll handle it.",
   "keyword": "handle",
@@ -10948,7 +10902,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0477",
+  "id": "st_0475",
   "kind": "sentence",
   "phrase": "Can you handle this task?",
   "keyword": "task",
@@ -10971,7 +10925,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0478",
+  "id": "st_0476",
   "kind": "sentence",
   "phrase": "I'll do my best.",
   "keyword": "best",
@@ -10994,7 +10948,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0479",
+  "id": "st_0477",
   "kind": "sentence",
   "phrase": "We did a great job.",
   "keyword": "great",
@@ -11017,7 +10971,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0480",
+  "id": "st_0478",
   "kind": "sentence",
   "phrase": "Great work everyone.",
   "keyword": "Great",
@@ -11040,7 +10994,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0481",
+  "id": "st_0479",
   "kind": "sentence",
   "phrase": "Well done!",
   "keyword": "done",
@@ -11063,7 +11017,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0482",
+  "id": "st_0480",
   "kind": "sentence",
   "phrase": "Keep up the good work.",
   "keyword": "Keep",
@@ -11086,7 +11040,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0483",
+  "id": "st_0481",
   "kind": "sentence",
   "phrase": "You deserve a raise.",
   "keyword": "raise",
@@ -11109,7 +11063,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0484",
+  "id": "st_0482",
   "kind": "sentence",
   "phrase": "I'd like a promotion.",
   "keyword": "promotion",
@@ -11132,7 +11086,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0485",
+  "id": "st_0483",
   "kind": "sentence",
   "phrase": "I'm looking for a job.",
   "keyword": "job",
@@ -11155,7 +11109,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0486",
+  "id": "st_0484",
   "kind": "sentence",
   "phrase": "I got a new job.",
   "keyword": "job",
@@ -11178,7 +11132,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0487",
+  "id": "st_0485",
   "kind": "sentence",
   "phrase": "I had a job interview today.",
   "keyword": "interview",
@@ -11201,7 +11155,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0488",
+  "id": "st_0486",
   "kind": "sentence",
   "phrase": "The interview went well.",
   "keyword": "went",
@@ -11224,7 +11178,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0489",
+  "id": "st_0487",
   "kind": "sentence",
   "phrase": "I quit my job.",
   "keyword": "quit",
@@ -11247,7 +11201,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0490",
+  "id": "st_0488",
   "kind": "sentence",
   "phrase": "He was laid off due to company restructuring.",
   "keyword": "restructuring",
@@ -11270,7 +11224,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0491",
+  "id": "st_0489",
   "kind": "sentence",
   "phrase": "She resigned last month.",
   "keyword": "resigned",
@@ -11293,7 +11247,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0492",
+  "id": "st_0490",
   "kind": "sentence",
   "phrase": "We're hiring new staff.",
   "keyword": "hiring",
@@ -11316,7 +11270,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0493",
+  "id": "st_0491",
   "kind": "sentence",
   "phrase": "What position are you applying for?",
   "keyword": "position",
@@ -11339,7 +11293,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0494",
+  "id": "st_0492",
   "kind": "sentence",
   "phrase": "I'm a software developer.",
   "keyword": "developer",
@@ -11362,7 +11316,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0495",
+  "id": "st_0493",
   "kind": "sentence",
   "phrase": "I work in marketing.",
   "keyword": "marketing",
@@ -11385,7 +11339,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0496",
+  "id": "st_0494",
   "kind": "sentence",
   "phrase": "I work in sales.",
   "keyword": "sales",
@@ -11408,7 +11362,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0497",
+  "id": "st_0495",
   "kind": "sentence",
   "phrase": "I'm self-employed.",
   "keyword": "self-employed",
@@ -11431,7 +11385,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0498",
+  "id": "st_0496",
   "kind": "sentence",
   "phrase": "I'm looking for a new opportunity.",
   "keyword": "opportunity",
@@ -11454,7 +11408,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0499",
+  "id": "st_0497",
   "kind": "sentence",
   "phrase": "I'm currently working on my bachelor's degree.",
   "keyword": "degree",
@@ -11477,7 +11431,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0500",
+  "id": "st_0498",
   "kind": "sentence",
   "phrase": "I go to university.",
   "keyword": "university",
@@ -11500,7 +11454,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0501",
+  "id": "st_0499",
   "kind": "sentence",
   "phrase": "What are you studying?",
   "keyword": "studying",
@@ -11523,7 +11477,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0502",
+  "id": "st_0500",
   "kind": "sentence",
   "phrase": "I'm studying English.",
   "keyword": "English",
@@ -11546,7 +11500,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0503",
+  "id": "st_0501",
   "kind": "sentence",
   "phrase": "My major is engineering.",
   "keyword": "major",
@@ -11569,7 +11523,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0504",
+  "id": "st_0502",
   "kind": "sentence",
   "phrase": "What's your major?",
   "keyword": "major",
@@ -11592,7 +11546,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0505",
+  "id": "st_0503",
   "kind": "sentence",
   "phrase": "I'm in my third year.",
   "keyword": "year",
@@ -11615,7 +11569,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0506",
+  "id": "st_0504",
   "kind": "sentence",
   "phrase": "I'm about to graduate.",
   "keyword": "graduate",
@@ -11638,7 +11592,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0507",
+  "id": "st_0505",
   "kind": "sentence",
   "phrase": "When is the exam?",
   "keyword": "exam",
@@ -11661,7 +11615,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0508",
+  "id": "st_0506",
   "kind": "sentence",
   "phrase": "I have an exam tomorrow.",
   "keyword": "exam",
@@ -11684,7 +11638,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0509",
+  "id": "st_0507",
   "kind": "sentence",
   "phrase": "I need to study hard.",
   "keyword": "study",
@@ -11707,7 +11661,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0510",
+  "id": "st_0508",
   "kind": "sentence",
   "phrase": "I studied all night.",
   "keyword": "studied",
@@ -11730,7 +11684,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0511",
+  "id": "st_0509",
   "kind": "sentence",
   "phrase": "Did you do your homework?",
   "keyword": "homework",
@@ -11753,7 +11707,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0512",
+  "id": "st_0510",
   "kind": "sentence",
   "phrase": "I haven't done my homework yet.",
   "keyword": "homework",
@@ -11776,7 +11730,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0513",
+  "id": "st_0511",
   "kind": "sentence",
   "phrase": "The homework is due on Friday.",
   "keyword": "due",
@@ -11799,7 +11753,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0514",
+  "id": "st_0512",
   "kind": "sentence",
   "phrase": "Can you help me with this problem?",
   "keyword": "problem",
@@ -11822,7 +11776,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0515",
+  "id": "st_0513",
   "kind": "sentence",
   "phrase": "I don't understand this question.",
   "keyword": "understand",
@@ -11845,7 +11799,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0516",
+  "id": "st_0514",
   "kind": "sentence",
   "phrase": "Could you explain it again?",
   "keyword": "explain",
@@ -11868,7 +11822,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0517",
+  "id": "st_0515",
   "kind": "sentence",
   "phrase": "I need more explanation.",
   "keyword": "explanation",
@@ -11891,7 +11845,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0518",
+  "id": "st_0516",
   "kind": "sentence",
   "phrase": "Can you give me an example?",
   "keyword": "example",
@@ -11914,7 +11868,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0519",
+  "id": "st_0517",
   "kind": "sentence",
   "phrase": "I get it now.",
   "keyword": "get",
@@ -11937,7 +11891,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0520",
+  "id": "st_0518",
   "kind": "sentence",
   "phrase": "I don't get it.",
   "keyword": "get",
@@ -11960,7 +11914,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0521",
+  "id": "st_0519",
   "kind": "sentence",
   "phrase": "Let me think for a moment.",
   "keyword": "moment",
@@ -11983,7 +11937,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0522",
+  "id": "st_0520",
   "kind": "sentence",
   "phrase": "What does this word mean?",
   "keyword": "word",
@@ -12006,7 +11960,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0523",
+  "id": "st_0521",
   "kind": "sentence",
   "phrase": "How do you spell that?",
   "keyword": "spell",
@@ -12029,7 +11983,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0524",
+  "id": "st_0522",
   "kind": "sentence",
   "phrase": "How do you pronounce this?",
   "keyword": "pronounce",
@@ -12052,7 +12006,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0525",
+  "id": "st_0523",
   "kind": "sentence",
   "phrase": "Please repeat after me.",
   "keyword": "repeat",
@@ -12075,7 +12029,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0526",
+  "id": "st_0524",
   "kind": "sentence",
   "phrase": "Can you speak more slowly?",
   "keyword": "slowly",
@@ -12098,7 +12052,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0527",
+  "id": "st_0525",
   "kind": "sentence",
   "phrase": "My speaking is not very good.",
   "keyword": "speaking",
@@ -12121,7 +12075,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0528",
+  "id": "st_0526",
   "kind": "sentence",
   "phrase": "I need to practice speaking.",
   "keyword": "practice",
@@ -12144,7 +12098,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0529",
+  "id": "st_0527",
   "kind": "sentence",
   "phrase": "Practice makes perfect.",
   "keyword": "Practice",
@@ -12167,7 +12121,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0530",
+  "id": "st_0528",
   "kind": "sentence",
   "phrase": "I want to improve my English.",
   "keyword": "improve",
@@ -12190,7 +12144,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0531",
+  "id": "st_0529",
   "kind": "sentence",
   "phrase": "Your English is very good.",
   "keyword": "good",
@@ -12213,7 +12167,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0532",
+  "id": "st_0530",
   "kind": "sentence",
   "phrase": "How long have you studied English?",
   "keyword": "studied",
@@ -12236,7 +12190,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0533",
+  "id": "st_0531",
   "kind": "sentence",
   "phrase": "I've studied for five years.",
   "keyword": "years",
@@ -12259,7 +12213,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0534",
+  "id": "st_0532",
   "kind": "sentence",
   "phrase": "Where did you learn English?",
   "keyword": "learn",
@@ -12282,7 +12236,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0535",
+  "id": "st_0533",
   "kind": "sentence",
   "phrase": "I learned it at school.",
   "keyword": "school",
@@ -12305,7 +12259,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0536",
+  "id": "st_0534",
   "kind": "sentence",
   "phrase": "I watch movies to learn English.",
   "keyword": "movies",
@@ -12328,7 +12282,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0537",
+  "id": "st_0535",
   "kind": "sentence",
   "phrase": "Reading helps a lot.",
   "keyword": "Reading",
@@ -12351,7 +12305,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0538",
+  "id": "st_0536",
   "kind": "sentence",
   "phrase": "I should read more.",
   "keyword": "read",
@@ -12374,7 +12328,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0539",
+  "id": "st_0537",
   "kind": "sentence",
   "phrase": "I have a lot of homework.",
   "keyword": "homework",
@@ -12397,7 +12351,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0540",
+  "id": "st_0538",
   "kind": "sentence",
   "phrase": "The class was canceled.",
   "keyword": "canceled",
@@ -12420,7 +12374,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0541",
+  "id": "st_0539",
   "kind": "sentence",
   "phrase": "The professor is very approachable and supportive.",
   "keyword": "approachable",
@@ -12443,7 +12397,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0542",
+  "id": "st_0540",
   "kind": "sentence",
   "phrase": "Our teacher gives clear explanations.",
   "keyword": "explanations",
@@ -12466,7 +12420,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0543",
+  "id": "st_0541",
   "kind": "sentence",
   "phrase": "Class starts at nine.",
   "keyword": "starts",
@@ -12489,7 +12443,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0544",
+  "id": "st_0542",
   "kind": "sentence",
   "phrase": "Don't be late for class.",
   "keyword": "late",
@@ -12512,7 +12466,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0545",
+  "id": "st_0543",
   "kind": "sentence",
   "phrase": "I sat in the front row.",
   "keyword": "row",
@@ -12535,7 +12489,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0546",
+  "id": "st_0544",
   "kind": "sentence",
   "phrase": "Feel free to raise your hand if you have questions.",
   "keyword": "questions",
@@ -12558,7 +12512,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0547",
+  "id": "st_0545",
   "kind": "sentence",
   "phrase": "Who wants to answer?",
   "keyword": "answer",
@@ -12581,7 +12535,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0548",
+  "id": "st_0546",
   "kind": "sentence",
   "phrase": "Let's work in pairs.",
   "keyword": "pairs",
@@ -12604,7 +12558,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0549",
+  "id": "st_0547",
   "kind": "sentence",
   "phrase": "We have a group project.",
   "keyword": "project",
@@ -12627,7 +12581,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0550",
+  "id": "st_0548",
   "kind": "sentence",
   "phrase": "The library is a good place to study.",
   "keyword": "library",
@@ -12650,7 +12604,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0551",
+  "id": "st_0549",
   "kind": "sentence",
   "phrase": "I found this book helpful.",
   "keyword": "helpful",
@@ -12673,7 +12627,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0552",
+  "id": "st_0550",
   "kind": "sentence",
   "phrase": "Let me look that up in an online dictionary.",
   "keyword": "online",
@@ -12696,7 +12650,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0553",
+  "id": "st_0551",
   "kind": "sentence",
   "phrase": "I aced the exam with flying colors!",
   "keyword": "colors",
@@ -12719,7 +12673,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0554",
+  "id": "st_0552",
   "kind": "sentence",
   "phrase": "I don't feel well.",
   "keyword": "well",
@@ -12742,7 +12696,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0555",
+  "id": "st_0553",
   "kind": "sentence",
   "phrase": "I'm feeling under the weather today.",
   "keyword": "weather",
@@ -12765,7 +12719,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0556",
+  "id": "st_0554",
   "kind": "sentence",
   "phrase": "I have a headache.",
   "keyword": "headache",
@@ -12788,7 +12742,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0557",
+  "id": "st_0555",
   "kind": "sentence",
   "phrase": "I have a stomachache.",
   "keyword": "stomachache",
@@ -12811,7 +12765,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0558",
+  "id": "st_0556",
   "kind": "sentence",
   "phrase": "I have a sore throat.",
   "keyword": "throat",
@@ -12834,7 +12788,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0559",
+  "id": "st_0557",
   "kind": "sentence",
   "phrase": "I have a fever.",
   "keyword": "fever",
@@ -12857,7 +12811,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0560",
+  "id": "st_0558",
   "kind": "sentence",
   "phrase": "I have a cold.",
   "keyword": "cold",
@@ -12880,7 +12834,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0561",
+  "id": "st_0559",
   "kind": "sentence",
   "phrase": "I've been coughing a lot.",
   "keyword": "coughing",
@@ -12903,7 +12857,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0562",
+  "id": "st_0560",
   "kind": "sentence",
   "phrase": "I have a runny nose.",
   "keyword": "nose",
@@ -12926,7 +12880,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0563",
+  "id": "st_0561",
   "kind": "sentence",
   "phrase": "I'm allergic to something.",
   "keyword": "allergic",
@@ -12949,7 +12903,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0564",
+  "id": "st_0562",
   "kind": "sentence",
   "phrase": "I need to see a doctor.",
   "keyword": "doctor",
@@ -12972,7 +12926,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0565",
+  "id": "st_0563",
   "kind": "sentence",
   "phrase": "Where is the hospital?",
   "keyword": "hospital",
@@ -12995,7 +12949,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0566",
+  "id": "st_0564",
   "kind": "sentence",
   "phrase": "I need to make an appointment.",
   "keyword": "appointment",
@@ -13018,7 +12972,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0567",
+  "id": "st_0565",
   "kind": "sentence",
   "phrase": "Can I book an appointment?",
   "keyword": "book",
@@ -13041,7 +12995,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0568",
+  "id": "st_0566",
   "kind": "sentence",
   "phrase": "I'd like to see a doctor today.",
   "keyword": "today",
@@ -13064,7 +13018,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0569",
+  "id": "st_0567",
   "kind": "sentence",
   "phrase": "What are your symptoms?",
   "keyword": "symptoms",
@@ -13087,7 +13041,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0570",
+  "id": "st_0568",
   "kind": "sentence",
   "phrase": "Where does it hurt?",
   "keyword": "hurt",
@@ -13110,7 +13064,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0571",
+  "id": "st_0569",
   "kind": "sentence",
   "phrase": "I have a terrible backache from sitting at my desk all day.",
   "keyword": "backache",
@@ -13133,7 +13087,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0572",
+  "id": "st_0570",
   "kind": "sentence",
   "phrase": "I'm having sharp chest pains.",
   "keyword": "sharp",
@@ -13156,7 +13110,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0573",
+  "id": "st_0571",
   "kind": "sentence",
   "phrase": "It hurts when I move.",
   "keyword": "move",
@@ -13179,7 +13133,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0574",
+  "id": "st_0572",
   "kind": "sentence",
   "phrase": "How long have you felt this way?",
   "keyword": "long",
@@ -13202,7 +13156,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0575",
+  "id": "st_0573",
   "kind": "sentence",
   "phrase": "I've been feeling like this for three days now.",
   "keyword": "feeling",
@@ -13225,7 +13179,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0576",
+  "id": "st_0574",
   "kind": "sentence",
   "phrase": "Do you take any medicine?",
   "keyword": "medicine",
@@ -13248,7 +13202,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0577",
+  "id": "st_0575",
   "kind": "sentence",
   "phrase": "I'm taking some painkillers.",
   "keyword": "painkillers",
@@ -13271,7 +13225,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0578",
+  "id": "st_0576",
   "kind": "sentence",
   "phrase": "I need a prescription.",
   "keyword": "prescription",
@@ -13294,7 +13248,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0579",
+  "id": "st_0577",
   "kind": "sentence",
   "phrase": "Can you give me a prescription?",
   "keyword": "prescription",
@@ -13317,7 +13271,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0580",
+  "id": "st_0578",
   "kind": "sentence",
   "phrase": "Take this medicine twice a day.",
   "keyword": "medicine",
@@ -13340,7 +13294,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0581",
+  "id": "st_0579",
   "kind": "sentence",
   "phrase": "Take it after meals.",
   "keyword": "meals",
@@ -13363,7 +13317,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0582",
+  "id": "st_0580",
   "kind": "sentence",
   "phrase": "Did you take your medicine?",
   "keyword": "take",
@@ -13386,7 +13340,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0583",
+  "id": "st_0581",
   "kind": "sentence",
   "phrase": "You should get some rest.",
   "keyword": "rest",
@@ -13409,7 +13363,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0584",
+  "id": "st_0582",
   "kind": "sentence",
   "phrase": "Get plenty of rest.",
   "keyword": "plenty",
@@ -13432,7 +13386,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0585",
+  "id": "st_0583",
   "kind": "sentence",
   "phrase": "Drink lots of water.",
   "keyword": "water",
@@ -13455,7 +13409,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0586",
+  "id": "st_0584",
   "kind": "sentence",
   "phrase": "Stay in bed today.",
   "keyword": "bed",
@@ -13478,7 +13432,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0587",
+  "id": "st_0585",
   "kind": "sentence",
   "phrase": "You'll feel better soon.",
   "keyword": "better",
@@ -13501,7 +13455,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0588",
+  "id": "st_0586",
   "kind": "sentence",
   "phrase": "I'm feeling better now.",
   "keyword": "better",
@@ -13524,7 +13478,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0589",
+  "id": "st_0587",
   "kind": "sentence",
   "phrase": "I feel much worse now.",
   "keyword": "worse",
@@ -13547,7 +13501,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0590",
+  "id": "st_0588",
   "kind": "sentence",
   "phrase": "I need to go to the hospital.",
   "keyword": "hospital",
@@ -13570,7 +13524,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0591",
+  "id": "st_0589",
   "kind": "sentence",
   "phrase": "Call an ambulance!",
   "keyword": "ambulance",
@@ -13593,7 +13547,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0592",
+  "id": "st_0590",
   "kind": "sentence",
   "phrase": "Is it serious?",
   "keyword": "serious",
@@ -13616,7 +13570,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0593",
+  "id": "st_0591",
   "kind": "sentence",
   "phrase": "It's not serious.",
   "keyword": "serious",
@@ -13639,7 +13593,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0594",
+  "id": "st_0592",
   "kind": "sentence",
   "phrase": "I have a broken arm.",
   "keyword": "broken",
@@ -13662,7 +13616,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0595",
+  "id": "st_0593",
   "kind": "sentence",
   "phrase": "I twisted my ankle.",
   "keyword": "ankle",
@@ -13685,7 +13639,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0596",
+  "id": "st_0594",
   "kind": "sentence",
   "phrase": "I can't move my leg.",
   "keyword": "leg",
@@ -13708,7 +13662,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0597",
+  "id": "st_0595",
   "kind": "sentence",
   "phrase": "I need some medicine.",
   "keyword": "medicine",
@@ -13731,7 +13685,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0598",
+  "id": "st_0596",
   "kind": "sentence",
   "phrase": "Where's the pharmacy?",
   "keyword": "pharmacy",
@@ -13754,7 +13708,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0599",
+  "id": "st_0597",
   "kind": "sentence",
   "phrase": "I'll get the medicine.",
   "keyword": "medicine",
@@ -13777,7 +13731,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0600",
+  "id": "st_0598",
   "kind": "sentence",
   "phrase": "The doctor will see you now.",
   "keyword": "see",
@@ -13800,7 +13754,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0601",
+  "id": "st_0599",
   "kind": "sentence",
   "phrase": "Open your mouth, please.",
   "keyword": "mouth",
@@ -13823,7 +13777,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0602",
+  "id": "st_0600",
   "kind": "sentence",
   "phrase": "Take a deep breath and try to relax your muscles.",
   "keyword": "muscles",
@@ -13846,7 +13800,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0603",
+  "id": "st_0601",
   "kind": "sentence",
   "phrase": "You need to rest for a week.",
   "keyword": "rest",
@@ -13869,7 +13823,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0604",
+  "id": "st_0602",
   "kind": "sentence",
   "phrase": "I'm so happy.",
   "keyword": "happy",
@@ -13892,7 +13846,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0605",
+  "id": "st_0603",
   "kind": "sentence",
   "phrase": "I'm excited about this.",
   "keyword": "excited",
@@ -13915,7 +13869,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0606",
+  "id": "st_0604",
   "kind": "sentence",
   "phrase": "I feel great today.",
   "keyword": "great",
@@ -13938,7 +13892,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0607",
+  "id": "st_0605",
   "kind": "sentence",
   "phrase": "I'm in a good mood.",
   "keyword": "mood",
@@ -13961,7 +13915,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0608",
+  "id": "st_0606",
   "kind": "sentence",
   "phrase": "I'm thrilled about the news.",
   "keyword": "thrilled",
@@ -13984,7 +13938,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0609",
+  "id": "st_0607",
   "kind": "sentence",
   "phrase": "I'm proud of you.",
   "keyword": "proud",
@@ -14007,7 +13961,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0610",
+  "id": "st_0608",
   "kind": "sentence",
   "phrase": "I'm so proud of myself.",
   "keyword": "proud",
@@ -14030,7 +13984,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0611",
+  "id": "st_0609",
   "kind": "sentence",
   "phrase": "I'm satisfied with the result.",
   "keyword": "satisfied",
@@ -14053,7 +14007,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0612",
+  "id": "st_0610",
   "kind": "sentence",
   "phrase": "I'm grateful for your help.",
   "keyword": "grateful",
@@ -14076,7 +14030,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0613",
+  "id": "st_0611",
   "kind": "sentence",
   "phrase": "I feel relieved.",
   "keyword": "relieved",
@@ -14099,7 +14053,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0614",
+  "id": "st_0612",
   "kind": "sentence",
   "phrase": "That's a relief.",
   "keyword": "relief",
@@ -14122,7 +14076,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0615",
+  "id": "st_0613",
   "kind": "sentence",
   "phrase": "I feel relaxed now.",
   "keyword": "relaxed",
@@ -14145,7 +14099,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0616",
+  "id": "st_0614",
   "kind": "sentence",
   "phrase": "I'm having a good time.",
   "keyword": "having",
@@ -14168,7 +14122,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0617",
+  "id": "st_0615",
   "kind": "sentence",
   "phrase": "I'm having fun.",
   "keyword": "fun",
@@ -14191,7 +14145,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0618",
+  "id": "st_0616",
   "kind": "sentence",
   "phrase": "I'm looking forward to it.",
   "keyword": "looking",
@@ -14214,7 +14168,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0619",
+  "id": "st_0617",
   "kind": "sentence",
   "phrase": "I can't wait!",
   "keyword": "wait",
@@ -14237,7 +14191,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0620",
+  "id": "st_0618",
   "kind": "sentence",
   "phrase": "I feel sad.",
   "keyword": "sad",
@@ -14260,7 +14214,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0621",
+  "id": "st_0619",
   "kind": "sentence",
   "phrase": "I'm feeling down today.",
   "keyword": "down",
@@ -14283,7 +14237,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0622",
+  "id": "st_0620",
   "kind": "sentence",
   "phrase": "I'm upset about it.",
   "keyword": "upset",
@@ -14306,7 +14260,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0623",
+  "id": "st_0621",
   "kind": "sentence",
   "phrase": "I'm really disappointed with how things turned out.",
   "keyword": "disappointed",
@@ -14329,7 +14283,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0624",
+  "id": "st_0622",
   "kind": "sentence",
   "phrase": "It's such a letdown after putting in so much hard work.",
   "keyword": "letdown",
@@ -14352,7 +14306,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0625",
+  "id": "st_0623",
   "kind": "sentence",
   "phrase": "I feel lonely.",
   "keyword": "lonely",
@@ -14375,7 +14329,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0626",
+  "id": "st_0624",
   "kind": "sentence",
   "phrase": "I miss you.",
   "keyword": "miss",
@@ -14398,7 +14352,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0627",
+  "id": "st_0625",
   "kind": "sentence",
   "phrase": "I've missed you so much.",
   "keyword": "missed",
@@ -14421,7 +14375,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0628",
+  "id": "st_0626",
   "kind": "sentence",
   "phrase": "I'm worried about you.",
   "keyword": "worried",
@@ -14444,7 +14398,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0629",
+  "id": "st_0627",
   "kind": "sentence",
   "phrase": "I'm worried about the future.",
   "keyword": "future",
@@ -14467,7 +14421,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0630",
+  "id": "st_0628",
   "kind": "sentence",
   "phrase": "I'm anxious about the test.",
   "keyword": "anxious",
@@ -14490,7 +14444,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0631",
+  "id": "st_0629",
   "kind": "sentence",
   "phrase": "I'm terrified of making a fool of myself in public.",
   "keyword": "terrified",
@@ -14513,7 +14467,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0632",
+  "id": "st_0630",
   "kind": "sentence",
   "phrase": "That scared me.",
   "keyword": "scared",
@@ -14536,7 +14490,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0633",
+  "id": "st_0631",
   "kind": "sentence",
   "phrase": "I'm afraid of heights.",
   "keyword": "afraid",
@@ -14559,7 +14513,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0634",
+  "id": "st_0632",
   "kind": "sentence",
   "phrase": "Don't be afraid.",
   "keyword": "afraid",
@@ -14582,7 +14536,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0635",
+  "id": "st_0633",
   "kind": "sentence",
   "phrase": "I'm furious that they went behind my back.",
   "keyword": "furious",
@@ -14605,7 +14559,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0636",
+  "id": "st_0634",
   "kind": "sentence",
   "phrase": "I'm really angry right now.",
   "keyword": "angry",
@@ -14628,7 +14582,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0637",
+  "id": "st_0635",
   "kind": "sentence",
   "phrase": "Don't be angry with me.",
   "keyword": "angry",
@@ -14651,7 +14605,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0638",
+  "id": "st_0636",
   "kind": "sentence",
   "phrase": "I'm frustrated because things aren't going according to plan.",
   "keyword": "frustrated",
@@ -14674,7 +14628,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0639",
+  "id": "st_0637",
   "kind": "sentence",
   "phrase": "This is so frustrating.",
   "keyword": "frustrating",
@@ -14697,7 +14651,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0640",
+  "id": "st_0638",
   "kind": "sentence",
   "phrase": "I'm annoyed.",
   "keyword": "annoyed",
@@ -14720,7 +14674,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0641",
+  "id": "st_0639",
   "kind": "sentence",
   "phrase": "It really gets on my nerves when people cut in line.",
   "keyword": "nerves",
@@ -14743,7 +14697,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0642",
+  "id": "st_0640",
   "kind": "sentence",
   "phrase": "I can't stand it anymore.",
   "keyword": "stand",
@@ -14766,7 +14720,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0643",
+  "id": "st_0641",
   "kind": "sentence",
   "phrase": "I've had enough.",
   "keyword": "enough",
@@ -14789,7 +14743,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0644",
+  "id": "st_0642",
   "kind": "sentence",
   "phrase": "I'm exhausted.",
   "keyword": "exhausted",
@@ -14812,7 +14766,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0645",
+  "id": "st_0643",
   "kind": "sentence",
   "phrase": "I'm so tired.",
   "keyword": "tired",
@@ -14835,7 +14789,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0646",
+  "id": "st_0644",
   "kind": "sentence",
   "phrase": "I feel burned out.",
   "keyword": "burned",
@@ -14858,7 +14812,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0647",
+  "id": "st_0645",
   "kind": "sentence",
   "phrase": "I need a break.",
   "keyword": "break",
@@ -14881,7 +14835,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0648",
+  "id": "st_0646",
   "kind": "sentence",
   "phrase": "I'm stressed out.",
   "keyword": "stressed",
@@ -14904,7 +14858,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0649",
+  "id": "st_0647",
   "kind": "sentence",
   "phrase": "This is too stressful.",
   "keyword": "stressful",
@@ -14927,7 +14881,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0650",
+  "id": "st_0648",
   "kind": "sentence",
   "phrase": "I feel overwhelmed.",
   "keyword": "overwhelmed",
@@ -14950,7 +14904,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0651",
+  "id": "st_0649",
   "kind": "sentence",
   "phrase": "Take a deep breath.",
   "keyword": "deep",
@@ -14973,7 +14927,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0652",
+  "id": "st_0650",
   "kind": "sentence",
   "phrase": "Calm down.",
   "keyword": "Calm",
@@ -14996,7 +14950,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0653",
+  "id": "st_0651",
   "kind": "sentence",
   "phrase": "Relax, everything is fine.",
   "keyword": "Relax",
@@ -15019,7 +14973,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0654",
+  "id": "st_0652",
   "kind": "sentence",
   "phrase": "It's not the end of the world.",
   "keyword": "end",
@@ -15042,7 +14996,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0655",
+  "id": "st_0653",
   "kind": "sentence",
   "phrase": "It could be worse.",
   "keyword": "worse",
@@ -15065,7 +15019,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0656",
+  "id": "st_0654",
   "kind": "sentence",
   "phrase": "There's always a next time.",
   "keyword": "next",
@@ -15088,7 +15042,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0657",
+  "id": "st_0655",
   "kind": "sentence",
   "phrase": "Don't give up.",
   "keyword": "give",
@@ -15111,7 +15065,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0658",
+  "id": "st_0656",
   "kind": "sentence",
   "phrase": "Keep going, you can do it.",
   "keyword": "Keep",
@@ -15134,7 +15088,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0659",
+  "id": "st_0657",
   "kind": "sentence",
   "phrase": "You can do it.",
   "keyword": "can",
@@ -15157,7 +15111,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0660",
+  "id": "st_0658",
   "kind": "sentence",
   "phrase": "I believe in you.",
   "keyword": "believe",
@@ -15180,7 +15134,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0661",
+  "id": "st_0659",
   "kind": "sentence",
   "phrase": "I'm proud of what you've achieved.",
   "keyword": "achieved",
@@ -15203,7 +15157,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0662",
+  "id": "st_0660",
   "kind": "sentence",
   "phrase": "I understand how you feel.",
   "keyword": "understand",
@@ -15226,7 +15180,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0663",
+  "id": "st_0661",
   "kind": "sentence",
   "phrase": "I'm here for you.",
   "keyword": "here",
@@ -15249,7 +15203,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0664",
+  "id": "st_0662",
   "kind": "sentence",
   "phrase": "You're not alone.",
   "keyword": "alone",
@@ -15272,7 +15226,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0665",
+  "id": "st_0663",
   "kind": "sentence",
   "phrase": "It's okay to cry.",
   "keyword": "cry",
@@ -15295,7 +15249,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0666",
+  "id": "st_0664",
   "kind": "sentence",
   "phrase": "Let it out.",
   "keyword": "out",
@@ -15318,7 +15272,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0667",
+  "id": "st_0665",
   "kind": "sentence",
   "phrase": "I'll support you no matter what.",
   "keyword": "support",
@@ -15341,7 +15295,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0668",
+  "id": "st_0666",
   "kind": "sentence",
   "phrase": "I'll always be by your side.",
   "keyword": "side",
@@ -15364,7 +15318,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0669",
+  "id": "st_0667",
   "kind": "sentence",
   "phrase": "I feel grateful to have you.",
   "keyword": "grateful",
@@ -15387,7 +15341,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0670",
+  "id": "st_0668",
   "kind": "sentence",
   "phrase": "You mean the world to me.",
   "keyword": "world",
@@ -15410,7 +15364,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0671",
+  "id": "st_0669",
   "kind": "sentence",
   "phrase": "I appreciate you.",
   "keyword": "appreciate",
@@ -15433,7 +15387,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0672",
+  "id": "st_0670",
   "kind": "sentence",
   "phrase": "Thank you for being here.",
   "keyword": "being",
@@ -15456,7 +15410,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0673",
+  "id": "st_0671",
   "kind": "sentence",
   "phrase": "I feel blessed.",
   "keyword": "blessed",
@@ -15479,7 +15433,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0674",
+  "id": "st_0672",
   "kind": "sentence",
   "phrase": "Life is beautiful.",
   "keyword": "beautiful",
@@ -15502,7 +15456,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0675",
+  "id": "st_0673",
   "kind": "sentence",
   "phrase": "Stay positive.",
   "keyword": "positive",
@@ -15525,7 +15479,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0676",
+  "id": "st_0674",
   "kind": "sentence",
   "phrase": "Focus on the silver lining, things will eventually improve.",
   "keyword": "silver",
@@ -15548,7 +15502,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0677",
+  "id": "st_0675",
   "kind": "sentence",
   "phrase": "Every cloud has a silver lining.",
   "keyword": "silver",
@@ -15571,7 +15525,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0678",
+  "id": "st_0676",
   "kind": "sentence",
   "phrase": "Tomorrow is another day.",
   "keyword": "Tomorrow",
@@ -15594,7 +15548,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0679",
+  "id": "st_0677",
   "kind": "sentence",
   "phrase": "Could you please do me a quick favor?",
   "keyword": "favor",
@@ -15617,7 +15571,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0680",
+  "id": "st_0678",
   "kind": "sentence",
   "phrase": "Thank you, I couldn't have pulled it off without your help.",
   "keyword": "without",
@@ -15640,7 +15594,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0681",
+  "id": "st_0679",
   "kind": "sentence",
   "phrase": "Thanks a million for lending a helping hand!",
   "keyword": "million",
@@ -15663,7 +15617,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0682",
+  "id": "st_0680",
   "kind": "sentence",
   "phrase": "Thank you so much.",
   "keyword": "much",
@@ -15686,7 +15640,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0683",
+  "id": "st_0681",
   "kind": "sentence",
   "phrase": "I really appreciate it.",
   "keyword": "appreciate",
@@ -15709,7 +15663,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0684",
+  "id": "st_0682",
   "kind": "sentence",
   "phrase": "You're very kind.",
   "keyword": "kind",
@@ -15732,7 +15686,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0685",
+  "id": "st_0683",
   "kind": "sentence",
   "phrase": "I owe you one.",
   "keyword": "owe",
@@ -15755,7 +15709,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0686",
+  "id": "st_0684",
   "kind": "sentence",
   "phrase": "You're more than welcome, glad I could be of help!",
   "keyword": "welcome",
@@ -15778,7 +15732,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0687",
+  "id": "st_0685",
   "kind": "sentence",
   "phrase": "No problem.",
   "keyword": "problem",
@@ -15801,7 +15755,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0688",
+  "id": "st_0686",
   "kind": "sentence",
   "phrase": "Don't mention it.",
   "keyword": "mention",
@@ -15824,7 +15778,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0689",
+  "id": "st_0687",
   "kind": "sentence",
   "phrase": "It was nothing.",
   "keyword": "nothing",
@@ -15847,7 +15801,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0690",
+  "id": "st_0688",
   "kind": "sentence",
   "phrase": "Anytime.",
   "keyword": "Anytime",
@@ -15870,7 +15824,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0691",
+  "id": "st_0689",
   "kind": "sentence",
   "phrase": "Excuse me.",
   "keyword": "Excuse",
@@ -15893,7 +15847,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0692",
+  "id": "st_0690",
   "kind": "sentence",
   "phrase": "Pardon me.",
   "keyword": "Pardon",
@@ -15916,7 +15870,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0693",
+  "id": "st_0691",
   "kind": "sentence",
   "phrase": "Sorry to bother you.",
   "keyword": "bother",
@@ -15939,7 +15893,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0694",
+  "id": "st_0692",
   "kind": "sentence",
   "phrase": "Sorry for the delay.",
   "keyword": "delay",
@@ -15962,7 +15916,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0695",
+  "id": "st_0693",
   "kind": "sentence",
   "phrase": "I'm truly sorry for the confusion and delay.",
   "keyword": "confusion",
@@ -15985,7 +15939,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0696",
+  "id": "st_0694",
   "kind": "sentence",
   "phrase": "I apologize.",
   "keyword": "apologize",
@@ -16008,7 +15962,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0697",
+  "id": "st_0695",
   "kind": "sentence",
   "phrase": "My apologies.",
   "keyword": "apologies",
@@ -16031,7 +15985,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0698",
+  "id": "st_0696",
   "kind": "sentence",
   "phrase": "I'm really sorry.",
   "keyword": "really",
@@ -16054,7 +16008,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0699",
+  "id": "st_0697",
   "kind": "sentence",
   "phrase": "I'm sorry for what I said.",
   "keyword": "said",
@@ -16077,7 +16031,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0700",
+  "id": "st_0698",
   "kind": "sentence",
   "phrase": "I didn't mean to hurt you.",
   "keyword": "hurt",
@@ -16100,7 +16054,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0701",
+  "id": "st_0699",
   "kind": "sentence",
   "phrase": "It was my fault.",
   "keyword": "fault",
@@ -16123,7 +16077,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0702",
+  "id": "st_0700",
   "kind": "sentence",
   "phrase": "Please forgive me.",
   "keyword": "forgive",
@@ -16146,7 +16100,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0703",
+  "id": "st_0701",
   "kind": "sentence",
   "phrase": "I won't let it happen again.",
   "keyword": "again",
@@ -16169,7 +16123,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0704",
+  "id": "st_0702",
   "kind": "sentence",
   "phrase": "That's okay.",
   "keyword": "okay",
@@ -16192,7 +16146,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0705",
+  "id": "st_0703",
   "kind": "sentence",
   "phrase": "It's no big deal, don't worry about it at all.",
   "keyword": "deal",
@@ -16215,7 +16169,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0706",
+  "id": "st_0704",
   "kind": "sentence",
   "phrase": "Forget about it.",
   "keyword": "Forget",
@@ -16238,7 +16192,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0707",
+  "id": "st_0705",
   "kind": "sentence",
   "phrase": "Never mind.",
   "keyword": "Never",
@@ -16261,7 +16215,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0708",
+  "id": "st_0706",
   "kind": "sentence",
   "phrase": "Could you help me?",
   "keyword": "help",
@@ -16284,7 +16238,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0709",
+  "id": "st_0707",
   "kind": "sentence",
   "phrase": "Would you mind helping me?",
   "keyword": "mind",
@@ -16307,7 +16261,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0710",
+  "id": "st_0708",
   "kind": "sentence",
   "phrase": "Can you do me a favor?",
   "keyword": "favor",
@@ -16330,7 +16284,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0711",
+  "id": "st_0709",
   "kind": "sentence",
   "phrase": "I need your help.",
   "keyword": "help",
@@ -16353,7 +16307,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0712",
+  "id": "st_0710",
   "kind": "sentence",
   "phrase": "Can I ask you something?",
   "keyword": "ask",
@@ -16376,7 +16330,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0713",
+  "id": "st_0711",
   "kind": "sentence",
   "phrase": "May I ask a question?",
   "keyword": "question",
@@ -16399,7 +16353,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0714",
+  "id": "st_0712",
   "kind": "sentence",
   "phrase": "May I come in?",
   "keyword": "come",
@@ -16422,7 +16376,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0715",
+  "id": "st_0713",
   "kind": "sentence",
   "phrase": "Could I use your phone?",
   "keyword": "use",
@@ -16445,7 +16399,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0716",
+  "id": "st_0714",
   "kind": "sentence",
   "phrase": "Is it okay if I sit here?",
   "keyword": "sit",
@@ -16468,7 +16422,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0717",
+  "id": "st_0715",
   "kind": "sentence",
   "phrase": "Do you mind if I open the window?",
   "keyword": "open",
@@ -16491,7 +16445,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0718",
+  "id": "st_0716",
   "kind": "sentence",
   "phrase": "Please be quiet.",
   "keyword": "quiet",
@@ -16514,7 +16468,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0719",
+  "id": "st_0717",
   "kind": "sentence",
   "phrase": "Please wait for me.",
   "keyword": "wait",
@@ -16537,7 +16491,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0720",
+  "id": "st_0718",
   "kind": "sentence",
   "phrase": "Please don't go.",
   "keyword": "go",
@@ -16560,7 +16514,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0721",
+  "id": "st_0719",
   "kind": "sentence",
   "phrase": "Come with me, please.",
   "keyword": "Come",
@@ -16583,7 +16537,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0722",
+  "id": "st_0720",
   "kind": "sentence",
   "phrase": "Help me, please.",
   "keyword": "Help",
@@ -16606,7 +16560,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0723",
+  "id": "st_0721",
   "kind": "sentence",
   "phrase": "I think so.",
   "keyword": "think",
@@ -16629,7 +16583,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0724",
+  "id": "st_0722",
   "kind": "sentence",
   "phrase": "I don't think so.",
   "keyword": "think",
@@ -16652,7 +16606,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0725",
+  "id": "st_0723",
   "kind": "sentence",
   "phrase": "I couldn't agree with you more on this point.",
   "keyword": "agree",
@@ -16675,7 +16629,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0726",
+  "id": "st_0724",
   "kind": "sentence",
   "phrase": "I see things a bit differently from your perspective.",
   "keyword": "differently",
@@ -16698,7 +16652,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0727",
+  "id": "st_0725",
   "kind": "sentence",
   "phrase": "I agree with you.",
   "keyword": "agree",
@@ -16721,7 +16675,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0728",
+  "id": "st_0726",
   "kind": "sentence",
   "phrase": "I don't agree with that.",
   "keyword": "agree",
@@ -16744,7 +16698,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0729",
+  "id": "st_0727",
   "kind": "sentence",
   "phrase": "That's a very valid point you just raised.",
   "keyword": "valid",
@@ -16767,7 +16721,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0730",
+  "id": "st_0728",
   "kind": "sentence",
   "phrase": "You hit the nail right on the head.",
   "keyword": "nail",
@@ -16790,7 +16744,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0731",
+  "id": "st_0729",
   "kind": "sentence",
   "phrase": "You're right.",
   "keyword": "right",
@@ -16813,7 +16767,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0732",
+  "id": "st_0730",
   "kind": "sentence",
   "phrase": "I'm afraid that information isn't entirely accurate.",
   "keyword": "accurate",
@@ -16836,7 +16790,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0733",
+  "id": "st_0731",
   "kind": "sentence",
   "phrase": "I'm not sure.",
   "keyword": "sure",
@@ -16859,7 +16813,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0734",
+  "id": "st_0732",
   "kind": "sentence",
   "phrase": "Maybe you're right.",
   "keyword": "Maybe",
@@ -16882,7 +16836,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0735",
+  "id": "st_0733",
   "kind": "sentence",
   "phrase": "I doubt it.",
   "keyword": "doubt",
@@ -16905,7 +16859,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0736",
+  "id": "st_0734",
   "kind": "sentence",
   "phrase": "I'm not convinced.",
   "keyword": "convinced",
@@ -16928,7 +16882,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0737",
+  "id": "st_0735",
   "kind": "sentence",
   "phrase": "It depends.",
   "keyword": "depends",
@@ -16951,7 +16905,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0738",
+  "id": "st_0736",
   "kind": "sentence",
   "phrase": "That makes sense.",
   "keyword": "sense",
@@ -16974,7 +16928,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0739",
+  "id": "st_0737",
   "kind": "sentence",
   "phrase": "That doesn't make sense.",
   "keyword": "sense",
@@ -16997,7 +16951,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0740",
+  "id": "st_0738",
   "kind": "sentence",
   "phrase": "I see your point.",
   "keyword": "point",
@@ -17020,7 +16974,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0741",
+  "id": "st_0739",
   "kind": "sentence",
   "phrase": "Good point.",
   "keyword": "point",
@@ -17043,7 +16997,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0742",
+  "id": "st_0740",
   "kind": "sentence",
   "phrase": "Fair enough.",
   "keyword": "Fair",
@@ -17066,7 +17020,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0743",
+  "id": "st_0741",
   "kind": "sentence",
   "phrase": "Let's agree to disagree.",
   "keyword": "disagree",
@@ -17089,7 +17043,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0744",
+  "id": "st_0742",
   "kind": "sentence",
   "phrase": "In my opinion...",
   "keyword": "opinion",
@@ -17112,7 +17066,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0745",
+  "id": "st_0743",
   "kind": "sentence",
   "phrase": "From my point of view...",
   "keyword": "point",
@@ -17135,7 +17089,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0746",
+  "id": "st_0744",
   "kind": "sentence",
   "phrase": "As far as I know...",
   "keyword": "know",
@@ -17158,7 +17112,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0747",
+  "id": "st_0745",
   "kind": "sentence",
   "phrase": "To be honest...",
   "keyword": "honest",
@@ -17181,7 +17135,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0748",
+  "id": "st_0746",
   "kind": "sentence",
   "phrase": "Honestly speaking...",
   "keyword": "Honestly",
@@ -17204,7 +17158,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0749",
+  "id": "st_0747",
   "kind": "sentence",
   "phrase": "It's up to you.",
   "keyword": "up",
@@ -17227,7 +17181,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0750",
+  "id": "st_0748",
   "kind": "sentence",
   "phrase": "Whatever you decide is fine.",
   "keyword": "decide",
@@ -17250,7 +17204,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0751",
+  "id": "st_0749",
   "kind": "sentence",
   "phrase": "Both are good options.",
   "keyword": "options",
@@ -17273,7 +17227,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0752",
+  "id": "st_0750",
   "kind": "sentence",
   "phrase": "I'll go with your suggestion.",
   "keyword": "suggestion",
@@ -17296,7 +17250,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0753",
+  "id": "st_0751",
   "kind": "sentence",
   "phrase": "Trust me on this, I know exactly what I'm doing.",
   "keyword": "Trust",
@@ -17319,7 +17273,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0754",
+  "id": "st_0752",
   "kind": "sentence",
   "phrase": "I promise you won't regret taking this chance.",
   "keyword": "promise",
@@ -17342,7 +17296,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0755",
+  "id": "st_0753",
   "kind": "sentence",
   "phrase": "I swear I had nothing to do with what happened.",
   "keyword": "swear",
@@ -17365,7 +17319,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0756",
+  "id": "st_0754",
   "kind": "sentence",
   "phrase": "Are you serious?",
   "keyword": "serious",
@@ -17388,7 +17342,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0757",
+  "id": "st_0755",
   "kind": "sentence",
   "phrase": "You're kidding, right?",
   "keyword": "kidding",
@@ -17411,7 +17365,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0758",
+  "id": "st_0756",
   "kind": "sentence",
   "phrase": "I'm serious.",
   "keyword": "serious",
@@ -17434,7 +17388,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0759",
+  "id": "st_0757",
   "kind": "sentence",
   "phrase": "I mean it.",
   "keyword": "mean",
@@ -17457,7 +17411,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0760",
+  "id": "st_0758",
   "kind": "sentence",
   "phrase": "That's impossible.",
   "keyword": "impossible",
@@ -17480,7 +17434,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0761",
+  "id": "st_0759",
   "kind": "sentence",
   "phrase": "No way!",
   "keyword": "way",
@@ -17503,7 +17457,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0762",
+  "id": "st_0760",
   "kind": "sentence",
   "phrase": "It can't be true.",
   "keyword": "true",
@@ -17526,7 +17480,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0763",
+  "id": "st_0761",
   "kind": "sentence",
   "phrase": "I can't believe it.",
   "keyword": "believe",
@@ -17549,7 +17503,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0764",
+  "id": "st_0762",
   "kind": "sentence",
   "phrase": "Unbelievable!",
   "keyword": "Unbelievable",
@@ -17572,7 +17526,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0765",
+  "id": "st_0763",
   "kind": "sentence",
   "phrase": "That's incredible.",
   "keyword": "incredible",
@@ -17595,7 +17549,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0766",
+  "id": "st_0764",
   "kind": "sentence",
   "phrase": "That blew my mind, absolutely incredible!",
   "keyword": "mind",
@@ -17618,7 +17572,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0767",
+  "id": "st_0765",
   "kind": "sentence",
   "phrase": "That's amazing!",
   "keyword": "amazing",
@@ -17641,7 +17595,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0768",
+  "id": "st_0766",
   "kind": "sentence",
   "phrase": "Couldn't be better, everything is spot on!",
   "keyword": "spot",
@@ -17664,7 +17618,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0769",
+  "id": "st_0767",
   "kind": "sentence",
   "phrase": "Keep up the fantastic work, everyone!",
   "keyword": "fantastic",
@@ -17687,7 +17641,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0770",
+  "id": "st_0768",
   "kind": "sentence",
   "phrase": "You completely nailed it, outstanding performance!",
   "keyword": "nailed",
@@ -17710,7 +17664,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0771",
+  "id": "st_0769",
   "kind": "sentence",
   "phrase": "That was a stroke of genius, pure brilliance!",
   "keyword": "genius",
@@ -17733,7 +17687,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0772",
+  "id": "st_0770",
   "kind": "sentence",
   "phrase": "That's brilliant.",
   "keyword": "brilliant",
@@ -17756,7 +17710,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0773",
+  "id": "st_0771",
   "kind": "sentence",
   "phrase": "Get out of here!",
   "keyword": "out",
@@ -17779,7 +17733,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0774",
+  "id": "st_0772",
   "kind": "sentence",
   "phrase": "Get lost!",
   "keyword": "lost",
@@ -17802,7 +17756,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0775",
+  "id": "st_0773",
   "kind": "sentence",
   "phrase": "Leave me alone.",
   "keyword": "alone",
@@ -17825,7 +17779,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0776",
+  "id": "st_0774",
   "kind": "sentence",
   "phrase": "Stay away from me.",
   "keyword": "away",
@@ -17848,7 +17802,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0777",
+  "id": "st_0775",
   "kind": "sentence",
   "phrase": "Don't touch me!",
   "keyword": "touch",
@@ -17871,7 +17825,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0778",
+  "id": "st_0776",
   "kind": "sentence",
   "phrase": "Back off!",
   "keyword": "Back",
@@ -17894,7 +17848,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0779",
+  "id": "st_0777",
   "kind": "sentence",
   "phrase": "Give it back!",
   "keyword": "back",
@@ -17917,7 +17871,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0780",
+  "id": "st_0778",
   "kind": "sentence",
   "phrase": "Hey, that belongs to me, please put it back.",
   "keyword": "belongs",
@@ -17940,7 +17894,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0781",
+  "id": "st_0779",
   "kind": "sentence",
   "phrase": "That's mine.",
   "keyword": "mine",
@@ -17963,30 +17917,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0782",
-  "kind": "sentence",
-  "phrase": "Finders keepers.",
-  "keyword": "Finders",
-  "phonetic": "",
-  "meaning_th": "ใครเจอได้ก็เป็นของคนนั้น",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Finders keepers.",
-    "th": "ใครเจอได้ก็เป็นของคนนั้น",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0783",
+  "id": "st_0780",
   "kind": "sentence",
   "phrase": "I found it first.",
   "keyword": "found",
@@ -18009,7 +17940,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0784",
+  "id": "st_0781",
   "kind": "sentence",
   "phrase": "Keep an eye on him.",
   "keyword": "eye",
@@ -18032,7 +17963,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0785",
+  "id": "st_0782",
   "kind": "sentence",
   "phrase": "Watch your step, the floor is wet and slippery!",
   "keyword": "slippery",
@@ -18055,7 +17986,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0786",
+  "id": "st_0783",
   "kind": "sentence",
   "phrase": "Keep an eye out for oncoming traffic as you cross.",
   "keyword": "traffic",
@@ -18078,7 +18009,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0787",
+  "id": "st_0784",
   "kind": "sentence",
   "phrase": "Be careful.",
   "keyword": "careful",
@@ -18101,7 +18032,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0788",
+  "id": "st_0785",
   "kind": "sentence",
   "phrase": "Careful what you wish for.",
   "keyword": "wish",
@@ -18124,30 +18055,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0789",
-  "kind": "sentence",
-  "phrase": "Run for your life, there's no time to lose!",
-  "keyword": "life",
-  "phonetic": "",
-  "meaning_th": "วิ่งหนีเอาชีวิตรอดเร็ว ไม่มีเวลาให้ลังเลแล้ว!",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Run for your life, there's no time to lose!",
-    "th": "วิ่งหนีเอาชีวิตรอดเร็ว ไม่มีเวลาให้ลังเลแล้ว!",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0790",
+  "id": "st_0786",
   "kind": "sentence",
   "phrase": "Hurry up!",
   "keyword": "Hurry",
@@ -18170,7 +18078,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0791",
+  "id": "st_0787",
   "kind": "sentence",
   "phrase": "Let's go!",
   "keyword": "go",
@@ -18193,7 +18101,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0792",
+  "id": "st_0788",
   "kind": "sentence",
   "phrase": "Come on!",
   "keyword": "Come",
@@ -18216,7 +18124,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0793",
+  "id": "st_0789",
   "kind": "sentence",
   "phrase": "Follow me.",
   "keyword": "Follow",
@@ -18239,122 +18147,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0794",
-  "kind": "sentence",
-  "phrase": "Stay right where you are until back-up arrives.",
-  "keyword": "arrives",
-  "phonetic": "",
-  "meaning_th": "อยู่ตรงนั้นนิ่งๆ นะจนกว่ากำลังเสริมจะมาถึง",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Stay right where you are until back-up arrives.",
-    "th": "อยู่ตรงนั้นนิ่งๆ นะจนกว่ากำลังเสริมจะมาถึง",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0795",
-  "kind": "sentence",
-  "phrase": "Freeze! Don't make any sudden movements.",
-  "keyword": "movements",
-  "phonetic": "",
-  "meaning_th": "หยุดตรงนั้น! อย่าขยับตัวกะทันหันนะ",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Freeze! Don't make any sudden movements.",
-    "th": "หยุดตรงนั้น! อย่าขยับตัวกะทันหันนะ",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0796",
-  "kind": "sentence",
-  "phrase": "Freeze and drop your weapon immediately!",
-  "keyword": "weapon",
-  "phonetic": "",
-  "meaning_th": "หยุดและวางอาวุธลงทันทีเดี๋ยวนี้!",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Freeze and drop your weapon immediately!",
-    "th": "หยุดและวางอาวุธลงทันทีเดี๋ยวนี้!",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0797",
-  "kind": "sentence",
-  "phrase": "Put your hands up!",
-  "keyword": "hands",
-  "phonetic": "",
-  "meaning_th": "ยกมือขึ้น",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Put your hands up!",
-    "th": "ยกมือขึ้น",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0798",
-  "kind": "sentence",
-  "phrase": "Keep your hands where I can see them!",
-  "keyword": "Keep",
-  "phonetic": "",
-  "meaning_th": "เอามือไว้ในที่ที่ฉันมองเห็นได้ตลอด!",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Keep your hands where I can see them!",
-    "th": "เอามือไว้ในที่ที่ฉันมองเห็นได้ตลอด!",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0799",
+  "id": "st_0790",
   "kind": "sentence",
   "phrase": "Stop right there!",
   "keyword": "Stop",
@@ -18377,7 +18170,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0800",
+  "id": "st_0791",
   "kind": "sentence",
   "phrase": "Hold it right there.",
   "keyword": "Hold",
@@ -18400,53 +18193,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0801",
-  "kind": "sentence",
-  "phrase": "You're under arrest.",
-  "keyword": "arrest",
-  "phonetic": "",
-  "meaning_th": "คุณถูกจับกุม",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "You're under arrest.",
-    "th": "คุณถูกจับกุม",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0802",
-  "kind": "sentence",
-  "phrase": "You have the right to remain silent.",
-  "keyword": "silent",
-  "phonetic": "",
-  "meaning_th": "คุณมีสิทธิ์ที่จะนิ่งเงียบ",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "You have the right to remain silent.",
-    "th": "คุณมีสิทธิ์ที่จะนิ่งเงียบ",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0803",
+  "id": "st_0792",
   "kind": "sentence",
   "phrase": "He got away.",
   "keyword": "away",
@@ -18469,7 +18216,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0804",
+  "id": "st_0793",
   "kind": "sentence",
   "phrase": "Let him go.",
   "keyword": "go",
@@ -18492,76 +18239,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0805",
-  "kind": "sentence",
-  "phrase": "It's a trap!",
-  "keyword": "trap",
-  "phonetic": "",
-  "meaning_th": "มันคือกับดัก",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "It's a trap!",
-    "th": "มันคือกับดัก",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0806",
-  "kind": "sentence",
-  "phrase": "We've been set up.",
-  "keyword": "set",
-  "phonetic": "",
-  "meaning_th": "เราโดนจัดฉากเข้าแล้ว / เราติดกับแล้ว",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "We've been set up.",
-    "th": "เราโดนจัดฉากเข้าแล้ว / เราติดกับแล้ว",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0807",
-  "kind": "sentence",
-  "phrase": "There's no escape.",
-  "keyword": "escape",
-  "phonetic": "",
-  "meaning_th": "ไม่มีทางหนี",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "There's no escape.",
-    "th": "ไม่มีทางหนี",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0808",
+  "id": "st_0794",
   "kind": "sentence",
   "phrase": "I'm not afraid of you.",
   "keyword": "afraid",
@@ -18584,99 +18262,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0809",
-  "kind": "sentence",
-  "phrase": "You'll regret this.",
-  "keyword": "regret",
-  "phonetic": "",
-  "meaning_th": "คุณจะเสียใจในภายหลัง",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "You'll regret this.",
-    "th": "คุณจะเสียใจในภายหลัง",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0810",
-  "kind": "sentence",
-  "phrase": "This isn't over yet.",
-  "keyword": "over",
-  "phonetic": "",
-  "meaning_th": "เรื่องยังไม่จบ",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "This isn't over yet.",
-    "th": "เรื่องยังไม่จบ",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0811",
-  "kind": "sentence",
-  "phrase": "It's not over until I say so.",
-  "keyword": "until",
-  "phonetic": "",
-  "meaning_th": "ยังไม่จบจนกว่าฉันจะบอกว่าจบ",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "It's not over until I say so.",
-    "th": "ยังไม่จบจนกว่าฉันจะบอกว่าจบ",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0812",
-  "kind": "sentence",
-  "phrase": "Say that again, I dare you.",
-  "keyword": "dare",
-  "phonetic": "",
-  "meaning_th": "แน่จริงพูดอีกรอบสิ / ถ้ากล้าก็ลองพูดอีกทีสิ",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Say that again, I dare you.",
-    "th": "แน่จริงพูดอีกรอบสิ / ถ้ากล้าก็ลองพูดอีกทีสิ",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0813",
+  "id": "st_0795",
   "kind": "sentence",
   "phrase": "You started this.",
   "keyword": "started",
@@ -18699,7 +18285,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0814",
+  "id": "st_0796",
   "kind": "sentence",
   "phrase": "This is your fault.",
   "keyword": "fault",
@@ -18722,7 +18308,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0815",
+  "id": "st_0797",
   "kind": "sentence",
   "phrase": "It's all your fault.",
   "keyword": "fault",
@@ -18745,7 +18331,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0816",
+  "id": "st_0798",
   "kind": "sentence",
   "phrase": "Why did you do that?",
   "keyword": "why",
@@ -18768,7 +18354,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0817",
+  "id": "st_0799",
   "kind": "sentence",
   "phrase": "What have you done?",
   "keyword": "done",
@@ -18791,7 +18377,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0818",
+  "id": "st_0800",
   "kind": "sentence",
   "phrase": "What were you thinking?",
   "keyword": "thinking",
@@ -18814,7 +18400,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0819",
+  "id": "st_0801",
   "kind": "sentence",
   "phrase": "I didn't do it.",
   "keyword": "do",
@@ -18837,7 +18423,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0820",
+  "id": "st_0802",
   "kind": "sentence",
   "phrase": "I had no choice.",
   "keyword": "choice",
@@ -18860,7 +18446,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0821",
+  "id": "st_0803",
   "kind": "sentence",
   "phrase": "You made me do it.",
   "keyword": "made",
@@ -18883,30 +18469,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0822",
-  "kind": "sentence",
-  "phrase": "It was self-defense.",
-  "keyword": "self-defense",
-  "phonetic": "",
-  "meaning_th": "มันเป็นการป้องกันตัว",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "It was self-defense.",
-    "th": "มันเป็นการป้องกันตัว",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0823",
+  "id": "st_0804",
   "kind": "sentence",
   "phrase": "I'm telling the truth.",
   "keyword": "truth",
@@ -18929,7 +18492,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0824",
+  "id": "st_0805",
   "kind": "sentence",
   "phrase": "Tell me the truth.",
   "keyword": "truth",
@@ -18952,7 +18515,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0825",
+  "id": "st_0806",
   "kind": "sentence",
   "phrase": "I never lie.",
   "keyword": "lie",
@@ -18975,7 +18538,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0826",
+  "id": "st_0807",
   "kind": "sentence",
   "phrase": "Don't lie to me.",
   "keyword": "lie",
@@ -18998,7 +18561,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0827",
+  "id": "st_0808",
   "kind": "sentence",
   "phrase": "I wouldn't lie to you.",
   "keyword": "wouldn't",
@@ -19021,7 +18584,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0828",
+  "id": "st_0809",
   "kind": "sentence",
   "phrase": "I'm not lying.",
   "keyword": "lying",
@@ -19044,53 +18607,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0829",
-  "kind": "sentence",
-  "phrase": "Cross my heart.",
-  "keyword": "Cross",
-  "phonetic": "",
-  "meaning_th": "สาบานได้เลย",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Cross my heart.",
-    "th": "สาบานได้เลย",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0830",
-  "kind": "sentence",
-  "phrase": "Honest to God.",
-  "keyword": "Honest",
-  "phonetic": "",
-  "meaning_th": "จริง ๆ สาบานได้",
-  "meaning_en": "",
-  "category": "movie",
-  "category_th": "ประโยคในหนัง ซีรีส์",
-  "category_full": "ประโยคในหนัง ซีรีส์",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Honest to God.",
-    "th": "จริง ๆ สาบานได้",
-    "context": "movie"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0831",
+  "id": "st_0810",
   "kind": "sentence",
   "phrase": "I'm being honest with you.",
   "keyword": "honest",
@@ -19113,7 +18630,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0832",
+  "id": "st_0811",
   "kind": "sentence",
   "phrase": "Listen to me.",
   "keyword": "Listen",
@@ -19136,7 +18653,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0833",
+  "id": "st_0812",
   "kind": "sentence",
   "phrase": "Hear me out.",
   "keyword": "Hear",
@@ -19159,7 +18676,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0834",
+  "id": "st_0813",
   "kind": "sentence",
   "phrase": "Look at me.",
   "keyword": "Look",
@@ -19182,7 +18699,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0835",
+  "id": "st_0814",
   "kind": "sentence",
   "phrase": "Look me in the eye.",
   "keyword": "eye",
@@ -19205,7 +18722,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0836",
+  "id": "st_0815",
   "kind": "sentence",
   "phrase": "Talk to me.",
   "keyword": "Talk",
@@ -19228,7 +18745,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0837",
+  "id": "st_0816",
   "kind": "sentence",
   "phrase": "Don't ignore me.",
   "keyword": "ignore",
@@ -19251,7 +18768,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0838",
+  "id": "st_0817",
   "kind": "sentence",
   "phrase": "Answer me straight, stop beating around the bush!",
   "keyword": "bush",
@@ -19274,7 +18791,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0839",
+  "id": "st_0818",
   "kind": "sentence",
   "phrase": "What's the matter?",
   "keyword": "matter",
@@ -19297,7 +18814,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0840",
+  "id": "st_0819",
   "kind": "sentence",
   "phrase": "What's wrong?",
   "keyword": "wrong",
@@ -19320,7 +18837,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0841",
+  "id": "st_0820",
   "kind": "sentence",
   "phrase": "What happened?",
   "keyword": "happened",
@@ -19343,7 +18860,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0842",
+  "id": "st_0821",
   "kind": "sentence",
   "phrase": "What's going on?",
   "keyword": "going",
@@ -19366,7 +18883,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0843",
+  "id": "st_0822",
   "kind": "sentence",
   "phrase": "What's the problem?",
   "keyword": "problem",
@@ -19389,7 +18906,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0844",
+  "id": "st_0823",
   "kind": "sentence",
   "phrase": "Is something wrong?",
   "keyword": "something",
@@ -19412,7 +18929,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0845",
+  "id": "st_0824",
   "kind": "sentence",
   "phrase": "Everything is fine.",
   "keyword": "Everything",
@@ -19435,7 +18952,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0846",
+  "id": "st_0825",
   "kind": "sentence",
   "phrase": "Nothing is wrong.",
   "keyword": "Nothing",
@@ -19458,7 +18975,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0847",
+  "id": "st_0826",
   "kind": "sentence",
   "phrase": "Calm down and tell me.",
   "keyword": "Calm",
@@ -19481,7 +18998,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0848",
+  "id": "st_0827",
   "kind": "sentence",
   "phrase": "It's not what you think.",
   "keyword": "think",
@@ -19504,7 +19021,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0849",
+  "id": "st_0828",
   "kind": "sentence",
   "phrase": "Let me explain.",
   "keyword": "explain",
@@ -19527,7 +19044,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0850",
+  "id": "st_0829",
   "kind": "sentence",
   "phrase": "There's a good reason.",
   "keyword": "reason",
@@ -19550,7 +19067,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0851",
+  "id": "st_0830",
   "kind": "sentence",
   "phrase": "I can explain everything.",
   "keyword": "explain",
@@ -19573,7 +19090,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0852",
+  "id": "st_0831",
   "kind": "sentence",
   "phrase": "Hear me out first.",
   "keyword": "first",
@@ -19596,7 +19113,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0853",
+  "id": "st_0832",
   "kind": "sentence",
   "phrase": "What time is it?",
   "keyword": "time",
@@ -19619,7 +19136,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0854",
+  "id": "st_0833",
   "kind": "sentence",
   "phrase": "Do you have the time?",
   "keyword": "time",
@@ -19642,7 +19159,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0855",
+  "id": "st_0834",
   "kind": "sentence",
   "phrase": "It's three o'clock.",
   "keyword": "o'clock",
@@ -19665,7 +19182,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0856",
+  "id": "st_0835",
   "kind": "sentence",
   "phrase": "It's half past three.",
   "keyword": "half",
@@ -19688,7 +19205,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0857",
+  "id": "st_0836",
   "kind": "sentence",
   "phrase": "It's quarter to four.",
   "keyword": "quarter",
@@ -19711,7 +19228,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0858",
+  "id": "st_0837",
   "kind": "sentence",
   "phrase": "It's almost noon.",
   "keyword": "noon",
@@ -19734,7 +19251,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0859",
+  "id": "st_0838",
   "kind": "sentence",
   "phrase": "It's getting late.",
   "keyword": "late",
@@ -19757,7 +19274,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0860",
+  "id": "st_0839",
   "kind": "sentence",
   "phrase": "It's early in the morning.",
   "keyword": "early",
@@ -19780,7 +19297,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0861",
+  "id": "st_0840",
   "kind": "sentence",
   "phrase": "I'll be there on time.",
   "keyword": "time",
@@ -19803,7 +19320,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0862",
+  "id": "st_0841",
   "kind": "sentence",
   "phrase": "Are you on time?",
   "keyword": "time",
@@ -19826,7 +19343,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0863",
+  "id": "st_0842",
   "kind": "sentence",
   "phrase": "I'm five minutes late.",
   "keyword": "late",
@@ -19849,7 +19366,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0864",
+  "id": "st_0843",
   "kind": "sentence",
   "phrase": "What time do you get up?",
   "keyword": "get",
@@ -19872,7 +19389,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0865",
+  "id": "st_0844",
   "kind": "sentence",
   "phrase": "What time do you go to bed?",
   "keyword": "bed",
@@ -19895,7 +19412,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0866",
+  "id": "st_0845",
   "kind": "sentence",
   "phrase": "What time does the meeting start?",
   "keyword": "start",
@@ -19918,7 +19435,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0867",
+  "id": "st_0846",
   "kind": "sentence",
   "phrase": "When does it begin?",
   "keyword": "begin",
@@ -19941,7 +19458,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0868",
+  "id": "st_0847",
   "kind": "sentence",
   "phrase": "When does it end?",
   "keyword": "end",
@@ -19964,7 +19481,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0869",
+  "id": "st_0848",
   "kind": "sentence",
   "phrase": "How much time do we have?",
   "keyword": "time",
@@ -19987,7 +19504,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0870",
+  "id": "st_0849",
   "kind": "sentence",
   "phrase": "We have plenty of time.",
   "keyword": "plenty",
@@ -20010,7 +19527,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0871",
+  "id": "st_0850",
   "kind": "sentence",
   "phrase": "We're running out of time.",
   "keyword": "running",
@@ -20033,7 +19550,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0872",
+  "id": "st_0851",
   "kind": "sentence",
   "phrase": "Time is almost up.",
   "keyword": "up",
@@ -20056,7 +19573,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0873",
+  "id": "st_0852",
   "kind": "sentence",
   "phrase": "Hurry, we're late!",
   "keyword": "Hurry",
@@ -20079,7 +19596,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0874",
+  "id": "st_0853",
   "kind": "sentence",
   "phrase": "We made it just in time.",
   "keyword": "made",
@@ -20102,7 +19619,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0875",
+  "id": "st_0854",
   "kind": "sentence",
   "phrase": "We missed it by a minute.",
   "keyword": "missed",
@@ -20125,7 +19642,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0876",
+  "id": "st_0855",
   "kind": "sentence",
   "phrase": "I need more time.",
   "keyword": "time",
@@ -20148,7 +19665,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0877",
+  "id": "st_0856",
   "kind": "sentence",
   "phrase": "Give me a moment.",
   "keyword": "moment",
@@ -20171,7 +19688,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0878",
+  "id": "st_0857",
   "kind": "sentence",
   "phrase": "Wait a second.",
   "keyword": "second",
@@ -20194,7 +19711,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0879",
+  "id": "st_0858",
   "kind": "sentence",
   "phrase": "Just a minute.",
   "keyword": "minute",
@@ -20217,7 +19734,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0880",
+  "id": "st_0859",
   "kind": "sentence",
   "phrase": "One moment, please.",
   "keyword": "moment",
@@ -20240,7 +19757,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0881",
+  "id": "st_0860",
   "kind": "sentence",
   "phrase": "I'll be done in a minute.",
   "keyword": "done",
@@ -20263,7 +19780,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0882",
+  "id": "st_0861",
   "kind": "sentence",
   "phrase": "It'll only take a moment.",
   "keyword": "moment",
@@ -20286,7 +19803,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0883",
+  "id": "st_0862",
   "kind": "sentence",
   "phrase": "Let's meet at five.",
   "keyword": "five",
@@ -20309,7 +19826,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0884",
+  "id": "st_0863",
   "kind": "sentence",
   "phrase": "Let's meet at noon.",
   "keyword": "noon",
@@ -20332,7 +19849,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0885",
+  "id": "st_0864",
   "kind": "sentence",
   "phrase": "See you in an hour.",
   "keyword": "hour",
@@ -20355,7 +19872,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0886",
+  "id": "st_0865",
   "kind": "sentence",
   "phrase": "See you at eight.",
   "keyword": "eight",
@@ -20378,7 +19895,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0887",
+  "id": "st_0866",
   "kind": "sentence",
   "phrase": "Let's set a time.",
   "keyword": "set",
@@ -20401,7 +19918,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0888",
+  "id": "st_0867",
   "kind": "sentence",
   "phrase": "When is a good time for you?",
   "keyword": "good",
@@ -20424,7 +19941,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0889",
+  "id": "st_0868",
   "kind": "sentence",
   "phrase": "Does this time work for you?",
   "keyword": "work",
@@ -20447,7 +19964,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0890",
+  "id": "st_0869",
   "kind": "sentence",
   "phrase": "I'm free in the afternoon.",
   "keyword": "afternoon",
@@ -20470,7 +19987,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0891",
+  "id": "st_0870",
   "kind": "sentence",
   "phrase": "I'm busy in the morning.",
   "keyword": "morning",
@@ -20493,7 +20010,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0892",
+  "id": "st_0871",
   "kind": "sentence",
   "phrase": "Let's do it another day.",
   "keyword": "another",
@@ -20516,7 +20033,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0893",
+  "id": "st_0872",
   "kind": "sentence",
   "phrase": "See you soon.",
   "keyword": "soon",
@@ -20539,7 +20056,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0894",
+  "id": "st_0873",
   "kind": "sentence",
   "phrase": "See you later.",
   "keyword": "later",
@@ -20562,7 +20079,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0895",
+  "id": "st_0874",
   "kind": "sentence",
   "phrase": "It's time to go.",
   "keyword": "time",
@@ -20585,7 +20102,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0896",
+  "id": "st_0875",
   "kind": "sentence",
   "phrase": "Time flies.",
   "keyword": "flies",
@@ -20608,7 +20125,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0897",
+  "id": "st_0876",
   "kind": "sentence",
   "phrase": "Where did the time go?",
   "keyword": "time",
@@ -20631,7 +20148,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0898",
+  "id": "st_0877",
   "kind": "sentence",
   "phrase": "How's the weather?",
   "keyword": "weather",
@@ -20654,7 +20171,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0899",
+  "id": "st_0878",
   "kind": "sentence",
   "phrase": "What's the weather like today?",
   "keyword": "weather",
@@ -20677,7 +20194,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0900",
+  "id": "st_0879",
   "kind": "sentence",
   "phrase": "It's sunny today.",
   "keyword": "sunny",
@@ -20700,7 +20217,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0901",
+  "id": "st_0880",
   "kind": "sentence",
   "phrase": "It's a beautiful day.",
   "keyword": "beautiful",
@@ -20723,7 +20240,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0902",
+  "id": "st_0881",
   "kind": "sentence",
   "phrase": "It's overcast and gloomy today, looks like rain.",
   "keyword": "overcast",
@@ -20746,30 +20263,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0903",
-  "kind": "sentence",
-  "phrase": "It's pouring cats and dogs outside, grab an umbrella!",
-  "keyword": "pouring",
-  "phonetic": "",
-  "meaning_th": "ข้างนอกฝนตกหนักไม่ลืมหูลืมตา พกร่มไปด้วยนะ!",
-  "meaning_en": "",
-  "category": "weather",
-  "category_th": "สภาพอากาศ",
-  "category_full": "สภาพอากาศ",
-  "difficulty": 2,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "It's pouring cats and dogs outside, grab an umbrella!",
-    "th": "ข้างนอกฝนตกหนักไม่ลืมหูลืมตา พกร่มไปด้วยนะ!",
-    "context": "weather"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0904",
+  "id": "st_0882",
   "kind": "sentence",
   "phrase": "It's pouring outside.",
   "keyword": "pouring",
@@ -20792,7 +20286,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0905",
+  "id": "st_0883",
   "kind": "sentence",
   "phrase": "It's drizzling.",
   "keyword": "drizzling",
@@ -20815,7 +20309,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0906",
+  "id": "st_0884",
   "kind": "sentence",
   "phrase": "Take an umbrella with you.",
   "keyword": "umbrella",
@@ -20838,7 +20332,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0907",
+  "id": "st_0885",
   "kind": "sentence",
   "phrase": "It's windy today.",
   "keyword": "windy",
@@ -20861,7 +20355,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0908",
+  "id": "st_0886",
   "kind": "sentence",
   "phrase": "The wind is strong.",
   "keyword": "strong",
@@ -20884,7 +20378,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0909",
+  "id": "st_0887",
   "kind": "sentence",
   "phrase": "It's hot outside.",
   "keyword": "hot",
@@ -20907,7 +20401,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0910",
+  "id": "st_0888",
   "kind": "sentence",
   "phrase": "It's really hot today.",
   "keyword": "hot",
@@ -20930,7 +20424,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0911",
+  "id": "st_0889",
   "kind": "sentence",
   "phrase": "It's cold today.",
   "keyword": "cold",
@@ -20953,7 +20447,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0912",
+  "id": "st_0890",
   "kind": "sentence",
   "phrase": "It's freezing outside.",
   "keyword": "freezing",
@@ -20976,7 +20470,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0913",
+  "id": "st_0891",
   "kind": "sentence",
   "phrase": "The temperature is dropping.",
   "keyword": "temperature",
@@ -20999,7 +20493,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0914",
+  "id": "st_0892",
   "kind": "sentence",
   "phrase": "It's getting warmer.",
   "keyword": "warmer",
@@ -21022,7 +20516,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0915",
+  "id": "st_0893",
   "kind": "sentence",
   "phrase": "What's the temperature?",
   "keyword": "temperature",
@@ -21045,7 +20539,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0916",
+  "id": "st_0894",
   "kind": "sentence",
   "phrase": "It's about thirty degrees.",
   "keyword": "degrees",
@@ -21068,7 +20562,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0917",
+  "id": "st_0895",
   "kind": "sentence",
   "phrase": "It's humid today.",
   "keyword": "humid",
@@ -21091,7 +20585,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0918",
+  "id": "st_0896",
   "kind": "sentence",
   "phrase": "The weather is perfect.",
   "keyword": "perfect",
@@ -21114,7 +20608,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0919",
+  "id": "st_0897",
   "kind": "sentence",
   "phrase": "The forecast says rain.",
   "keyword": "forecast",
@@ -21137,7 +20631,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0920",
+  "id": "st_0898",
   "kind": "sentence",
   "phrase": "It might rain later.",
   "keyword": "rain",
@@ -21160,7 +20654,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0921",
+  "id": "st_0899",
   "kind": "sentence",
   "phrase": "It's going to rain.",
   "keyword": "rain",
@@ -21183,7 +20677,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0922",
+  "id": "st_0900",
   "kind": "sentence",
   "phrase": "I hope it doesn't rain.",
   "keyword": "hope",
@@ -21206,7 +20700,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0923",
+  "id": "st_0901",
   "kind": "sentence",
   "phrase": "We got caught in the rain.",
   "keyword": "caught",
@@ -21229,7 +20723,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0924",
+  "id": "st_0902",
   "kind": "sentence",
   "phrase": "The storm is coming.",
   "keyword": "storm",
@@ -21252,7 +20746,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0925",
+  "id": "st_0903",
   "kind": "sentence",
   "phrase": "There's a thunderstorm tonight.",
   "keyword": "thunderstorm",
@@ -21275,7 +20769,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0926",
+  "id": "st_0904",
   "kind": "sentence",
   "phrase": "Did you hear the thunder?",
   "keyword": "thunder",
@@ -21298,7 +20792,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0927",
+  "id": "st_0905",
   "kind": "sentence",
   "phrase": "The sun is shining.",
   "keyword": "shining",
@@ -21321,7 +20815,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0928",
+  "id": "st_0906",
   "kind": "sentence",
   "phrase": "How much does it cost?",
   "keyword": "cost",
@@ -21344,7 +20838,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0929",
+  "id": "st_0907",
   "kind": "sentence",
   "phrase": "It comes out to ten dollars total.",
   "keyword": "total",
@@ -21367,7 +20861,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0930",
+  "id": "st_0908",
   "kind": "sentence",
   "phrase": "That's way beyond my budget, I can't afford it.",
   "keyword": "budget",
@@ -21390,7 +20884,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0931",
+  "id": "st_0909",
   "kind": "sentence",
   "phrase": "I can't afford it.",
   "keyword": "afford",
@@ -21413,7 +20907,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0932",
+  "id": "st_0910",
   "kind": "sentence",
   "phrase": "It's a bargain.",
   "keyword": "bargain",
@@ -21436,7 +20930,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0933",
+  "id": "st_0911",
   "kind": "sentence",
   "phrase": "It's worth it.",
   "keyword": "worth",
@@ -21459,7 +20953,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0934",
+  "id": "st_0912",
   "kind": "sentence",
   "phrase": "It's not worth it.",
   "keyword": "worth",
@@ -21482,7 +20976,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0935",
+  "id": "st_0913",
   "kind": "sentence",
   "phrase": "Do you have any money?",
   "keyword": "money",
@@ -21505,7 +20999,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0936",
+  "id": "st_0914",
   "kind": "sentence",
   "phrase": "I don't carry any cash on me.",
   "keyword": "carry",
@@ -21528,7 +21022,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0937",
+  "id": "st_0915",
   "kind": "sentence",
   "phrase": "I'm broke.",
   "keyword": "broke",
@@ -21551,7 +21045,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0938",
+  "id": "st_0916",
   "kind": "sentence",
   "phrase": "I'm short on cash.",
   "keyword": "short",
@@ -21574,7 +21068,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0939",
+  "id": "st_0917",
   "kind": "sentence",
   "phrase": "Can I borrow some money?",
   "keyword": "borrow",
@@ -21597,7 +21091,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0940",
+  "id": "st_0918",
   "kind": "sentence",
   "phrase": "Can you lend me your car?",
   "keyword": "lend",
@@ -21620,7 +21114,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0941",
+  "id": "st_0919",
   "kind": "sentence",
   "phrase": "I'll pay you back.",
   "keyword": "pay",
@@ -21643,7 +21137,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0942",
+  "id": "st_0920",
   "kind": "sentence",
   "phrase": "You owe me ten dollars.",
   "keyword": "owe",
@@ -21666,7 +21160,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0943",
+  "id": "st_0921",
   "kind": "sentence",
   "phrase": "I need to save money.",
   "keyword": "save",
@@ -21689,7 +21183,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0944",
+  "id": "st_0922",
   "kind": "sentence",
   "phrase": "I'm saving up for a car.",
   "keyword": "saving",
@@ -21712,7 +21206,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0945",
+  "id": "st_0923",
   "kind": "sentence",
   "phrase": "I spent too much.",
   "keyword": "spent",
@@ -21735,7 +21229,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0946",
+  "id": "st_0924",
   "kind": "sentence",
   "phrase": "I wasted my money.",
   "keyword": "wasted",
@@ -21758,7 +21252,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0947",
+  "id": "st_0925",
   "kind": "sentence",
   "phrase": "I got a good deal.",
   "keyword": "deal",
@@ -21781,7 +21275,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0948",
+  "id": "st_0926",
   "kind": "sentence",
   "phrase": "It was fifty percent off, what a steal!",
   "keyword": "steal",
@@ -21804,7 +21298,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0949",
+  "id": "st_0927",
   "kind": "sentence",
   "phrase": "It's on sale this week.",
   "keyword": "sale",
@@ -21827,7 +21321,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0950",
+  "id": "st_0928",
   "kind": "sentence",
   "phrase": "Do you accept contactless payments or QR codes?",
   "keyword": "contactless",
@@ -21850,7 +21344,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0951",
+  "id": "st_0929",
   "kind": "sentence",
   "phrase": "Do you take credit cards?",
   "keyword": "credit",
@@ -21873,7 +21367,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0952",
+  "id": "st_0930",
   "kind": "sentence",
   "phrase": "Can I pay in cash?",
   "keyword": "cash",
@@ -21896,7 +21390,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0953",
+  "id": "st_0931",
   "kind": "sentence",
   "phrase": "I need to withdraw money.",
   "keyword": "withdraw",
@@ -21919,7 +21413,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0954",
+  "id": "st_0932",
   "kind": "sentence",
   "phrase": "Where's the ATM?",
   "keyword": "ATM",
@@ -21942,7 +21436,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0955",
+  "id": "st_0933",
   "kind": "sentence",
   "phrase": "I need to exchange money.",
   "keyword": "exchange",
@@ -21965,7 +21459,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0956",
+  "id": "st_0934",
   "kind": "sentence",
   "phrase": "What's the exchange rate?",
   "keyword": "rate",
@@ -21988,7 +21482,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0957",
+  "id": "st_0935",
   "kind": "sentence",
   "phrase": "Can I get a receipt?",
   "keyword": "receipt",
@@ -22011,7 +21505,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0958",
+  "id": "st_0936",
   "kind": "sentence",
   "phrase": "Could I request a full refund to my original payment method?",
   "keyword": "refund",
@@ -22034,7 +21528,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0959",
+  "id": "st_0937",
   "kind": "sentence",
   "phrase": "That's a fair price.",
   "keyword": "fair",
@@ -22057,12 +21551,12 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0960",
+  "id": "st_0938",
   "kind": "sentence",
   "phrase": "Money doesn't grow on trees.",
   "keyword": "trees",
   "phonetic": "",
-  "meaning_th": "เงินไม่ได้เกิดจากต้นไม้",
+  "meaning_th": "เงินทองไม่ได้งอกมาจากต้นไม้นะ / เงินทองไม่ได้หากันมาง่ายๆ",
   "meaning_en": "",
   "category": "money",
   "category_th": "เงิน การเงิน",
@@ -22072,7 +21566,7 @@
   "examples": [
    {
     "en": "Money doesn't grow on trees.",
-    "th": "เงินไม่ได้เกิดจากต้นไม้",
+    "th": "เงินทองไม่ได้งอกมาจากต้นไม้นะ / เงินทองไม่ได้หากันมาง่ายๆ",
     "context": "money"
    }
   ],
@@ -22080,7 +21574,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0961",
+  "id": "st_0939",
   "kind": "sentence",
   "phrase": "Save for a rainy day.",
   "keyword": "rainy",
@@ -22103,7 +21597,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0962",
+  "id": "st_0940",
   "kind": "sentence",
   "phrase": "I'm trying to budget.",
   "keyword": "budget",
@@ -22126,7 +21620,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0963",
+  "id": "st_0941",
   "kind": "sentence",
   "phrase": "We need to cut costs.",
   "keyword": "costs",
@@ -22149,7 +21643,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0964",
+  "id": "st_0942",
   "kind": "sentence",
   "phrase": "It's a good investment.",
   "keyword": "investment",
@@ -22172,7 +21666,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0965",
+  "id": "st_0943",
   "kind": "sentence",
   "phrase": "The price went up.",
   "keyword": "price",
@@ -22195,7 +21689,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0966",
+  "id": "st_0944",
   "kind": "sentence",
   "phrase": "The price went down.",
   "keyword": "price",
@@ -22218,7 +21712,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0967",
+  "id": "st_0945",
   "kind": "sentence",
   "phrase": "I can't pay my bills.",
   "keyword": "bills",
@@ -22241,7 +21735,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0968",
+  "id": "st_0946",
   "kind": "sentence",
   "phrase": "I'll pay the bill.",
   "keyword": "bill",
@@ -22264,7 +21758,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0969",
+  "id": "st_0947",
   "kind": "sentence",
   "phrase": "Let's split the cost.",
   "keyword": "cost",
@@ -22287,30 +21781,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0970",
-  "kind": "sentence",
-  "phrase": "Let's go Dutch.",
-  "keyword": "Dutch",
-  "phonetic": "",
-  "meaning_th": "แยกจ่ายกัน",
-  "meaning_en": "",
-  "category": "money",
-  "category_th": "เงิน การเงิน",
-  "category_full": "เงิน การเงิน",
-  "difficulty": 3,
-  "frequency": 5,
-  "examples": [
-   {
-    "en": "Let's go Dutch.",
-    "th": "แยกจ่ายกัน",
-    "context": "money"
-   }
-  ],
-  "synonyms": [],
-  "mnemonic": ""
- },
- {
-  "id": "st_0971",
+  "id": "st_0948",
   "kind": "sentence",
   "phrase": "It's my treat.",
   "keyword": "treat",
@@ -22333,7 +21804,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0972",
+  "id": "st_0949",
   "kind": "sentence",
   "phrase": "Let me treat you.",
   "keyword": "treat",
@@ -22356,7 +21827,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0973",
+  "id": "st_0950",
   "kind": "sentence",
   "phrase": "Hello? Can you hear me clearly on this line?",
   "keyword": "clearly",
@@ -22379,7 +21850,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0974",
+  "id": "st_0951",
   "kind": "sentence",
   "phrase": "Who is this?",
   "keyword": "Who",
@@ -22402,7 +21873,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0975",
+  "id": "st_0952",
   "kind": "sentence",
   "phrase": "This is John speaking.",
   "keyword": "speaking",
@@ -22425,7 +21896,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0976",
+  "id": "st_0953",
   "kind": "sentence",
   "phrase": "Can I speak to Anna?",
   "keyword": "speak",
@@ -22448,7 +21919,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0977",
+  "id": "st_0954",
   "kind": "sentence",
   "phrase": "She's not available right now.",
   "keyword": "available",
@@ -22471,7 +21942,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0978",
+  "id": "st_0955",
   "kind": "sentence",
   "phrase": "Can I take a message?",
   "keyword": "message",
@@ -22494,7 +21965,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0979",
+  "id": "st_0956",
   "kind": "sentence",
   "phrase": "I'll call you back.",
   "keyword": "call",
@@ -22517,7 +21988,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0980",
+  "id": "st_0957",
   "kind": "sentence",
   "phrase": "The line is busy.",
   "keyword": "busy",
@@ -22540,7 +22011,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0981",
+  "id": "st_0958",
   "kind": "sentence",
   "phrase": "I'll call you later.",
   "keyword": "call",
@@ -22563,7 +22034,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0982",
+  "id": "st_0959",
   "kind": "sentence",
   "phrase": "Call me when you're free.",
   "keyword": "Call",
@@ -22586,7 +22057,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0983",
+  "id": "st_0960",
   "kind": "sentence",
   "phrase": "Text me later.",
   "keyword": "Text",
@@ -22609,7 +22080,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0984",
+  "id": "st_0961",
   "kind": "sentence",
   "phrase": "Did you get my message?",
   "keyword": "message",
@@ -22632,7 +22103,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0985",
+  "id": "st_0962",
   "kind": "sentence",
   "phrase": "I sent you a message.",
   "keyword": "sent",
@@ -22655,7 +22126,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0986",
+  "id": "st_0963",
   "kind": "sentence",
   "phrase": "I got your message.",
   "keyword": "got",
@@ -22678,7 +22149,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0987",
+  "id": "st_0964",
   "kind": "sentence",
   "phrase": "Sorry, I missed your call.",
   "keyword": "missed",
@@ -22701,7 +22172,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0988",
+  "id": "st_0965",
   "kind": "sentence",
   "phrase": "My reception is really spotty here.",
   "keyword": "spotty",
@@ -22724,7 +22195,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0989",
+  "id": "st_0966",
   "kind": "sentence",
   "phrase": "Sorry about that, we got cut off.",
   "keyword": "cut",
@@ -22747,7 +22218,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0990",
+  "id": "st_0967",
   "kind": "sentence",
   "phrase": "Can you hear me?",
   "keyword": "hear",
@@ -22770,7 +22241,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0991",
+  "id": "st_0968",
   "kind": "sentence",
   "phrase": "You're breaking up.",
   "keyword": "breaking",
@@ -22793,7 +22264,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0992",
+  "id": "st_0969",
   "kind": "sentence",
   "phrase": "Speak louder, please.",
   "keyword": "louder",
@@ -22816,7 +22287,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0993",
+  "id": "st_0970",
   "kind": "sentence",
   "phrase": "Can you say that again?",
   "keyword": "again",
@@ -22839,7 +22310,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0994",
+  "id": "st_0971",
   "kind": "sentence",
   "phrase": "I can't hear you well.",
   "keyword": "hear",
@@ -22862,7 +22333,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0995",
+  "id": "st_0972",
   "kind": "sentence",
   "phrase": "Let's talk later.",
   "keyword": "later",
@@ -22885,7 +22356,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0996",
+  "id": "st_0973",
   "kind": "sentence",
   "phrase": "I have to hang up now.",
   "keyword": "hang",
@@ -22908,7 +22379,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0997",
+  "id": "st_0974",
   "kind": "sentence",
   "phrase": "I'll text you the address.",
   "keyword": "address",
@@ -22931,7 +22402,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0998",
+  "id": "st_0975",
   "kind": "sentence",
   "phrase": "Send me a photo.",
   "keyword": "photo",
@@ -22954,7 +22425,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_0999",
+  "id": "st_0976",
   "kind": "sentence",
   "phrase": "Did you see the photo I sent?",
   "keyword": "photo",
@@ -22977,7 +22448,7 @@
   "mnemonic": ""
  },
  {
-  "id": "st_1000",
+  "id": "st_0977",
   "kind": "sentence",
   "phrase": "Let's video call tonight.",
   "keyword": "video",

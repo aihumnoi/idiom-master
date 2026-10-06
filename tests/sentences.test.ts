@@ -3,9 +3,9 @@ import sentences from '../app/data/sentences.json' assert { type: 'json' };
 import { sentenceHasPhrase } from '../src/utils/cloze.js';
 import type { Sentence } from '../src/types.js';
 
-describe('sentences data integrity (1000)', () => {
-  it('loads exactly 1000 sentences', () => {
-    expect((sentences as Sentence[]).length).toBe(1000);
+describe('sentences data integrity (977)', () => {
+  it('loads exactly 977 sentences', () => {
+    expect((sentences as Sentence[]).length).toBe(977);
   });
   it('every sentence has required fields', () => {
     for (const it of sentences as Sentence[]) {

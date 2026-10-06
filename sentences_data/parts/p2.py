@@ -5,7 +5,6 @@ DATA = [
 ("food", "อาหาร เครื่องดื่ม", [
     ("My stomach is growling, I need to get something to eat.", "ท้องฉันร้องจ๊อกๆ แล้ว ต้องหาอะไรกินหน่อย", "growling", 2),
     ("I'm starving.", "ฉันหิวมาก", "starving", 2),
-    ("I could eat a horse.", "หิวมากจนกินได้ทั้งม้า", "horse", 3),
     ("What should we eat?", "เราควรกินอะไรดี", "eat", 1),
     ("I'm in the mood for pizza.", "อยากกินพิซซ่า", "mood", 2),
     ("Let's get something to eat.", "ไปหาอะไรกินกันเถอะ", "something", 1),
@@ -57,7 +56,6 @@ DATA = [
     ("Keep the change.", "ไม่ต้องทอน", "change", 2),
     ("The service was great.", "บริการดีมาก", "service", 1),
     ("We should come here again.", "เราควรกลับมาที่นี่อีก", "again", 1),
-    ("I'm parched, could I get a cold drink?", "คอแห้งเป็นผงเลย ขอเครื่องดื่มเย็นๆ สักแก้วได้ไหม", "parched", 2),
     ("Could I get a glass of juice?", "ขอน้ำผลไม้สักแก้วได้ไหม", "juice", 2),
     ("I'll have coffee, please.", "ขอกาแฟแก้วหนึ่งครับ/ค่ะ", "coffee", 1),
     ("Would you like tea or coffee?", "จะเอาชาหรือกาแฟ", "tea", 1),

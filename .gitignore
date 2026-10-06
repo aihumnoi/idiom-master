@@ -23,3 +23,5 @@ apk-output/
 
 # Temporary scratch directory
 scratch/
+idioms_sentences_audit_report.csv
+edit_ui/

@@ -2,9 +2,9 @@ import { describe, it, expect } from 'vitest';
 import idioms from '../app/data/idioms.json' assert { type: 'json' };
 import type { Idiom } from '../src/types.js';
 
-describe('idioms data integrity (500)', () => {
-  it('loads 500 idioms', () => {
-    expect((idioms as Idiom[]).length).toBe(500);
+describe('idioms data integrity (464)', () => {
+  it('loads 464 idioms', () => {
+    expect((idioms as Idiom[]).length).toBe(464);
   });
   it('every idiom has required fields', () => {
     for (const it of idioms as Idiom[]) {

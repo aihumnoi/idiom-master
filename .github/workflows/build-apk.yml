@@ -61,12 +61,14 @@ jobs:
         continue-on-error: true
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v2.1.0-apk
-          name: "IdiomMaster Android APK (v2.1.0 - Full Screen)"
+          tag_name: v2.2.0-apk
+          name: "IdiomMaster Android APK (v2.2.0 - Clean UI & Audited DB)"
           body: |
-            ## IdiomMaster Android APK v2.1.0 (Full Screen Edition)
-            - ปรับปรุงการแสดงผลเต็มหน้าจอ (Full Screen) ไม่อึดอัด ไม่บังแถบ Status Bar
-            - รวมคลังคำศัพท์ Oxford 3000 ที่ได้รับการตรวจสอบและแก้ไขถูกต้องครบทั้ง 3,000 คำ
+            ## IdiomMaster Android APK v2.2.0
+            - ปรับปรุงฐานข้อมูล: คัดกรองสำนวนคงเหลือ 464 สำนวน และประโยค 977 ประโยค (ลบคำล้าสมัย/บริบทเฉพาะ แก้ไขรูปสำนวนและคำแปลถูกต้องตามมาตรฐาน)
+            - ปรับปรุงหน้าจอโหมดฝึก: นำแบนเนอร์และกล่องประวัติสถิติที่บังจอออก ให้ตัวเกมแสดงผลบนสุดเต็มตา พร้อมปุ่มเปลี่ยนเกม
+            - ปรับปรุงหน้าจอโหมดทบทวน: ซ่อนการ์ดเปล่าในขณะรอตอบคำถาม ทำให้โจทย์และชอยส์ทั้งหมด 4 ตัวเลือกขึ้นมาแสดงผลเต็มจอ ไม่ต้องเลื่อนจอ
+            - หน้าแรก: แสดงจำนวนคำที่เรียนรู้แล้วจริงในแต่ละหมวด แทนข้อความเดิม
           files: android/app/build/outputs/apk/debug/*.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

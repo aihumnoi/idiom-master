@@ -768,7 +768,7 @@ window.__IDIOMS__ = [
   },
   {
     "id": "got_cut_off",
-    "phrase": "got cut off",
+    "phrase": "Get cut off",
     "phonetic": "/ˌɡɒt ˌkʌt ˈɒf/",
     "meaning_th": "สายหลุด / สัญญาณถูกตัดขาด / โดนขับรถปาดหน้า",
     "meaning_en": "phone call was disconnected",
@@ -839,79 +839,6 @@ window.__IDIOMS__ = [
       "cutting out"
     ],
     "common_mistake": "ระวังอย่าสับสนกับสำนวนบอกเลิกแฟน (break up with someone) เมื่อใช้ในการโทรศัพท์ 'You are breaking up' หมายถึงเสียงสัญญาณขาดช่วง ไม่ได้จะบอกเลิกกัน"
-  },
-  {
-    "id": "cant_hear_you",
-    "phrase": "I can't hear you",
-    "phonetic": "/aɪ ˌkɑːnt ˌhɪər ju/",
-    "meaning_th": "ไม่ได้ยินเลย / เสียงเบามากไม่ได้ยิน",
-    "meaning_en": "I cannot hear you (due to noise/signal)",
-    "literal_th": "ฉันไม่ได้ยินคุณ",
-    "origin": "เป็นสำนวนพื้นฐานในภาษาอังกฤษที่ถูกยกระดับสู่วัฒนธรรมสมัยใหม่ โดยเฉพาะมุกคลาสสิกของกัปตันโจรสลัดในเพลงเปิดการ์ตูน SpongeBob ('I can't hear you! - Aye-aye, Captain!') และกลายมาเป็นประโยคยอดฮิตติดปากในยุคประชุมออนไลน์เมื่อลืมเปิดไมค์",
-    "mnemonic": "นึกภาพคนเอามือป้องหูข้างเดียวแล้วส่ายหัว ยื่นหน้าเข้ามาใกล้หน้าจอ — I can't hear you = ไม่ได้ยินเสียงเลยสักนิด",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "1. ทักทาย นัดหมาย บทสนทนาทั่วไป",
-    "difficulty": 1,
-    "frequency": 5,
-    "examples": [
-      {
-        "en": "I can't hear you over the loud club music, let me text you outside!",
-        "th": "ฉันไม่ได้ยินที่เธอพูดเลย ผับเปิดเพลงดังมาก เดี๋ยวออกไปส่งข้อความหานะ!",
-        "context": "casual"
-      },
-      {
-        "en": "Speak up a little, sweetie, Grandma can't hear you over the sound of the TV.",
-        "th": "พูดดังขึ้นอีกนิดสิจ๊ะหลานรัก ยายไม่ได้ยินเลย เสียงทีวีกลบหมด",
-        "context": "family"
-      },
-      {
-        "en": "You're speaking on mute, Tom, we can't hear you at all!",
-        "th": "คุณทอมลืมเปิดไมค์ครับ พวกเราไม่ได้ยินเสียงคุณเลยสักนิด!",
-        "context": "work"
-      }
-    ],
-    "synonyms": [
-      "I can't hear you well"
-    ],
-    "common_mistake": "อย่าสับสนกับ 'I can't listen to you' (ฉันไม่อยากฟัง/ทนฟังคำพูดเธอไม่ได้) เพราะ 'hear' คือการได้ยินเสียง ส่วน 'listen' คือความตั้งใจเงี่ยหูฟัง"
-  },
-  {
-    "id": "call_me_back",
-    "phrase": "Call me back",
-    "phonetic": "/ˌkɔːl mi ˈbæk/",
-    "meaning_th": "โทรกลับหาฉันด้วยนะ / โทรกลับมาหน่อย",
-    "meaning_en": "please return my call",
-    "literal_th": "โทรหาฉันกลับ",
-    "origin": "มีที่มาตั้งแต่ยุคกำเนิดเครื่องตอบรับโทรศัพท์อัตโนมัติ (answering machine) ในช่วงทศวรรษ 1960s-1970s ซึ่งผู้โทรที่ติดต่อไม่ได้จะฝากข้อความเสียงสั้นๆ ทิ้งไว้ที่เทปคาสเซตต์ว่า 'Please call me back' จนกลายเป็นวลีมาตรฐานของการสื่อสารทั่วโลก",
-    "mnemonic": "นึกภาพเรากดวางสายแล้วส่งสัญญาณมือรูปหูโทรศัพท์แนบหู กระดิกนิ้วบอกว่า 'โทรกลับมาด้วยนะ' — call me back = เดี๋ยวโทรกลับหาฉันด้วย",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "1. ทักทาย นัดหมาย บทสนทนาทั่วไป",
-    "difficulty": 1,
-    "frequency": 5,
-    "examples": [
-      {
-        "en": "Hey, I saw your missed call. Call me back whenever you're free.",
-        "th": "เฮ้ย เห็นเธอโทรมาแต่รับไม่ทัน ว่างเมื่อไหร่โทรกลับหาฉันด้วยนะ",
-        "context": "casual"
-      },
-      {
-        "en": "Mom, I'm heading into an exam right now, call me back in two hours, okay?",
-        "th": "แม่ครับ ตอนนี้ผมกำลังจะเดินเข้าห้องสอบแล้ว อีกสองชั่วโมงค่อยโทรกลับมานะแม่",
-        "context": "family"
-      },
-      {
-        "en": "Could you ask Mr. Davis to call me back regarding the revised contract terms?",
-        "th": "ช่วยรบกวนแจ้งคุณเดวิสให้โทรกลับหาฉันเรื่องเงื่อนไขสัญญาฉบับแก้ไขหน่อยได้ไหมคะ",
-        "context": "work"
-      }
-    ],
-    "synonyms": [
-      "call back",
-      "return my call"
-    ],
-    "common_mistake": "ต้องวางกรรมไว้ตรงกลางระหว่าง call กับ back เสมอ เช่น 'Call me back' หรือ 'Call him back' ห้ามพูดผิดไวยากรณ์เป็น 'Call back me' เด็ดขาด"
   },
   {
     "id": "small_talk",
@@ -1186,45 +1113,6 @@ window.__IDIOMS__ = [
     "common_mistake": "ระวังอย่าสับสนกับ 'break the ice' — แม้จะคล้ายกัน แต่ break the silence เน้นการหยุดภาวะความเงียบงันหรือการออกมาเปิดเผยความจริงหลังเก็บเงียบมานาน"
   },
   {
-    "id": "shoot_the_breeze",
-    "phrase": "Shoot the breeze",
-    "phonetic": "/ˌʃuːt ðə ˈbriːz/",
-    "meaning_th": "คุยเรื่อยเปื่อย / นั่งเม้าท์ฆ่าเวลา / คุยสัพเพเหระไม่มีสาระจริงจัง",
-    "meaning_en": "to have a casual, relaxed conversation about unimportant matters",
-    "literal_th": "ยิงสายลม",
-    "origin": "เกิดขึ้นในสหรัฐอเมริกาช่วงต้นศตวรรษที่ 20 มีที่มาจากคาวบอยหรือทหารเรือที่นั่งว่างๆ แล้วยิงปืนขึ้นฟ้าเล่นสูญเปล่าไปกับสายลม เปรียบเหมือนการพูดคุยที่ปล่อยคำพูดลอยไปตามลมโดยไม่มีเป้าหมายจริงจัง",
-    "mnemonic": "นึกภาพคาวบอยสองคนนั่งแกว่งขาบนรั้วฟาร์ม ยกปืนยิงไล่สายลมอ่อนๆ พลางคุยโม้เม้าท์มอยฆ่าเวลาไปเรื่อย",
-    "category": "social",
-    "category_th": "ทักทายทั่วไป",
-    "category_full": "1. ทักทาย นัดหมาย บทสนทนาทั่วไป",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "We spent the whole afternoon sitting on the porch, shooting the breeze.",
-        "th": "พวกเรานั่งเล่นที่ระเบียงหน้าบ้าน คุยเรื่อยเปื่อยฆ่าเวลากันทั้งบ่าย",
-        "context": "casual"
-      },
-      {
-        "en": "Instead of preparing the report, Dave spent half an hour shooting the breeze by the coffee maker.",
-        "th": "แทนที่จะรีบเตรียมรายงาน เดฟกลับยืนคุยสัพเพเหระอยู่ข้างเครื่องชงกาแฟตั้งครึ่งชั่วโมง",
-        "context": "work"
-      },
-      {
-        "en": "It’s always relaxing to grab a cold beer with old buddies and shoot the breeze.",
-        "th": "การได้จิบเบียร์เย็นๆ กับเพื่อนเก่าแล้วนั่งเม้าท์เรื่อยเปื่อยมันทำให้ผ่อนคลายเสมอเลย",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "chew the fat",
-      "chit-chat",
-      "gossip",
-      "shoot the bull"
-    ],
-    "common_mistake": "อย่าแปลว่า 'ยิงลม' จริงๆ สำนวนนี้หมายถึงคุยเล่นสบายๆ ไม่ซีเรียส และเป็นภาษาพูดระดับกันเอง"
-  },
-  {
     "id": "spill_the_tea",
     "phrase": "Spill the tea",
     "phonetic": "/ˌspɪl ðə ˈtiː/",
@@ -1262,45 +1150,6 @@ window.__IDIOMS__ = [
       "let the cat out of the bag"
     ],
     "common_mistake": "อย่าแปลตรงตัวว่าทำน้ำชาหกเลอะโต๊ะ เป็นสแลงยอดฮิตในโซเชียลมีเดียที่แปลว่า 'เม้าท์ข่าวแซ่บ/เล่าความจริงวงใน'"
-  },
-  {
-    "id": "chew_the_fat",
-    "phrase": "Chew the fat",
-    "phonetic": "/ˌtʃuː ðə ˈfæt/",
-    "meaning_th": "นั่งคุยเม้าท์มอยยาวๆ / คุยเรื่อยเปื่อยเป็นเวลานาน",
-    "meaning_en": "to chat informally and at great length about everyday matters",
-    "literal_th": "เคี้ยวก้อนไขมัน",
-    "origin": "มีที่มาหลากหลาย ทฤษฎีหนึ่งเชื่อว่ามาจากกะลาสีเรือสมัยก่อนที่ต้องเคี้ยวเนื้อเค็มติดมันเหนียวๆ เป็นเวลานานกว่าจะกลืนได้ ระหว่างเคี้ยวก็ชวนกันนั่งคุยฆ่าเวลา อีกทฤษฎีเปรียบกับการขยับปากเคี้ยวอาหารเรื่อยๆ ไม่หยุดเหมือนการคุยไม่หยุดปาก",
-    "mnemonic": "นึกภาพคุณเคี้ยวหมากฝรั่งเหนียวหนึบในปาก เคี้ยวไปคุยไปยาวๆ หลายชั่วโมงเพลินจนลืมเวลา",
-    "category": "social",
-    "category_th": "ทักทายทั่วไป",
-    "category_full": "1. ทักทาย นัดหมาย บทสนทนาทั่วไป",
-    "difficulty": 2,
-    "frequency": 3,
-    "examples": [
-      {
-        "en": "We stayed up until two in the morning, just chewing the fat about old school memories.",
-        "th": "พวกเราอยู่คุยกันยันตีสอง นั่งเม้าท์มอยเรื่องความหลังสมัยเรียนกันยาวเหยียด",
-        "context": "casual"
-      },
-      {
-        "en": "The executives spent an hour chewing the fat before getting down to the contract details.",
-        "th": "พวกผู้บริหารนั่งคุยเรื่อยเปื่อยกันอยู่ตั้งชั่วโมงก่อนจะเริ่มเข้าเรื่องรายละเอียดสัญญา",
-        "context": "work"
-      },
-      {
-        "en": "My grandfather loves going to the local barbershop just to chew the fat with his neighbors.",
-        "th": "คุณปู่ชอบแวะไปร้านตัดผมแถวบ้านเพียงเพื่อจะได้นั่งคุยเม้าท์มอยกับเพื่อนบ้าน",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "shoot the breeze",
-      "natter",
-      "shoot the bull",
-      "chatter"
-    ],
-    "common_mistake": "ไม่มีความเกี่ยวข้องกับการกินไขมันหมูหรือการลดน้ำหนักแต่อย่างใด เป็นสำนวนภาษาพูดหมายถึงการคุยกันยาวๆ เพลินๆ"
   },
   {
     "id": "drop_a_line",
@@ -4952,44 +4801,6 @@ window.__IDIOMS__ = [
     "common_mistake": "ต้องเปลี่ยนสรรพนามตามประธาน เช่น have the time of my life / their lives และไม่ได้แปลว่าเวลาชีวิตใกล้หมดลง"
   },
   {
-    "id": "full_of_beans",
-    "phrase": "Full of beans",
-    "phonetic": "/fʊl əv biːnz/",
-    "meaning_th": "กระปรี้กระเปร่า, พลังล้นเหลือ, คึกคักมีชีวิตชีวา",
-    "meaning_en": "energetic, enthusiastic, and lively",
-    "literal_th": "เต็มไปด้วยเมล็ดถั่ว",
-    "origin": "มาจากการเลี้ยงม้าในอังกฤษช่วงศตวรรษที่ 14-18 โดยม้าที่ได้กินเมล็ดถั่วปากอ้าหรือถั่วเหลือง (field beans) ที่มีโปรตีนสูง จะมีพละกำลังมหาศาล คึกคะนอง และวิ่งเร็วไม่เหน็ดเหนื่อย ต่อมาจึงนำมาเปรียบกับคนที่กระตือรือร้นและพลังงานล้นเปี่ยม",
-    "mnemonic": "นึกภาพเจ้าม้าหนุ่มกินถั่วเข้าไปจนเต็มพุง แล้ววิ่งกระโดดโลดเต้นเตะขาด้วยความคึกคักพลังเต็มถัง",
-    "category": "emotion",
-    "category_th": "อารมณ์ดี",
-    "category_full": "3. อารมณ์ดี เชิงบวก",
-    "difficulty": 2,
-    "frequency": 3,
-    "examples": [
-      {
-        "en": "Even after a ten-hour road trip, the toddler was still full of beans.",
-        "th": "แม้จะนั่งรถเดินทางมานานถึงสิบชั่วโมง เด็กน้อยก็ยังกระปรี้กระเปร่าและพลังล้นเหลืออยู่เลย",
-        "context": "casual"
-      },
-      {
-        "en": "Our new marketing intern is always full of beans and ready to pitch fresh ideas.",
-        "th": "เด็กฝึกงานแผนกการตลาดคนใหม่ของเราคึกคักมีชีวิตชีวาตลอดเวลา และพร้อมเสนอไอเดียใหม่อยู่เสมอ",
-        "context": "work"
-      },
-      {
-        "en": "You're full of beans this morning! What put such a big smile on your face?",
-        "th": "เช้านี้ดูสดชื่นกระปรี้กระเปร่าจังเลยนะ! อะไรทำให้ยิ้มแฉ่งได้ขนาดนี้เนี่ย",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "full of energy",
-      "bouncy",
-      "lively"
-    ],
-    "common_mistake": "ในอังกฤษหมายถึง 'พลังล้นเหลือ/กระฉับกระเฉง' แต่ในอเมริกาบางถิ่นอาจแปลว่า 'พูดจาเพ้อเจ้อ' (full of nonsense) บริบทสากลส่วนใหญ่เน้นความคึกคักมีพลัง"
-  },
-  {
     "id": "jump_for_joy",
     "phrase": "Jump for joy",
     "phonetic": "/dʒʌmp fə dʒɔɪ/",
@@ -5102,82 +4913,6 @@ window.__IDIOMS__ = [
       "early in the day"
     ],
     "common_mistake": "อย่าลืมว่าสำนวนนี้แฝงนัยของ 'ความพร้อมและกระตือรือร้น' ไม่ใช่เพียงบอกเวลาเช้าทั่วไป"
-  },
-  {
-    "id": "hale_and_hearty",
-    "phrase": "Hale and hearty",
-    "phonetic": "/heɪl ənd ˈhɑːti/",
-    "meaning_th": "สุขภาพแข็งแรงกระปรี้กระเปร่า (มักใช้กับคนสูงอายุ)",
-    "meaning_en": "(especially of an older person) strong, healthy, and vigorous",
-    "literal_th": "สมบูรณ์และมีหัวใจเข้มแข็ง",
-    "origin": "คำว่า hale มาจากภาษาอังกฤษโบราณ hal หมายถึง สุขภาพดีหรือครบถ้วนสมบูรณ์ ส่วน hearty สื่อถึงจิตใจที่ร่าเริงมีพลัง ทั้งสองคำจับคู่สัมผัสคล้องจองกันตั้งแต่ศตวรรษที่ 18 เพื่อยกย่องผู้สูงวัยที่ยังคงกระฉับกระเฉง",
-    "mnemonic": "นึกภาพคุณปู่วัย 80 สวมชุดวิ่ง ยืนเบ่งกล้ามและยิ้มร่าอย่างแข็งแรงหลังวิ่งจ็อกกิ้งรอบสวนสาธารณะ",
-    "category": "emotion",
-    "category_th": "อารมณ์ดี",
-    "category_full": "3. อารมณ์ดี เชิงบวก",
-    "difficulty": 2,
-    "frequency": 3,
-    "examples": [
-      {
-        "en": "At ninety years old, my grandfather is still hale and hearty and tends his garden every day.",
-        "th": "แม้จะอายุเก้าสิบปีแล้ว คุณปู่ของฉันก็ยังคงแข็งแรงกระปรี้กระเปร่าและทำสวนทุกวัน",
-        "context": "casual"
-      },
-      {
-        "en": "The retired director looked hale and hearty when he visited the office yesterday.",
-        "th": "อดีตผู้อำนวยการที่เกษียณไปแล้วดูสุขภาพแข็งแรงสดใสมากตอนแวะมาเยี่ยมออฟฟิศเมื่อวาน",
-        "context": "work"
-      },
-      {
-        "en": "I was thrilled to see my former teacher looking so hale and hearty at the reunion.",
-        "th": "ฉันดีใจมากที่เห็นอาจารย์สมัยมัธยมยังดูแข็งแรงและมีชีวิตชีวาในงานคืนสู่เหย้า",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "fit and healthy",
-      "in fine fettle",
-      "robust"
-    ],
-    "common_mistake": "ส่วนใหญ่นิยมใช้กับผู้สูงอายุที่ดูแลตัวเองดี หากนำไปใช้กับเด็กหรือคนหนุ่มสาวจะฟังดูโบราณและแปลกหู"
-  },
-  {
-    "id": "happy_as_a_clam",
-    "phrase": "Happy as a clam",
-    "phonetic": "/ˈhæpi əz ə klæm/",
-    "meaning_th": "มีความสุขสบายใจเฉิบ, แฮปปี้ไร้กังวล",
-    "meaning_en": "very happy, content, and thoroughly satisfied",
-    "literal_th": "มีความสุขเหมือนหอยกาบ",
-    "origin": "ย่อมาจากสำนวนเต็มในศตวรรษที่ 19 ของอเมริกาว่า 'happy as a clam at high tide' เพราะในเวลาน้ำขึ้น หอยกาบจะปลอดภัยอยู่ใต้ผืนน้ำลึก คนไม่สามารถขุดจับมันขึ้นมากินได้ มันจึงอยู่อย่างปลอดภัยและมีความสุขที่สุด",
-    "mnemonic": "นึกภาพหอยกาบตัวอ้วนกลมเปิดฝาเปลือกออกมาร้องเพลงอย่างสบายใจใต้น้ำทะเลใสแจ๋วในเวลาน้ำขึ้นสูง",
-    "category": "emotion",
-    "category_th": "อารมณ์ดี",
-    "category_full": "3. อารมณ์ดี เชิงบวก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Give him a fishing rod and a quiet lake, and he's happy as a clam.",
-        "th": "แค่ให้เบ็ดตกปลาคู่ใจกับทะเลสาบเงียบสงบ เขาก็มีความสุขสบายใจเฉิบแล้ว",
-        "context": "casual"
-      },
-      {
-        "en": "Since switching to remote work, Sarah has been happy as a clam at home.",
-        "th": "ตั้งแต่เปลี่ยนมาทำงานจากที่บ้าน ซาร่าห์ก็แฮปปี้สบายใจไร้กังวลสุดๆ",
-        "context": "work"
-      },
-      {
-        "en": "Curled up on the sofa reading by the fireplace, she felt happy as a clam.",
-        "th": "การได้นอนขดตัวอ่านหนังสือบนโซฟาข้างเตาผิง ทำให้เธอรู้สึกสุขใจและผ่อนคลายอย่างยิ่ง",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "contented",
-      "cheerful",
-      "pleased as Punch"
-    ],
-    "common_mistake": "คนไทยมักสงสัยว่าหอยมีความสุขได้อย่างไร จึงต้องเข้าใจที่มาเรื่อง 'เวลาน้ำขึ้น' ที่ทำให้หอยรอดพ้นจากการถูกคนขุดไปกิน"
   },
   {
     "id": "clear_sailing",
@@ -8590,44 +8325,6 @@ window.__IDIOMS__ = [
     "common_mistake": "เป็นสุภาษิตสมบูรณ์ในตัวเอง สามารถพูดเดี่ยวๆ ได้เลย ไม่ต้องเติมกรรมหรือบุพบทตามหลัง"
   },
   {
-    "id": "whisper_sweet_nothings",
-    "phrase": "Whisper sweet nothings",
-    "phonetic": "/ˈwɪs.pər swiːt ˈnʌθ.ɪŋz/",
-    "meaning_th": "กระซิบคำหวาน กระซิบคำบอกรักกะหนุงกะหนิง",
-    "meaning_en": "to whisper romantic, affectionate words and flattery to a lover",
-    "literal_th": "กระซิบเรื่องหวานๆ ที่ไม่มีสาระอะไร",
-    "origin": "คำว่า 'sweet nothings' ปรากฏในภาษาอังกฤษตั้งแต่ศตวรรษที่ 18 หมายถึงถ้อยคำชมเชยหรือคำหวานที่ผิวเผิน แม้ในเชิงสาระความจริงจะไม่มีเนื้อหาสำคัญอะไร (nothings) แต่มันชโลมจิตใจให้ผู้ฟังมีความสุขและรู้สึกเป็นที่รักอย่างยิ่ง",
-    "mnemonic": "นึกภาพคู่รักก้มลงกระซิบข้างหู มีลูกอมรูปหัวใจสีชมพูโปรยออกมาจากปาก ถึงคำพูดจะไม่มีสาระงานการ แต่อบอวลไปด้วยความหวานชื่น",
-    "category": "love",
-    "category_th": "ความรัก",
-    "category_full": "5. ความรัก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "They spent the entire evening sitting on the park bench, whispering sweet nothings.",
-        "th": "ทั้งคู่ใช้เวลาตลอดทั้งเย็นนั่งกระซิบคำหวานกะหนุงกะหนิงกันอยู่บนม้านั่งในสวนสาธารณะ",
-        "context": "romance"
-      },
-      {
-        "en": "He charmed her by whispering sweet nothings into her ear all through dinner.",
-        "th": "เขาทำให้เธอเคลิ้มด้วยการคอยกระซิบคำหวานชวนฝันข้างหูตลอดมื้อค่ำ",
-        "context": "casual"
-      },
-      {
-        "en": "The romantic scene showed the prince whispering sweet nothings under the moonlight.",
-        "th": "ฉากสุดโรแมนติกเผยภาพเจ้าชายกำลังกระซิบคำรักอันอ่อนหวานให้เจ้าหญิงฟังใต้แสงจันทร์",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "talk romantic words",
-      "murmur compliments",
-      "flatter affectionately"
-    ],
-    "common_mistake": "คำว่า 'nothings' ต้องเติม -s เป็นพหูพจน์เสมอ ห้ามเขียนว่า sweet nothing"
-  },
-  {
     "id": "steal_my_heart",
     "phrase": "Steal someone's heart",
     "phonetic": "/stiːl ˈsʌm.wʌnz hɑːrt/",
@@ -9540,43 +9237,6 @@ window.__IDIOMS__ = [
     "common_mistake": "มีความหมายสองด้าน: ใช้เรียกคนรัก ('my sweetheart') หรือใช้ชมคนที่จิตใจดีมีน้ำใจ ('she is such a sweetheart')"
   },
   {
-    "id": "blood_is_thicker_than_water",
-    "phrase": "Blood is thicker than water",
-    "phonetic": "/ˌblʌd ɪz ˌθɪkə ðən ˈwɔːtə/",
-    "meaning_th": "เลือดย่อมข้นกว่าน้ำ",
-    "meaning_en": "family relationships are stronger than others",
-    "literal_th": "เลือดหนากว่าน้ำ",
-    "origin": "สุภาษิตโบราณที่เชื่อกันว่ามีมาตั้งแต่ศตวรรษที่ 12 สื่อว่าความผูกพันทางสายเลือดแน่นแฟ้นกว่าความสัมพันธ์อื่น ต่อมาถูกใช้ย้ำว่าครอบครัวสำคัญที่สุด.",
-    "mnemonic": "นึกภาพเลือดสีเข้มข้นกว่าน้ำใส — blood thicker than water = ครอบครัวสำคัญสุด",
-    "category": "family",
-    "category_th": "เพื่อน/ครอบครัว",
-    "category_full": "6. เพื่อน และครอบครัว",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "I help my brother even when he's wrong — blood is thicker than water.",
-        "th": "ฉันช่วยน้องชายแม้เขาจะผิด เพราะเลือดย่อมข้นกว่าน้ำ",
-        "context": "family"
-      },
-      {
-        "en": "Blood is thicker than water, so she chose family over work.",
-        "th": "เลือดข้นกว่าน้ำ เธอจึงเลือกครอบครัวมากกว่างาน",
-        "context": "work"
-      },
-      {
-        "en": "They always say blood is thicker than water at family reunions.",
-        "th": "พวกเขามักพูดว่าเลือดข้นกว่าน้ำในงานรวมญาติ",
-        "context": "casual"
-      }
-    ],
-    "synonyms": [
-      "family first",
-      "family comes first"
-    ],
-    "common_mistake": "สำนวนเต็มดั้งเดิมมีความหมายตรงข้าม แต่ปัจจุบันใช้สื่อถึงครอบครัวสำคัญที่สุดเป็นหลัก"
-  },
-  {
     "id": "black_sheep",
     "phrase": "Black sheep",
     "phonetic": "/ˌblæk ˈʃiːp/",
@@ -9802,43 +9462,6 @@ window.__IDIOMS__ = [
       "always"
     ],
     "common_mistake": "มักใช้ตามหลังกริยาอย่าง stand by, stick with, หรือ be with เช่น 'He stuck with me through thick and thin' ไม่สลับเป็น thin and thick เด็ดขาด"
-  },
-  {
-    "id": "birds_of_a_feather_flock_together",
-    "phrase": "Birds of a feather flock together",
-    "phonetic": "/ˌbɜːdz əv ə ˌfeðə ˌflɒk təˈɡeðər/",
-    "meaning_th": "คนประเภทเดียวกันมักจะดึงดูดเข้าหากัน / คนคอเดียวกันย่อมคบหาเป็นกลุ่มก้อน",
-    "meaning_en": "people with similar interests stay together",
-    "literal_th": "นกขนเดียวกันบินรวมฝูง",
-    "origin": "บันทึกครั้งแรกในเอกสารปี 1545 ของวิลเลียม เทอร์เนอร์ จากการสังเกตนกตามธรรมชาติที่นกสายพันธุ์เดียวกันและมีขนสีเดียวกันมักบินรวมฝูงกันเสมอ ต่อมาจึงใช้เปรียบกับมนุษย์ที่มีรสนิยม นิสัย หรือภูมิหลังคล้ายกันมักเกาะกลุ่มกัน",
-    "mnemonic": "นึกภาพฝูงนกแก้วสีฟ้าสดใสบินมารวมฝูงเกาะบนกิ่งไม้เดียวกัน ไม่ปนกับนกพันธุ์อื่น — birds of a feather = นกขนสีเดียวกันบินรวมกัน",
-    "category": "family",
-    "category_th": "เพื่อน/ครอบครัว",
-    "category_full": "6. เพื่อน และครอบครัว",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Look at those tech geeks discussing coding over lunch—birds of a feather flock together.",
-        "th": "ดูพวกเนิร์ดไอทีกำลังคุยเรื่องโค้ดตอนพักเที่ยงสิ คนคอเดียวกันมักจะรวมตัวกันจริงๆ",
-        "context": "casual"
-      },
-      {
-        "en": "All my cousins love hiking and camping; I guess birds of a feather really do flock together.",
-        "th": "ลูกพี่ลูกน้องฉันทุกคนชอบเดินป่ากางเต็นท์กันหมด เหมือนคนพันธุ์เดียวกันมักจะอยู่กลุ่มเดียวกัน",
-        "context": "family"
-      },
-      {
-        "en": "Creative designers and copywriters naturally bonded quickly on the project—birds of a feather flock together.",
-        "th": "เหล่านักออกแบบและก๊อปปี้ไรเตอร์สนิทกันไวมากในโปรเจกต์นี้ ก็คนสายเดียวกันย่อมรู้ใจกันดี",
-        "context": "work"
-      }
-    ],
-    "synonyms": [
-      "like attracts like",
-      "kindred spirits"
-    ],
-    "common_mistake": "ในภาษาพูดจริงฝรั่งมักตัดทอนเหลือแค่ 'Birds of a feather!' สั้นๆ เมื่อเห็นคนสองคนทำอะไรคล้ายกัน ระวังอย่าลืมบุพบท 'of a feather' (ขนนกแบบเดียวกัน)"
   },
   {
     "id": "a_shoulder_to_cry_on",
@@ -10104,43 +9727,6 @@ window.__IDIOMS__ = [
     "common_mistake": "ประธานมักเป็นลักษณะ อุปนิสัย หรือพรสวรรค์ เช่น 'Musical talent runs in the family' และอย่าลืมเติม -s ที่กริยา runs เมื่อประธานเป็นเอกพจน์"
   },
   {
-    "id": "the_apple_doesnt_fall_far_from_the_tree",
-    "phrase": "The apple doesn't fall far from the tree",
-    "phonetic": "/ði ˌæpl ˌdʌznt ˌfɔːl ˌfɑː frəm ðə ˈtriː/",
-    "meaning_th": "ลูกไม้ย่อมหล่นไม่ไกลต้น / ลูกมักมีนิสัยหรือหน้าตาถอดแบบมาจากพ่อแม่",
-    "meaning_en": "a child is similar to their parent",
-    "literal_th": "แอปเปิลไม่หล่นไกลจากต้น",
-    "origin": "เป็นสุภาษิตโบราณแถบยุโรป โดยพบการบันทึกในภาษาเยอรมันตั้งแต่ปี 1585 ก่อนแพร่หลายเข้าสู่วรรณกรรมภาษาอังกฤษ เปรียบเทียบกับผลแอปเปิลเมื่อสุกงอมร่วงจากกิ่ง ย่อมตกอยู่ใต้โคนต้นของมันเสมอ สื่อถึงลูกที่ย่อมได้รับอิทธิพลจากพ่อแม่",
-    "mnemonic": "นึกภาพผลแอปเปิลสีแดงฉ่ำหล่นจากกิ่งตกลงมาวางอยู่ใต้โคนต้นแอปเปิลเป๊ะ — apple doesn't fall far = ลูกไม้ย่อมหล่นไม่ไกลต้น",
-    "category": "family",
-    "category_th": "เพื่อน/ครอบครัว",
-    "category_full": "6. เพื่อน และครอบครัว",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Lucas is just as stubborn and determined as his father—the apple doesn't fall far from the tree.",
-        "th": "ลูคัสดื้อรั้นและมุ่งมั่นเหมือนพ่อของเขาเป๊ะ ลูกไม้ย่อมหล่นไม่ไกลต้นจริงๆ",
-        "context": "family"
-      },
-      {
-        "en": "She has the exact same charming laugh as her mom; the apple doesn't fall far from the tree.",
-        "th": "เธอมีเสียงหัวเราะที่มีเสน่ห์เหมือนแม่ของเธอเป๊ะเลย ลูกไม้หล่นไม่ไกลต้นของแท้",
-        "context": "casual"
-      },
-      {
-        "en": "He inherited his mother's sharp eye for investments—the apple truly doesn't fall far from the tree.",
-        "th": "เขาได้สายตาอันเฉียบคมในการเลือกลงทุนมาจากคุณแม่เต็มๆ ลูกไม้ย่อมหล่นไม่ไกลต้นจริงๆ",
-        "context": "work"
-      }
-    ],
-    "synonyms": [
-      "like father, like son",
-      "chip off the old block"
-    ],
-    "common_mistake": "ใช้เปรียบเปรยได้ทั้งเรื่องดี (เช่น พรสวรรค์) และเรื่องแย่ (เช่น นิสัยดื้อรั้น) ในภาษาพูดมักย่อสั้นๆ ว่า 'The apple doesn't fall far!' ก็เข้าใจตรงกัน"
-  },
-  {
     "id": "in_the_same_boat",
     "phrase": "In the same boat",
     "phonetic": "/ɪn ðə ˌseɪm ˈbəʊt/",
@@ -10289,43 +9875,6 @@ window.__IDIOMS__ = [
       "count on"
     ],
     "common_mistake": "โครงสร้างคือ 'lean on [คน] for [สิ่งของ/กำลังใจ]' เช่น 'lean on her for emotional support' อย่าลืมบุพบท 'on' เสมอ"
-  },
-  {
-    "id": "hit_the_gym",
-    "phrase": "hit the gym",
-    "phonetic": "/ˌhɪt ðə ˈdʒɪm/",
-    "meaning_th": "ไปฟิตเนส / ไปออกกำลังกายที่ยิม",
-    "meaning_en": "go to the gym to work out",
-    "literal_th": "ตีโรงยิม",
-    "origin": "ในสแลงอเมริกันยุคหลังสงคราม คำกริยา 'hit' ถูกนำมาใช้สื่อถึงการมุ่งหน้าเดินทางไปยังสถานที่ใดที่หนึ่งอย่างกระฉับกระเฉงและตั้งใจจริง เช่นเดียวกับ hit the road (ออกเดินทาง) หรือ hit the books (อ่านหนังสืออย่างขะมักเขม้น)",
-    "mnemonic": "นึกภาพสะพายกระเป๋าฟิตเนสใบโต ก้าวเท้ากระแทกเปิดประตูยิมอย่างมีไฟพร้อมยกเวท — hit the gym = มุ่งหน้าไปลุยฟิตเนส",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "6. เพื่อน และครอบครัว",
-    "difficulty": 1,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "I've been sitting at my desk all day; I need to hit the gym and blow off some steam.",
-        "th": "ฉันนั่งหน้าโต๊ะทำงานมาทั้งวันแล้ว ขอไปออกกำลังกายที่ยิมระบายความตึงเครียดหน่อยเถอะ",
-        "context": "casual"
-      },
-      {
-        "en": "My dad and I made a pact to hit the gym three times a week to stay healthy.",
-        "th": "พ่อกับฉันตกลงทำสัญญากันว่าจะไปเข้ายิมออกกำลังกายสัปดาห์ละสามวันเพื่อรักษาสุขภาพ",
-        "context": "family"
-      },
-      {
-        "en": "Many employees hit the company gym during lunchtime to recharge their mental focus.",
-        "th": "พนักงานหลายคนแวะไปออกกำลังกายที่ฟิตเนสของบริษัทช่วงพักเที่ยงเพื่อเติมพลังสมองและความสดชื่น",
-        "context": "work"
-      }
-    ],
-    "synonyms": [
-      "go to the gym",
-      "work out"
-    ],
-    "common_mistake": "เป็นภาษาพูดที่เป็นกันเอง 'hit' ในที่นี้ไม่ได้แปลว่าทุบตีโรงยิม โครงสร้างพบบ่อยคือ 'I'm gonna hit the gym' ห้ามใช้ในบริบททางการที่เป็นภาษาเขียนจริงจัง"
   },
   {
     "id": "two_peas_in_a_pod",
@@ -10594,44 +10143,6 @@ window.__IDIOMS__ = [
     "common_mistake": "มักใช้ร่วมกับ 'a' เสมอ เช่น 'He is a chip off the old block' อย่าลืมใส่ article 'a'"
   },
   {
-    "id": "bosom_buddies",
-    "phrase": "Bosom buddies",
-    "phonetic": "/ˈbʊz.əm ˈbʌd.iz/",
-    "meaning_th": "เพื่อนสนิทแนบแน่น เพื่อนรักรู้ใจที่เปิดอกคุยกันได้ทุกเรื่อง",
-    "meaning_en": "extremely close, trusted, and intimate friends",
-    "literal_th": "เพื่อนเกลอระดับแนบอก",
-    "origin": "คำว่า 'bosom' หมายถึงหน้าอกหรือหัวใจ สื่อถึงเพื่อนสนิทที่สามารถโอบกอดแนบอก หรือเปิดใจระบายความลับลึกๆ ในก้นบึ้งหัวใจให้รับฟังได้ เริ่มใช้แพร่หลายในวรรณคดีอังกฤษตั้งแต่ศตวรรษที่ 18",
-    "mnemonic": "นึกภาพเพื่อนรักสองคนยืนกอดคอแนบอก หัวเราะร่าเริงอย่างเปิดเผย สื่อถึงมิตรภาพแท้จริงที่ไม่มีความลับต่อกัน",
-    "category": "family",
-    "category_th": "เพื่อน/ครอบครัว",
-    "category_full": "6. เพื่อน และครอบครัว",
-    "difficulty": 2,
-    "frequency": 3,
-    "examples": [
-      {
-        "en": "They met on their first day of kindergarten and have been bosom buddies ever since.",
-        "th": "พวกเขาเจอกันตั้งแต่วันแรกของชั้นอนุบาล และกลายเป็นเพื่อนรักรู้ใจกันตั้งแต่นั้นเป็นต้นมา",
-        "context": "social"
-      },
-      {
-        "en": "Despite living in different continents, the two bosom buddies still video call every Sunday.",
-        "th": "แม้จะอาศัยอยู่คนละทวีป สองเพื่อนซี้ก็ยังคงวิดีโอคอลคุยกันทุกวันอาทิตย์อย่างสม่ำเสมอ",
-        "context": "casual"
-      },
-      {
-        "en": "You don't need dozens of casual acquaintances when you have one or two bosom buddies.",
-        "th": "คุณไม่จำเป็นต้องมีคนรู้จักผิวเผินเป็นร้อยคนหรอก ขอแค่มีเพื่อนแท้รู้ใจสักคนสองคนก็เพียงพอแล้ว",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "best friends",
-      "close confidants",
-      "chums"
-    ],
-    "common_mistake": "คำว่า 'bosom' ออกเสียงสระสั้นเป็น /ˈbʊz.əm/ ไม่ใช่ออกเสียงยาวแบบ boo-zom"
-  },
-  {
     "id": "pal_around",
     "phrase": "Pal around with",
     "phonetic": "/pæl əˈraʊnd wɪð/",
@@ -10668,44 +10179,6 @@ window.__IDIOMS__ = [
       "socialize with"
     ],
     "common_mistake": "ต้องมีบุพบท 'with' เมื่อมีกรรมตามหลัง เช่น 'pal around with someone' หากไม่มีกรรมใช้แค่ 'pal around'"
-  },
-  {
-    "id": "a_friend_in_need",
-    "phrase": "A friend in need is a friend indeed",
-    "phonetic": "/ə frend ɪn niːd ɪz ə frend ɪnˈdiːd/",
-    "meaning_th": "เพื่อนแท้คือเพื่อนในยามยาก เพื่อนแท้ย่อมไม่ทิ้งกันยามลำบาก",
-    "meaning_en": "a true friend is someone who supports and helps you when you are in distress or need",
-    "literal_th": "เพื่อนในยามขาดแคลนคือเพื่อนแท้จริงแท้แน่นอน",
-    "origin": "สืบทอดมาจากสุภาษิตละตินโบราณของกวีเอนเนียส (Quintus Ennius) ว่า 'Amicus certus in re incerta cernitur' (เพื่อนแท้จะกระจ่างชัดในยามวิกฤต) ต่อมาในภาษาอังกฤษยุคกลางได้สร้างคำสัมผัสคล้องจองระหว่าง 'need' และ 'indeed' เพื่อให้จำง่ายและสละสลวย",
-    "mnemonic": "นึกภาพคนตกลงไปในหลุมโคลนลึก คนอื่นเดินผ่านไปหมด แต่มีเพื่อนคนหนึ่งยื่นมือลงมาดึงขึ้นมาอย่างสุดกำลัง",
-    "category": "family",
-    "category_th": "เพื่อน/ครอบครัว",
-    "category_full": "6. เพื่อน และครอบครัว",
-    "difficulty": 1,
-    "frequency": 5,
-    "examples": [
-      {
-        "en": "When I was broke and jobless, Sarah paid my rent; truly, a friend in need is a friend indeed.",
-        "th": "ตอนที่ฉันถังแตกและตกงาน ซาร่าช่วยจ่ายค่าเช่าห้องให้ เพื่อนในยามยากคือเพื่อนแท้โดยแท้จริง",
-        "context": "casual"
-      },
-      {
-        "en": "His colleagues rallied around to cover his hospital bills, proving that a friend in need is a friend indeed.",
-        "th": "เพื่อนร่วมงานรวมใจกันช่วยออกค่ารักษาพยาบาลให้ พิสูจน์ให้เห็นว่ามิตรแท้ย่อมไม่ทิ้งกันในยามลำบาก",
-        "context": "work"
-      },
-      {
-        "en": "You learn who really cares about you when crisis strikes—a friend in need is a friend indeed.",
-        "th": "คุณจะรู้ว่าใครห่วงใยคุณจริงก็ตอนที่ชีวิตเจอวิกฤตนั่นแหละ เพื่อนแท้ย่อมปรากฏกายในยามยากเสมอ",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "true friend",
-      "loyal ally",
-      "dependable companion"
-    ],
-    "common_mistake": "คำว่า 'in need' หมายถึงตัวเราที่กำลังเดือดร้อน (a friend who helps me when I am in need) ไม่ใช่เพื่อนที่เป็นฝ่ายขัดสน"
   },
   {
     "id": "breadwinner",
@@ -11126,82 +10599,6 @@ window.__IDIOMS__ = [
     "common_mistake": "สามารถใช้ได้ทั้ง 'bad apple' และ 'rotten apple' สื่อความหมายถึงคนพาลหรือคนเสียคนเดียวที่ทำให้ส่วนรวมพัง"
   },
   {
-    "id": "like_father_like_son",
-    "phrase": "Like father, like son",
-    "phonetic": "/laɪk ˈfɑː.ðər laɪk sʌn/",
-    "meaning_th": "สำเนาถูกต้อง ลูกไม้หล่นไม่ไกลต้น พ่อเป็นอย่างไรลูกก็เป็นอย่างนั้น",
-    "meaning_en": "a son closely resembles or behaves in the same way as his father",
-    "literal_th": "พ่อเป็นอย่างไร ลูกชายก็เป็นอย่างนั้น",
-    "origin": "สืบทอดมาจากสุภาษิตละตินโบราณ 'Qualis pater, talis filius' ซึ่งสะท้อนการสังเกตธรรมชาติของมนุษย์ว่า เด็กผู้ชายมักจะเลียนแบบบุคลิก อุปนิสัย ท่าทาง หรือความสนใจของบิดามาตั้งแต่เล็กจนโต",
-    "mnemonic": "นึกภาพคุณพ่อกับลูกชายนั่งไขว่ห้าง จิบเครื่องดื่ม และหัวเราะท่าทางเดียวกันเป๊ะจนคนรอบข้างต้องอมยิ้ม",
-    "category": "family",
-    "category_th": "เพื่อน/ครอบครัว",
-    "category_full": "6. เพื่อน และครอบครัว",
-    "difficulty": 1,
-    "frequency": 5,
-    "examples": [
-      {
-        "en": "Both father and son became renowned neurosurgeons; like father, like son.",
-        "th": "ทั้งคุณพ่อและลูกชายต่างก็กลายเป็นประสาทศัลยแพทย์ชื่อดัง ลูกไม้หล่นไม่ไกลต้นจริงๆ",
-        "context": "social"
-      },
-      {
-        "en": "He inherited his dad's stubborn temper and love for spicy food—like father, like son.",
-        "th": "เขาถอดแบบนิสัยดื้อรั้นและความชอบกินเผ็ดมาจากพ่อเป๊ะ พ่อเป็นอย่างไรลูกก็เป็นอย่างนั้น",
-        "context": "casual"
-      },
-      {
-        "en": "Like father, like son: both men have an incredible ear for jazz guitar.",
-        "th": "สำเนาถูกต้องเลย ทั้งสองคนมีพรสวรรค์ในการฟังและเล่นกีตาร์แจ๊สได้อย่างยอดเยี่ยมเหมือนกัน",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "chip off the old block",
-      "spitting image",
-      "following in dad's footsteps"
-    ],
-    "common_mistake": "สำหรับลูกสาวกับแม่ สามารถพูดคู่ขนานได้ว่า 'Like mother, like daughter'"
-  },
-  {
-    "id": "kith_and_kin",
-    "phrase": "Kith and kin",
-    "phonetic": "/kɪθ ænd kɪn/",
-    "meaning_th": "วงศาคณาญาติและมิตรสหาย ญาติสนิทมิตรสหายทั้งปวง",
-    "meaning_en": "one's friends, acquaintances, and family relations collectively",
-    "literal_th": "คนรู้จักและญาติทางสายเลือด",
-    "origin": "เป็นสำนวนภาษาอังกฤษโบราณตั้งแต่ศตวรรษที่ 14 คำว่า 'kith' ในภาษาอังกฤษโบราณหมายถึง เพื่อนบ้าน คนรู้จัก หรือแผ่นดินเกิด ส่วน 'kin' หมายถึง ญาติพี่น้องร่วมสายเลือด เมื่อนำมารวมกันจึงครอบคลุมทุกคนใกล้ชิดที่มีความผูกพันในชีวิต",
-    "mnemonic": "นึกภาพโต๊ะงานเลี้ยงฉลองยาวเหยียดในสวนหลังบ้าน ที่เต็มไปด้วยรอยยิ้มของทั้งเพื่อนสนิทและญาติพี่น้องทุกรุ่น",
-    "category": "family",
-    "category_th": "เพื่อน/ครอบครัว",
-    "category_full": "6. เพื่อน และครอบครัว",
-    "difficulty": 2,
-    "frequency": 3,
-    "examples": [
-      {
-        "en": "Every Thanksgiving, they gather all their kith and kin for a massive family feast.",
-        "th": "ทุกวันขอบคุณพระเจ้า พวกเขาจะรวมตัวญาติสนิทมิตรสหายทุกคนมาร่วมโต๊ะอาหารมื้อใหญ่",
-        "context": "social"
-      },
-      {
-        "en": "Leaving her kith and kin behind to study across the world was emotionally daunting.",
-        "th": "การต้องทิ้งญาติมิตรและเพื่อนฝูงไว้ข้างหลังเพื่อเดินทางไปเรียนอีกฟากโลกเป็นเรื่องที่บีบหัวใจมาก",
-        "context": "casual"
-      },
-      {
-        "en": "He left his fortune not just to kin, but divided it honorably among all his kith and kin.",
-        "th": "เขาไม่ได้มอบมรดกให้แค่ลูกหลานเท่านั้น แต่ยังจัดสรรอย่างสมเกียรติให้แก่ทั้งญาติมิตรและมิตรสหาย",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "friends and family",
-      "relatives and acquaintances",
-      "loved ones"
-    ],
-    "common_mistake": "เป็นสำนวนสัมผัสอักษร (alliteration) มักใช้คู่กันเสมอ ไม่ค่อยแยกใช้คำว่า 'kith' เดี่ยวๆ ในภาษาอังกฤษยุคใหม่"
-  },
-  {
     "id": "next_of_kin",
     "phrase": "Next of kin",
     "phonetic": "/ˌnekst əv ˈkɪn/",
@@ -11240,44 +10637,6 @@ window.__IDIOMS__ = [
     "common_mistake": "มักใช้เป็นคำนามนับไม่ได้หรือกลุ่มบุคคล เช่น 'His next of kin were notified' หรือ 'as next of kin'"
   },
   {
-    "id": "keep_the_home_fires_burning",
-    "phrase": "Keep the home fires burning",
-    "phonetic": "/kiːp ðə hoʊm ˈfaɪərz ˈbɜːr.nɪŋ/",
-    "meaning_th": "ดูแลบ้านช่องให้เรียบร้อย ดูแลครอบครัวระหว่างที่คนอื่นไปปฏิบัติภารกิจ",
-    "meaning_en": "to maintain the household and daily responsibilities while someone is away",
-    "literal_th": "รักษาไฟในเตาผิงที่บ้านให้ลุกโชนอยู่เสมอ",
-    "origin": "โด่งดังอย่างยิ่งจากเพลงปลุกใจยอดนิยมของอังกฤษช่วงสงครามโลกครั้งที่ 1 แต่งขึ้นในปี 1914 โดย Ivor Novello สื่อถึงสตรีและคนในครอบครัวที่อยู่แนวหลัง คอยดูแลฟืนไฟและความอบอุ่นในบ้านเพื่อรอคอยเหล่าทหารหาญจากแนวหน้ากลับคืนรัง",
-    "mnemonic": "นึกภาพเตาผิงในบ้านอันแสนอบอุ่น หญิงสาวคอยเติมฟืนใส่ไฟไม่ให้มอด รอคอยการกลับมาของคนในครอบครัวอย่างมีความหวัง",
-    "category": "family",
-    "category_th": "เพื่อน/ครอบครัว",
-    "category_full": "6. เพื่อน และครอบครัว",
-    "difficulty": 2,
-    "frequency": 3,
-    "examples": [
-      {
-        "en": "While her husband was deployed overseas, she kept the home fires burning and managed the farm.",
-        "th": "ระหว่างที่สามีไปประจำการทหารต่างแดน เธอคอยดูแลบ้านช่องและจัดการฟาร์มให้เรียบร้อยอย่างเข้มแข็ง",
-        "context": "casual"
-      },
-      {
-        "en": "Don't worry about the business while you're traveling; I'll keep the home fires burning here.",
-        "th": "ไม่ต้องกังวลเรื่องงานระหว่างเดินทางนะ เดี๋ยวผมจะคอยดูแลออฟฟิศทางนี้ให้เรียบร้อยเอง",
-        "context": "work"
-      },
-      {
-        "en": "Grandmother was always the emotional anchor who kept the home fires burning for everyone.",
-        "th": "คุณยายเป็นเสาหลักทางจิตใจที่คอยดูแลให้บ้านอบอุ่นและเป็นที่พึ่งของทุกคนในครอบครัวเสมอ",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "hold the fort",
-      "mind the house",
-      "maintain stability"
-    ],
-    "common_mistake": "คำว่า 'fires' ต้องเป็นพหูพจน์เติม -s เสมอ (home fires) สื่อถึงไฟในเตาผิงของบ้าน"
-  },
-  {
     "id": "look_out_for_each_other",
     "phrase": "Look out for each other",
     "phonetic": "/lʊk aʊt fɔːr iːtʃ ˈʌð.ər/",
@@ -11314,44 +10673,6 @@ window.__IDIOMS__ = [
       "protect each other"
     ],
     "common_mistake": "ระวังบุพบท 'for' (look out for each other) หากพูดแค่ 'look out!' จะแปลว่า 'ระวัง!'"
-  },
-  {
-    "id": "born_into_wealth",
-    "phrase": "Born into wealth",
-    "phonetic": "/bɔːrn ˈɪn.tuː welθ/",
-    "meaning_th": "คาบช้อนเงินช้อนทองมาเกิด / เกิดในตระกูลร่ำรวยมั่งคั่ง",
-    "meaning_en": "born into an affluent, prosperous family with abundant financial advantages",
-    "literal_th": "เกิดเข้ามาสู่ความมั่งคั่ง",
-    "origin": "พัฒนามาจากแนวคิดทางชนชั้นและสำนวนดั้งเดิม 'born with a silver spoon in one's mouth' โดย silver spoon เป็นของขวัญล้ำค่าที่พ่อแม่อุปถัมภ์ฐานะมั่งคั่งมอบให้ทารกในพิธีล้างบาปยุคกลาง สื่อถึงการมีกินมีใช้สุขสบายตั้งแต่ลืมตาดูโลก",
-    "mnemonic": "นึกภาพเด็กทารกนอนหลับปุ๋ยอยู่ในเปลทองคำประดับเพชรพลอยระยิบระยับ — born into wealth = เกิดบนกองเงินกองทอง",
-    "category": "family",
-    "category_th": "เพื่อน/ครอบครัว",
-    "category_full": "6. เพื่อน และครอบครัว",
-    "difficulty": 1,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Although he was born into wealth, he chose to build his own startup from scratch without family money.",
-        "th": "แม้ว่าเขาจะคาบช้อนเงินช้อนทองมาเกิด แต่เขากลับเลือกสร้างสตาร์ทอัพด้วยน้ำพักน้ำแรงตัวเองโดยไม่พึ่งเงินกงสี",
-        "context": "casual"
-      },
-      {
-        "en": "Generations of being born into wealth sometimes make young heirs detached from daily reality.",
-        "th": "การที่เกิดมาในตระกูลที่ร่ำรวยหลายชั่วอายุคน บางครั้งก็ทำให้ทายาทรุ่นใหม่ไม่เข้าใจความจริงของคนทั่วไป",
-        "context": "family"
-      },
-      {
-        "en": "The scholarship was explicitly designed for talented students who weren't born into wealth.",
-        "th": "ทุนการศึกษานี้ออกแบบมาอย่างชัดเจนเพื่อมอบให้นักเรียนที่มีพรสวรรค์แต่ไม่ได้เกิดมาในครอบครัวที่มีฐานะร่ำรวย",
-        "context": "work"
-      }
-    ],
-    "synonyms": [
-      "born with a silver spoon",
-      "born rich",
-      "privileged from birth"
-    ],
-    "common_mistake": "เป็นกลุ่มคำกริยาแสดงสภาวะ ใช้รูป Past Participle เสมอ เช่น 'He was born into wealth' สลับใช้ 'born into money' ได้ แต่ห้ามเขียนเป็น 'bear into wealth'"
   },
   {
     "id": "partner_in_crime",
@@ -11884,43 +11205,6 @@ window.__IDIOMS__ = [
     "common_mistake": "ต้องใช้ 'under the bus' (ใต้ท้องรถ) เสมอ ห้ามเปลี่ยนเป็นยานพาหนะอื่น และมักใช้ในบริบทที่ถูกหักหลังอย่างไม่คาดคิด เช่น 'He threw me under the bus.'"
   },
   {
-    "id": "it_takes_two_to_tango",
-    "phrase": "It takes two to tango",
-    "phonetic": "/ɪt ˌteɪks ˌtuː tə ˈtæŋɡəʊ/",
-    "meaning_th": "ปรบมือข้างเดียวไม่ดัง / เรื่องแบบนี้ผิดทั้งสองฝ่าย / ต้องร่วมมือกันทั้งคู่จึงจะเกิดเรื่องได้",
-    "meaning_en": "both people are responsible",
-    "literal_th": "ต้องใช้สองคนเพื่อเต้นแทงโก้",
-    "origin": "กำเนิดมาจากเพลงฮิตชื่อ 'Takes Two to Tango' ในปี 1952 ขับร้องโดยเพิร์ล เบลีย์ การเต้นรำจังหวะแทงโก้เป็นศาสตร์ที่คู่เต้นต้องเคลื่อนไหวสอดประสานและรับน้ำหนักซึ่งกันและกัน จึงนำมาเปรียบเปรยว่าความขัดแย้งย่อมเกิดจากการกระทำของทั้งคู่",
-    "mnemonic": "นึกภาพคู่เต้นชายหญิงในชุดแทงโก้สีแดงสด ต้องก้าวเท้าไขว้รับส่งจังหวะกันเป๊ะคนเดียวเต้นไม่ได้ — it takes two to tango = เต้นแทงโก้ต้องใช้สองคน",
-    "category": "drama",
-    "category_th": "ดราม่า/ความขัดแย้ง",
-    "category_full": "7. ดราม่า ความขัดแย้ง และความลับ",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Don't blame your wife entirely for the divorce; you know very well it takes two to tango.",
-        "th": "อย่าไปโทษภรรยาของนายคนเดียวเรื่องการหย่าร้างเลย นายก็รู้ดีแก่ใจว่าเรื่องแบบนี้ปรบมือข้างเดียวไม่ดัง",
-        "context": "family"
-      },
-      {
-        "en": "The trade war escalated because both countries refused to compromise—it takes two to tango.",
-        "th": "สงครามการค้าทวีความรุนแรงขึ้นเพราะทั้งสองประเทศปฏิเสธที่จะประนีประนอม ก็ปรบมือข้างเดียวไม่ดังนี่นะ",
-        "context": "work"
-      },
-      {
-        "en": "You can't say it was all her fault when you initiated the argument; it takes two to tango.",
-        "th": "เธอจะบอกว่าเป็นความผิดของเธอฝ่ายเดียวไม่ได้หรอกในเมื่อเธอเป็นคนเริ่มเปิดศึกก่อน ผิดทั้งคู่นั่นแหละ",
-        "context": "casual"
-      }
-    ],
-    "synonyms": [
-      "both are to blame",
-      "it goes both ways"
-    ],
-    "common_mistake": "มักใช้เมื่อเกิดการทะเลาะวิวาทเพื่อเตือนว่า 'อย่าโทษคนเดียว เพราะผิดทั้งคู่' ระวังอย่าเปลี่ยนกริยาเป็น 'make two to tango' ต้องใช้ 'takes' เสมอ"
-  },
-  {
     "id": "add_fuel_to_the_fire",
     "phrase": "Add fuel to the fire",
     "phonetic": "/ˌæd ˌfjuːəl tə ðə ˈfaɪə/",
@@ -12384,44 +11668,6 @@ window.__IDIOMS__ = [
     "common_mistake": "ไม่ใช่เรื่องของกลุ่มเลือดหรือโรคทางโลหิตวิทยา แต่เป็นคำนามนับไม่ได้ (uncountable noun) ใช้พูดถึงความรู้สึกเกลียดขี้หน้าหรือขุ่นเคืองระหว่างบุคคล"
   },
   {
-    "id": "wash_dirty_linen_in_public",
-    "phrase": "Wash dirty linen in public",
-    "phonetic": "/ˌwɑːʃ ˈdɜːrti ˌlɪnɪn ɪn ˈpʌblɪk/",
-    "meaning_th": "สาวไส้ให้กากิน / เอาเรื่องฉาวหรือปัญหาครอบครัวมาประจานในที่สาธารณะ",
-    "meaning_en": "to openly discuss private arguments, scandals, or embarrassing matters in public",
-    "literal_th": "ซักผ้าลินินสกปรกในที่สาธารณะ",
-    "origin": "มีสำนวนเทียบเคียงในภาษาฝรั่งเศสว่า 'Il faut laver son linge sale en famille' (ต้องซักผ้าเปื้อนในบ้านตัวเอง) ซึ่งนโปเลียน โบนาปาร์ต เคยกล่าวไว้เมื่อปี 1814 วลีนี้ถูกแปลและนำมาใช้อย่างแพร่หลายในอังกฤษ เพื่อเปรียบว่าเรื่องน่าอายหรือความขัดแย้งส่วนตัวควรสะสางเงียบๆ ภายในครอบครัว",
-    "mnemonic": "นึกภาพใครคนหนึ่งยืนซักกางเกงในเปื้อนโคลนอยู่กลางสี่แยกไฟแดงให้คนทั้งเมืองยืนดูอย่างอับอายขายหน้า",
-    "category": "drama",
-    "category_th": "ดราม่า/ความขัดแย้ง",
-    "category_full": "7. ดราม่า ความขัดแย้ง และความลับ",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Posting your marital problems on Facebook is just washing your dirty linen in public.",
-        "th": "การโพสต์ระบายปัญหาชีวิตคู่ลงเฟซบุ๊กก็ไม่ต่างอะไรกับการสาวไส้ให้กากิน",
-        "context": "social"
-      },
-      {
-        "en": "The board insisted on resolving the dispute privately rather than washing dirty linen in public.",
-        "th": "คณะกรรมการยืนกรานที่จะไกล่เกลี่ยข้อพิพาทเป็นการภายใน แทนที่จะเอาเรื่องฉาวไปประจานต่อหน้าสื่อ",
-        "context": "work"
-      },
-      {
-        "en": "Stop arguing loudly in the restaurant; there's no need to wash our dirty linen in public.",
-        "th": "หยุดเถียงกันเสียงดังในร้านอาหารได้แล้ว ไม่จำเป็นต้องเอาเรื่องในบ้านมาประจานให้อายคนอื่น",
-        "context": "casual"
-      }
-    ],
-    "synonyms": [
-      "air dirty laundry",
-      "expose personal affairs",
-      "broadcast private matters"
-    ],
-    "common_mistake": "คำว่า 'linen' มักใช้ในฝั่งอังกฤษ ส่วนคนอเมริกันมักนิยมพูดว่า 'air dirty laundry' มากกว่า ทั้งสองสำนวนมีความหมายเทียบเท่ากัน"
-  },
-  {
     "id": "bite_the_hand_that_feeds",
     "phrase": "Bite the hand that feeds you",
     "phonetic": "/ˌbaɪt ðə ˈhænd ðət ˌfiːdz ju/",
@@ -12845,44 +12091,6 @@ window.__IDIOMS__ = [
       "tempt fate"
     ],
     "common_mistake": "ตรงกับสำนวนไทยเป๊ะว่า 'เล่นกับไฟ' สื่อถึงการกระทำที่เสี่ยงต่อความหายนะ ระวังจำสับสนกับ 'add fuel to the fire' (ราดน้ำมันบนกองไฟ)"
-  },
-  {
-    "id": "pot_calling_the_kettle_black",
-    "phrase": "The pot calling the kettle black",
-    "phonetic": "/ðə ˌpɑːt ˌkɔːlɪŋ ðə ˈketl blæk/",
-    "meaning_th": "ว่าแต่เขาอิเหนาเป็นเอง / ตัวเองก็มีข้อเสียเหมือนกันแต่ดันไปว่าคนอื่น",
-    "meaning_en": "criticizing someone for a fault or flaw that one also possesses",
-    "literal_th": "หม้อว่ากาต้มน้ำว่าดำ",
-    "origin": "มีที่มาจากห้องครัวยุคโบราณที่หุงต้มอาหารด้วยเตาฟืน ทั้งหม้อเหล็ก (pot) และกาต้มน้ำ (kettle) ล้วนต้องตั้งบนกองไฟจนก้นเปรอะเปื้อนเขม่าควันดำปี๋ด้วยกันทั้งคู่ หากหม้อเหล็กชี้หน้าว่ากาต้มน้ำว่าผิวดำ ก็ถือเป็นเรื่องน่าขันเพราะตัวเองก็ดำมิดหมีไม่ต่างกัน",
-    "mnemonic": "นึกภาพหม้อต้มเหล็กสีดำมะเมื่อมกำลังยืนเท้าสะเอวชี้หน้าด่ากาน้ำชาข้างๆ ว่า 'ทำไมตัวดำสกปรกแบบนี้!' ทั้งที่ตัวมันเองก็ดำเป็นตอตะโก",
-    "category": "drama",
-    "category_th": "ดราม่า/ความขัดแย้ง",
-    "category_full": "7. ดราม่า ความขัดแย้ง และความลับ",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "You're calling me disorganized? That's the pot calling the kettle black!",
-        "th": "เธอหาว่าฉันไม่มีระเบียบเนี่ยนะ? ตัวเองก็ไม่ต่างกันหรอก ว่าแต่เขาอิเหนาเป็นเองชัดๆ!",
-        "context": "casual"
-      },
-      {
-        "en": "He criticized our department for missing deadlines, which was the pot calling the kettle black.",
-        "th": "เขาวิจารณ์แผนกเราเรื่องส่งงานเลท ทั้งที่ทีมเขาก็ส่งช้าตลอด ว่าแต่เขาอิเหนาเป็นเองแท้ๆ",
-        "context": "work"
-      },
-      {
-        "en": "She accused her boyfriend of being jealous, but that was definitely the pot calling the kettle black.",
-        "th": "เธอตัดพ้อหาว่าแฟนหนุ่มขี้หึง ทั้งๆ ที่ตัวเธอเองนั่นแหละขี้หึงยิ่งกว่าเขาเสียอีก",
-        "context": "romance"
-      }
-    ],
-    "synonyms": [
-      "hypocrisy",
-      "double standard",
-      "people in glass houses shouldn't throw stones"
-    ],
-    "common_mistake": "มักพูดแบบย่อๆ ได้ว่า 'Pot, meet kettle.' ในการสนทนาแบบเป็นกันเอง เพื่อแซวคนที่ว่าคนอื่นในเรื่องที่ตัวเองก็ทำ"
   },
   {
     "id": "rub_salt_in_the_wound",
@@ -15230,45 +14438,6 @@ window.__IDIOMS__ = [
     "common_mistake": "คำว่า 'lines' เป็นพหูพจน์เสมอ และมักนำหน้าด้วยบุพบท 'behind' เพื่อขยายตำแหน่งที่อยู่ท่ามกลางฝ่ายตรงข้าม"
   },
   {
-    "id": "give_up_the_ghost",
-    "phrase": "Give up the ghost",
-    "phonetic": "/ˌɡɪv ʌp ðə ˈɡoʊst/",
-    "meaning_th": "สิ้นใจ / พังจนซ่อมไม่ได้ / หมดสภาพลาโลก",
-    "meaning_en": "to die, or of a machine/appliance, to stop working completely and permanently",
-    "literal_th": "ยอมปล่อยวิญญาณออกไป",
-    "origin": "มีที่มาจากภาษาอังกฤษโบราณและปรากฏหลายครั้งในคัมภีร์ไบเบิลฉบับคิงเจมส์ (King James Bible 1611) เช่น ในพระธรรมมัทธิวและปฐมกาล คำว่า 'ghost' ในภาษาอังกฤษโบราณ (gast) แปลว่า 'ลมหายใจแห่งชีวิต' หรือ 'วิญญาณ' เมื่อใครหมดลมหายใจก็คือการ 'คืนวิญญาณ' ให้พระผู้เป็นเจ้า ต่อมาในศตวรรษที่ 19 จึงนำมาใช้กับเครื่องจักรที่พังถาวร",
-    "mnemonic": "นึกภาพรถยนต์คันเก่าส่งเสียงกระตุกสำลักควันสีขาวพวยพุ่ง มีเงารูปร่างคล้ายวิญญาณผีลอยหลุดออกจากฝากระโปรงรถ แล้วเครื่องยนต์ก็นิ่งดับสนิทไปตลอดกาล",
-    "category": "action",
-    "category_th": "แอ็กชัน/สืบสวน",
-    "category_full": "8. แอ็กชัน ระทึกขวัญ และการสืบสวน",
-    "difficulty": 3,
-    "frequency": 3,
-    "examples": [
-      {
-        "en": "After twelve years of faithful service, our office printer finally gave up the ghost yesterday.",
-        "th": "หลังจากรับใช้งานอย่างซื่อสัตย์มาสิบสองปีเต็ม เครื่องพิมพ์ในออฟฟิศของเราก็พังดับสนิทลาโลกไปเมื่อวานนี้",
-        "context": "work"
-      },
-      {
-        "en": "My smartphone screen flickered twice and then completely gave up the ghost.",
-        "th": "หน้าจอสมาร์ตโฟนของฉันกะพริบอยู่สองที แล้วก็ดับสนิทพังไปอย่างถาวร",
-        "context": "casual"
-      },
-      {
-        "en": "After fighting for hours in the freezing storm, the elderly mountaineer finally gave up the ghost.",
-        "th": "หลังจากต่อสู้กับพายุหิมะอันเหน็บหนาวอยู่นานหลายชั่วโมง นักปีนเขาสูงวัยก็สิ้นลมหายใจลงอย่างสงบ",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "pass away",
-      "break down permanently",
-      "conk out",
-      "breathe one's last"
-    ],
-    "common_mistake": "อย่าแปลว่าเห็นผี หรือยอมแพ้ให้ผี คำว่า 'ghost' ในที่นี้คือจิตวิญญาณหรือลมหายใจ เมื่อใช้กับเครื่องใช้ไฟฟ้าจะหมายถึงพังสนิทจนซ่อมไม่คุ้ม"
-  },
-  {
     "id": "get_the_ball_rolling",
     "phrase": "Get the ball rolling",
     "phonetic": "/ˌɡet ðə ˌbɔːl ˈrəʊlɪŋ/",
@@ -16022,7 +15191,7 @@ window.__IDIOMS__ = [
   },
   {
     "id": "giving_my_notice",
-    "phrase": "giving my notice",
+    "phrase": "Give one's notice",
     "phonetic": "/ˌɡɪvɪŋ maɪ ˈnoʊtɪs/",
     "meaning_th": "ยื่นใบลาออก / แจ้งลาออกล่วงหน้าตามระเบียบบริษัท",
     "meaning_en": "to inform employer that you are resigning",
@@ -16060,7 +15229,7 @@ window.__IDIOMS__ = [
   },
   {
     "id": "put_in_a_request",
-    "phrase": "put in a request",
+    "phrase": "Put in a request",
     "phonetic": "/ˌpʊt ɪn ə rɪˈkwest/",
     "meaning_th": "ยื่นคำร้องอย่างเป็นทางการ / ส่งคำขอตามระเบียบขั้นตอน",
     "meaning_en": "to submit a request formally",
@@ -17281,154 +16450,6 @@ window.__IDIOMS__ = [
     "common_mistake": "มักใช้เป็นประโยคเดี่ยวๆ ตอบกลับ เช่น 'That's easier said than done!' (พูดน่ะมันง่าย แต่ทำจริงมันยากนะ!)"
   },
   {
-    "id": "actions_speak_louder_than_words",
-    "phrase": "Actions speak louder than words",
-    "phonetic": "/ˌækʃnz ˌspiːk ˌlaʊdə ðən ˈwɜːdz/",
-    "meaning_th": "การกระทำสำคัญกว่าคำพูด / ทำจริงมีน้ำหนักมากกว่าแค่ลมปาก",
-    "meaning_en": "what you do is more important than what you say",
-    "literal_th": "การกระทำพูดดังกว่าคำพูด",
-    "origin": "มีบันทึกรูปประโยคใกล้เคียงตั้งแต่ศตวรรษที่ 16 และปรากฏในคำปราศรัยของบุคคลสำคัญในประวัติศาสตร์มากมาย สำนวนนี้เน้นย้ำว่าพฤติกรรมและการลงมือทำจริงสามารถสะท้อนความจริงใจ เจตนา และคุณค่าของบุคคลได้ชัดเจนกว่าคำสัญญาที่สวยหรู",
-    "mnemonic": "นึกภาพคนหนึ่งยืนตะโกนสัญญาผ่านโทรโข่ง แต่อีกคนก้มหน้าก้มตาลงมือสร้างสะพานจนเสร็จ — actions speak louder than words = การกระทำดังกว่าคำพูด",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "He promised to change his habits many times, but actions speak louder than words.",
-        "th": "เขาเอ่ยปากสัญญาว่าจะปรับปรุงนิสัยตัวเองมานับครั้งไม่ถ้วน แต่การกระทำย่อมสำคัญกว่าคำพูดเสมอ",
-        "context": "relationship"
-      },
-      {
-        "en": "Don't just tell the interviewers you are hardworking; demonstrate it through your portfolio—actions speak louder than words.",
-        "th": "อย่าแค่บอกผู้สัมภาษณ์ว่าคุณเป็นคนขยัน จงพิสูจน์ให้เห็นผ่านผลงาน เพราะการกระทำมีน้ำหนักมากกว่าคำพูดเสมอ",
-        "context": "career"
-      },
-      {
-        "en": "Management claims they prioritize employee wellness, but actions speak louder than words when budget cuts hit.",
-        "th": "ผู้บริหารอ้างว่าให้ความสำคัญกับสุขภาวะพนักงาน แต่การกระทำย่อมชัดเจนกว่าลมปากเมื่อมีการตัดงบสวัสดิการ",
-        "context": "work"
-      }
-    ],
-    "synonyms": [
-      "walk the talk",
-      "practice what you preach"
-    ],
-    "common_mistake": "เป็นสุภาษิตสมบูรณ์ ไม่ต้องเติม can หรือ will (ไม่ใช่ Actions will speak...) สังเกตว่า actions และ words เป็นพหูพจน์"
-  },
-  {
-    "id": "time_will_tell",
-    "phrase": "Time will tell",
-    "phonetic": "/ˌtaɪm wɪl ˈtel/",
-    "meaning_th": "กาลเวลาจะพิสูจน์เอง / ต้องรอเวลาเป็นเครื่องตัดสิน",
-    "meaning_en": "the truth will be revealed with time",
-    "literal_th": "เวลาจะบอก",
-    "origin": "มีรากฐานมาจากแนวคิดปรัชญากรีกโบราณที่ว่า 'ความจริงคือบุตรสาวของกาลเวลา' (Veritas filia temporis) ต่อมาในศตวรรษที่ 16 วลี 'time will tell' ได้กลายมาเป็นสำนวนภาษาอังกฤษ บ่งบอกว่าความจริง ความสำเร็จ หรือคุณค่าที่แท้จริงต้องอาศัยเวลาเป็นเครื่องพิสูจน์",
-    "mnemonic": "นึกภาพต้นกล้าเล็กๆ ปลูกลงดิน รอเวลาหมุนผ่านจนเติบใหญ่กลายเป็นต้นไม้ที่ออกผล — time will tell = กาลเวลาจะให้คำตอบและพิสูจน์เอง",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Only time will tell if this bold corporate restructuring will lead to sustainable profitability.",
-        "th": "มีเพียงกาลเวลาเท่านั้นที่จะพิสูจน์ว่าการปรับโครงสร้างองค์กรครั้งใหญ่นี้จะนำไปสู่ผลกำไรที่ยั่งยืนหรือไม่",
-        "context": "business"
-      },
-      {
-        "en": "Whether their hasty marriage was the right choice remains to be seen; time will tell.",
-        "th": "การตัดสินใจแต่งงานกันอย่างรวดเร็วของพวกเขาจะเป็นทางเลือกที่ถูกต้องหรือไม่ กาลเวลาคงเป็นเครื่องพิสูจน์เอง",
-        "context": "casual"
-      },
-      {
-        "en": "He claims his new crypto algorithm is completely unhackable, but time will tell.",
-        "th": "เขาอ้างว่าอัลกอริทึมคริปโทตัวใหม่ของเขาไม่มีวันถูกแฮกได้ แต่กาลเวลาจะเป็นตัวพิสูจน์ความจริงเอง",
-        "context": "tech"
-      }
-    ],
-    "synonyms": [
-      "wait and see",
-      "we'll see"
-    ],
-    "common_mistake": "มักใช้เป็นประโยคเดี่ยวๆ สั้นๆ ว่า 'Only time will tell.' หรือ 'Time will tell whether this plan works.'"
-  },
-  {
-    "id": "what_goes_around_comes_around",
-    "phrase": "What goes around comes around",
-    "phonetic": "/ˌwɒt ˌɡəʊz əˈraʊnd ˌkʌmz əˈraʊnd/",
-    "meaning_th": "ทำอย่างไรก็ได้อย่างนั้น / กงเกวียนกำเกวียน / กรรมตามสนอง",
-    "meaning_en": "your actions will have consequences that return to you",
-    "literal_th": "อะไรไปรอบมากลับมารอบ",
-    "origin": "มีแนวคิดคล้ายคลึงกับหลักกฎแห่งกรรม (Karma) และปรากฏเป็นสำนวนภาษาอังกฤษในสหรัฐอเมริกาช่วงกลางศตวรรษที่ 20 โดยเฉพาะในวัฒนธรรมดนตรีและวรรณกรรม เปรียบเหมือนบูมเมอแรงหรือวงล้อที่หมุนไปทางใด ท้ายที่สุดก็จะวกกลับมาหาผู้ขว้างเสมอ",
-    "mnemonic": "นึกภาพบูมเมอแรงที่เราขว้างออกไปสุดแรง แล้วมันหมุนวนกลับมาหาตัวเราเองเป๊ะๆ — what goes around comes around = ทำอะไรไว้ ย่อมได้รับผลนั้นตอบสนอง",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Always treat your coworkers with respect and kindness; remember that what goes around comes around.",
-        "th": "จงปฏิบัติต่อเพื่อนร่วมงานด้วยความเคารพและมีน้ำใจเสมอ จำไว้ว่าทำอย่างไรก็ย่อมได้อย่างนั้นตอบแทน",
-        "context": "work"
-      },
-      {
-        "en": "He betrayed his business partners years ago, and now he is bankrupt—what goes around comes around.",
-        "th": "เขาเคยหักหลังหุ้นส่วนธุรกิจไว้เมื่อหลายปีก่อน และตอนนี้เขากลับล้มละลายเสียเอง กงเกวียนกำเกวียนแท้ๆ",
-        "context": "casual"
-      },
-      {
-        "en": "Don't spread false rumors about others, because what goes around eventually comes around to you.",
-        "th": "อย่าปล่อยข่าวลือเสียหายใส่ร้ายคนอื่นเลย เพราะสุดท้ายแล้วสิ่งเหล่านั้นจะย้อนกลับมาทำร้ายตัวเอง",
-        "context": "advice"
-      }
-    ],
-    "synonyms": [
-      "karma",
-      "you reap what you sow"
-    ],
-    "common_mistake": "มีความหมายคล้าย 'You reap what you sow' แต่นิยมใช้ในภาษาพูดทั่วไปมากกว่า มักใช้เตือนใจเรื่องการปฏิบัติดีต่อผู้อื่น"
-  },
-  {
-    "id": "every_cloud_has_a_silver_lining",
-    "phrase": "Every cloud has a silver lining",
-    "phonetic": "/ˌevri ˌklaʊd həz ə ˌsɪlvə ˈlaɪnɪŋ/",
-    "meaning_th": "ในวิกฤตย่อมมีโอกาส / ฟ้าหลังฝนย่อมสดใส / ทุกเรื่องแย่มักมีแง่ดีซ่อนอยู่",
-    "meaning_en": "every bad situation has a hopeful aspect",
-    "literal_th": "ทุกก้อนเมฆมีขอบสีเงิน",
-    "origin": "มีที่มาจากบทกวีหน้ากาก 'Comus' (1634) ของจอห์น มิลตัน ที่พรรณนาถึงเมฆดำทะมึนบนท้องฟ้า แต่ขอบเมฆกลับมีประกายแสงสีเงินส่องสว่างสะท้อนจากดวงอาทิตย์ด้านหลัง ต่อมาในยุควิกตอเรียจึงกลายมาเป็นสำนวนเตือนใจให้มองหาความหวังในยามทุกข์",
-    "mnemonic": "นึกภาพเมฆฝนก้อนสีดำมืดมิด แต่ขอบเมฆมีแสงสีเงินเปล่งประกายงดงาม — every cloud has a silver lining = ในเรื่องร้ายยังมีเรื่องดีซ่อนอยู่",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Losing that corporate job was devastating, but the silver lining was having time to launch my own business.",
-        "th": "การถูกเลิกจ้างจากงานประจำมันน่าสะเทือนใจมาก แต่ข้อดีในวิกฤตนั้นคือทำให้ฉันมีเวลาเปิดธุรกิจของตัวเอง",
-        "context": "career"
-      },
-      {
-        "en": "Don't lose hope after this setback; remember that every dark cloud has a silver lining.",
-        "th": "อย่าเพิ่งหมดหวังหลังจากความล้มเหลวครั้งนี้นะ จำไว้ว่าฟ้าหลังฝนย่อมสดใสเสมอ",
-        "context": "casual"
-      },
-      {
-        "en": "Our travel flight was delayed, but the silver lining was that we got upgraded to first-class seats.",
-        "th": "เที่ยวบินของเราดีเลย์ไปหลายชั่วโมง แต่เรื่องดีที่ซ่อนอยู่คือพวกเราได้รับการอัปเกรดเป็นที่นั่งชั้นหนึ่งฟรี",
-        "context": "travel"
-      }
-    ],
-    "synonyms": [
-      "look on the bright side",
-      "blessing in disguise"
-    ],
-    "common_mistake": "มักใช้คำนาม 'silver lining' แยกออกมาเดี่ยวๆ ได้ เช่น 'The only silver lining was...' (ข้อดีเพียงอย่างเดียวคือ...)"
-  },
-  {
     "id": "the_ball_is_in_your_court",
     "phrase": "The ball is in your court",
     "phonetic": "/ðə ˌbɔːl ɪz ɪn jɔː ˈkɔːt/",
@@ -17504,42 +16525,6 @@ window.__IDIOMS__ = [
     "common_mistake": "ใช้เพื่อแสดงการยอมรับความจริงอย่างปลงๆ อย่าใช้น้ำเสียงประชดประชันหากต้องการสื่อถึงการมีวุฒิภาวะทางอารมณ์"
   },
   {
-    "id": "better_late_than_never",
-    "phrase": "Better late than never",
-    "phonetic": "/ˌbetə ˌleɪt ðən ˈnevə/",
-    "meaning_th": "มาช้ายังดีกว่าไม่มา / ทำช้ายังดีกว่าไม่ลงมือทำเลย",
-    "meaning_en": "it's better to do something late than not at all",
-    "literal_th": "ดีกว่าสายกว่าไม่เคย",
-    "origin": "เป็นภาษิตโบราณที่พบตั้งแต่ยุคโรมันในงานเขียนของติตุส ลีวิอุส (Livy) และเจฟฟรีย์ ชอเซอร์ นำมาเขียนเป็นภาษาอังกฤษใน The Canterbury Tales (ศตวรรษที่ 14) สื่อว่าการทำสิ่งที่ดีแม้จะล่าช้าไปมาก ก็ยังสร้างผลลัพธ์ที่ดีกว่าการเพิกเฉยไม่ทำเลย",
-    "mnemonic": "นึกภาพเพื่อนเดินหอบของขวัญมาถึงงานเลี้ยงตอนงานเกือบเลิก แต่ทุกคนยังยิ้มต้อนรับ — better late than never = มาช้ายังดีกว่าไม่มานะ",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Dan finally submitted his quarterly project report three days late—better late than never, I suppose.",
-        "th": "ในที่สุดแดนก็ส่งรายงานโปรเจกต์ประจำไตรมาสช้าไปสามวัน แต่ก็นะ มาช้าก็ยังดีกว่าไม่ส่งเลยล่ะ",
-        "context": "work"
-      },
-      {
-        "en": "She decided to learn how to swim at the age of forty-five; better late than never!",
-        "th": "เธอตัดสินใจเริ่มเรียนว่ายน้ำตอนอายุสี่สิบห้าปี เริ่มช้าก็ยังดีกว่าไม่คิดจะทำเลยนะ!",
-        "context": "casual"
-      },
-      {
-        "en": "The taxi finally arrived after we waited for forty minutes—better late than never.",
-        "th": "ในที่สุดแท็กซี่ก็มาถึงหลังจากที่พวกเรายืนรอมาตั้งสี่สิบนาที ช้ายังดีกว่าไม่มาเลย",
-        "context": "travel"
-      }
-    ],
-    "synonyms": [
-      "better late than never"
-    ],
-    "common_mistake": "มักใช้พูดแซวเพื่อนที่มาสาย หรือพูดปลอบใจเมื่อเพิ่งเริ่มต้นเรียนรู้ทักษะใหม่ในวัยผู้ใหญ่"
-  },
-  {
     "id": "let_bygones_be_bygones",
     "phrase": "Let bygones be bygones",
     "phonetic": "/ˌlet ˌbaɪɡɒnz biː ˌbaɪɡɒnz/",
@@ -17576,117 +16561,6 @@ window.__IDIOMS__ = [
       "bury the hatchet"
     ],
     "common_mistake": "ระวังการสะกดคำว่า bygones (มี s เสมอ) และโครงสร้างคือ 'let [something] be [something]' ไม่ใช้ make bygones"
-  },
-  {
-    "id": "theres_no_place_like_home",
-    "phrase": "There's no place like home",
-    "phonetic": "/ˌðeəz nəʊ ˌpleɪs ˌlaɪk ˈhəʊm/",
-    "meaning_th": "ไม่มีที่ไหนอบอุ่นสุขใจเท่าบ้านเรา / สุขใจในบ้านเรา",
-    "meaning_en": "home is the best place",
-    "literal_th": "ไม่มีที่ไหนเหมือนบ้าน",
-    "origin": "โด่งดังไปทั่วโลกจากเพลง 'Home! Sweet Home!' (1823) และอมตะภาพยนตร์เรื่อง The Wizard of Oz (1939) เมื่อโดโรธีเคาะส้นรองเท้าทับทิมสีแดงสามครั้งพร้อมท่องประโยคนี้เพื่อกลับบ้าน สื่อถึงความผูกพันอันลึกซึ้งที่สถานที่ใดในโลกก็ไม่อาจทดแทนบ้านได้",
-    "mnemonic": "นึกภาพโดโรธีเคาะส้นรองเท้าสีแดงแล้วลืมตาตื่นขึ้นมาในห้องนอนอันแสนอบอุ่น — there's no place like home = ไม่มีที่ไหนสุขใจเท่าบ้านเรา",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Traveling across Europe for a month was amazing, but stepping through my front door reminded me there's no place like home.",
-        "th": "การได้ไปเที่ยวยุโรปหนึ่งเดือนเต็มมันยอดเยี่ยมมาก แต่พอได้ก้าวเท้าเข้าประตูบ้านก็รู้เลยว่าไม่มีที่ไหนสุขใจเท่าบ้านเรา",
-        "context": "travel"
-      },
-      {
-        "en": "After a grueling week in the hospital recovering from surgery, he whispered, 'There's no place like home.'",
-        "th": "หลังจากต้องนอนพักฟื้นจากการผ่าตัดในโรงพยาบาลมาตลอดทั้งสัปดาห์ เขาก็กระซิบออกมาว่า 'ไม่มีที่ไหนอุ่นใจเท่าบ้านเราจริงๆ'",
-        "context": "casual"
-      },
-      {
-        "en": "No luxury five-star resort can compete with the cozy comfort of your own bed; there's truly no place like home.",
-        "th": "ไม่มีรีสอร์ตหรูระดับห้าดาวที่ไหนจะสู้ความสบายของเตียงนอนตัวเองได้ ไม่มีที่ไหนอบอุ่นเหมือนบ้านเราจริงๆ",
-        "context": "lifestyle"
-      }
-    ],
-    "synonyms": [
-      "home sweet home",
-      "there's no place like home"
-    ],
-    "common_mistake": "มักพูดอุทานเมื่อเดินทางกลับถึงบ้านหลังจากท่องเที่ยวหรือทำงานเหน็ดเหนื่อยยาวนาน เช่น 'Ah, there's no place like home!'"
-  },
-  {
-    "id": "you_reap_what_you_sow",
-    "phrase": "You reap what you sow",
-    "phonetic": "/ˌjuː ˌriːp ˌwɒt ju ˈsəʊ/",
-    "meaning_th": "หว่านพืชเช่นไรย่อมได้ผลเช่นนั้น / ทำดีได้ดี ทำชั่วได้ชั่ว",
-    "meaning_en": "your actions have consequences",
-    "literal_th": "คุณเก็บเกี่ยวสิ่งที่คุณหว่าน",
-    "origin": "มีรากฐานมาจากคัมภีร์ไบเบิล (Galatians 6:7) 'for whatsoever a man soweth, that shall he also reap' เปรียบเทียบกับวิถีเกษตรกรรม หากชาวนาหว่านเมล็ดข้าวสาลี ย่อมได้เก็บเกี่ยวข้าวสาลี หากหว่านวัชพืชย่อมได้หนาม ชี้ชัดว่าผลลัพธ์ย่อมตรงกับต้นเหตุเสมอ",
-    "mnemonic": "นึกภาพชาวนาหยอดเมล็ดแตงโมลงดิน แล้วเฝ้ารอจนได้ลูกแตงโมหวานฉ่ำมาเก็บเกี่ยว — you reap what you sow = ปลูกสิ่งใดย่อมได้ผลเช่นนั้น",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "If you invest time in studying diligently each day, you will reap what you sow when exam grades arrive.",
-        "th": "หากคุณทุ่มเทเวลาอ่านหนังสืออย่างตั้งใจในทุกๆ วัน คุณก็จะได้รับผลตอบแทนอันคุ้มค่าเมื่อผลสอบออกมา",
-        "context": "education"
-      },
-      {
-        "en": "He mistreated his staff for decades and now nobody wants to work for him; you reap what you sow.",
-        "th": "เขาปฏิบัติตัวไม่ดีกับพนักงานมานานหลายสิบปี จนตอนนี้ไม่มีใครอยากทำงานด้วยเลย ปลูกพืชเช่นไรย่อมได้ผลเช่นนั้น",
-        "context": "work"
-      },
-      {
-        "en": "Treat others with empathy and patience, because in life, you truly reap what you sow.",
-        "th": "จงปฏิบัติต่อผู้อื่นด้วยความเข้าอกเข้าใจและความอดทน เพราะในชีวิตนี้เราทำสิ่งใดย่อมได้รับสิ่งนั้นตอบแทนเสมอ",
-        "context": "casual"
-      }
-    ],
-    "synonyms": [
-      "what goes around comes around",
-      "karma"
-    ],
-    "common_mistake": "คำว่า reap แปลว่าเก็บเกี่ยว และ sow (ออกเสียง โซ /soʊ/) แปลว่าหว่านเมล็ด อย่าสับสนกับ sew (เย็บผ้า) แม้จะออกเสียงเหมือนกัน"
-  },
-  {
-    "id": "alls_well_that_ends_well",
-    "phrase": "All's well that ends well",
-    "phonetic": "/ˌɔːlz ˈwel ðət ˌendz ˈwel/",
-    "meaning_th": "จบสวยก็ถือว่าดีหมด / ผลลัพธ์ออกมาดี เรื่องวุ่นวายที่ผ่านมาก็ไม่สำคัญ",
-    "meaning_en": "if the outcome is good, the difficulties don't matter",
-    "literal_th": "ทุกอย่างดีที่จบดี",
-    "origin": "เป็นชื่อบทละครสุขนาฏกรรมชื่อดังของวิลเลียม เชกสเปียร์ (ประมาณปี 1604) สะท้อนปรัชญาชีวิตว่า แม้ระหว่างทางจะต้องเผชิญอุปสรรค ความยากลำบาก หรือเรื่องวุ่นวายมากมายเพียงใด แต่หากผลลัพธ์สุดท้ายประสบความสำเร็จด้วยดี สิ่งที่ผ่านมาก็ถือว่าคุ้มค่า",
-    "mnemonic": "นึกภาพงานแต่งงานที่จัดกลางพายุฝนจนเต็นท์พัง แต่สุดท้ายคู่บ่าวยืนยิ้มมีความสุขใต้แสงจันทร์ — all's well that ends well = ตอนจบแฮปปี้ก็ดีหมด",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Our luggage was lost and the hotel was overbooked, but we ended up in a five-star suite; all's well that ends well!",
-        "th": "กระเป๋าเดินทางหายแถมโรงแรมยังจองซ้อน แต่สุดท้ายเราได้อัปเกรดไปนอนห้องสูทห้าดาวฟรี สรุปว่าจบดีก็แฮปปี้หมดทุกอย่าง!",
-        "context": "travel"
-      },
-      {
-        "en": "The software launch had multiple bugs on day one, but the patches stabilized everything—all's well that ends well.",
-        "th": "การเปิดตัวซอฟต์แวร์วันแรกเจอบักเพียบ แต่การปล่อยตัวแก้อัปเดตก็ทำให้ทุกอย่างนิ่งได้ ผลลัพธ์ออกมาดีก็ถือว่าโอเคแล้ว",
-        "context": "tech"
-      },
-      {
-        "en": "We argued fiercely about the wedding budget, but the ceremony turned out magical; all's well that ends well.",
-        "th": "พวกเราทะเลาะกันแทบตายเรื่องงบจัดงานแต่ง แต่พิธีกลับออกมางดงามน่าประทับใจสุดๆ ตอนจบสวยงามก็ถือว่าดีหมดแล้ว",
-        "context": "casual"
-      }
-    ],
-    "synonyms": [
-      "happy ending",
-      "all is well"
-    ],
-    "common_mistake": "สังเกตการเขียน 'All's well' (ย่อมาจาก All is well) และ 'ends' เติม s เสมอ มักใช้พูดปิดท้ายเมื่อผ่านพ้นปัญหามาได้"
   },
   {
     "id": "live_and_learn",
@@ -17763,80 +16637,6 @@ window.__IDIOMS__ = [
     "common_mistake": "มักใช้กล่าวอวยพรผู้สำเร็จการศึกษาหรือคนที่กำลังเริ่มต้นบทใหม่ของชีวิต เช่น 'You're young and smart; the world is your oyster!'"
   },
   {
-    "id": "once_upon_a_time",
-    "phrase": "Once upon a time",
-    "phonetic": "/ˌwʌns əˌpɒn ə ˈtaɪm/",
-    "meaning_th": "กาลครั้งหนึ่งนานมาแล้ว / ย้อนกลับไปในอดีตนานแสนนาน",
-    "meaning_en": "a long time ago (used to start fairy tales)",
-    "literal_th": "ครั้งหนึ่งบนเวลา",
-    "origin": "เป็นวลีเปิดนิทานและเรื่องเล่าคลาสสิกของอังกฤษ ปรากฏในบันทึกตั้งแต่ปลายศตวรรษที่ 14 ในรูป 'once on a time' ทำหน้าที่ดึงผู้ฟังออกจากโลกความเป็นจริงเข้าสู่โลกแห่งจินตนาการและเวทมนตร์ ปัจจุบันยังนำมาใช้พูดติดตลกถึงเรื่องราวในอดีตของตนเอง",
-    "mnemonic": "นึกภาพเปิดหนังสือนิทานเล่มหนา มีปราสาทเวทมนตร์โผล่ขึ้นมาพร้อมตัวอักษรทอง — once upon a time = กาลครั้งหนึ่งนานมาแล้วในแดนนิยาย",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Once upon a time, in a kingdom nestled between the mountains, there lived a benevolent queen.",
-        "th": "กาลครั้งหนึ่งนานมาแล้ว ณ อาณาจักรแสนสงบกลางหุบเขา มีพระราชินีผู้เปี่ยมด้วยความเมตตาพระองค์หนึ่ง",
-        "context": "storytelling"
-      },
-      {
-        "en": "Once upon a time, before smartphones existed, people actually remembered their friends' phone numbers.",
-        "th": "ย้อนกลับไปในอดีต สมัยที่ยังไม่มีสมาร์ตโฟน ผู้คนสามารถจำเบอร์โทรศัพท์ของเพื่อนๆ ได้ขึ้นใจจริงๆ นะ",
-        "context": "humor"
-      },
-      {
-        "en": "Once upon a time, this booming tech hub was just a quiet fruit orchard.",
-        "th": "ย้อนไปเมื่อนานมาแล้ว ศูนย์กลางเทคโนโลยีที่เฟื่องฟูแห่งนี้เคยเป็นเพียงสวนผลไม้อันเงียบสงบเท่านั้น",
-        "context": "casual"
-      }
-    ],
-    "synonyms": [
-      "a long time ago",
-      "in the old days"
-    ],
-    "common_mistake": "ใช้ขึ้นต้นนิทานปรัมปรา และในภาษาพูดทั่วไปมักใช้เกริ่นแซวความหลัง เช่น 'Once upon a time, I used to have six-pack abs.'"
-  },
-  {
-    "id": "to_be_continued",
-    "phrase": "To be continued",
-    "phonetic": "/tə bi kənˈtɪnjuːd/",
-    "meaning_th": "โปรดติดตามตอนต่อไป / เรื่องยังไม่จบแค่นี้ / ไว้มาคุยต่อคราวหน้า",
-    "meaning_en": "the story will continue",
-    "literal_th": "ที่จะถูกดำเนินต่อ",
-    "origin": "เกิดขึ้นในศตวรรษที่ 19 พร้อมกับความนิยมของวรรณกรรมรายงวด (serialized fiction) ในนิตยสาร เช่น ผลงานของชาร์ลส์ ดิกเกนส์ ที่ต้องลงท้ายแต่ละตอนด้วยคำนี้เพื่อสร้างความตื่นเต้นและกระตุ้นให้ผู้อ่านรอซื้อฉบับถัดไป ปัจจุบันใช้แพร่หลายในซีรีส์และชีวิตจริง",
-    "mnemonic": "นึกภาพหน้าจอตัดเป็นภาพขาวดำพร้อมตัวหนังสือตัวโตกระพริบว่าโปรดติดตามตอนต่อไป — to be continued = เรื่องยังไม่จบแค่นี้ ไว้มาลุ้นต่อ!",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "The season finale ended on a massive cliffhanger with the words 'To be continued' flashing across the screen.",
-        "th": "ตอนจบของซีซันปิดฉากด้วยปมค้างคาบีบหัวใจ พร้อมข้อความขึ้นเตือนบนหน้าจอว่า 'โปรดติดตามตอนต่อไป'",
-        "context": "entertainment"
-      },
-      {
-        "en": "I have to jump on another conference call right now, so our discussion will have to be continued tomorrow.",
-        "th": "ตอนนี้ฉันต้องรีบเข้าประชุมสายอื่นแล้ว การพูดคุยของเราคงต้องยกยอดเอาไว้ต่อกันในวันพรุ่งนี้นะ",
-        "context": "work"
-      },
-      {
-        "en": "Their debate over which football club is the greatest ended with a friendly 'to be continued' at the pub.",
-        "th": "การถกเถียงของพวกเขาว่าสโมสรฟุตบอลไหนเจ๋งที่สุด จบลงด้วยคำสัญญาขำๆ ที่ผับว่าจะกลับมาเถียงกันต่อคราวหน้า",
-        "context": "casual"
-      }
-    ],
-    "synonyms": [
-      "continued",
-      "more to come"
-    ],
-    "common_mistake": "เป็นรูป Passive Voice (to be continued ไม่ใช่ to continue) ในชีวิตประจำวันใช้ตัดบทเมื่อต้องรีบไปก่อน เช่น 'Let's make this to be continued.'"
-  },
-  {
     "id": "break_the_ice",
     "phrase": "Break the ice",
     "phonetic": "/ˌbreɪk ði ˈaɪs/",
@@ -17872,44 +16672,6 @@ window.__IDIOMS__ = [
       "get the ball rolling"
     ],
     "common_mistake": "คำนามคือ 'icebreaker' แปลว่ากิจกรรมหรือคำถามสำหรับละลายพฤติกรรม มักใช้คู่กับกริยา break เสมอ เช่น 'He tried to break the ice.'"
-  },
-  {
-    "id": "the_end",
-    "phrase": "The end",
-    "phonetic": "/ði ˈend/",
-    "meaning_th": "อวสาน / จุดสิ้นสุด / จบสิ้นโดยสมบูรณ์",
-    "meaning_en": "the final part",
-    "literal_th": "จุดจบ",
-    "origin": "มีประวัติยาวนานตั้งแต่ยุคหนังสือตัวเขียนโบราณและนิทานปรัมปรา เพื่อเป็นสัญลักษณ์บ่งบอกผู้อ่านอย่างเป็นทางการว่าเนื้อเรื่องได้เดินทางมาถึงบทสรุปบริบูรณ์แล้ว ต่อมาในยุคภาพยนตร์คลาสสิก คำนี้จะปรากฏขึ้นบนจอก่อนไฟในโรงจะสว่างขึ้น",
-    "mnemonic": "นึกภาพม่านสีแดงบนเวทีละครปิดลงมา พร้อมตัวอักษรสีทองตัวโตขึ้นว่าจบบริบูรณ์ — the end = ปิดม่าน จบบริบูรณ์ สิ้นสุดเรื่องราว",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 1,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "When the credits rolled and 'The End' appeared on the screen, the entire theater applauded.",
-        "th": "เมื่อรายชื่อทีมงานเริ่มเลื่อนขึ้นและคำว่า 'อวสาน' ปรากฏบนจอ ทั้งโรงภาพยนตร์ต่างพากันปรบมือดังกึกก้อง",
-        "context": "entertainment"
-      },
-      {
-        "en": "Once the bankruptcy papers are signed by the judge, it is officially the end of an era for the retail giant.",
-        "th": "ทันทีที่ผู้พิพากษาลงนามในเอกสารล้มละลาย มันก็ถือเป็นการปิดฉากยุคสมัยของยักษ์ใหญ่ค้าปลีกอย่างเป็นทางการ",
-        "context": "business"
-      },
-      {
-        "en": "I thought losing my passport abroad was the end of the world, but the embassy replaced it within hours.",
-        "th": "ฉันคิดว่าการทำพาสปอร์ตหายในต่างแดนคือจุดจบของโลกแล้วเสียอีก แต่สถานทูตกลับออกเล่มใหม่ให้ได้ภายในไม่กี่ชั่วโมง",
-        "context": "travel"
-      }
-    ],
-    "synonyms": [
-      "finish",
-      "conclusion",
-      "finale"
-    ],
-    "common_mistake": "อย่าสับสนกับ 'at the end' (ณ จุดสิ้นสุดของ...) หรือ 'in the end' (ในท้ายที่สุด) คำว่า 'The end' คือการประกาศบทสรุปบริบูรณ์"
   },
   {
     "id": "wish_you_all_the_best",
@@ -18101,45 +16863,6 @@ window.__IDIOMS__ = [
       "mic drop"
     ],
     "common_mistake": "มักใช้เป็นคำนาม 'mic drop' หรือวลีเปรียบเปรย ไม่จำเป็นต้องทำไมโครโฟนหล่นใส่พื้นจริงๆ"
-  },
-  {
-    "id": "call_a_spade_a_spade",
-    "phrase": "Call a spade a spade",
-    "phonetic": "/ˌkɔːl ə ˈspeɪd ə ˈspeɪd/",
-    "meaning_th": "พูดจาตรงไปตรงมา / เรียกสิ่งต่างๆ ตามความเป็นจริงโดยไม่อ้อมค้อม",
-    "meaning_en": "to speak frankly and directly about something, calling it by its real name even if unpleasant",
-    "literal_th": "เรียกเสียมว่าเสียม",
-    "origin": "มีที่มาจากนักปรัชญากรีกโบราณ พลูทาร์ก (Plutarch) ซึ่งเดิมทีพูดถึงการเรียก 'เรือขุด' แต่เมื่อ Erasmus นักปราชญ์ยุคฟื้นฟูศิลปวิทยาแปลเป็นภาษาละติน ได้เข้าใจคลาดเคลื่อนเป็นคำว่าเสียมขุดดิน (spade) สำนวนนี้จึงกลายเป็นการเปรียบว่า หากเห็นเครื่องมือนั้นเป็นเสียม ก็จงเรียกมันว่าเสียม อย่าพยายามประดิดประดอยถ้อยคำให้ดูสวยหรู",
-    "mnemonic": "นึกภาพคนถือเสียมขุดดินเปื้อนโคลน คนอื่นพยายามเลี่ยงบาลีเรียกว่า 'อุปกรณ์ปรับสภาพดินระดับพรีเมียม' แต่เราชี้แล้วพูดว่า 'นี่มันเสียมชัดๆ' = พูดความจริงตรงๆ ไม่อ้อมค้อม",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 4,
-    "examples": [
-      {
-        "en": "Let's call a spade a spade: this product launch was an expensive disaster.",
-        "th": "เรามาพูดกันตรงๆ แบบไม่อ้อมค้อมเถอะ การเปิดตัวสินค้าครั้งนี้มันคือความล้มเหลวที่ผลาญงบชัดๆ",
-        "context": "work"
-      },
-      {
-        "en": "I appreciate that my manager always calls a spade a spade instead of sugarcoating feedback.",
-        "th": "ฉันชอบที่ผู้จัดการของฉันพูดตรงไปตรงมาเสมอ แทนที่จะมาคอยพูดจาอ้อมค้อมเคลือบน้ำตาล",
-        "context": "work"
-      },
-      {
-        "en": "Don't call it 'borrowing' when he never returns your clothes; call a spade a spade!",
-        "th": "อย่าเรียกมันว่า 'การขอยืม' เลย ในเมื่อเขาไม่เคยเอาเสื้อผ้ามาคืนเธอสักชิ้น พูดความจริงออกมาตรงๆ เถอะ!",
-        "context": "casual"
-      }
-    ],
-    "synonyms": [
-      "speak bluntly",
-      "tell it like it is",
-      "pull no punches",
-      "be brutally honest"
-    ],
-    "common_mistake": "spade ในที่นี้คือเสียมขุดดิน ไม่ใช่ไพ่โพดำ และเป็นสำนวนโบราณที่เน้นความตรงไปตรงมา ไม่ประจบสอพลอ"
   },
   {
     "id": "barking_up_the_wrong_tree",
@@ -18682,44 +17405,6 @@ window.__IDIOMS__ = [
     "common_mistake": "อย่าเข้าใจผิดว่าผู้พูดไม่ได้ยินแล้วขอให้พูดซ้ำ สำนวนนี้คือคำตอบรับว่า 'เห็นด้วยเต็มร้อย' ไม่ต้องพูดซ้ำจริงๆ"
   },
   {
-    "id": "cry_over_spilled_milk",
-    "phrase": "No use crying over spilled milk",
-    "phonetic": "/noʊ juːs ˌkraɪɪŋ oʊvər ˌspɪld ˈmɪlk/",
-    "meaning_th": "มัวแต่เสียใจกับเรื่องที่ผ่านไปแล้วก็ไม่มีประโยชน์อะไร",
-    "meaning_en": "there is no point in worrying or grieving over past misfortunes or mistakes that cannot be undone",
-    "literal_th": "ไม่มีประโยชน์ที่จะร้องไห้ให้กับนมที่หกไปแล้ว",
-    "origin": "ปรากฏบันทึกในสุภาษิตโบราณตั้งแต่ศตวรรษที่ 17 ของ James Howell (1659) โดยเปรียบเปรยอย่างเรียบง่ายว่า นมที่เผลอทำหกคว่ำลงพื้นไปแล้ว น้ำนมจะซึมลงดินและปนเปื้อนฝุ่นจนไม่มีทางตักคืนมาได้ การนั่งร้องไห้คร่ำครวญมีแต่จะเสียเวลา ทางที่ดีควรเช็ดทำความสะอาดแล้วก้าวเดินต่อไป",
-    "mnemonic": "นึกภาพเหยือกนมสดคว่ำลงบนโต๊ะ นมไหลนองเต็มพื้น เด็กน้อยนั่งร้องไห้จ้า แต่แม่ยิ้มแล้วยื่นผ้าขี้ริ้วให้บอกว่า 'เช็ดพื้นแล้วเทแก้วใหม่ดีกว่าลูก' = เรื่องพังไปแล้ว ร้องไห้ไปก็เรียกคืนไม่ได้",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 1,
-    "frequency": 5,
-    "examples": [
-      {
-        "en": "We lost the contract, but there's no use crying over spilled milk; let's focus on the next bid.",
-        "th": "พวกเราชวดสัญญานั้นไปแล้ว แต่มัวมานั่งเสียดายไปก็ไม่มีประโยชน์ หันไปมุ่งมั่นกับงานประมูลรอบหน้าดีกว่า",
-        "context": "work"
-      },
-      {
-        "en": "I accidentally broke my favorite mug, but there's no use crying over spilled milk.",
-        "th": "ฉันเผลอทำแก้วมัคใบโปรดแตก แต่ร้องไห้เสียดายไปก็แก้ไม่ได้แล้ว ซื้อใหม่ดีกว่า",
-        "context": "casual"
-      },
-      {
-        "en": "Yes, you failed the driving test, but it's no use crying over spilled milk — just practice more and retake it.",
-        "th": "ใช่ เธอสอบขับรถไม่ผ่าน แต่มัวเศร้าไปก็ไร้ประโยชน์ แค่ไปฝึกซ้อมเพิ่มแล้วมาสอบใหม่นะ",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "what's done is done",
-      "don't dwell on the past",
-      "look forward"
-    ],
-    "common_mistake": "เขียนได้ทั้ง 'spilled milk' (แบบอเมริกัน) และ 'spilt milk' (แบบอังกฤษ) ทั้งคู่ถูกต้องตามหลักภาษา"
-  },
-  {
     "id": "burn_the_candle_at_both_ends",
     "phrase": "Burn the candle at both ends",
     "phonetic": "/ˌbɜːrn ðə ˌkændl ət boʊθ ˈendz/",
@@ -18795,44 +17480,6 @@ window.__IDIOMS__ = [
       "pricey"
     ],
     "common_mistake": "ใช้ได้ทั้งกับสิ่งของ (It costs an arm and a leg) หรือค่าใช้จ่ายบริการ ไม่ต้องเติม s ที่ arm และ leg"
-  },
-  {
-    "id": "penny_wise_pound_foolish",
-    "phrase": "Penny wise and pound foolish",
-    "phonetic": "/ˌpeni waɪz ənd ˌpaʊnd ˈfuːlɪʃ/",
-    "meaning_th": "เสียน้อยเสียยาก เสียมากเสียง่าย / ประหยัดเรื่องเล็กแต่ยอมเสียค่าโง่เรื่องใหญ่",
-    "meaning_en": "prudent, stingy, or careful with small amounts of money, but reckless and wasteful with large sums",
-    "literal_th": "ฉลาดกับเงินเพนนี แต่โง่เขลากับเงินปอนด์",
-    "origin": "มีที่มาจากวรรณกรรมเรื่อง 'Anatomy of Melancholy' ของ Robert Burton ในปี 1621 โดยเงินเพนนี (penny) เป็นเหรียญย่อยที่มีค่าน้อยมาก ส่วนเงินปอนด์ (pound) เป็นหน่วยเงินหลักที่มีมูลค่ามหาศาล สุภาษิตนี้ใช้เตือนสติคนที่มัวแต่ตระหนี่ถี่เหนียวกับเงินเล็กๆ น้อยๆ จนละเลยไม่ยอมบำรุงรักษาหรือลงทุนในสิ่งจำเป็น จนสุดท้ายต้องจ่ายค่าเสียหายก้อนโต",
-    "mnemonic": "นึกภาพคนยอมเดินตากฝนสามชั่วโมงเพื่อประหยัดเงินค่ารถเมล์ยี่สิบบาท แต่สุดท้ายเป็นปอดบวมต้องนอนโรงพยาบาลจ่ายค่ารักษาหลักหมื่น = เสียน้อยเสียยาก เสียมากเสียง่าย",
-    "category": "general",
-    "category_th": "วลีทั่วไป",
-    "category_full": "10. ทั่วไป และวลีปิดฉาก",
-    "difficulty": 2,
-    "frequency": 3,
-    "examples": [
-      {
-        "en": "Skipping routine maintenance to save a few bucks was penny wise and pound foolish; now the entire engine is ruined.",
-        "th": "การเบี้ยวไม่ยอมตรวจสภาพรถตามระยะเพื่อประหยัดเงินนิดหน่อยเข้าข่ายเสียน้อยเสียยากเสียมากเสียง่าย ตอนนี้เครื่องยนต์พังทั้งระบบเลย",
-        "context": "casual"
-      },
-      {
-        "en": "The startup was penny wise and pound foolish by hiring cheap, unqualified coders who had to be replaced.",
-        "th": "สตาร์ทอัพเจ้านี้เสียน้อยเสียยากด้วยการจ้างโปรแกรมเมอร์ราคาถูกที่ไม่มีฝีมือ จนสุดท้ายต้องจ้างคนอื่นมารื้อทำใหม่หมด",
-        "context": "work"
-      },
-      {
-        "en": "Buying poor-quality winter boots is penny wise and pound foolish since you'll replace them every season.",
-        "th": "การซื้อรองเท้าบูตกันหนาวคุณภาพต่ำเป็นเรื่องเสียน้อยเสียยาก เพราะเธอจะต้องควักเงินซื้อใหม่ทุกฤดูกาล",
-        "context": "social"
-      }
-    ],
-    "synonyms": [
-      "short-sighted economy",
-      "false economy",
-      "misguided thrift"
-    ],
-    "common_mistake": "penny คือเงินเหรียญย่อย pound คือเงินก้อนโต สำนวนนี้เน้นเรื่องการประหยัดผิดจุดจนเกิดผลเสียมากกว่าเดิม"
   },
   {
     "id": "tip_of_the_iceberg",
