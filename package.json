@@ -1,6 +1,6 @@
 {
   "name": "idiom-master",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "private": true,
   "type": "module",
   "description": "IdiomMaster — จำสำนวนอังกฤษ 500 คำด้วย SRS FSRS-lite, ทนทานระดับ production",
