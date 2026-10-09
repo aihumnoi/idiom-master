@@ -18,6 +18,13 @@ files.sort()
 
 print(f"พบไฟล์วีดีโอทั้งหมด: {len(files)} ไฟล์")
 
+if len(files) == 0:
+    if os.path.exists(OUTPUT_JS) and os.path.getsize(OUTPUT_JS) > 1000:
+        print(f"ข้ามการ generate เนื่องจากไม่มีโฟลเดอร์ video/ ในสภาพแวดล้อม CI แต่มี {OUTPUT_JS} ที่สมบูรณ์อยู่แล้ว")
+        exit(0)
+    else:
+        print("คำเตือน: ไม่พบไฟล์วีดีโอใน video/ และไม่มีไฟล์แคช")
+
 videos = []
 
 CATEGORY_INFO = {

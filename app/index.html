@@ -630,7 +630,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[t
           <div>
             <h4 class="font-bold text-sm sm:text-base flex items-center gap-2 flex-wrap">
               วิดีโอบทเรียนออฟไลน์ (Offline Video Pack)
-              <span class="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/30">v2.3.2</span>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/30">v2.3.3</span>
               <span id="offlineStatusBadge" class="text-[10px] px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/30">ในเครื่อง: 0 / 688 คลิป</span>
             </h4>
             <p class="text-xs text-slate-300 mt-0.5" id="offlineDescText">ดาวน์โหลดวิดีโอตรงลงเครื่องทีละไฟล์ เล่นได้ 100% ลื่นไหลแม้ไม่มีอินเทอร์เน็ต สามารถหยุดและมาโหลดต่อได้ตลอดเวลา</p>
@@ -673,12 +673,13 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[t
       <div class="flex items-center gap-1.5 flex-wrap pt-0.5 text-[11px]">
         <span class="text-slate-400 text-xs mr-1">หรือเลือกโหลดตามหมวด:</span>
         <button onclick="startDirectDownloadCategory('quiz')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">❓ Quiz (162)</button>
-        <button onclick="startDirectDownloadCategory('idiom')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">🎬 สำนวน/หนัง (67)</button>
+        <button onclick="startDirectDownloadCategory('idiom')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">🎬 สำนวน/หนัง (124)</button>
         <button onclick="startDirectDownloadCategory('sentence')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">💬 สนทนา (122)</button>
-        <button onclick="startDirectDownloadCategory('grammar')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">📖 แกรมม่า (109)</button>
-        <button onclick="startDirectDownloadCategory('vocab')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">🏷️ คำศัพท์ (108)</button>
-        <button onclick="startDirectDownloadCategory('chat')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">📱 แชท (60)</button>
-        <button onclick="startDirectDownloadCategory('listening')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">🎧 ฝึกฟัง (60)</button>
+        <button onclick="startDirectDownloadCategory('general')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">📺 ทั่วไป (122)</button>
+        <button onclick="startDirectDownloadCategory('grammar')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">📖 แกรมม่า (84)</button>
+        <button onclick="startDirectDownloadCategory('vocab')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">🏷️ คำศัพท์ (43)</button>
+        <button onclick="startDirectDownloadCategory('chat')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">📱 แชท (18)</button>
+        <button onclick="startDirectDownloadCategory('listening')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">🎧 ฝึกฟัง (13)</button>
       </div>
     </div>
 
@@ -3671,11 +3672,23 @@ function getCategoryColor(cat){
   return colors[cat] || 'bg-slate-700 text-white';
 }
 
-function ensureVideoPoolLoaded(){
+async function ensureVideoPoolLoaded(){
   if(videoPool && videoPool.length) return videoPool;
   if(window.__VIDEOS__ && Array.isArray(window.__VIDEOS__) && window.__VIDEOS__.length){
     videoPool = window.__VIDEOS__;
     return videoPool;
+  }
+  try{
+    let res = await fetch('data/videos.json');
+    if(res.ok){
+      let data = await res.json();
+      if(Array.isArray(data) && data.length){
+        videoPool = data;
+        return videoPool;
+      }
+    }
+  }catch(e){
+    console.warn('[VideoPool] fetch local fallback fail', e);
   }
   return videoPool || [];
 }
@@ -4590,8 +4603,13 @@ function startDirectDownloadCategory(cat){
 }
 
 async function startDirectBatchDownload(categoryFilter = 'all'){
-  ensureVideoPoolLoaded();
+  await ensureVideoPoolLoaded();
   await refreshCachedVideoIds();
+
+  if(!videoPool || !videoPool.length){
+    showToast('กำลังโหลดข้อมูลสารบัญคลิป กรุณารอสักครู่แล้วลองอีกครั้ง...');
+    return;
+  }
 
   let targetList = videoPool.filter(v => {
     if(categoryFilter !== 'all' && v.category !== categoryFilter) return false;
