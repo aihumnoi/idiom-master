@@ -4301,14 +4301,78 @@ function triggerImportVideoZip(){
   }
 }
 
+async function parseZipEntriesFast(file) {
+  // Read last 65KB of file to locate EOCD record
+  const searchLen = Math.min(file.size, 65536 + 22);
+  const tailBuffer = await file.slice(file.size - searchLen, file.size).arrayBuffer();
+  const tailView = new DataView(tailBuffer);
+  const tailBytes = new Uint8Array(tailBuffer);
+
+  let eocdOffsetInTail = -1;
+  for (let i = tailBytes.length - 22; i >= 0; i--) {
+    if (tailView.getUint32(i, true) === 0x06054b50) {
+      eocdOffsetInTail = i;
+      break;
+    }
+  }
+
+  if (eocdOffsetInTail === -1) {
+    throw new Error('INCOMPLETE_OR_CORRUPT_ZIP');
+  }
+
+  const cdSize = tailView.getUint32(eocdOffsetInTail + 12, true);
+  const cdOffset = tailView.getUint32(eocdOffsetInTail + 16, true);
+
+  // Read Central Directory (only ~64KB)
+  const cdBuffer = await file.slice(cdOffset, cdOffset + cdSize).arrayBuffer();
+  const cdView = new DataView(cdBuffer);
+  const decoder = new TextDecoder('utf-8');
+
+  let entries = [];
+  let p = 0;
+
+  while (p < cdBuffer.byteLength && cdView.getUint32(p, true) === 0x02014b50) {
+    const method = cdView.getUint16(p + 10, true);
+    const uncompSize = cdView.getUint32(p + 24, true);
+    const fnLen = cdView.getUint16(p + 28, true);
+    const extraLen = cdView.getUint16(p + 30, true);
+    const commentLen = cdView.getUint16(p + 32, true);
+    const localOffset = cdView.getUint32(p + 42, true);
+
+    const fnBytes = new Uint8Array(cdBuffer, p + 46, fnLen);
+    const filename = decoder.decode(fnBytes);
+
+    if (filename.toLowerCase().endsWith('.webm')) {
+      entries.push({
+        filename,
+        method,
+        size: uncompSize,
+        localOffset
+      });
+    }
+
+    p += 46 + fnLen + extraLen + commentLen;
+  }
+
+  return entries;
+}
+
+async function extractZipEntryBlob(file, entry) {
+  if (entry.method === 0) {
+    // ZIP_STORED (Zero-copy instant slice from disk, 0 RAM usage)
+    const headerBuffer = await file.slice(entry.localOffset, entry.localOffset + 30).arrayBuffer();
+    const headerView = new DataView(headerBuffer);
+    const localFnLen = headerView.getUint16(26, true);
+    const localExtraLen = headerView.getUint16(28, true);
+    const dataStart = entry.localOffset + 30 + localFnLen + localExtraLen;
+    return file.slice(dataStart, dataStart + entry.size, 'video/webm');
+  }
+  throw new Error('COMPRESSED_ENTRY');
+}
+
 async function handleVideoFilesImport(event){
   let files = event.target.files;
   if(!files || !files.length) return;
-
-  if(typeof JSZip === 'undefined'){
-    showToast('กำลังโหลดระบบแตกไฟล์ กรุณารอสักครู่แล้วลองใหม่...');
-    return;
-  }
 
   ensureVideoPoolLoaded();
 
@@ -4369,39 +4433,85 @@ async function handleVideoFilesImport(event){
     let file = files[i];
 
     if(file.name.toLowerCase().endsWith('.zip')){
-      if(statusText) statusText.innerHTML = `<i class="fa-solid fa-spinner fa-spin text-rose-500"></i> กำลังเปิดไฟล์ Zip (${file.name})...`;
+      if(statusText) statusText.innerHTML = `<i class="fa-solid fa-spinner fa-spin text-rose-500"></i> กำลังอ่านไฟล์ Zip (${file.name})...`;
       if(pct) pct.textContent = '5%';
       if(bar) bar.style.width = '5%';
       if(countText) countText.textContent = `กำลังโหลดสารบัญไฟล์...`;
 
-      try {
-        let zip = await JSZip.loadAsync(file);
-        let zipEntries = Object.keys(zip.files).filter(name => !zip.files[name].dir && name.toLowerCase().endsWith('.webm'));
-        let zipTotal = zipEntries.length;
-        let zipDone = 0;
+      let entries = [];
+      let useFastMode = false;
 
+      try {
+        entries = await parseZipEntriesFast(file);
+        useFastMode = true;
+      } catch(fastErr) {
+        if (fastErr.message === 'INCOMPLETE_OR_CORRUPT_ZIP') {
+          showToast('⚠️ ไฟล์ยังดาวน์โหลดไม่เสร็จสมบูรณ์! กรุณารอให้เบราว์เซอร์โหลดเสร็จ 100% ก่อน');
+          if(statusText) statusText.innerHTML = `<i class="fa-solid fa-triangle-exclamation text-rose-500"></i> ไฟล์ยังดาวน์โหลดไม่เสร็จสมบูรณ์ (กรุณารอโหลดเสร็จ 100% ก่อน)`;
+          return;
+        }
+        console.warn('[Zip] Fast parser fallback to JSZip', fastErr);
+      }
+
+      if(useFastMode && entries.length > 0){
+        let zipTotal = entries.length;
+        let zipDone = 0;
         if(statusText) statusText.innerHTML = `<i class="fa-solid fa-box-open text-amber-500"></i> กำลังติดตั้งคลิปจาก ${file.name} ลงเครื่อง...`;
 
-        for(let entryName of zipEntries){
+        for(let entry of entries){
           if(downloadCancelFlag) break;
-          let matchedVid = findMatchingVideo(entryName);
+          let matchedVid = findMatchingVideo(entry.filename);
           let vId = matchedVid ? matchedVid.id : null;
 
           if(vId){
-            let videoBlob = await zip.files[entryName].async('blob');
-            await saveVideoBlob(vId, videoBlob);
-            cachedVideoIds.add(vId);
-            zipDone++;
-            totalExtracted++;
+            try {
+              let videoBlob = await extractZipEntryBlob(file, entry);
+              await saveVideoBlob(vId, videoBlob);
+              cachedVideoIds.add(vId);
+              zipDone++;
+              totalExtracted++;
+            } catch(sliceErr) {
+              console.warn('[Zip] slice error for entry', entry.filename, sliceErr);
+            }
           }
           let progressPct = Math.round((zipDone / Math.max(1, zipTotal)) * 100);
           if(bar) bar.style.width = `${progressPct}%`;
           if(pct) pct.textContent = `${progressPct}%`;
           if(countText) countText.textContent = `ติดตั้งแล้ว: ${zipDone} / ${zipTotal} คลิป`;
         }
-      } catch(err) {
-        console.error('[ZipImport] Error:', err);
-        showToast('เกิดข้อผิดพลาดในการแตกไฟล์ Zip: ' + err.message);
+      } else {
+        // Fallback to JSZip (for non-STORED archives)
+        if(typeof JSZip !== 'undefined'){
+          try {
+            let zip = await JSZip.loadAsync(file);
+            let zipEntries = Object.keys(zip.files).filter(name => !zip.files[name].dir && name.toLowerCase().endsWith('.webm'));
+            let zipTotal = zipEntries.length;
+            let zipDone = 0;
+
+            if(statusText) statusText.innerHTML = `<i class="fa-solid fa-box-open text-amber-500"></i> กำลังติดตั้งคลิปจาก ${file.name} ลงเครื่อง...`;
+
+            for(let entryName of zipEntries){
+              if(downloadCancelFlag) break;
+              let matchedVid = findMatchingVideo(entryName);
+              let vId = matchedVid ? matchedVid.id : null;
+
+              if(vId){
+                let videoBlob = await zip.files[entryName].async('blob');
+                await saveVideoBlob(vId, videoBlob);
+                cachedVideoIds.add(vId);
+                zipDone++;
+                totalExtracted++;
+              }
+              let progressPct = Math.round((zipDone / Math.max(1, zipTotal)) * 100);
+              if(bar) bar.style.width = `${progressPct}%`;
+              if(pct) pct.textContent = `${progressPct}%`;
+              if(countText) countText.textContent = `ติดตั้งแล้ว: ${zipDone} / ${zipTotal} คลิป`;
+            }
+          } catch(err) {
+            console.error('[ZipImport] Fallback Error:', err);
+            showToast('เกิดข้อผิดพลาด: ' + err.message);
+          }
+        }
       }
 
     } else if(file.name.toLowerCase().endsWith('.webm')){
