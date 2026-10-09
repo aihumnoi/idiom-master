@@ -630,7 +630,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[t
           <div>
             <h4 class="font-bold text-sm sm:text-base flex items-center gap-2 flex-wrap">
               วิดีโอบทเรียนออฟไลน์ (Offline Video Pack)
-              <span class="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/30">v2.3.3</span>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/30">v2.3.4</span>
               <span id="offlineStatusBadge" class="text-[10px] px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/30">ในเครื่อง: 0 / 688 คลิป</span>
             </h4>
             <p class="text-xs text-slate-300 mt-0.5" id="offlineDescText">ดาวน์โหลดวิดีโอตรงลงเครื่องทีละไฟล์ เล่นได้ 100% ลื่นไหลแม้ไม่มีอินเทอร์เน็ต สามารถหยุดและมาโหลดต่อได้ตลอดเวลา</p>
@@ -914,8 +914,8 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[t
   </div>
 
   <!-- Video Viewport -->
-  <div class="relative flex-1 w-full h-full flex items-center justify-center bg-black overflow-hidden" onclick="toggleVideoPlayPause(event)">
-    <video id="mainVideoPlayer" class="w-full h-full object-contain max-h-screen" playsinline preload="auto" loop></video>
+  <div id="vpViewportContainer" class="relative flex-1 w-full h-full flex items-center justify-center bg-black overflow-hidden select-none cursor-pointer" style="touch-action: pan-x;" onclick="toggleVideoPlayPause(event)">
+    <video id="mainVideoPlayer" class="w-full h-full object-contain max-h-screen pointer-events-none transition-transform duration-200" playsinline preload="auto" loop></video>
     
     <!-- Big Play/Pause indicator center -->
     <div id="vpCenterPlayIcon" class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity duration-200">
@@ -3894,6 +3894,8 @@ function openVideoPlayerByIndex(idx){
   let overlay = document.getElementById('videoPlayerOverlay');
   if(overlay) overlay.classList.remove('hidden');
 
+  initVideoSwipeGestures();
+
   let titleEl = document.getElementById('vpTitle');
   let catEl = document.getElementById('vpCategory');
   let idxEl = document.getElementById('vpIndex');
@@ -3970,7 +3972,10 @@ function closeVideoPlayer(){
   renderVideoGrid();
 }
 
+let swipeDragOccurred = false;
+
 function toggleVideoPlayPause(e){
+  if(swipeDragOccurred || isSwipeTransitioning) return;
   let player = getVideoPlayerElement();
   if(!player) return;
   if(player.paused){
@@ -3999,6 +4004,157 @@ function replayCurrentVideo(){
   if(player){
     player.currentTime = 0;
     player.play();
+  }
+}
+
+// TikTok-style Swipe Gesture Controller
+let touchStartY = 0;
+let touchStartX = 0;
+let touchDiffY = 0;
+let isSwipingVideo = false;
+let isSwipeTransitioning = false;
+
+function initVideoSwipeGestures(){
+  let viewport = document.getElementById('vpViewportContainer');
+  let player = getVideoPlayerElement();
+  if(!viewport || viewport._swipeInitialized) return;
+  viewport._swipeInitialized = true;
+
+  const SWIPE_THRESHOLD = 50; // pixels to trigger video change
+
+  // Touch Events (Mobile)
+  viewport.addEventListener('touchstart', (e) => {
+    if(isSwipeTransitioning) return;
+    if(e.touches.length !== 1) return;
+    touchStartY = e.touches[0].clientY;
+    touchStartX = e.touches[0].clientX;
+    touchDiffY = 0;
+    isSwipingVideo = true;
+    swipeDragOccurred = false;
+    if(player) player.style.transition = 'none';
+  }, { passive: true });
+
+  viewport.addEventListener('touchmove', (e) => {
+    if(!isSwipingVideo || isSwipeTransitioning) return;
+    if(e.touches.length !== 1) return;
+    let currentY = e.touches[0].clientY;
+    let currentX = e.touches[0].clientX;
+    let diffY = currentY - touchStartY;
+    let diffX = currentX - touchStartX;
+
+    // Prioritize vertical swipes over accidental horizontal wobbles
+    if(Math.abs(diffY) > 8 && Math.abs(diffY) > Math.abs(diffX)){
+      touchDiffY = diffY;
+      if(Math.abs(diffY) > 12) swipeDragOccurred = true;
+      // Damped translation for natural rubber-band / slide feel
+      let translateY = touchDiffY * 0.45;
+      if(player){
+        player.style.transform = `translateY(${translateY}px)`;
+      }
+    }
+  }, { passive: true });
+
+  viewport.addEventListener('touchend', (e) => {
+    if(!isSwipingVideo) return;
+    isSwipingVideo = false;
+    finishSwipeGesture();
+    setTimeout(() => { swipeDragOccurred = false; }, 200);
+  }, { passive: true });
+
+  viewport.addEventListener('touchcancel', () => {
+    isSwipingVideo = false;
+    swipeDragOccurred = false;
+    resetPlayerPosition();
+  }, { passive: true });
+
+  // Mouse drag support for desktop/testing
+  let isMouseDown = false;
+  viewport.addEventListener('mousedown', (e) => {
+    if(e.button !== 0 || isSwipeTransitioning) return;
+    touchStartY = e.clientY;
+    touchStartX = e.clientX;
+    touchDiffY = 0;
+    isMouseDown = true;
+    if(player) player.style.transition = 'none';
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if(!isMouseDown || isSwipeTransitioning) return;
+    let diffY = e.clientY - touchStartY;
+    let diffX = e.clientX - touchStartX;
+    if(Math.abs(diffY) > 8 && Math.abs(diffY) > Math.abs(diffX)){
+      touchDiffY = diffY;
+      let translateY = touchDiffY * 0.45;
+      if(player) player.style.transform = `translateY(${translateY}px)`;
+    }
+  });
+
+  window.addEventListener('mouseup', () => {
+    if(isMouseDown){
+      isMouseDown = false;
+      finishSwipeGesture();
+    }
+  });
+
+  function finishSwipeGesture(){
+    let player = getVideoPlayerElement();
+    if(!player) return;
+
+    if(touchDiffY < -SWIPE_THRESHOLD){
+      // Swiped UP -> Next Video (TikTok style)
+      isSwipeTransitioning = true;
+      player.style.transition = 'transform 0.22s cubic-bezier(0.2, 0.9, 0.3, 1), opacity 0.22s ease';
+      player.style.transform = 'translateY(-100%)';
+      player.style.opacity = '0.3';
+      setTimeout(() => {
+        playNextVideo();
+        player.style.transition = 'none';
+        player.style.transform = 'translateY(100%)';
+        player.style.opacity = '0.3';
+        requestAnimationFrame(() => {
+          player.style.transition = 'transform 0.22s cubic-bezier(0.2, 0.9, 0.3, 1), opacity 0.22s ease';
+          player.style.transform = 'translateY(0)';
+          player.style.opacity = '1';
+          setTimeout(() => {
+            isSwipeTransitioning = false;
+            resetPlayerPosition();
+          }, 240);
+        });
+      }, 220);
+    } else if(touchDiffY > SWIPE_THRESHOLD){
+      // Swiped DOWN -> Previous Video
+      isSwipeTransitioning = true;
+      player.style.transition = 'transform 0.22s cubic-bezier(0.2, 0.9, 0.3, 1), opacity 0.22s ease';
+      player.style.transform = 'translateY(100%)';
+      player.style.opacity = '0.3';
+      setTimeout(() => {
+        playPrevVideo();
+        player.style.transition = 'none';
+        player.style.transform = 'translateY(-100%)';
+        player.style.opacity = '0.3';
+        requestAnimationFrame(() => {
+          player.style.transition = 'transform 0.22s cubic-bezier(0.2, 0.9, 0.3, 1), opacity 0.22s ease';
+          player.style.transform = 'translateY(0)';
+          player.style.opacity = '1';
+          setTimeout(() => {
+            isSwipeTransitioning = false;
+            resetPlayerPosition();
+          }, 240);
+        });
+      }, 220);
+    } else {
+      resetPlayerPosition();
+    }
+    touchDiffY = 0;
+  }
+
+  function resetPlayerPosition(){
+    let player = getVideoPlayerElement();
+    if(player){
+      player.style.transition = 'transform 0.2s ease-out, opacity 0.2s ease-out';
+      player.style.transform = 'translateY(0)';
+      player.style.opacity = '1';
+    }
   }
 }
 
