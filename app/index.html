@@ -11,10 +11,10 @@
 <meta name="theme-color" content="#6366f1">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="IdiomMaster">
-<script src="data/idioms.js?v=2.4"></script>
-<script src="data/oxford3000.js?v=2.4"></script>
-<script src="data/sentences.js?v=2.4"></script>
-<script src="data/videos.js?v=1.0"></script>
+<script src="data/idioms.js"></script>
+<script src="data/oxford3000.js"></script>
+<script src="data/sentences.js"></script>
+<script src="data/videos.js"></script>
 <script src="data/jszip.min.js"></script>
 <script type="module" src="../src/main.ts"></script>
 <script src="https://cdn.tailwindcss.com"></script>
@@ -3689,10 +3689,17 @@ function getCategoryColor(cat){
   return colors[cat] || 'bg-slate-700 text-white';
 }
 
-function renderVideoTab(){
-  if(!videoPool.length && window.__VIDEOS__ && window.__VIDEOS__.length){
+function ensureVideoPoolLoaded(){
+  if(videoPool && videoPool.length) return videoPool;
+  if(window.__VIDEOS__ && Array.isArray(window.__VIDEOS__) && window.__VIDEOS__.length){
     videoPool = window.__VIDEOS__;
+    return videoPool;
   }
+  return videoPool || [];
+}
+
+function renderVideoTab(){
+  ensureVideoPoolLoaded();
   updateVideoStats();
   refreshCachedVideoIds().then(() => {
     renderVideoGrid();
@@ -3700,6 +3707,7 @@ function renderVideoTab(){
 }
 
 function updateVideoStats(){
+  ensureVideoPoolLoaded();
   let elTotal = document.getElementById('vidStatTotal');
   let elWatched = document.getElementById('vidStatWatched');
   let elSaved = document.getElementById('vidStatSaved');
@@ -3710,6 +3718,7 @@ function updateVideoStats(){
 }
 
 function renderVideoGrid(){
+  ensureVideoPoolLoaded();
   let grid = document.getElementById('videoGrid');
   let countEl = document.getElementById('videoResultCount');
   let loadMoreWrap = document.getElementById('videoLoadMoreWrap');
@@ -4301,6 +4310,8 @@ async function handleVideoFilesImport(event){
     return;
   }
 
+  ensureVideoPoolLoaded();
+
   let wrap = document.getElementById('videoDownloadProgressBarWrap');
   let bar = document.getElementById('videoDownloadProgressBar');
   let pct = document.getElementById('videoDownloadProgressPercent');
@@ -4310,10 +4321,46 @@ async function handleVideoFilesImport(event){
   if(wrap) wrap.classList.remove('hidden');
   downloadCancelFlag = false;
 
-  let filenameToId = {};
+  // Build bulletproof matching lookup maps
+  let ytIdToVideo = {};
+  let filenameToVideo = {};
+
   videoPool.forEach(v => {
-    filenameToId[v.filename.toLowerCase()] = v.id;
+    if(v.yt_id) ytIdToVideo[v.yt_id] = v;
+    let fn = v.filename.toLowerCase();
+    filenameToVideo[fn] = v;
+    try {
+      filenameToVideo[fn.normalize('NFC')] = v;
+      filenameToVideo[fn.normalize('NFD')] = v;
+    } catch(e){}
   });
+
+  function findMatchingVideo(entryName){
+    let base = entryName.split('/').pop().split('\\').pop();
+    let lowerBase = base.toLowerCase();
+
+    // 1. Match by YouTube ID [xxxxxxxxxxx] (100% reliable across any OS/encoding)
+    let ytMatch = base.match(/\[([a-zA-Z0-9_-]{11})\]/);
+    if(ytMatch && ytIdToVideo[ytMatch[1]]){
+      return ytIdToVideo[ytMatch[1]];
+    }
+
+    // 2. Direct filename match
+    if(filenameToVideo[lowerBase]) return filenameToVideo[lowerBase];
+    try {
+      if(filenameToVideo[lowerBase.normalize('NFC')]) return filenameToVideo[lowerBase.normalize('NFC')];
+      if(filenameToVideo[lowerBase.normalize('NFD')]) return filenameToVideo[lowerBase.normalize('NFD')];
+    } catch(e){}
+
+    // 3. Match by video ID if in entry name (e.g. vid_0001)
+    let vidMatch = base.match(/vid_(\d{4})/i);
+    if(vidMatch){
+      let found = videoPool.find(v => v.id.toLowerCase() === vidMatch[0].toLowerCase());
+      if(found) return found;
+    }
+
+    return null;
+  }
 
   let totalExtracted = 0;
 
@@ -4325,7 +4372,7 @@ async function handleVideoFilesImport(event){
       if(statusText) statusText.innerHTML = `<i class="fa-solid fa-spinner fa-spin text-rose-500"></i> กำลังเปิดไฟล์ Zip (${file.name})...`;
       if(pct) pct.textContent = '5%';
       if(bar) bar.style.width = '5%';
-      if(countText) countText.textContent = `กำลังโหลดข้อมูลสารบัญไฟล์...`;
+      if(countText) countText.textContent = `กำลังโหลดสารบัญไฟล์...`;
 
       try {
         let zip = await JSZip.loadAsync(file);
@@ -4337,8 +4384,9 @@ async function handleVideoFilesImport(event){
 
         for(let entryName of zipEntries){
           if(downloadCancelFlag) break;
-          let basename = entryName.split('/').pop().split('\\').pop().toLowerCase();
-          let vId = filenameToId[basename];
+          let matchedVid = findMatchingVideo(entryName);
+          let vId = matchedVid ? matchedVid.id : null;
+
           if(vId){
             let videoBlob = await zip.files[entryName].async('blob');
             await saveVideoBlob(vId, videoBlob);
@@ -4357,8 +4405,8 @@ async function handleVideoFilesImport(event){
       }
 
     } else if(file.name.toLowerCase().endsWith('.webm')){
-      let basename = file.name.toLowerCase();
-      let vId = filenameToId[basename];
+      let matchedVid = findMatchingVideo(file.name);
+      let vId = matchedVid ? matchedVid.id : null;
       if(vId){
         await saveVideoBlob(vId, file);
         cachedVideoIds.add(vId);
@@ -4371,10 +4419,15 @@ async function handleVideoFilesImport(event){
     }
   }
 
-  if(statusText) statusText.innerHTML = `<i class="fa-solid fa-check text-emerald-500"></i> สำเร็จ! ติดตั้งคลิปทั้งหมดเรียบร้อยแล้ว`;
-  if(bar) bar.style.width = '100%';
-  if(pct) pct.textContent = '100%';
-  showToast(`นำเข้าสำเร็จ ${totalExtracted} คลิป! พร้อมเล่นแบบ Offline ได้ทันที 🎉`);
+  if(totalExtracted > 0){
+    if(statusText) statusText.innerHTML = `<i class="fa-solid fa-check text-emerald-500"></i> สำเร็จ! ติดตั้งคลิปทั้งหมดเรียบร้อยแล้ว`;
+    if(bar) bar.style.width = '100%';
+    if(pct) pct.textContent = '100%';
+    showToast(`นำเข้าสำเร็จ ${totalExtracted} คลิป! พร้อมเล่นแบบ Offline ได้ทันที 🎉`);
+  } else {
+    if(statusText) statusText.innerHTML = `<i class="fa-solid fa-triangle-exclamation text-amber-500"></i> ไม่พบคลิปที่ตรงกับบทเรียนในไฟล์นี้ (นำเข้า 0 คลิป)`;
+    showToast(`ไม่พบคลิปที่ตรงกับบทเรียน กรุณาตรวจสอบว่าเลือกไฟล์ videos-pack-part...zip ถูกต้อง`);
+  }
 
   updateOfflineStatusBadge();
   renderVideoGrid();
