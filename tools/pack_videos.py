@@ -17,7 +17,7 @@ files = sorted(glob.glob(os.path.join(VIDEO_DIR, '*.webm')))
 total_files = len(files)
 print(f"เตรียมแพ็กไฟล์ทั้งหมด {total_files} ไฟล์...")
 
-PARTS = 3
+PARTS = 5
 chunk_size = math.ceil(total_files / PARTS)
 
 for part_idx in range(PARTS):
@@ -32,10 +32,11 @@ for part_idx in range(PARTS):
     
     with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_STORED, allowZip64=True) as zf:
         for f in part_files:
-            arcname = os.path.join('video', os.path.basename(f))
+            # เก็บทั้งชื่อตรงๆ (basename) เพื่อให้อ่านง่ายและไม่ติดโฟลเดอร์ย่อย
+            arcname = os.path.basename(f)
             zf.write(f, arcname=arcname)
             
     size_mb = round(os.path.getsize(zip_path) / (1024 * 1024), 2)
     print(f"สร้างสำเร็จ: {zip_path} (ขนาด: {size_mb} MB)")
 
-print("\nแพ็กไฟล์วิดีโอครบทั้ง 3 ส่วนเรียบร้อยแล้ว!")
+print("\nแพ็กไฟล์วิดีโอครบทั้ง 5 ส่วนเรียบร้อยแล้ว!")
