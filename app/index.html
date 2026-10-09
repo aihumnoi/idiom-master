@@ -14,6 +14,7 @@
 <script src="data/idioms.js?v=2.4"></script>
 <script src="data/oxford3000.js?v=2.4"></script>
 <script src="data/sentences.js?v=2.4"></script>
+<script src="data/videos.js?v=1.0"></script>
 <script type="module" src="../src/main.ts"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500&display=swap" rel="stylesheet">
@@ -155,6 +156,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[t
   </div>
   <div class="nav-tabs-top max-w-[1200px] mx-auto px-4 hidden md:flex gap-1 overflow-x-auto scrollbar-hide pb-2">
     <button data-tab="today" onclick="switchTab('today')" class="tab-btn active whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200"><i class="fa-solid fa-house mr-1"></i> วันนี้</button>
+    <button data-tab="video" onclick="switchTab('video')" class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200 text-rose-600 font-semibold"><i class="fa-solid fa-circle-play mr-1 text-rose-500"></i> คลิปสั้น (688)</button>
     <button data-tab="learn" onclick="switchTab('learn')" class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200"><i class="fa-solid fa-book-open mr-1"></i> เรียนใหม่</button>
     <button data-tab="review" onclick="switchTab('review')" class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200"><i class="fa-solid fa-rotate mr-1"></i> ทบทวน <span class="reviewBadge ml-1 bg-red-500 text-white text-xs px-1.5 py-0.5 rounded-full hidden">0</span></button>
     <button data-tab="practice" onclick="switchTab('practice')" class="tab-btn whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium bg-white border border-slate-200"><i class="fa-solid fa-gamepad mr-1"></i> ฝึกเกม</button>
@@ -164,6 +166,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[t
 </nav>
 <nav class="bottom-nav md:hidden fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur border-t border-slate-200 flex px-1 pt-1" style="padding-bottom:max(.35rem,env(safe-area-inset-bottom))">
   <button data-tab="today" onclick="switchTab('today')" class="tab-btn active"><i class="fa-solid fa-house"></i>วันนี้</button>
+  <button data-tab="video" onclick="switchTab('video')" class="tab-btn text-rose-600 font-semibold"><i class="fa-solid fa-circle-play text-rose-500"></i>คลิปสั้น</button>
   <button data-tab="learn" onclick="switchTab('learn')" class="tab-btn"><i class="fa-solid fa-book-open"></i>เรียน</button>
   <button data-tab="review" onclick="switchTab('review')" class="tab-btn relative"><i class="fa-solid fa-rotate"></i>ทบทวน<span class="reviewBadge absolute top-1 right-2 bg-red-500 text-white text-[10px] min-w-[1.1rem] h-[1.1rem] px-1 rounded-full hidden leading-[1.1rem]">0</span></button>
   <button data-tab="practice" onclick="switchTab('practice')" class="tab-btn"><i class="fa-solid fa-gamepad"></i>ฝึก</button>
@@ -227,6 +230,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[t
             <div class="flex gap-2 mt-4">
               <button onclick="switchTab('learn')" class="flex-1 bg-white/20 border border-white/30 text-white font-semibold py-3.5 rounded-xl min-h-12 text-base hover:bg-white/30 active:scale-[0.98] transition">เรียนใหม่</button>
               <button onclick="switchTab('review')" class="flex-1 bg-white/20 border border-white/30 text-white font-semibold py-3.5 rounded-xl min-h-12 text-base hover:bg-white/30 active:scale-[0.98] transition">ทบทวน</button>
+              <button onclick="switchTab('video')" class="flex-1 bg-rose-500/80 border border-rose-400 text-white font-semibold py-3.5 rounded-xl min-h-12 text-base hover:bg-rose-500 active:scale-[0.98] transition"><i class="fa-solid fa-play mr-1"></i> ดูคลิป (688)</button>
             </div>
           </div>
         </div>
@@ -533,6 +537,143 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[t
       <div id="weakItems" class="mt-3 space-y-2 text-sm"></div>
     </div>
   </section>
+
+  <!-- VIDEO LESSONS — คลังคลิปสั้น 688 คลิป เล่นเต็มจอ Offline -->
+  <section id="tab-video" class="tab-panel hidden">
+    <!-- Header & Search & Filter Bar -->
+    <div class="bg-gradient-to-r from-rose-600 via-pink-600 to-indigo-600 rounded-2xl p-5 md:p-6 text-white mb-4 shadow-lg relative overflow-hidden">
+      <div class="absolute -right-12 -top-12 w-48 h-48 bg-white/10 rounded-full pointer-events-none"></div>
+      <div class="relative z-10">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 text-xs font-semibold backdrop-blur-sm mb-2">
+              <i class="fa-solid fa-bolt text-amber-300"></i> โหมดการเรียนรูปแบบใหม่ • Fullscreen Offline
+            </div>
+            <h2 class="text-2xl md:text-3xl font-bold font-outfit">ห้องเรียนคลิปสั้นอังกฤษ</h2>
+            <p class="text-white/80 text-sm mt-1">คลัง 688 วิดีโอสั้นคมชัด เล่นเต็มจอไม่ต้องต่อเน็ต ทบทวนได้ทุกที่</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="playRandomVideo()" class="px-4 py-2.5 rounded-xl bg-white text-rose-600 font-bold hover:bg-rose-50 active:scale-95 transition shadow text-sm flex items-center gap-1.5 min-h-11">
+              <i class="fa-solid fa-shuffle"></i> สุ่มคลิปเรียน
+            </button>
+            <button onclick="openNextUnwatchedVideo()" class="px-4 py-2.5 rounded-xl bg-rose-500/80 border border-white/30 text-white font-semibold hover:bg-rose-500 active:scale-95 transition text-sm flex items-center gap-1.5 min-h-11">
+              <i class="fa-solid fa-play"></i> คลิปถัดไป
+            </button>
+          </div>
+        </div>
+
+        <!-- Stats Bar -->
+        <div class="grid grid-cols-3 gap-2 mt-4 pt-3 border-t border-white/20 text-center">
+          <div class="bg-white/10 backdrop-blur rounded-xl p-2.5">
+            <div class="text-xl md:text-2xl font-bold font-outfit" id="vidStatTotal">688</div>
+            <div class="text-[11px] text-white/80">คลิปทั้งหมด</div>
+          </div>
+          <div class="bg-white/10 backdrop-blur rounded-xl p-2.5">
+            <div class="text-xl md:text-2xl font-bold font-outfit text-emerald-300" id="vidStatWatched">0</div>
+            <div class="text-[11px] text-white/80">ดูจบแล้ว</div>
+          </div>
+          <div class="bg-white/10 backdrop-blur rounded-xl p-2.5">
+            <div class="text-xl md:text-2xl font-bold font-outfit text-amber-300" id="vidStatSaved">0</div>
+            <div class="text-[11px] text-white/80">ที่บันทึกไว้</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter & Search Controls -->
+    <div class="bg-white rounded-2xl border border-slate-200 p-4 mb-4 shadow-sm">
+      <div class="flex flex-wrap gap-2.5 items-center">
+        <div class="relative flex-1 min-w-[200px]">
+          <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400"></i>
+          <input id="videoSearchInput" oninput="debouncedRenderVideos()" placeholder="ค้นหาคลิป เช่น สำนวน, quiz, tense, แชท..." class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white text-sm outline-none focus:ring-2 focus:ring-rose-500 min-h-11">
+        </div>
+        <select id="videoCategorySelect" onchange="filterVideosByCategory(this.value)" class="px-3 py-2.5 rounded-xl border border-slate-200 bg-slate-50 text-sm min-h-11 outline-none font-medium">
+          <option value="all">📂 ทุกหมวด (688)</option>
+          <option value="quiz">❓ ตอบคำถาม & Quiz (162)</option>
+          <option value="idiom">🎬 สำนวน & จากหนัง (124)</option>
+          <option value="sentence">💬 ประโยคใช้จริง & สนทนา (122)</option>
+          <option value="grammar">📖 ไวยากรณ์ & Tense (84)</option>
+          <option value="vocab">🏷️ คำศัพท์ติดปาก (43)</option>
+          <option value="chat">📱 ตัวย่อสายแชท (18)</option>
+          <option value="listening">🎧 ฝึกฟัง & พูดตาม (13)</option>
+          <option value="general">⚡ บทเรียนสั้นทั่วไป (122)</option>
+        </select>
+        <select id="videoStatusFilter" onchange="renderVideoGrid()" class="px-3 py-2.5 rounded-xl border border-slate-200 bg-slate-50 text-sm min-h-11 outline-none font-medium">
+          <option value="all">👁️ ทั้งหมด</option>
+          <option value="unwatched">⚪ ยังไม่ได้ดู</option>
+          <option value="watched">✅ ดูแล้ว</option>
+          <option value="saved">⭐ บันทึกไว้</option>
+        </select>
+      </div>
+
+      <!-- Quick category pills -->
+      <div class="flex gap-1.5 overflow-x-auto scrollbar-hide mt-3 pt-2 border-t border-slate-100 text-xs">
+        <button onclick="filterVideosByCategory('all')" class="vid-pill px-3 py-1.5 rounded-full border border-slate-200 bg-slate-900 text-white font-medium shrink-0" data-cat="all">ทั้งหมด</button>
+        <button onclick="filterVideosByCategory('quiz')" class="vid-pill px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 font-medium shrink-0 hover:bg-slate-100" data-cat="quiz">❓ Quiz</button>
+        <button onclick="filterVideosByCategory('idiom')" class="vid-pill px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 font-medium shrink-0 hover:bg-slate-100" data-cat="idiom">🎬 สำนวน/หนัง</button>
+        <button onclick="filterVideosByCategory('sentence')" class="vid-pill px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 font-medium shrink-0 hover:bg-slate-100" data-cat="sentence">💬 สนทนา</button>
+        <button onclick="filterVideosByCategory('grammar')" class="vid-pill px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 font-medium shrink-0 hover:bg-slate-100" data-cat="grammar">📖 แกรมม่า</button>
+        <button onclick="filterVideosByCategory('vocab')" class="vid-pill px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 font-medium shrink-0 hover:bg-slate-100" data-cat="vocab">🏷️ คำศัพท์</button>
+        <button onclick="filterVideosByCategory('chat')" class="vid-pill px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 font-medium shrink-0 hover:bg-slate-100" data-cat="chat">📱 แชท</button>
+        <button onclick="filterVideosByCategory('listening')" class="vid-pill px-3 py-1.5 rounded-full border border-slate-200 bg-slate-50 text-slate-700 font-medium shrink-0 hover:bg-slate-100" data-cat="listening">🎧 ฝึกฟัง</button>
+      </div>
+    </div>
+
+    <!-- Offline Sync Banner for Mobile/Browser -->
+    <div class="bg-gradient-to-r from-slate-900 to-indigo-950 text-white rounded-2xl p-4 sm:p-5 mb-4 border border-slate-700 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div class="flex items-center gap-3.5">
+        <div class="w-11 h-11 rounded-xl bg-rose-500/20 text-rose-400 border border-rose-500/30 flex items-center justify-center text-xl shrink-0">
+          <i class="fa-solid fa-cloud-arrow-down"></i>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm sm:text-base flex items-center gap-2">
+            บันทึกคลิปไว้ดู Offline ในเครื่อง
+            <span id="offlineStatusBadge" class="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-600">พร้อมใช้งาน</span>
+          </h4>
+          <p class="text-xs text-slate-300 mt-0.5" id="offlineDescText">ดูคลิปผ่านเน็ต หรือกดซิงค์ดาวน์โหลดเก็บไว้ในเครื่องเพื่อเปิดดูได้แม้ไม่มีอินเทอร์เน็ต</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2 w-full md:w-auto shrink-0">
+        <button id="btnDownloadCurrentVideo" onclick="downloadCurrentFilteredVideos()" class="flex-1 md:flex-initial px-4 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-semibold flex items-center justify-center gap-2 active:scale-95 transition shadow min-h-10">
+          <i class="fa-solid fa-download"></i> โหลดคลิปหมวดนี้ (<span id="downloadPackCount">0</span>)
+        </button>
+        <button onclick="checkOfflineStorageUsage()" class="px-3 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs border border-slate-700 flex items-center gap-1.5 min-h-10" title="ตรวจสอบพื้นที่">
+          <i class="fa-solid fa-database"></i> พื้นที่
+        </button>
+      </div>
+    </div>
+
+    <!-- Download Progress Bar (Hidden by default) -->
+    <div id="videoDownloadProgressBarWrap" class="hidden bg-white rounded-2xl border border-rose-200 p-4 mb-4 shadow-sm">
+      <div class="flex items-center justify-between text-xs font-semibold text-slate-700 mb-1.5">
+        <span id="videoDownloadStatusText" class="flex items-center gap-1.5"><i class="fa-solid fa-spinner fa-spin text-rose-500"></i> กำลังดาวน์โหลดคลิปลงเครื่อง...</span>
+        <span id="videoDownloadProgressPercent" class="font-outfit text-rose-600 font-bold">0%</span>
+      </div>
+      <div class="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden">
+        <div id="videoDownloadProgressBar" class="h-full bg-gradient-to-r from-rose-500 to-pink-500 w-0 transition-all duration-200"></div>
+      </div>
+      <div class="flex items-center justify-between text-[11px] text-slate-400 mt-2">
+        <span id="videoDownloadCountText">0 / 0 คลิป</span>
+        <button onclick="cancelVideoDownloads()" class="text-rose-500 hover:underline">ยกเลิก</button>
+      </div>
+    </div>
+
+    <!-- Video Grid -->
+    <div id="videoGridContainer">
+      <div class="flex items-center justify-between mb-3 text-sm text-slate-500">
+        <span id="videoResultCount">กำลังโหลดคลิป...</span>
+        <span class="text-xs text-slate-400">คลิกที่การ์ดเพื่อเปิดเล่นเต็มจอ</span>
+      </div>
+      <div id="videoGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4"></div>
+      
+      <!-- Pagination or Load More -->
+      <div id="videoLoadMoreWrap" class="mt-6 text-center hidden">
+        <button onclick="loadMoreVideos()" class="px-6 py-3 rounded-full bg-slate-900 text-white font-medium hover:bg-slate-800 text-sm shadow-md min-h-12">
+          โหลดคลิปเพิ่มเติม (<span id="videoLoadMoreRemain">0</span>)
+        </button>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer class="max-w-[1200px] mx-auto px-4 py-6 text-center text-sm text-muted border-t border-slate-200 mt-6">
@@ -706,6 +847,88 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[t
   </div>
 </div>
 
+<!-- FULLSCREEN VIDEO PLAYER MODAL (แอปเล่นคลิปแนวตั้ง/เต็มจอ) -->
+<div id="videoPlayerOverlay" class="fixed inset-0 z-[100] bg-black hidden flex flex-col select-none">
+  <!-- Top overlay bar -->
+  <div class="absolute top-0 inset-x-0 z-30 p-3 md:p-4 bg-gradient-to-b from-black/80 via-black/40 to-transparent flex items-center justify-between pointer-events-auto">
+    <div class="flex items-center gap-2.5 min-w-0 pr-2">
+      <button onclick="closeVideoPlayer()" class="w-10 h-10 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center backdrop-blur-md active:scale-95 transition" title="ปิดคลิป (Esc)">
+        <i class="fa-solid fa-chevron-left text-lg"></i>
+      </button>
+      <div class="min-w-0">
+        <h3 id="vpTitle" class="text-white text-sm md:text-base font-semibold truncate leading-tight">ชื่อบทเรียนวิดีโอ</h3>
+        <div class="flex items-center gap-2 mt-0.5">
+          <span id="vpCategory" class="text-[11px] px-2 py-0.5 rounded-full bg-rose-500/80 text-white font-medium">ตอบคำถาม</span>
+          <span id="vpIndex" class="text-white/60 text-xs font-outfit">1 / 688</span>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center gap-1.5 shrink-0">
+      <button id="vpSaveBtn" onclick="toggleSaveCurrentVideo()" class="w-10 h-10 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center backdrop-blur-md active:scale-95 transition" title="บันทึกคลิปนี้">
+        <i class="fa-regular fa-star text-base"></i>
+      </button>
+      <button onclick="toggleVideoFullscreenMode()" class="w-10 h-10 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center backdrop-blur-md active:scale-95 transition" title="เต็มจอ (F)">
+        <i class="fa-solid fa-expand text-base"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Video Viewport -->
+  <div class="relative flex-1 w-full h-full flex items-center justify-center bg-black overflow-hidden" onclick="toggleVideoPlayPause(event)">
+    <video id="mainVideoPlayer" class="w-full h-full object-contain max-h-screen" playsinline preload="auto" loop></video>
+    
+    <!-- Big Play/Pause indicator center -->
+    <div id="vpCenterPlayIcon" class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity duration-200">
+      <div class="w-16 h-16 rounded-full bg-black/60 backdrop-blur-md text-white flex items-center justify-center text-2xl shadow-xl">
+        <i class="fa-solid fa-play ml-1"></i>
+      </div>
+    </div>
+
+    <!-- Right Side Quick Actions (Shorts-style interaction) -->
+    <div class="absolute right-3 bottom-24 z-20 flex flex-col items-center gap-4 text-white pointer-events-auto">
+      <button onclick="event.stopPropagation(); replayCurrentVideo()" class="w-12 h-12 rounded-full bg-black/50 backdrop-blur-md hover:bg-black/80 flex flex-col items-center justify-center active:scale-90 transition shadow-lg" title="เล่นซ้ำ">
+        <i class="fa-solid fa-rotate-right text-lg"></i>
+        <span class="text-[9px] mt-0.5">เล่นซ้ำ</span>
+      </button>
+      <button onclick="event.stopPropagation(); changeVideoPlaybackRate()" class="w-12 h-12 rounded-full bg-black/50 backdrop-blur-md hover:bg-black/80 flex flex-col items-center justify-center active:scale-90 transition shadow-lg" title="ความเร็วเสียง">
+        <span id="vpSpeedText" class="text-xs font-bold font-outfit">1.0x</span>
+        <span class="text-[9px]">ความเร็ว</span>
+      </button>
+      <button onclick="event.stopPropagation(); toggleVideoMute()" class="w-12 h-12 rounded-full bg-black/50 backdrop-blur-md hover:bg-black/80 flex flex-col items-center justify-center active:scale-90 transition shadow-lg" title="ปิด/เปิดเสียง">
+        <i id="vpMuteIcon" class="fa-solid fa-volume-high text-base"></i>
+        <span class="text-[9px] mt-0.5">เสียง</span>
+      </button>
+      <button onclick="event.stopPropagation(); playPrevVideo()" class="w-12 h-12 rounded-full bg-black/50 backdrop-blur-md hover:bg-black/80 flex flex-col items-center justify-center active:scale-90 transition shadow-lg" title="คลิปก่อนหน้า (ลูกศรขึ้น)">
+        <i class="fa-solid fa-arrow-up text-base"></i>
+        <span class="text-[9px] mt-0.5">ก่อนหน้า</span>
+      </button>
+      <button onclick="event.stopPropagation(); playNextVideo()" class="w-12 h-12 rounded-full bg-rose-600 hover:bg-rose-500 flex flex-col items-center justify-center active:scale-90 transition shadow-lg" title="คลิปถัดไป (ลูกศรลง)">
+        <i class="fa-solid fa-arrow-down text-base"></i>
+        <span class="text-[9px] mt-0.5">ถัดไป</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Bottom overlay bar: Video Timeline & Metadata -->
+  <div class="absolute bottom-0 inset-x-0 z-30 p-3 md:p-4 bg-gradient-to-t from-black/90 via-black/50 to-transparent pointer-events-auto">
+    <!-- Progress Scrubber -->
+    <div class="relative w-full h-2 mb-2 flex items-center cursor-pointer group" onclick="seekVideo(event)">
+      <div class="w-full h-1 bg-white/30 rounded-full overflow-hidden group-hover:h-2 transition-all">
+        <div id="vpProgressBar" class="h-full bg-rose-500 w-0"></div>
+      </div>
+    </div>
+    
+    <div class="flex items-center justify-between text-xs text-white/80">
+      <div class="flex items-center gap-2">
+        <span id="vpCurrentTime" class="font-outfit">0:00</span> / <span id="vpDuration" class="font-outfit">0:00</span>
+      </div>
+      <div class="flex items-center gap-2 text-white/90">
+        <span id="vpTags" class="truncate max-w-[200px] sm:max-w-xs text-[11px] text-white/70"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
 function safeLsJson(key, fallback){
   try{
@@ -733,6 +956,15 @@ let allIdioms = [];
 let baseIdioms = [];
 let oxfordPool = [];
 let sentencePool = [];
+let videoPool = [];
+let filteredVideos = [];
+let currentVideoIndex = -1;
+let videoPage = 1;
+const VIDEO_PAGE_SIZE = 24;
+let videoWatched = new Set(safeLsJson('video_watched', []));
+let videoSaved = new Set(safeLsJson('video_saved', []));
+let currentVideoCategory = 'all';
+let currentVideoPlaybackRate = 1.0;
 let customVocab = safeLsJson('vocab_custom', []);
 let vocabEdits = safeLsJson('vocab_edits', {});
 let vocabHidden = new Set(safeLsJson('vocab_hidden', []));
@@ -1391,10 +1623,16 @@ async function init(){
   } else {
     try{ let se=await (await fetch('data/sentences.json?v=2.4')).json(); if(Array.isArray(se)) sentencePool=se; }catch(e){ console.log('[Sentences] fetch fail, use fallback', e); }
   }
+  // 1d) โหลดคลังวิดีโอ 688 คลิป
+  if(window.__VIDEOS__ && window.__VIDEOS__.length){
+    videoPool = window.__VIDEOS__;
+  } else {
+    try{ let vi=await (await fetch('data/videos.json?v=1.0')).json(); if(Array.isArray(vi)) videoPool=vi; }catch(e){ console.log('[Videos] fetch fail, use fallback', e); }
+  }
   // รวม
   rebuildIdioms();
   try{ localStorage.setItem('idioms_fallback', JSON.stringify(baseIdioms)); }catch(e){}
-  console.log('[IdiomMaster] loaded', baseIdioms.length, 'idioms +', oxfordPool.length, 'oxford +', sentencePool.length, 'sentences +', customVocab.length, 'custom =', idioms.length);
+  console.log('[IdiomMaster] loaded', baseIdioms.length, 'idioms +', oxfordPool.length, 'oxford +', sentencePool.length, 'sentences +', videoPool.length, 'videos +', customVocab.length, 'custom =', idioms.length);
   let _params=new URLSearchParams(location.search);
   if(['idiom','oxford','sentence','both'].includes(_params.get('track'))) { studyTrack=_params.get('track'); localStorage.setItem('study_track', studyTrack); }
   document.getElementById('dailyNew').value = settings.dailyNew;
@@ -1741,6 +1979,7 @@ function switchTab(name){
   document.querySelectorAll('.tab-panel').forEach(el=>el.classList.add('hidden'));
   document.getElementById('tab-'+name).classList.remove('hidden');
   document.querySelectorAll('.tab-btn').forEach(b=> b.classList.toggle('active', b.dataset.tab===name));
+  if(name==='video') renderVideoTab();
   if(name==='explore') renderExplore();
   if(name==='stats') renderStats();
   if(name==='review') prepareReview();
@@ -1762,10 +2001,25 @@ function switchTab(name){
 let isGrading=false;
 function handleKeys(e){
   if(e.key==='Escape'){
+    if(!document.getElementById('videoPlayerOverlay')?.classList.contains('hidden')){ closeVideoPlayer(); return; }
     if(!document.getElementById('settingsOverlay')?.classList.contains('hidden')){ closeSettings(); return; }
     if(!document.getElementById('onboardingOverlay')?.classList.contains('hidden')){ closeOnboarding(); return; }
     if(!document.getElementById('vocabEditOverlay')?.classList.contains('hidden')){ closeVocabEditor(); return; }
     if(!document.getElementById('lessonCompleteOverlay')?.classList.contains('hidden')){ goHomeNow(); return; }
+  }
+  
+  // Shortcut keys for Video Player when active
+  if(!document.getElementById('videoPlayerOverlay')?.classList.contains('hidden')){
+    if(e.code==='Space'||e.key==='k'){ e.preventDefault(); toggleVideoPlayPause(); return; }
+    if(e.code==='ArrowDown'||e.code==='PageDown'){ e.preventDefault(); playNextVideo(); return; }
+    if(e.code==='ArrowUp'||e.code==='PageUp'){ e.preventDefault(); playPrevVideo(); return; }
+    if(e.code==='ArrowRight'){ e.preventDefault(); seekVideoOffset(5); return; }
+    if(e.code==='ArrowLeft'){ e.preventDefault(); seekVideoOffset(-5); return; }
+    if(e.key==='f'||e.key==='F'){ e.preventDefault(); toggleVideoFullscreenMode(); return; }
+    if(e.key==='m'||e.key==='M'){ e.preventDefault(); toggleVideoMute(); return; }
+    if(e.key==='r'||e.key==='R'){ e.preventDefault(); replayCurrentVideo(); return; }
+    if(e.key==='s'||e.key==='S'){ e.preventDefault(); toggleSaveCurrentVideo(); return; }
+    return;
   }
   if(!document.getElementById('settingsOverlay')?.classList.contains('hidden')) return;
   if(!document.getElementById('onboardingOverlay')?.classList.contains('hidden')) return;
@@ -3314,6 +3568,604 @@ async function forceClearAppCache() {
     window.location.reload();
   }
 }
+// ==========================================
+// VIDEO LESSONS SYSTEM (โหมดเรียนคลิปสั้นแบบเต็มจอ Offline)
+// ==========================================
+let videoDebounceTimer = null;
+function debouncedRenderVideos(){
+  if(videoDebounceTimer) clearTimeout(videoDebounceTimer);
+  videoDebounceTimer = setTimeout(() => {
+    videoPage = 1;
+    renderVideoGrid();
+  }, 250);
+}
+
+function filterVideosByCategory(cat){
+  currentVideoCategory = cat;
+  let sel = document.getElementById('videoCategorySelect');
+  if(sel) sel.value = cat;
+  
+  // Highlight pills
+  document.querySelectorAll('.vid-pill').forEach(btn => {
+    let active = btn.dataset.cat === cat;
+    btn.classList.toggle('bg-slate-900', active);
+    btn.classList.toggle('text-white', active);
+    btn.classList.toggle('bg-slate-50', !active);
+    btn.classList.toggle('text-slate-700', !active);
+  });
+  
+  videoPage = 1;
+  renderVideoGrid();
+}
+
+function getCategoryColor(cat){
+  const colors = {
+    'quiz': 'bg-rose-500 text-white',
+    'idiom': 'bg-amber-500 text-white',
+    'sentence': 'bg-indigo-600 text-white',
+    'grammar': 'bg-violet-600 text-white',
+    'vocab': 'bg-emerald-600 text-white',
+    'chat': 'bg-cyan-600 text-white',
+    'listening': 'bg-blue-600 text-white',
+    'general': 'bg-slate-700 text-white'
+  };
+  return colors[cat] || 'bg-slate-700 text-white';
+}
+
+function renderVideoTab(){
+  if(!videoPool.length && window.__VIDEOS__ && window.__VIDEOS__.length){
+    videoPool = window.__VIDEOS__;
+  }
+  updateVideoStats();
+  renderVideoGrid();
+}
+
+function updateVideoStats(){
+  let elTotal = document.getElementById('vidStatTotal');
+  let elWatched = document.getElementById('vidStatWatched');
+  let elSaved = document.getElementById('vidStatSaved');
+  if(elTotal) elTotal.textContent = videoPool.length;
+  if(elWatched) elWatched.textContent = videoWatched.size;
+  if(elSaved) elSaved.saved = videoSaved.size;
+  if(elSaved) elSaved.textContent = videoSaved.size;
+}
+
+function renderVideoGrid(){
+  let grid = document.getElementById('videoGrid');
+  let countEl = document.getElementById('videoResultCount');
+  let loadMoreWrap = document.getElementById('videoLoadMoreWrap');
+  let remainEl = document.getElementById('videoLoadMoreRemain');
+  if(!grid) return;
+
+  let query = (document.getElementById('videoSearchInput')?.value || '').trim().toLowerCase();
+  let status = document.getElementById('videoStatusFilter')?.value || 'all';
+
+  filteredVideos = videoPool.filter(v => {
+    // category filter
+    if(currentVideoCategory !== 'all' && v.category !== currentVideoCategory) return false;
+    
+    // status filter
+    let isWatched = videoWatched.has(v.id);
+    let isSaved = videoSaved.has(v.id);
+    if(status === 'watched' && !isWatched) return false;
+    if(status === 'unwatched' && isWatched) return false;
+    if(status === 'saved' && !isSaved) return false;
+
+    // search query
+    if(query){
+      let matchTitle = v.title.toLowerCase().includes(query);
+      let matchCat = (v.category_th || '').toLowerCase().includes(query);
+      let matchTags = (v.tags || []).some(t => t.toLowerCase().includes(query));
+      if(!matchTitle && !matchCat && !matchTags) return false;
+    }
+    return true;
+  });
+
+  if(countEl){
+    countEl.textContent = `พบ ${filteredVideos.length} คลิป${query ? ` (ค้นหา "${query}")` : ''}`;
+  }
+
+  if(!filteredVideos.length){
+    grid.innerHTML = `
+      <div class="col-span-full py-16 text-center bg-slate-50 rounded-2xl border border-dashed border-slate-200">
+        <div class="text-4xl mb-2">🔍</div>
+        <div class="text-base font-semibold text-slate-700">ไม่พบวิดีโอที่ตรงกับเงื่อนไข</div>
+        <p class="text-xs text-slate-500 mt-1">ลองเปลี่ยนคำค้นหา หรือเลือกหมวดหมู่อื่น</p>
+        <button onclick="clearVideoFilters()" class="mt-4 px-4 py-2 rounded-xl bg-slate-900 text-white text-xs font-medium">ล้างตัวกรองทั้งหมด</button>
+      </div>
+    `;
+    if(loadMoreWrap) loadMoreWrap.classList.add('hidden');
+    return;
+  }
+
+  let visibleCount = videoPage * VIDEO_PAGE_SIZE;
+  let pageItems = filteredVideos.slice(0, visibleCount);
+
+  grid.innerHTML = pageItems.map((v, idx) => {
+    let watched = videoWatched.has(v.id);
+    let saved = videoSaved.has(v.id);
+    let badgeClass = getCategoryColor(v.category);
+    let tagsHtml = (v.tags || []).slice(0, 3).map(t => `<span class="px-1.5 py-0.5 rounded bg-slate-100 text-slate-600 text-[10px]">#${escHtml(t)}</span>`).join('');
+
+    return `
+      <div onclick="openVideoPlayerByIndex(${idx})" class="group cursor-pointer bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:border-rose-300 transition-all flex flex-col relative active:scale-[0.98]">
+        <!-- Video Card Thumbnail / Preview Header -->
+        <div class="relative w-full aspect-[16/10] bg-slate-900 overflow-hidden flex items-center justify-center">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
+          
+          <!-- Category badge -->
+          <div class="absolute top-2.5 left-2.5 z-20">
+            <span class="px-2 py-0.5 rounded-full text-[10px] font-bold ${badgeClass}">
+              ${escHtml(v.category_th)}
+            </span>
+          </div>
+
+          <!-- Star bookmark icon -->
+          <button onclick="event.stopPropagation(); toggleSaveVideo('${v.id}')" class="absolute top-2.5 right-2.5 z-20 w-8 h-8 rounded-full bg-black/40 hover:bg-black/70 flex items-center justify-center text-white backdrop-blur transition" title="บันทึกคลิป">
+            <i class="${saved ? 'fa-solid fa-star text-amber-400' : 'fa-regular fa-star text-white'} text-xs"></i>
+          </button>
+
+          <!-- Play icon in center -->
+          <div class="w-12 h-12 rounded-full bg-rose-600/90 text-white flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:bg-rose-500 transition-transform z-20">
+            <i class="fa-solid fa-play ml-0.5 text-base"></i>
+          </div>
+
+          <!-- Bottom bar in thumb -->
+          <div class="absolute bottom-2 inset-x-2.5 z-20 flex items-center justify-between text-[11px] text-white/90">
+            <span class="font-outfit"><i class="fa-solid fa-film text-rose-400 mr-1"></i>Offline Ready</span>
+            ${watched ? '<span class="text-emerald-400 font-medium flex items-center gap-1"><i class="fa-solid fa-check"></i> ดูแล้ว</span>' : '<span class="text-white/60">ยังไม่ได้ดู</span>'}
+          </div>
+        </div>
+
+        <!-- Video Card Body -->
+        <div class="p-3.5 flex-1 flex flex-col justify-between">
+          <div>
+            <h4 class="font-medium text-sm text-slate-800 line-clamp-2 group-hover:text-rose-600 transition leading-snug">
+              ${escHtml(v.title)}
+            </h4>
+            <div class="flex flex-wrap gap-1 mt-2.5">
+              ${tagsHtml}
+            </div>
+          </div>
+          <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400">
+            <span>${v.size_mb ? v.size_mb + ' MB' : ''}</span>
+            <span class="text-rose-600 font-semibold flex items-center gap-1">กดเปิดดู <i class="fa-solid fa-arrow-right text-[10px]"></i></span>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  if(loadMoreWrap){
+    let remaining = filteredVideos.length - visibleCount;
+    if(remaining > 0){
+      loadMoreWrap.classList.remove('hidden');
+      if(remainEl) remainEl.textContent = remaining;
+    } else {
+      loadMoreWrap.classList.add('hidden');
+    }
+  }
+}
+
+function clearVideoFilters(){
+  let searchInput = document.getElementById('videoSearchInput');
+  let statusSel = document.getElementById('videoStatusFilter');
+  if(searchInput) searchInput.value = '';
+  if(statusSel) statusSel.value = 'all';
+  filterVideosByCategory('all');
+}
+
+function loadMoreVideos(){
+  videoPage++;
+  renderVideoGrid();
+}
+
+function playRandomVideo(){
+  if(!videoPool.length) return;
+  let randIdx = Math.floor(Math.random() * videoPool.length);
+  filteredVideos = [...videoPool];
+  openVideoPlayerByIndex(randIdx);
+}
+
+function openNextUnwatchedVideo(){
+  if(!videoPool.length) return;
+  let unwatched = videoPool.filter(v => !videoWatched.has(v.id));
+  if(!unwatched.length){
+    showToast('คุณดูครบทุกคลิปแล้ว! เยี่ยมมาก 🎉');
+    playRandomVideo();
+    return;
+  }
+  filteredVideos = unwatched;
+  openVideoPlayerByIndex(0);
+}
+
+// ==========================================
+// FULLSCREEN VIDEO PLAYER CONTROLLER
+// ==========================================
+let videoPlayerEl = null;
+
+function getVideoPlayerElement(){
+  if(!videoPlayerEl){
+    videoPlayerEl = document.getElementById('mainVideoPlayer');
+    if(videoPlayerEl){
+      videoPlayerEl.addEventListener('timeupdate', updateVideoProgressUI);
+      videoPlayerEl.addEventListener('ended', onVideoEnded);
+      videoPlayerEl.addEventListener('play', () => showPlayPauseIndicator(false));
+      videoPlayerEl.addEventListener('pause', () => showPlayPauseIndicator(true));
+      videoPlayerEl.addEventListener('error', onVideoError);
+    }
+  }
+  return videoPlayerEl;
+}
+
+function openVideoPlayerByIndex(idx){
+  if(!filteredVideos || idx < 0 || idx >= filteredVideos.length) return;
+  currentVideoIndex = idx;
+  let item = filteredVideos[idx];
+
+  let overlay = document.getElementById('videoPlayerOverlay');
+  if(overlay) overlay.classList.remove('hidden');
+
+  let titleEl = document.getElementById('vpTitle');
+  let catEl = document.getElementById('vpCategory');
+  let idxEl = document.getElementById('vpIndex');
+  let tagsEl = document.getElementById('vpTags');
+
+  if(titleEl) titleEl.textContent = item.title;
+  if(catEl) catEl.textContent = item.category_th || item.category;
+  if(idxEl) idxEl.textContent = `${idx + 1} / ${filteredVideos.length}`;
+  if(tagsEl) tagsEl.textContent = (item.tags || []).map(t => '#' + t).join(' ');
+
+  updateSaveBtnUI(item.id);
+
+  let player = getVideoPlayerElement();
+  if(player){
+    // ตรวจสอบว่ามีไฟล์แคชแบบออฟไลน์ในเครื่องหรือไม่
+    getCachedVideoBlob(item.id).then(blob => {
+      if(blob){
+        player.src = URL.createObjectURL(blob);
+      } else {
+        player.src = item.src;
+      }
+      player.playbackRate = currentVideoPlaybackRate;
+      let playPromise = player.play();
+      if(playPromise !== undefined){
+        playPromise.catch(err => {
+          console.warn('[VideoPlayer] Autoplay prevented, waiting for user tap', err);
+          showPlayPauseIndicator(true);
+        });
+      }
+    }).catch(() => {
+      player.src = item.src;
+      player.play().catch(e=>showPlayPauseIndicator(true));
+    });
+  }
+
+  // Mark as watched
+  if(!videoWatched.has(item.id)){
+    videoWatched.add(item.id);
+    try{ localStorage.setItem('video_watched', JSON.stringify([...videoWatched])); }catch(e){}
+    updateVideoStats();
+  }
+}
+
+function closeVideoPlayer(){
+  let overlay = document.getElementById('videoPlayerOverlay');
+  if(overlay) overlay.classList.add('hidden');
+  
+  let player = getVideoPlayerElement();
+  if(player){
+    player.pause();
+    player.removeAttribute('src');
+    player.load();
+  }
+
+  if(document.fullscreenElement){
+    try{ document.exitFullscreen(); }catch(e){}
+  }
+  renderVideoGrid();
+}
+
+function toggleVideoPlayPause(e){
+  let player = getVideoPlayerElement();
+  if(!player) return;
+  if(player.paused){
+    player.play();
+  } else {
+    player.pause();
+  }
+}
+
+function showPlayPauseIndicator(isPaused){
+  let iconWrap = document.getElementById('vpCenterPlayIcon');
+  if(!iconWrap) return;
+  iconWrap.innerHTML = `
+    <div class="w-16 h-16 rounded-full bg-black/60 backdrop-blur-md text-white flex items-center justify-center text-2xl shadow-xl">
+      <i class="fa-solid ${isPaused ? 'fa-play ml-1' : 'fa-pause'}"></i>
+    </div>
+  `;
+  iconWrap.classList.remove('opacity-0');
+  setTimeout(() => {
+    if(iconWrap) iconWrap.classList.add('opacity-0');
+  }, 400);
+}
+
+function replayCurrentVideo(){
+  let player = getVideoPlayerElement();
+  if(player){
+    player.currentTime = 0;
+    player.play();
+  }
+}
+
+function playNextVideo(){
+  if(!filteredVideos.length) return;
+  let nextIdx = (currentVideoIndex + 1) % filteredVideos.length;
+  openVideoPlayerByIndex(nextIdx);
+}
+
+function playPrevVideo(){
+  if(!filteredVideos.length) return;
+  let prevIdx = (currentVideoIndex - 1 + filteredVideos.length) % filteredVideos.length;
+  openVideoPlayerByIndex(prevIdx);
+}
+
+function seekVideoOffset(seconds){
+  let player = getVideoPlayerElement();
+  if(player){
+    player.currentTime = Math.max(0, Math.min(player.duration || 0, player.currentTime + seconds));
+  }
+}
+
+function seekVideo(e){
+  let player = getVideoPlayerElement();
+  if(!player || !player.duration) return;
+  let rect = e.currentTarget.getBoundingClientRect();
+  let pos = (e.clientX - rect.left) / rect.width;
+  player.currentTime = pos * player.duration;
+}
+
+function changeVideoPlaybackRate(){
+  const rates = [1.0, 1.25, 1.5, 0.75];
+  let currIdx = rates.indexOf(currentVideoPlaybackRate);
+  currentVideoPlaybackRate = rates[(currIdx + 1) % rates.length];
+  
+  let player = getVideoPlayerElement();
+  if(player) player.playbackRate = currentVideoPlaybackRate;
+  
+  let speedText = document.getElementById('vpSpeedText');
+  if(speedText) speedText.textContent = `${currentVideoPlaybackRate}x`;
+  showToast(`ความเร็ววิดีโอ: ${currentVideoPlaybackRate}x`);
+}
+
+function toggleVideoMute(){
+  let player = getVideoPlayerElement();
+  if(!player) return;
+  player.muted = !player.muted;
+  let icon = document.getElementById('vpMuteIcon');
+  if(icon){
+    icon.className = player.muted ? 'fa-solid fa-volume-xmark text-base text-rose-400' : 'fa-solid fa-volume-high text-base';
+  }
+}
+
+function toggleVideoFullscreenMode(){
+  let overlay = document.getElementById('videoPlayerOverlay');
+  if(!overlay) return;
+  if(!document.fullscreenElement){
+    if(overlay.requestFullscreen) overlay.requestFullscreen().catch(e=>console.log(e));
+    else if(overlay.webkitRequestFullscreen) overlay.webkitRequestFullscreen();
+  } else {
+    if(document.exitFullscreen) document.exitFullscreen().catch(e=>console.log(e));
+  }
+}
+
+function toggleSaveCurrentVideo(){
+  if(currentVideoIndex < 0 || !filteredVideos[currentVideoIndex]) return;
+  let id = filteredVideos[currentVideoIndex].id;
+  toggleSaveVideo(id);
+  updateSaveBtnUI(id);
+}
+
+function toggleSaveVideo(id){
+  if(videoSaved.has(id)){
+    videoSaved.delete(id);
+    showToast('นำออกจากรายการที่บันทึกแล้ว');
+  } else {
+    videoSaved.add(id);
+    showToast('บันทึกคลิปนี้แล้ว ⭐');
+  }
+  try{ localStorage.setItem('video_saved', JSON.stringify([...videoSaved])); }catch(e){}
+  updateVideoStats();
+  renderVideoGrid();
+}
+
+function updateSaveBtnUI(id){
+  let btn = document.getElementById('vpSaveBtn');
+  if(!btn) return;
+  let isSaved = videoSaved.has(id);
+  btn.innerHTML = `<i class="${isSaved ? 'fa-solid fa-star text-amber-400' : 'fa-regular fa-star text-white'} text-base"></i>`;
+}
+
+function formatVideoTime(secs){
+  if(isNaN(secs)) return '0:00';
+  let m = Math.floor(secs / 60);
+  let s = Math.floor(secs % 60);
+  return `${m}:${s < 10 ? '0' : ''}${s}`;
+}
+
+function updateVideoProgressUI(){
+  let player = getVideoPlayerElement();
+  if(!player) return;
+  let curr = player.currentTime || 0;
+  let dur = player.duration || 0;
+  
+  let curEl = document.getElementById('vpCurrentTime');
+  let durEl = document.getElementById('vpDuration');
+  let barEl = document.getElementById('vpProgressBar');
+  
+  if(curEl) curEl.textContent = formatVideoTime(curr);
+  if(durEl) durEl.textContent = formatVideoTime(dur);
+  if(barEl && dur > 0){
+    barEl.style.width = `${(curr / dur) * 100}%`;
+  }
+}
+
+function onVideoEnded(){
+  // Video ended -> user completed this lesson -> give bonus XP
+  stats.xp = (stats.xp || 0) + 5;
+  stats.xpToday = (stats.xpToday || 0) + 5;
+  save();
+  updateStreak();
+  showToast('+5 XP รับชมบทเรียนจบ!');
+}
+
+function onVideoError(e){
+  console.error('[VideoPlayer] Error playing video:', e);
+  showToast('กำลังพยายามดึงไฟล์จากระบบสำรอง...');
+}
+
+// ==========================================
+// OFFLINE VIDEO STORAGE & DOWNLOAD MANAGER (INDEXEDDB)
+// ==========================================
+const VIDEO_DB_NAME = 'idiom_videos_cache_db';
+const VIDEO_STORE_NAME = 'video_blobs';
+let videoDB = null;
+let downloadCancelFlag = false;
+
+function openVideoDB(){
+  return new Promise((resolve, reject) => {
+    if(videoDB) return resolve(videoDB);
+    let req = indexedDB.open(VIDEO_DB_NAME, 1);
+    req.onupgradeneeded = (e) => {
+      let db = e.target.result;
+      if(!db.objectStoreNames.contains(VIDEO_STORE_NAME)){
+        db.createObjectStore(VIDEO_STORE_NAME);
+      }
+    };
+    req.onsuccess = (e) => {
+      videoDB = e.target.result;
+      resolve(videoDB);
+    };
+    req.onerror = (e) => reject(e);
+  });
+}
+
+async function getCachedVideoBlob(id){
+  try{
+    let db = await openVideoDB();
+    return new Promise((resolve) => {
+      let tx = db.transaction(VIDEO_STORE_NAME, 'readonly');
+      let store = tx.objectStore(VIDEO_STORE_NAME);
+      let req = store.get(id);
+      req.onsuccess = () => resolve(req.result || null);
+      req.onerror = () => resolve(null);
+    });
+  }catch(e){
+    return null;
+  }
+}
+
+async function saveVideoBlob(id, blob){
+  try{
+    let db = await openVideoDB();
+    return new Promise((resolve, reject) => {
+      let tx = db.transaction(VIDEO_STORE_NAME, 'readwrite');
+      let store = tx.objectStore(VIDEO_STORE_NAME);
+      let req = store.put(blob, id);
+      req.onsuccess = () => resolve();
+      req.onerror = (e) => reject(e);
+    });
+  }catch(e){
+    console.warn('[VideoDB] Save failed', e);
+  }
+}
+
+async function checkOfflineStorageUsage(){
+  try{
+    let db = await openVideoDB();
+    let tx = db.transaction(VIDEO_STORE_NAME, 'readonly');
+    let store = tx.objectStore(VIDEO_STORE_NAME);
+    let countReq = store.count();
+    countReq.onsuccess = () => {
+      let count = countReq.result || 0;
+      if(navigator.storage && navigator.storage.estimate){
+        navigator.storage.estimate().then(est => {
+          let usedMB = ((est.usage || 0) / (1024 * 1024)).toFixed(1);
+          let quotaMB = ((est.quota || 0) / (1024 * 1024)).toFixed(0);
+          showToast(`บันทึกไว้ในเครื่องแล้ว ${count} คลิป (ใช้พื้นที่ ${usedMB} MB / เหลือ ~${quotaMB} MB)`);
+        });
+      } else {
+        showToast(`บันทึกไว้ในเครื่องแล้ว ${count} คลิป`);
+      }
+    };
+  }catch(e){
+    showToast('ยังไม่มีคลิปที่บันทึกไว้ในเครื่อง');
+  }
+}
+
+async function downloadCurrentFilteredVideos(){
+  if(!filteredVideos || !filteredVideos.length){
+    showToast('ไม่มีรายการคลิปให้ดาวน์โหลด');
+    return;
+  }
+
+  let wrap = document.getElementById('videoDownloadProgressBarWrap');
+  let bar = document.getElementById('videoDownloadProgressBar');
+  let pct = document.getElementById('videoDownloadProgressPercent');
+  let statusText = document.getElementById('videoDownloadStatusText');
+  let countText = document.getElementById('videoDownloadCountText');
+  
+  if(wrap) wrap.classList.remove('hidden');
+  downloadCancelFlag = false;
+
+  let total = filteredVideos.length;
+  let done = 0;
+  let fail = 0;
+
+  for(let i = 0; i < total; i++){
+    if(downloadCancelFlag){
+      showToast('ยกเลิกการดาวน์โหลดแล้ว');
+      break;
+    }
+
+    let item = filteredVideos[i];
+    let exist = await getCachedVideoBlob(item.id);
+    if(exist){
+      done++;
+    } else {
+      try {
+        let res = await fetch(item.src);
+        if(!res.ok) throw new Error('Fetch failed ' + res.status);
+        let blob = await res.blob();
+        await saveVideoBlob(item.id, blob);
+        done++;
+      } catch(err) {
+        fail++;
+      }
+    }
+
+    let progressPct = Math.round((done / total) * 100);
+    if(bar) bar.style.width = `${progressPct}%`;
+    if(pct) pct.textContent = `${progressPct}%`;
+    if(countText) countText.textContent = `${done} / ${total} คลิป (ข้าม/ล้มเหลว: ${fail})`;
+  }
+
+  if(statusText) {
+    statusText.innerHTML = `<i class="fa-solid fa-check text-emerald-500"></i> บันทึกเสร็จสิ้นแล้ว! เล่น Offline ได้ทันที`;
+  }
+  showToast(`ดาวน์โหลดเรียบร้อย ${done} คลิป! เล่น Offline ได้แม้ไม่มีเน็ต`);
+  setTimeout(() => {
+    if(wrap) wrap.classList.add('hidden');
+    renderVideoGrid();
+  }, 3000);
+}
+
+function cancelVideoDownloads(){
+  downloadCancelFlag = true;
+  let wrap = document.getElementById('videoDownloadProgressBarWrap');
+  if(wrap) wrap.classList.add('hidden');
+}
+
 init().then(()=>{
   let h=location.hash.replace('#','');
   if(h && document.getElementById('tab-'+h)) switchTab(h);

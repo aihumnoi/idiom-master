@@ -1,12 +1,13 @@
 {
   "name": "idiom-master",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "private": true,
   "type": "module",
   "description": "IdiomMaster — จำสำนวนอังกฤษ 500 คำด้วย SRS FSRS-lite, ทนทานระดับ production",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "generate:videos": "python tools/generate_videos_data.py",
+    "build": "python tools/generate_videos_data.py && vite build",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",

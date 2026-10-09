@@ -1,4 +1,4 @@
-const CACHE_NAME = 'idiom-master-v13';
+const CACHE_NAME = 'idiom-master-v14';
 const ASSETS = [
   '/',
   '/index.html',
@@ -9,6 +9,8 @@ const ASSETS = [
   '/data/oxford3000.json',
   '/data/sentences.js',
   '/data/sentences.json',
+  '/data/videos.js',
+  '/data/videos.json',
   '/icons/icon-192.png',
   '/icons/icon-512.png',
   '/icons/icon-180.png',

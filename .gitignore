@@ -25,3 +25,8 @@ apk-output/
 scratch/
 idioms_sentences_audit_report.csv
 edit_ui/
+
+# Media directories (1.3GB local files)
+video/
+app/video/
+
