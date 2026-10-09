@@ -15,6 +15,7 @@
 <script src="data/oxford3000.js?v=2.4"></script>
 <script src="data/sentences.js?v=2.4"></script>
 <script src="data/videos.js?v=1.0"></script>
+<script src="data/jszip.min.js"></script>
 <script type="module" src="../src/main.ts"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500&display=swap" rel="stylesheet">
@@ -620,25 +621,55 @@ a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,[t
     </div>
 
     <!-- Offline Sync Banner for Mobile/Browser -->
-    <div class="bg-gradient-to-r from-slate-900 to-indigo-950 text-white rounded-2xl p-4 sm:p-5 mb-4 border border-slate-700 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-      <div class="flex items-center gap-3.5">
-        <div class="w-11 h-11 rounded-xl bg-rose-500/20 text-rose-400 border border-rose-500/30 flex items-center justify-center text-xl shrink-0">
-          <i class="fa-solid fa-cloud-arrow-down"></i>
+    <div class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white rounded-2xl p-4 sm:p-5 mb-4 border border-slate-700 shadow-sm flex flex-col gap-4">
+      <div class="flex items-start md:items-center justify-between gap-3 flex-wrap">
+        <div class="flex items-center gap-3.5">
+          <div class="w-11 h-11 rounded-xl bg-rose-500/20 text-rose-400 border border-rose-500/30 flex items-center justify-center text-xl shrink-0">
+            <i class="fa-solid fa-cloud-arrow-down"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-sm sm:text-base flex items-center gap-2">
+              ดาวน์โหลดคลิปทั้งหมดลงเครื่อง (Offline Pack)
+              <span id="offlineStatusBadge" class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">GitHub Releases</span>
+            </h4>
+            <p class="text-xs text-slate-300 mt-0.5" id="offlineDescText">โหลดแพ็กเกจวิดีโอจาก GitHub เพื่อบันทึกเก็บในเครื่องโทรศัพท์ เปิดเล่นแบบ Offline ได้ทันที</p>
+          </div>
         </div>
-        <div>
-          <h4 class="font-bold text-sm sm:text-base flex items-center gap-2">
-            บันทึกคลิปไว้ดู Offline ในเครื่อง
-            <span id="offlineStatusBadge" class="text-[10px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-600">พร้อมใช้งาน</span>
-          </h4>
-          <p class="text-xs text-slate-300 mt-0.5" id="offlineDescText">ดูคลิปผ่านเน็ต หรือกดซิงค์ดาวน์โหลดเก็บไว้ในเครื่องเพื่อเปิดดูได้แม้ไม่มีอินเทอร์เน็ต</p>
-        </div>
-      </div>
-      <div class="flex items-center gap-2 w-full md:w-auto shrink-0">
-        <button id="btnDownloadCurrentVideo" onclick="downloadCurrentFilteredVideos()" class="flex-1 md:flex-initial px-4 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-semibold flex items-center justify-center gap-2 active:scale-95 transition shadow min-h-10">
-          <i class="fa-solid fa-download"></i> โหลดคลิปหมวดนี้ (<span id="downloadPackCount">0</span>)
+        <button onclick="checkOfflineStorageUsage()" class="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs border border-slate-700 flex items-center gap-1.5" title="ตรวจสอบพื้นที่">
+          <i class="fa-solid fa-database"></i> เช็คพื้นที่ที่โหลดแล้ว
         </button>
-        <button onclick="checkOfflineStorageUsage()" class="px-3 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs border border-slate-700 flex items-center gap-1.5 min-h-10" title="ตรวจสอบพื้นที่">
-          <i class="fa-solid fa-database"></i> พื้นที่
+      </div>
+
+      <!-- Quick Download Pack Buttons -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-2 border-t border-slate-800">
+        <button onclick="downloadAndExtractZipPack(1)" class="p-3 rounded-xl bg-slate-800/90 hover:bg-slate-800 border border-slate-700 hover:border-rose-400 flex items-center justify-between group active:scale-98 transition text-left">
+          <div>
+            <div class="text-xs font-bold text-white group-hover:text-rose-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-file-zipper text-rose-500"></i> โหลดแพ็กเกจชุดที่ 1
+            </div>
+            <div class="text-[11px] text-slate-400 mt-0.5">230 คลิป (Quiz & คำศัพท์)</div>
+          </div>
+          <span class="text-[10px] bg-rose-500/20 text-rose-300 border border-rose-500/30 px-2 py-1 rounded-lg font-medium">กดโหลด</span>
+        </button>
+
+        <button onclick="downloadAndExtractZipPack(2)" class="p-3 rounded-xl bg-slate-800/90 hover:bg-slate-800 border border-slate-700 hover:border-rose-400 flex items-center justify-between group active:scale-98 transition text-left">
+          <div>
+            <div class="text-xs font-bold text-white group-hover:text-rose-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-file-zipper text-rose-500"></i> โหลดแพ็กเกจชุดที่ 2
+            </div>
+            <div class="text-[11px] text-slate-400 mt-0.5">230 คลิป (สำนวน & สนทนา)</div>
+          </div>
+          <span class="text-[10px] bg-rose-500/20 text-rose-300 border border-rose-500/30 px-2 py-1 rounded-lg font-medium">กดโหลด</span>
+        </button>
+
+        <button onclick="downloadAndExtractZipPack(3)" class="p-3 rounded-xl bg-slate-800/90 hover:bg-slate-800 border border-slate-700 hover:border-rose-400 flex items-center justify-between group active:scale-98 transition text-left">
+          <div>
+            <div class="text-xs font-bold text-white group-hover:text-rose-400 flex items-center gap-1.5">
+              <i class="fa-solid fa-file-zipper text-rose-500"></i> โหลดแพ็กเกจชุดที่ 3
+            </div>
+            <div class="text-[11px] text-slate-400 mt-0.5">228 คลิป (ไวยากรณ์ & ทั่วไป)</div>
+          </div>
+          <span class="text-[10px] bg-rose-500/20 text-rose-300 border border-rose-500/30 px-2 py-1 rounded-lg font-medium">กดโหลด</span>
         </button>
       </div>
     </div>
@@ -4158,6 +4189,121 @@ async function downloadCurrentFilteredVideos(){
     if(wrap) wrap.classList.add('hidden');
     renderVideoGrid();
   }, 3000);
+}
+
+async function downloadAndExtractZipPack(partNum){
+  if(typeof JSZip === 'undefined'){
+    showToast('กำลังโหลดระบบแตกไฟล์ กรุณารอสักครู่แล้วลองใหม่...');
+    return;
+  }
+
+  const packUrls = {
+    1: 'https://github.com/aihumnoi/idiom-master/releases/download/v2.3.0-apk/videos-pack-part1.zip',
+    2: 'https://github.com/aihumnoi/idiom-master/releases/download/v2.3.0-apk/videos-pack-part2.zip',
+    3: 'https://github.com/aihumnoi/idiom-master/releases/download/v2.3.0-apk/videos-pack-part3.zip'
+  };
+
+  let targetUrl = packUrls[partNum];
+  if(!targetUrl) return;
+
+  let wrap = document.getElementById('videoDownloadProgressBarWrap');
+  let bar = document.getElementById('videoDownloadProgressBar');
+  let pct = document.getElementById('videoDownloadProgressPercent');
+  let statusText = document.getElementById('videoDownloadStatusText');
+  let countText = document.getElementById('videoDownloadCountText');
+
+  if(wrap) wrap.classList.remove('hidden');
+  downloadCancelFlag = false;
+
+  if(statusText) statusText.innerHTML = `<i class="fa-solid fa-spinner fa-spin text-rose-500"></i> กำลังดาวน์โหลดแพ็กเกจชุดที่ ${partNum} จาก GitHub...`;
+  if(pct) pct.textContent = '0%';
+  if(bar) bar.style.width = '0%';
+  if(countText) countText.textContent = `เชื่อมต่อ GitHub Releases...`;
+
+  try {
+    let response = await fetch(targetUrl);
+    if(!response.ok) throw new Error('HTTP ' + response.status + ' ' + response.statusText);
+
+    let contentLength = response.headers.get('content-length');
+    let totalBytes = contentLength ? parseInt(contentLength, 10) : 0;
+    let receivedBytes = 0;
+
+    let reader = response.body.getReader();
+    let chunks = [];
+
+    while(true){
+      if(downloadCancelFlag){
+        reader.cancel();
+        showToast('ยกเลิกการดาวน์โหลดแล้ว');
+        if(wrap) wrap.classList.add('hidden');
+        return;
+      }
+
+      let {done, value} = await reader.read();
+      if(done) break;
+
+      chunks.push(value);
+      receivedBytes += value.length;
+
+      if(totalBytes > 0){
+        let downloadPct = Math.round((receivedBytes / totalBytes) * 70); // 0-70% for download
+        if(bar) bar.style.width = `${downloadPct}%`;
+        if(pct) pct.textContent = `${downloadPct}%`;
+        let mbDone = (receivedBytes / (1024 * 1024)).toFixed(1);
+        let mbTotal = (totalBytes / (1024 * 1024)).toFixed(1);
+        if(countText) countText.textContent = `ดาวน์โหลด: ${mbDone} MB / ${mbTotal} MB`;
+      } else {
+        let mbDone = (receivedBytes / (1024 * 1024)).toFixed(1);
+        if(countText) countText.textContent = `ดาวน์โหลด: ${mbDone} MB`;
+      }
+    }
+
+    if(statusText) statusText.innerHTML = `<i class="fa-solid fa-box-open text-amber-500"></i> กำลังแตกไฟล์วิดีโอบันทึกลงเครื่อง...`;
+    if(pct) pct.textContent = '75%';
+    if(bar) bar.style.width = '75%';
+
+    // Combine chunks into single ArrayBuffer
+    let blob = new Blob(chunks);
+    let arrayBuffer = await blob.arrayBuffer();
+
+    let zip = await JSZip.loadAsync(arrayBuffer);
+    let zipFiles = Object.keys(zip.files).filter(name => !zip.files[name].dir && name.endsWith('.webm'));
+    let extracted = 0;
+
+    // Create lookup map of video filename -> id
+    let filenameToId = {};
+    videoPool.forEach(v => { filenameToId[v.filename] = v.id; });
+
+    for(let fName of zipFiles){
+      if(downloadCancelFlag) break;
+      let basename = fName.split('/').pop().split('\\').pop();
+      let vId = filenameToId[basename];
+      if(vId){
+        let videoBlob = await zip.files[fName].async('blob');
+        await saveVideoBlob(vId, videoBlob);
+        extracted++;
+      }
+      let extractPct = 70 + Math.round((extracted / zipFiles.length) * 30);
+      if(bar) bar.style.width = `${extractPct}%`;
+      if(pct) pct.textContent = `${extractPct}%`;
+      if(countText) countText.textContent = `บันทึกลงเครื่อง: ${extracted} / ${zipFiles.length} คลิป`;
+    }
+
+    if(statusText) statusText.innerHTML = `<i class="fa-solid fa-check text-emerald-500"></i> สำเร็จ! บันทึกชุดที่ ${partNum} ลงเครื่องเรียบร้อย`;
+    if(bar) bar.style.width = '100%';
+    if(pct) pct.textContent = '100%';
+    showToast(`ติดตั้งแพ็กเกจชุดที่ ${partNum} เรียบร้อย (${extracted} คลิป)! เล่น Offline ได้ทันที`);
+
+    setTimeout(() => {
+      if(wrap) wrap.classList.add('hidden');
+      renderVideoGrid();
+    }, 3000);
+
+  } catch(err) {
+    console.error('[ZipDownload] Error:', err);
+    if(statusText) statusText.innerHTML = `<i class="fa-solid fa-triangle-exclamation text-rose-500"></i> เกิดข้อผิดพลาด: ${err.message}`;
+    showToast('ดาวน์โหลดไม่สำเร็จ: ' + err.message);
+  }
 }
 
 function cancelVideoDownloads(){

@@ -21,7 +21,8 @@
     "@capacitor/android": "^8.5.2",
     "@capacitor/cli": "^8.5.2",
     "@capacitor/core": "^8.5.2",
-    "idb": "^8.0.0"
+    "idb": "^8.0.0",
+    "jszip": "^3.10.2"
   },
   "devDependencies": {
     "jsdom": "^26.0.0",
